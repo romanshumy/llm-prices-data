@@ -122,17 +122,14 @@
   },
   {
     "id": "fireworks",
-    "name": "Fireworks AI",
+    "name": "Fireworks",
     "type": "hosting",
     "url": "https://fireworks.ai/",
     "pricing_url": "https://fireworks.ai/pricing",
     "affiliate_url": "https://fireworks.ai/",
     "logo_color": "#ff4296",
     "founded": 2022,
-    "description": "Inference platform serving open-weight models (Llama, Qwen, DeepSeek, Kimi, GLM, MiniMax, gpt-oss) on its own infrastructure at first-party per-token pricing — distinct rates worth comparing per host.",
-    "aliases": [
-      "Fireworks"
-    ]
+    "description": "Inference platform serving open-weight models (Llama, Qwen, DeepSeek, Kimi, GLM, MiniMax, gpt-oss) on its own infrastructure at first-party per-token pricing — distinct rates worth comparing per host."
   },
   {
     "id": "perplexity",
