@@ -1,0 +1,4207 @@
+[
+  {
+    "id": "01ai-yi-large",
+    "provider": "01.AI",
+    "model": "Yi Large",
+    "category": "mid-tier",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 9.0,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-07-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "01.AI's flagship Yi Large model. ~$3.00/$9.00 per 1M tokens via hosting providers.",
+    "pricing_url": "https://openrouter.ai/01-ai/yi-large",
+    "tags": [
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ai21-jamba-large",
+    "provider": "AI21 Labs",
+    "model": "Jamba Large",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Most powerful Jamba long-context model. $2.00/$8.00 per 1M tokens.",
+    "pricing_url": "https://www.ai21.com/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ai21-jamba-mini",
+    "provider": "AI21 Labs",
+    "model": "Jamba Mini",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Efficient, lightweight Jamba model. $0.20/$0.40 per 1M tokens.",
+    "pricing_url": "https://www.ai21.com/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "alibaba-qwq-plus",
+    "provider": "Alibaba",
+    "model": "QwQ-Plus",
+    "category": "reasoning",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 2.4,
+    "cached_input_per_mtok": null,
+    "context_window": 131072,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Qwen reasoning model (QwQ). $0.80/$2.40 per 1M tokens.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "reasoning"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "alibaba-qwen-flash",
+    "provider": "Alibaba",
+    "model": "Qwen-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.115,
+    "output_per_mtok": 0.46,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Fast Qwen model. $0.115/$0.46 per 1M tokens, 1M context.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "alibaba-qwen-plus",
+    "provider": "Alibaba",
+    "model": "Qwen-Plus",
+    "category": "mid-tier",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": null,
+    "context_window": 131072,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Balanced Qwen model. ~$0.40/$1.20 per 1M tokens.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "alibaba-qwen-turbo",
+    "provider": "Alibaba",
+    "model": "Qwen-Turbo",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.2,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Cheapest Qwen text tier. ~$0.05/$0.20 per 1M tokens.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "alibaba-qwen3-max",
+    "provider": "Alibaba",
+    "model": "Qwen3-Max",
+    "category": "flagship",
+    "input_per_mtok": 1.2,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's flagship Qwen model. $1.20/$4.80 per 1M tokens (≤128K context).",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "flagship"
+    ],
+    "last_updated": "2026-06-27"
+  },
+  {
+    "id": "amazon-nova-lite",
+    "provider": "Amazon",
+    "model": "Nova Lite",
+    "category": "budget",
+    "input_per_mtok": 0.06,
+    "output_per_mtok": 0.24,
+    "cached_input_per_mtok": null,
+    "context_window": 300000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2024-12-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Amazon's fast, low-cost Nova tier on Bedrock — multimodal and cost-effective for high-volume everyday tasks, with a 300K context. $0.06/$0.24 per 1M tokens.",
+    "pricing_url": "https://aws.amazon.com/nova/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "amazon-nova-micro",
+    "provider": "Amazon",
+    "model": "Nova Micro",
+    "category": "budget",
+    "input_per_mtok": 0.035,
+    "output_per_mtok": 0.14,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-12-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Smallest, cheapest Nova model. $0.035/$0.14 per 1M tokens. Text only.",
+    "pricing_url": "https://aws.amazon.com/nova/pricing/",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "amazon-nova-premier",
+    "provider": "Amazon",
+    "model": "Nova Premier",
+    "category": "flagship",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 12.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2024-12-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Amazon's most capable Nova model on Bedrock — built for complex tasks needing deep context, multistep planning, and tool coordination; multimodal (text/image/video) with a 1M-token context, and a teacher model for distillation. $2.50/$12.50 per 1M tokens.",
+    "pricing_url": "https://aws.amazon.com/nova/pricing/",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "amazon-nova-pro",
+    "provider": "Amazon",
+    "model": "Nova Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 3.2,
+    "cached_input_per_mtok": null,
+    "context_window": 300000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2024-12-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Amazon's balanced Nova tier on Bedrock — a capable multimodal model tuned for accuracy, speed, and cost across a wide range of tasks, with a 300K context. $0.80/$3.20 per 1M tokens.",
+    "pricing_url": "https://aws.amazon.com/nova/pricing/",
+    "tags": [
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "anthropic-claude-fable-5",
+    "provider": "Anthropic",
+    "model": "Claude Fable 5",
+    "category": "flagship",
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_input_per_mtok": 1.0,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-09",
+    "released_source": "https://www.anthropic.com/news/claude-fable-5",
+    "released_verified": "2026-07-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's flagship Mythos-class model for ambitious, long-running work — strong at coding, knowledge work, vision, and computer use, with a 1M-token context window and up to 128K output tokens. $10/$50 per 1M tokens (90% prompt-caching discount on input).",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "multimodal"
+    ],
+    "last_updated": "2026-07-02",
+    "source": "verified"
+  },
+  {
+    "id": "anthropic-claude-haiku-35",
+    "provider": "Anthropic",
+    "model": "Claude Haiku 3.5",
+    "category": "budget",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.08,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2024-10-15",
+    "status": "Retired",
+    "open_source": false,
+    "parameters": null,
+    "description": "Retired on Anthropic API (still available via Bedrock/Vertex). $0.80/$4 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "budget",
+      "retired"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-haiku-45",
+    "provider": "Anthropic",
+    "model": "Claude Haiku 4.5",
+    "category": "budget",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 5.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-10-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's fast, low-cost tier — ~97 tokens/sec, built for high-volume classification, routing, and code review where heavy reasoning isn't needed. 200K context. $1/$5 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-opus-41",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.1",
+    "category": "flagship",
+    "input_per_mtok": 15.0,
+    "output_per_mtok": 75.0,
+    "cached_input_per_mtok": 1.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-05-22",
+    "status": "Retired",
+    "open_source": false,
+    "parameters": null,
+    "description": "Deprecated. Previously the top Opus model at $15/$75 per 1M tokens. Use Opus 4.8 instead.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "deprecated"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-opus-45",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.5",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-05-22",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Opus-tier model with hybrid reasoning. $5/$25 per 1M tokens, 200K context.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-opus-46",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.6",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-02-05",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's Opus 4.6 — a frontier model with class-leading coding (~80.8% SWE-bench Verified) and standout legal/enterprise reasoning (top BigLaw Bench score). 200K context, prompt caching up to 90% off. $5/$25 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-opus-47",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.7",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-04-16",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's most capable generally available Opus, tuned for advanced software engineering, long-horizon autonomy, instruction-following, and high-resolution multimodal understanding. 200K context. $5/$25 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-opus-48",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4.8",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-05-28",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's Opus flagship, refined over 4.7 with broad benchmark gains and a 'dynamic workflows' tool for large multi-step tasks, plus effort control and a faster, cheaper fast mode. $5/$25 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape",
+    "released_source": "https://www.anthropic.com/news/claude-opus-4-8",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "anthropic-claude-sonnet-45",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.5",
+    "category": "mid-tier",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.3,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-09-29",
+    "status": "Retired",
+    "open_source": false,
+    "parameters": null,
+    "description": "Sonnet-tier model with hybrid reasoning. $3/$15 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-sonnet-46",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4.6",
+    "category": "mid-tier",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.3,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-01-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Latest Sonnet model. Strong balance of intelligence and speed at $3/$15 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 5",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-30",
+    "released_source": "https://www.anthropic.com/news/claude-sonnet-5",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's most agentic Sonnet yet — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. Launch pricing is $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "mid-tier",
+      "multimodal",
+      "agentic"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-30",
+    "source": "verified"
+  },
+  {
+    "id": "baichuan-m2-32b",
+    "provider": "Baichuan",
+    "model": "Baichuan M2-32B",
+    "category": "budget",
+    "input_per_mtok": 0.07,
+    "output_per_mtok": 0.07,
+    "cached_input_per_mtok": null,
+    "context_window": 32768,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "32B",
+    "description": "Baichuan M2 32B model. $0.07/$0.07 per 1M tokens via hosting providers.",
+    "pricing_url": "https://www.requesty.ai/models/novita/baichuan-baichuan-m2-32b",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-command-a",
+    "provider": "Cohere",
+    "model": "Command A",
+    "category": "flagship",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-02-12",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "111B",
+    "description": "Cohere's flagship model. $1/$2 per 1M tokens — far cheaper than the older Command R+.",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-command-r-03-2024",
+    "provider": "Cohere",
+    "model": "Command R 03-2024",
+    "category": "budget",
+    "input_per_mtok": 0.5,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-03-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "35B",
+    "description": "Earlier Command R version. $0.50/$1.50 per 1M tokens.",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-command-r-08-2024",
+    "provider": "Cohere",
+    "model": "Command R 08-2024",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-08-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "35B",
+    "description": "Smaller Command model. $0.15/$0.60 per 1M tokens.",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-command-r-plus-08-2024",
+    "provider": "Cohere",
+    "model": "Command R+ 08-2024",
+    "category": "mid-tier",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-08-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "104B",
+    "description": "Previous-generation flagship. $2.50/$10 per 1M tokens. Command A is the newer, cheaper successor.",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-embed-4",
+    "provider": "Cohere",
+    "model": "Embed 4",
+    "category": "embedding",
+    "input_per_mtok": 0.12,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Multimodal embedding model. $0.12 per 1M tokens (text and image).",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "embedding",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "cohere-rerank-35",
+    "provider": "Cohere",
+    "model": "Rerank 3.5",
+    "category": "embedding",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-03-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Reranking model for search and retrieval. $0.02 per 1M tokens.",
+    "pricing_url": "https://cohere.com/pricing",
+    "tags": [
+      "embedding",
+      "rerank"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.14,
+    "output_per_mtok": 0.28,
+    "cached_input_per_mtok": 0.0028,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE — 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.14/$0.28 per 1M tokens.",
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "tags": [
+      "fast",
+      "reasoning",
+      "caching",
+      "budget"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25",
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "deepseek-v4-pro",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4 Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 0.435,
+    "output_per_mtok": 0.87,
+    "cached_input_per_mtok": 0.003625,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $0.44/$0.87 per 1M tokens.",
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "tags": [
+      "reasoning",
+      "caching",
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-deepseek-v4-flash",
+    "provider": "Fireworks",
+    "model": "DeepSeek V4 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.14,
+    "output_per_mtok": 0.28,
+    "cached_input_per_mtok": 0.028,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek V4 Flash on Fireworks. $0.14/$0.28 per 1M; cached $0.028.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "budget",
+      "fast",
+      "caching"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-deepseek-v4-pro",
+    "provider": "Fireworks",
+    "model": "DeepSeek V4 Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 1.74,
+    "output_per_mtok": 3.48,
+    "cached_input_per_mtok": 0.145,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek V4 Pro on Fireworks. $1.74/$3.48 per 1M; cached $0.145.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "mid-tier",
+      "reasoning",
+      "caching"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-glm-51",
+    "provider": "Fireworks",
+    "model": "GLM 5.1",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM 5.1 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-glm-52",
+    "provider": "Fireworks",
+    "model": "GLM 5.2",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-06-13",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM 5.2 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-gpt-oss-120b",
+    "provider": "Fireworks",
+    "model": "GPT OSS 120B",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "120B",
+    "description": "OpenAI's GPT OSS 120B on Fireworks. $0.15/$0.60 per 1M; cached $0.015.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-gpt-oss-20b",
+    "provider": "Fireworks",
+    "model": "GPT OSS 20B",
+    "category": "budget",
+    "input_per_mtok": 0.07,
+    "output_per_mtok": 0.3,
+    "cached_input_per_mtok": 0.035,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "20B",
+    "description": "OpenAI's GPT OSS 20B on Fireworks. $0.07/$0.30 per 1M; cached $0.035.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-kimi-k25",
+    "provider": "Fireworks",
+    "model": "Kimi K2.5",
+    "category": "budget",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Kimi K2.5 on Fireworks. $0.60/$3.00 per 1M; cached $0.10.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-kimi-k26",
+    "provider": "Fireworks",
+    "model": "Kimi K2.6",
+    "category": "mid-tier",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.16,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Kimi K2.6 on Fireworks. $0.95/$4.00 per 1M; cached $0.16.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-kimi-k27-code",
+    "provider": "Fireworks",
+    "model": "Kimi K2.7 Code",
+    "category": "coding",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.19,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-06-12",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Kimi K2.7 Code on Fireworks. $0.95/$4.00 per 1M; cached $0.19.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "coding",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-minimax-25",
+    "provider": "Fireworks",
+    "model": "MiniMax 2.5",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax 2.5 on Fireworks. $0.30/$1.20 per 1M; cached $0.03.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-minimax-27",
+    "provider": "Fireworks",
+    "model": "MiniMax 2.7",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax 2.7 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-minimax-m3",
+    "provider": "Fireworks",
+    "model": "MiniMax M3",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M3 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "fireworks-nemotron-3-ultra",
+    "provider": "Fireworks",
+    "model": "NVIDIA Nemotron 3 Ultra",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 2.4,
+    "cached_input_per_mtok": 0.12,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "NVIDIA Nemotron 3 Ultra (preview) on Fireworks. $0.60/$2.40 per 1M.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "reasoning",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-qwen36-plus",
+    "provider": "Fireworks",
+    "model": "Qwen 3.6 Plus",
+    "category": "mid-tier",
+    "input_per_mtok": 0.5,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Qwen 3.6 Plus on Fireworks. $0.50/$3.00 per 1M; cached $0.10.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "fireworks-qwen37-plus",
+    "provider": "Fireworks",
+    "model": "Qwen 3.7 Plus",
+    "category": "budget",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 1.6,
+    "cached_input_per_mtok": 0.08,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Qwen 3.7 Plus on Fireworks. $0.40/$1.60 per 1M; cached $0.08.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "google-gemini-25-flash",
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2025-06-17",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "One of the cheapest hosted APIs. $0.075/$0.30 per 1M tokens, fast and multimodal.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "budget"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-04"
+  },
+  {
+    "id": "google-gemini-25-flash-lite",
+    "provider": "Google",
+    "model": "Gemini 2.5 Flash-Lite",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2025-06-17",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Lightweight, low-cost model. $0.10/$0.40 per 1M tokens.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "google-gemini-25-pro",
+    "provider": "Google",
+    "model": "Gemini 2.5 Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": null,
+    "context_window": 2000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2025-03-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Still available. 2M context window, strong reasoning. $1.25/$10 per 1M tokens.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "google-gemini-31-flash",
+    "provider": "Google",
+    "model": "Gemini 3.1 Flash",
+    "category": "mid-tier",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2025-11-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Fast, balanced model. $0.30/$2.50 per 1M tokens, 1M context.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "google-gemini-31-flash-lite",
+    "provider": "Google",
+    "model": "Gemini 3.1 Flash-Lite",
+    "category": "budget",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Ultra-cheap, fast model. $0.10/$0.40 per 1M tokens with full multimodal support.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "google-gemini-31-pro",
+    "provider": "Google",
+    "model": "Gemini 3.1 Pro",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 12.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 2000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2025-11-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Frontier reasoning model. $2/$12 per 1M (≤200K context), 2M context window.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "multimodal"
+    ],
+    "last_updated": "2026-07-04"
+  },
+  {
+    "id": "google-gemini-35-flash",
+    "provider": "Google",
+    "model": "Gemini 3.5 Flash",
+    "category": "flagship",
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 9.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2026-05-20",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Google's fast, low-cost workhorse from I/O 2026 — strong multimodal reasoning and coding (beats Gemini 3.1 Pro), with native computer-use for agents. The default Gemini across Search and the API. $1.50/$9 per 1M tokens.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "google-text-embedding-004",
+    "provider": "Google",
+    "model": "text-embedding-004",
+    "category": "embedding",
+    "input_per_mtok": 0.025,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": 2048,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Google's text embedding model. $0.025 per 1M tokens.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "groq-gpt-oss-120b",
+    "provider": "Groq",
+    "model": "GPT-OSS 120B",
+    "category": "fast",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "120B",
+    "description": "OpenAI's open-source 120B model on Groq. ~500 tokens/sec. $0.15/$0.60 per 1M.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 500,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-gpt-oss-20b",
+    "provider": "Groq",
+    "model": "GPT-OSS 20B",
+    "category": "fast",
+    "input_per_mtok": 0.075,
+    "output_per_mtok": 0.3,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "20B",
+    "description": "OpenAI's open-source 20B model on Groq's LPU. ~1000 tokens/sec. $0.075/$0.30 per 1M.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 1000,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-llama-31-8b-instant",
+    "provider": "Groq",
+    "model": "Llama 3.1 8B Instant",
+    "category": "fast",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.08,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-07-23",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "8B",
+    "description": "Llama 3.1 8B on Groq's LPU. ~840 tokens/sec — extremely fast. $0.05/$0.08 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 840,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-llama-33-70b-versatile",
+    "provider": "Groq",
+    "model": "Llama 3.3 70B Versatile",
+    "category": "fast",
+    "input_per_mtok": 0.59,
+    "output_per_mtok": 0.79,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-12-06",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "70B",
+    "description": "Llama 3.3 70B on Groq's LPU. ~394 tokens/sec. $0.59/$0.79 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 394,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-llama-4-scout",
+    "provider": "Groq",
+    "model": "Llama 4 Scout",
+    "category": "fast",
+    "input_per_mtok": 0.11,
+    "output_per_mtok": 0.34,
+    "cached_input_per_mtok": null,
+    "context_window": 10000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-06",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "17B (16 experts)",
+    "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference — a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$1.00 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed",
+      "multimodal"
+    ],
+    "speed_tps": 594,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-qwen-36-27b",
+    "provider": "Groq",
+    "model": "Qwen 3.6 27B",
+    "category": "fast",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "Qwen 3.6 27B on Groq's LPU. ~500 tokens/sec. $0.60/$3.00 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 500,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "groq-qwen3-32b",
+    "provider": "Groq",
+    "model": "Qwen3 32B",
+    "category": "fast",
+    "input_per_mtok": 0.29,
+    "output_per_mtok": 0.59,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "32B",
+    "description": "Qwen3 32B on Groq's LPU. ~662 tokens/sec. $0.29/$0.59 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 662,
+    "featured": false,
+    "last_updated": "2026-07-04",
+    "source": "firecrawl_scrape"
+  },
+  {
+    "id": "ibm-granite-4-h-large",
+    "provider": "IBM",
+    "model": "Granite 4 H Large",
+    "category": "mid-tier",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-19",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "IBM Granite 4 H Large model. ~$0.30/$1.20 per 1M tokens.",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ibm-granite-4-h-medium",
+    "provider": "IBM",
+    "model": "Granite 4 H Medium",
+    "category": "mid-tier",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-19",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "IBM Granite 4 H Medium model. ~$0.15/$0.60 per 1M tokens.",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ibm-granite-4-h-small",
+    "provider": "IBM",
+    "model": "Granite 4 H Small",
+    "category": "budget",
+    "input_per_mtok": 0.06,
+    "output_per_mtok": 0.25,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-19",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "IBM Granite 4 H Small model. $0.06/$0.25 per 1M tokens.",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ibm-granite-40-micro",
+    "provider": "IBM",
+    "model": "Granite 4.0 Micro",
+    "category": "budget",
+    "input_per_mtok": 0.017,
+    "output_per_mtok": 0.112,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-19",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Smallest Granite 4 model. $0.017/$0.112 per 1M tokens.",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "ibm-granite-embedding-278m",
+    "provider": "IBM",
+    "model": "Granite Embedding 278M Multilingual",
+    "category": "embedding",
+    "input_per_mtok": 0.106,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "278M",
+    "description": "Multilingual embedding model. $0.106 per 1M tokens.",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "tags": [
+      "open-weights",
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "meta-llama-31-8b",
+    "provider": "Meta",
+    "model": "Llama 3.1 8B",
+    "category": "open-weights",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.08,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-07-23",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "8B",
+    "description": "Small, fast open-weights model. Cheapest hosted price via Groq: $0.05/$0.08 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "open-weights",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "meta-llama-33-70b",
+    "provider": "Meta",
+    "model": "Llama 3.3 70B",
+    "category": "open-weights",
+    "input_per_mtok": 0.59,
+    "output_per_mtok": 0.79,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-12-06",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "70B",
+    "description": "Widely used open-weights model. Cheapest hosted price via Groq: $0.59/$0.79 per 1M tokens (also on Together at $1.04/$1.04).",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "meta-llama-4-scout",
+    "provider": "Meta",
+    "model": "Llama 4 Scout",
+    "category": "open-weights",
+    "input_per_mtok": 0.11,
+    "output_per_mtok": 0.34,
+    "cached_input_per_mtok": null,
+    "context_window": 10000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-06",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "17B (16 experts)",
+    "description": "Meta's open-weight Llama 4 Scout — a natively multimodal MoE (17B active / 109B total, 16 experts) with an industry-leading 10M-token context, the longest of any open-weight model. Handles text, images, and video; fits on a single H100 with Int4. $0.11/$0.34 per 1M tokens.",
+    "pricing_url": "https://groq.com/pricing",
+    "tags": [
+      "multimodal",
+      "open-weights",
+      "moe"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "minimax-m2",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 205000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M2 base model. $0.30/$1.20 per 1M; cached $0.03.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "minimax-m21",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.1",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 205000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-04-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M2.1 model. $0.30/$1.20 per 1M; cached $0.03.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "minimax-m25",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 205000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M2.5 model. $0.30/$1.20 per 1M; cached $0.03.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "minimax-m27",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 205000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M2.7 model. $0.30/$1.20 per 1M; cached $0.06. 205K context.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "minimax-m3",
+    "provider": "MiniMax",
+    "model": "MiniMax-M3",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax's open-weight flagship built on its MSA sparse-attention architecture, combining frontier-level coding, a 1M-token context, and native multimodality. $0.30/$1.20 per 1M tokens.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "mistral-codestral",
+    "provider": "Mistral",
+    "model": "Codestral",
+    "category": "coding",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 0.9,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-05-29",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "22B",
+    "description": "Code generation model. $0.30/$0.90 per 1M tokens, 256K context.",
+    "pricing_url": "https://mistral.ai/pricing",
+    "tags": [
+      "coding"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-codestral-2508",
+    "provider": "Mistral",
+    "model": "Codestral 2508",
+    "category": "coding",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 0.9,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-08-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "22B",
+    "description": "Code generation model. $0.30/$0.90 per 1M tokens, 256K context.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "coding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-devstral-2",
+    "provider": "Mistral",
+    "model": "Devstral 2 2512",
+    "category": "coding",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-12-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Mistral's 123B-parameter agentic coding model, built for autonomous software-engineering workflows with a 256K context. $0.40/$2.00 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "coding",
+      "open-weights"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-magistral-medium",
+    "provider": "Mistral",
+    "model": "Magistral Medium",
+    "category": "reasoning",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 5.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Mistral's enterprise reasoning model — transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "reasoning"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-ministral-3b",
+    "provider": "Mistral",
+    "model": "Ministral 3 3B",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.1,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-09-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "3B",
+    "description": "Smallest Mistral model for simple tasks. $0.10/$0.10 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "budget",
+      "open-weights",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-large-3",
+    "provider": "Mistral",
+    "model": "Mistral Large 3",
+    "category": "mid-tier",
+    "input_per_mtok": 0.5,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-11-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Mistral's largest open-weight model — a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. $0.50/$1.50 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "mid-tier"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-medium-3",
+    "provider": "Mistral",
+    "model": "Mistral Medium 3",
+    "category": "budget",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Affordable medium-tier model. $0.40/$2.00 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-medium-35",
+    "provider": "Mistral",
+    "model": "Mistral Medium 3.5",
+    "category": "mid-tier",
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 7.5,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-09-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Mistral's agentic mid-tier — ~77.6% SWE-bench Verified with strong tool use, now Mistral's recommended coding model. $1.50/$7.50 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "mid-tier"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-small-32",
+    "provider": "Mistral",
+    "model": "Mistral Small 3.2 24B",
+    "category": "budget",
+    "input_per_mtok": 0.08,
+    "output_per_mtok": 0.2,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "24B",
+    "description": "Open-weights small model. $0.08/$0.20 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "budget",
+      "open-weights",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-small-4",
+    "provider": "Mistral",
+    "model": "Mistral Small 4",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-09-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Compact, affordable model. $0.15/$0.60 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-mixtral-8x22b",
+    "provider": "Mistral",
+    "model": "Mixtral 8x22B Instruct",
+    "category": "open-weights",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 64000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-04-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "141B (8x22B MoE)",
+    "description": "Large open-weights MoE model. $2.00/$6.00 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "open-weights",
+      "moe"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-mixtral-8x7b",
+    "provider": "Mistral",
+    "model": "Mixtral 8x7B Instruct",
+    "category": "open-weights",
+    "input_per_mtok": 0.54,
+    "output_per_mtok": 0.54,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "46.7B (8x7B MoE)",
+    "description": "Open-weights MoE model. $0.54/$0.54 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "open-weights",
+      "moe"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-pixtral-12b",
+    "provider": "Mistral",
+    "model": "Pixtral 12B",
+    "category": "open-weights",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.1,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2024-11-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "12B",
+    "description": "Multimodal vision model. $0.10/$0.10 per 1M tokens — very affordable.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "open-weights",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-pixtral-large",
+    "provider": "Mistral",
+    "model": "Pixtral Large 2411",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2024-11-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "124B",
+    "description": "Large multimodal vision model. $2.00/$6.00 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "open-weights"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "mistral-voxtral-small",
+    "provider": "Mistral",
+    "model": "Voxtral Small 24B",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.3,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "audio"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "24B",
+    "description": "Speech-to-text and audio understanding model. $0.10/$0.30 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/",
+    "tags": [
+      "budget",
+      "audio",
+      "open-weights"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "moonshot-kimi-k25",
+    "provider": "Moonshot",
+    "model": "Kimi K2.5",
+    "category": "budget",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Earlier Kimi model. $0.60/$3.00 per 1M; cached $0.10.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "moonshot-kimi-k26",
+    "provider": "Moonshot",
+    "model": "Kimi K2.6",
+    "category": "mid-tier",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.16,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Kimi's latest multimodal model. $0.95/$4.00 per 1M; cached $0.16.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "moonshot-kimi-k27-code",
+    "provider": "Moonshot",
+    "model": "Kimi K2.7 Code",
+    "category": "coding",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.19,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-06-12",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Moonshot's coding-focused 1T-parameter MoE model with a 256K context and forced 'thinking' mode, tuned for agentic coding with ~30% lower reasoning-token use than K2.6. OpenAI-compatible API, Modified-MIT weights. $0.95/$4.00 per 1M tokens.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "open-weights",
+      "coding",
+      "caching",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "moonshot-kimi-k27-code-highspeed",
+    "provider": "Moonshot",
+    "model": "Kimi K2.7 Code HighSpeed",
+    "category": "coding",
+    "input_per_mtok": 1.9,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": 0.38,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-06-12",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "High-speed Kimi K2.7 Code. $1.90/$8.00 per 1M; cached $0.38. ~180 TPS.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "open-weights",
+      "coding",
+      "caching",
+      "multimodal",
+      "fast"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "nvidia-llama-nemotron-ultra-253b",
+    "provider": "NVIDIA",
+    "model": "Llama Nemotron Ultra 253B",
+    "category": "open-weights",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "253B",
+    "description": "Large NVIDIA-tuned Llama model. $0.60/$3.60 per 1M on hosted platforms.",
+    "pricing_url": "https://build.nvidia.com/models",
+    "tags": [
+      "open-weights",
+      "reasoning"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "nvidia-nemotron-3-ultra",
+    "provider": "NVIDIA",
+    "model": "Nemotron 3 Ultra",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.6,
+    "cached_input_per_mtok": 0.12,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "NVIDIA's Nemotron 3 Ultra reasoning model. $0.60/$3.60 per 1M on hosted platforms.",
+    "pricing_url": "https://build.nvidia.com/models",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "reasoning"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "nvidia-nemotron-70b-instruct",
+    "provider": "NVIDIA",
+    "model": "Nemotron 70B Instruct",
+    "category": "open-weights",
+    "input_per_mtok": 1.2,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "70B",
+    "description": "NVIDIA Nemotron 70B Instruct. ~$0.10/$0.10 per 1M on DeepInfra; free NIM tier.",
+    "pricing_url": "https://build.nvidia.com/models",
+    "tags": [
+      "open-weights"
+    ],
+    "last_updated": "2026-06-27"
+  },
+  {
+    "id": "openai-gpt-41",
+    "provider": "OpenAI",
+    "model": "GPT-4.1",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-14",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Still available. 1M context window, strong at coding and instruction following.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "coding"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-41-mini",
+    "provider": "OpenAI",
+    "model": "GPT-4.1 mini",
+    "category": "budget",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 1.6,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-14",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Compact, affordable model with 1M context. Good for high-throughput tasks.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-41-nano",
+    "provider": "OpenAI",
+    "model": "GPT-4.1 nano",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": 0.05,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-14",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Smallest and cheapest GPT-4.1 variant. Ideal for classification and simple tasks at scale.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-54",
+    "provider": "OpenAI",
+    "model": "GPT-5.4",
+    "category": "flagship",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.25,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-08-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "High-capability model with 1M context. Balanced price-to-performance for most professional tasks.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-54-mini",
+    "provider": "OpenAI",
+    "model": "GPT-5.4 mini",
+    "category": "mid-tier",
+    "input_per_mtok": 0.75,
+    "output_per_mtok": 4.5,
+    "cached_input_per_mtok": 0.075,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-08-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Smaller, faster, cheaper variant of GPT-5.4. Good for high-volume workloads.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-55",
+    "provider": "OpenAI",
+    "model": "GPT-5.5",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 30.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image",
+      "audio"
+    ],
+    "released": "2025-11-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Frontier model for coding and professional work. 1.05M context window with multimodal input.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "openai-gpt-image-2",
+    "provider": "OpenAI",
+    "model": "GPT-Image-2",
+    "category": "flagship",
+    "input_per_mtok": 8.0,
+    "output_per_mtok": 30.0,
+    "cached_input_per_mtok": 2.0,
+    "context_window": 128000,
+    "modality": [
+      "image",
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Image generation model. $8 input / $30 output per 1M tokens.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "flagship",
+      "image-generation"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-realtime-2",
+    "provider": "OpenAI",
+    "model": "GPT-Realtime-2",
+    "category": "flagship",
+    "input_per_mtok": 4.0,
+    "output_per_mtok": 24.0,
+    "cached_input_per_mtok": 0.4,
+    "context_window": 128000,
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Realtime voice and audio model. Text tokens $4/$24 per 1M; audio tokens $32/$64 per 1M.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "realtime",
+      "audio",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-o3-mini",
+    "provider": "OpenAI",
+    "model": "o3-mini",
+    "category": "reasoning",
+    "input_per_mtok": 1.1,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.55,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-01-31",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Reasoning model with extended thinking. Still available for cost-conscious reasoning workloads.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-o4-mini",
+    "provider": "OpenAI",
+    "model": "o4-mini",
+    "category": "reasoning",
+    "input_per_mtok": 1.1,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.55,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-17",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Reasoning model with extended thinking. Cost-effective for complex problem solving.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-text-embedding-3-large",
+    "provider": "OpenAI",
+    "model": "text-embedding-3-large",
+    "category": "embedding",
+    "input_per_mtok": 0.13,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": 8192,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-01-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's large embedding model. $0.13 per 1M tokens.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-text-embedding-3-small",
+    "provider": "OpenAI",
+    "model": "text-embedding-3-small",
+    "category": "embedding",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": 8192,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-01-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's small embedding model. $0.02 per 1M tokens.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-55-pro",
+    "provider": "OpenAI",
+    "model": "GPT-5.5 Pro",
+    "category": "flagship",
+    "input_per_mtok": 30.0,
+    "output_per_mtok": 180.0,
+    "cached_input_per_mtok": 3.0,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-04-23",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Highest-capability GPT-5.5 tier for the hardest professional and research workloads. 1.05M context, multimodal input.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "openai-gpt-54-pro",
+    "provider": "OpenAI",
+    "model": "GPT-5.4 Pro",
+    "category": "flagship",
+    "input_per_mtok": 30.0,
+    "output_per_mtok": 180.0,
+    "cached_input_per_mtok": 3.0,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-03-05",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Highest-capability GPT-5.4 tier for demanding reasoning and professional work. 1.05M context, multimodal input.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "openai-gpt-54-nano",
+    "provider": "OpenAI",
+    "model": "GPT-5.4 nano",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 1.25,
+    "cached_input_per_mtok": 0.02,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-03-17",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Smallest, cheapest GPT-5.4 variant. Built for classification and high-volume tasks at scale.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "openai-gpt-53-chat",
+    "provider": "OpenAI",
+    "model": "GPT-5.3 Chat",
+    "category": "flagship",
+    "input_per_mtok": 1.75,
+    "output_per_mtok": 14.0,
+    "cached_input_per_mtok": 0.175,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-03-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Chat-tuned GPT-5.3 for conversational and general-purpose use. 128K context, multimodal input.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "openai-gpt-53-codex",
+    "provider": "OpenAI",
+    "model": "GPT-5.3 Codex",
+    "category": "coding",
+    "input_per_mtok": 1.75,
+    "output_per_mtok": 14.0,
+    "cached_input_per_mtok": 0.175,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-02-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "GPT-5.3 optimized for agentic coding and software engineering. 400K context.",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "coding",
+      "reasoning"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-03"
+  },
+  {
+    "id": "perplexity-sonar",
+    "provider": "Perplexity",
+    "model": "Sonar",
+    "category": "mid-tier",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 1.0,
+    "cached_input_per_mtok": null,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-02-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Perplexity's lightweight web-grounded model — real-time web search with cited, conversational answers for quick factual lookups. $1/$1 per 1M tokens plus per-request search fees.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "mid-tier",
+      "search"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "perplexity-sonar-deep-research",
+    "provider": "Perplexity",
+    "model": "Sonar Deep Research",
+    "category": "reasoning",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": null,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-04-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Deep research model. $2/$8 per 1M, citations $2/1M, search $5/1K, reasoning $3/1M.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "reasoning",
+      "search",
+      "research"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "perplexity-sonar-pro",
+    "provider": "Perplexity",
+    "model": "Sonar Pro",
+    "category": "flagship",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": null,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-02-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Perplexity's web-grounded model for in-depth, multi-step queries — retrieves and synthesizes multiple web searches with ~2x the citations of standard Sonar. $3/$15 per 1M tokens plus search fees.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "flagship",
+      "search"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "perplexity-sonar-reasoning-pro",
+    "provider": "Perplexity",
+    "model": "Sonar Reasoning Pro",
+    "category": "reasoning",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": null,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-03-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Perplexity's web-grounded reasoning model — chain-of-thought over real-time web search with inline citations, for analytical, multi-source questions. $2/$8 per 1M tokens plus per-request search fees.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "reasoning",
+      "search"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "reka-core",
+    "provider": "Reka",
+    "model": "Reka Core",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Superior multimodal model for complex tasks. $2.00/$6.00 per 1M tokens.",
+    "pricing_url": "https://docs.reka.ai/pricing",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "reka-edge",
+    "provider": "Reka",
+    "model": "Reka Edge",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.1,
+    "cached_input_per_mtok": null,
+    "context_window": 66000,
+    "modality": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Compact multimodal model for on-device execution. $0.10/$0.10 per 1M.",
+    "pricing_url": "https://docs.reka.ai/pricing",
+    "tags": [
+      "budget",
+      "multimodal",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "reka-flash",
+    "provider": "Reka",
+    "model": "Reka Flash",
+    "category": "mid-tier",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Fast, cost-efficient multimodal model. $0.80/$2.00 per 1M tokens.",
+    "pricing_url": "https://docs.reka.ai/pricing",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "fast"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-deepseek-v4-pro",
+    "provider": "Together",
+    "model": "DeepSeek V4 Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 1.74,
+    "output_per_mtok": 3.48,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek V4 Pro hosted on Together. $1.74/$3.48 per 1M tokens — more expensive than DeepSeek direct.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "reasoning",
+      "caching",
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "together-glm-52",
+    "provider": "Together",
+    "model": "GLM-5.2",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-06-13",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-5.2 on Together. $1.40/$4.40 per 1M; cached input $0.26.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "together-gemma-4-31b-pearl",
+    "provider": "Together",
+    "model": "Gemma-4-31B-it-Pearl",
+    "category": "budget",
+    "input_per_mtok": 0.28,
+    "output_per_mtok": 0.86,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "31B",
+    "description": "Google's Gemma 4 31B on Together (Pearl variant). $0.28/$0.86 per 1M tokens.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-kimi-k27-code",
+    "provider": "Together",
+    "model": "Kimi K2.7 Code",
+    "category": "coding",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.19,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-06-12",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Moonshot's Kimi K2.7 coding model on Together. $0.95/$4.00 per 1M tokens.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "coding",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "together-lfm2-24b-a2b",
+    "provider": "Together",
+    "model": "LFM2 24B A2B",
+    "category": "budget",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.12,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "24B (A2B)",
+    "description": "Liquid AI's LFM2 24B (A2B active) on Together. $0.03/$0.12 per 1M tokens — one of the cheapest hosted APIs.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-llama-33-70b",
+    "provider": "Together",
+    "model": "Llama 3.3 70B",
+    "category": "open-weights",
+    "input_per_mtok": 1.04,
+    "output_per_mtok": 1.04,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-12-06",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "70B",
+    "description": "Llama 3.3 70B on Together. $1.04/$1.04 per 1M tokens. (Cheaper on Groq at $0.59/$0.79.)",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-minimax-m25",
+    "provider": "Together",
+    "model": "MiniMax M2.5",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M2.5 on Together. $0.30/$1.20 per 1M; cached input $0.06.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-minimax-m3",
+    "provider": "Together",
+    "model": "MiniMax M3",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "MiniMax M3 on Together. $0.30/$1.20 per 1M; cached input $0.06. 1M context.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "multimodal",
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "together-nvidia-nemotron-3-ultra",
+    "provider": "Together",
+    "model": "NVIDIA Nemotron 3 Ultra",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.6,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "NVIDIA Nemotron 3 Ultra on Together. $0.60/$3.60 per 1M; cached $0.20.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "reasoning",
+      "caching",
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-qwen35-397b-a17b",
+    "provider": "Together",
+    "model": "Qwen3.5-397B-A17B",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.6,
+    "cached_input_per_mtok": 0.35,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "397B (A17B)",
+    "description": "Large MoE Qwen model (397B total, 17B active) on Together. $0.60/$3.60 per 1M tokens.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "mid-tier",
+      "open-weights",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-qwen37-max",
+    "provider": "Together",
+    "model": "Qwen3.7-Max",
+    "category": "mid-tier",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 3.75,
+    "cached_input_per_mtok": 0.13,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-20",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Alibaba's flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. Text-only. $1.25/$3.75 per 1M tokens via Together.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "together-qwen37-plus",
+    "provider": "Together",
+    "model": "Qwen3.7-Plus",
+    "category": "budget",
+    "input_per_mtok": 0.32,
+    "output_per_mtok": 1.28,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Qwen3.7-Plus on Together. $0.32/$1.28 per 1M tokens.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "together-gpt-oss-120b",
+    "provider": "Together",
+    "model": "gpt-oss-120B",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "120B",
+    "description": "OpenAI's open-source 120B model on Together. $0.15/$0.60 per 1M tokens.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-rerank-25",
+    "provider": "Voyage AI",
+    "model": "rerank-2.5",
+    "category": "embedding",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Reranking model for search and retrieval. $0.05 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding",
+      "rerank"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-rerank-25-lite",
+    "provider": "Voyage AI",
+    "model": "rerank-2.5-lite",
+    "category": "embedding",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Lightweight reranking model. $0.02 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding",
+      "rerank"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-4",
+    "provider": "Voyage AI",
+    "model": "voyage-4",
+    "category": "embedding",
+    "input_per_mtok": 0.06,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "General-purpose text embedding. $0.06 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-4-large",
+    "provider": "Voyage AI",
+    "model": "voyage-4-large",
+    "category": "embedding",
+    "input_per_mtok": 0.12,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "State-of-the-art general-purpose text embedding. $0.12 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-4-lite",
+    "provider": "Voyage AI",
+    "model": "voyage-4-lite",
+    "category": "embedding",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Lightweight, budget embedding model. $0.02 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-code-3",
+    "provider": "Voyage AI",
+    "model": "voyage-code-3",
+    "category": "embedding",
+    "input_per_mtok": 0.18,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Code-optimized embedding model. $0.18 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding",
+      "coding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-context-3",
+    "provider": "Voyage AI",
+    "model": "voyage-context-3",
+    "category": "embedding",
+    "input_per_mtok": 0.18,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text"
+    ],
+    "released": "2024-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Context-optimized embedding for RAG. $0.18 per 1M tokens.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "voyage-multimodal-35",
+    "provider": "Voyage AI",
+    "model": "voyage-multimodal-3.5",
+    "category": "embedding",
+    "input_per_mtok": 0.12,
+    "output_per_mtok": null,
+    "cached_input_per_mtok": null,
+    "context_window": null,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Multimodal embedding (text + image + video). $0.12/1M tokens + $0.60/B pixels.",
+    "pricing_url": "https://docs.voyageai.com/docs/pricing",
+    "tags": [
+      "embedding",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-4-32b",
+    "provider": "Z.AI",
+    "model": "GLM-4-32B-0414",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.1,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-04-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "32B",
+    "description": "Open-weights 32B GLM model. $0.10/$0.10 per 1M tokens — flat pricing.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-45",
+    "provider": "Z.AI",
+    "model": "GLM-4.5",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 2.2,
+    "cached_input_per_mtok": 0.11,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "GLM-4.5 model. $0.60/$2.20 per 1M; cached input $0.11.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-45-air",
+    "provider": "Z.AI",
+    "model": "GLM-4.5-Air",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 1.1,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Lightweight GLM variant. $0.20/$1.10 per 1M; cached input $0.03.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-46",
+    "provider": "Z.AI",
+    "model": "GLM-4.6",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 2.2,
+    "cached_input_per_mtok": 0.11,
+    "context_window": 200000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-03-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-4.6 — strong tool use and search-agent performance with tighter agent-framework integration, ~30% more token-efficient than GLM-4.5. 200K context. $0.60/$2.20 per 1M tokens.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-46v",
+    "provider": "Z.AI",
+    "model": "GLM-4.6V",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 0.9,
+    "cached_input_per_mtok": 0.05,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-03-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Vision model (GLM-4.6V). $0.30/$0.90 per 1M; cached $0.05.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "multimodal",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-47",
+    "provider": "Z.AI",
+    "model": "GLM-4.7",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 2.2,
+    "cached_input_per_mtok": 0.11,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-4.7 — a development-focused open model with gains in agentic coding and multi-step reasoning (~73.8% SWE-bench) and stable 'think-then-act' execution in Claude Code, Cline, and similar agents. $0.60/$2.20 per 1M tokens.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-47-flash",
+    "provider": "Z.AI",
+    "model": "GLM-4.7-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.0,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": 0.0,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Free GLM flash model from Z.AI — $0/$0 per 1M tokens (genuinely free, not a data error). Limited-time free tier.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "free"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-47-flashx",
+    "provider": "Z.AI",
+    "model": "GLM-4.7-FlashX",
+    "category": "budget",
+    "input_per_mtok": 0.07,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": 0.01,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Fast, cheap GLM variant. $0.07/$0.40 per 1M; cached input $0.01.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "fast",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-5",
+    "provider": "Z.AI",
+    "model": "GLM-5",
+    "category": "mid-tier",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 3.2,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "GLM-5 model. $1.00/$3.20 per 1M; cached input $0.20.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-5-turbo",
+    "provider": "Z.AI",
+    "model": "GLM-5-Turbo",
+    "category": "mid-tier",
+    "input_per_mtok": 1.2,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.24,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Turbo variant of GLM-5. $1.20/$4.00 per 1M; cached input $0.24.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-51",
+    "provider": "Z.AI",
+    "model": "GLM-5.1",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "GLM-5.1 model. $1.40/$4.40 per 1M; cached input $0.26.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-52",
+    "provider": "Z.AI",
+    "model": "GLM-5.2",
+    "category": "flagship",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-06-13",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's flagship open-weights model — a 744B-parameter Mixture-of-Experts (~40B active per token) with a 1M-token context and MIT-licensed weights. Tops open-weight leaderboards and rivals frontier models on long-horizon coding. ~$1.40/$4.40 per 1M tokens via hosts.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "flagship",
+      "caching"
+    ],
+    "last_updated": "2026-06-25",
+    "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "zhipu-glm-5v-turbo",
+    "provider": "Z.AI",
+    "model": "GLM-5V-Turbo",
+    "category": "mid-tier",
+    "input_per_mtok": 1.2,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.24,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-01-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Vision model (GLM-5V Turbo). $1.20/$4.00 per 1M; cached $0.24.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "multimodal",
+      "caching"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "zhipu-glm-ocr",
+    "provider": "Z.AI",
+    "model": "GLM-OCR",
+    "category": "budget",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.03,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-06-01",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "OCR-focused vision model. $0.03/$0.03 per 1M tokens.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "ocr",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "xai-grok-4",
+    "provider": "xAI",
+    "model": "Grok 4",
+    "category": "flagship",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-07-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Original Grok 4. $3/$15 per 1M tokens.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "xai-grok-41-fast",
+    "provider": "xAI",
+    "model": "Grok 4.1 Fast",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 0.5,
+    "cached_input_per_mtok": null,
+    "context_window": 2000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-09-22",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Ultra-fast Grok with 2M context. $0.20/$0.50 per 1M — cheapest major western API.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "budget",
+      "fast",
+      "multimodal"
+    ],
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "xai-grok-420",
+    "provider": "xAI",
+    "model": "Grok 4.20",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-10-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Older Grok SKU still available. $2/$6 per 1M tokens.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "xai-grok-43",
+    "provider": "xAI",
+    "model": "Grok 4.3",
+    "category": "flagship",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-04-30",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "xAI's reasoning-first flagship with a 1M-token context and native video input (an xAI first), priced aggressively at roughly 5–10x cheaper than competing frontier models. $1.25/$2.50 per 1M tokens.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": true,
+    "last_updated": "2026-06-25",
+    "released_source": "https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing",
+    "released_verified": "2026-06-27"
+  },
+  {
+    "id": "xai-grok-build-01",
+    "provider": "xAI",
+    "model": "Grok Build 0.1",
+    "category": "coding",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "xAI coding model optimized for code generation and software tasks. 256K context.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "coding"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-25"
+  },
+  {
+    "id": "anthropic-claude-mythos-5",
+    "provider": "Anthropic",
+    "model": "Claude Mythos 5",
+    "category": "flagship",
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_input_per_mtok": 1.0,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic Claude Mythos 5. Limited availability (Glasswing program). $10/$50 per 1M tokens.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "limited"
+    ],
+    "featured": false,
+    "last_updated": "2026-06-27",
+    "source": "firecrawl_scrape",
+    "availability_note": "Reportedly suspended in June 2026 under a US export-control directive — availability unconfirmed. Verify with Anthropic before relying on it."
+  }
+]

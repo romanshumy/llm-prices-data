@@ -1,0 +1,35 @@
+{
+  "name": "@modelpricewatch/mcp",
+  "version": "1.0.0",
+  "mcpName": "com.modelpricewatch/mcp",
+  "description": "MCP server for live LLM API pricing — current input/output token prices, comparisons, and cheapest-model lookups for 150+ models across 20+ providers, re-verified daily by modelpricewatch.com.",
+  "bin": {
+    "modelpricewatch-mcp": "index.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "llm",
+    "pricing",
+    "openai",
+    "anthropic",
+    "gemini",
+    "token-cost",
+    "api-pricing"
+  ],
+  "author": "Model Price Watch (https://modelpricewatch.com)",
+  "license": "MIT",
+  "homepage": "https://modelpricewatch.com/api/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romanshumy/llm-pricing-tracker"
+  }
+}

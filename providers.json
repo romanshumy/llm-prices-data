@@ -1,0 +1,269 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "type": "commercial",
+    "description": "Maker of GPT and the OpenAI API. Offers frontier models (GPT-5.5, GPT-5.4), reasoning (o4-mini), and the open-source gpt-oss family.",
+    "url": "https://openai.com/",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "affiliate_url": "https://platform.openai.com/signup",
+    "logo_color": "#10a37f",
+    "founded": 2015
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "type": "commercial",
+    "description": "Maker of the Claude model family. Flagship Fable 5 and Opus 4.8, plus Sonnet and Haiku tiers. Known for safety research.",
+    "url": "https://www.anthropic.com/",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "affiliate_url": "https://console.anthropic.com/",
+    "logo_color": "#d97757",
+    "founded": 2021
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "type": "commercial",
+    "description": "Maker of Gemini multimodal models with up to 2M context. Current flagship Gemini 3.5 Flash; also open-weights Gemma.",
+    "url": "https://ai.google.dev/",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "affiliate_url": "https://aistudio.google.com/",
+    "logo_color": "#4285f4",
+    "founded": 1998
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "type": "commercial",
+    "description": "Maker of Grok models. Current flagship Grok 4.3 offers 1M context at $1.25/$2.50 per 1M tokens — strong value.",
+    "url": "https://x.ai/",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "affiliate_url": "https://console.x.ai/",
+    "logo_color": "#1d9bf0",
+    "founded": 2023
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "type": "commercial",
+    "description": "Chinese AI lab offering extremely cheap APIs with aggressive prompt caching. V4 Flash at $0.14/$0.28 per 1M tokens.",
+    "url": "https://www.deepseek.com/",
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "affiliate_url": "https://platform.deepseek.com/",
+    "logo_color": "#4d6bfe",
+    "founded": 2023
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "type": "commercial",
+    "description": "European AI lab. Mistral Large 3 at $0.50/$1.50 per 1M tokens, plus Codestral for code and open-weight models.",
+    "url": "https://mistral.ai/",
+    "pricing_url": "https://mistral.ai/pricing",
+    "affiliate_url": "https://console.mistral.ai/",
+    "logo_color": "#ff7000",
+    "founded": 2023
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "type": "commercial",
+    "description": "Maker of the Nova model family on AWS. Nova Micro at $0.035/$0.14 per 1M tokens is among the cheapest hosted APIs.",
+    "url": "https://aws.amazon.com/nova/",
+    "pricing_url": "https://aws.amazon.com/nova/pricing",
+    "affiliate_url": "https://aws.amazon.com/",
+    "logo_color": "#ff9900",
+    "founded": 1994
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "type": "commercial",
+    "description": "Enterprise-focused lab. Command A flagship at $1/$2 per 1M tokens — a major price drop vs. the older Command R+.",
+    "url": "https://cohere.com/",
+    "pricing_url": "https://cohere.com/pricing",
+    "affiliate_url": "https://dashboard.cohere.com/",
+    "logo_color": "#39594d",
+    "founded": 2019
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "type": "open",
+    "description": "Maker of the open-weight Llama family. Llama 4 Scout (17B, 16 experts, 10M context) and Llama 3.3 70B are widely hosted.",
+    "url": "https://ai.meta.com/",
+    "pricing_url": "https://ai.meta.com/llama/",
+    "affiliate_url": null,
+    "logo_color": "#0668e1",
+    "founded": 2004
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "type": "hosting",
+    "description": "Inference platform running open models on custom LPU chips for extreme speed. Up to 1000 tokens/sec, cheapest hosted prices for many open models.",
+    "url": "https://groq.com/",
+    "pricing_url": "https://groq.com/pricing",
+    "affiliate_url": "https://console.groq.com/",
+    "logo_color": "#f55036",
+    "founded": 2016
+  },
+  {
+    "id": "together",
+    "name": "Together",
+    "type": "hosting",
+    "description": "Inference platform hosting 200+ open-source models with simple per-token pricing. Strong coverage of Qwen, GLM, Kimi, MiniMax, and DeepSeek variants.",
+    "url": "https://www.together.ai/",
+    "pricing_url": "https://www.together.ai/pricing",
+    "affiliate_url": "https://api.together.ai/",
+    "logo_color": "#0f6fff",
+    "founded": 2022
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks AI",
+    "type": "hosting",
+    "url": "https://fireworks.ai/",
+    "pricing_url": "https://fireworks.ai/pricing",
+    "affiliate_url": "https://fireworks.ai/",
+    "logo_color": "#ff4296",
+    "founded": 2022,
+    "description": "Inference platform serving open-weight models (Llama, Qwen, DeepSeek, Kimi, GLM, MiniMax, gpt-oss) on its own infrastructure at first-party per-token pricing — distinct rates worth comparing per host.",
+    "aliases": [
+      "Fireworks"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "type": "commercial",
+    "url": "https://www.perplexity.ai/",
+    "pricing_url": "https://docs.perplexity.ai/guides/pricing",
+    "affiliate_url": "https://www.perplexity.ai/",
+    "logo_color": "#20b8cd",
+    "founded": 2022,
+    "description": "Perplexity AI models."
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "type": "hosting",
+    "url": "https://www.nvidia.com/",
+    "pricing_url": "https://build.nvidia.com/",
+    "affiliate_url": "https://build.nvidia.com/",
+    "logo_color": "#76b900",
+    "founded": 1993,
+    "description": "NVIDIA AI models."
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "type": "commercial",
+    "url": "https://www.ibm.com/",
+    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+    "affiliate_url": "https://www.ibm.com/",
+    "logo_color": "#0f62fe",
+    "founded": 1911,
+    "description": "IBM AI models."
+  },
+  {
+    "id": "ai21",
+    "name": "AI21 Labs",
+    "type": "commercial",
+    "url": "https://www.ai21.com/",
+    "pricing_url": "https://www.ai21.com/pricing",
+    "affiliate_url": "https://www.ai21.com/",
+    "logo_color": "#e94560",
+    "founded": 2017,
+    "description": "AI21 Labs AI models."
+  },
+  {
+    "id": "reka",
+    "name": "Reka",
+    "type": "commercial",
+    "url": "https://www.reka.ai/",
+    "pricing_url": "https://www.reka.ai/pricing",
+    "affiliate_url": "https://www.reka.ai/",
+    "logo_color": "#7c3aed",
+    "founded": 2022,
+    "description": "Reka AI models."
+  },
+  {
+    "id": "voyage",
+    "name": "Voyage AI",
+    "type": "commercial",
+    "url": "https://www.voyageai.com/",
+    "pricing_url": "https://docs.voyageai.com/pricing",
+    "affiliate_url": "https://www.voyageai.com/",
+    "logo_color": "#0066ff",
+    "founded": 2022,
+    "description": "Voyage AI AI models."
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "type": "commercial",
+    "url": "https://www.alibabacloud.com/",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/billing-for-model-studio",
+    "affiliate_url": "https://www.alibabacloud.com/",
+    "logo_color": "#ff6a00",
+    "founded": 2009,
+    "description": "Alibaba AI models."
+  },
+  {
+    "id": "zhipu",
+    "name": "Z.AI",
+    "type": "commercial",
+    "url": "https://z.ai/",
+    "pricing_url": "https://z.ai/pricing",
+    "affiliate_url": "https://z.ai/",
+    "logo_color": "#4f46e5",
+    "founded": 2019,
+    "description": "Z.AI (formerly Zhipu AI) — makers of the GLM model family. Frontier and open-weight models with competitive pricing."
+  },
+  {
+    "id": "moonshot",
+    "name": "Moonshot",
+    "type": "commercial",
+    "url": "https://www.moonshot.cn/",
+    "pricing_url": "https://platform.moonshot.cn/docs/pricing",
+    "affiliate_url": "https://platform.moonshot.cn/",
+    "logo_color": "#222222",
+    "founded": 2023,
+    "description": "Moonshot AI models."
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "type": "commercial",
+    "url": "https://www.minimaxi.com/",
+    "pricing_url": "https://www.minimaxi.com/pricing",
+    "affiliate_url": "https://www.minimaxi.com/",
+    "logo_color": "#ff3366",
+    "founded": 2021,
+    "description": "MiniMax AI models."
+  },
+  {
+    "id": "01ai",
+    "name": "01.AI",
+    "type": "commercial",
+    "url": "https://www.01.ai/",
+    "pricing_url": "https://platform.01.ai/pricing",
+    "affiliate_url": "https://platform.01.ai/",
+    "logo_color": "#00cc99",
+    "founded": 2023,
+    "description": "01.AI AI models."
+  },
+  {
+    "id": "baichuan",
+    "name": "Baichuan",
+    "type": "commercial",
+    "url": "https://www.baichuan-ai.com/",
+    "pricing_url": "https://platform.baichuan-ai.com/pricing",
+    "affiliate_url": "https://platform.baichuan-ai.com/",
+    "logo_color": "#ff9500",
+    "founded": 2023,
+    "description": "Baichuan AI models."
+  }
+]
