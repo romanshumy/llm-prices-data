@@ -582,6 +582,8 @@
     "input_per_mtok": 2.0,
     "output_per_mtok": 10.0,
     "cached_input_per_mtok": 0.2,
+    "price_note": "Launch/intro pricing: $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
+    "promo_until": "2026-08-31",
     "context_window": 1000000,
     "modality": [
       "text",
@@ -3846,6 +3848,7 @@
     "input_per_mtok": 0.0,
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
+    "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
       "text"
