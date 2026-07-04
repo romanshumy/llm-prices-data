@@ -8089,10 +8089,24 @@
         "date": "2026-07-04",
         "input_per_mtok": 0.4,
         "output_per_mtok": 1.6,
-        "cached_input_per_mtok": 0.2,
+        "cached_input_per_mtok": 0.1,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.2,
+            "new": 0.1,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "litellm-live",
+        "confidence": "verified",
+        "evidence_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+        "captured_at": "2026-07-04T16:32:19Z",
+        "snapshot": "data/evidence/openai-gpt-41-mini/2026-07-04.txt",
+        "sha": "d12d044518"
       }
     ]
   },
@@ -8182,10 +8196,24 @@
         "date": "2026-07-04",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.4,
-        "cached_input_per_mtok": 0.05,
+        "cached_input_per_mtok": 0.025,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.05,
+            "new": 0.025,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "litellm-live",
+        "confidence": "verified",
+        "evidence_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+        "captured_at": "2026-07-04T16:32:19Z",
+        "snapshot": "data/evidence/openai-gpt-41-nano/2026-07-04.txt",
+        "sha": "5ade93b52d"
       }
     ]
   },
@@ -8839,10 +8867,24 @@
         "date": "2026-07-04",
         "input_per_mtok": 1.1,
         "output_per_mtok": 4.4,
-        "cached_input_per_mtok": 0.55,
+        "cached_input_per_mtok": 0.275,
         "context_window": 200000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.55,
+            "new": 0.275,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "litellm-live",
+        "confidence": "verified",
+        "evidence_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+        "captured_at": "2026-07-04T16:32:19Z",
+        "snapshot": "data/evidence/openai-o4-mini/2026-07-04.txt",
+        "sha": "e321b9f98c"
       }
     ]
   },

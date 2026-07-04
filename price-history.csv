@@ -796,7 +796,7 @@ openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-06-30,snapshot,,0.4,1.6,0.2
 openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-07-01,snapshot,,0.4,1.6,0.2
 openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-07-02,snapshot,,0.4,1.6,0.2
 openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-07-03,snapshot,,0.4,1.6,0.2
-openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-07-04,snapshot,,0.4,1.6,0.2
+openai-gpt-41-mini,GPT-4.1 mini,OpenAI,2026-07-04,price_drop,litellm-live,0.4,1.6,0.1
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2025-04-14,backfill,litellm-archive,0.1,0.4,
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-06-23,backfill,litellm-archive,0.1,0.4,
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-06-25,baseline,,0.1,0.4,0.05
@@ -805,7 +805,7 @@ openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-06-30,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-01,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-02,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-03,snapshot,,0.1,0.4,0.05
-openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-04,snapshot,,0.1,0.4,0.05
+openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-04,price_drop,litellm-live,0.1,0.4,0.025
 openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
 openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-07-04,snapshot,,1.75,14.0,0.175
 openai-gpt-53-codex,GPT-5.3 Codex,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
@@ -878,7 +878,7 @@ openai-o4-mini,o4-mini,OpenAI,2026-06-30,snapshot,,1.1,4.4,0.55
 openai-o4-mini,o4-mini,OpenAI,2026-07-01,snapshot,,1.1,4.4,0.55
 openai-o4-mini,o4-mini,OpenAI,2026-07-02,snapshot,,1.1,4.4,0.55
 openai-o4-mini,o4-mini,OpenAI,2026-07-03,snapshot,,1.1,4.4,0.55
-openai-o4-mini,o4-mini,OpenAI,2026-07-04,snapshot,,1.1,4.4,0.55
+openai-o4-mini,o4-mini,OpenAI,2026-07-04,price_drop,litellm-live,1.1,4.4,0.275
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2024-02-05,backfill,litellm-archive,0.13,0.0,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-06-23,backfill,litellm-archive,0.13,0.0,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-06-25,baseline,,0.13,,

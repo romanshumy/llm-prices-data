@@ -15,6 +15,9 @@ links back to the provider's official pricing page on the site.
 - **Llama 4 Scout** price change: ? → ?
 - **Qwen 3.6 27B** price change: ? → ?
 - **Qwen3 32B** price change: ? → ?
+- **GPT-4.1 mini** price change: ? → ?
+- **GPT-4.1 nano** price change: ? → ?
+- **o4-mini** price change: ? → ?
 
 ## 2026-07-03
 

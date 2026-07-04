@@ -2564,7 +2564,7 @@
     "category": "budget",
     "input_per_mtok": 0.4,
     "output_per_mtok": 1.6,
-    "cached_input_per_mtok": 0.2,
+    "cached_input_per_mtok": 0.1,
     "context_window": 1000000,
     "modality": [
       "text",
@@ -2581,7 +2581,7 @@
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "openai-gpt-41-nano",
@@ -2590,7 +2590,7 @@
     "category": "budget",
     "input_per_mtok": 0.1,
     "output_per_mtok": 0.4,
-    "cached_input_per_mtok": 0.05,
+    "cached_input_per_mtok": 0.025,
     "context_window": 1000000,
     "modality": [
       "text",
@@ -2607,7 +2607,7 @@
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "openai-gpt-54",
@@ -2773,7 +2773,7 @@
     "category": "reasoning",
     "input_per_mtok": 1.1,
     "output_per_mtok": 4.4,
-    "cached_input_per_mtok": 0.55,
+    "cached_input_per_mtok": 0.275,
     "context_window": 200000,
     "modality": [
       "text",
@@ -2790,7 +2790,7 @@
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "openai-text-embedding-3-large",
