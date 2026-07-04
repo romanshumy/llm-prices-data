@@ -1093,6 +1093,48 @@
     "provider": "Anthropic",
     "history": [
       {
+        "date": "2024-11-12",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 5.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "f59cb46e71"
+      },
+      {
+        "date": "2025-03-03",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "4d61ac5f13"
+      },
+      {
+        "date": "2026-03-09",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "b20c0afb64"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.8,
         "output_per_mtok": 4.0,
@@ -2761,6 +2803,20 @@
     "provider": "Fireworks",
     "history": [
       {
+        "date": "2026-05-25",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "c23b19f09c"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 1.4,
         "output_per_mtok": 4.4,
@@ -2829,6 +2885,20 @@
     "model": "GLM 5.2",
     "provider": "Fireworks",
     "history": [
+      {
+        "date": "2026-06-23",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "80c5a84871"
+      },
       {
         "date": "2026-06-25",
         "input_per_mtok": 1.4,
@@ -3061,6 +3131,20 @@
     "provider": "Fireworks",
     "history": [
       {
+        "date": "2026-02-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "22bccc4f61"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.6,
         "output_per_mtok": 3.0,
@@ -3130,6 +3214,20 @@
     "provider": "Fireworks",
     "history": [
       {
+        "date": "2026-06-23",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "80c5a84871"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.95,
         "output_per_mtok": 4.0,
@@ -3198,6 +3296,20 @@
     "model": "Kimi K2.7 Code",
     "provider": "Fireworks",
     "history": [
+      {
+        "date": "2026-06-23",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "80c5a84871"
+      },
       {
         "date": "2026-06-25",
         "input_per_mtok": 0.95,
@@ -3336,6 +3448,20 @@
     "model": "MiniMax 2.7",
     "provider": "Fireworks",
     "history": [
+      {
+        "date": "2026-06-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "80c5a84871"
+      },
       {
         "date": "2026-06-25",
         "input_per_mtok": 0.3,
@@ -3624,6 +3750,20 @@
     "model": "Qwen 3.7 Plus",
     "provider": "Fireworks",
     "history": [
+      {
+        "date": "2026-06-23",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.6,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "80c5a84871"
+      },
       {
         "date": "2026-06-25",
         "input_per_mtok": 0.4,
@@ -6448,6 +6588,20 @@
     "provider": "Mistral",
     "history": [
       {
+        "date": "2025-06-16",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 5.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "2f322237ca"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 2.0,
         "output_per_mtok": 5.0,
@@ -6703,6 +6857,20 @@
     "provider": "Mistral",
     "history": [
       {
+        "date": "2025-06-02",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "8a4b163453"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.4,
         "output_per_mtok": 2.0,
@@ -6853,6 +7021,20 @@
     "provider": "Mistral",
     "history": [
       {
+        "date": "2026-03-09",
+        "input_per_mtok": 0.06,
+        "output_per_mtok": 0.18,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "b20c0afb64"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.08,
         "output_per_mtok": 0.2,
@@ -6991,6 +7173,20 @@
     "provider": "Mistral",
     "history": [
       {
+        "date": "2024-06-04",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "0d16ecc956"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 2.0,
         "output_per_mtok": 6.0,
@@ -7059,6 +7255,34 @@
     "model": "Mixtral 8x7B Instruct",
     "provider": "Mistral",
     "history": [
+      {
+        "date": "2024-04-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "517f577292"
+      },
+      {
+        "date": "2024-06-04",
+        "input_per_mtok": 0.7,
+        "output_per_mtok": 0.7,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "0d16ecc956"
+      },
       {
         "date": "2026-06-25",
         "input_per_mtok": 0.54,
@@ -11275,6 +11499,20 @@
     "provider": "Z.AI",
     "history": [
       {
+        "date": "2025-12-08",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.1,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "d37f0b13f0"
+      },
+      {
         "date": "2026-06-25",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.1,
@@ -12904,6 +13142,34 @@
     "provider": "OpenAI",
     "history": [
       {
+        "date": "2026-04-27",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "503c3921c8"
+      },
+      {
+        "date": "2026-06-30",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a126cdf5b7"
+      },
+      {
         "date": "2026-07-03",
         "input_per_mtok": 30.0,
         "output_per_mtok": 180.0,
@@ -12933,6 +13199,34 @@
     "model": "GPT-5.4 Pro",
     "provider": "OpenAI",
     "history": [
+      {
+        "date": "2026-03-09",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "b20c0afb64"
+      },
+      {
+        "date": "2026-06-30",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a126cdf5b7"
+      },
       {
         "date": "2026-07-03",
         "input_per_mtok": 30.0,
@@ -12964,6 +13258,34 @@
     "provider": "OpenAI",
     "history": [
       {
+        "date": "2026-03-17",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.25,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a286050293"
+      },
+      {
+        "date": "2026-06-30",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.25,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a126cdf5b7"
+      },
+      {
         "date": "2026-07-03",
         "input_per_mtok": 0.2,
         "output_per_mtok": 1.25,
@@ -12994,6 +13316,34 @@
     "provider": "OpenAI",
     "history": [
       {
+        "date": "2026-03-09",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "b20c0afb64"
+      },
+      {
+        "date": "2026-06-30",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a126cdf5b7"
+      },
+      {
         "date": "2026-07-03",
         "input_per_mtok": 1.75,
         "output_per_mtok": 14.0,
@@ -13023,6 +13373,34 @@
     "model": "GPT-5.3 Codex",
     "provider": "OpenAI",
     "history": [
+      {
+        "date": "2026-03-02",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "5864317d92"
+      },
+      {
+        "date": "2026-06-30",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "backfill",
+        "changes": [],
+        "source": "litellm-archive",
+        "confidence": "reconstructed",
+        "evidence_url": null,
+        "captured_at": null,
+        "sha": "a126cdf5b7"
+      },
       {
         "date": "2026-07-03",
         "input_per_mtok": 1.75,

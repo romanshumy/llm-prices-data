@@ -106,6 +106,9 @@ anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-07-01,snapshot,,10.0,50.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-07-02,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-07-03,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-07-04,snapshot,,10.0,50.0,1.0
+anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2024-11-12,backfill,litellm-archive,1.0,5.0,
+anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2025-03-03,backfill,litellm-archive,0.8,4.0,
+anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2026-03-09,backfill,litellm-archive,0.8,4.0,
 anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2026-06-25,baseline,,0.8,4.0,0.08
 anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2026-06-29,snapshot,,0.8,4.0,0.08
 anthropic-claude-haiku-35,Claude Haiku 3.5,Anthropic,2026-06-30,snapshot,,0.8,4.0,0.08
@@ -282,6 +285,7 @@ fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-07-01,snapshot,,1.74,3.
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-07-02,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-07-03,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-07-04,snapshot,,1.74,3.48,0.145
+fireworks-glm-51,GLM 5.1,Fireworks,2026-05-25,backfill,litellm-archive,1.4,4.4,
 fireworks-glm-51,GLM 5.1,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
 fireworks-glm-51,GLM 5.1,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
 fireworks-glm-51,GLM 5.1,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
@@ -289,6 +293,7 @@ fireworks-glm-51,GLM 5.1,Fireworks,2026-07-01,snapshot,,1.4,4.4,0.26
 fireworks-glm-51,GLM 5.1,Fireworks,2026-07-02,snapshot,,1.4,4.4,0.26
 fireworks-glm-51,GLM 5.1,Fireworks,2026-07-03,snapshot,,1.4,4.4,0.26
 fireworks-glm-51,GLM 5.1,Fireworks,2026-07-04,snapshot,,1.4,4.4,0.26
+fireworks-glm-52,GLM 5.2,Fireworks,2026-06-23,backfill,litellm-archive,1.4,4.4,
 fireworks-glm-52,GLM 5.2,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
 fireworks-glm-52,GLM 5.2,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
 fireworks-glm-52,GLM 5.2,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
@@ -312,6 +317,7 @@ fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-01,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-02,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-03,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-04,snapshot,,0.07,0.3,0.035
+fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-02-23,backfill,litellm-archive,0.6,3.0,
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-06-25,baseline,,0.6,3.0,0.1
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-06-29,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-06-30,snapshot,,0.6,3.0,0.1
@@ -319,6 +325,7 @@ fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-07-01,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-07-02,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-07-03,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k25,Kimi K2.5,Fireworks,2026-07-04,snapshot,,0.6,3.0,0.1
+fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-06-23,backfill,litellm-archive,0.95,4.0,
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-06-25,baseline,,0.95,4.0,0.16
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-06-29,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-06-30,snapshot,,0.95,4.0,0.16
@@ -326,6 +333,7 @@ fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-07-01,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-07-02,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-07-03,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k26,Kimi K2.6,Fireworks,2026-07-04,snapshot,,0.95,4.0,0.16
+fireworks-kimi-k27-code,Kimi K2.7 Code,Fireworks,2026-06-23,backfill,litellm-archive,0.95,4.0,
 fireworks-kimi-k27-code,Kimi K2.7 Code,Fireworks,2026-06-25,baseline,,0.95,4.0,0.19
 fireworks-kimi-k27-code,Kimi K2.7 Code,Fireworks,2026-06-29,snapshot,,0.95,4.0,0.19
 fireworks-kimi-k27-code,Kimi K2.7 Code,Fireworks,2026-06-30,snapshot,,0.95,4.0,0.19
@@ -340,6 +348,7 @@ fireworks-minimax-25,MiniMax 2.5,Fireworks,2026-07-01,snapshot,,0.3,1.2,0.03
 fireworks-minimax-25,MiniMax 2.5,Fireworks,2026-07-02,snapshot,,0.3,1.2,0.03
 fireworks-minimax-25,MiniMax 2.5,Fireworks,2026-07-03,snapshot,,0.3,1.2,0.03
 fireworks-minimax-25,MiniMax 2.5,Fireworks,2026-07-04,snapshot,,0.3,1.2,0.03
+fireworks-minimax-27,MiniMax 2.7,Fireworks,2026-06-23,backfill,litellm-archive,0.3,1.2,
 fireworks-minimax-27,MiniMax 2.7,Fireworks,2026-06-25,baseline,,0.3,1.2,0.06
 fireworks-minimax-27,MiniMax 2.7,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.06
 fireworks-minimax-27,MiniMax 2.7,Fireworks,2026-06-30,snapshot,,0.3,1.2,0.06
@@ -369,6 +378,7 @@ fireworks-qwen36-plus,Qwen 3.6 Plus,Fireworks,2026-07-01,snapshot,,0.5,3.0,0.1
 fireworks-qwen36-plus,Qwen 3.6 Plus,Fireworks,2026-07-02,snapshot,,0.5,3.0,0.1
 fireworks-qwen36-plus,Qwen 3.6 Plus,Fireworks,2026-07-03,snapshot,,0.5,3.0,0.1
 fireworks-qwen36-plus,Qwen 3.6 Plus,Fireworks,2026-07-04,snapshot,,0.5,3.0,0.1
+fireworks-qwen37-plus,Qwen 3.7 Plus,Fireworks,2026-06-23,backfill,litellm-archive,0.4,1.6,
 fireworks-qwen37-plus,Qwen 3.7 Plus,Fireworks,2026-06-25,baseline,,0.4,1.6,0.08
 fireworks-qwen37-plus,Qwen 3.7 Plus,Fireworks,2026-06-29,snapshot,,0.4,1.6,0.08
 fireworks-qwen37-plus,Qwen 3.7 Plus,Fireworks,2026-06-30,snapshot,,0.4,1.6,0.08
@@ -642,6 +652,7 @@ mistral-large-3,Mistral Large 3,Mistral,2026-07-01,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-07-02,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-07-03,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-07-04,snapshot,,0.5,1.5,
+mistral-magistral-medium,Magistral Medium,Mistral,2025-06-16,backfill,litellm-archive,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-25,baseline,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-29,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-30,snapshot,,2.0,5.0,
@@ -649,6 +660,7 @@ mistral-magistral-medium,Magistral Medium,Mistral,2026-07-01,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-07-02,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-07-03,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-07-04,snapshot,,2.0,5.0,
+mistral-medium-3,Mistral Medium 3,Mistral,2025-06-02,backfill,litellm-archive,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-06-25,baseline,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-06-29,snapshot,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-06-30,snapshot,,0.4,2.0,
@@ -673,6 +685,7 @@ mistral-ministral-3b,Ministral 3 3B,Mistral,2026-07-01,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-07-02,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-07-03,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-07-04,snapshot,,0.1,0.1,
+mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2024-06-04,backfill,litellm-archive,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-06-25,baseline,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-06-29,snapshot,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-06-30,snapshot,,2.0,6.0,
@@ -680,6 +693,8 @@ mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-07-01,snapshot,,2.0,6.
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-07-02,snapshot,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-07-03,snapshot,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-07-04,snapshot,,2.0,6.0,
+mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2024-04-22,backfill,litellm-archive,2.0,6.0,
+mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2024-06-04,backfill,litellm-archive,0.7,0.7,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-06-25,baseline,,0.54,0.54,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-06-29,snapshot,,0.54,0.54,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-06-30,snapshot,,0.54,0.54,
@@ -705,6 +720,7 @@ mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-07-01,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-07-02,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-07-03,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-07-04,snapshot,,2.0,6.0,
+mistral-small-32,Mistral Small 3.2 24B,Mistral,2026-03-09,backfill,litellm-archive,0.06,0.18,
 mistral-small-32,Mistral Small 3.2 24B,Mistral,2026-06-25,baseline,,0.08,0.2,
 mistral-small-32,Mistral Small 3.2 24B,Mistral,2026-06-29,snapshot,,0.08,0.2,
 mistral-small-32,Mistral Small 3.2 24B,Mistral,2026-06-30,snapshot,,0.08,0.2,
@@ -806,8 +822,12 @@ openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-01,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-02,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-03,snapshot,,0.1,0.4,0.05
 openai-gpt-41-nano,GPT-4.1 nano,OpenAI,2026-07-04,price_drop,litellm-live,0.1,0.4,0.025
+openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-03-09,backfill,litellm-archive,1.75,14.0,
+openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-06-30,backfill,litellm-archive,1.75,14.0,
 openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
 openai-gpt-53-chat,GPT-5.3 Chat,OpenAI,2026-07-04,snapshot,,1.75,14.0,0.175
+openai-gpt-53-codex,GPT-5.3 Codex,OpenAI,2026-03-02,backfill,litellm-archive,1.75,14.0,
+openai-gpt-53-codex,GPT-5.3 Codex,OpenAI,2026-06-30,backfill,litellm-archive,1.75,14.0,
 openai-gpt-53-codex,GPT-5.3 Codex,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
 openai-gpt-53-codex,GPT-5.3 Codex,OpenAI,2026-07-04,snapshot,,1.75,14.0,0.175
 openai-gpt-54,GPT-5.4,OpenAI,2026-03-09,backfill,litellm-archive,2.5,15.0,
@@ -828,8 +848,12 @@ openai-gpt-54-mini,GPT-5.4 mini,OpenAI,2026-07-01,snapshot,,0.75,4.5,0.075
 openai-gpt-54-mini,GPT-5.4 mini,OpenAI,2026-07-02,snapshot,,0.75,4.5,0.075
 openai-gpt-54-mini,GPT-5.4 mini,OpenAI,2026-07-03,snapshot,,0.75,4.5,0.075
 openai-gpt-54-mini,GPT-5.4 mini,OpenAI,2026-07-04,snapshot,,0.75,4.5,0.075
+openai-gpt-54-nano,GPT-5.4 nano,OpenAI,2026-03-17,backfill,litellm-archive,0.2,1.25,
+openai-gpt-54-nano,GPT-5.4 nano,OpenAI,2026-06-30,backfill,litellm-archive,0.2,1.25,
 openai-gpt-54-nano,GPT-5.4 nano,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,0.2,1.25,
 openai-gpt-54-nano,GPT-5.4 nano,OpenAI,2026-07-04,snapshot,,0.2,1.25,0.02
+openai-gpt-54-pro,GPT-5.4 Pro,OpenAI,2026-03-09,backfill,litellm-archive,30.0,180.0,
+openai-gpt-54-pro,GPT-5.4 Pro,OpenAI,2026-06-30,backfill,litellm-archive,30.0,180.0,
 openai-gpt-54-pro,GPT-5.4 Pro,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,30.0,180.0,
 openai-gpt-54-pro,GPT-5.4 Pro,OpenAI,2026-07-04,snapshot,,30.0,180.0,3.0
 openai-gpt-55,GPT-5.5,OpenAI,2026-04-27,backfill,litellm-archive,5.0,30.0,
@@ -841,6 +865,8 @@ openai-gpt-55,GPT-5.5,OpenAI,2026-07-01,snapshot,,5.0,30.0,0.5
 openai-gpt-55,GPT-5.5,OpenAI,2026-07-02,snapshot,,5.0,30.0,0.5
 openai-gpt-55,GPT-5.5,OpenAI,2026-07-03,snapshot,,5.0,30.0,0.5
 openai-gpt-55,GPT-5.5,OpenAI,2026-07-04,snapshot,,5.0,30.0,0.5
+openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-04-27,backfill,litellm-archive,30.0,180.0,
+openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-06-30,backfill,litellm-archive,30.0,180.0,
 openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,30.0,180.0,
 openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-04,snapshot,,30.0,180.0,3.0
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-05-06,backfill,litellm-archive,5.0,10.0,
@@ -1156,6 +1182,7 @@ xai-grok-build-01,Grok Build 0.1,xAI,2026-07-01,snapshot,,1.0,2.0,
 xai-grok-build-01,Grok Build 0.1,xAI,2026-07-02,snapshot,,1.0,2.0,
 xai-grok-build-01,Grok Build 0.1,xAI,2026-07-03,snapshot,,1.0,2.0,
 xai-grok-build-01,Grok Build 0.1,xAI,2026-07-04,snapshot,,1.0,2.0,
+zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2025-12-08,backfill,litellm-archive,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-06-25,baseline,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-06-29,snapshot,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-06-30,snapshot,,0.1,0.1,
