@@ -635,24 +635,24 @@
     "provider": "Cohere",
     "model": "Command A",
     "category": "flagship",
-    "input_per_mtok": 1.0,
-    "output_per_mtok": 2.0,
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 10.0,
     "cached_input_per_mtok": null,
     "context_window": 256000,
     "modality": [
       "text"
     ],
-    "released": "2025-02-12",
+    "released": "2025-03-13",
     "status": "Current",
     "open_source": false,
     "parameters": "111B",
-    "description": "Cohere's flagship model. $1/$2 per 1M tokens — far cheaper than the older Command R+.",
+    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens — same list price as Command R+ 08-2024, with a 256k context window.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "flagship"
     ],
     "featured": true,
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "cohere-command-r-03-2024",
@@ -2172,8 +2172,8 @@
     "provider": "Mistral",
     "model": "Mistral Small 3.2 24B",
     "category": "budget",
-    "input_per_mtok": 0.08,
-    "output_per_mtok": 0.2,
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.3,
     "cached_input_per_mtok": null,
     "context_window": 128000,
     "modality": [
@@ -2183,14 +2183,14 @@
     "status": "Current",
     "open_source": true,
     "parameters": "24B",
-    "description": "Open-weights small model. $0.08/$0.20 per 1M tokens.",
+    "description": "Open-weights small model. $0.10/$0.30 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "budget",
       "open-weights",
       "fast"
     ],
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "mistral-small-4",
@@ -2246,8 +2246,8 @@
     "provider": "Mistral",
     "model": "Mixtral 8x7B Instruct",
     "category": "open-weights",
-    "input_per_mtok": 0.54,
-    "output_per_mtok": 0.54,
+    "input_per_mtok": 0.7,
+    "output_per_mtok": 0.7,
     "cached_input_per_mtok": null,
     "context_window": 32000,
     "modality": [
@@ -2257,13 +2257,13 @@
     "status": "Current",
     "open_source": true,
     "parameters": "46.7B (8x7B MoE)",
-    "description": "Open-weights MoE model. $0.54/$0.54 per 1M tokens.",
+    "description": "Open-weights MoE model. $0.70/$0.70 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "open-weights",
       "moe"
     ],
-    "last_updated": "2026-06-25"
+    "last_updated": "2026-07-04"
   },
   {
     "id": "mistral-pixtral-12b",

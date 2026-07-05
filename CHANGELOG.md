@@ -4,6 +4,11 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-05
+
+- **Mistral Small 3.2 24B** price change: ? → ?
+- **Mixtral 8x7B Instruct** price change: ? → ?
+
 ## 2026-07-04
 
 - **Gemini 2.5 Flash** price change: ? → ?
