@@ -30,6 +30,7 @@
   "homepage": "https://modelpricewatch.com/api/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/romanshumy/llm-pricing-tracker"
+    "url": "https://github.com/romanshumy/llm-prices-data",
+    "directory": "mcp"
   }
 }
