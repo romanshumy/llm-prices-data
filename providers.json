@@ -140,7 +140,7 @@
     "affiliate_url": "https://www.perplexity.ai/",
     "logo_color": "#20b8cd",
     "founded": 2022,
-    "description": "Perplexity AI models."
+    "description": "Search-augmented AI from Perplexity. The Sonar family (Sonar, Sonar Pro, Sonar Reasoning Pro, Sonar Deep Research) adds live web grounding, from $1/1M tokens."
   },
   {
     "id": "nvidia",
@@ -151,7 +151,7 @@
     "affiliate_url": "https://build.nvidia.com/",
     "logo_color": "#76b900",
     "founded": 1993,
-    "description": "NVIDIA AI models."
+    "description": "NVIDIA's Nemotron models for enterprise and agentic use — Llama Nemotron Ultra 253B and Nemotron 3 Ultra, from $0.60/$3.60 per 1M tokens."
   },
   {
     "id": "ibm",
@@ -162,7 +162,7 @@
     "affiliate_url": "https://www.ibm.com/",
     "logo_color": "#0f62fe",
     "founded": 1911,
-    "description": "IBM AI models."
+    "description": "IBM's open-weight Granite 4 family for enterprise workloads — Granite 4 H Large down to Granite 4.0 Micro at $0.017/1M input tokens."
   },
   {
     "id": "ai21",
@@ -173,7 +173,7 @@
     "affiliate_url": "https://www.ai21.com/",
     "logo_color": "#e94560",
     "founded": 2017,
-    "description": "AI21 Labs AI models."
+    "description": "Israeli AI lab behind the Jamba hybrid SSM-Transformer models — Jamba Large and Jamba Mini ($0.20/$0.40 per 1M) with a 256K-token context."
   },
   {
     "id": "reka",
@@ -184,7 +184,7 @@
     "affiliate_url": "https://www.reka.ai/",
     "logo_color": "#7c3aed",
     "founded": 2022,
-    "description": "Reka AI models."
+    "description": "Multimodal AI lab. Reka Core, Flash, and Edge span frontier to on-device inference, with Reka Edge from $0.10/1M tokens."
   },
   {
     "id": "voyage",
@@ -206,7 +206,7 @@
     "affiliate_url": "https://www.alibabacloud.com/",
     "logo_color": "#ff6a00",
     "founded": 2009,
-    "description": "Alibaba AI models."
+    "description": "Alibaba's Qwen models — Qwen3-Max, Qwen-Plus, and Qwen-Turbo (from $0.05/$0.20 per 1M) with context windows up to 1M tokens."
   },
   {
     "id": "zhipu",
@@ -228,7 +228,7 @@
     "affiliate_url": "https://platform.moonshot.cn/",
     "logo_color": "#222222",
     "founded": 2023,
-    "description": "Moonshot AI models."
+    "description": "Chinese AI lab behind the Kimi models. Kimi K2.5 through K2.7 Code offer a 256K-token context from $0.60/1M input tokens."
   },
   {
     "id": "minimax",
@@ -239,7 +239,7 @@
     "affiliate_url": "https://www.minimaxi.com/",
     "logo_color": "#ff3366",
     "founded": 2021,
-    "description": "MiniMax AI models."
+    "description": "Chinese AI lab. The MiniMax-M2 series (M2 through M2.7, plus M3 at 1M context) starts at $0.30/$1.20 per 1M tokens."
   },
   {
     "id": "01ai",
@@ -250,7 +250,7 @@
     "affiliate_url": "https://platform.01.ai/",
     "logo_color": "#00cc99",
     "founded": 2023,
-    "description": "01.AI AI models."
+    "description": "Founded by Kai-Fu Lee. Yi Large is a bilingual English/Chinese model at $3/$9 per 1M tokens with a 32K context window."
   },
   {
     "id": "baichuan",
@@ -261,6 +261,6 @@
     "affiliate_url": "https://platform.baichuan-ai.com/",
     "logo_color": "#ff9500",
     "founded": 2023,
-    "description": "Baichuan AI models."
+    "description": "Chinese AI lab. Baichuan M2-32B is an open-weight 32B model priced at $0.07/1M for both input and output tokens."
   }
 ]
