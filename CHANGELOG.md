@@ -4,6 +4,10 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-06
+
+- **LongCat-2.0** (Meituan) launched — $0.75 in / $2.95 out per 1M tokens
+
 ## 2026-07-05
 
 - **Mistral Small 3.2 24B** price change: ? → ?

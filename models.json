@@ -4206,5 +4206,34 @@
     "last_updated": "2026-06-27",
     "source": "firecrawl_scrape",
     "availability_note": "Reportedly suspended in June 2026 under a US export-control directive — availability unconfirmed. Verify with Anthropic before relying on it."
+  },
+  {
+    "id": "meituan-longcat-2",
+    "provider": "Meituan",
+    "model": "LongCat-2.0",
+    "category": "coding",
+    "input_per_mtok": 0.75,
+    "output_per_mtok": 2.95,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-06-30",
+    "released_source": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Meituan LongCat-2.0 — open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20). Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
+    "pricing_url": "https://longcat.chat/platform/docs/Pricing/LongCat-2.0.html",
+    "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked)",
+    "tags": [
+      "coding",
+      "open-source",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-06",
+    "source": "verified"
   }
 ]
