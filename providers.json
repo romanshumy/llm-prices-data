@@ -195,7 +195,7 @@
     "affiliate_url": "https://www.voyageai.com/",
     "logo_color": "#0066ff",
     "founded": 2022,
-    "description": "Voyage AI AI models."
+    "description": "Voyage AI (a MongoDB company) builds high-accuracy embedding and reranking models for retrieval and RAG, billed per 1M input tokens with no output-token charge."
   },
   {
     "id": "alibaba",
