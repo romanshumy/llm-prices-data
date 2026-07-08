@@ -4,7 +4,7 @@
 [![Models tracked](https://modelpricewatch.com/badge/models.svg)](https://modelpricewatch.com/)
 [![Glama MCP server](https://glama.ai/mcp/servers/romanshumy/llm-prices-data/badge)](https://glama.ai/mcp/servers/romanshumy/llm-prices-data)
 
-Machine-readable LLM API pricing for **164 current models** across
+Machine-readable LLM API pricing for **165 current models** across
 **24 providers** (OpenAI, Anthropic, Google, Mistral, xAI, DeepSeek,
 Meta, Groq, Together, …), maintained by [modelpricewatch.com](https://modelpricewatch.com).
 Every price links to the provider's **official pricing page**; prices are
@@ -19,7 +19,7 @@ re-read weekly from the provider pages with dated receipts.
 |---|---|
 | [`models.json`](models.json) | Every tracked model: input/output/cached $ per 1M tokens, context window, modality, category, status, source URL |
 | [`providers.json`](providers.json) | Provider metadata + official pricing-page URLs |
-| [`price-history.json`](price-history.json) / [`price-history.csv`](price-history.csv) | Per-model price timeline (1950 dated points; see caveats) |
+| [`price-history.json`](price-history.json) / [`price-history.csv`](price-history.csv) | Per-model price timeline (1951 dated points; see caveats) |
 | [`llm-price-index.csv`](llm-price-index.csv) | **The LLM Price Index** — one number for the blended cost of frontier intelligence, daily series |
 | [`CHANGELOG.md`](CHANGELOG.md) | Human-readable launches & price changes |
 | [`mcp/`](mcp/) | MCP server: query these prices live from Claude/Cursor — `npx -y @modelpricewatch/mcp` or HTTP `https://modelpricewatch.com/mcp` |

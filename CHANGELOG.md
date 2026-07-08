@@ -11,6 +11,7 @@ links back to the provider's official pricing page on the site.
 - **GPT-5.2 Codex** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
 - **GPT-5.2 Chat** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
 - **Gemini 3 Flash Preview** (Google) launched — $0.5 in / $3.0 out per 1M tokens
+- **Hunyuan Hy3 Preview** (Tencent) launched — $0.147 in / $0.588 out per 1M tokens
 
 ## 2026-07-06
 

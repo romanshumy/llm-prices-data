@@ -4369,5 +4369,34 @@
     ],
     "featured": false,
     "last_updated": "2026-07-08"
+  },
+  {
+    "id": "tencent-hunyuan-hy3-preview",
+    "provider": "Tencent",
+    "model": "Hunyuan Hy3 Preview",
+    "category": "budget",
+    "input_per_mtok": 0.147,
+    "output_per_mtok": 0.588,
+    "cached_input_per_mtok": 0.037,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-07-07",
+    "released_source": "https://www.tencent.com/en-us/articles/2202320.html",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Tencent Hunyuan Hy3 (\"Hy3 Preview\") — a 295B-parameter MoE (~21B active) agentic model, officially released 2026-07-07 on Tencent Cloud TokenHub (preview following an Apr 2026 preview). Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) — see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
+    "pricing_url": "https://intl.cloud.tencent.com/product/tokenhub",
+    "price_note": "Preview. USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo.",
+    "tags": [
+      "budget",
+      "moe",
+      "agentic"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-08",
+    "source": "verified"
   }
 ]

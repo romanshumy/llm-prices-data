@@ -19485,5 +19485,26 @@
         "sha": "33eeb06d22"
       }
     ]
+  },
+  "tencent-hunyuan-hy3-preview": {
+    "model": "Hunyuan Hy3 Preview",
+    "provider": "Tencent",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 0.147,
+        "output_per_mtok": 0.588,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://intl.cloud.tencent.com/product/tokenhub",
+        "captured_at": "2026-07-08T01:04:11Z",
+        "snapshot": "data/evidence/tencent-hunyuan-hy3-preview/2026-07-08.txt",
+        "sha": "5f24d2ee9a"
+      }
+    ]
   }
 }

@@ -1478,6 +1478,7 @@ reka-flash,Reka Flash,Reka,2026-07-05,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-07-06,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-07-07,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-07-08,snapshot,,0.8,2.0,
+tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-08,new_model,verified,0.147,0.588,
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-25,baseline,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-29,snapshot,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-30,snapshot,,1.74,3.48,0.2
