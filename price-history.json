@@ -19380,5 +19380,110 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-52": {
+    "model": "GPT-5.2",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://openai.com/api/pricing/",
+        "captured_at": "2026-07-08T01:14:59Z",
+        "snapshot": "data/evidence/openai-gpt-52/2026-07-08.txt",
+        "sha": "da574ff690"
+      }
+    ]
+  },
+  "openai-gpt-52-pro": {
+    "model": "GPT-5.2 Pro",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 21.0,
+        "output_per_mtok": 168.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://openai.com/api/pricing/",
+        "captured_at": "2026-07-08T01:14:59Z",
+        "snapshot": "data/evidence/openai-gpt-52-pro/2026-07-08.txt",
+        "sha": "a6c7183159"
+      }
+    ]
+  },
+  "openai-gpt-52-codex": {
+    "model": "GPT-5.2 Codex",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://openai.com/api/pricing/",
+        "captured_at": "2026-07-08T01:14:59Z",
+        "snapshot": "data/evidence/openai-gpt-52-codex/2026-07-08.txt",
+        "sha": "bb32b55224"
+      }
+    ]
+  },
+  "openai-gpt-52-chat": {
+    "model": "GPT-5.2 Chat",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://openai.com/api/pricing/",
+        "captured_at": "2026-07-08T01:15:00Z",
+        "snapshot": "data/evidence/openai-gpt-52-chat/2026-07-08.txt",
+        "sha": "2a708b13a3"
+      }
+    ]
+  },
+  "google-gemini-3-flash-preview": {
+    "model": "Gemini 3 Flash Preview",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-07-08T01:15:00Z",
+        "snapshot": "data/evidence/google-gemini-3-flash-preview/2026-07-08.txt",
+        "sha": "33eeb06d22"
+      }
+    ]
   }
 }

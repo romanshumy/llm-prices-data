@@ -4,6 +4,14 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-08
+
+- **GPT-5.2** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
+- **GPT-5.2 Pro** (OpenAI) launched — $21.0 in / $168.0 out per 1M tokens
+- **GPT-5.2 Codex** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
+- **GPT-5.2 Chat** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
+- **Gemini 3 Flash Preview** (Google) launched — $0.5 in / $3.0 out per 1M tokens
+
 ## 2026-07-06
 
 - **LongCat-2.0** (Meituan) launched — $0.75 in / $2.95 out per 1M tokens
