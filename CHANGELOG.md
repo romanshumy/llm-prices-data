@@ -6,6 +6,7 @@ links back to the provider's official pricing page on the site.
 
 ## 2026-07-08
 
+- **Grok 4.5** (xAI) launched — $2.0 in / $6.0 out per 1M tokens
 - **GPT-5.2** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens
 - **GPT-5.2 Pro** (OpenAI) launched — $21.0 in / $168.0 out per 1M tokens
 - **GPT-5.2 Codex** (OpenAI) launched — $1.75 in / $14.0 out per 1M tokens

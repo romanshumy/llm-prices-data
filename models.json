@@ -4127,6 +4127,34 @@
     "last_updated": "2026-06-25"
   },
   {
+    "id": "xai-grok-45",
+    "provider": "xAI",
+    "model": "Grok 4.5",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": null,
+    "context_window": 500000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-08",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "xAI's smartest model — an Opus-class frontier model built for coding, agentic tasks, and knowledge work, trained on the 1.5T V9 foundation with Cursor data. ~2x token efficiency vs comparable leaders, 500K context, configurable reasoning effort. $2/$6 per 1M tokens.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-08",
+    "released_source": "https://x.ai/news/grok-4-5",
+    "released_verified": "2026-07-08"
+  },
+  {
     "id": "xai-grok-43",
     "provider": "xAI",
     "model": "Grok 4.3",

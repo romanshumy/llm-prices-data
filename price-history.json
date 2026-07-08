@@ -19506,5 +19506,26 @@
         "sha": "5f24d2ee9a"
       }
     ]
+  },
+  "xai-grok-45": {
+    "model": "Grok 4.5",
+    "provider": "xAI",
+    "history": [
+      {
+        "date": "2026-07-08",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 500000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.x.ai/developers/models",
+        "captured_at": "2026-07-08T20:01:15Z",
+        "snapshot": "data/evidence/xai-grok-45/2026-07-08.txt",
+        "sha": "ccb8e0d13a"
+      }
+    ]
   }
 }
