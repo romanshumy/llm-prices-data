@@ -5,7 +5,7 @@
 [![Glama MCP server](https://glama.ai/mcp/servers/romanshumy/llm-prices-data/badge)](https://glama.ai/mcp/servers/romanshumy/llm-prices-data)
 
 Machine-readable LLM API pricing for **165 current models** across
-**24 providers** (OpenAI, Anthropic, Google, Mistral, xAI, DeepSeek,
+**25 providers** (OpenAI, Anthropic, Google, Mistral, xAI, DeepSeek,
 Meta, Groq, Together, …), maintained by [modelpricewatch.com](https://modelpricewatch.com).
 Every price links to the provider's **official pricing page**; prices are
 cross-checked daily against an independent reference and top models are

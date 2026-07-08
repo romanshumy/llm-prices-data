@@ -262,5 +262,15 @@
     "logo_color": "#ff9500",
     "founded": 2023,
     "description": "Chinese AI lab. Baichuan M2-32B is an open-weight 32B model priced at $0.07/1M for both input and output tokens."
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent",
+    "type": "commercial",
+    "url": "https://www.tencent.com/en-us/",
+    "pricing_url": "https://intl.cloud.tencent.com/product/tokenhub",
+    "logo_color": "#0052d9",
+    "founded": 1998,
+    "description": "Chinese technology conglomerate. Its Hunyuan family is served via Tencent Cloud's TokenHub API; Hunyuan Hy3 is a 295B-parameter MoE agentic model listed in RMB (converted to USD per the FX policy)."
   }
 ]
