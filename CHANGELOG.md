@@ -4,6 +4,12 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-09
+
+- **GPT-5.6 Sol** (OpenAI) launched — $5.0 in / $30.0 out per 1M tokens
+- **GPT-5.6 Terra** (OpenAI) launched — $2.5 in / $15.0 out per 1M tokens
+- **GPT-5.6 Luna** (OpenAI) launched — $1.0 in / $6.0 out per 1M tokens
+
 ## 2026-07-08
 
 - **Grok 4.5** (xAI) launched — $2.0 in / $6.0 out per 1M tokens

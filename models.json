@@ -2690,6 +2690,92 @@
     "last_updated": "2026-07-03"
   },
   {
+    "id": "openai-gpt-56-sol",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Sol",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 30.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $5/$30 per 1M tokens (cached input $0.50).",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-09",
+    "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "released_verified": "2026-07-09"
+  },
+  {
+    "id": "openai-gpt-56-terra",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Terra",
+    "category": "flagship",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.25,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost \u2014 the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2.50/$15 per 1M tokens (cached input $0.25).",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-09",
+    "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "released_verified": "2026-07-09"
+  },
+  {
+    "id": "openai-gpt-56-luna",
+    "provider": "OpenAI",
+    "model": "GPT-5.6 Luna",
+    "category": "mid-tier",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Low-cost, high-volume GPT-5.6 tier \u2014 the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $1/$6 per 1M tokens (cached input $0.10).",
+    "pricing_url": "https://openai.com/api/pricing/",
+    "tags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-09",
+    "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
+    "released_verified": "2026-07-09"
+  },
+  {
     "id": "openai-gpt-image-2",
     "provider": "OpenAI",
     "model": "GPT-Image-2",

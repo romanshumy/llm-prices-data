@@ -21057,5 +21057,68 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-56-sol": {
+    "model": "GPT-5.6 Sol",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-09",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "first-party+openrouter (2-source)",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-07-09T19:12:15Z",
+        "snapshot": "data/evidence/openai-gpt-56-sol/2026-07-09.txt",
+        "sha": "1a205db7da"
+      }
+    ]
+  },
+  "openai-gpt-56-terra": {
+    "model": "GPT-5.6 Terra",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-09",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "first-party+openrouter (2-source)",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-07-09T19:12:15Z",
+        "snapshot": "data/evidence/openai-gpt-56-terra/2026-07-09.txt",
+        "sha": "5528038e13"
+      }
+    ]
+  },
+  "openai-gpt-56-luna": {
+    "model": "GPT-5.6 Luna",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-07-09",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "first-party+openrouter (2-source)",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-07-09T19:12:15Z",
+        "snapshot": "data/evidence/openai-gpt-56-luna/2026-07-09.txt",
+        "sha": "8edf5227e9"
+      }
+    ]
   }
 }

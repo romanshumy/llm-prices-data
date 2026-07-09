@@ -1430,6 +1430,9 @@ openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-06,snapshot,,30.0,180.0,3.0
 openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-07,snapshot,,30.0,180.0,3.0
 openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-08,snapshot,,30.0,180.0,3.0
 openai-gpt-55-pro,GPT-5.5 Pro,OpenAI,2026-07-09,snapshot,,30.0,180.0,3.0
+openai-gpt-56-luna,GPT-5.6 Luna,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),1.0,6.0,
+openai-gpt-56-sol,GPT-5.6 Sol,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),5.0,30.0,
+openai-gpt-56-terra,GPT-5.6 Terra,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),2.5,15.0,
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-05-06,backfill,litellm-archive,5.0,10.0,
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-06-23,backfill,litellm-archive,5.0,10.0,
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-06-25,baseline,,8.0,30.0,2.0
