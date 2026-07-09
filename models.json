@@ -2523,7 +2523,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "70B",
-    "description": "NVIDIA Nemotron 70B Instruct. ~$0.10/$0.10 per 1M on DeepInfra; free NIM tier.",
+    "description": "NVIDIA's Llama-3.1-based Nemotron 70B Instruct is a 70B open-weights model tuned with RLHF for stronger instruction-following and helpfulness. It offers a 128K-token context window and runs via NVIDIA NIM (free developer tier) or self-hosting, making it a popular open alternative to proprietary 70B-class chat models.",
     "pricing_url": "https://build.nvidia.com/models",
     "tags": [
       "open-weights"
