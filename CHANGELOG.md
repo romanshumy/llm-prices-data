@@ -4,6 +4,13 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-10
+
+- **DeepSeek V4 Flash** (DeepInfra) launched — $0.09 in / $0.18 out per 1M tokens
+- **Qwen3 32B** (DeepInfra) launched — $0.08 in / $0.28 out per 1M tokens
+- **Llama 4 Scout** (DeepInfra) launched — $0.1 in / $0.3 out per 1M tokens
+- **Llama 4 Maverick** (DeepInfra) launched — $0.15 in / $0.6 out per 1M tokens
+
 ## 2026-07-09
 
 - **GPT-5.6 Sol** (OpenAI) launched — $5.0 in / $30.0 out per 1M tokens

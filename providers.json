@@ -272,5 +272,15 @@
     "logo_color": "#0052d9",
     "founded": 1998,
     "description": "Chinese technology conglomerate. Its Hunyuan family is served via Tencent Cloud's TokenHub API; Hunyuan Hy3 is a 295B-parameter MoE agentic model listed in RMB (converted to USD per the FX policy)."
+  },
+  {
+    "id": "deepinfra",
+    "name": "DeepInfra",
+    "type": "hosting",
+    "description": "Serverless inference platform serving 100+ open-weight models (DeepSeek, Llama, Qwen, Gemma, Mistral) at pay-per-token rates — one of the cheapest per-token hosts for open models. No subscription or minimums.",
+    "url": "https://deepinfra.com/",
+    "pricing_url": "https://deepinfra.com/pricing",
+    "logo_color": "#4f46e5",
+    "founded": 2017
   }
 ]
