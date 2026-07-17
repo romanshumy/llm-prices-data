@@ -2459,6 +2459,37 @@
     "released_verified": "2026-06-27"
   },
   {
+    "id": "moonshot-kimi-k3",
+    "provider": "Moonshot",
+    "model": "Kimi K3",
+    "category": "flagship",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.3,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-16",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Moonshot's flagship 2.8T-parameter open-weight (MoE) multimodal reasoning model with a 1M-token context, built for complex coding, knowledge work, and long-horizon agentic workflows. OpenAI-compatible API. $3.00/$15.00 per 1M tokens; cached $0.30.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat-k3",
+    "tags": [
+      "open-weights",
+      "flagship",
+      "caching",
+      "multimodal",
+      "reasoning"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-16",
+    "released_source": "https://platform.kimi.ai/docs/pricing/chat-k3",
+    "released_verified": "2026-07-16"
+  },
+  {
     "id": "nvidia-llama-nemotron-ultra-253b",
     "provider": "NVIDIA",
     "model": "Llama Nemotron Ultra 253B",

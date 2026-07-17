@@ -4,6 +4,10 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-16
+
+- **Kimi K3** (Moonshot) launched — $3.0 in / $15.0 out per 1M tokens
+
 ## 2026-07-10
 
 - **DeepSeek V4 Flash** (DeepInfra) launched — $0.09 in / $0.18 out per 1M tokens
