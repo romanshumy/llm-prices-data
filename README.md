@@ -11,7 +11,7 @@ Every price links to the provider's **official pricing page**; prices are
 cross-checked daily against an independent reference and top models are
 re-read weekly from the provider pages with dated receipts.
 
-*Last sync: 2026-07-17. This repo is updated automatically after each refresh cycle.*
+*Last sync: 2026-07-18. This repo is updated automatically after each refresh cycle.*
 
 ## Files
 
@@ -19,7 +19,7 @@ re-read weekly from the provider pages with dated receipts.
 |---|---|
 | [`models.json`](models.json) | Every tracked model: input/output/cached $ per 1M tokens, context window, modality, category, status, source URL |
 | [`providers.json`](providers.json) | Provider metadata + official pricing-page URLs |
-| [`price-history.json`](price-history.json) / [`price-history.csv`](price-history.csv) | Per-model price timeline (3543 dated points; see caveats) |
+| [`price-history.json`](price-history.json) / [`price-history.csv`](price-history.csv) | Per-model price timeline (3721 dated points; see caveats) |
 | [`llm-price-index.csv`](llm-price-index.csv) | **The LLM Price Index** — one number for the blended cost of frontier intelligence, daily series |
 | [`CHANGELOG.md`](CHANGELOG.md) | Human-readable launches & price changes |
 | [`mcp/`](mcp/) | MCP server: query these prices live from Claude/Cursor — `npx -y @modelpricewatch/mcp` or HTTP `https://modelpricewatch.com/mcp` |
