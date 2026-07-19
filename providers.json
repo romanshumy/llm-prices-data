@@ -282,5 +282,15 @@
     "pricing_url": "https://deepinfra.com/pricing",
     "logo_color": "#4f46e5",
     "founded": 2017
+  },
+  {
+    "id": "meituan",
+    "name": "Meituan",
+    "type": "commercial",
+    "description": "Chinese technology company whose LongCat model family is served via the LongCat API Platform. LongCat-2.0 is offered pay-as-you-go from $0.75/1M input and $2.95/1M output tokens, with cached-input pricing at $0.015/1M.",
+    "url": "https://longcat.chat/",
+    "pricing_url": "https://longcat.chat/platform/docs/Pricing/LongCat-2.0.html",
+    "logo_color": "#ffd100",
+    "founded": 2010
   }
 ]
