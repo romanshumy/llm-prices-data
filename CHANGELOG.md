@@ -4,6 +4,10 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-19
+
+- **GLM 5.2** price change: ? → ?
+
 ## 2026-07-16
 
 - **Kimi K3** (Moonshot) launched — $3.0 in / $15.0 out per 1M tokens

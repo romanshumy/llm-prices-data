@@ -917,7 +917,7 @@
     "category": "mid-tier",
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
-    "cached_input_per_mtok": 0.26,
+    "cached_input_per_mtok": 0.14,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -926,14 +926,14 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's GLM 5.2 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
+    "description": "Z.AI's GLM 5.2 on Fireworks. $1.40/$4.40 per 1M; cached $0.14.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
       "mid-tier",
       "caching"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-19",
     "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
     "released_verified": "2026-06-27"
   },

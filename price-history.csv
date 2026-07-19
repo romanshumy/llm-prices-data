@@ -897,7 +897,7 @@ fireworks-glm-52,GLM 5.2,Fireworks,2026-07-15,snapshot,,1.4,4.4,0.26
 fireworks-glm-52,GLM 5.2,Fireworks,2026-07-16,snapshot,,1.4,4.4,0.26
 fireworks-glm-52,GLM 5.2,Fireworks,2026-07-17,snapshot,,1.4,4.4,0.26
 fireworks-glm-52,GLM 5.2,Fireworks,2026-07-18,snapshot,,1.4,4.4,0.26
-fireworks-glm-52,GLM 5.2,Fireworks,2026-07-19,snapshot,,1.4,4.4,0.26
+fireworks-glm-52,GLM 5.2,Fireworks,2026-07-19,price_drop,official Fireworks serverless pricing page,1.4,4.4,0.14
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-23,backfill,litellm-archive,0.15,0.6,
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-25,baseline,,0.15,0.6,0.015
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-29,snapshot,,0.15,0.6,0.015

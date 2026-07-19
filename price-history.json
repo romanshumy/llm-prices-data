@@ -7723,10 +7723,24 @@
         "date": "2026-07-19",
         "input_per_mtok": 1.4,
         "output_per_mtok": 4.4,
-        "cached_input_per_mtok": 0.26,
+        "cached_input_per_mtok": 0.14,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.26,
+            "new": 0.14,
+            "direction": "down",
+            "change_pct": -46.2
+          }
+        ],
+        "source": "official Fireworks serverless pricing page",
+        "confidence": "verified",
+        "evidence_url": "https://docs.fireworks.ai/serverless/pricing",
+        "captured_at": "2026-07-19T09:25:04Z",
+        "snapshot": "data/evidence/fireworks-glm-52/2026-07-19.txt",
+        "sha": "3cf50a6e9c"
       }
     ]
   },
