@@ -1,0 +1,55 @@
+name: Monthly data release
+
+# Cuts one GitHub Release per calendar month (tag vYYYY.MM) summarising the
+# pricing dataset. Uses the built-in GITHUB_TOKEN — no external secrets.
+# Idempotent: skips if this month's release already exists. Runnable on demand
+# via the "Run workflow" button (workflow_dispatch) to bootstrap immediately.
+
+on:
+  schedule:
+    - cron: '17 6 1 * *'   # 06:17 UTC on the 1st of each month
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute tag and check existence
+        id: v
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v$(date -u +%Y.%m)"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "exists=yes" >> "$GITHUB_OUTPUT"
+            echo "Release $TAG already exists — nothing to do."
+          else
+            echo "exists=no" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build release notes
+        if: steps.v.outputs.exists == 'no'
+        run: |
+          COUNT=$(jq '[.[] | select(.status=="Current")] | length' models.json 2>/dev/null || echo '?')
+          PROV=$(jq 'length' providers.json 2>/dev/null || echo '?')
+          {
+            echo "Monthly snapshot of the daily-verified LLM API pricing dataset."
+            echo ""
+            echo "- **$COUNT** current models across **$PROV** providers"
+            echo "- Prices cross-checked daily against an independent reference; top models re-read weekly from provider pages with dated receipts."
+            echo "- Launches & price changes this period: see [CHANGELOG.md](CHANGELOG.md)."
+            echo "- Always-current live API (no key): https://modelpricewatch.com/api/v1/models.json"
+            echo "- MCP server: \`npx -y @modelpricewatch/mcp\` or HTTP https://modelpricewatch.com/mcp"
+          } > notes.md
+
+      - name: Create release
+        if: steps.v.outputs.exists == 'no'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${{ steps.v.outputs.tag }}" --title "Data ${{ steps.v.outputs.tag }}" --notes-file notes.md
