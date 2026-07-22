@@ -4,6 +4,11 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-21
+
+- **Gemini 3.6 Flash** (Google) launched — $1.5 in / $7.5 out per 1M tokens
+- **Gemini 3.5 Flash-Lite** (Google) launched — $0.3 in / $2.5 out per 1M tokens
+
 ## 2026-07-19
 
 - **GLM 5.2** price change: ? → ?
