@@ -227,6 +227,15 @@
         "context_window": 32000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 9.0,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -472,6 +481,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -711,6 +729,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.2,
         "output_per_mtok": 0.4,
         "cached_input_per_mtok": null,
@@ -972,6 +999,15 @@
         "context_window": 131072,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 2.4,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -1197,6 +1233,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.115,
+        "output_per_mtok": 0.46,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.115,
         "output_per_mtok": 0.46,
         "cached_input_per_mtok": null,
@@ -1458,6 +1503,15 @@
         "context_window": 131072,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -1713,6 +1767,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -1938,6 +2001,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.2,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.2,
         "output_per_mtok": 6.0,
         "cached_input_per_mtok": null,
@@ -2199,6 +2271,15 @@
         "context_window": 300000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.06,
+        "output_per_mtok": 0.24,
+        "cached_input_per_mtok": null,
+        "context_window": 300000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -2448,6 +2529,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.035,
+        "output_per_mtok": 0.14,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.035,
         "output_per_mtok": 0.14,
         "cached_input_per_mtok": null,
@@ -2709,6 +2799,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 12.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -2964,6 +3063,15 @@
         "context_window": 300000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 3.2,
+        "cached_input_per_mtok": null,
+        "context_window": 300000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -3213,6 +3321,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": 1.0,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 10.0,
         "output_per_mtok": 50.0,
         "cached_input_per_mtok": 1.0,
@@ -3492,6 +3609,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.08,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -3741,6 +3867,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 5.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.0,
         "output_per_mtok": 5.0,
         "cached_input_per_mtok": 0.1,
@@ -4002,6 +4137,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 75.0,
+        "cached_input_per_mtok": 1.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -4251,6 +4395,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 5.0,
         "output_per_mtok": 25.0,
         "cached_input_per_mtok": 0.5,
@@ -4512,6 +4665,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -4761,6 +4923,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 5.0,
         "output_per_mtok": 25.0,
         "cached_input_per_mtok": 0.5,
@@ -5022,6 +5193,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -5271,6 +5451,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.3,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 3.0,
         "output_per_mtok": 15.0,
         "cached_input_per_mtok": 0.3,
@@ -5532,6 +5721,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.3,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -5757,6 +5955,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.07,
+        "output_per_mtok": 0.07,
+        "cached_input_per_mtok": null,
+        "context_window": 32768,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.07,
         "output_per_mtok": 0.07,
         "cached_input_per_mtok": null,
@@ -6007,6 +6214,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -6232,6 +6448,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.5,
         "output_per_mtok": 1.5,
         "cached_input_per_mtok": null,
@@ -6493,6 +6718,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -6748,6 +6982,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -6979,6 +7222,15 @@
         "context_window": null,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.12,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -7204,6 +7456,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.02,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -7453,6 +7714,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.14,
+        "output_per_mtok": 0.28,
+        "cached_input_per_mtok": 0.0028,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -7690,6 +7960,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.435,
+        "output_per_mtok": 0.87,
+        "cached_input_per_mtok": 0.003625,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.435,
         "output_per_mtok": 0.87,
         "cached_input_per_mtok": 0.003625,
@@ -7939,6 +8218,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.14,
+        "output_per_mtok": 0.28,
+        "cached_input_per_mtok": 0.028,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -8176,6 +8464,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.74,
+        "output_per_mtok": 3.48,
+        "cached_input_per_mtok": 0.145,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.74,
         "output_per_mtok": 3.48,
         "cached_input_per_mtok": 0.145,
@@ -8421,6 +8718,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.26,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.4,
         "output_per_mtok": 4.4,
         "cached_input_per_mtok": 0.26,
@@ -8686,6 +8992,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.14,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -8929,6 +9244,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": 0.015,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -9166,6 +9490,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.07,
+        "output_per_mtok": 0.3,
+        "cached_input_per_mtok": 0.035,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.07,
         "output_per_mtok": 0.3,
         "cached_input_per_mtok": 0.035,
@@ -9417,6 +9750,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -9656,6 +9998,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.16,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.95,
         "output_per_mtok": 4.0,
         "cached_input_per_mtok": 0.16,
@@ -9907,6 +10258,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.19,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -10132,6 +10492,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": 0.03,
@@ -10383,6 +10752,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -10626,6 +11004,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -10857,6 +11244,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 2.4,
+        "cached_input_per_mtok": 0.12,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -11082,6 +11478,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.5,
         "output_per_mtok": 3.0,
         "cached_input_per_mtok": 0.1,
@@ -11327,6 +11732,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.6,
+        "cached_input_per_mtok": 0.08,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.4,
         "output_per_mtok": 1.6,
         "cached_input_per_mtok": 0.08,
@@ -11609,6 +12023,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -11858,6 +12281,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.4,
         "cached_input_per_mtok": null,
@@ -12119,6 +12551,15 @@
         "context_window": 2000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 2000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -12344,6 +12785,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 2.5,
         "cached_input_per_mtok": null,
@@ -12617,6 +13067,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -12870,6 +13329,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 12.0,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 2000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 12.0,
         "cached_input_per_mtok": 0.2,
@@ -13131,6 +13599,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 9.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -13356,6 +13833,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.025,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": 2048,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.025,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -13643,6 +14129,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -13918,6 +14413,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.075,
+        "output_per_mtok": 0.3,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.075,
         "output_per_mtok": 0.3,
         "cached_input_per_mtok": null,
@@ -14205,6 +14709,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.08,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -14468,6 +14981,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.59,
+        "output_per_mtok": 0.79,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.59,
         "output_per_mtok": 0.79,
         "cached_input_per_mtok": null,
@@ -14743,6 +15265,15 @@
         "context_window": 10000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.11,
+        "output_per_mtok": 0.34,
+        "cached_input_per_mtok": null,
+        "context_window": 10000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -14982,6 +15513,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.6,
         "output_per_mtok": 3.0,
         "cached_input_per_mtok": null,
@@ -15257,6 +15797,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.29,
+        "output_per_mtok": 0.59,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -15488,6 +16037,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -15713,6 +16271,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.15,
         "output_per_mtok": 0.6,
         "cached_input_per_mtok": null,
@@ -15974,6 +16541,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.06,
+        "output_per_mtok": 0.25,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -16199,6 +16775,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.017,
+        "output_per_mtok": 0.112,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.017,
         "output_per_mtok": 0.112,
         "cached_input_per_mtok": null,
@@ -16436,6 +17021,15 @@
         "context_window": null,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.106,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -16661,6 +17255,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.08,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.05,
         "output_per_mtok": 0.08,
         "cached_input_per_mtok": null,
@@ -16898,6 +17501,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.59,
+        "output_per_mtok": 0.79,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -17123,6 +17735,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.11,
+        "output_per_mtok": 0.34,
+        "cached_input_per_mtok": null,
+        "context_window": 10000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.11,
         "output_per_mtok": 0.34,
         "cached_input_per_mtok": null,
@@ -17384,6 +18005,15 @@
         "context_window": 205000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 205000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -17633,6 +18263,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 205000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": 0.03,
@@ -17894,6 +18533,15 @@
         "context_window": 205000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 205000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -18119,6 +18767,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 205000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": 0.06,
@@ -18392,6 +19049,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -18617,6 +19283,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 0.9,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 0.9,
         "cached_input_per_mtok": null,
@@ -18878,6 +19553,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 0.9,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -19103,6 +19787,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.4,
         "output_per_mtok": 2.0,
         "cached_input_per_mtok": null,
@@ -19348,6 +20041,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 5.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 5.0,
         "cached_input_per_mtok": null,
@@ -19609,6 +20311,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.1,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -19864,6 +20575,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -20109,6 +20829,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -20346,6 +21075,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.5,
         "output_per_mtok": 7.5,
         "cached_input_per_mtok": null,
@@ -20618,6 +21356,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.3,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -20843,6 +21590,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.15,
         "output_per_mtok": 0.6,
         "cached_input_per_mtok": null,
@@ -21088,6 +21844,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 64000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 6.0,
         "cached_input_per_mtok": null,
@@ -21374,6 +22139,15 @@
         "context_window": 32000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.7,
+        "output_per_mtok": 0.7,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -21623,6 +22397,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.1,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.1,
         "cached_input_per_mtok": null,
@@ -21884,6 +22667,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -22109,6 +22901,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.3,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.3,
         "cached_input_per_mtok": null,
@@ -22370,6 +23171,15 @@
         "context_window": 262144,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -22625,6 +23435,15 @@
         "context_window": 262144,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.16,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -22850,6 +23669,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.19,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.95,
         "output_per_mtok": 4.0,
         "cached_input_per_mtok": 0.19,
@@ -23087,6 +23915,15 @@
         "context_window": 262144,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.9,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": 0.38,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -23312,6 +24149,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.6,
         "output_per_mtok": 3.6,
         "cached_input_per_mtok": null,
@@ -23549,6 +24395,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": 0.12,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -23774,6 +24629,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.2,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.2,
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": null,
@@ -24029,6 +24893,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 8.0,
         "cached_input_per_mtok": 0.5,
@@ -24304,6 +25177,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.6,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -24573,6 +25455,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": 0.025,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -24822,6 +25713,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.25,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.5,
         "output_per_mtok": 15.0,
         "cached_input_per_mtok": 0.25,
@@ -25083,6 +25983,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 4.5,
+        "cached_input_per_mtok": 0.075,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -25332,6 +26241,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 5.0,
         "output_per_mtok": 30.0,
         "cached_input_per_mtok": 0.5,
@@ -25599,6 +26517,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 8.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": 2.0,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -25854,6 +26781,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 4.0,
+        "output_per_mtok": 24.0,
+        "cached_input_per_mtok": 0.4,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -26103,6 +27039,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.1,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.55,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.1,
         "output_per_mtok": 4.4,
         "cached_input_per_mtok": 0.55,
@@ -26378,6 +27323,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.1,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.275,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -26627,6 +27581,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.13,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.13,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -26888,6 +27851,15 @@
         "context_window": 8192,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -27137,6 +28109,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 1.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.0,
         "output_per_mtok": 1.0,
         "cached_input_per_mtok": null,
@@ -27398,6 +28379,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -27647,6 +28637,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 3.0,
         "output_per_mtok": 15.0,
         "cached_input_per_mtok": null,
@@ -27908,6 +28907,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -28133,6 +29141,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 6.0,
         "cached_input_per_mtok": null,
@@ -28370,6 +29387,15 @@
         "context_window": 66000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.1,
+        "cached_input_per_mtok": null,
+        "context_window": 66000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -28595,6 +29621,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.8,
         "output_per_mtok": 2.0,
         "cached_input_per_mtok": null,
@@ -28832,6 +29867,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.74,
+        "output_per_mtok": 3.48,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -29057,6 +30101,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.26,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.4,
         "output_per_mtok": 4.4,
         "cached_input_per_mtok": 0.26,
@@ -29294,6 +30347,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.28,
+        "output_per_mtok": 0.86,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -29525,6 +30587,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.95,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.19,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -29750,6 +30821,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.03,
+        "output_per_mtok": 0.12,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.03,
         "output_per_mtok": 0.12,
         "cached_input_per_mtok": null,
@@ -30011,6 +31091,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.04,
+        "output_per_mtok": 1.04,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -30236,6 +31325,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": 0.06,
@@ -30473,6 +31571,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.06,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -30698,6 +31805,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.6,
         "output_per_mtok": 3.6,
         "cached_input_per_mtok": 0.2,
@@ -30959,6 +32075,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": 0.35,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -31190,6 +32315,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 3.75,
+        "cached_input_per_mtok": 0.13,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -31415,6 +32549,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.32,
+        "output_per_mtok": 1.28,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.32,
         "output_per_mtok": 1.28,
         "cached_input_per_mtok": null,
@@ -31676,6 +32819,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -31925,6 +33077,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.05,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -32186,6 +33347,15 @@
         "context_window": null,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -32411,6 +33581,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.06,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.06,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -32648,6 +33827,15 @@
         "context_window": null,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.12,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -32873,6 +34061,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.02,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -33134,6 +34331,15 @@
         "context_window": 32000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.18,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -33389,6 +34595,15 @@
         "context_window": 32000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.18,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -33614,6 +34829,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.12,
+        "output_per_mtok": null,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.12,
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
@@ -33859,6 +35083,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.1,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.1,
         "cached_input_per_mtok": null,
@@ -34120,6 +35353,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 2.2,
+        "cached_input_per_mtok": 0.11,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -34369,6 +35611,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.1,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.2,
         "output_per_mtok": 1.1,
         "cached_input_per_mtok": 0.03,
@@ -34630,6 +35881,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 2.2,
+        "cached_input_per_mtok": 0.11,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -34855,6 +36115,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 0.9,
+        "cached_input_per_mtok": 0.05,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 0.9,
         "cached_input_per_mtok": 0.05,
@@ -35116,6 +36385,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 2.2,
+        "cached_input_per_mtok": 0.11,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -35347,6 +36625,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.0,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": 0.0,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -35572,6 +36859,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.07,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": 0.01,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.07,
         "output_per_mtok": 0.4,
         "cached_input_per_mtok": 0.01,
@@ -35833,6 +37129,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 3.2,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -36058,6 +37363,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.2,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.24,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.2,
         "output_per_mtok": 4.0,
         "cached_input_per_mtok": 0.24,
@@ -36295,6 +37609,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.26,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -36520,6 +37843,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.26,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.4,
         "output_per_mtok": 4.4,
         "cached_input_per_mtok": 0.26,
@@ -36757,6 +38089,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.2,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": 0.24,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -36982,6 +38323,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.03,
+        "output_per_mtok": 0.03,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.03,
         "output_per_mtok": 0.03,
         "cached_input_per_mtok": null,
@@ -37243,6 +38593,15 @@
         "context_window": 256000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -37498,6 +38857,15 @@
         "context_window": 2000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 0.5,
+        "cached_input_per_mtok": null,
+        "context_window": 2000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -37723,6 +39091,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 6.0,
         "cached_input_per_mtok": null,
@@ -37984,6 +39361,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -38209,6 +39595,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.0,
         "output_per_mtok": 2.0,
         "cached_input_per_mtok": null,
@@ -38446,6 +39841,15 @@
         "context_window": 200000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": 1.0,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -38659,6 +40063,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 2.0,
         "output_per_mtok": 10.0,
         "cached_input_per_mtok": 0.2,
@@ -38885,6 +40298,15 @@
         "context_window": 1050000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": 3.0,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -39099,6 +40521,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 180.0,
+        "cached_input_per_mtok": 3.0,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 30.0,
         "output_per_mtok": 180.0,
         "cached_input_per_mtok": 3.0,
@@ -39325,6 +40756,15 @@
         "context_window": 400000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 1.25,
+        "cached_input_per_mtok": 0.02,
+        "context_window": 400000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -39539,6 +40979,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": 0.175,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.75,
         "output_per_mtok": 14.0,
         "cached_input_per_mtok": 0.175,
@@ -39765,6 +41214,15 @@
         "context_window": 400000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": 0.175,
+        "context_window": 400000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -39930,6 +41388,15 @@
         "context_window": 262144,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 2.95,
+        "cached_input_per_mtok": 0.015,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -40071,6 +41538,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": 0.175,
+        "context_window": 400000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.75,
         "output_per_mtok": 14.0,
         "cached_input_per_mtok": 0.175,
@@ -40224,6 +41700,15 @@
         "context_window": 400000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 21.0,
+        "output_per_mtok": 168.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -40365,6 +41850,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": 0.175,
+        "context_window": 400000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 1.75,
         "output_per_mtok": 14.0,
         "cached_input_per_mtok": 0.175,
@@ -40518,6 +42012,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.75,
+        "output_per_mtok": 14.0,
+        "cached_input_per_mtok": 0.175,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -40659,6 +42162,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": 0.05,
+        "context_window": 1048576,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.5,
         "output_per_mtok": 3.0,
         "cached_input_per_mtok": 0.05,
@@ -40812,6 +42324,15 @@
         "context_window": 262144,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.147,
+        "output_per_mtok": 0.588,
+        "cached_input_per_mtok": 0.037,
+        "context_window": 262144,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -40959,6 +42480,15 @@
         "context_window": 500000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": null,
+        "context_window": 500000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41091,6 +42621,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": 0.5,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 5.0,
         "output_per_mtok": 30.0,
         "cached_input_per_mtok": 0.5,
@@ -41235,6 +42774,15 @@
         "context_window": 1050000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.25,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41373,6 +42921,15 @@
         "context_window": 1050000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41496,6 +43053,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.09,
+        "output_per_mtok": 0.18,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.09,
         "output_per_mtok": 0.18,
         "cached_input_per_mtok": null,
@@ -41631,6 +43197,15 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.08,
+        "output_per_mtok": 0.28,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41754,6 +43329,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.3,
+        "cached_input_per_mtok": null,
+        "context_window": 10000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.1,
         "output_per_mtok": 0.3,
         "cached_input_per_mtok": null,
@@ -41889,6 +43473,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41964,6 +43557,15 @@
         "context_window": 1048576,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.3,
+        "context_window": 1048576,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -41994,6 +43596,15 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      },
+      {
+        "date": "2026-07-23",
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
       }
     ]
   },
@@ -42018,6 +43629,15 @@
       },
       {
         "date": "2026-07-22",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      },
+      {
+        "date": "2026-07-23",
         "input_per_mtok": 0.3,
         "output_per_mtok": 2.5,
         "cached_input_per_mtok": null,
