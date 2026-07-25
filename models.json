@@ -1701,7 +1701,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "17B (16 experts)",
-    "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference — a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$1.00 per 1M tokens.",
+    "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference — a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$0.34 per 1M tokens.",
     "pricing_url": "https://groq.com/pricing",
     "tags": [
       "fast",
