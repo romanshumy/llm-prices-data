@@ -440,7 +440,7 @@
     "input_per_mtok": 5.0,
     "output_per_mtok": 25.0,
     "cached_input_per_mtok": 0.5,
-    "context_window": 200000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"
@@ -449,7 +449,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's Opus 4.6 — a frontier model with class-leading coding (~80.8% SWE-bench Verified) and standout legal/enterprise reasoning (top BigLaw Bench score). 200K context, prompt caching up to 90% off. $5/$25 per 1M tokens.",
+    "description": "Anthropic's Opus 4.6 — a frontier model with class-leading coding (~80.8% SWE-bench Verified) and standout legal/enterprise reasoning (top BigLaw Bench score). 1M context, prompt caching up to 90% off. $5/$25 per 1M tokens.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -468,7 +468,7 @@
     "input_per_mtok": 5.0,
     "output_per_mtok": 25.0,
     "cached_input_per_mtok": 0.5,
-    "context_window": 200000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"
@@ -477,7 +477,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's most capable generally available Opus, tuned for advanced software engineering, long-horizon autonomy, instruction-following, and high-resolution multimodal understanding. 200K context. $5/$25 per 1M tokens.",
+    "description": "Anthropic's most capable generally available Opus, tuned for advanced software engineering, long-horizon autonomy, instruction-following, and high-resolution multimodal understanding. 1M context. $5/$25 per 1M tokens.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -496,7 +496,7 @@
     "input_per_mtok": 5.0,
     "output_per_mtok": 25.0,
     "cached_input_per_mtok": 0.5,
-    "context_window": 200000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"
@@ -517,6 +517,35 @@
     "source": "firecrawl_scrape",
     "released_source": "https://www.anthropic.com/news/claude-opus-4-8",
     "released_verified": "2026-06-27"
+  },
+  {
+    "id": "anthropic-claude-opus-5",
+    "provider": "Anthropic",
+    "model": "Claude Opus 5",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 25.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's newest Opus flagship, launched 2026-07-24. Anthropic says it approaches Claude Fable 5's frontier intelligence at about half the price, with state-of-the-art coding and knowledge-work benchmarks and a 2.5x-speed Fast mode. $5/$25 per 1M tokens, full 1M-token context.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": true,
+    "last_updated": "2026-07-24",
+    "released_source": "https://www.anthropic.com/news/claude-opus-5",
+    "released_verified": "2026-07-24"
   },
   {
     "id": "anthropic-claude-sonnet-45",
@@ -554,7 +583,7 @@
     "input_per_mtok": 3.0,
     "output_per_mtok": 15.0,
     "cached_input_per_mtok": 0.3,
-    "context_window": 200000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"
@@ -4393,7 +4422,7 @@
     "input_per_mtok": 10.0,
     "output_per_mtok": 50.0,
     "cached_input_per_mtok": 1.0,
-    "context_window": 200000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"

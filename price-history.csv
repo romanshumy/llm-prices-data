@@ -620,6 +620,7 @@ anthropic-claude-opus-48,Claude Opus 4.8,Anthropic,2026-07-22,snapshot,,5.0,25.0
 anthropic-claude-opus-48,Claude Opus 4.8,Anthropic,2026-07-23,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-48,Claude Opus 4.8,Anthropic,2026-07-24,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-48,Claude Opus 4.8,Anthropic,2026-07-25,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-07-25,new_model,verified (07-24 official page re-affirmed; pricing unchanged),5.0,25.0,
 anthropic-claude-sonnet-45,Claude Sonnet 4.5,Anthropic,2025-10-06,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-45,Claude Sonnet 4.5,Anthropic,2026-06-23,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-45,Claude Sonnet 4.5,Anthropic,2026-06-25,baseline,,3.0,15.0,0.3

@@ -46886,5 +46886,26 @@
         "changes": []
       }
     ]
+  },
+  "anthropic-claude-opus-5": {
+    "model": "Claude Opus 5",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-07-25",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 25.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified (07-24 official page re-affirmed; pricing unchanged)",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "captured_at": "2026-07-25T17:33:33Z",
+        "snapshot": "data/evidence/anthropic-claude-opus-5/2026-07-25.txt",
+        "sha": "5b94035248"
+      }
+    ]
   }
 }

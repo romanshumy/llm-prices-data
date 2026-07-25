@@ -4,6 +4,10 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-25
+
+- **Claude Opus 5** (Anthropic) launched — $5.0 in / $25.0 out per 1M tokens
+
 ## 2026-07-21
 
 - **Gemini 3.6 Flash** (Google) launched — $1.5 in / $7.5 out per 1M tokens
