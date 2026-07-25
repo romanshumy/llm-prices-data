@@ -188,6 +188,34 @@
     "last_updated": "2026-06-27"
   },
   {
+    "id": "alibaba-qwen3-7-max",
+    "provider": "Alibaba",
+    "model": "Qwen3.7-Max",
+    "category": "flagship",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 7.5,
+    "cached_input_per_mtok": 0.25,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-20",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's current proprietary flagship — a reasoning-first agent model with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). $2.50/$7.50 per 1M tokens list; cached input $0.25 (90% off). Text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "tags": [
+      "flagship",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-07-25",
+    "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
+    "released_verified": "2026-07-25",
+    "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked)."
+  },
+  {
     "id": "amazon-nova-lite",
     "provider": "Amazon",
     "model": "Nova Lite",
@@ -3643,19 +3671,19 @@
     ],
     "released": "2026-05-20",
     "status": "Current",
-    "open_source": true,
+    "open_source": false,
     "parameters": null,
-    "description": "Alibaba's flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. Text-only. $1.25/$3.75 per 1M tokens via Together.",
+    "description": "Alibaba's proprietary flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). Text-only. Together lists it at $1.25/$3.75 per 1M tokens — Alibaba's 50% launch promo off the $2.50/$7.50 list.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
-      "mid-tier",
-      "open-weights"
+      "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-25",
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
-    "released_verified": "2026-06-27"
+    "released_verified": "2026-07-25",
+    "price_note": "$1.25 in / $3.75 out reflects Alibaba's 50% launch promo; list price $2.50/$7.50 (tracked on the first-party alibaba-qwen3-7-max row)."
   },
   {
     "id": "together-qwen37-plus",

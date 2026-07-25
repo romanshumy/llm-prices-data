@@ -46907,5 +46907,26 @@
         "sha": "5b94035248"
       }
     ]
+  },
+  "alibaba-qwen3-7-max": {
+    "model": "Qwen3.7-Max",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-07-25",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "vendor+editorial",
+        "confidence": "verified",
+        "evidence_url": "https://www.yottalabs.ai/post/qwen-3-7-max-release-date-features-open-source-status-and-how-to-access-2026",
+        "captured_at": "2026-07-25T21:21:49Z",
+        "snapshot": "data/evidence/alibaba-qwen3-7-max/2026-07-25.txt",
+        "sha": "8dc77a2886"
+      }
+    ]
   }
 }

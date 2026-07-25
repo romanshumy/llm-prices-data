@@ -6,6 +6,7 @@ links back to the provider's official pricing page on the site.
 
 ## 2026-07-25
 
+- **Qwen3.7-Max** (Alibaba) launched — $2.5 in / $7.5 out per 1M tokens
 - **Claude Opus 5** (Anthropic) launched — $5.0 in / $25.0 out per 1M tokens
 
 ## 2026-07-21
