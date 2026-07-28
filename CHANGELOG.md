@@ -4,6 +4,10 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-28
+
+- **Qwen-Flash** price change: ? → ?
+
 ## 2026-07-25
 
 - **Qwen3.7-Max** (Alibaba) launched — $2.5 in / $7.5 out per 1M tokens

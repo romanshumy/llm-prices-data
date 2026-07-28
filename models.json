@@ -93,7 +93,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Qwen reasoning model (QwQ). $0.80/$2.40 per 1M tokens.",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "reasoning"
     ],
@@ -106,8 +106,8 @@
     "provider": "Alibaba",
     "model": "Qwen-Flash",
     "category": "budget",
-    "input_per_mtok": 0.115,
-    "output_per_mtok": 0.46,
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.4,
     "cached_input_per_mtok": null,
     "context_window": 1000000,
     "modality": [
@@ -117,13 +117,14 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Fast Qwen model. $0.115/$0.46 per 1M tokens, 1M context.",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "description": "Fast Qwen model. $0.05/$0.40 per 1M tokens, 1M context.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($0.25/$2.00).",
     "tags": [
       "budget",
       "fast"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-28",
     "status_verified": null,
     "status_source": null
   },
@@ -144,7 +145,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Balanced Qwen model. ~$0.40/$1.20 per 1M tokens.",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "mid-tier"
     ],
@@ -169,7 +170,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Cheapest Qwen text tier. ~$0.05/$0.20 per 1M tokens.",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "budget",
       "fast"
@@ -195,7 +196,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Alibaba's flagship Qwen model. $1.20/$4.80 per 1M tokens (\u2264128K context).",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "flagship"
     ],
@@ -220,7 +221,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Alibaba's current proprietary flagship \u2014 a reasoning-first agent model with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). $2.50/$7.50 per 1M tokens list; cached input $0.25 (90% off). Text-only.",
-    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/models",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "flagship",
       "caching"
