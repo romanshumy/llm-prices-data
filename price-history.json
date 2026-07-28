@@ -1471,29 +1471,21 @@
         "output_per_mtok": 0.4,
         "cached_input_per_mtok": null,
         "context_window": 1000000,
-        "event": "price_drop",
-        "changes": [
-          {
-            "field": "input_per_mtok",
-            "old": 0.115,
-            "new": 0.05,
-            "direction": "down",
-            "change_pct": -56.5
-          },
-          {
-            "field": "output_per_mtok",
-            "old": 0.46,
-            "new": 0.4,
-            "direction": "down",
-            "change_pct": -13.0
-          }
-        ],
+        "event": "correction",
+        "changes": [],
         "source": "verified",
         "confidence": "verified",
         "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
         "captured_at": "2026-07-28T09:26:03Z",
         "snapshot": "data/evidence/alibaba-qwen-flash/2026-07-28.txt",
-        "sha": "ecb82789b6"
+        "sha": "ecb82789b6",
+        "supersedes_from": "2026-06-25",
+        "supersedes_to": "2026-07-28",
+        "corrected_from": {
+          "input_per_mtok": 0.115,
+          "output_per_mtok": 0.46
+        },
+        "note": "Published $0.115/$0.46 matched no qwen-flash price in any Alibaba region or tier. Alibaba Model Studio lists qwen-flash International (Singapore) at $0.05 in / $0.40 out for the 0<Token≤256K tier (256K–1M tier bills $0.25/$2.00). Data correction, not a market move: Alibaba did not cut this price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Root cause: all 6 Alibaba rows cited /model-studio/models, a page carrying no prices, so the row could never be re-verified (MOD-424)."
       }
     ]
   },
