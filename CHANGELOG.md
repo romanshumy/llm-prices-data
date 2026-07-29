@@ -4,9 +4,14 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-07-29
+
+- **Grok 4.20** price change: ? → ?
+
 ## 2026-07-28
 
 - **Qwen-Flash** price change: ? → ?
+- **Llama 4 Maverick** price change: ? → ?
 
 ## 2026-07-25
 
