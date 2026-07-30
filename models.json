@@ -98,8 +98,8 @@
       "reasoning"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
     "id": "alibaba-qwen-flash",
@@ -125,8 +125,8 @@
       "fast"
     ],
     "last_updated": "2026-07-28",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
     "id": "alibaba-qwen-plus",
@@ -150,8 +150,8 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
     "id": "alibaba-qwen-turbo",
@@ -176,8 +176,9 @@
       "fast"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "superseded_by": "alibaba-qwen-flash"
   },
   {
     "id": "alibaba-qwen3-max",
@@ -201,8 +202,8 @@
       "flagship"
     ],
     "last_updated": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
     "id": "alibaba-qwen3-7-max",
@@ -231,8 +232,8 @@
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "released_verified": "2026-07-25",
     "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked).",
-    "status_verified": "2026-07-25",
-    "status_source": "https://www.yottalabs.ai/post/qwen-3-7-max-release-date-features-open-source-status-and-how-to-access-2026"
+    "status_verified": "2026-07-30",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
     "id": "amazon-nova-lite",
