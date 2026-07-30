@@ -1557,7 +1557,7 @@
           "input_per_mtok": 0.115,
           "output_per_mtok": 0.46
         },
-        "note": "Published $0.115/$0.46 matched no qwen-flash price in any Alibaba region or tier. Alibaba Model Studio lists qwen-flash International (Singapore) at $0.05 in / $0.40 out for the 0<Token≤256K tier (256K–1M tier bills $0.25/$2.00). Data correction, not a market move: Alibaba did not cut this price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Root cause: all 6 Alibaba rows cited /model-studio/models, a page carrying no prices, so the row could never be re-verified (MOD-424)."
+        "note": "Published $0.115/$0.46 matched no qwen-flash price in any Alibaba region or tier. Alibaba Model Studio lists qwen-flash International (Singapore) at $0.05 in / $0.40 out for the 0<Token≤256K tier (256K–1M tier bills $0.25/$2.00). Data correction, not a market move: Alibaba did not cut this price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Root cause: all 6 Alibaba rows cited /model-studio/models, a page carrying no prices, so the row could never be re-verified."
       },
       {
         "date": "2026-07-29",
@@ -7507,7 +7507,7 @@
           "input_per_mtok": 1.0,
           "output_per_mtok": 2.0
         },
-        "note": "2026-06-25 hand baseline copied Cohere's legacy 'Command' FAQ row ($1/$2) onto Command A; the Cohere API surface lists $2.50/$10 (verified against LiteLLM current 2026-07-04; Vercel AI Gateway pass-through matches). Data correction, not a market move; supersedes the phantom baseline+carry-forward span. Flagged by the MOD-169 backfill audit.",
+        "note": "2026-06-25 hand baseline copied Cohere's legacy 'Command' FAQ row ($1/$2) onto Command A; the Cohere API surface lists $2.50/$10 (verified against LiteLLM current 2026-07-04; Vercel AI Gateway pass-through matches). Data correction, not a market move; supersedes the wrong baseline and carried-forward span.",
         "source": "litellm-current",
         "confidence": "verified",
         "evidence_url": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
@@ -15663,309 +15663,6 @@
       }
     ]
   },
-  "google-gemini-31-flash": {
-    "model": "Gemini 3.1 Flash",
-    "provider": "Google",
-    "history": [
-      {
-        "date": "2026-06-25",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "baseline",
-        "changes": []
-      },
-      {
-        "date": "2026-06-29",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-06-30",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-01",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-02",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-03",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-04",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-05",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-06",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-07",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-08",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-09",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-10",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-11",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-12",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-13",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-14",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-15",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-16",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-17",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-18",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-19",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-20",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-21",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-22",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-23",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-24",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-25",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-26",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-27",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-28",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-29",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      },
-      {
-        "date": "2026-07-30",
-        "input_per_mtok": 0.3,
-        "output_per_mtok": 2.5,
-        "cached_input_per_mtok": null,
-        "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
-      }
-    ]
-  },
   "google-gemini-31-flash-lite": {
     "model": "Gemini 3.1 Flash-Lite",
     "provider": "Google",
@@ -17404,7 +17101,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -17780,7 +17477,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -18156,7 +17853,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -18520,7 +18217,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -18884,7 +18581,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -19224,7 +18921,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: same 2026-06-25 unsourced $1.00 placeholder cluster. Qwen 3.6 27B entered our dataset ON 2026-06-25 (its first-ever point was the placeholder), so there is NO pre-artifact verified value. The span is reconstructed to the first VERIFIED price ($3.00, 2026-07-04, assumed stable across the ~9-day gap) rather than fabricating a +200% move off the placeholder. Disclosed assumption; the current live price is unaffected."
+        "note": "Same 2026-06-25 unsourced $1.00 placeholder cluster. Qwen 3.6 27B entered our dataset ON 2026-06-25 (its first-ever point was the placeholder), so there is NO pre-artifact verified value. The span is reconstructed to the first VERIFIED price ($3.00, 2026-07-04, assumed stable across the ~9-day gap) rather than fabricating a +200% move off the placeholder. Disclosed assumption; the current live price is unaffected."
       },
       {
         "date": "2026-07-05",
@@ -19588,7 +19285,7 @@
           "output_per_mtok": 1.0
         },
         "correction_ref": "MOD-387",
-        "note": "MOD-387: a 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
+        "note": "A 2026-06-25 scrape wrote an unsourced output_per_mtok=$1.00 placeholder into all 7 tracked Groq models at once and held it across six snapshots until a verified scrape reverted it on 2026-07-04. The identical $1.00 across a whole provider, with no `source` field, is a scrape/parse fallback, not a market move (it manufactured 12 phantom price moves incl. a +707.7% on Llama 3.1 8B Instant). The true output price was unchanged across the span (verified equal on both sides of the gap). Data correction: the phantom span is flattened to the true value; this boundary point is relabeled from a price-move event to `correction` and supersedes the placeholder span."
       },
       {
         "date": "2026-07-05",
@@ -48913,7 +48610,7 @@
           "input_per_mtok": 2.0,
           "output_per_mtok": 6.0
         },
-        "note": "Published $2.00/$6.00 was grok-4.5's price, not grok-4.20's. xAI's official per-model table (docs.x.ai/docs/pricing, receipt sha 8cea267d7b) lists Grok 4.20 at $1.25 in / $2.50 out (cached $0.20); grok-4.5 is the $2.00/$6.00 SKU. Our prior receipt anchored on developers/models, which renders only grok-4.5's hero price, so a sibling's number was published on this row (MOD-427 class). Data correction, not a market move: xAI did not cut Grok 4.20's price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Corroborated by the docs/models embedded JSON (grok-4.20 12500/25000 per-token = $1.25/$2.50) and OpenRouter x-ai/grok-4.20 ($1.25/$2.50). MOD-436."
+        "note": "Published $2.00/$6.00 was grok-4.5's price, not grok-4.20's. xAI's official per-model table (docs.x.ai/docs/pricing, receipt sha 8cea267d7b) lists Grok 4.20 at $1.25 in / $2.50 out (cached $0.20); grok-4.5 is the $2.00/$6.00 SKU. Our prior receipt anchored on developers/models, which renders only grok-4.5's hero price, so a sibling model's number was published on this row. Data correction, not a market move: xAI did not cut Grok 4.20's price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Corroborated by the docs/models embedded JSON (grok-4.20 12500/25000 per-token = $1.25/$2.50) and OpenRouter x-ai/grok-4.20 ($1.25/$2.50)."
       },
       {
         "date": "2026-07-29",
@@ -54815,7 +54512,7 @@
           "output_per_mtok": 0.6
         },
         "correction_ref": "MOD-428",
-        "note": "Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 (first-party, data/evidence/deepinfra-llama-4-maverick/2026-07-27.txt line 103). The 07-15 and 07-20 'verified' points carried a blind 8 KB-prefix receipt that never contained the model row (MOD-424/MOD-427 root cause), so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong new_model baseline + carry-forward span (MOD-428)."
+        "note": "Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 (first-party, data/evidence/deepinfra-llama-4-maverick/2026-07-27.txt line 103). The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span."
       },
       {
         "date": "2026-07-29",

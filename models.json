@@ -1495,40 +1495,6 @@
     "availability_note": "Google publishes this as the EARLIEST possible retirement date."
   },
   {
-    "id": "google-gemini-31-flash",
-    "provider": "Google",
-    "model": "Gemini 3.1 Flash",
-    "category": "mid-tier",
-    "input_per_mtok": 0.3,
-    "output_per_mtok": 2.5,
-    "cached_input_per_mtok": null,
-    "context_window": 1000000,
-    "modality": [
-      "text",
-      "image",
-      "audio",
-      "video"
-    ],
-    "released": "2025-11-01",
-    "status": "Retired",
-    "open_source": false,
-    "parameters": null,
-    "description": "Unverified phantom SKU: Google never shipped a standalone 'Gemini 3.1 Flash'. Do not cite the $0.30/$2.50 shown — see availability note.",
-    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
-    "tags": [
-      "mid-tier",
-      "multimodal",
-      "fast",
-      "retired"
-    ],
-    "last_updated": "2026-07-28",
-    "retired_on": "2026-07-28",
-    "superseded_by": "google-gemini-31-flash-lite",
-    "status_verified": "2026-07-28",
-    "status_source": "https://ai.google.dev/gemini-api/docs/pricing",
-    "availability_note": "Data error, not a real model. Google's pricing page (verified 2026-07-28 by grepping the raw page text) ships no standalone 'Gemini 3.1 Flash': the 3.1 tier is Flash-Lite / Flash Image / Flash Live Preview / Flash TTS Preview only, and plain 'Flash' resumes at 3.5 and 3.6. LiteLLM likewise has no gemini-3.1-flash entry. The $0.30/$2.50 shown was carried over from Gemini 2.5 Flash on the 2026-06-25 baseline and was never first-party-verified — treat any price attributed to Gemini 3.1 Flash as WRONG. Retired as an unverifiable phantom (MOD-428); for a real Google 3.1 Flash-class model use Gemini 3.1 Flash-Lite."
-  },
-  {
     "id": "google-gemini-31-flash-lite",
     "provider": "Google",
     "model": "Gemini 3.1 Flash-Lite",
@@ -1687,7 +1653,7 @@
     "released_verified": "2026-07-21",
     "status_verified": "2026-07-28",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing",
-    "price_note": "First-party verified 2026-07-28 by grepping the raw ai.google.dev/gemini-api/docs/pricing page: the Gemini 3.5 Flash-Lite Standard paid tier is $0.30/1M input, $2.50/1M output, $0.03/1M context caching (batch tier $0.15/$1.25). The identical $0.30/$2.50 fingerprint shared with the retired Gemini 3.1 Flash / deprecated 2.5 Flash is a coincidence of Google's uniform Flash-Lite tier pricing, not a placeholder — the value is real and matches LiteLLM gemini/gemini-3.5-flash-lite. (MOD-429)"
+    "price_note": "Verified against Google's Gemini API pricing page (ai.google.dev) on 2026-07-28: the Gemini 3.5 Flash-Lite Standard paid tier is $0.30/1M input, $2.50/1M output, $0.03/1M context caching (batch tier $0.15/$1.25). The identical $0.30/$2.50 price shared with the deprecated Gemini 2.5 Flash reflects Google's uniform Flash tier pricing, not a placeholder — the value matches LiteLLM gemini/gemini-3.5-flash-lite."
   },
   {
     "id": "google-text-embedding-004",
@@ -2180,7 +2146,7 @@
     "superseded_by": "minimax-m27",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (2026-07-28) no longer lists a plain 'MiniMax-M2' row; its active text LLMs are MiniMax-M3 and MiniMax-M2.7 (M2.1/M2.5 sit under Legacy). LiteLLM still carries minimax/MiniMax-M2 at $0.30/$1.20, so the number is a real historical price, but MiniMax-M2 is no longer offered first-party — treat it as superseded by MiniMax-M2.7. Lifecycle correction (MOD-428), not a price move."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (2026-07-28) no longer lists a plain 'MiniMax-M2' row; its active text LLMs are MiniMax-M3 and MiniMax-M2.7 (M2.1/M2.5 sit under Legacy). LiteLLM still carries minimax/MiniMax-M2 at $0.30/$1.20, so the number is a real historical price, but MiniMax-M2 is no longer offered first-party — treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m21",
@@ -2211,7 +2177,7 @@
     "superseded_by": "minimax-m27",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (verified 2026-07-28 by grepping the raw page text) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value — but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. Dated lifecycle correction (MOD-429, sibling of MOD-428's MiniMax-M2 retirement), not a price move."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value — but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m25",
@@ -2242,7 +2208,7 @@
     "superseded_by": "minimax-m27",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (verified 2026-07-28 by grepping the raw page text) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value — but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. Dated lifecycle correction (MOD-429, sibling of MOD-428's MiniMax-M2 retirement), not a price move."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value — but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m27",
