@@ -49,6 +49,33 @@ claude mcp add --transport http modelpricewatch https://modelpricewatch.com/mcp
 
 This package is a zero-dependency stdio↔HTTPS bridge to `https://modelpricewatch.com/mcp` (streamable-http, stateless). No API key required. Data is CC-BY: cite modelpricewatch.com. The underlying JSON API is also free and CORS-open — see [modelpricewatch.com/api](https://modelpricewatch.com/api/).
 
+## Fair-use allowances
+
+Expressed **per minute**, not per day, because agent traffic is bursty: a daily quota either cuts a live conversation short or does nothing about a client stuck in a retry loop.
+
+These are allowances to design against, **not hard caps**. Tool-call metering is deliberately loose and will usually let a burst through; sustained excess may be blocked at the network edge without warning.
+
+| Plan | Tool calls / minute | Counted per |
+| --- | --- | --- |
+| Free (no key) | 20 | IP address |
+| Pro | 240 | API key |
+| Startup | 2,400 | API key |
+| Enterprise | unmetered | API key |
+
+Connecting, listing tools and pinging are counted separately at 120/min per anonymous IP, so reconnecting never spends your tool-call budget.
+
+Exceeding an allowance returns a normal MCP tool result flagged `isError` — not a transport error — carrying `Retry-After` and an explanation of how to raise the ceiling, so the assistant can tell you what happened.
+
+### Do not poll the discovery endpoint
+
+`GET https://modelpricewatch.com/mcp` returns the discovery document, and it is **the one thing here that is strictly rate limited at the edge**. It changes only when the site is deployed, so fetch it once per session and cache it. It returns an `ETag` and `Cache-Control: max-age=300`; a conditional request with `If-None-Match` gets a `304`. If you need a liveness check, every few minutes is ample — a short timer will get you throttled and tells you nothing extra.
+
+Normal tool use is `POST` and is unaffected by that limit.
+
+To raise the ceiling, send your key as `X-API-Key` or `Authorization: Bearer` (set it in the `env` block of your MCP client config). Keys are issued by request: [modelpricewatch.com/contact](https://modelpricewatch.com/contact/?subject=MCP%20Access). Plans: [modelpricewatch.com/api-pricing](https://modelpricewatch.com/api-pricing/).
+
+The pricing data itself is free and stays free — a paid tier buys throughput, a commercial license and an SLA, not access to the numbers. If you are being rate limited on bulk reads, the REST API serves the same dataset with no key at all.
+
 ## License
 
 MIT (the bridge). Pricing data: free with attribution — [modelpricewatch.com](https://modelpricewatch.com).

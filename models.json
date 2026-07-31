@@ -178,7 +178,8 @@
     "last_updated": "2026-06-25",
     "status_verified": "2026-07-30",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "superseded_by": "alibaba-qwen-flash"
+    "superseded_by": "alibaba-qwen-flash",
+    "availability_note": "Alibaba's pricing page states Qwen-Turbo \"will no longer be updated\" and recommends switching to Qwen-Flash. Still sold at the listed price \u2014 no shutdown date has been published."
   },
   {
     "id": "alibaba-qwen3-max",
