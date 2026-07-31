@@ -937,8 +937,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-07-31",
+    "status_source": "https://api-docs.deepseek.com/quick_start/pricing"
   },
   {
     "id": "deepseek-v4-pro",
@@ -4459,7 +4459,7 @@
       "budget",
       "free"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-31",
     "status_verified": null,
     "status_source": null
   },
