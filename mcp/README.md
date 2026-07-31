@@ -68,7 +68,7 @@ Exceeding an allowance returns a normal MCP tool result flagged `isError` — no
 
 ### Do not poll the discovery endpoint
 
-`GET https://modelpricewatch.com/mcp` returns the discovery document, and it is **the one thing here that is strictly rate limited at the edge**. It changes only when the site is deployed, so fetch it once per session and cache it. It returns an `ETag` and `Cache-Control: max-age=300`; a conditional request with `If-None-Match` gets a `304`. If you need a liveness check, every few minutes is ample — a short timer will get you throttled and tells you nothing extra.
+`GET https://modelpricewatch.com/mcp` returns the discovery document. It changes only when the site is deployed, so fetch it once per session and cache it — sustained polling may be throttled at the edge. It returns an `ETag` and `Cache-Control: max-age=300`; a conditional request with `If-None-Match` gets a `304`. If you need a liveness check, every few minutes is ample — a short timer buys you nothing extra.
 
 Normal tool use is `POST` and is unaffected by that limit.
 
