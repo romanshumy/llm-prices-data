@@ -3817,10 +3817,11 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-07-09",
     "open_source": true,
     "parameters": "24B (A2B)",
-    "description": "Liquid AI's LFM2 24B (A2B active) on Together. $0.03/$0.12 per 1M tokens \u2014 one of the cheapest hosted APIs.",
+    "description": "Liquid AI's LFM2 24B (A2B active) on Together. $0.03/$0.12 per 1M tokens. Retired from Together serverless 2026-07-09.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "fast",
@@ -3828,9 +3829,10 @@
       "budget"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-31",
     "status_verified": null,
-    "status_source": null
+    "status_source": "https://docs.together.ai/docs/changelog",
+    "availability_note": "Together's changelog (July 9, 2026) states LiquidAI/LFM2-24B-A2B 'has been deprecated and is no longer available on serverless'. Its named replacement, LiquidAI/LFM2.5-8B-A1B, launched the same day and is not yet tracked here. The $0.03/$0.12 shown is the real historical serverless price; it is no longer purchasable."
   },
   {
     "id": "together-llama-33-70b",
@@ -3871,19 +3873,21 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-05-01",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M2.5 on Together. $0.30/$1.20 per 1M; cached input $0.06.",
+    "description": "MiniMax M2.5 on Together. $0.30/$1.20 per 1M; cached input $0.06. Retired from Together serverless 2026-05-01.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "open-weights",
       "budget",
       "caching"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-31",
     "status_verified": null,
-    "status_source": null
+    "status_source": "https://docs.together.ai/docs/changelog",
+    "availability_note": "Together's changelog (May 1, 2026) states MiniMaxAI/MiniMax-M2.5 'has been deprecated and is no longer available on serverless'; it is absent from the current serverless model table. Together named no replacement, so none is asserted here. The first-party MiniMax-M2.5 SKU was separately retired 2026-07-28 and is tracked as minimax-m25."
   },
   {
     "id": "together-minimax-m3",
@@ -3959,10 +3963,12 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-06-29",
+    "superseded_by": "together-minimax-m3",
     "open_source": true,
     "parameters": "397B (A17B)",
-    "description": "Large MoE Qwen model (397B total, 17B active) on Together. $0.60/$3.60 per 1M tokens.",
+    "description": "Large MoE Qwen model (397B total, 17B active) on Together. $0.60/$3.60 per 1M tokens. Retired from Together serverless 2026-06-29.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
@@ -3971,9 +3977,10 @@
       "moe"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-07-31",
     "status_verified": null,
-    "status_source": null
+    "status_source": "https://docs.together.ai/docs/changelog",
+    "availability_note": "Together's changelog (June 15, 2026) scheduled Qwen/Qwen3.5-397B-A17B for removal from serverless after June 29, 2026, naming MiniMaxAI/MiniMax-M3 as the replacement; the June 29 entry confirms the removal. The model is still offered on on-demand DEDICATED endpoints, which are billed per minute — so the $0.60/$3.60 per-1M serverless price shown here is no longer obtainable."
   },
   {
     "id": "together-qwen37-max",
