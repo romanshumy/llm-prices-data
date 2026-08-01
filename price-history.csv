@@ -1951,6 +1951,7 @@ google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-07-29,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-07-30,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-07-31,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-01,snapshot,,1.25,10.0,
+google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-01,new_model,verified,0.5,60.0,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-05-25,backfill,litellm-archive,0.45,2.7,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-06-09,backfill,litellm-archive,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-06-23,backfill,litellm-archive,0.25,1.5,
@@ -1989,6 +1990,7 @@ google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-07-29,snapshot,,0
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-07-30,snapshot,,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-07-31,snapshot,,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-01,snapshot,,0.25,1.5,
+google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-01,new_model,verified,0.25,30.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-02-23,backfill,litellm-archive,2.0,12.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-06-25,baseline,,2.0,12.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-06-29,snapshot,,2.0,12.0,
@@ -2111,6 +2113,7 @@ google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-29,snapshot,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-30,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-31,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-01,snapshot,,0.5,3.0,0.05
+google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-01,new_model,verified,2.0,120.0,
 google-text-embedding-004,text-embedding-004,Google,2026-06-25,baseline,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-06-29,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-06-30,snapshot,,0.025,,

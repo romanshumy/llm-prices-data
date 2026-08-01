@@ -58330,5 +58330,68 @@
         "changes": []
       }
     ]
+  },
+  "google-gemini-3-pro-image": {
+    "model": "Gemini 3 Pro Image",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 120.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-08-01T21:26:02Z",
+        "snapshot": "data/evidence/google-gemini-3-pro-image/2026-08-01.txt",
+        "sha": "6421e85676"
+      }
+    ]
+  },
+  "google-gemini-3-1-flash-image": {
+    "model": "Gemini 3.1 Flash Image",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 60.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-08-01T21:26:02Z",
+        "snapshot": "data/evidence/google-gemini-3-1-flash-image/2026-08-01.txt",
+        "sha": "b6a69f9d01"
+      }
+    ]
+  },
+  "google-gemini-3-1-flash-lite-image": {
+    "model": "Gemini 3.1 Flash Lite Image",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": null,
+        "context_window": null,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-08-01T21:26:02Z",
+        "snapshot": "data/evidence/google-gemini-3-1-flash-lite-image/2026-08-01.txt",
+        "sha": "4df66b479e"
+      }
+    ]
   }
 }

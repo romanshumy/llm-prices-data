@@ -3,20 +3,29 @@
 Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
+A **data correction** is our own published figure being fixed — the provider
+did not re-price. It is listed here for the record, not as a market move.
+
 
 ## 2026-08-01
 
-- **GPT-5.6 Terra** price change: ? → ?
-- **GPT-5.6 Luna** price change: ? → ?
+- **GPT-5.6 Terra** price change — input $2.50 → $2.00, output $15.00 → $12.00, cached input $0.25 → $0.20 per 1M tokens
+- **GPT-5.6 Luna** price change — input $1.00 → $0.20, output $6.00 → $1.20, cached input $0.10 → $0.02 per 1M tokens
+- **Gemini 3 Pro Image** (Google) launched — $2.0 in / $120.0 out per 1M tokens
+- **Gemini 3.1 Flash Image** (Google) launched — $0.5 in / $60.0 out per 1M tokens
+- **Gemini 3.1 Flash Lite Image** (Google) launched — $0.25 in / $30.0 out per 1M tokens
 
 ## 2026-07-29
 
-- **Grok 4.20** price change: ? → ?
+- **Grok 4.20** data correction — input $2.00 → $1.25, output $6.00 → $2.50 per 1M tokens
+  - Published $2.00/$6.00 was grok-4.5's price, not grok-4.20's. xAI's official per-model table (docs.x.ai/docs/pricing, receipt sha 8cea267d7b) lists Grok 4.20 at $1.25 in / $2.50 out (cached $0.20); grok-4.5 is the $2.00/$6.00 SKU. Our prior receipt anchored on developers/models, which renders only grok-4.5's hero price, so a sibling model's number was published on this row. Data correction, not a market move: xAI did not cut Grok 4.20's price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Corroborated by the docs/models embedded JSON (grok-4.20 12500/25000 per-token = $1.25/$2.50) and OpenRouter x-ai/grok-4.20 ($1.25/$2.50).
 
 ## 2026-07-28
 
-- **Qwen-Flash** price change: ? → ?
-- **Llama 4 Maverick** price change: ? → ?
+- **Qwen-Flash** data correction — input $0.115 → $0.05, output $0.46 → $0.40 per 1M tokens
+  - Published $0.115/$0.46 matched no qwen-flash price in any Alibaba region or tier. Alibaba Model Studio lists qwen-flash International (Singapore) at $0.05 in / $0.40 out for the 0<Token≤256K tier (256K–1M tier bills $0.25/$2.00). Data correction, not a market move: Alibaba did not cut this price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Root cause: all 6 Alibaba rows cited /model-studio/models, a page carrying no prices, so the row could never be re-verified.
+- **Llama 4 Maverick** data correction — input $0.15 → $0.20, output $0.60 → $0.80 per 1M tokens
+  - Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 (first-party, data/evidence/deepinfra-llama-4-maverick/2026-07-27.txt line 103). The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span.
 
 ## 2026-07-25
 
@@ -30,7 +39,7 @@ links back to the provider's official pricing page on the site.
 
 ## 2026-07-19
 
-- **GLM 5.2** price change: ? → ?
+- **GLM 5.2** price change — cached input $0.26 → $0.14 per 1M tokens
 
 ## 2026-07-16
 
@@ -65,23 +74,23 @@ links back to the provider's official pricing page on the site.
 
 ## 2026-07-05
 
-- **Mistral Small 3.2 24B** price change: ? → ?
-- **Mixtral 8x7B Instruct** price change: ? → ?
+- **Mistral Small 3.2 24B** price change — input $0.08 → $0.10, output $0.20 → $0.30 per 1M tokens
+- **Mixtral 8x7B Instruct** price change — input $0.54 → $0.70, output $0.54 → $0.70 per 1M tokens
 
 ## 2026-07-04
 
-- **Gemini 2.5 Flash** price change: ? → ?
-- **Gemini 3.1 Pro** price change: ? → ?
-- **GPT-OSS 120B** price change: ? → ?
-- **GPT-OSS 20B** price change: ? → ?
-- **Llama 3.1 8B Instant** price change: ? → ?
-- **Llama 3.3 70B Versatile** price change: ? → ?
-- **Llama 4 Scout** price change: ? → ?
-- **Qwen 3.6 27B** price change: ? → ?
-- **Qwen3 32B** price change: ? → ?
-- **GPT-4.1 mini** price change: ? → ?
-- **GPT-4.1 nano** price change: ? → ?
-- **o4-mini** price change: ? → ?
+- **Gemini 2.5 Flash** price change — input $0.075 → $0.30, output $0.30 → $2.50 per 1M tokens
+- **Gemini 3.1 Pro** price change — cached input newly tracked at $0.20 per 1M tokens
+- **GPT-OSS 120B** price change — output $1.00 → $0.60 per 1M tokens
+- **GPT-OSS 20B** price change — output $1.00 → $0.30 per 1M tokens
+- **Llama 3.1 8B Instant** price change — output $1.00 → $0.08 per 1M tokens
+- **Llama 3.3 70B Versatile** price change — output $1.00 → $0.79 per 1M tokens
+- **Llama 4 Scout** price change — output $1.00 → $0.34 per 1M tokens
+- **Qwen 3.6 27B** price change — output $1.00 → $3.00 per 1M tokens
+- **Qwen3 32B** price change — output $1.00 → $0.59 per 1M tokens
+- **GPT-4.1 mini** price change — cached input $0.20 → $0.10 per 1M tokens
+- **GPT-4.1 nano** price change — cached input $0.05 → $0.025 per 1M tokens
+- **o4-mini** price change — cached input $0.55 → $0.275 per 1M tokens
 
 ## 2026-07-03
 
