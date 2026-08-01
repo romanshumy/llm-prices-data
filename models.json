@@ -384,7 +384,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-haiku-35",
+    "id": "anthropic-claude-haiku-3-5",
     "provider": "Anthropic",
     "model": "Claude Haiku 3.5",
     "category": "budget",
@@ -412,11 +412,11 @@
     "retired_on": "2026-02-19",
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations",
     "status_verified": "2026-07-25",
-    "superseded_by": "anthropic-claude-haiku-45",
+    "superseded_by": "anthropic-claude-haiku-4-5",
     "availability_note": "Retired from the Claude API 2026-02-19. Partner platforms (Bedrock, Vertex) set their own schedules and may still serve it."
   },
   {
-    "id": "anthropic-claude-haiku-45",
+    "id": "anthropic-claude-haiku-4-5",
     "provider": "Anthropic",
     "model": "Claude Haiku 4.5",
     "category": "budget",
@@ -446,7 +446,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-opus-41",
+    "id": "anthropic-claude-opus-4-1",
     "provider": "Anthropic",
     "model": "Claude Opus 4.1",
     "category": "flagship",
@@ -474,11 +474,11 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations",
     "status_verified": "2026-07-25",
     "shutdown_date": "2026-08-05",
-    "superseded_by": "anthropic-claude-opus-48",
+    "superseded_by": "anthropic-claude-opus-4-8",
     "availability_note": "Deprecated 2026-06-05, retires 2026-08-05. Still callable until then."
   },
   {
-    "id": "anthropic-claude-opus-45",
+    "id": "anthropic-claude-opus-4-5",
     "provider": "Anthropic",
     "model": "Claude Opus 4.5",
     "category": "flagship",
@@ -508,7 +508,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-opus-46",
+    "id": "anthropic-claude-opus-4-6",
     "provider": "Anthropic",
     "model": "Claude Opus 4.6",
     "category": "flagship",
@@ -538,7 +538,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-opus-47",
+    "id": "anthropic-claude-opus-4-7",
     "provider": "Anthropic",
     "model": "Claude Opus 4.7",
     "category": "flagship",
@@ -568,7 +568,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-opus-48",
+    "id": "anthropic-claude-opus-4-8",
     "provider": "Anthropic",
     "model": "Claude Opus 4.8",
     "category": "flagship",
@@ -631,7 +631,7 @@
     "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
   },
   {
-    "id": "anthropic-claude-sonnet-45",
+    "id": "anthropic-claude-sonnet-4-5",
     "provider": "Anthropic",
     "model": "Claude Sonnet 4.5",
     "category": "mid-tier",
@@ -661,7 +661,7 @@
     "status_verified": "2026-07-25"
   },
   {
-    "id": "anthropic-claude-sonnet-46",
+    "id": "anthropic-claude-sonnet-4-6",
     "provider": "Anthropic",
     "model": "Claude Sonnet 4.6",
     "category": "mid-tier",
@@ -884,7 +884,7 @@
     "status_source": null
   },
   {
-    "id": "cohere-rerank-35",
+    "id": "cohere-rerank-3-5",
     "provider": "Cohere",
     "model": "Rerank 3.5",
     "category": "embedding",
@@ -1029,7 +1029,7 @@
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
-    "id": "fireworks-glm-51",
+    "id": "fireworks-glm-5-1",
     "provider": "Fireworks",
     "model": "GLM 5.1",
     "category": "mid-tier",
@@ -1056,7 +1056,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-glm-52",
+    "id": "fireworks-glm-5-2",
     "provider": "Fireworks",
     "model": "GLM 5.2",
     "category": "mid-tier",
@@ -1139,7 +1139,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-kimi-k25",
+    "id": "fireworks-kimi-k2-5",
     "provider": "Fireworks",
     "model": "Kimi K2.5",
     "category": "budget",
@@ -1168,7 +1168,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-kimi-k26",
+    "id": "fireworks-kimi-k2-6",
     "provider": "Fireworks",
     "model": "Kimi K2.6",
     "category": "mid-tier",
@@ -1198,7 +1198,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-kimi-k27-code",
+    "id": "fireworks-kimi-k2-7-code",
     "provider": "Fireworks",
     "model": "Kimi K2.7 Code",
     "category": "coding",
@@ -1230,7 +1230,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-minimax-25",
+    "id": "fireworks-minimax-2-5",
     "provider": "Fireworks",
     "model": "MiniMax 2.5",
     "category": "budget",
@@ -1257,7 +1257,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-minimax-27",
+    "id": "fireworks-minimax-2-7",
     "provider": "Fireworks",
     "model": "MiniMax 2.7",
     "category": "budget",
@@ -1343,7 +1343,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-qwen36-plus",
+    "id": "fireworks-qwen3-6-plus",
     "provider": "Fireworks",
     "model": "Qwen 3.6 Plus",
     "category": "mid-tier",
@@ -1370,7 +1370,7 @@
     "status_source": null
   },
   {
-    "id": "fireworks-qwen37-plus",
+    "id": "fireworks-qwen3-7-plus",
     "provider": "Fireworks",
     "model": "Qwen 3.7 Plus",
     "category": "budget",
@@ -1397,7 +1397,7 @@
     "status_source": null
   },
   {
-    "id": "google-gemini-25-flash",
+    "id": "google-gemini-2-5-flash",
     "provider": "Google",
     "model": "Gemini 2.5 Flash",
     "category": "budget",
@@ -1430,7 +1430,7 @@
     "availability_note": "Earliest possible retirement date; successor gemini-3.6-flash."
   },
   {
-    "id": "google-gemini-25-flash-lite",
+    "id": "google-gemini-2-5-flash-lite",
     "provider": "Google",
     "model": "Gemini 2.5 Flash-Lite",
     "category": "budget",
@@ -1463,7 +1463,7 @@
     "availability_note": "Earliest possible retirement date; successor gemini-3.1-flash-lite."
   },
   {
-    "id": "google-gemini-25-pro",
+    "id": "google-gemini-2-5-pro",
     "provider": "Google",
     "model": "Gemini 2.5 Pro",
     "category": "mid-tier",
@@ -1493,11 +1493,11 @@
     "shutdown_date": "2026-10-16",
     "status_source": "https://ai.google.dev/gemini-api/docs/deprecations",
     "status_verified": "2026-07-25",
-    "superseded_by": "google-gemini-31-pro",
+    "superseded_by": "google-gemini-3-1-pro",
     "availability_note": "Google publishes this as the EARLIEST possible retirement date."
   },
   {
-    "id": "google-gemini-31-flash-lite",
+    "id": "google-gemini-3-1-flash-lite",
     "provider": "Google",
     "model": "Gemini 3.1 Flash-Lite",
     "category": "budget",
@@ -1528,7 +1528,7 @@
     "status_source": null
   },
   {
-    "id": "google-gemini-31-pro",
+    "id": "google-gemini-3-1-pro",
     "provider": "Google",
     "model": "Gemini 3.1 Pro",
     "category": "flagship",
@@ -1558,7 +1558,7 @@
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
-    "id": "google-gemini-35-flash",
+    "id": "google-gemini-3-5-flash",
     "provider": "Google",
     "model": "Gemini 3.5 Flash",
     "category": "flagship",
@@ -1746,7 +1746,7 @@
     "status_source": "https://groq.com/pricing"
   },
   {
-    "id": "groq-llama-31-8b-instant",
+    "id": "groq-llama-3-1-8b-instant",
     "provider": "Groq",
     "model": "Llama 3.1 8B Instant",
     "category": "fast",
@@ -1779,7 +1779,7 @@
     "availability_note": "Groq shutdown 2026-08-16."
   },
   {
-    "id": "groq-llama-33-70b-versatile",
+    "id": "groq-llama-3-3-70b-versatile",
     "provider": "Groq",
     "model": "Llama 3.3 70B Versatile",
     "category": "fast",
@@ -1847,7 +1847,7 @@
     "availability_note": "Groq shut down meta-llama/llama-4-scout-17b-16e-instruct 2026-07-17; gone from Groq's models page. The Meta-hosted Scout endpoint is unaffected and still tracked separately."
   },
   {
-    "id": "groq-qwen-36-27b",
+    "id": "groq-qwen-3-6-27b",
     "provider": "Groq",
     "model": "Qwen 3.6 27B",
     "category": "fast",
@@ -1985,7 +1985,7 @@
     "status_source": null
   },
   {
-    "id": "ibm-granite-40-micro",
+    "id": "ibm-granite-4-0-micro",
     "provider": "IBM",
     "model": "Granite 4.0 Micro",
     "category": "budget",
@@ -2038,7 +2038,7 @@
     "status_source": null
   },
   {
-    "id": "meta-llama-31-8b",
+    "id": "meta-llama-3-1-8b",
     "provider": "Meta",
     "model": "Llama 3.1 8B",
     "category": "open-weights",
@@ -2065,7 +2065,7 @@
     "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html"
   },
   {
-    "id": "meta-llama-33-70b",
+    "id": "meta-llama-3-3-70b",
     "provider": "Meta",
     "model": "Llama 3.3 70B",
     "category": "open-weights",
@@ -2145,13 +2145,13 @@
     ],
     "last_updated": "2026-07-28",
     "retired_on": "2026-07-28",
-    "superseded_by": "minimax-m27",
+    "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
     "availability_note": "MiniMax's Pay-as-You-Go pricing page (2026-07-28) no longer lists a plain 'MiniMax-M2' row; its active text LLMs are MiniMax-M3 and MiniMax-M2.7 (M2.1/M2.5 sit under Legacy). LiteLLM still carries minimax/MiniMax-M2 at $0.30/$1.20, so the number is a real historical price, but MiniMax-M2 is no longer offered first-party — treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
-    "id": "minimax-m21",
+    "id": "minimax-m2-1",
     "provider": "MiniMax",
     "model": "MiniMax-M2.1",
     "category": "budget",
@@ -2176,13 +2176,13 @@
     ],
     "last_updated": "2026-07-28",
     "retired_on": "2026-07-28",
-    "superseded_by": "minimax-m27",
+    "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
     "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value — but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
-    "id": "minimax-m25",
+    "id": "minimax-m2-5",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5",
     "category": "budget",
@@ -2207,13 +2207,13 @@
     ],
     "last_updated": "2026-07-28",
     "retired_on": "2026-07-28",
-    "superseded_by": "minimax-m27",
+    "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
     "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value — but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
-    "id": "minimax-m27",
+    "id": "minimax-m2-7",
     "provider": "MiniMax",
     "model": "MiniMax-M2.7",
     "category": "budget",
@@ -2348,7 +2348,7 @@
     "retired_on": "2026-07-31",
     "status_verified": "2026-08-01",
     "status_source": "https://docs.mistral.ai/models/overview",
-    "superseded_by": "mistral-medium-35",
+    "superseded_by": "mistral-medium-3-5",
     "availability_note": "Retired 2026-07-31. Mistral's deprecation table lists devstral-2512 (v25.12) as deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. We had been publishing it as Current; the price shown is the last list price we recorded while it was served. Open weights remain downloadable."
   },
   {
@@ -2376,7 +2376,7 @@
     "retired_on": "2026-07-31",
     "status_verified": "2026-08-01",
     "status_source": "https://docs.mistral.ai/models/overview",
-    "superseded_by": "mistral-medium-35",
+    "superseded_by": "mistral-medium-3-5",
     "availability_note": "Retired 2026-07-31. This row tracks the magistral-medium-latest alias (see data/litellm_id_map.json), whose last resolvable version was magistral-medium-2509 (v25.09) \u2014 deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. Mistral's live model list now carries no Magistral model of any version. The released date 2025-06-01 is the family's 1.0 launch; the $2/$5 price is the alias price we last recorded (2026-06-25), which was 1.2's. We had been publishing it as Current."
   },
   {
@@ -2457,11 +2457,11 @@
     "shutdown_date": "2026-08-31",
     "status_source": "https://docs.mistral.ai/models/overview",
     "status_verified": "2026-07-25",
-    "superseded_by": "mistral-medium-35",
+    "superseded_by": "mistral-medium-3-5",
     "availability_note": "mistral-medium-2505 deprecated 2026-05-22, retires 2026-08-31."
   },
   {
-    "id": "mistral-medium-35",
+    "id": "mistral-medium-3-5",
     "provider": "Mistral",
     "model": "Mistral Medium 3.5",
     "category": "mid-tier",
@@ -2486,7 +2486,7 @@
     "status_source": "https://mistral.ai/pricing/"
   },
   {
-    "id": "mistral-small-32",
+    "id": "mistral-small-3-2",
     "provider": "Mistral",
     "model": "Mistral Small 3.2 24B",
     "category": "budget",
@@ -2690,7 +2690,7 @@
     "status_source": null
   },
   {
-    "id": "moonshot-kimi-k25",
+    "id": "moonshot-kimi-k2-5",
     "provider": "Moonshot",
     "model": "Kimi K2.5",
     "category": "budget",
@@ -2719,7 +2719,7 @@
     "status_source": null
   },
   {
-    "id": "moonshot-kimi-k26",
+    "id": "moonshot-kimi-k2-6",
     "provider": "Moonshot",
     "model": "Kimi K2.6",
     "category": "mid-tier",
@@ -2749,7 +2749,7 @@
     "status_source": null
   },
   {
-    "id": "moonshot-kimi-k27-code",
+    "id": "moonshot-kimi-k2-7-code",
     "provider": "Moonshot",
     "model": "Kimi K2.7 Code",
     "category": "coding",
@@ -2781,7 +2781,7 @@
     "status_source": null
   },
   {
-    "id": "moonshot-kimi-k27-code-highspeed",
+    "id": "moonshot-kimi-k2-7-code-highspeed",
     "provider": "Moonshot",
     "model": "Kimi K2.7 Code HighSpeed",
     "category": "coding",
@@ -2925,7 +2925,7 @@
     "status_source": "https://deepinfra.com/blog/nvidia-nemotron-api-pricing-guide-2026"
   },
   {
-    "id": "openai-gpt-41",
+    "id": "openai-gpt-4-1",
     "provider": "OpenAI",
     "model": "GPT-4.1",
     "category": "mid-tier",
@@ -2954,7 +2954,7 @@
     "status_source": "https://developers.openai.com/api/docs/models/gpt-4.1"
   },
   {
-    "id": "openai-gpt-41-mini",
+    "id": "openai-gpt-4-1-mini",
     "provider": "OpenAI",
     "model": "GPT-4.1 mini",
     "category": "budget",
@@ -2982,7 +2982,7 @@
     "status_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
   },
   {
-    "id": "openai-gpt-41-nano",
+    "id": "openai-gpt-4-1-nano",
     "provider": "OpenAI",
     "model": "GPT-4.1 nano",
     "category": "budget",
@@ -3012,7 +3012,7 @@
     "availability_note": "Snapshot gpt-4.1-nano-2025-04-14 is labelled Deprecated; migration target gpt-5.6-luna."
   },
   {
-    "id": "openai-gpt-54",
+    "id": "openai-gpt-5-4",
     "provider": "OpenAI",
     "model": "GPT-5.4",
     "category": "flagship",
@@ -3040,7 +3040,7 @@
     "status_source": null
   },
   {
-    "id": "openai-gpt-54-mini",
+    "id": "openai-gpt-5-4-mini",
     "provider": "OpenAI",
     "model": "GPT-5.4 mini",
     "category": "mid-tier",
@@ -3068,7 +3068,7 @@
     "status_source": null
   },
   {
-    "id": "openai-gpt-55",
+    "id": "openai-gpt-5-5",
     "provider": "OpenAI",
     "model": "GPT-5.5",
     "category": "flagship",
@@ -3098,7 +3098,7 @@
     "status_source": "https://openrouter.ai/api/v1/models"
   },
   {
-    "id": "openai-gpt-56-sol",
+    "id": "openai-gpt-5-6-sol",
     "provider": "OpenAI",
     "model": "GPT-5.6 Sol",
     "category": "flagship",
@@ -3129,7 +3129,7 @@
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
-    "id": "openai-gpt-56-terra",
+    "id": "openai-gpt-5-6-terra",
     "provider": "OpenAI",
     "model": "GPT-5.6 Terra",
     "category": "flagship",
@@ -3160,7 +3160,7 @@
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
-    "id": "openai-gpt-56-luna",
+    "id": "openai-gpt-5-6-luna",
     "provider": "OpenAI",
     "model": "GPT-5.6 Luna",
     "category": "mid-tier",
@@ -3355,7 +3355,7 @@
     "status_source": "https://developers.openai.com/api/docs/models/text-embedding-3-small"
   },
   {
-    "id": "openai-gpt-55-pro",
+    "id": "openai-gpt-5-5-pro",
     "provider": "OpenAI",
     "model": "GPT-5.5 Pro",
     "category": "flagship",
@@ -3384,7 +3384,7 @@
     "status_source": "https://openrouter.ai/api/v1/models"
   },
   {
-    "id": "openai-gpt-54-pro",
+    "id": "openai-gpt-5-4-pro",
     "provider": "OpenAI",
     "model": "GPT-5.4 Pro",
     "category": "flagship",
@@ -3413,7 +3413,7 @@
     "status_source": "https://openrouter.ai/api/v1/models"
   },
   {
-    "id": "openai-gpt-54-nano",
+    "id": "openai-gpt-5-4-nano",
     "provider": "OpenAI",
     "model": "GPT-5.4 nano",
     "category": "budget",
@@ -3441,7 +3441,7 @@
     "status_source": "https://openrouter.ai/api/v1/models"
   },
   {
-    "id": "openai-gpt-53-chat",
+    "id": "openai-gpt-5-3-chat",
     "provider": "OpenAI",
     "model": "GPT-5.3 Chat",
     "category": "flagship",
@@ -3469,7 +3469,7 @@
     "status_source": "https://openrouter.ai/api/v1/models"
   },
   {
-    "id": "openai-gpt-53-codex",
+    "id": "openai-gpt-5-3-codex",
     "provider": "OpenAI",
     "model": "GPT-5.3 Codex",
     "category": "coding",
@@ -3721,7 +3721,7 @@
     "status_source": "https://www.together.ai/pricing"
   },
   {
-    "id": "together-glm-52",
+    "id": "together-glm-5-2",
     "provider": "Together",
     "model": "GLM-5.2",
     "category": "mid-tier",
@@ -3778,7 +3778,7 @@
     "status_source": null
   },
   {
-    "id": "together-kimi-k27-code",
+    "id": "together-kimi-k2-7-code",
     "provider": "Together",
     "model": "Kimi K2.7 Code",
     "category": "coding",
@@ -3841,7 +3841,7 @@
     "availability_note": "Together's changelog (July 9, 2026) states LiquidAI/LFM2-24B-A2B 'has been deprecated and is no longer available on serverless'. Its named replacement, LiquidAI/LFM2.5-8B-A1B, launched the same day and is not yet tracked here. The $0.03/$0.12 shown is the real historical serverless price; it is no longer purchasable."
   },
   {
-    "id": "together-llama-33-70b",
+    "id": "together-llama-3-3-70b",
     "provider": "Together",
     "model": "Llama 3.3 70B",
     "category": "open-weights",
@@ -3867,7 +3867,7 @@
     "status_source": null
   },
   {
-    "id": "together-minimax-m25",
+    "id": "together-minimax-m2-5",
     "provider": "Together",
     "model": "MiniMax M2.5",
     "category": "budget",
@@ -3893,7 +3893,7 @@
     "last_updated": "2026-07-31",
     "status_verified": null,
     "status_source": "https://docs.together.ai/docs/changelog",
-    "availability_note": "Together's changelog (May 1, 2026) states MiniMaxAI/MiniMax-M2.5 'has been deprecated and is no longer available on serverless'; it is absent from the current serverless model table. Together named no replacement, so none is asserted here. The first-party MiniMax-M2.5 SKU was separately retired 2026-07-28 and is tracked as minimax-m25."
+    "availability_note": "Together's changelog (May 1, 2026) states MiniMaxAI/MiniMax-M2.5 'has been deprecated and is no longer available on serverless'; it is absent from the current serverless model table. Together named no replacement, so none is asserted here. The first-party MiniMax-M2.5 SKU was separately retired 2026-07-28 and is tracked as minimax-m2-5."
   },
   {
     "id": "together-minimax-m3",
@@ -3957,7 +3957,7 @@
     "status_source": null
   },
   {
-    "id": "together-qwen35-397b-a17b",
+    "id": "together-qwen3-5-397b-a17b",
     "provider": "Together",
     "model": "Qwen3.5-397B-A17B",
     "category": "mid-tier",
@@ -3989,7 +3989,7 @@
     "availability_note": "Together's changelog (June 15, 2026) scheduled Qwen/Qwen3.5-397B-A17B for removal from serverless after June 29, 2026, naming MiniMaxAI/MiniMax-M3 as the replacement; the June 29 entry confirms the removal. The model is still offered on on-demand DEDICATED endpoints, which are billed per minute — so the $0.60/$3.60 per-1M serverless price shown here is no longer obtainable."
   },
   {
-    "id": "together-qwen37-max",
+    "id": "together-qwen3-7-max",
     "provider": "Together",
     "model": "Qwen3.7-Max",
     "category": "mid-tier",
@@ -4019,7 +4019,7 @@
     "status_source": null
   },
   {
-    "id": "together-qwen37-plus",
+    "id": "together-qwen3-7-plus",
     "provider": "Together",
     "model": "Qwen3.7-Plus",
     "category": "budget",
@@ -4073,7 +4073,7 @@
     "status_source": null
   },
   {
-    "id": "voyage-rerank-25",
+    "id": "voyage-rerank-2-5",
     "provider": "Voyage AI",
     "model": "rerank-2.5",
     "category": "embedding",
@@ -4099,7 +4099,7 @@
     "status_source": null
   },
   {
-    "id": "voyage-rerank-25-lite",
+    "id": "voyage-rerank-2-5-lite",
     "provider": "Voyage AI",
     "model": "rerank-2.5-lite",
     "category": "embedding",
@@ -4251,7 +4251,7 @@
     "status_source": null
   },
   {
-    "id": "voyage-multimodal-35",
+    "id": "voyage-multimodal-3-5",
     "provider": "Voyage AI",
     "model": "voyage-multimodal-3.5",
     "category": "embedding",
@@ -4305,7 +4305,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-45",
+    "id": "zhipu-glm-4-5",
     "provider": "Z.AI",
     "model": "GLM-4.5",
     "category": "mid-tier",
@@ -4332,7 +4332,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-45-air",
+    "id": "zhipu-glm-4-5-air",
     "provider": "Z.AI",
     "model": "GLM-4.5-Air",
     "category": "budget",
@@ -4359,7 +4359,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-46",
+    "id": "zhipu-glm-4-6",
     "provider": "Z.AI",
     "model": "GLM-4.6",
     "category": "mid-tier",
@@ -4386,7 +4386,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-46v",
+    "id": "zhipu-glm-4-6v",
     "provider": "Z.AI",
     "model": "GLM-4.6V",
     "category": "budget",
@@ -4415,7 +4415,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-47",
+    "id": "zhipu-glm-4-7",
     "provider": "Z.AI",
     "model": "GLM-4.7",
     "category": "mid-tier",
@@ -4442,7 +4442,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-47-flash",
+    "id": "zhipu-glm-4-7-flash",
     "provider": "Z.AI",
     "model": "GLM-4.7-Flash",
     "category": "budget",
@@ -4470,7 +4470,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-47-flashx",
+    "id": "zhipu-glm-4-7-flashx",
     "provider": "Z.AI",
     "model": "GLM-4.7-FlashX",
     "category": "budget",
@@ -4552,7 +4552,7 @@
     "status_source": null
   },
   {
-    "id": "zhipu-glm-51",
+    "id": "zhipu-glm-5-1",
     "provider": "Z.AI",
     "model": "GLM-5.1",
     "category": "mid-tier",
@@ -4579,7 +4579,7 @@
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
-    "id": "zhipu-glm-52",
+    "id": "zhipu-glm-5-2",
     "provider": "Z.AI",
     "model": "GLM-5.2",
     "category": "flagship",
@@ -4694,11 +4694,11 @@
     "retired_on": "2026-05-15",
     "status_source": "https://docs.x.ai/developers/migration/may-15-retirement",
     "status_verified": "2026-07-25",
-    "superseded_by": "xai-grok-43",
+    "superseded_by": "xai-grok-4-3",
     "availability_note": "Retired 2026-05-15; the grok-4 slug still resolves but is served by grok-4.3, so any price or benchmark attributed to grok-4 is wrong."
   },
   {
-    "id": "xai-grok-41-fast",
+    "id": "xai-grok-4-1-fast",
     "provider": "xAI",
     "model": "Grok 4.1 Fast",
     "category": "budget",
@@ -4726,7 +4726,7 @@
     "status_source": null
   },
   {
-    "id": "xai-grok-420",
+    "id": "xai-grok-4-20",
     "provider": "xAI",
     "model": "Grok 4.20",
     "category": "mid-tier",
@@ -4754,7 +4754,7 @@
     "status_source": null
   },
   {
-    "id": "xai-grok-45",
+    "id": "xai-grok-4-5",
     "provider": "xAI",
     "model": "Grok 4.5",
     "category": "flagship",
@@ -4784,7 +4784,7 @@
     "status_source": "https://docs.x.ai/developers/models"
   },
   {
-    "id": "xai-grok-43",
+    "id": "xai-grok-4-3",
     "provider": "xAI",
     "model": "Grok 4.3",
     "category": "flagship",
@@ -4814,7 +4814,7 @@
     "status_source": null
   },
   {
-    "id": "xai-grok-build-01",
+    "id": "xai-grok-build-0-1",
     "provider": "xAI",
     "model": "Grok Build 0.1",
     "category": "coding",
@@ -4902,7 +4902,7 @@
     "status_source": "https://longcat.chat/platform/docs/Pricing/LongCat-2.0.html"
   },
   {
-    "id": "openai-gpt-52",
+    "id": "openai-gpt-5-2",
     "provider": "OpenAI",
     "model": "GPT-5.2",
     "category": "flagship",
@@ -4930,7 +4930,7 @@
     "status_source": "https://openai.com/api/pricing/"
   },
   {
-    "id": "openai-gpt-52-pro",
+    "id": "openai-gpt-5-2-pro",
     "provider": "OpenAI",
     "model": "GPT-5.2 Pro",
     "category": "flagship",
@@ -4959,7 +4959,7 @@
     "status_source": "https://openai.com/api/pricing/"
   },
   {
-    "id": "openai-gpt-52-codex",
+    "id": "openai-gpt-5-2-codex",
     "provider": "OpenAI",
     "model": "GPT-5.2 Codex",
     "category": "flagship",
@@ -4986,7 +4986,7 @@
     "status_source": "https://openai.com/api/pricing/"
   },
   {
-    "id": "openai-gpt-52-chat",
+    "id": "openai-gpt-5-2-chat",
     "provider": "OpenAI",
     "model": "GPT-5.2 Chat",
     "category": "flagship",
