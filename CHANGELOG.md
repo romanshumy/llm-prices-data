@@ -14,6 +14,9 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Gemini 3 Pro Image** (Google) launched — $2.0 in / $120.0 out per 1M tokens
 - **Gemini 3.1 Flash Image** (Google) launched — $0.5 in / $60.0 out per 1M tokens
 - **Gemini 3.1 Flash Lite Image** (Google) launched — $0.25 in / $30.0 out per 1M tokens
+- **Inkling** (Thinking Machines) launched — $1.0 in / $4.05 out per 1M tokens
+- **Inkling Small** (Thinking Machines) launched — $0.3 in / $1.2 out per 1M tokens
+- **Muse Spark 1.1** (Meta) launched — $1.25 in / $4.25 out per 1M tokens
 
 ## 2026-07-29
 

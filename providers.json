@@ -292,5 +292,15 @@
     "pricing_url": "https://longcat.chat/platform/docs/Pricing/LongCat-2.0.html",
     "logo_color": "#ffd100",
     "founded": 2010
+  },
+  {
+    "id": "thinking-machines",
+    "name": "Thinking Machines",
+    "type": "commercial",
+    "description": "AI research lab founded by former OpenAI CTO Mira Murati. Its Inkling family ships as open weights on Hugging Face and is also sold as a first-party token-billed service through Tinker, the lab's fine-tuning and serverless-inference platform, from $0.30/1M input and $1.20/1M output.",
+    "url": "https://thinkingmachines.ai/",
+    "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+    "logo_color": "#1f3fd1",
+    "founded": 2025
   }
 ]

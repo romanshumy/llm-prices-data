@@ -58393,5 +58393,68 @@
         "sha": "4df66b479e"
       }
     ]
+  },
+  "thinking-machines-inkling": {
+    "model": "Inkling",
+    "provider": "Thinking Machines",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 4.05,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://tinker-docs.thinkingmachines.ai/tinker/serverless.json",
+        "captured_at": "2026-08-01T22:38:12Z",
+        "snapshot": "data/evidence/thinking-machines-inkling/2026-08-01.txt",
+        "sha": "faa40b1b3d"
+      }
+    ]
+  },
+  "thinking-machines-inkling-small": {
+    "model": "Inkling Small",
+    "provider": "Thinking Machines",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://tinker-docs.thinkingmachines.ai/tinker/serverless.json",
+        "captured_at": "2026-08-01T22:38:13Z",
+        "snapshot": "data/evidence/thinking-machines-inkling-small/2026-08-01.txt",
+        "sha": "faa40b1b3d"
+      }
+    ]
+  },
+  "meta-muse-spark-1-1": {
+    "model": "Muse Spark 1.1",
+    "provider": "Meta",
+    "history": [
+      {
+        "date": "2026-08-01",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 4.25,
+        "cached_input_per_mtok": null,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+        "captured_at": "2026-08-01T22:38:14Z",
+        "snapshot": "data/evidence/meta-muse-spark-1-1/2026-08-01.txt",
+        "sha": "27030dde49"
+      }
+    ]
   }
 }
