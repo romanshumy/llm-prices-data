@@ -2335,18 +2335,21 @@
       "text"
     ],
     "released": "2025-12-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": null,
-    "description": "Mistral's 123B-parameter agentic coding model, built for autonomous software-engineering workflows with a 256K context. $0.40/$2.00 per 1M tokens.",
+    "description": "Mistral's 123B-parameter agentic coding model, built for autonomous software-engineering workflows with a 256K context. $0.40/$2.00 per 1M tokens. Retired from the Mistral API 2026-07-31.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "coding",
       "open-weights"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-08-01",
+    "retired_on": "2026-07-31",
+    "status_verified": "2026-08-01",
+    "status_source": "https://docs.mistral.ai/models/overview",
+    "superseded_by": "mistral-medium-35",
+    "availability_note": "Retired 2026-07-31. Mistral's deprecation table lists devstral-2512 (v25.12) as deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. We had been publishing it as Current; the price shown is the last list price we recorded while it was served. Open weights remain downloadable."
   },
   {
     "id": "mistral-magistral-medium",
@@ -2361,17 +2364,20 @@
       "text"
     ],
     "released": "2025-06-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "Mistral's enterprise reasoning model \u2014 transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens.",
+    "description": "Mistral's enterprise reasoning model \u2014 transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens. Retired from the Mistral API 2026-07-31.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "reasoning"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-08-01",
+    "retired_on": "2026-07-31",
+    "status_verified": "2026-08-01",
+    "status_source": "https://docs.mistral.ai/models/overview",
+    "superseded_by": "mistral-medium-35",
+    "availability_note": "Retired 2026-07-31. This row tracks the magistral-medium-latest alias (see data/litellm_id_map.json), whose last resolvable version was magistral-medium-2509 (v25.09) \u2014 deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. Mistral's live model list now carries no Magistral model of any version. The released date 2025-06-01 is the family's 1.0 launch; the $2/$5 price is the alias price we last recorded (2026-06-25), which was 1.2's. We had been publishing it as Current."
   },
   {
     "id": "mistral-ministral-3b",
@@ -2492,22 +2498,22 @@
       "text"
     ],
     "released": "2025-06-01",
-    "status": "Deprecated",
+    "status": "Retired",
     "open_source": true,
     "parameters": "24B",
-    "description": "Open-weights small model. $0.10/$0.30 per 1M tokens.",
+    "description": "Open-weights small model. $0.10/$0.30 per 1M tokens. Retired from the Mistral API 2026-07-31.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "budget",
       "open-weights",
       "fast"
     ],
-    "last_updated": "2026-07-04",
-    "shutdown_date": "2026-07-31",
+    "last_updated": "2026-08-01",
+    "retired_on": "2026-07-31",
     "status_source": "https://docs.mistral.ai/models/overview",
-    "status_verified": "2026-07-25",
+    "status_verified": "2026-08-01",
     "superseded_by": "mistral-small-4",
-    "availability_note": "mistral-small-2506 retires 2026-07-31."
+    "availability_note": "Retired 2026-07-31. mistral-small-2506 now appears in Mistral\u2019s \u201cDeprecated & retired models\u201d table (deprecated 2026-04-30, retired 2026-07-31); the API endpoint is withdrawn. Use Mistral Small 4. The price shown is the last list price we recorded while it was served; open weights remain downloadable."
   },
   {
     "id": "mistral-small-4",
@@ -3127,9 +3133,9 @@
     "provider": "OpenAI",
     "model": "GPT-5.6 Terra",
     "category": "flagship",
-    "input_per_mtok": 2.5,
-    "output_per_mtok": 15.0,
-    "cached_input_per_mtok": 0.25,
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 12.0,
+    "cached_input_per_mtok": 0.2,
     "context_window": 1050000,
     "modality": [
       "text",
@@ -3139,7 +3145,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost \u2014 the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2.50/$15 per 1M tokens (cached input $0.25).",
+    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost \u2014 the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20).",
     "pricing_url": "https://openai.com/api/pricing/",
     "tags": [
       "reasoning",
@@ -3147,10 +3153,10 @@
       "flagship"
     ],
     "featured": false,
-    "last_updated": "2026-07-09",
+    "last_updated": "2026-08-01",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-07-09",
+    "status_verified": "2026-08-01",
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
@@ -3158,9 +3164,9 @@
     "provider": "OpenAI",
     "model": "GPT-5.6 Luna",
     "category": "mid-tier",
-    "input_per_mtok": 1.0,
-    "output_per_mtok": 6.0,
-    "cached_input_per_mtok": 0.1,
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.02,
     "context_window": 1050000,
     "modality": [
       "text",
@@ -3170,17 +3176,17 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Low-cost, high-volume GPT-5.6 tier \u2014 the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $1/$6 per 1M tokens (cached input $0.10).",
+    "description": "Low-cost, high-volume GPT-5.6 tier \u2014 the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $0.20/$1.20 per 1M tokens (cached input $0.02).",
     "pricing_url": "https://openai.com/api/pricing/",
     "tags": [
       "reasoning",
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-07-09",
+    "last_updated": "2026-08-01",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-07-09",
+    "status_verified": "2026-08-01",
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {

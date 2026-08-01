@@ -4,6 +4,11 @@ Newest first. Generated from the tracker's change detection; every price
 links back to the provider's official pricing page on the site.
 
 
+## 2026-08-01
+
+- **GPT-5.6 Terra** price change: ? → ?
+- **GPT-5.6 Luna** price change: ? → ?
+
 ## 2026-07-29
 
 - **Grok 4.20** price change: ? → ?
