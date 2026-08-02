@@ -197,7 +197,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's flagship Qwen model. $1.20/$4.80 per 1M tokens (\u2264128K context).",
+    "description": "Alibaba's flagship Qwen model. $1.20/$6.00 per 1M tokens on requests up to 32K tokens; larger requests bill higher, up to $3.00/$15.00 in the 128K-256K tier.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "flagship"
