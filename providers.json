@@ -80,7 +80,7 @@
     "id": "cohere",
     "name": "Cohere",
     "type": "commercial",
-    "description": "Enterprise-focused lab. Command A flagship at $1/$2 per 1M tokens — a major price drop vs. the older Command R+.",
+    "description": "Enterprise-focused lab. Command A flagship at $2.50/$10 per 1M tokens with a 256K context — the same list price as the older Command R+ 08-2024, at a larger context. Command R 08-2024 covers cheaper workloads at $0.15/$0.60.",
     "url": "https://cohere.com/",
     "pricing_url": "https://cohere.com/pricing",
     "affiliate_url": "https://dashboard.cohere.com/",

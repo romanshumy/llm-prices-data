@@ -117,7 +117,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Fast Qwen model. $0.05/$0.40 per 1M tokens, 1M context.",
+    "description": "Fast Qwen model. $0.05/$0.40 per 1M tokens up to 256K context; the 256K\u20131M tier is billed at $0.25/$2.00.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token\u2264256K tier. The 256K<Token\u22641M tier is billed higher ($0.25/$2.00).",
     "tags": [
@@ -199,6 +199,7 @@
     "parameters": null,
     "description": "Alibaba's flagship Qwen model. $1.20/$6.00 per 1M tokens on requests up to 32K tokens; larger requests bill higher, up to $3.00/$15.00 in the 128K-256K tier.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, 0<Token\u226432K tier. Tiered above that: 32K<Token\u2264128K is $2.40/$12.00 and 128K<Token\u2264256K is $3.00/$15.00 per 1M tokens.",
     "tags": [
       "flagship"
     ],
