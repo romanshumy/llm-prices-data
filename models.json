@@ -2302,8 +2302,9 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-02",
+    "status_source": "https://docs.mistral.ai/models/overview",
+    "availability_note": "Tracks Mistral's Codestral alias (codestral-latest), which today serves Codestral 25.08 — the $0.30/$0.90 price and 256K context shown are that version's. The 2024-05-29 date is the Codestral family's debut, not the version being served: Mistral retired the original codestral-2405 on 2025-06-16 and codestral-2501 on 2025-11-30. For the pinned version see Codestral 2508."
   },
   {
     "id": "mistral-codestral-2508",
@@ -2327,8 +2328,8 @@
       "coding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-02",
+    "status_source": "https://docs.mistral.ai/models/overview"
   },
   {
     "id": "mistral-devstral-2",
@@ -2411,8 +2412,8 @@
       "fast"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-02",
+    "status_source": "https://docs.mistral.ai/models/overview"
   },
   {
     "id": "mistral-large-3",
@@ -2547,8 +2548,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-02",
+    "status_source": "https://docs.mistral.ai/models/overview"
   },
   {
     "id": "mistral-mixtral-8x22b",
@@ -2694,8 +2695,8 @@
       "open-weights"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-02",
+    "status_source": "https://docs.mistral.ai/models/overview"
   },
   {
     "id": "moonshot-kimi-k2-5",
