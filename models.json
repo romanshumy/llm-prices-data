@@ -238,6 +238,38 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-8-max",
+    "provider": "Alibaba",
+    "model": "Qwen3.8-Max",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-08-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "2.4T",
+    "description": "Alibaba's current proprietary flagship \u2014 a 2.4T-parameter mixture-of-experts model with a 1M-token context that takes text, image and video input and returns text. $2.00/$6.00 per 1M tokens, a single flat tier across the whole 1M context, with thinking tokens billed at the output rate. Open weights are announced but not yet released.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token\u22641M tier \u2014 unlike qwen3-max this SKU is not tiered by request size. Explicit context-cache hits bill at 10% of the input rate (the cached_input_per_mtok we track); implicit-cache hits bill at 20%.",
+    "tags": [
+      "flagship",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-03",
+    "released_source": "https://qwen.ai/blog?id=qwen3.8",
+    "released_verified": "2026-08-03",
+    "status_verified": "2026-08-03",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "amazon-nova-lite",
     "provider": "Amazon",
     "model": "Nova Lite",

@@ -237,6 +237,7 @@ alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-31,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-01,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-02,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-03,snapshot,,2.5,7.5,0.25
+alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-03,new_model,verified,2.0,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-27,baseline,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-29,snapshot,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-30,snapshot,,1.2,6.0,

@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-03
+
+- **Qwen3.8-Max** (Alibaba) launched — $2.0 in / $6.0 out per 1M tokens
+
 ## 2026-08-01
 
 - **GPT-5.6 Terra** price change — input $2.50 → $2.00, output $15.00 → $12.00, cached input $0.25 → $0.20 per 1M tokens
