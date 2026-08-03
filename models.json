@@ -4721,19 +4721,24 @@
       "image"
     ],
     "released": "2025-09-22",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-05-15",
     "open_source": false,
     "parameters": null,
-    "description": "Ultra-fast Grok with 2M context. $0.20/$0.50 per 1M \u2014 cheapest major western API.",
+    "description": "Ultra-fast Grok with 2M context, $0.20/$0.50 per 1M. Retired from the xAI API 2026-05-15; xAI redirects it to Grok 4.3.",
     "pricing_url": "https://docs.x.ai/developers/models",
     "tags": [
       "budget",
       "fast",
-      "multimodal"
+      "multimodal",
+      "retired"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "featured": false,
+    "last_updated": "2026-08-03",
+    "status_verified": "2026-08-03",
+    "status_source": "https://docs.x.ai/developers/migration/may-15-retirement",
+    "superseded_by": "xai-grok-4-3",
+    "availability_note": "xAI's migration notice lists grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning among the models retired from the xAI API effective 2026-05-15 12:00 PM PT, with grok-4.3 as the redirect target. The model is absent from the current docs.x.ai model list, so the $0.20/$0.50 rate is a historical price and is no longer purchasable under this name."
   },
   {
     "id": "xai-grok-4-20",
