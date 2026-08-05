@@ -37,6 +37,7 @@ model_id,model,provider,date,event,source,input_per_mtok,output_per_mtok,cached_
 01ai-yi-large,Yi Large,01.AI,2026-08-02,snapshot,,3.0,9.0,
 01ai-yi-large,Yi Large,01.AI,2026-08-03,snapshot,,3.0,9.0,
 01ai-yi-large,Yi Large,01.AI,2026-08-04,snapshot,,3.0,9.0,
+01ai-yi-large,Yi Large,01.AI,2026-08-05,snapshot,,3.0,9.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2025-07-21,backfill,litellm-archive,2.0,8.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2026-06-25,baseline,,2.0,8.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2026-06-29,snapshot,,2.0,8.0,
@@ -76,6 +77,7 @@ ai21-jamba-large,Jamba Large,AI21 Labs,2026-08-01,snapshot,,2.0,8.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2026-08-02,snapshot,,2.0,8.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2026-08-03,snapshot,,2.0,8.0,
 ai21-jamba-large,Jamba Large,AI21 Labs,2026-08-04,snapshot,,2.0,8.0,
+ai21-jamba-large,Jamba Large,AI21 Labs,2026-08-05,snapshot,,2.0,8.0,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2025-07-21,backfill,litellm-archive,0.2,0.4,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-06-25,baseline,,0.2,0.4,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-06-29,snapshot,,0.2,0.4,
@@ -115,6 +117,7 @@ ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-08-01,snapshot,,0.2,0.4,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-08-02,snapshot,,0.2,0.4,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-08-03,snapshot,,0.2,0.4,
 ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-08-04,snapshot,,0.2,0.4,
+ai21-jamba-mini,Jamba Mini,AI21 Labs,2026-08-05,snapshot,,0.2,0.4,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-06-25,baseline,,0.115,0.46,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-06-29,snapshot,,0.115,0.46,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-06-30,snapshot,,0.115,0.46,
@@ -153,6 +156,7 @@ alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-08-01,snapshot,,0.05,0.4,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-08-02,snapshot,,0.05,0.4,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-08-03,snapshot,,0.05,0.4,
 alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-08-04,snapshot,,0.05,0.4,
+alibaba-qwen-flash,Qwen-Flash,Alibaba,2026-08-05,snapshot,,0.05,0.4,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2025-09-15,backfill,litellm-archive,0.4,1.2,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-06-23,backfill,litellm-archive,0.4,1.2,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-06-25,baseline,,0.4,1.2,
@@ -193,6 +197,7 @@ alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-08-01,snapshot,,0.4,1.2,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-08-02,snapshot,,0.4,1.2,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-08-03,snapshot,,0.4,1.2,
 alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-08-04,snapshot,,0.4,1.2,
+alibaba-qwen-plus,Qwen-Plus,Alibaba,2026-08-05,snapshot,,0.4,1.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2025-09-15,backfill,litellm-archive,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-06-23,backfill,litellm-archive,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-06-25,baseline,,0.05,0.2,
@@ -233,6 +238,7 @@ alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-01,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-02,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-03,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-04,snapshot,,0.05,0.2,
+alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-05,snapshot,,0.05,0.2,
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-25,new_model,vendor+editorial,2.5,7.5,
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-26,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-27,snapshot,,2.5,7.5,0.25
@@ -244,8 +250,10 @@ alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-01,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-02,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-03,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-04,snapshot,,2.5,7.5,0.25
+alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-05,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-03,new_model,verified,2.0,6.0,
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-04,snapshot,,2.0,6.0,0.2
+alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-05,snapshot,,2.0,6.0,0.2
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-27,baseline,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-29,snapshot,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-06-30,snapshot,,1.2,6.0,
@@ -284,6 +292,7 @@ alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-08-01,snapshot,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-08-02,snapshot,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-08-03,snapshot,,1.2,6.0,
 alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-08-04,snapshot,,1.2,6.0,
+alibaba-qwen3-max,Qwen3-Max,Alibaba,2026-08-05,snapshot,,1.2,6.0,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2025-09-15,backfill,litellm-archive,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-06-23,backfill,litellm-archive,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-06-25,baseline,,0.8,2.4,
@@ -324,6 +333,7 @@ alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-08-01,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-08-02,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-08-03,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-08-04,snapshot,,0.8,2.4,
+alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-08-05,snapshot,,0.8,2.4,
 amazon-nova-lite,Nova Lite,Amazon,2024-12-03,backfill,litellm-archive,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-06-23,backfill,litellm-archive,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-06-25,baseline,,0.06,0.24,
@@ -364,6 +374,7 @@ amazon-nova-lite,Nova Lite,Amazon,2026-08-01,snapshot,,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-08-02,snapshot,,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-08-03,snapshot,,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-08-04,snapshot,,0.06,0.24,
+amazon-nova-lite,Nova Lite,Amazon,2026-08-05,snapshot,,0.06,0.24,
 amazon-nova-micro,Nova Micro,Amazon,2024-12-03,backfill,litellm-archive,0.035,0.14,
 amazon-nova-micro,Nova Micro,Amazon,2026-06-23,backfill,litellm-archive,0.035,0.14,
 amazon-nova-micro,Nova Micro,Amazon,2026-06-25,baseline,,0.035,0.14,
@@ -404,6 +415,7 @@ amazon-nova-micro,Nova Micro,Amazon,2026-08-01,snapshot,,0.035,0.14,
 amazon-nova-micro,Nova Micro,Amazon,2026-08-02,snapshot,,0.035,0.14,
 amazon-nova-micro,Nova Micro,Amazon,2026-08-03,snapshot,,0.035,0.14,
 amazon-nova-micro,Nova Micro,Amazon,2026-08-04,snapshot,,0.035,0.14,
+amazon-nova-micro,Nova Micro,Amazon,2026-08-05,snapshot,,0.035,0.14,
 amazon-nova-premier,Nova Premier,Amazon,2025-05-05,backfill,litellm-archive,2.5,12.5,
 amazon-nova-premier,Nova Premier,Amazon,2026-06-23,backfill,litellm-archive,2.5,12.5,
 amazon-nova-premier,Nova Premier,Amazon,2026-06-25,baseline,,2.5,12.5,
@@ -444,6 +456,7 @@ amazon-nova-premier,Nova Premier,Amazon,2026-08-01,snapshot,,2.5,12.5,
 amazon-nova-premier,Nova Premier,Amazon,2026-08-02,snapshot,,2.5,12.5,
 amazon-nova-premier,Nova Premier,Amazon,2026-08-03,snapshot,,2.5,12.5,
 amazon-nova-premier,Nova Premier,Amazon,2026-08-04,snapshot,,2.5,12.5,
+amazon-nova-premier,Nova Premier,Amazon,2026-08-05,snapshot,,2.5,12.5,
 amazon-nova-pro,Nova Pro,Amazon,2024-12-03,backfill,litellm-archive,0.8,3.2,
 amazon-nova-pro,Nova Pro,Amazon,2026-06-23,backfill,litellm-archive,0.8,3.2,
 amazon-nova-pro,Nova Pro,Amazon,2026-06-25,baseline,,0.8,3.2,
@@ -484,6 +497,7 @@ amazon-nova-pro,Nova Pro,Amazon,2026-08-01,snapshot,,0.8,3.2,
 amazon-nova-pro,Nova Pro,Amazon,2026-08-02,snapshot,,0.8,3.2,
 amazon-nova-pro,Nova Pro,Amazon,2026-08-03,snapshot,,0.8,3.2,
 amazon-nova-pro,Nova Pro,Amazon,2026-08-04,snapshot,,0.8,3.2,
+amazon-nova-pro,Nova Pro,Amazon,2026-08-05,snapshot,,0.8,3.2,
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-06-17,backfill,litellm-archive,10.0,50.0,
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-06-23,backfill,litellm-archive,10.0,50.0,
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-06-25,baseline,,10.0,50.0,1.0
@@ -524,6 +538,7 @@ anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-01,snapshot,,10.0,50.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-02,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-03,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-04,snapshot,,10.0,50.0,1.0
+anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-05,snapshot,,10.0,50.0,1.0
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2024-11-12,backfill,litellm-archive,1.0,5.0,
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2025-03-03,backfill,litellm-archive,0.8,4.0,
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-03-09,backfill,litellm-archive,0.8,4.0,
@@ -565,6 +580,7 @@ anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-08-01,snapshot,,0.8,4
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-08-02,snapshot,,0.8,4.0,0.08
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-08-03,snapshot,,0.8,4.0,0.08
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-08-04,snapshot,,0.8,4.0,0.08
+anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-08-05,snapshot,,0.8,4.0,0.08
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2025-10-20,backfill,litellm-archive,1.0,5.0,
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-06-23,backfill,litellm-archive,1.0,5.0,
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-06-25,baseline,,1.0,5.0,0.1
@@ -605,6 +621,7 @@ anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-08-01,snapshot,,1.0,5
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-08-02,snapshot,,1.0,5.0,0.1
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-08-03,snapshot,,1.0,5.0,0.1
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-08-04,snapshot,,1.0,5.0,0.1
+anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-08-05,snapshot,,1.0,5.0,0.1
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-06-27,baseline,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-06-29,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-06-30,snapshot,,10.0,50.0,1.0
@@ -643,6 +660,7 @@ anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-01,snapshot,,10.0,50
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-02,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-03,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-04,snapshot,,10.0,50.0,1.0
+anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-05,snapshot,,10.0,50.0,1.0
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2025-08-11,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-23,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-25,baseline,,15.0,75.0,1.5
@@ -683,6 +701,7 @@ anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-08-01,snapshot,,15.0,75
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-08-02,snapshot,,15.0,75.0,1.5
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-08-03,snapshot,,15.0,75.0,1.5
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-08-04,snapshot,,15.0,75.0,1.5
+anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-08-05,snapshot,,15.0,75.0,1.5
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2025-12-08,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-06-23,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-06-25,baseline,,5.0,25.0,0.5
@@ -723,6 +742,7 @@ anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-08-01,snapshot,,5.0,25.
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-08-02,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-08-03,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-08-04,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-4-5,Claude Opus 4.5,Anthropic,2026-08-05,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-02-09,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-06-23,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-06-25,baseline,,5.0,25.0,0.5
@@ -763,6 +783,7 @@ anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-08-01,snapshot,,5.0,25.
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-08-02,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-08-03,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-08-04,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-4-6,Claude Opus 4.6,Anthropic,2026-08-05,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-04-20,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-06-23,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-06-25,baseline,,5.0,25.0,0.5
@@ -803,6 +824,7 @@ anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-08-01,snapshot,,5.0,25.
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-08-02,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-08-03,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-08-04,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-4-7,Claude Opus 4.7,Anthropic,2026-08-05,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-06-01,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-06-23,backfill,litellm-archive,5.0,25.0,
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-06-25,baseline,,5.0,25.0,0.5
@@ -843,6 +865,7 @@ anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-08-01,snapshot,,5.0,25.
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-08-02,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-08-03,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-08-04,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-4-8,Claude Opus 4.8,Anthropic,2026-08-05,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-07-25,new_model,verified (07-24 official page re-affirmed; pricing unchanged),5.0,25.0,
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-07-26,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-07-27,snapshot,,5.0,25.0,0.5
@@ -854,6 +877,7 @@ anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-08-01,snapshot,,5.0,25.0,0.
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-08-02,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-08-03,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-08-04,snapshot,,5.0,25.0,0.5
+anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-08-05,snapshot,,5.0,25.0,0.5
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2025-10-06,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-06-23,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-06-25,baseline,,3.0,15.0,0.3
@@ -894,6 +918,7 @@ anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-08-01,snapshot,,3.0
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-08-02,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-08-03,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-08-04,snapshot,,3.0,15.0,0.3
+anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-08-05,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-02-23,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-06-23,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-06-25,baseline,,3.0,15.0,0.3
@@ -934,6 +959,7 @@ anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-08-01,snapshot,,3.0
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-08-02,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-08-03,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-08-04,snapshot,,3.0,15.0,0.3
+anthropic-claude-sonnet-4-6,Claude Sonnet 4.6,Anthropic,2026-08-05,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-06-30,new_model,verified,2.0,10.0,
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-07-01,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-07-02,snapshot,,2.0,10.0,0.2
@@ -970,6 +996,7 @@ anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-08-01,snapshot,,2.0,10.
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-08-02,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-08-03,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-08-04,snapshot,,2.0,10.0,0.2
+anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-08-05,snapshot,,2.0,10.0,0.2
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-25,baseline,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-29,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-30,snapshot,,0.07,0.07,
@@ -1008,6 +1035,7 @@ baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-01,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-02,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-03,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-04,snapshot,,0.07,0.07,
+baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-05,snapshot,,0.07,0.07,
 cohere-command-a,Command A,Cohere,2026-06-25,baseline,,1.0,2.0,
 cohere-command-a,Command A,Cohere,2026-06-29,snapshot,,1.0,2.0,
 cohere-command-a,Command A,Cohere,2026-06-30,snapshot,,1.0,2.0,
@@ -1046,6 +1074,7 @@ cohere-command-a,Command A,Cohere,2026-08-01,snapshot,,2.5,10.0,
 cohere-command-a,Command A,Cohere,2026-08-02,snapshot,,2.5,10.0,
 cohere-command-a,Command A,Cohere,2026-08-03,snapshot,,2.5,10.0,
 cohere-command-a,Command A,Cohere,2026-08-04,snapshot,,2.5,10.0,
+cohere-command-a,Command A,Cohere,2026-08-05,snapshot,,2.5,10.0,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-06-25,baseline,,0.5,1.5,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-06-29,snapshot,,0.5,1.5,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-06-30,snapshot,,0.5,1.5,
@@ -1084,6 +1113,7 @@ cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-08-01,snapshot,,0.5,1.5,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-08-02,snapshot,,0.5,1.5,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-08-03,snapshot,,0.5,1.5,
 cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-08-04,snapshot,,0.5,1.5,
+cohere-command-r-03-2024,Command R 03-2024,Cohere,2026-08-05,snapshot,,0.5,1.5,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2024-09-19,backfill,litellm-archive,0.15,0.6,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-06-23,backfill,litellm-archive,0.15,0.6,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-06-25,baseline,,0.15,0.6,
@@ -1124,6 +1154,7 @@ cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-08-01,snapshot,,0.15,0.6,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-08-02,snapshot,,0.15,0.6,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-08-03,snapshot,,0.15,0.6,
 cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-08-04,snapshot,,0.15,0.6,
+cohere-command-r-08-2024,Command R 08-2024,Cohere,2026-08-05,snapshot,,0.15,0.6,
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2024-09-19,backfill,litellm-archive,2.5,10.0,
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-06-23,backfill,litellm-archive,2.5,10.0,
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-06-25,baseline,,2.5,10.0,
@@ -1164,6 +1195,7 @@ cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-08-01,snapshot,,2.5
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-08-02,snapshot,,2.5,10.0,
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-08-03,snapshot,,2.5,10.0,
 cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-08-04,snapshot,,2.5,10.0,
+cohere-command-r-plus-08-2024,Command R+ 08-2024,Cohere,2026-08-05,snapshot,,2.5,10.0,
 cohere-embed-4,Embed 4,Cohere,2026-06-25,baseline,,0.12,,
 cohere-embed-4,Embed 4,Cohere,2026-06-29,snapshot,,0.12,,
 cohere-embed-4,Embed 4,Cohere,2026-06-30,snapshot,,0.12,,
@@ -1202,6 +1234,7 @@ cohere-embed-4,Embed 4,Cohere,2026-08-01,snapshot,,0.12,,
 cohere-embed-4,Embed 4,Cohere,2026-08-02,snapshot,,0.12,,
 cohere-embed-4,Embed 4,Cohere,2026-08-03,snapshot,,0.12,,
 cohere-embed-4,Embed 4,Cohere,2026-08-04,snapshot,,0.12,,
+cohere-embed-4,Embed 4,Cohere,2026-08-05,snapshot,,0.12,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-06-25,baseline,,0.02,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-06-29,snapshot,,0.02,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-06-30,snapshot,,0.02,,
@@ -1240,6 +1273,7 @@ cohere-rerank-3-5,Rerank 3.5,Cohere,2026-08-01,snapshot,,0.02,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-08-02,snapshot,,0.02,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-08-03,snapshot,,0.02,,
 cohere-rerank-3-5,Rerank 3.5,Cohere,2026-08-04,snapshot,,0.02,,
+cohere-rerank-3-5,Rerank 3.5,Cohere,2026-08-05,snapshot,,0.02,,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-07-10,new_model,verified,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-07-11,snapshot,,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-07-12,snapshot,,0.09,0.18,
@@ -1266,6 +1300,7 @@ deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-01,snapshot,,0.0
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-02,snapshot,,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-03,snapshot,,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-04,snapshot,,0.09,0.18,
+deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-05,snapshot,,0.09,0.18,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-10,new_model,verified,0.15,0.6,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-11,snapshot,,0.15,0.6,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-12,snapshot,,0.15,0.6,
@@ -1292,6 +1327,7 @@ deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-08-01,snapshot,,0.2,0
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-08-02,snapshot,,0.2,0.8,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-08-03,snapshot,,0.2,0.8,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-08-04,snapshot,,0.2,0.8,
+deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-08-05,snapshot,,0.2,0.8,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-07-10,new_model,verified,0.1,0.3,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-07-11,snapshot,,0.1,0.3,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-07-12,snapshot,,0.1,0.3,
@@ -1318,6 +1354,7 @@ deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-08-01,snapshot,,0.1,0.3,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-08-02,snapshot,,0.1,0.3,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-08-03,snapshot,,0.1,0.3,
 deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-08-04,snapshot,,0.1,0.3,
+deepinfra-llama-4-scout,Llama 4 Scout,DeepInfra,2026-08-05,snapshot,,0.1,0.3,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-10,new_model,verified,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-11,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-12,snapshot,,0.08,0.28,
@@ -1344,6 +1381,7 @@ deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-01,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-02,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-03,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-04,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-05,snapshot,,0.08,0.28,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-23,backfill,litellm-archive,0.14,0.28,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-25,baseline,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-29,snapshot,,0.14,0.28,0.0028
@@ -1383,6 +1421,7 @@ deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-01,snapshot,,0.14,0.28,0.00
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-02,snapshot,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-03,snapshot,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-04,snapshot,,0.14,0.28,0.0028
+deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-05,snapshot,,0.14,0.28,0.0028
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-23,backfill,litellm-archive,0.435,0.87,
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-25,baseline,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-29,snapshot,,0.435,0.87,0.003625
@@ -1422,6 +1461,7 @@ deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-01,snapshot,,0.435,0.87,0.00362
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-02,snapshot,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-03,snapshot,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-04,snapshot,,0.435,0.87,0.003625
+deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-05,snapshot,,0.435,0.87,0.003625
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-23,backfill,litellm-archive,0.14,0.28,
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-25,baseline,,0.14,0.28,0.028
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-29,snapshot,,0.14,0.28,0.028
@@ -1461,6 +1501,7 @@ fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-08-01,snapshot,,0.1
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-08-02,snapshot,,0.14,0.28,0.028
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-08-03,snapshot,,0.14,0.28,0.028
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-08-04,snapshot,,0.14,0.28,0.028
+fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-08-05,snapshot,,0.14,0.28,0.028
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-06-23,backfill,litellm-archive,1.74,3.48,
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-06-25,baseline,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-06-29,snapshot,,1.74,3.48,0.145
@@ -1500,6 +1541,7 @@ fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-01,snapshot,,1.74,3.
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-02,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-03,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-04,snapshot,,1.74,3.48,0.145
+fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-05,snapshot,,1.74,3.48,0.145
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-05-25,backfill,litellm-archive,1.4,4.4,
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
@@ -1539,6 +1581,7 @@ fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.26
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.26
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.26
 fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.26
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-23,backfill,litellm-archive,1.4,4.4,
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
@@ -1578,6 +1621,7 @@ fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.14
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.14
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.14
 fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.14
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-23,backfill,litellm-archive,0.15,0.6,
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-25,baseline,,0.15,0.6,0.015
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-29,snapshot,,0.15,0.6,0.015
@@ -1617,6 +1661,7 @@ fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-01,snapshot,,0.15,0.6,0.01
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-02,snapshot,,0.15,0.6,0.015
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-03,snapshot,,0.15,0.6,0.015
 fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-04,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-05,snapshot,,0.15,0.6,0.015
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-23,backfill,litellm-archive,0.07,0.3,
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-25,baseline,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-29,snapshot,,0.07,0.3,0.035
@@ -1656,6 +1701,7 @@ fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-01,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-02,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-03,snapshot,,0.07,0.3,0.035
 fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-04,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-05,snapshot,,0.07,0.3,0.035
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-02-23,backfill,litellm-archive,0.6,3.0,
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-06-25,baseline,,0.6,3.0,0.1
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-06-29,snapshot,,0.6,3.0,0.1
@@ -1695,6 +1741,7 @@ fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-08-01,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-08-02,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-08-03,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-08-04,snapshot,,0.6,3.0,0.1
+fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-08-05,snapshot,,0.6,3.0,0.1
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-06-23,backfill,litellm-archive,0.95,4.0,
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-06-25,baseline,,0.95,4.0,0.16
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-06-29,snapshot,,0.95,4.0,0.16
@@ -1734,6 +1781,7 @@ fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-08-01,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-08-02,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-08-03,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-08-04,snapshot,,0.95,4.0,0.16
+fireworks-kimi-k2-6,Kimi K2.6,Fireworks,2026-08-05,snapshot,,0.95,4.0,0.16
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-06-23,backfill,litellm-archive,0.95,4.0,
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-06-25,baseline,,0.95,4.0,0.19
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-06-29,snapshot,,0.95,4.0,0.19
@@ -1773,6 +1821,7 @@ fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-08-01,snapshot,,0.95,4.0,
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-08-02,snapshot,,0.95,4.0,0.19
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-08-03,snapshot,,0.95,4.0,0.19
 fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-08-04,snapshot,,0.95,4.0,0.19
+fireworks-kimi-k2-7-code,Kimi K2.7 Code,Fireworks,2026-08-05,snapshot,,0.95,4.0,0.19
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-06-25,baseline,,0.3,1.2,0.03
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.03
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-06-30,snapshot,,0.3,1.2,0.03
@@ -1811,6 +1860,7 @@ fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-08-01,snapshot,,0.3,1.2,0.03
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-08-02,snapshot,,0.3,1.2,0.03
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-08-03,snapshot,,0.3,1.2,0.03
 fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-08-04,snapshot,,0.3,1.2,0.03
+fireworks-minimax-2-5,MiniMax 2.5,Fireworks,2026-08-05,snapshot,,0.3,1.2,0.03
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-06-23,backfill,litellm-archive,0.3,1.2,
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-06-25,baseline,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.06
@@ -1850,6 +1900,7 @@ fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-01,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-02,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-03,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-04,snapshot,,0.3,1.2,0.06
+fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-05,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-23,backfill,litellm-archive,0.3,1.2,
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-25,baseline,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.06
@@ -1889,6 +1940,7 @@ fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-01,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-02,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-03,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-04,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-05,snapshot,,0.3,1.2,0.06
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-25,baseline,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-29,snapshot,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-30,snapshot,,0.6,2.4,0.12
@@ -1927,6 +1979,7 @@ fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-08-01,snapshot
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-08-02,snapshot,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-08-03,snapshot,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-08-04,snapshot,,0.6,2.4,0.12
+fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-08-05,snapshot,,0.6,2.4,0.12
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-06-25,baseline,,0.5,3.0,0.1
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-06-29,snapshot,,0.5,3.0,0.1
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-06-30,snapshot,,0.5,3.0,0.1
@@ -1965,6 +2018,7 @@ fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-08-01,snapshot,,0.5,3.0,0.1
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-08-02,snapshot,,0.5,3.0,0.1
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-08-03,snapshot,,0.5,3.0,0.1
 fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-08-04,snapshot,,0.5,3.0,0.1
+fireworks-qwen3-6-plus,Qwen 3.6 Plus,Fireworks,2026-08-05,snapshot,,0.5,3.0,0.1
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-06-23,backfill,litellm-archive,0.4,1.6,
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-06-25,baseline,,0.4,1.6,0.08
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-06-29,snapshot,,0.4,1.6,0.08
@@ -2004,6 +2058,7 @@ fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-08-01,snapshot,,0.4,1.6,0.08
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-08-02,snapshot,,0.4,1.6,0.08
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-08-03,snapshot,,0.4,1.6,0.08
 fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-08-04,snapshot,,0.4,1.6,0.08
+fireworks-qwen3-7-plus,Qwen 3.7 Plus,Fireworks,2026-08-05,snapshot,,0.4,1.6,0.08
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2025-06-23,backfill,litellm-archive,0.3,2.5,
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-06-23,backfill,litellm-archive,0.3,2.5,
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-06-25,baseline,,0.075,0.3,
@@ -2044,6 +2099,7 @@ google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-08-01,snapshot,,0.3,2.5,
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-08-02,snapshot,,0.3,2.5,
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-08-03,snapshot,,0.3,2.5,
 google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-08-04,snapshot,,0.3,2.5,
+google-gemini-2-5-flash,Gemini 2.5 Flash,Google,2026-08-05,snapshot,,0.3,2.5,
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2025-07-28,backfill,litellm-archive,0.1,0.4,
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-06-23,backfill,litellm-archive,0.1,0.4,
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-06-25,baseline,,0.1,0.4,
@@ -2084,6 +2140,7 @@ google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-08-01,snapshot,,0
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-08-02,snapshot,,0.1,0.4,
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-08-03,snapshot,,0.1,0.4,
 google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-08-04,snapshot,,0.1,0.4,
+google-gemini-2-5-flash-lite,Gemini 2.5 Flash-Lite,Google,2026-08-05,snapshot,,0.1,0.4,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2025-06-23,backfill,litellm-archive,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-06-23,backfill,litellm-archive,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-06-25,baseline,,1.25,10.0,
@@ -2124,10 +2181,12 @@ google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-01,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-02,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-03,snapshot,,1.25,10.0,
 google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-04,snapshot,,1.25,10.0,
+google-gemini-2-5-pro,Gemini 2.5 Pro,Google,2026-08-05,snapshot,,1.25,10.0,
 google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-01,new_model,verified,0.5,60.0,
 google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-02,snapshot,,0.5,60.0,
 google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-03,snapshot,,0.5,60.0,
 google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-04,snapshot,,0.5,60.0,
+google-gemini-3-1-flash-image,Gemini 3.1 Flash Image,Google,2026-08-05,snapshot,,0.5,60.0,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-05-25,backfill,litellm-archive,0.45,2.7,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-06-09,backfill,litellm-archive,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-06-23,backfill,litellm-archive,0.25,1.5,
@@ -2169,10 +2228,12 @@ google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-01,snapshot,,0
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-02,snapshot,,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-03,snapshot,,0.25,1.5,
 google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-04,snapshot,,0.25,1.5,
+google-gemini-3-1-flash-lite,Gemini 3.1 Flash-Lite,Google,2026-08-05,snapshot,,0.25,1.5,
 google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-01,new_model,verified,0.25,30.0,
 google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-02,snapshot,,0.25,30.0,
 google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-03,snapshot,,0.25,30.0,
 google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-04,snapshot,,0.25,30.0,
+google-gemini-3-1-flash-lite-image,Gemini 3.1 Flash Lite Image,Google,2026-08-05,snapshot,,0.25,30.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-02-23,backfill,litellm-archive,2.0,12.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-06-25,baseline,,2.0,12.0,
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-06-29,snapshot,,2.0,12.0,
@@ -2212,6 +2273,7 @@ google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-08-01,snapshot,,2.0,12.0,0.2
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-08-02,snapshot,,2.0,12.0,0.2
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-08-03,snapshot,,2.0,12.0,0.2
 google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-08-04,snapshot,,2.0,12.0,0.2
+google-gemini-3-1-pro,Gemini 3.1 Pro,Google,2026-08-05,snapshot,,2.0,12.0,0.2
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-05-20,backfill,litellm-archive,1.5,9.0,
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-06-23,backfill,litellm-archive,1.5,9.0,
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-06-25,baseline,,1.5,9.0,
@@ -2252,6 +2314,7 @@ google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-08-01,snapshot,,1.5,9.0,
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-08-02,snapshot,,1.5,9.0,
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-08-03,snapshot,,1.5,9.0,
 google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-08-04,snapshot,,1.5,9.0,
+google-gemini-3-5-flash,Gemini 3.5 Flash,Google,2026-08-05,snapshot,,1.5,9.0,
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-07-21,new_model,google-official-pricing,0.3,2.5,
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-07-22,snapshot,,0.3,2.5,
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-07-23,snapshot,,0.3,2.5,
@@ -2267,6 +2330,7 @@ google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-08-01,snapshot,,0
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-08-02,snapshot,,0.3,2.5,0.03
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-08-03,snapshot,,0.3,2.5,0.03
 google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-08-04,snapshot,,0.3,2.5,0.03
+google-gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-08-05,snapshot,,0.3,2.5,0.03
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-07-21,new_model,google-official-pricing,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-07-22,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-07-23,snapshot,,1.5,7.5,
@@ -2282,6 +2346,7 @@ google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-01,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-02,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-03,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-04,snapshot,,1.5,7.5,
+google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-05,snapshot,,1.5,7.5,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-08,new_model,verified,0.5,3.0,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-09,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-10,snapshot,,0.5,3.0,0.05
@@ -2310,10 +2375,12 @@ google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-01,snapshot,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-02,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-03,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-04,snapshot,,0.5,3.0,0.05
+google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-08-05,snapshot,,0.5,3.0,0.05
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-01,new_model,verified,2.0,120.0,
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-02,snapshot,,2.0,120.0,
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-03,snapshot,,2.0,120.0,
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-04,snapshot,,2.0,120.0,
+google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-08-05,snapshot,,2.0,120.0,
 google-text-embedding-004,text-embedding-004,Google,2026-06-25,baseline,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-06-29,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-06-30,snapshot,,0.025,,
@@ -2352,6 +2419,7 @@ google-text-embedding-004,text-embedding-004,Google,2026-08-01,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-08-02,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-08-03,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-08-04,snapshot,,0.025,,
+google-text-embedding-004,text-embedding-004,Google,2026-08-05,snapshot,,0.025,,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2025-08-11,backfill,litellm-archive,0.15,0.75,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-01-27,backfill,litellm-archive,0.15,0.6,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-06-23,backfill,litellm-archive,0.15,0.6,
@@ -2393,6 +2461,7 @@ groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-08-01,snapshot,,0.15,0.6,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-08-02,snapshot,,0.15,0.6,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-08-03,snapshot,,0.15,0.6,
 groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-08-04,snapshot,,0.15,0.6,
+groq-gpt-oss-120b,GPT-OSS 120B,Groq,2026-08-05,snapshot,,0.15,0.6,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2025-08-11,backfill,litellm-archive,0.1,0.5,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-01-27,backfill,litellm-archive,0.075,0.3,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-06-23,backfill,litellm-archive,0.075,0.3,
@@ -2434,6 +2503,7 @@ groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-08-01,snapshot,,0.075,0.3,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-08-02,snapshot,,0.075,0.3,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-08-03,snapshot,,0.075,0.3,
 groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-08-04,snapshot,,0.075,0.3,
+groq-gpt-oss-20b,GPT-OSS 20B,Groq,2026-08-05,snapshot,,0.075,0.3,
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2024-07-29,backfill,litellm-archive,0.59,0.79,
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2024-10-08,backfill,litellm-archive,0.05,0.08,
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-06-23,backfill,litellm-archive,0.05,0.08,
@@ -2475,6 +2545,7 @@ groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-08-01,snapshot,,0.05,0.
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-08-02,snapshot,,0.05,0.08,
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-08-03,snapshot,,0.05,0.08,
 groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-08-04,snapshot,,0.05,0.08,
+groq-llama-3-1-8b-instant,Llama 3.1 8B Instant,Groq,2026-08-05,snapshot,,0.05,0.08,
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2024-12-11,backfill,litellm-archive,0.59,0.79,
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-06-23,backfill,litellm-archive,0.59,0.79,
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-06-25,baseline,,0.59,0.79,
@@ -2515,6 +2586,7 @@ groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-08-01,snapshot,,0
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-08-02,snapshot,,0.59,0.79,
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-08-03,snapshot,,0.59,0.79,
 groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-08-04,snapshot,,0.59,0.79,
+groq-llama-3-3-70b-versatile,Llama 3.3 70B Versatile,Groq,2026-08-05,snapshot,,0.59,0.79,
 groq-llama-4-scout,Llama 4 Scout,Groq,2025-05-19,backfill,litellm-archive,0.11,0.34,
 groq-llama-4-scout,Llama 4 Scout,Groq,2026-06-23,backfill,litellm-archive,0.11,0.34,
 groq-llama-4-scout,Llama 4 Scout,Groq,2026-06-25,baseline,,0.11,0.34,
@@ -2555,6 +2627,7 @@ groq-llama-4-scout,Llama 4 Scout,Groq,2026-08-01,snapshot,,0.11,0.34,
 groq-llama-4-scout,Llama 4 Scout,Groq,2026-08-02,snapshot,,0.11,0.34,
 groq-llama-4-scout,Llama 4 Scout,Groq,2026-08-03,snapshot,,0.11,0.34,
 groq-llama-4-scout,Llama 4 Scout,Groq,2026-08-04,snapshot,,0.11,0.34,
+groq-llama-4-scout,Llama 4 Scout,Groq,2026-08-05,snapshot,,0.11,0.34,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-06-25,baseline,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-06-29,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-06-30,snapshot,,0.6,3.0,
@@ -2593,6 +2666,7 @@ groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-01,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-02,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-03,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-04,snapshot,,0.6,3.0,
+groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-05,snapshot,,0.6,3.0,
 groq-qwen3-32b,Qwen3 32B,Groq,2025-07-28,backfill,litellm-archive,0.29,0.59,
 groq-qwen3-32b,Qwen3 32B,Groq,2026-06-23,backfill,litellm-archive,0.29,0.59,
 groq-qwen3-32b,Qwen3 32B,Groq,2026-06-25,baseline,,0.29,0.59,
@@ -2633,6 +2707,7 @@ groq-qwen3-32b,Qwen3 32B,Groq,2026-08-01,snapshot,,0.29,0.59,
 groq-qwen3-32b,Qwen3 32B,Groq,2026-08-02,snapshot,,0.29,0.59,
 groq-qwen3-32b,Qwen3 32B,Groq,2026-08-03,snapshot,,0.29,0.59,
 groq-qwen3-32b,Qwen3 32B,Groq,2026-08-04,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3 32B,Groq,2026-08-05,snapshot,,0.29,0.59,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-25,baseline,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-29,snapshot,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-30,snapshot,,0.017,0.112,
@@ -2671,6 +2746,7 @@ ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-08-01,snapshot,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-08-02,snapshot,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-08-03,snapshot,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-08-04,snapshot,,0.017,0.112,
+ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-08-05,snapshot,,0.017,0.112,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-06-25,baseline,,0.3,1.2,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-06-29,snapshot,,0.3,1.2,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-06-30,snapshot,,0.3,1.2,
@@ -2709,6 +2785,7 @@ ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-08-01,snapshot,,0.3,1.2,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-08-02,snapshot,,0.3,1.2,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-08-03,snapshot,,0.3,1.2,
 ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-08-04,snapshot,,0.3,1.2,
+ibm-granite-4-h-large,Granite 4 H Large,IBM,2026-08-05,snapshot,,0.3,1.2,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-06-25,baseline,,0.15,0.6,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-06-29,snapshot,,0.15,0.6,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-06-30,snapshot,,0.15,0.6,
@@ -2747,6 +2824,7 @@ ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-08-01,snapshot,,0.15,0.6,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-08-02,snapshot,,0.15,0.6,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-08-03,snapshot,,0.15,0.6,
 ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-08-04,snapshot,,0.15,0.6,
+ibm-granite-4-h-medium,Granite 4 H Medium,IBM,2026-08-05,snapshot,,0.15,0.6,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2025-10-20,backfill,litellm-archive,0.06,0.25,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-06-23,backfill,litellm-archive,0.06,0.25,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-06-25,baseline,,0.06,0.25,
@@ -2787,6 +2865,7 @@ ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-08-01,snapshot,,0.06,0.25,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-08-02,snapshot,,0.06,0.25,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-08-03,snapshot,,0.06,0.25,
 ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-08-04,snapshot,,0.06,0.25,
+ibm-granite-4-h-small,Granite 4 H Small,IBM,2026-08-05,snapshot,,0.06,0.25,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-06-25,baseline,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-06-29,snapshot,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-06-30,snapshot,,0.106,,
@@ -2825,6 +2904,7 @@ ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-01,sn
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-02,snapshot,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-03,snapshot,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-04,snapshot,,0.106,,
+ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-05,snapshot,,0.106,,
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-06,new_model,verified,0.75,2.95,
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-07,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-08,snapshot,,0.75,2.95,0.015
@@ -2855,6 +2935,7 @@ meituan-longcat-2,LongCat-2.0,Meituan,2026-08-01,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-08-02,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-08-03,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-08-04,snapshot,,0.75,2.95,0.015
+meituan-longcat-2,LongCat-2.0,Meituan,2026-08-05,snapshot,,0.75,2.95,0.015
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-06-25,baseline,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-06-29,snapshot,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-06-30,snapshot,,0.05,0.08,
@@ -2893,6 +2974,7 @@ meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-01,snapshot,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-02,snapshot,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-03,snapshot,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-04,snapshot,,0.05,0.08,
+meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-05,snapshot,,0.05,0.08,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-06-25,baseline,,0.59,0.79,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-06-29,snapshot,,0.59,0.79,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-06-30,snapshot,,0.59,0.79,
@@ -2931,6 +3013,7 @@ meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-08-01,snapshot,,0.59,0.79,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-08-02,snapshot,,0.59,0.79,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-08-03,snapshot,,0.59,0.79,
 meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-08-04,snapshot,,0.59,0.79,
+meta-llama-3-3-70b,Llama 3.3 70B,Meta,2026-08-05,snapshot,,0.59,0.79,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-06-25,baseline,,0.11,0.34,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-06-29,snapshot,,0.11,0.34,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-06-30,snapshot,,0.11,0.34,
@@ -2969,10 +3052,12 @@ meta-llama-4-scout,Llama 4 Scout,Meta,2026-08-01,snapshot,,0.11,0.34,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-08-02,snapshot,,0.11,0.34,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-08-03,snapshot,,0.11,0.34,
 meta-llama-4-scout,Llama 4 Scout,Meta,2026-08-04,snapshot,,0.11,0.34,
+meta-llama-4-scout,Llama 4 Scout,Meta,2026-08-05,snapshot,,0.11,0.34,
 meta-muse-spark-1-1,Muse Spark 1.1,Meta,2026-08-01,new_model,verified,1.25,4.25,
 meta-muse-spark-1-1,Muse Spark 1.1,Meta,2026-08-02,snapshot,,1.25,4.25,0.15
 meta-muse-spark-1-1,Muse Spark 1.1,Meta,2026-08-03,snapshot,,1.25,4.25,0.15
 meta-muse-spark-1-1,Muse Spark 1.1,Meta,2026-08-04,snapshot,,1.25,4.25,0.15
+meta-muse-spark-1-1,Muse Spark 1.1,Meta,2026-08-05,snapshot,,1.25,4.25,0.15
 minimax-m2,MiniMax-M2,MiniMax,2025-12-29,backfill,litellm-archive,0.3,1.2,
 minimax-m2,MiniMax-M2,MiniMax,2026-06-23,backfill,litellm-archive,0.3,1.2,
 minimax-m2,MiniMax-M2,MiniMax,2026-06-25,baseline,,0.3,1.2,0.03
@@ -3013,6 +3098,7 @@ minimax-m2,MiniMax-M2,MiniMax,2026-08-01,snapshot,,0.3,1.2,0.03
 minimax-m2,MiniMax-M2,MiniMax,2026-08-02,snapshot,,0.3,1.2,0.03
 minimax-m2,MiniMax-M2,MiniMax,2026-08-03,snapshot,,0.3,1.2,0.03
 minimax-m2,MiniMax-M2,MiniMax,2026-08-04,snapshot,,0.3,1.2,0.03
+minimax-m2,MiniMax-M2,MiniMax,2026-08-05,snapshot,,0.3,1.2,0.03
 minimax-m2-1,MiniMax-M2.1,MiniMax,2025-12-29,backfill,litellm-archive,0.3,1.2,
 minimax-m2-1,MiniMax-M2.1,MiniMax,2026-06-23,backfill,litellm-archive,0.3,1.2,
 minimax-m2-1,MiniMax-M2.1,MiniMax,2026-06-25,baseline,,0.3,1.2,0.03
@@ -3053,6 +3139,7 @@ minimax-m2-1,MiniMax-M2.1,MiniMax,2026-08-01,snapshot,,0.3,1.2,0.03
 minimax-m2-1,MiniMax-M2.1,MiniMax,2026-08-02,snapshot,,0.3,1.2,0.03
 minimax-m2-1,MiniMax-M2.1,MiniMax,2026-08-03,snapshot,,0.3,1.2,0.03
 minimax-m2-1,MiniMax-M2.1,MiniMax,2026-08-04,snapshot,,0.3,1.2,0.03
+minimax-m2-1,MiniMax-M2.1,MiniMax,2026-08-05,snapshot,,0.3,1.2,0.03
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-02-16,backfill,litellm-archive,0.3,1.2,
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-06-23,backfill,litellm-archive,0.3,1.2,
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-06-25,baseline,,0.3,1.2,0.03
@@ -3093,6 +3180,7 @@ minimax-m2-5,MiniMax-M2.5,MiniMax,2026-08-01,snapshot,,0.3,1.2,0.03
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-08-02,snapshot,,0.3,1.2,0.03
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-08-03,snapshot,,0.3,1.2,0.03
 minimax-m2-5,MiniMax-M2.5,MiniMax,2026-08-04,snapshot,,0.3,1.2,0.03
+minimax-m2-5,MiniMax-M2.5,MiniMax,2026-08-05,snapshot,,0.3,1.2,0.03
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-06-25,baseline,,0.3,1.2,0.06
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-06-29,snapshot,,0.3,1.2,0.06
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-06-30,snapshot,,0.3,1.2,0.06
@@ -3131,6 +3219,7 @@ minimax-m2-7,MiniMax-M2.7,MiniMax,2026-08-01,snapshot,,0.3,1.2,0.06
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-08-02,snapshot,,0.3,1.2,0.06
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-08-03,snapshot,,0.3,1.2,0.06
 minimax-m2-7,MiniMax-M2.7,MiniMax,2026-08-04,snapshot,,0.3,1.2,0.06
+minimax-m2-7,MiniMax-M2.7,MiniMax,2026-08-05,snapshot,,0.3,1.2,0.06
 minimax-m3,MiniMax-M3,MiniMax,2026-06-09,backfill,litellm-archive,0.6,2.4,
 minimax-m3,MiniMax-M3,MiniMax,2026-06-17,backfill,litellm-archive,0.3,1.2,
 minimax-m3,MiniMax-M3,MiniMax,2026-06-23,backfill,litellm-archive,0.3,1.2,
@@ -3172,6 +3261,7 @@ minimax-m3,MiniMax-M3,MiniMax,2026-08-01,snapshot,,0.3,1.2,0.06
 minimax-m3,MiniMax-M3,MiniMax,2026-08-02,snapshot,,0.3,1.2,0.06
 minimax-m3,MiniMax-M3,MiniMax,2026-08-03,snapshot,,0.3,1.2,0.06
 minimax-m3,MiniMax-M3,MiniMax,2026-08-04,snapshot,,0.3,1.2,0.06
+minimax-m3,MiniMax-M3,MiniMax,2026-08-05,snapshot,,0.3,1.2,0.06
 mistral-codestral,Codestral,Mistral,2026-06-25,baseline,,0.3,0.9,
 mistral-codestral,Codestral,Mistral,2026-06-29,snapshot,,0.3,0.9,
 mistral-codestral,Codestral,Mistral,2026-06-30,snapshot,,0.3,0.9,
@@ -3210,6 +3300,7 @@ mistral-codestral,Codestral,Mistral,2026-08-01,snapshot,,0.3,0.9,
 mistral-codestral,Codestral,Mistral,2026-08-02,snapshot,,0.3,0.9,
 mistral-codestral,Codestral,Mistral,2026-08-03,snapshot,,0.3,0.9,
 mistral-codestral,Codestral,Mistral,2026-08-04,snapshot,,0.3,0.9,
+mistral-codestral,Codestral,Mistral,2026-08-05,snapshot,,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2025-12-15,backfill,litellm-archive,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2026-06-23,backfill,litellm-archive,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2026-06-25,baseline,,0.3,0.9,
@@ -3250,6 +3341,7 @@ mistral-codestral-2508,Codestral 2508,Mistral,2026-08-01,snapshot,,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2026-08-02,snapshot,,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2026-08-03,snapshot,,0.3,0.9,
 mistral-codestral-2508,Codestral 2508,Mistral,2026-08-04,snapshot,,0.3,0.9,
+mistral-codestral-2508,Codestral 2508,Mistral,2026-08-05,snapshot,,0.3,0.9,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-06-25,baseline,,0.4,2.0,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-06-29,snapshot,,0.4,2.0,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-06-30,snapshot,,0.4,2.0,
@@ -3288,6 +3380,7 @@ mistral-devstral-2,Devstral 2 2512,Mistral,2026-08-01,snapshot,,0.4,2.0,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-08-02,snapshot,,0.4,2.0,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-08-03,snapshot,,0.4,2.0,
 mistral-devstral-2,Devstral 2 2512,Mistral,2026-08-04,snapshot,,0.4,2.0,
+mistral-devstral-2,Devstral 2 2512,Mistral,2026-08-05,snapshot,,0.4,2.0,
 mistral-large-3,Mistral Large 3,Mistral,2025-12-08,backfill,litellm-archive,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-06-23,backfill,litellm-archive,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-06-25,baseline,,0.5,1.5,
@@ -3328,6 +3421,7 @@ mistral-large-3,Mistral Large 3,Mistral,2026-08-01,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-08-02,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-08-03,snapshot,,0.5,1.5,
 mistral-large-3,Mistral Large 3,Mistral,2026-08-04,snapshot,,0.5,1.5,
+mistral-large-3,Mistral Large 3,Mistral,2026-08-05,snapshot,,0.5,1.5,
 mistral-magistral-medium,Magistral Medium,Mistral,2025-06-16,backfill,litellm-archive,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-25,baseline,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-29,snapshot,,2.0,5.0,
@@ -3367,6 +3461,7 @@ mistral-magistral-medium,Magistral Medium,Mistral,2026-08-01,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-08-02,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-08-03,snapshot,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-08-04,snapshot,,2.0,5.0,
+mistral-magistral-medium,Magistral Medium,Mistral,2026-08-05,snapshot,,2.0,5.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2025-06-02,backfill,litellm-archive,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-06-25,baseline,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-06-29,snapshot,,0.4,2.0,
@@ -3406,6 +3501,7 @@ mistral-medium-3,Mistral Medium 3,Mistral,2026-08-01,snapshot,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-08-02,snapshot,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-08-03,snapshot,,0.4,2.0,
 mistral-medium-3,Mistral Medium 3,Mistral,2026-08-04,snapshot,,0.4,2.0,
+mistral-medium-3,Mistral Medium 3,Mistral,2026-08-05,snapshot,,0.4,2.0,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-06-23,backfill,litellm-archive,1.5,7.5,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-06-25,baseline,,1.5,7.5,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-06-29,snapshot,,1.5,7.5,
@@ -3445,6 +3541,7 @@ mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-08-01,snapshot,,1.5,7.5,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-08-02,snapshot,,1.5,7.5,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-08-03,snapshot,,1.5,7.5,
 mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-08-04,snapshot,,1.5,7.5,
+mistral-medium-3-5,Mistral Medium 3.5,Mistral,2026-08-05,snapshot,,1.5,7.5,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-03-09,backfill,litellm-archive,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-06-23,backfill,litellm-archive,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-06-25,baseline,,0.1,0.1,
@@ -3485,6 +3582,7 @@ mistral-ministral-3b,Ministral 3 3B,Mistral,2026-08-01,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-08-02,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-08-03,snapshot,,0.1,0.1,
 mistral-ministral-3b,Ministral 3 3B,Mistral,2026-08-04,snapshot,,0.1,0.1,
+mistral-ministral-3b,Ministral 3 3B,Mistral,2026-08-05,snapshot,,0.1,0.1,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2024-06-04,backfill,litellm-archive,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-06-25,baseline,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-06-29,snapshot,,2.0,6.0,
@@ -3524,6 +3622,7 @@ mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-08-01,snapshot,,2.0,6.
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-08-02,snapshot,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-08-03,snapshot,,2.0,6.0,
 mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-08-04,snapshot,,2.0,6.0,
+mistral-mixtral-8x22b,Mixtral 8x22B Instruct,Mistral,2026-08-05,snapshot,,2.0,6.0,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2024-04-22,backfill,litellm-archive,2.0,6.0,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2024-06-04,backfill,litellm-archive,0.7,0.7,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-06-25,baseline,,0.54,0.54,
@@ -3564,6 +3663,7 @@ mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-08-01,snapshot,,0.7,0.7,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-08-02,snapshot,,0.7,0.7,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-08-03,snapshot,,0.7,0.7,
 mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-08-04,snapshot,,0.7,0.7,
+mistral-mixtral-8x7b,Mixtral 8x7B Instruct,Mistral,2026-08-05,snapshot,,0.7,0.7,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2024-10-03,backfill,litellm-archive,0.15,0.15,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2026-06-23,backfill,litellm-archive,0.15,0.15,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2026-06-25,baseline,,0.1,0.1,
@@ -3604,6 +3704,7 @@ mistral-pixtral-12b,Pixtral 12B,Mistral,2026-08-01,snapshot,,0.1,0.1,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2026-08-02,snapshot,,0.1,0.1,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2026-08-03,snapshot,,0.1,0.1,
 mistral-pixtral-12b,Pixtral 12B,Mistral,2026-08-04,snapshot,,0.1,0.1,
+mistral-pixtral-12b,Pixtral 12B,Mistral,2026-08-05,snapshot,,0.1,0.1,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2025-01-06,backfill,litellm-archive,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-06-23,backfill,litellm-archive,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-06-25,baseline,,2.0,6.0,
@@ -3644,6 +3745,7 @@ mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-08-01,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-08-02,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-08-03,snapshot,,2.0,6.0,
 mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-08-04,snapshot,,2.0,6.0,
+mistral-pixtral-large,Pixtral Large 2411,Mistral,2026-08-05,snapshot,,2.0,6.0,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-03-09,backfill,litellm-archive,0.06,0.18,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-06-25,baseline,,0.08,0.2,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-06-29,snapshot,,0.08,0.2,
@@ -3683,6 +3785,7 @@ mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-08-01,snapshot,,0.1,0.3,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-08-02,snapshot,,0.1,0.3,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-08-03,snapshot,,0.1,0.3,
 mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-08-04,snapshot,,0.1,0.3,
+mistral-small-3-2,Mistral Small 3.2 24B,Mistral,2026-08-05,snapshot,,0.1,0.3,
 mistral-small-4,Mistral Small 4,Mistral,2026-06-25,baseline,,0.15,0.6,
 mistral-small-4,Mistral Small 4,Mistral,2026-06-29,snapshot,,0.15,0.6,
 mistral-small-4,Mistral Small 4,Mistral,2026-06-30,snapshot,,0.15,0.6,
@@ -3721,6 +3824,7 @@ mistral-small-4,Mistral Small 4,Mistral,2026-08-01,snapshot,,0.15,0.6,
 mistral-small-4,Mistral Small 4,Mistral,2026-08-02,snapshot,,0.15,0.6,
 mistral-small-4,Mistral Small 4,Mistral,2026-08-03,snapshot,,0.15,0.6,
 mistral-small-4,Mistral Small 4,Mistral,2026-08-04,snapshot,,0.15,0.6,
+mistral-small-4,Mistral Small 4,Mistral,2026-08-05,snapshot,,0.15,0.6,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-06-25,baseline,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-06-29,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-06-30,snapshot,,0.1,0.3,
@@ -3759,6 +3863,7 @@ mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-01,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-02,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-03,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-04,snapshot,,0.1,0.3,
+mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-05,snapshot,,0.1,0.3,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-02-09,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-23,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-25,baseline,,0.6,3.0,0.1
@@ -3799,6 +3904,7 @@ moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-08-01,snapshot,,0.6,3.0,0.1
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-08-02,snapshot,,0.6,3.0,0.1
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-08-03,snapshot,,0.6,3.0,0.1
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-08-04,snapshot,,0.6,3.0,0.1
+moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-08-05,snapshot,,0.6,3.0,0.1
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-04-27,backfill,litellm-archive,0.95,4.0,
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-06-23,backfill,litellm-archive,0.95,4.0,
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-06-25,baseline,,0.95,4.0,0.16
@@ -3839,6 +3945,7 @@ moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-08-01,snapshot,,0.95,4.0,0.16
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-08-02,snapshot,,0.95,4.0,0.16
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-08-03,snapshot,,0.95,4.0,0.16
 moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-08-04,snapshot,,0.95,4.0,0.16
+moonshot-kimi-k2-6,Kimi K2.6,Moonshot,2026-08-05,snapshot,,0.95,4.0,0.16
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-06-25,baseline,,0.95,4.0,0.19
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-06-29,snapshot,,0.95,4.0,0.19
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-06-30,snapshot,,0.95,4.0,0.19
@@ -3877,6 +3984,7 @@ moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-08-01,snapshot,,0.95,4.0,0.
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-08-02,snapshot,,0.95,4.0,0.19
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-08-03,snapshot,,0.95,4.0,0.19
 moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-08-04,snapshot,,0.95,4.0,0.19
+moonshot-kimi-k2-7-code,Kimi K2.7 Code,Moonshot,2026-08-05,snapshot,,0.95,4.0,0.19
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-06-25,baseline,,1.9,8.0,0.38
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-06-29,snapshot,,1.9,8.0,0.38
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-06-30,snapshot,,1.9,8.0,0.38
@@ -3915,6 +4023,7 @@ moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-08-01,s
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-08-02,snapshot,,1.9,8.0,0.38
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-08-03,snapshot,,1.9,8.0,0.38
 moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-08-04,snapshot,,1.9,8.0,0.38
+moonshot-kimi-k2-7-code-highspeed,Kimi K2.7 Code HighSpeed,Moonshot,2026-08-05,snapshot,,1.9,8.0,0.38
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-07-16,new_model,verified,3.0,15.0,
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-07-17,snapshot,,3.0,15.0,0.3
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-07-18,snapshot,,3.0,15.0,0.3
@@ -3935,6 +4044,7 @@ moonshot-kimi-k3,Kimi K3,Moonshot,2026-08-01,snapshot,,3.0,15.0,0.3
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-08-02,snapshot,,3.0,15.0,0.3
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-08-03,snapshot,,3.0,15.0,0.3
 moonshot-kimi-k3,Kimi K3,Moonshot,2026-08-04,snapshot,,3.0,15.0,0.3
+moonshot-kimi-k3,Kimi K3,Moonshot,2026-08-05,snapshot,,3.0,15.0,0.3
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-06-25,baseline,,0.6,3.6,
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-06-29,snapshot,,0.6,3.6,
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-06-30,snapshot,,0.6,3.6,
@@ -3973,6 +4083,7 @@ nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-01,sna
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-02,snapshot,,0.6,3.6,
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-03,snapshot,,0.6,3.6,
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-04,snapshot,,0.6,3.6,
+nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-05,snapshot,,0.6,3.6,
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-06-25,baseline,,0.6,3.6,0.12
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-06-29,snapshot,,0.6,3.6,0.12
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-06-30,snapshot,,0.6,3.6,0.12
@@ -4011,6 +4122,7 @@ nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-01,snapshot,,0.6,3.6,0.1
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-02,snapshot,,0.6,3.6,0.12
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-03,snapshot,,0.6,3.6,0.12
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-04,snapshot,,0.6,3.6,0.12
+nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-05,snapshot,,0.6,3.6,0.12
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-06-27,baseline,,1.2,1.2,
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-06-29,snapshot,,1.2,1.2,
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-06-30,snapshot,,1.2,1.2,
@@ -4049,6 +4161,7 @@ nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-08-01,snapshot,,1
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-08-02,snapshot,,1.2,1.2,
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-08-03,snapshot,,1.2,1.2,
 nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-08-04,snapshot,,1.2,1.2,
+nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,NVIDIA,2026-08-05,snapshot,,1.2,1.2,
 openai-gpt-4-1,GPT-4.1,OpenAI,2025-04-14,backfill,litellm-archive,2.0,8.0,
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-06-23,backfill,litellm-archive,2.0,8.0,
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-06-25,baseline,,2.0,8.0,0.5
@@ -4089,6 +4202,7 @@ openai-gpt-4-1,GPT-4.1,OpenAI,2026-08-01,snapshot,,2.0,8.0,0.5
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-08-02,snapshot,,2.0,8.0,0.5
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-08-03,snapshot,,2.0,8.0,0.5
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-08-04,snapshot,,2.0,8.0,0.5
+openai-gpt-4-1,GPT-4.1,OpenAI,2026-08-05,snapshot,,2.0,8.0,0.5
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2025-04-14,backfill,litellm-archive,0.4,1.6,
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-06-23,backfill,litellm-archive,0.4,1.6,
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-06-25,baseline,,0.4,1.6,0.2
@@ -4129,6 +4243,7 @@ openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-08-01,snapshot,,0.4,1.6,0.1
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-08-02,snapshot,,0.4,1.6,0.1
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-08-03,snapshot,,0.4,1.6,0.1
 openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-08-04,snapshot,,0.4,1.6,0.1
+openai-gpt-4-1-mini,GPT-4.1 mini,OpenAI,2026-08-05,snapshot,,0.4,1.6,0.1
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2025-04-14,backfill,litellm-archive,0.1,0.4,
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-06-23,backfill,litellm-archive,0.1,0.4,
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-06-25,baseline,,0.1,0.4,0.05
@@ -4169,6 +4284,7 @@ openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-01,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-02,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-03,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-04,snapshot,,0.1,0.4,0.025
+openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-05,snapshot,,0.1,0.4,0.025
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-08,new_model,verified,1.75,14.0,
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-09,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-10,snapshot,,1.75,14.0,0.175
@@ -4197,6 +4313,7 @@ openai-gpt-5-2,GPT-5.2,OpenAI,2026-08-01,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-08-02,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-08-03,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-08-04,snapshot,,1.75,14.0,0.175
+openai-gpt-5-2,GPT-5.2,OpenAI,2026-08-05,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-07-08,new_model,verified,1.75,14.0,
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-07-09,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-07-10,snapshot,,1.75,14.0,0.175
@@ -4225,6 +4342,7 @@ openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-08-01,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-08-02,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-08-03,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-08-04,snapshot,,1.75,14.0,0.175
+openai-gpt-5-2-chat,GPT-5.2 Chat,OpenAI,2026-08-05,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-07-08,new_model,verified,1.75,14.0,
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-07-09,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-07-10,snapshot,,1.75,14.0,0.175
@@ -4253,6 +4371,7 @@ openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-08-01,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-08-02,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-08-03,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-08-04,snapshot,,1.75,14.0,0.175
+openai-gpt-5-2-codex,GPT-5.2 Codex,OpenAI,2026-08-05,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-07-08,new_model,verified,21.0,168.0,
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-07-09,snapshot,,21.0,168.0,
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-07-10,snapshot,,21.0,168.0,
@@ -4281,6 +4400,7 @@ openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-08-01,snapshot,,21.0,168.0,
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-08-02,snapshot,,21.0,168.0,
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-08-03,snapshot,,21.0,168.0,
 openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-08-04,snapshot,,21.0,168.0,
+openai-gpt-5-2-pro,GPT-5.2 Pro,OpenAI,2026-08-05,snapshot,,21.0,168.0,
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-03-09,backfill,litellm-archive,1.75,14.0,
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-06-30,backfill,litellm-archive,1.75,14.0,
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
@@ -4316,6 +4436,7 @@ openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-08-01,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-08-02,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-08-03,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-08-04,snapshot,,1.75,14.0,0.175
+openai-gpt-5-3-chat,GPT-5.3 Chat,OpenAI,2026-08-05,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-03-02,backfill,litellm-archive,1.75,14.0,
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-06-30,backfill,litellm-archive,1.75,14.0,
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,1.75,14.0,
@@ -4351,6 +4472,7 @@ openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-08-01,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-08-02,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-08-03,snapshot,,1.75,14.0,0.175
 openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-08-04,snapshot,,1.75,14.0,0.175
+openai-gpt-5-3-codex,GPT-5.3 Codex,OpenAI,2026-08-05,snapshot,,1.75,14.0,0.175
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-03-09,backfill,litellm-archive,2.5,15.0,
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-06-23,backfill,litellm-archive,2.5,15.0,
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-06-25,baseline,,2.5,15.0,0.25
@@ -4391,6 +4513,7 @@ openai-gpt-5-4,GPT-5.4,OpenAI,2026-08-01,snapshot,,2.5,15.0,0.25
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-08-02,snapshot,,2.5,15.0,0.25
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-08-03,snapshot,,2.5,15.0,0.25
 openai-gpt-5-4,GPT-5.4,OpenAI,2026-08-04,snapshot,,2.5,15.0,0.25
+openai-gpt-5-4,GPT-5.4,OpenAI,2026-08-05,snapshot,,2.5,15.0,0.25
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-03-17,backfill,litellm-archive,0.75,4.5,
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-06-23,backfill,litellm-archive,0.75,4.5,
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-06-25,baseline,,0.75,4.5,0.075
@@ -4431,6 +4554,7 @@ openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-08-01,snapshot,,0.75,4.5,0.075
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-08-02,snapshot,,0.75,4.5,0.075
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-08-03,snapshot,,0.75,4.5,0.075
 openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-08-04,snapshot,,0.75,4.5,0.075
+openai-gpt-5-4-mini,GPT-5.4 mini,OpenAI,2026-08-05,snapshot,,0.75,4.5,0.075
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-03-17,backfill,litellm-archive,0.2,1.25,
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-06-30,backfill,litellm-archive,0.2,1.25,
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,0.2,1.25,
@@ -4466,6 +4590,7 @@ openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-08-01,snapshot,,0.2,1.25,0.02
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-08-02,snapshot,,0.2,1.25,0.02
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-08-03,snapshot,,0.2,1.25,0.02
 openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-08-04,snapshot,,0.2,1.25,0.02
+openai-gpt-5-4-nano,GPT-5.4 nano,OpenAI,2026-08-05,snapshot,,0.2,1.25,0.02
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-03-09,backfill,litellm-archive,30.0,180.0,
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-06-30,backfill,litellm-archive,30.0,180.0,
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,30.0,180.0,
@@ -4501,6 +4626,7 @@ openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-08-01,snapshot,,30.0,180.0,3.0
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-08-02,snapshot,,30.0,180.0,3.0
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-08-03,snapshot,,30.0,180.0,3.0
 openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-08-04,snapshot,,30.0,180.0,3.0
+openai-gpt-5-4-pro,GPT-5.4 Pro,OpenAI,2026-08-05,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-04-27,backfill,litellm-archive,5.0,30.0,
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-06-23,backfill,litellm-archive,5.0,30.0,
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-06-25,baseline,,5.0,30.0,0.5
@@ -4541,6 +4667,7 @@ openai-gpt-5-5,GPT-5.5,OpenAI,2026-08-01,snapshot,,5.0,30.0,0.5
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-08-02,snapshot,,5.0,30.0,0.5
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-08-03,snapshot,,5.0,30.0,0.5
 openai-gpt-5-5,GPT-5.5,OpenAI,2026-08-04,snapshot,,5.0,30.0,0.5
+openai-gpt-5-5,GPT-5.5,OpenAI,2026-08-05,snapshot,,5.0,30.0,0.5
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-04-27,backfill,litellm-archive,30.0,180.0,
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-06-30,backfill,litellm-archive,30.0,180.0,
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-07-03,new_model,cross-check:openrouter+litellm,30.0,180.0,
@@ -4576,6 +4703,7 @@ openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-01,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-02,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-03,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-04,snapshot,,30.0,180.0,3.0
+openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-05,snapshot,,30.0,180.0,3.0
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),1.0,6.0,
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-10,snapshot,,1.0,6.0,0.1
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-11,snapshot,,1.0,6.0,0.1
@@ -4603,6 +4731,7 @@ openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-08-01,price_drop,verified,0.2,1.2,0
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-08-02,snapshot,,0.2,1.2,0.02
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-08-03,snapshot,,0.2,1.2,0.02
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-08-04,snapshot,,0.2,1.2,0.02
+openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-08-05,snapshot,,0.2,1.2,0.02
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),5.0,30.0,
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-07-10,snapshot,,5.0,30.0,0.5
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-07-11,snapshot,,5.0,30.0,0.5
@@ -4630,6 +4759,7 @@ openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-08-01,snapshot,,5.0,30.0,0.5
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-08-02,snapshot,,5.0,30.0,0.5
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-08-03,snapshot,,5.0,30.0,0.5
 openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-08-04,snapshot,,5.0,30.0,0.5
+openai-gpt-5-6-sol,GPT-5.6 Sol,OpenAI,2026-08-05,snapshot,,5.0,30.0,0.5
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),2.5,15.0,
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-07-10,snapshot,,2.5,15.0,0.25
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-07-11,snapshot,,2.5,15.0,0.25
@@ -4657,6 +4787,7 @@ openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-08-01,price_drop,verified,2.0,12.
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-08-02,snapshot,,2.0,12.0,0.2
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-08-03,snapshot,,2.0,12.0,0.2
 openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-08-04,snapshot,,2.0,12.0,0.2
+openai-gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-08-05,snapshot,,2.0,12.0,0.2
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-05-06,backfill,litellm-archive,5.0,10.0,
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-06-23,backfill,litellm-archive,5.0,10.0,
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-06-25,baseline,,8.0,30.0,2.0
@@ -4697,6 +4828,7 @@ openai-gpt-image-2,GPT-Image-2,OpenAI,2026-08-01,snapshot,,8.0,30.0,2.0
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-08-02,snapshot,,8.0,30.0,2.0
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-08-03,snapshot,,8.0,30.0,2.0
 openai-gpt-image-2,GPT-Image-2,OpenAI,2026-08-04,snapshot,,8.0,30.0,2.0
+openai-gpt-image-2,GPT-Image-2,OpenAI,2026-08-05,snapshot,,8.0,30.0,2.0
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-05-11,backfill,litellm-archive,4.0,16.0,
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-06-23,backfill,litellm-archive,4.0,16.0,
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-06-25,baseline,,4.0,24.0,0.4
@@ -4737,6 +4869,7 @@ openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-08-01,snapshot,,4.0,24.0,0.4
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-08-02,snapshot,,4.0,24.0,0.4
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-08-03,snapshot,,4.0,24.0,0.4
 openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-08-04,snapshot,,4.0,24.0,0.4
+openai-gpt-realtime-2,GPT-Realtime-2,OpenAI,2026-08-05,snapshot,,4.0,24.0,0.4
 openai-o3-mini,o3-mini,OpenAI,2025-02-03,backfill,litellm-archive,1.1,4.4,
 openai-o3-mini,o3-mini,OpenAI,2026-06-23,backfill,litellm-archive,1.1,4.4,
 openai-o3-mini,o3-mini,OpenAI,2026-06-25,baseline,,1.1,4.4,0.55
@@ -4777,6 +4910,7 @@ openai-o3-mini,o3-mini,OpenAI,2026-08-01,snapshot,,1.1,4.4,0.55
 openai-o3-mini,o3-mini,OpenAI,2026-08-02,snapshot,,1.1,4.4,0.55
 openai-o3-mini,o3-mini,OpenAI,2026-08-03,snapshot,,1.1,4.4,0.55
 openai-o3-mini,o3-mini,OpenAI,2026-08-04,snapshot,,1.1,4.4,0.55
+openai-o3-mini,o3-mini,OpenAI,2026-08-05,snapshot,,1.1,4.4,0.55
 openai-o4-mini,o4-mini,OpenAI,2025-04-22,backfill,litellm-archive,1.1,4.4,
 openai-o4-mini,o4-mini,OpenAI,2026-06-23,backfill,litellm-archive,1.1,4.4,
 openai-o4-mini,o4-mini,OpenAI,2026-06-25,baseline,,1.1,4.4,0.55
@@ -4817,6 +4951,7 @@ openai-o4-mini,o4-mini,OpenAI,2026-08-01,snapshot,,1.1,4.4,0.275
 openai-o4-mini,o4-mini,OpenAI,2026-08-02,snapshot,,1.1,4.4,0.275
 openai-o4-mini,o4-mini,OpenAI,2026-08-03,snapshot,,1.1,4.4,0.275
 openai-o4-mini,o4-mini,OpenAI,2026-08-04,snapshot,,1.1,4.4,0.275
+openai-o4-mini,o4-mini,OpenAI,2026-08-05,snapshot,,1.1,4.4,0.275
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2024-02-05,backfill,litellm-archive,0.13,0.0,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-06-23,backfill,litellm-archive,0.13,0.0,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-06-25,baseline,,0.13,,
@@ -4857,6 +4992,7 @@ openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-08-01,snapshot,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-08-02,snapshot,,0.13,,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-08-03,snapshot,,0.13,,
 openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-08-04,snapshot,,0.13,,
+openai-text-embedding-3-large,text-embedding-3-large,OpenAI,2026-08-05,snapshot,,0.13,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2024-02-05,backfill,litellm-archive,0.02,0.0,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-06-23,backfill,litellm-archive,0.02,0.0,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-06-25,baseline,,0.02,,
@@ -4897,6 +5033,7 @@ openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-08-01,snapshot,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-08-02,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-08-03,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-08-04,snapshot,,0.02,,
+openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-08-05,snapshot,,0.02,,
 perplexity-sonar,Sonar,Perplexity,2025-02-18,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-23,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-25,baseline,,1.0,1.0,
@@ -4937,6 +5074,7 @@ perplexity-sonar,Sonar,Perplexity,2026-08-01,snapshot,,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-08-02,snapshot,,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-08-03,snapshot,,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-08-04,snapshot,,1.0,1.0,
+perplexity-sonar,Sonar,Perplexity,2026-08-05,snapshot,,1.0,1.0,
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2025-05-05,backfill,litellm-archive,2.0,8.0,
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-06-23,backfill,litellm-archive,2.0,8.0,
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-06-25,baseline,,2.0,8.0,
@@ -4977,6 +5115,7 @@ perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-08-01,snapsho
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-08-02,snapshot,,2.0,8.0,
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-08-03,snapshot,,2.0,8.0,
 perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-08-04,snapshot,,2.0,8.0,
+perplexity-sonar-deep-research,Sonar Deep Research,Perplexity,2026-08-05,snapshot,,2.0,8.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2025-02-18,backfill,litellm-archive,3.0,15.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2026-06-23,backfill,litellm-archive,3.0,15.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2026-06-25,baseline,,3.0,15.0,
@@ -5017,6 +5156,7 @@ perplexity-sonar-pro,Sonar Pro,Perplexity,2026-08-01,snapshot,,3.0,15.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2026-08-02,snapshot,,3.0,15.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2026-08-03,snapshot,,3.0,15.0,
 perplexity-sonar-pro,Sonar Pro,Perplexity,2026-08-04,snapshot,,3.0,15.0,
+perplexity-sonar-pro,Sonar Pro,Perplexity,2026-08-05,snapshot,,3.0,15.0,
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2025-05-12,backfill,litellm-archive,2.0,8.0,
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-06-23,backfill,litellm-archive,2.0,8.0,
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-06-25,baseline,,2.0,8.0,
@@ -5057,6 +5197,7 @@ perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-08-01,snapsho
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-08-02,snapshot,,2.0,8.0,
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-08-03,snapshot,,2.0,8.0,
 perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-08-04,snapshot,,2.0,8.0,
+perplexity-sonar-reasoning-pro,Sonar Reasoning Pro,Perplexity,2026-08-05,snapshot,,2.0,8.0,
 reka-core,Reka Core,Reka,2026-06-25,baseline,,2.0,6.0,
 reka-core,Reka Core,Reka,2026-06-29,snapshot,,2.0,6.0,
 reka-core,Reka Core,Reka,2026-06-30,snapshot,,2.0,6.0,
@@ -5095,6 +5236,7 @@ reka-core,Reka Core,Reka,2026-08-01,snapshot,,2.0,6.0,
 reka-core,Reka Core,Reka,2026-08-02,snapshot,,2.0,6.0,
 reka-core,Reka Core,Reka,2026-08-03,snapshot,,2.0,6.0,
 reka-core,Reka Core,Reka,2026-08-04,snapshot,,2.0,6.0,
+reka-core,Reka Core,Reka,2026-08-05,snapshot,,2.0,6.0,
 reka-edge,Reka Edge,Reka,2026-06-25,baseline,,0.1,0.1,
 reka-edge,Reka Edge,Reka,2026-06-29,snapshot,,0.1,0.1,
 reka-edge,Reka Edge,Reka,2026-06-30,snapshot,,0.1,0.1,
@@ -5133,6 +5275,7 @@ reka-edge,Reka Edge,Reka,2026-08-01,snapshot,,0.1,0.1,
 reka-edge,Reka Edge,Reka,2026-08-02,snapshot,,0.1,0.1,
 reka-edge,Reka Edge,Reka,2026-08-03,snapshot,,0.1,0.1,
 reka-edge,Reka Edge,Reka,2026-08-04,snapshot,,0.1,0.1,
+reka-edge,Reka Edge,Reka,2026-08-05,snapshot,,0.1,0.1,
 reka-flash,Reka Flash,Reka,2026-06-25,baseline,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-06-29,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-06-30,snapshot,,0.8,2.0,
@@ -5171,6 +5314,7 @@ reka-flash,Reka Flash,Reka,2026-08-01,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-08-02,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-08-03,snapshot,,0.8,2.0,
 reka-flash,Reka Flash,Reka,2026-08-04,snapshot,,0.8,2.0,
+reka-flash,Reka Flash,Reka,2026-08-05,snapshot,,0.8,2.0,
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-08,new_model,verified,0.147,0.588,
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-09,snapshot,,0.147,0.588,0.037
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-10,snapshot,,0.147,0.588,0.037
@@ -5199,14 +5343,17 @@ tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-01,snapshot,,0.1
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-02,snapshot,,0.147,0.588,0.037
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-03,snapshot,,0.147,0.588,0.037
 tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-04,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-05,snapshot,,0.147,0.588,0.037
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-01,new_model,verified,1.0,4.05,
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-02,snapshot,,1.0,4.05,0.17
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-03,snapshot,,1.0,4.05,0.17
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-04,snapshot,,1.0,4.05,0.17
+thinking-machines-inkling,Inkling,Thinking Machines,2026-08-05,snapshot,,1.0,4.05,0.17
 thinking-machines-inkling-small,Inkling Small,Thinking Machines,2026-08-01,new_model,verified,0.3,1.2,
 thinking-machines-inkling-small,Inkling Small,Thinking Machines,2026-08-02,snapshot,,0.3,1.2,0.06
 thinking-machines-inkling-small,Inkling Small,Thinking Machines,2026-08-03,snapshot,,0.3,1.2,0.06
 thinking-machines-inkling-small,Inkling Small,Thinking Machines,2026-08-04,snapshot,,0.3,1.2,0.06
+thinking-machines-inkling-small,Inkling Small,Thinking Machines,2026-08-05,snapshot,,0.3,1.2,0.06
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-25,baseline,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-29,snapshot,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-06-30,snapshot,,1.74,3.48,0.2
@@ -5245,6 +5392,7 @@ together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-08-01,snapshot,,1.74,3.48
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-08-02,snapshot,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-08-03,snapshot,,1.74,3.48,0.2
 together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-08-04,snapshot,,1.74,3.48,0.2
+together-deepseek-v4-pro,DeepSeek V4 Pro,Together,2026-08-05,snapshot,,1.74,3.48,0.2
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-06-25,baseline,,0.28,0.86,
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-06-29,snapshot,,0.28,0.86,
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-06-30,snapshot,,0.28,0.86,
@@ -5283,6 +5431,7 @@ together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-08-01,snapshot,,0.
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-08-02,snapshot,,0.28,0.86,
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-08-03,snapshot,,0.28,0.86,
 together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-08-04,snapshot,,0.28,0.86,
+together-gemma-4-31b-pearl,Gemma-4-31B-it-Pearl,Together,2026-08-05,snapshot,,0.28,0.86,
 together-glm-5-2,GLM-5.2,Together,2026-06-25,baseline,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-06-29,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-06-30,snapshot,,1.4,4.4,0.26
@@ -5321,6 +5470,7 @@ together-glm-5-2,GLM-5.2,Together,2026-08-01,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-02,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-03,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-04,snapshot,,1.4,4.4,0.26
+together-glm-5-2,GLM-5.2,Together,2026-08-05,snapshot,,1.4,4.4,0.26
 together-gpt-oss-120b,gpt-oss-120B,Together,2025-08-25,backfill,litellm-archive,0.15,0.6,
 together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-23,backfill,litellm-archive,0.15,0.6,
 together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-25,baseline,,0.15,0.6,
@@ -5361,6 +5511,7 @@ together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-01,snapshot,,0.15,0.6,
 together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-02,snapshot,,0.15,0.6,
 together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-03,snapshot,,0.15,0.6,
 together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-04,snapshot,,0.15,0.6,
+together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-05,snapshot,,0.15,0.6,
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-25,baseline,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-29,snapshot,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-30,snapshot,,0.95,4.0,0.19
@@ -5399,6 +5550,7 @@ together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-08-01,snapshot,,0.95,4.0,0.
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-08-02,snapshot,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-08-03,snapshot,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-08-04,snapshot,,0.95,4.0,0.19
+together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-08-05,snapshot,,0.95,4.0,0.19
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-06-25,baseline,,0.03,0.12,
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-06-29,snapshot,,0.03,0.12,
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-06-30,snapshot,,0.03,0.12,
@@ -5437,6 +5589,7 @@ together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-08-01,snapshot,,0.03,0.12,
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-08-02,snapshot,,0.03,0.12,
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-08-03,snapshot,,0.03,0.12,
 together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-08-04,snapshot,,0.03,0.12,
+together-lfm2-24b-a2b,LFM2 24B A2B,Together,2026-08-05,snapshot,,0.03,0.12,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2025-01-27,backfill,litellm-archive,0.88,0.88,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-06-23,backfill,litellm-archive,0.88,0.88,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-06-25,baseline,,1.04,1.04,
@@ -5477,6 +5630,7 @@ together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-01,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-02,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-03,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-04,snapshot,,1.04,1.04,
+together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-05,snapshot,,1.04,1.04,
 together-minimax-m2-5,MiniMax M2.5,Together,2026-06-25,baseline,,0.3,1.2,0.06
 together-minimax-m2-5,MiniMax M2.5,Together,2026-06-29,snapshot,,0.3,1.2,0.06
 together-minimax-m2-5,MiniMax M2.5,Together,2026-06-30,snapshot,,0.3,1.2,0.06
@@ -5515,6 +5669,7 @@ together-minimax-m2-5,MiniMax M2.5,Together,2026-08-01,snapshot,,0.3,1.2,0.06
 together-minimax-m2-5,MiniMax M2.5,Together,2026-08-02,snapshot,,0.3,1.2,0.06
 together-minimax-m2-5,MiniMax M2.5,Together,2026-08-03,snapshot,,0.3,1.2,0.06
 together-minimax-m2-5,MiniMax M2.5,Together,2026-08-04,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax M2.5,Together,2026-08-05,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-06-25,baseline,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-06-29,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-06-30,snapshot,,0.3,1.2,0.06
@@ -5553,6 +5708,7 @@ together-minimax-m3,MiniMax M3,Together,2026-08-01,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-08-02,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-08-03,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax M3,Together,2026-08-04,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax M3,Together,2026-08-05,snapshot,,0.3,1.2,0.06
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-25,baseline,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-29,snapshot,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-30,snapshot,,0.6,3.6,0.2
@@ -5591,6 +5747,7 @@ together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-08-01,sna
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-08-02,snapshot,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-08-03,snapshot,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-08-04,snapshot,,0.6,3.6,0.2
+together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-08-05,snapshot,,0.6,3.6,0.2
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-03-09,backfill,litellm-archive,0.6,3.6,
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-06-23,backfill,litellm-archive,0.6,3.6,
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-06-25,baseline,,0.6,3.6,0.35
@@ -5631,6 +5788,7 @@ together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-08-01,snapshot,,0.6,3
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-08-02,snapshot,,0.6,3.6,0.35
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-08-03,snapshot,,0.6,3.6,0.35
 together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-08-04,snapshot,,0.6,3.6,0.35
+together-qwen3-5-397b-a17b,Qwen3.5-397B-A17B,Together,2026-08-05,snapshot,,0.6,3.6,0.35
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-06-25,baseline,,1.25,3.75,0.13
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-06-29,snapshot,,1.25,3.75,0.13
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-06-30,snapshot,,1.25,3.75,0.13
@@ -5669,6 +5827,7 @@ together-qwen3-7-max,Qwen3.7-Max,Together,2026-08-01,snapshot,,1.25,3.75,0.13
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-08-02,snapshot,,1.25,3.75,0.13
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-08-03,snapshot,,1.25,3.75,0.13
 together-qwen3-7-max,Qwen3.7-Max,Together,2026-08-04,snapshot,,1.25,3.75,0.13
+together-qwen3-7-max,Qwen3.7-Max,Together,2026-08-05,snapshot,,1.25,3.75,0.13
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-06-25,baseline,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-06-29,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-06-30,snapshot,,0.32,1.28,
@@ -5707,6 +5866,7 @@ together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-08-01,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-08-02,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-08-03,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-08-04,snapshot,,0.32,1.28,
+together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-08-05,snapshot,,0.32,1.28,
 voyage-4,voyage-4,Voyage AI,2026-06-25,baseline,,0.06,,
 voyage-4,voyage-4,Voyage AI,2026-06-29,snapshot,,0.06,,
 voyage-4,voyage-4,Voyage AI,2026-06-30,snapshot,,0.06,,
@@ -5745,6 +5905,7 @@ voyage-4,voyage-4,Voyage AI,2026-08-01,snapshot,,0.06,,
 voyage-4,voyage-4,Voyage AI,2026-08-02,snapshot,,0.06,,
 voyage-4,voyage-4,Voyage AI,2026-08-03,snapshot,,0.06,,
 voyage-4,voyage-4,Voyage AI,2026-08-04,snapshot,,0.06,,
+voyage-4,voyage-4,Voyage AI,2026-08-05,snapshot,,0.06,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-06-25,baseline,,0.12,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-06-29,snapshot,,0.12,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-06-30,snapshot,,0.12,,
@@ -5783,6 +5944,7 @@ voyage-4-large,voyage-4-large,Voyage AI,2026-08-01,snapshot,,0.12,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-08-02,snapshot,,0.12,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-08-03,snapshot,,0.12,,
 voyage-4-large,voyage-4-large,Voyage AI,2026-08-04,snapshot,,0.12,,
+voyage-4-large,voyage-4-large,Voyage AI,2026-08-05,snapshot,,0.12,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-06-25,baseline,,0.02,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-06-29,snapshot,,0.02,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-06-30,snapshot,,0.02,,
@@ -5821,6 +5983,7 @@ voyage-4-lite,voyage-4-lite,Voyage AI,2026-08-01,snapshot,,0.02,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-08-02,snapshot,,0.02,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-08-03,snapshot,,0.02,,
 voyage-4-lite,voyage-4-lite,Voyage AI,2026-08-04,snapshot,,0.02,,
+voyage-4-lite,voyage-4-lite,Voyage AI,2026-08-05,snapshot,,0.02,,
 voyage-code-3,voyage-code-3,Voyage AI,2025-01-15,backfill,litellm-archive,0.18,0.0,
 voyage-code-3,voyage-code-3,Voyage AI,2026-06-23,backfill,litellm-archive,0.18,0.0,
 voyage-code-3,voyage-code-3,Voyage AI,2026-06-25,baseline,,0.18,,
@@ -5861,6 +6024,7 @@ voyage-code-3,voyage-code-3,Voyage AI,2026-08-01,snapshot,,0.18,,
 voyage-code-3,voyage-code-3,Voyage AI,2026-08-02,snapshot,,0.18,,
 voyage-code-3,voyage-code-3,Voyage AI,2026-08-03,snapshot,,0.18,,
 voyage-code-3,voyage-code-3,Voyage AI,2026-08-04,snapshot,,0.18,,
+voyage-code-3,voyage-code-3,Voyage AI,2026-08-05,snapshot,,0.18,,
 voyage-context-3,voyage-context-3,Voyage AI,2025-08-25,backfill,litellm-archive,0.18,0.0,
 voyage-context-3,voyage-context-3,Voyage AI,2026-06-23,backfill,litellm-archive,0.18,0.0,
 voyage-context-3,voyage-context-3,Voyage AI,2026-06-25,baseline,,0.18,,
@@ -5901,6 +6065,7 @@ voyage-context-3,voyage-context-3,Voyage AI,2026-08-01,snapshot,,0.18,,
 voyage-context-3,voyage-context-3,Voyage AI,2026-08-02,snapshot,,0.18,,
 voyage-context-3,voyage-context-3,Voyage AI,2026-08-03,snapshot,,0.18,,
 voyage-context-3,voyage-context-3,Voyage AI,2026-08-04,snapshot,,0.18,,
+voyage-context-3,voyage-context-3,Voyage AI,2026-08-05,snapshot,,0.18,,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-06-25,baseline,,0.12,,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-06-29,snapshot,,0.12,,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-06-30,snapshot,,0.12,,
@@ -5939,6 +6104,7 @@ voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-08-01,snapshot,,0.12,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-08-02,snapshot,,0.12,,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-08-03,snapshot,,0.12,,
 voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-08-04,snapshot,,0.12,,
+voyage-multimodal-3-5,voyage-multimodal-3.5,Voyage AI,2026-08-05,snapshot,,0.12,,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2025-12-15,backfill,litellm-archive,0.05,0.0,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-06-23,backfill,litellm-archive,0.05,0.0,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-06-25,baseline,,0.05,,
@@ -5979,6 +6145,7 @@ voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-08-01,snapshot,,0.05,,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-08-02,snapshot,,0.05,,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-08-03,snapshot,,0.05,,
 voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-08-04,snapshot,,0.05,,
+voyage-rerank-2-5,rerank-2.5,Voyage AI,2026-08-05,snapshot,,0.05,,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2025-12-15,backfill,litellm-archive,0.02,0.0,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-06-23,backfill,litellm-archive,0.02,0.0,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-06-25,baseline,,0.02,,
@@ -6019,6 +6186,7 @@ voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-08-01,snapshot,,0.02,,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-08-02,snapshot,,0.02,,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-08-03,snapshot,,0.02,,
 voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-08-04,snapshot,,0.02,,
+voyage-rerank-2-5-lite,rerank-2.5-lite,Voyage AI,2026-08-05,snapshot,,0.02,,
 xai-grok-4,Grok 4,xAI,2025-07-10,backfill,litellm-archive,3.0,15.0,
 xai-grok-4,Grok 4,xAI,2026-06-23,backfill,litellm-archive,3.0,15.0,
 xai-grok-4,Grok 4,xAI,2026-06-25,baseline,,3.0,15.0,
@@ -6059,6 +6227,7 @@ xai-grok-4,Grok 4,xAI,2026-08-01,snapshot,,3.0,15.0,
 xai-grok-4,Grok 4,xAI,2026-08-02,snapshot,,3.0,15.0,
 xai-grok-4,Grok 4,xAI,2026-08-03,snapshot,,3.0,15.0,
 xai-grok-4,Grok 4,xAI,2026-08-04,snapshot,,3.0,15.0,
+xai-grok-4,Grok 4,xAI,2026-08-05,snapshot,,3.0,15.0,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2025-11-24,backfill,litellm-archive,0.2,0.5,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-06-23,backfill,litellm-archive,0.2,0.5,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-06-25,baseline,,0.2,0.5,
@@ -6099,6 +6268,7 @@ xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-08-01,snapshot,,0.2,0.5,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-08-02,snapshot,,0.2,0.5,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-08-03,snapshot,,0.2,0.5,
 xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-08-04,snapshot,,0.2,0.5,
+xai-grok-4-1-fast,Grok 4.1 Fast,xAI,2026-08-05,snapshot,,0.2,0.5,
 xai-grok-4-20,Grok 4.20,xAI,2026-06-25,baseline,,2.0,6.0,
 xai-grok-4-20,Grok 4.20,xAI,2026-06-29,snapshot,,2.0,6.0,
 xai-grok-4-20,Grok 4.20,xAI,2026-06-30,snapshot,,2.0,6.0,
@@ -6137,6 +6307,7 @@ xai-grok-4-20,Grok 4.20,xAI,2026-08-01,snapshot,,1.25,2.5,0.2
 xai-grok-4-20,Grok 4.20,xAI,2026-08-02,snapshot,,1.25,2.5,0.2
 xai-grok-4-20,Grok 4.20,xAI,2026-08-03,snapshot,,1.25,2.5,0.2
 xai-grok-4-20,Grok 4.20,xAI,2026-08-04,snapshot,,1.25,2.5,0.2
+xai-grok-4-20,Grok 4.20,xAI,2026-08-05,snapshot,,1.25,2.5,0.2
 xai-grok-4-3,Grok 4.3,xAI,2026-05-11,backfill,litellm-archive,1.25,2.5,
 xai-grok-4-3,Grok 4.3,xAI,2026-06-23,backfill,litellm-archive,1.25,2.5,
 xai-grok-4-3,Grok 4.3,xAI,2026-06-25,baseline,,1.25,2.5,
@@ -6177,6 +6348,7 @@ xai-grok-4-3,Grok 4.3,xAI,2026-08-01,snapshot,,1.25,2.5,
 xai-grok-4-3,Grok 4.3,xAI,2026-08-02,snapshot,,1.25,2.5,
 xai-grok-4-3,Grok 4.3,xAI,2026-08-03,snapshot,,1.25,2.5,
 xai-grok-4-3,Grok 4.3,xAI,2026-08-04,snapshot,,1.25,2.5,
+xai-grok-4-3,Grok 4.3,xAI,2026-08-05,snapshot,,1.25,2.5,
 xai-grok-4-5,Grok 4.5,xAI,2026-07-08,new_model,verified,2.0,6.0,
 xai-grok-4-5,Grok 4.5,xAI,2026-07-09,snapshot,,2.0,6.0,
 xai-grok-4-5,Grok 4.5,xAI,2026-07-10,snapshot,,2.0,6.0,
@@ -6205,6 +6377,7 @@ xai-grok-4-5,Grok 4.5,xAI,2026-08-01,snapshot,,2.0,6.0,
 xai-grok-4-5,Grok 4.5,xAI,2026-08-02,snapshot,,2.0,6.0,
 xai-grok-4-5,Grok 4.5,xAI,2026-08-03,snapshot,,2.0,6.0,
 xai-grok-4-5,Grok 4.5,xAI,2026-08-04,snapshot,,2.0,6.0,
+xai-grok-4-5,Grok 4.5,xAI,2026-08-05,snapshot,,2.0,6.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-25,baseline,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-29,snapshot,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-30,snapshot,,1.0,2.0,
@@ -6243,6 +6416,7 @@ xai-grok-build-0-1,Grok Build 0.1,xAI,2026-08-01,snapshot,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-08-02,snapshot,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-08-03,snapshot,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-08-04,snapshot,,1.0,2.0,
+xai-grok-build-0-1,Grok Build 0.1,xAI,2026-08-05,snapshot,,1.0,2.0,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2025-12-08,backfill,litellm-archive,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-06-25,baseline,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-06-29,snapshot,,0.1,0.1,
@@ -6282,6 +6456,7 @@ zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-08-01,snapshot,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-08-02,snapshot,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-08-03,snapshot,,0.1,0.1,
 zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-08-04,snapshot,,0.1,0.1,
+zhipu-glm-4-32b,GLM-4-32B-0414,Z.AI,2026-08-05,snapshot,,0.1,0.1,
 zhipu-glm-4-5,GLM-4.5,Z.AI,2025-12-08,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-5,GLM-4.5,Z.AI,2026-06-23,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-5,GLM-4.5,Z.AI,2026-06-25,baseline,,0.6,2.2,0.11
@@ -6322,6 +6497,7 @@ zhipu-glm-4-5,GLM-4.5,Z.AI,2026-08-01,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-5,GLM-4.5,Z.AI,2026-08-02,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-5,GLM-4.5,Z.AI,2026-08-03,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-5,GLM-4.5,Z.AI,2026-08-04,snapshot,,0.6,2.2,0.11
+zhipu-glm-4-5,GLM-4.5,Z.AI,2026-08-05,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2025-12-08,backfill,litellm-archive,0.2,1.1,
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-06-23,backfill,litellm-archive,0.2,1.1,
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-06-25,baseline,,0.2,1.1,0.03
@@ -6362,6 +6538,7 @@ zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-08-01,snapshot,,0.2,1.1,0.03
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-08-02,snapshot,,0.2,1.1,0.03
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-08-03,snapshot,,0.2,1.1,0.03
 zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-08-04,snapshot,,0.2,1.1,0.03
+zhipu-glm-4-5-air,GLM-4.5-Air,Z.AI,2026-08-05,snapshot,,0.2,1.1,0.03
 zhipu-glm-4-6,GLM-4.6,Z.AI,2025-12-08,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-6,GLM-4.6,Z.AI,2026-06-23,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-6,GLM-4.6,Z.AI,2026-06-25,baseline,,0.6,2.2,0.11
@@ -6402,6 +6579,7 @@ zhipu-glm-4-6,GLM-4.6,Z.AI,2026-08-01,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-6,GLM-4.6,Z.AI,2026-08-02,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-6,GLM-4.6,Z.AI,2026-08-03,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-6,GLM-4.6,Z.AI,2026-08-04,snapshot,,0.6,2.2,0.11
+zhipu-glm-4-6,GLM-4.6,Z.AI,2026-08-05,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-06-25,baseline,,0.3,0.9,0.05
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-06-29,snapshot,,0.3,0.9,0.05
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-06-30,snapshot,,0.3,0.9,0.05
@@ -6440,6 +6618,7 @@ zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-08-01,snapshot,,0.3,0.9,0.05
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-08-02,snapshot,,0.3,0.9,0.05
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-08-03,snapshot,,0.3,0.9,0.05
 zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-08-04,snapshot,,0.3,0.9,0.05
+zhipu-glm-4-6v,GLM-4.6V,Z.AI,2026-08-05,snapshot,,0.3,0.9,0.05
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-01-05,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-06-23,backfill,litellm-archive,0.6,2.2,
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-06-25,baseline,,0.6,2.2,0.11
@@ -6480,6 +6659,7 @@ zhipu-glm-4-7,GLM-4.7,Z.AI,2026-08-01,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-08-02,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-08-03,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-7,GLM-4.7,Z.AI,2026-08-04,snapshot,,0.6,2.2,0.11
+zhipu-glm-4-7,GLM-4.7,Z.AI,2026-08-05,snapshot,,0.6,2.2,0.11
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-06-25,baseline,,0.0,0.0,0.0
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-06-29,snapshot,,0.0,0.0,0.0
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-06-30,snapshot,,0.0,0.0,0.0
@@ -6518,6 +6698,7 @@ zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-08-01,snapshot,,0.0,0.0,0.0
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-08-02,snapshot,,0.0,0.0,0.0
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-08-03,snapshot,,0.0,0.0,0.0
 zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-08-04,snapshot,,0.0,0.0,0.0
+zhipu-glm-4-7-flash,GLM-4.7-Flash,Z.AI,2026-08-05,snapshot,,0.0,0.0,0.0
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-06-25,baseline,,0.07,0.4,0.01
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-06-29,snapshot,,0.07,0.4,0.01
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-06-30,snapshot,,0.07,0.4,0.01
@@ -6556,6 +6737,7 @@ zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-08-01,snapshot,,0.07,0.4,0.01
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-08-02,snapshot,,0.07,0.4,0.01
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-08-03,snapshot,,0.07,0.4,0.01
 zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-08-04,snapshot,,0.07,0.4,0.01
+zhipu-glm-4-7-flashx,GLM-4.7-FlashX,Z.AI,2026-08-05,snapshot,,0.07,0.4,0.01
 zhipu-glm-5,GLM-5,Z.AI,2026-03-09,backfill,litellm-archive,1.0,3.2,
 zhipu-glm-5,GLM-5,Z.AI,2026-06-23,backfill,litellm-archive,1.0,3.2,
 zhipu-glm-5,GLM-5,Z.AI,2026-06-25,baseline,,1.0,3.2,0.2
@@ -6596,6 +6778,7 @@ zhipu-glm-5,GLM-5,Z.AI,2026-08-01,snapshot,,1.0,3.2,0.2
 zhipu-glm-5,GLM-5,Z.AI,2026-08-02,snapshot,,1.0,3.2,0.2
 zhipu-glm-5,GLM-5,Z.AI,2026-08-03,snapshot,,1.0,3.2,0.2
 zhipu-glm-5,GLM-5,Z.AI,2026-08-04,snapshot,,1.0,3.2,0.2
+zhipu-glm-5,GLM-5,Z.AI,2026-08-05,snapshot,,1.0,3.2,0.2
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-06-25,baseline,,1.4,4.4,0.26
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-06-29,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-06-30,snapshot,,1.4,4.4,0.26
@@ -6634,6 +6817,7 @@ zhipu-glm-5-1,GLM-5.1,Z.AI,2026-08-01,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-08-02,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-08-03,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-1,GLM-5.1,Z.AI,2026-08-04,snapshot,,1.4,4.4,0.26
+zhipu-glm-5-1,GLM-5.1,Z.AI,2026-08-05,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-06-25,baseline,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-06-29,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-06-30,snapshot,,1.4,4.4,0.26
@@ -6672,6 +6856,7 @@ zhipu-glm-5-2,GLM-5.2,Z.AI,2026-08-01,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-08-02,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-08-03,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-2,GLM-5.2,Z.AI,2026-08-04,snapshot,,1.4,4.4,0.26
+zhipu-glm-5-2,GLM-5.2,Z.AI,2026-08-05,snapshot,,1.4,4.4,0.26
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-06-25,baseline,,1.2,4.0,0.24
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-06-29,snapshot,,1.2,4.0,0.24
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-06-30,snapshot,,1.2,4.0,0.24
@@ -6710,6 +6895,7 @@ zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-08-01,snapshot,,1.2,4.0,0.24
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-08-02,snapshot,,1.2,4.0,0.24
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-08-03,snapshot,,1.2,4.0,0.24
 zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-08-04,snapshot,,1.2,4.0,0.24
+zhipu-glm-5-turbo,GLM-5-Turbo,Z.AI,2026-08-05,snapshot,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-06-25,baseline,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-06-29,snapshot,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-06-30,snapshot,,1.2,4.0,0.24
@@ -6748,6 +6934,7 @@ zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-08-01,snapshot,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-08-02,snapshot,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-08-03,snapshot,,1.2,4.0,0.24
 zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-08-04,snapshot,,1.2,4.0,0.24
+zhipu-glm-5v-turbo,GLM-5V-Turbo,Z.AI,2026-08-05,snapshot,,1.2,4.0,0.24
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-06-25,baseline,,0.03,0.03,
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-06-29,snapshot,,0.03,0.03,
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-06-30,snapshot,,0.03,0.03,
@@ -6786,3 +6973,4 @@ zhipu-glm-ocr,GLM-OCR,Z.AI,2026-08-01,snapshot,,0.03,0.03,
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-08-02,snapshot,,0.03,0.03,
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-08-03,snapshot,,0.03,0.03,
 zhipu-glm-ocr,GLM-OCR,Z.AI,2026-08-04,snapshot,,0.03,0.03,
+zhipu-glm-ocr,GLM-OCR,Z.AI,2026-08-05,snapshot,,0.03,0.03,
