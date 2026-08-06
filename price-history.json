@@ -66940,5 +66940,68 @@
         "sha": "47666c0595"
       }
     ]
+  },
+  "alibaba-qwen3-6-flash": {
+    "model": "Qwen3.6-Flash",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-06",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-06T13:17:58Z",
+        "snapshot": "data/evidence/alibaba-qwen3-6-flash/2026-08-06.txt",
+        "sha": "3fa92058c5"
+      }
+    ]
+  },
+  "alibaba-qwen3-7-flash": {
+    "model": "Qwen3.7-Flash",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-06",
+        "input_per_mtok": 0.03,
+        "output_per_mtok": 0.13,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-06T13:21:53Z",
+        "snapshot": "data/evidence/alibaba-qwen3-7-flash/2026-08-06.txt",
+        "sha": "8acd3de8d9"
+      }
+    ]
+  },
+  "alibaba-qwen3-7-plus": {
+    "model": "Qwen3.7-Plus",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-06",
+        "input_per_mtok": 0.4,
+        "output_per_mtok": 1.6,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-06T13:18:15Z",
+        "snapshot": "data/evidence/alibaba-qwen3-7-plus/2026-08-06.txt",
+        "sha": "ac9e590e0e"
+      }
+    ]
   }
 }

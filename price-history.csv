@@ -245,6 +245,8 @@ alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-03,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-04,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-05,snapshot,,0.05,0.2,
 alibaba-qwen-turbo,Qwen-Turbo,Alibaba,2026-08-06,snapshot,,0.05,0.2,
+alibaba-qwen3-6-flash,Qwen3.6-Flash,Alibaba,2026-08-06,new_model,verified,0.25,1.5,
+alibaba-qwen3-7-flash,Qwen3.7-Flash,Alibaba,2026-08-06,new_model,verified,0.03,0.13,
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-25,new_model,vendor+editorial,2.5,7.5,
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-26,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-07-27,snapshot,,2.5,7.5,0.25
@@ -258,6 +260,7 @@ alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-03,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-04,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-05,snapshot,,2.5,7.5,0.25
 alibaba-qwen3-7-max,Qwen3.7-Max,Alibaba,2026-08-06,snapshot,,2.5,7.5,0.25
+alibaba-qwen3-7-plus,Qwen3.7-Plus,Alibaba,2026-08-06,new_model,verified,0.4,1.6,
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-03,new_model,verified,2.0,6.0,
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-04,snapshot,,2.0,6.0,0.2
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-05,snapshot,,2.0,6.0,0.2

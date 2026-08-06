@@ -208,6 +208,66 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-6-flash",
+    "provider": "Alibaba",
+    "model": "Qwen3.6-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-16",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's Qwen3.6-generation cheap tier on Model Studio. $0.25/$1.50 per 1M tokens up to 256K context; the 256K–1M tier is billed at $1.00/$4.00. 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.00/$4.00). Batch calls bill at 50% and context-cache hits discount input only; the vendor states the two discounts cannot apply simultaneously. No cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-06",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "released_verified": "2026-08-06",
+    "status_verified": "2026-08-06",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-7-flash",
+    "provider": "Alibaba",
+    "model": "Qwen3.7-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.13,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-07-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's current-generation cheap tier on Model Studio. $0.03/$0.13 per 1M tokens on requests up to 32K; larger requests bill higher, up to $0.20/$0.80 in the 256K–1M tier. 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤32K tier. Tiered above that: 32K<Token≤256K is $0.10/$0.40 and 256K<Token≤1M is $0.20/$0.80 per 1M tokens. Batch calls bill at 50% and context-cache hits discount input only; no first-party cache rate is printed, so cached input is left unset rather than assumed.",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-06",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "released_verified": "2026-08-06",
+    "status_verified": "2026-08-06",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-7-max",
     "provider": "Alibaba",
     "model": "Qwen3.7-Max",
@@ -235,6 +295,35 @@
     "released_verified": "2026-07-25",
     "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked).",
     "status_verified": "2026-08-01",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-7-plus",
+    "provider": "Alibaba",
+    "model": "Qwen3.7-Plus",
+    "category": "mid-tier",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 1.6,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-26",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's current-generation Qwen3.7 mid tier on Model Studio. $0.40/$1.60 per 1M tokens up to 256K context; the 256K–1M tier is billed at $1.20/$4.80. Thinking and non-thinking modes bill at the same output rate. 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.20/$4.80). On a limited-time 20% off to $0.32 in / $1.28 out per 1M (list price tracked, as on alibaba-qwen3-7-max). Context-cache hits discount input only; no cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
+    "tags": [
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-06",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "released_verified": "2026-08-06",
+    "status_verified": "2026-08-06",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {

@@ -9,6 +9,9 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-08-06
 
+- **Qwen3.6-Flash** (Alibaba) launched — $0.25 in / $1.5 out per 1M tokens
+- **Qwen3.7-Flash** (Alibaba) launched — $0.03 in / $0.13 out per 1M tokens
+- **Qwen3.7-Plus** (Alibaba) launched — $0.4 in / $1.6 out per 1M tokens
 - **Muse Spark 1.2** (Meta) launched — $1.25 in / $4.25 out per 1M tokens
 
 ## 2026-08-03
