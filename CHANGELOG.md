@@ -17,6 +17,7 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Solar Pro 3** (Upstage) launched — $0.15 in / $0.6 out per 1M tokens
 - **Relace Search** (Relace) launched — $1.0 in / $3.0 out per 1M tokens
 - **Relace Apply 3** (Relace) launched — $0.8 in / $1.2 out per 1M tokens
+- **Nemotron 3 Ultra** removed/retired
 
 ## 2026-08-06
 

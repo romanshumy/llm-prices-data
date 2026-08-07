@@ -3125,33 +3125,6 @@
     "status_source": null
   },
   {
-    "id": "nvidia-nemotron-3-ultra",
-    "provider": "NVIDIA",
-    "model": "Nemotron 3 Ultra",
-    "category": "mid-tier",
-    "input_per_mtok": 0.6,
-    "output_per_mtok": 3.6,
-    "cached_input_per_mtok": 0.12,
-    "context_window": 128000,
-    "modality": [
-      "text"
-    ],
-    "released": "2026-01-01",
-    "status": "Current",
-    "open_source": true,
-    "parameters": null,
-    "description": "NVIDIA's Nemotron 3 Ultra reasoning model. $0.60/$3.60 per 1M on hosted platforms.",
-    "pricing_url": "https://build.nvidia.com/models",
-    "tags": [
-      "open-weights",
-      "mid-tier",
-      "reasoning"
-    ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
-  },
-  {
     "id": "nvidia-nemotron-70b-instruct",
     "provider": "NVIDIA",
     "model": "Nemotron 70B Instruct",
