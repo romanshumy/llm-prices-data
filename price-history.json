@@ -68815,5 +68815,89 @@
         "sha": "de39278783"
       }
     ]
+  },
+  "alibaba-qwen3-6-plus": {
+    "model": "Qwen3.6-Plus",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-07T14:26:45Z",
+        "snapshot": "data/evidence/alibaba-qwen3-6-plus/2026-08-07.txt",
+        "sha": "4a4c7192ca"
+      }
+    ]
+  },
+  "alibaba-qwen3-6-27b": {
+    "model": "Qwen3.6-27B",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-07T14:27:00Z",
+        "snapshot": "data/evidence/alibaba-qwen3-6-27b/2026-08-07.txt",
+        "sha": "72f3ec2eb2"
+      }
+    ]
+  },
+  "alibaba-qwen3-5-397b-a17b": {
+    "model": "Qwen3.5-397B-A17B",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 3.6,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-07T14:27:11Z",
+        "snapshot": "data/evidence/alibaba-qwen3-5-397b-a17b/2026-08-07.txt",
+        "sha": "3a15165b1a"
+      }
+    ]
+  },
+  "alibaba-qwen3-32b": {
+    "model": "Qwen3-32B",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.16,
+        "output_per_mtok": 0.64,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-07T14:27:31Z",
+        "snapshot": "data/evidence/alibaba-qwen3-32b/2026-08-07.txt",
+        "sha": "c24bd85fed"
+      }
+    ]
   }
 }

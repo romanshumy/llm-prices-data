@@ -9,6 +9,10 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-08-07
 
+- **Qwen3.6-Plus** (Alibaba) launched — $0.5 in / $3.0 out per 1M tokens
+- **Qwen3.6-27B** (Alibaba) launched — $0.6 in / $3.6 out per 1M tokens
+- **Qwen3.5-397B-A17B** (Alibaba) launched — $0.6 in / $3.6 out per 1M tokens
+- **Qwen3-32B** (Alibaba) launched — $0.16 in / $0.64 out per 1M tokens
 - **Fugu Ultra** (Sakana AI) launched — $5.0 in / $30.0 out per 1M tokens
 - **Solar Pro 3** (Upstage) launched — $0.15 in / $0.6 out per 1M tokens
 - **Relace Search** (Relace) launched — $1.0 in / $3.0 out per 1M tokens
