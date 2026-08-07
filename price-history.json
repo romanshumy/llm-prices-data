@@ -68731,5 +68731,89 @@
         "changes": []
       }
     ]
+  },
+  "sakana-fugu-ultra": {
+    "model": "Fugu Ultra",
+    "provider": "Sakana AI",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 5.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://sakana.ai/fugu/",
+        "captured_at": "2026-08-07T13:30:34Z",
+        "snapshot": "data/evidence/sakana-fugu-ultra/2026-08-07.txt",
+        "sha": "5b5ad917f2"
+      }
+    ]
+  },
+  "upstage-solar-pro-3": {
+    "model": "Solar Pro 3",
+    "provider": "Upstage",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.upstage.ai/pricing",
+        "captured_at": "2026-08-07T13:30:35Z",
+        "snapshot": "data/evidence/upstage-solar-pro-3/2026-08-07.txt",
+        "sha": "396de96b88"
+      }
+    ]
+  },
+  "relace-search": {
+    "model": "Relace Search",
+    "provider": "Relace",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 1.0,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.relace.ai/pricing",
+        "captured_at": "2026-08-07T13:30:38Z",
+        "snapshot": "data/evidence/relace-search/2026-08-07.txt",
+        "sha": "de39278783"
+      }
+    ]
+  },
+  "relace-apply-3": {
+    "model": "Relace Apply 3",
+    "provider": "Relace",
+    "history": [
+      {
+        "date": "2026-08-07",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.relace.ai/pricing",
+        "captured_at": "2026-08-07T13:30:40Z",
+        "snapshot": "data/evidence/relace-apply-3/2026-08-07.txt",
+        "sha": "de39278783"
+      }
+    ]
   }
 }

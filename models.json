@@ -5572,5 +5572,132 @@
     "source": "verified",
     "status_verified": "2026-08-06",
     "status_source": "https://openrouter.ai/meta/muse-spark-1.2"
+  },
+  {
+    "id": "sakana-fugu-ultra",
+    "provider": "Sakana AI",
+    "model": "Fugu Ultra",
+    "category": "flagship",
+    "input_per_mtok": 5.0,
+    "output_per_mtok": 30.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-06-22",
+    "released_source": "https://sakana.ai/fugu-release/",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Sakana AI's frontier orchestration model — a multi-agent system served as a single OpenAI-compatible model that routes each request across a pool of expert LLMs, including recursive calls to itself. Pricing is context-tiered rather than flat: $5.00/$30.00 per 1M tokens at or below 272K context with cached input at $0.50, rising to $10 / $45 / $1.00 above 272K. One fixed rate covers both fugu-ultra-v1.1 and fugu-ultra-v1.0.",
+    "price_note": "Sakana AI Token Plan (pay-as-you-go) list price, per 1M tokens. The published rate is CONTEXT-TIERED, not flat: the tracked $5.00 input, $30.00 output and $0.50 cached input apply at or below 272K context, and the vendor lists $10 input, $45 output and $1.00 cached above it — so a long-context request bills at 2x the tracked input rate and 1.5x the tracked output rate. The monthly subscription tiers (Standard $20, Pro $100, Max $200) bundle usage allowances rather than per-token rates and are not the list price. Sibling SKUs are deliberately not tracked here: plain Fugu has no fixed rate of its own (it bills at the standard rate of whichever underlying model it routes to) and Fugu Cyber is contact-sales. Sakana states the service is not offered to users in EU or EEA member states.",
+    "pricing_url": "https://sakana.ai/fugu/",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "agentic",
+      "caching",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-07",
+    "source": "verified",
+    "status_verified": "2026-08-07",
+    "status_source": "https://sakana.ai/fugu/"
+  },
+  {
+    "id": "upstage-solar-pro-3",
+    "provider": "Upstage",
+    "model": "Solar Pro 3",
+    "category": "mid-tier",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 131072,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-01-26",
+    "released_source": "https://www.upstage.ai/blog/en/solar-pro-3-0127",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "102B (12B active)",
+    "description": "Upstage's current flagship Solar LLM — a 102B-parameter mixture-of-experts model activating 12B parameters per token, tuned for reasoning, instruction following and bilingual Korean/English work, and updated in March 2026 for agentic use. $0.15/$0.60 per 1M tokens with cached input at $0.015. Upstage lists all prices exclusive of 10% VAT.",
+    "price_note": "Upstage's own pricing page list price, per 1M tokens (input $0.15, cached input $0.015, output $0.60), which OpenRouter matches exactly. Upstage states that all prices shown are exclusive of 10% VAT, so a VAT-liable invoice runs 10% above the tracked rate. Third-party catalogue models.dev disagrees, listing this SKU at a flat $0.25 in and out and advertising a 'Solar Pro 4' that appears nowhere on Upstage's own pricing page, blog or product navigation as of 2026-08-07; the vendor's own page is the source of record here. Solar Pro 2 is listed by Upstage at the same $0.15/$0.60.",
+    "pricing_url": "https://www.upstage.ai/pricing",
+    "tags": [
+      "mid-tier",
+      "reasoning",
+      "caching",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-07",
+    "source": "verified",
+    "status_verified": "2026-08-07",
+    "status_source": "https://www.upstage.ai/pricing"
+  },
+  {
+    "id": "relace-search",
+    "provider": "Relace",
+    "model": "Relace Search",
+    "category": "coding",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-12-08",
+    "released_source": "https://www.relace.ai/blog/fast-agentic-search",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Relace's code-retrieval specialist, released as Fast Agentic Search — a subagent trained with reinforcement learning that fires view, grep and bash calls in parallel to explore several file chains at once, then reports back the minimal set of files a coding agent needs as context. $1.00/$3.00 per 1M tokens.",
+    "price_note": "Relace's own pricing page list price, per 1M tokens; OpenRouter quotes the same $1.00/$3.00. Relace publishes no cached-input rate for this model. Two sibling SKUs on the same page are not tracked here because they are absent from the catalogue we sweep: relace-compact at $0.20 in and out, and relace-rank at $0.05 input with no output rate published.",
+    "pricing_url": "https://www.relace.ai/pricing",
+    "tags": [
+      "coding",
+      "search",
+      "agentic"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-07",
+    "source": "verified",
+    "status_verified": "2026-08-07",
+    "status_source": "https://www.relace.ai/pricing"
+  },
+  {
+    "id": "relace-apply-3",
+    "provider": "Relace",
+    "model": "Relace Apply 3",
+    "category": "coding",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": null,
+    "context_window": 256000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-10-29",
+    "released_source": "https://www.relace.ai/blog/relace-apply-3",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Relace's code-merge specialist — a fast-apply model that takes the lazy diff a frontier model emits and merges it back into the existing file at over 10,000 tokens per second, so the expensive model never has to regenerate unchanged code. $0.80/$1.20 per 1M tokens.",
+    "price_note": "Relace's own pricing page list price, per 1M tokens. OpenRouter serves the same model at $0.85 input / $1.25 output — a host markup of about 6% over the maker's list — and we publish the maker's rate. Relace publishes no cached-input rate for this model.",
+    "pricing_url": "https://www.relace.ai/pricing",
+    "tags": [
+      "coding",
+      "agentic"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-07",
+    "source": "verified",
+    "status_verified": "2026-08-07",
+    "status_source": "https://www.relace.ai/pricing"
   }
 ]

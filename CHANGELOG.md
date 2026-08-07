@@ -7,6 +7,13 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-07
+
+- **Fugu Ultra** (Sakana AI) launched — $5.0 in / $30.0 out per 1M tokens
+- **Solar Pro 3** (Upstage) launched — $0.15 in / $0.6 out per 1M tokens
+- **Relace Search** (Relace) launched — $1.0 in / $3.0 out per 1M tokens
+- **Relace Apply 3** (Relace) launched — $0.8 in / $1.2 out per 1M tokens
+
 ## 2026-08-06
 
 - **Qwen3.6-Flash** (Alibaba) launched — $0.25 in / $1.5 out per 1M tokens

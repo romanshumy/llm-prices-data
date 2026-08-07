@@ -302,5 +302,35 @@
     "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
     "logo_color": "#1f3fd1",
     "founded": 2025
+  },
+  {
+    "id": "sakana",
+    "name": "Sakana AI",
+    "type": "commercial",
+    "description": "Tokyo research company founded by David Ha, Llion Jones and Ren Ito, known for nature-inspired and evolutionary approaches to model design. Its Fugu family is a learned multi-agent orchestration system sold as a single OpenAI-compatible API; Fugu Ultra is token-billed from $5.00/1M input and $30.00/1M output at or below 272K context, with higher rates above it. The service is not offered in the EU or EEA.",
+    "url": "https://sakana.ai/",
+    "pricing_url": "https://sakana.ai/fugu/",
+    "logo_color": "#111827",
+    "founded": 2023
+  },
+  {
+    "id": "upstage",
+    "name": "Upstage",
+    "type": "commercial",
+    "description": "Korean AI company behind the Solar model family and a document-intelligence suite (Document Parse, Information Extract). Solar Pro 3, its current flagship LLM, is sold first-party from $0.15/1M input and $0.60/1M output tokens with cached input at $0.015/1M. All listed prices exclude 10% VAT.",
+    "url": "https://www.upstage.ai/",
+    "pricing_url": "https://www.upstage.ai/pricing",
+    "logo_color": "#4d65ff",
+    "founded": 2020
+  },
+  {
+    "id": "relace",
+    "name": "Relace",
+    "type": "commercial",
+    "description": "San Francisco lab building small, code-specific models for coding agents rather than general-purpose chat — retrieval, fast merge and context compaction. Relace Search is sold first-party from $1.00/1M input and $3.00/1M output tokens, and Relace Apply 3 from $0.80/1M input and $1.20/1M output.",
+    "url": "https://www.relace.ai/",
+    "pricing_url": "https://www.relace.ai/pricing",
+    "logo_color": "#fcaa2d",
+    "founded": 2022
   }
 ]
