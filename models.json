@@ -3099,34 +3099,8 @@
     "status_source": "https://platform.kimi.ai/docs/pricing/chat-k3"
   },
   {
-    "id": "nvidia-llama-nemotron-ultra-253b",
-    "provider": "NVIDIA",
-    "model": "Llama Nemotron Ultra 253B",
-    "category": "open-weights",
-    "input_per_mtok": 0.6,
-    "output_per_mtok": 3.6,
-    "cached_input_per_mtok": null,
-    "context_window": 128000,
-    "modality": [
-      "text"
-    ],
-    "released": "2025-01-01",
-    "status": "Current",
-    "open_source": true,
-    "parameters": "253B",
-    "description": "Large NVIDIA-tuned Llama model. $0.60/$3.60 per 1M on hosted platforms.",
-    "pricing_url": "https://build.nvidia.com/models",
-    "tags": [
-      "open-weights",
-      "reasoning"
-    ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
-  },
-  {
-    "id": "nvidia-nemotron-70b-instruct",
-    "provider": "NVIDIA",
+    "id": "deepinfra-nvidia-nemotron-70b-instruct",
+    "provider": "DeepInfra",
     "model": "Nemotron 70B Instruct",
     "category": "open-weights",
     "input_per_mtok": 1.2,
@@ -3137,17 +3111,21 @@
       "text"
     ],
     "released": "2025-06-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "70B",
-    "description": "NVIDIA's Llama-3.1-based Nemotron 70B Instruct is a 70B open-weights model tuned with RLHF for stronger instruction-following and helpfulness. It offers a 128K-token context window and runs via NVIDIA NIM (free developer tier) or self-hosting, making it a popular open alternative to proprietary 70B-class chat models.",
-    "pricing_url": "https://build.nvidia.com/models",
+    "description": "NVIDIA's Llama-3.1-based Nemotron 70B Instruct, a 70B open-weights model tuned with RLHF for instruction-following. Last sold as a hosted API by DeepInfra at $1.20/$1.20 per 1M tokens, delisted 2026-07-16; NVIDIA itself never sold per-token access and its free build.nvidia.com endpoint is deprecated. Open weights remain available for self-hosting.",
+    "pricing_url": "https://deepinfra.com/blog/nvidia-nemotron-api-pricing-guide-2026",
     "tags": [
-      "open-weights"
+      "open-weights",
+      "retired"
     ],
-    "last_updated": "2026-06-27",
-    "status_verified": "2026-07-09",
-    "status_source": "https://deepinfra.com/blog/nvidia-nemotron-api-pricing-guide-2026"
+    "last_updated": "2026-08-08",
+    "status_verified": "2026-08-08",
+    "status_source": "https://api.deepinfra.com/models/list",
+    "retired_on": "2026-07-16",
+    "superseded_by": null,
+    "availability_note": "Delisted from DeepInfra ~2026-07-16 (its catalog still carries the $1.20/$1.20 rate with a past-dated deprecation stamp; the model page 404s). NVIDIA's own build.nvidia.com endpoint is Deprecated with no partner endpoints, so no host currently sells per-token access; the open weights can be downloaded and self-hosted. Until 2026-08-08 this row mis-attributed DeepInfra's price to NVIDIA as seller."
   },
   {
     "id": "openai-gpt-4-1",

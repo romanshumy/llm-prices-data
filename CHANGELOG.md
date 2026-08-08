@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-08
+
+- **Llama Nemotron Ultra 253B** removed/retired
+
 ## 2026-08-07
 
 - **Qwen3.6-Plus** (Alibaba) launched — $0.5 in / $3.0 out per 1M tokens
