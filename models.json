@@ -293,6 +293,7 @@
     "last_updated": "2026-07-25",
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "released_verified": "2026-07-25",
+    "promo": true,
     "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked).",
     "status_verified": "2026-08-01",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
@@ -315,6 +316,7 @@
     "parameters": null,
     "description": "Alibaba's current-generation Qwen3.7 mid tier on Model Studio. $0.40/$1.60 per 1M tokens up to 256K context; the 256K–1M tier is billed at $1.20/$4.80. Thinking and non-thinking modes bill at the same output rate. 1M-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "promo": true,
     "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.20/$4.80). On a limited-time 20% off to $0.32 in / $1.28 out per 1M (list price tracked, as on alibaba-qwen3-7-max). Context-cache hits discount input only; no cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
     "tags": [
       "mid-tier"
@@ -941,6 +943,7 @@
     "input_per_mtok": 2.0,
     "output_per_mtok": 10.0,
     "cached_input_per_mtok": 0.2,
+    "promo": true,
     "price_note": "Launch/intro pricing: $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
     "promo_until": "2026-08-31",
     "context_window": 1000000,
@@ -4217,6 +4220,7 @@
     "last_updated": "2026-07-25",
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "released_verified": "2026-07-25",
+    "promo": true,
     "price_note": "$1.25 in / $3.75 out reflects Alibaba's 50% launch promo; list price $2.50/$7.50 (tracked on the first-party alibaba-qwen3-7-max row).",
     "status_verified": null,
     "status_source": null
@@ -4652,6 +4656,7 @@
     "input_per_mtok": 0.0,
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
+    "promo": true,
     "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date \u2014 verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
@@ -5097,6 +5102,7 @@
     "parameters": null,
     "description": "Meituan LongCat-2.0 \u2014 open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20). Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
     "pricing_url": "https://longcat.chat/platform/docs/Pricing/LongCat-2.0.html",
+    "promo": true,
     "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked)",
     "tags": [
       "coding",
