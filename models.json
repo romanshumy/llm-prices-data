@@ -1956,7 +1956,7 @@
     "open_source": true,
     "parameters": "120B",
     "description": "OpenAI's open-source 120B model on Groq. ~500 tokens/sec. $0.15/$0.60 per 1M.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -1986,7 +1986,7 @@
     "open_source": true,
     "parameters": "20B",
     "description": "OpenAI's open-source 20B model on Groq's LPU. ~1000 tokens/sec. $0.075/$0.30 per 1M.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2016,7 +2016,7 @@
     "open_source": true,
     "parameters": "8B",
     "description": "Llama 3.1 8B on Groq's LPU. ~840 tokens/sec \u2014 extremely fast. $0.05/$0.08 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2049,7 +2049,7 @@
     "open_source": true,
     "parameters": "70B",
     "description": "Llama 3.3 70B on Groq's LPU. ~394 tokens/sec. $0.59/$0.79 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2083,7 +2083,7 @@
     "open_source": true,
     "parameters": "17B (16 experts)",
     "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference \u2014 a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$0.34 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2117,7 +2117,7 @@
     "open_source": true,
     "parameters": "27B",
     "description": "Qwen 3.6 27B on Groq's LPU. ~500 tokens/sec. $0.60/$3.00 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2147,7 +2147,7 @@
     "open_source": true,
     "parameters": "32B",
     "description": "Qwen3 32B on Groq's LPU. ~662 tokens/sec. $0.29/$0.59 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
@@ -2308,7 +2308,7 @@
     "open_source": true,
     "parameters": "8B",
     "description": "Small, fast open-weights model. Cheapest hosted price via Groq: $0.05/$0.08 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "open-weights",
       "fast"
@@ -2335,7 +2335,7 @@
     "open_source": true,
     "parameters": "70B",
     "description": "Widely used open-weights model. Cheapest hosted price via Groq: $0.59/$0.79 per 1M tokens (also on Together at $1.04/$1.04).",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "open-weights"
     ],
@@ -2362,7 +2362,7 @@
     "open_source": true,
     "parameters": "17B (16 experts)",
     "description": "Meta's open-weight Llama 4 Scout \u2014 a natively multimodal MoE (17B active / 109B total, 16 experts) with an industry-leading 10M-token context, the longest of any open-weight model. Handles text, images, and video; fits on a single H100 with Int4. $0.11/$0.34 per 1M tokens.",
-    "pricing_url": "https://groq.com/pricing",
+    "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "multimodal",
       "open-weights",
@@ -3148,7 +3148,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Still available. 1M context window, strong at coding and instruction following.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "mid-tier",
       "multimodal",
@@ -3177,7 +3177,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Compact, affordable model with 1M context. Good for high-throughput tasks.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "budget",
       "multimodal"
@@ -3205,7 +3205,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Smallest and cheapest GPT-4.1 variant. Ideal for classification and simple tasks at scale.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "budget",
       "multimodal"
@@ -3235,7 +3235,7 @@
     "open_source": false,
     "parameters": null,
     "description": "High-capability model with 1M context. Balanced price-to-performance for most professional tasks.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "flagship",
       "multimodal"
@@ -3263,7 +3263,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Smaller, faster, cheaper variant of GPT-5.4. Good for high-volume workloads.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "mid-tier",
       "multimodal"
@@ -3292,7 +3292,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Frontier model for coding and professional work. 1.05M context window with multimodal input.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -3321,7 +3321,7 @@
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $5/$30 per 1M tokens (cached input $0.50).",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -3352,7 +3352,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost \u2014 the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20).",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -3383,7 +3383,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Low-cost, high-volume GPT-5.6 tier \u2014 the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $0.20/$1.20 per 1M tokens (cached input $0.02).",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal"
@@ -3413,7 +3413,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Image generation model. $8 input / $30 output per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "flagship",
       "image-generation"
@@ -3441,7 +3441,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Realtime voice and audio model. Text tokens $4/$24 per 1M; audio tokens $32/$64 per 1M.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "realtime",
       "audio",
@@ -3469,7 +3469,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Reasoning model with extended thinking. Still available for cost-conscious reasoning workloads.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning"
     ],
@@ -3498,7 +3498,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Reasoning model with extended thinking. Cost-effective for complex problem solving.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal"
@@ -3527,7 +3527,7 @@
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's large embedding model. $0.13 per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "embedding"
     ],
@@ -3552,7 +3552,7 @@
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's small embedding model. $0.02 per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "embedding"
     ],
@@ -3578,7 +3578,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Highest-capability GPT-5.5 tier for the hardest professional and research workloads. 1.05M context, multimodal input.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -3607,7 +3607,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Highest-capability GPT-5.4 tier for demanding reasoning and professional work. 1.05M context, multimodal input.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -3636,7 +3636,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Smallest, cheapest GPT-5.4 variant. Built for classification and high-volume tasks at scale.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "budget",
       "multimodal"
@@ -3664,7 +3664,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Chat-tuned GPT-5.3 for conversational and general-purpose use. 128K context, multimodal input.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "flagship",
       "multimodal"
@@ -3692,7 +3692,7 @@
     "open_source": false,
     "parameters": null,
     "description": "GPT-5.3 optimized for agentic coding and software engineering. 400K context.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "coding",
       "reasoning"
@@ -5133,7 +5133,7 @@
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's mid-generation GPT-5.2 with a 400K-token context. Balanced price-to-performance for everyday professional and agentic work. $1.75/$14 per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "flagship",
       "multimodal"
@@ -5161,7 +5161,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Highest-capability GPT-5.2 tier for demanding reasoning and professional work. 400K context, multimodal input. $21/$168 per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
       "multimodal",
@@ -5189,7 +5189,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Code-specialized GPT-5.2 variant tuned for agentic software engineering, tool use, and long-horizon coding tasks. 400K context. $1.75/$14 per 1M tokens.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "coding",
       "flagship"
@@ -5217,7 +5217,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Chat-optimized GPT-5.2 (the model behind ChatGPT) with a 128K context. Same $1.75/$14 per 1M token pricing as the API base model.",
-    "pricing_url": "https://openai.com/api/pricing/",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "chat",
       "multimodal",
