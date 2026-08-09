@@ -21,7 +21,7 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://openrouter.ai/01-ai/yi-large"
   },
   {
@@ -47,7 +47,7 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://www.ai21.com/pricing"
   },
   {
@@ -73,8 +73,8 @@
       "budget"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.ai21.com/pricing"
   },
   {
     "id": "alibaba-qwq-plus",
@@ -98,7 +98,7 @@
       "reasoning"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-30",
+    "status_verified": "2026-08-09",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -117,15 +117,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Fast Qwen model. $0.05/$0.40 per 1M tokens up to 256K context; the 256K\u20131M tier is billed at $0.25/$2.00.",
+    "description": "Fast Qwen model. $0.05/$0.40 per 1M tokens up to 256K context; the 256K–1M tier is billed at $0.25/$2.00.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token\u2264256K tier. The 256K<Token\u22641M tier is billed higher ($0.25/$2.00).",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($0.25/$2.00).",
     "tags": [
       "budget",
       "fast"
     ],
     "last_updated": "2026-07-28",
-    "status_verified": "2026-07-30",
+    "status_verified": "2026-08-09",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -150,7 +150,7 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-30",
+    "status_verified": "2026-08-09",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -176,10 +176,10 @@
       "fast"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-30",
+    "status_verified": "2026-08-09",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "superseded_by": "alibaba-qwen-flash",
-    "availability_note": "Alibaba's pricing page states Qwen-Turbo \"will no longer be updated\" and recommends switching to Qwen-Flash. Still sold at the listed price \u2014 no shutdown date has been published."
+    "availability_note": "Alibaba's pricing page states Qwen-Turbo \"will no longer be updated\" and recommends switching to Qwen-Flash. Still sold at the listed price — no shutdown date has been published."
   },
   {
     "id": "alibaba-qwen3-max",
@@ -199,12 +199,12 @@
     "parameters": null,
     "description": "Alibaba's flagship Qwen model. $1.20/$6.00 per 1M tokens on requests up to 32K tokens; larger requests bill higher, up to $3.00/$15.00 in the 128K-256K tier.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, 0<Token\u226432K tier. Tiered above that: 32K<Token\u2264128K is $2.40/$12.00 and 128K<Token\u2264256K is $3.00/$15.00 per 1M tokens.",
+    "price_note": "Alibaba Model Studio International list price, 0<Token≤32K tier. Tiered above that: 32K<Token≤128K is $2.40/$12.00 and 128K<Token≤256K is $3.00/$15.00 per 1M tokens.",
     "tags": [
       "flagship"
     ],
     "last_updated": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -283,7 +283,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's current proprietary flagship \u2014 a reasoning-first agent model with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). $2.50/$7.50 per 1M tokens list; cached input $0.25 (90% off). Text-only.",
+    "description": "Alibaba's current proprietary flagship — a reasoning-first agent model with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). $2.50/$7.50 per 1M tokens list; cached input $0.25 (90% off). Text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "tags": [
       "flagship",
@@ -295,7 +295,7 @@
     "released_verified": "2026-07-25",
     "promo": true,
     "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked).",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-06",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -346,9 +346,9 @@
     "status": "Current",
     "open_source": false,
     "parameters": "2.4T",
-    "description": "Alibaba's current proprietary flagship \u2014 a 2.4T-parameter mixture-of-experts model with a 1M-token context that takes text, image and video input and returns text. $2.00/$6.00 per 1M tokens, a single flat tier across the whole 1M context, with thinking tokens billed at the output rate. Open weights are announced but not yet released.",
+    "description": "Alibaba's current proprietary flagship — a 2.4T-parameter mixture-of-experts model with a 1M-token context that takes text, image and video input and returns text. $2.00/$6.00 per 1M tokens, a single flat tier across the whole 1M context, with thinking tokens billed at the output rate. Open weights are announced but not yet released.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, single 0<Token\u22641M tier \u2014 unlike qwen3-max this SKU is not tiered by request size. Explicit context-cache hits bill at 10% of the input rate (the cached_input_per_mtok we track); implicit-cache hits bill at 20%.",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤1M tier — unlike qwen3-max this SKU is not tiered by request size. Explicit context-cache hits bill at 10% of the input rate (the cached_input_per_mtok we track); implicit-cache hits bill at 20%.",
     "tags": [
       "flagship",
       "caching"
@@ -357,7 +357,7 @@
     "last_updated": "2026-08-03",
     "released_source": "https://qwen.ai/blog?id=qwen3.8",
     "released_verified": "2026-08-03",
-    "status_verified": "2026-08-03",
+    "status_verified": "2026-08-06",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -376,9 +376,9 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's Qwen3.6-generation mid tier on Model Studio, from the maker itself. $0.50/$3.00 per 1M tokens up to 256K context; the 256K\u20131M tier is billed at $2.00/$6.00. Thinking and non-thinking modes bill at the same output rate. 1M-token context, text-only.",
+    "description": "Alibaba's Qwen3.6-generation mid tier on Model Studio, from the maker itself. $0.50/$3.00 per 1M tokens up to 256K context; the 256K–1M tier is billed at $2.00/$6.00. Thinking and non-thinking modes bill at the same output rate. 1M-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, 0<Token\u2264256K tier. The 256K<Token\u22641M tier is billed higher ($2.00/$6.00). The `qwen3.6-plus` alias currently resolves to the qwen3.6-plus-2026-04-02 snapshot, which the page prices identically. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.325/$1.95. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here \u2014 the same basis as every other Alibaba row on this site.",
+    "price_note": "Alibaba Model Studio International list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($2.00/$6.00). The `qwen3.6-plus` alias currently resolves to the qwen3.6-plus-2026-04-02 snapshot, which the page prices identically. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.325/$1.95. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
     "tags": [
       "mid-tier"
     ],
@@ -405,9 +405,9 @@
     "status": "Current",
     "open_source": true,
     "parameters": "27B",
-    "description": "Qwen3.6-27B served by Alibaba, the model's maker, on Model Studio. $0.60/$3.60 per 1M tokens, a single 0\u2013256K tier, with thinking-mode output billed at the same rate as non-thinking. Open weights, 256K-token context, text-only.",
+    "description": "Qwen3.6-27B served by Alibaba, the model's maker, on Model Studio. $0.60/$3.60 per 1M tokens, a single 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. Open weights, 256K-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, single 0<Token\u2264256K tier, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.45/$2.70. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here \u2014 the same basis as every other Alibaba row on this site.",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤256K tier, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.45/$2.70. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
     "tags": [
       "mid-tier",
       "open-weights"
@@ -435,9 +435,9 @@
     "status": "Current",
     "open_source": true,
     "parameters": "397B (A17B)",
-    "description": "Large open-weights Qwen MoE (397B total, 17B active) served by Alibaba, the model's maker, on Model Studio. $0.60/$3.60 per 1M tokens, a single 0\u2013256K tier, with thinking-mode output billed at the same rate as non-thinking. 256K-token context, text-only.",
+    "description": "Large open-weights Qwen MoE (397B total, 17B active) served by Alibaba, the model's maker, on Model Studio. $0.60/$3.60 per 1M tokens, a single 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. 256K-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, single 0<Token\u2264256K tier, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.39/$2.34. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here \u2014 the same basis as every other Alibaba row on this site.",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤256K tier, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Alibaba's own gateway endpoint quotes a lower routed rate of $0.39/$2.34. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
     "tags": [
       "mid-tier",
       "open-weights",
@@ -468,7 +468,7 @@
     "parameters": "32B",
     "description": "Qwen3-32B served by Alibaba, the model's maker, on Model Studio. $0.16/$0.64 per 1M tokens, one flat rate covering both thinking and non-thinking modes. Open weights, 128K-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
-    "price_note": "Alibaba Model Studio International list price, one flat rate covering both Non-Thinking and Thinking modes, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. The pricing page prints no context tier for this SKU; the 128K context is what Alibaba's own served endpoint reports. Alibaba's own gateway endpoint quotes a lower routed rate of $0.104/$0.416. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here \u2014 the same basis as every other Alibaba row on this site.",
+    "price_note": "Alibaba Model Studio International list price, one flat rate covering both Non-Thinking and Thinking modes, from the vendor's open-source Qwen table. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. The pricing page prints no context tier for this SKU; the 128K context is what Alibaba's own served endpoint reports. Alibaba's own gateway endpoint quotes a lower routed rate of $0.104/$0.416. Alibaba's pricing page states that it lists standard prices only and directs buyers to the Model Studio console for current offers, and this SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
     "tags": [
       "budget",
       "open-weights"
@@ -498,7 +498,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Amazon's fast, low-cost Nova tier on Bedrock \u2014 multimodal and cost-effective for high-volume everyday tasks, with a 300K context. $0.06/$0.24 per 1M tokens.",
+    "description": "Amazon's fast, low-cost Nova tier on Bedrock — multimodal and cost-effective for high-volume everyday tasks, with a 300K context. $0.06/$0.24 per 1M tokens.",
     "pricing_url": "https://aws.amazon.com/nova/pricing/",
     "tags": [
       "budget",
@@ -554,7 +554,7 @@
     "status": "Deprecated",
     "open_source": false,
     "parameters": null,
-    "description": "Amazon's most capable Nova model on Bedrock \u2014 built for complex tasks needing deep context, multistep planning, and tool coordination; multimodal (text/image/video) with a 1M-token context, and a teacher model for distillation. $2.50/$12.50 per 1M tokens.",
+    "description": "Amazon's most capable Nova model on Bedrock — built for complex tasks needing deep context, multistep planning, and tool coordination; multimodal (text/image/video) with a 1M-token context, and a teacher model for distillation. $2.50/$12.50 per 1M tokens.",
     "pricing_url": "https://aws.amazon.com/nova/pricing/",
     "tags": [
       "flagship",
@@ -565,7 +565,7 @@
     "shutdown_date": "2026-09-14",
     "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
     "status_verified": "2026-07-25",
-    "availability_note": "Bedrock Legacy since 2026-03-13, EOL 2026-09-14. AWS warns pricing may rise during extended access \u2014 watch this price."
+    "availability_note": "Bedrock Legacy since 2026-03-13, EOL 2026-09-14. AWS warns pricing may rise during extended access — watch this price."
   },
   {
     "id": "amazon-nova-pro",
@@ -585,7 +585,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Amazon's balanced Nova tier on Bedrock \u2014 a capable multimodal model tuned for accuracy, speed, and cost across a wide range of tasks, with a 300K context. $0.80/$3.20 per 1M tokens.",
+    "description": "Amazon's balanced Nova tier on Bedrock — a capable multimodal model tuned for accuracy, speed, and cost across a wide range of tasks, with a 300K context. $0.80/$3.20 per 1M tokens.",
     "pricing_url": "https://aws.amazon.com/nova/pricing/",
     "tags": [
       "mid-tier",
@@ -615,7 +615,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's flagship Mythos-class model for ambitious, long-running work \u2014 strong at coding, knowledge work, vision, and computer use, with a 1M-token context window and up to 128K output tokens. $10/$50 per 1M tokens (90% prompt-caching discount on input).",
+    "description": "Anthropic's flagship Mythos-class model for ambitious, long-running work — strong at coding, knowledge work, vision, and computer use, with a 1M-token context window and up to 128K output tokens. $10/$50 per 1M tokens (90% prompt-caching discount on input).",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "flagship",
@@ -624,7 +624,7 @@
     ],
     "last_updated": "2026-07-02",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
@@ -676,7 +676,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's fast, low-cost tier \u2014 ~97 tokens/sec, built for high-volume classification, routing, and code review where heavy reasoning isn't needed. 200K context. $1/$5 per 1M tokens.",
+    "description": "Anthropic's fast, low-cost tier — ~97 tokens/sec, built for high-volume classification, routing, and code review where heavy reasoning isn't needed. 200K context. $1/$5 per 1M tokens.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "fast",
@@ -686,8 +686,8 @@
     "featured": false,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-opus-4-1",
@@ -749,8 +749,8 @@
     "featured": false,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-opus-4-6",
@@ -769,7 +769,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's Opus 4.6 \u2014 a frontier model with class-leading coding (~80.8% SWE-bench Verified) and standout legal/enterprise reasoning (top BigLaw Bench score). 1M context, prompt caching up to 90% off. $5/$25 per 1M tokens.",
+    "description": "Anthropic's Opus 4.6 — a frontier model with class-leading coding (~80.8% SWE-bench Verified) and standout legal/enterprise reasoning (top BigLaw Bench score). 1M context, prompt caching up to 90% off. $5/$25 per 1M tokens.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -779,8 +779,8 @@
     "featured": false,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-opus-4-7",
@@ -809,8 +809,8 @@
     "featured": false,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-opus-4-8",
@@ -841,7 +841,7 @@
     "source": "firecrawl_scrape",
     "released_source": "https://www.anthropic.com/news/claude-opus-4-8",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
@@ -872,8 +872,8 @@
     "last_updated": "2026-07-24",
     "released_source": "https://www.anthropic.com/news/claude-opus-5",
     "released_verified": "2026-07-24",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-sonnet-4-5",
@@ -902,8 +902,8 @@
     "featured": false,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations",
-    "status_verified": "2026-07-25"
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "status_verified": "2026-08-09"
   },
   {
     "id": "anthropic-claude-sonnet-4-6",
@@ -932,8 +932,8 @@
     "featured": true,
     "last_updated": "2026-06-25",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "anthropic-claude-sonnet-5",
@@ -956,7 +956,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's most agentic Sonnet yet \u2014 performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. Launch pricing is $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
+    "description": "Anthropic's most agentic Sonnet yet — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. Launch pricing is $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -967,8 +967,8 @@
     "featured": true,
     "last_updated": "2026-06-30",
     "source": "verified",
-    "status_verified": "2026-07-25",
-    "status_source": "https://platform.claude.com/docs/en/docs/about-claude/model-deprecations"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "baichuan-m2-32b",
@@ -993,7 +993,7 @@
       "budget"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-06",
+    "status_verified": "2026-08-09",
     "status_source": "https://www.requesty.ai/models/novita/baichuan-baichuan-m2-32b"
   },
   {
@@ -1012,7 +1012,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": "111B",
-    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens \u2014 same list price as Command R+ 08-2024, with a 256k context window.",
+    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens — same list price as Command R+ 08-2024, with a 256k context window.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "flagship"
@@ -1073,8 +1073,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-25",
-    "status_source": "https://docs.cohere.com/docs/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://cohere.com/pricing"
   },
   {
     "id": "cohere-command-r-plus-08-2024",
@@ -1099,8 +1099,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-25",
-    "status_source": "https://docs.cohere.com/docs/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://cohere.com/pricing"
   },
   {
     "id": "cohere-embed-4",
@@ -1126,8 +1126,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://cohere.com/pricing"
   },
   {
     "id": "cohere-rerank-3-5",
@@ -1152,8 +1152,8 @@
       "rerank"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://cohere.com/pricing"
   },
   {
     "id": "deepseek-v4-flash",
@@ -1171,7 +1171,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE \u2014 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.14/$0.28 per 1M tokens.",
+    "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE — 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.14/$0.28 per 1M tokens.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "fast",
@@ -1183,7 +1183,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-07-31",
+    "status_verified": "2026-08-09",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing"
   },
   {
@@ -1202,7 +1202,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's open-weight (MIT) flagship \u2014 a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $0.44/$0.87 per 1M tokens.",
+    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $0.44/$0.87 per 1M tokens.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "reasoning",
@@ -1213,7 +1213,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing"
   },
   {
@@ -1242,8 +1242,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-deepseek-v4-pro",
@@ -1271,7 +1271,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
@@ -1298,8 +1298,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-glm-5-2",
@@ -1327,7 +1327,7 @@
     "last_updated": "2026-07-19",
     "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-07-19",
+    "status_verified": "2026-08-09",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
@@ -1354,8 +1354,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-gpt-oss-20b",
@@ -1381,8 +1381,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-kimi-k2-5",
@@ -1440,8 +1440,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-kimi-k2-7-code",
@@ -1472,8 +1472,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-minimax-2-5",
@@ -1557,8 +1557,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-nemotron-3-ultra",
@@ -1585,8 +1585,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "fireworks-qwen3-6-plus",
@@ -1639,8 +1639,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
     "id": "google-gemini-2-5-flash",
@@ -1799,7 +1799,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Frontier reasoning model. $2/$12 per 1M (\u2264200K context), 2M context window.",
+    "description": "Frontier reasoning model. $2/$12 per 1M (≤200K context), 2M context window.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "flagship",
@@ -1807,7 +1807,7 @@
       "multimodal"
     ],
     "last_updated": "2026-07-04",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -1829,7 +1829,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Google's fast, low-cost workhorse from I/O 2026 \u2014 strong multimodal reasoning and coding (beats Gemini 3.1 Pro), with native computer-use for agents. The default Gemini across Search and the API. $1.50/$9 per 1M tokens.",
+    "description": "Google's fast, low-cost workhorse from I/O 2026 — strong multimodal reasoning and coding (beats Gemini 3.1 Pro), with native computer-use for agents. The default Gemini across Search and the API. $1.50/$9 per 1M tokens.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "fast",
@@ -1840,8 +1840,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://ai.google.dev/gemini-api/docs/deprecations",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
     "id": "google-gemini-3-6-flash",
@@ -1873,7 +1873,7 @@
     "last_updated": "2026-07-21",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
     "released_verified": "2026-07-21",
-    "status_verified": "2026-07-21",
+    "status_verified": "2026-08-09",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -1906,9 +1906,9 @@
     "last_updated": "2026-07-28",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
     "released_verified": "2026-07-21",
-    "status_verified": "2026-07-28",
+    "status_verified": "2026-08-09",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing",
-    "price_note": "Verified against Google's Gemini API pricing page (ai.google.dev) on 2026-07-28: the Gemini 3.5 Flash-Lite Standard paid tier is $0.30/1M input, $2.50/1M output, $0.03/1M context caching (batch tier $0.15/$1.25). The identical $0.30/$2.50 price shared with the deprecated Gemini 2.5 Flash reflects Google's uniform Flash tier pricing, not a placeholder \u2014 the value matches LiteLLM gemini/gemini-3.5-flash-lite."
+    "price_note": "Verified against Google's Gemini API pricing page (ai.google.dev) on 2026-07-28: the Gemini 3.5 Flash-Lite Standard paid tier is $0.30/1M input, $2.50/1M output, $0.03/1M context caching (batch tier $0.15/$1.25). The identical $0.30/$2.50 price shared with the deprecated Gemini 2.5 Flash reflects Google's uniform Flash tier pricing, not a placeholder — the value matches LiteLLM gemini/gemini-3.5-flash-lite."
   },
   {
     "id": "google-text-embedding-004",
@@ -1966,8 +1966,8 @@
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-04",
-    "status_source": "https://groq.com/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "groq-gpt-oss-20b",
@@ -1996,8 +1996,8 @@
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-04",
-    "status_source": "https://groq.com/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "groq-llama-3-1-8b-instant",
@@ -2015,7 +2015,7 @@
     "status": "Deprecated",
     "open_source": true,
     "parameters": "8B",
-    "description": "Llama 3.1 8B on Groq's LPU. ~840 tokens/sec \u2014 extremely fast. $0.05/$0.08 per 1M tokens.",
+    "description": "Llama 3.1 8B on Groq's LPU. ~840 tokens/sec — extremely fast. $0.05/$0.08 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
@@ -2082,7 +2082,7 @@
     "status": "Retired",
     "open_source": true,
     "parameters": "17B (16 experts)",
-    "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference \u2014 a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$0.34 per 1M tokens.",
+    "description": "Meta's Llama 4 Scout served on Groq's LPU for high-speed inference — a natively multimodal MoE (17B active, 16 experts) with a 10M-token context. $0.11/$0.34 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
@@ -2127,8 +2127,8 @@
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-08-01",
-    "status_source": "https://groq.com/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "groq-qwen3-32b",
@@ -2157,8 +2157,8 @@
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-07-04",
-    "status_source": "https://groq.com/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "ibm-granite-4-h-large",
@@ -2235,8 +2235,8 @@
       "budget"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
     "id": "ibm-granite-4-0-micro",
@@ -2288,8 +2288,8 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
     "id": "meta-llama-3-1-8b",
@@ -2315,8 +2315,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-25",
-    "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "meta-llama-3-3-70b",
@@ -2341,8 +2341,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
-    "status_source": "https://groq.com/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "meta-llama-4-scout",
@@ -2361,7 +2361,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "17B (16 experts)",
-    "description": "Meta's open-weight Llama 4 Scout \u2014 a natively multimodal MoE (17B active / 109B total, 16 experts) with an industry-leading 10M-token context, the longest of any open-weight model. Handles text, images, and video; fits on a single H100 with Int4. $0.11/$0.34 per 1M tokens.",
+    "description": "Meta's open-weight Llama 4 Scout — a natively multimodal MoE (17B active / 109B total, 16 experts) with an industry-leading 10M-token context, the longest of any open-weight model. Handles text, images, and video; fits on a single H100 with Int4. $0.11/$0.34 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "multimodal",
@@ -2402,7 +2402,7 @@
     "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (2026-07-28) no longer lists a plain 'MiniMax-M2' row; its active text LLMs are MiniMax-M3 and MiniMax-M2.7 (M2.1/M2.5 sit under Legacy). LiteLLM still carries minimax/MiniMax-M2 at $0.30/$1.20, so the number is a real historical price, but MiniMax-M2 is no longer offered first-party \u2014 treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (2026-07-28) no longer lists a plain 'MiniMax-M2' row; its active text LLMs are MiniMax-M3 and MiniMax-M2.7 (M2.1/M2.5 sit under Legacy). LiteLLM still carries minimax/MiniMax-M2 at $0.30/$1.20, so the number is a real historical price, but MiniMax-M2 is no longer offered first-party — treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m2-1",
@@ -2433,7 +2433,7 @@
     "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price \u2014 it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value \u2014 but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value — but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m2-5",
@@ -2464,7 +2464,7 @@
     "superseded_by": "minimax-m2-7",
     "status_verified": "2026-07-28",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price \u2014 it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value \u2014 but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
+    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value — but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
   },
   {
     "id": "minimax-m2-7",
@@ -2490,7 +2490,7 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
   },
   {
@@ -2522,8 +2522,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
   },
   {
     "id": "mistral-codestral",
@@ -2622,7 +2622,7 @@
     "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "Mistral's enterprise reasoning model \u2014 transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens. Retired from the Mistral API 2026-07-31.",
+    "description": "Mistral's enterprise reasoning model — transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens. Retired from the Mistral API 2026-07-31.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "reasoning"
@@ -2632,7 +2632,7 @@
     "status_verified": "2026-08-01",
     "status_source": "https://docs.mistral.ai/models/overview",
     "superseded_by": "mistral-medium-3-5",
-    "availability_note": "Retired 2026-07-31. This row tracks the magistral-medium-latest alias (see data/litellm_id_map.json), whose last resolvable version was magistral-medium-2509 (v25.09) \u2014 deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. Mistral's live model list now carries no Magistral model of any version. The released date 2025-06-01 is the family's 1.0 launch; the $2/$5 price is the alias price we last recorded (2026-06-25), which was 1.2's. We had been publishing it as Current."
+    "availability_note": "Retired 2026-07-31. This row tracks the magistral-medium-latest alias (see data/litellm_id_map.json), whose last resolvable version was magistral-medium-2509 (v25.09) — deprecated 2026-05-22, retired 2026-07-31, alternative Mistral Medium 3.5. Mistral's live model list now carries no Magistral model of any version. The released date 2025-06-01 is the family's 1.0 launch; the $2/$5 price is the alias price we last recorded (2026-06-25), which was 1.2's. We had been publishing it as Current."
   },
   {
     "id": "mistral-ministral-3b",
@@ -2677,7 +2677,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Mistral's largest open-weight model \u2014 a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. $0.50/$1.50 per 1M tokens.",
+    "description": "Mistral's largest open-weight model — a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. $0.50/$1.50 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "mid-tier"
@@ -2731,13 +2731,13 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Mistral's agentic mid-tier \u2014 ~77.6% SWE-bench Verified with strong tool use, now Mistral's recommended coding model. $1.50/$7.50 per 1M tokens.",
+    "description": "Mistral's agentic mid-tier — ~77.6% SWE-bench Verified with strong tool use, now Mistral's recommended coding model. $1.50/$7.50 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://mistral.ai/pricing/"
   },
   {
@@ -2768,7 +2768,7 @@
     "status_source": "https://docs.mistral.ai/models/overview",
     "status_verified": "2026-08-01",
     "superseded_by": "mistral-small-4",
-    "availability_note": "Retired 2026-07-31. mistral-small-2506 now appears in Mistral\u2019s \u201cDeprecated & retired models\u201d table (deprecated 2026-04-30, retired 2026-07-31); the API endpoint is withdrawn. Use Mistral Small 4. The price shown is the last list price we recorded while it was served; open weights remain downloadable."
+    "availability_note": "Retired 2026-07-31. mistral-small-2506 now appears in Mistral’s “Deprecated & retired models” table (deprecated 2026-04-30, retired 2026-07-31); the API endpoint is withdrawn. Use Mistral Small 4. The price shown is the last list price we recorded while it was served; open weights remain downloadable."
   },
   {
     "id": "mistral-small-4",
@@ -2794,8 +2794,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-02",
-    "status_source": "https://docs.mistral.ai/models/overview"
+    "status_verified": "2026-08-09",
+    "status_source": "https://mistral.ai/pricing/"
   },
   {
     "id": "mistral-mixtral-8x22b",
@@ -2872,7 +2872,7 @@
     "status": "Retired",
     "open_source": true,
     "parameters": "12B",
-    "description": "Multimodal vision model. $0.10/$0.10 per 1M tokens \u2014 very affordable.",
+    "description": "Multimodal vision model. $0.10/$0.10 per 1M tokens — very affordable.",
     "pricing_url": "https://mistral.ai/pricing/",
     "tags": [
       "open-weights",
@@ -2970,8 +2970,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.kimi.ai/docs/pricing/chat"
   },
   {
     "id": "moonshot-kimi-k2-6",
@@ -3000,8 +3000,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.kimi.ai/docs/pricing/chat"
   },
   {
     "id": "moonshot-kimi-k2-7-code",
@@ -3032,8 +3032,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.kimi.ai/docs/pricing/chat"
   },
   {
     "id": "moonshot-kimi-k2-7-code-highspeed",
@@ -3098,7 +3098,7 @@
     "last_updated": "2026-07-16",
     "released_source": "https://platform.kimi.ai/docs/pricing/chat-k3",
     "released_verified": "2026-07-16",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://platform.kimi.ai/docs/pricing/chat-k3"
   },
   {
@@ -3156,8 +3156,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-25",
-    "status_source": "https://developers.openai.com/api/docs/models/gpt-4.1"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-4-1-mini",
@@ -3184,8 +3184,8 @@
     ],
     "featured": false,
     "last_updated": "2026-07-04",
-    "status_verified": "2026-07-25",
-    "status_source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-4-1-nano",
@@ -3242,8 +3242,8 @@
     ],
     "featured": true,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-4-mini",
@@ -3270,8 +3270,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-5",
@@ -3300,8 +3300,8 @@
     ],
     "featured": true,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-6-sol",
@@ -3331,8 +3331,8 @@
     "last_updated": "2026-07-09",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-07-09",
-    "status_source": "https://developers.openai.com/api/docs/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-6-terra",
@@ -3351,7 +3351,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost \u2014 the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20).",
+    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost — the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20).",
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
@@ -3362,8 +3362,8 @@
     "last_updated": "2026-08-01",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-08-01",
-    "status_source": "https://developers.openai.com/api/docs/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-6-luna",
@@ -3382,7 +3382,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Low-cost, high-volume GPT-5.6 tier \u2014 the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $0.20/$1.20 per 1M tokens (cached input $0.02).",
+    "description": "Low-cost, high-volume GPT-5.6 tier — the efficient option in the Sol/Terra/Luna scheme, for cost-sensitive workloads. 1.05M context, 128K max output, text + image input. $0.20/$1.20 per 1M tokens (cached input $0.02).",
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
@@ -3392,8 +3392,8 @@
     "last_updated": "2026-08-01",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-08-01",
-    "status_source": "https://developers.openai.com/api/docs/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-image-2",
@@ -3420,8 +3420,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-04",
-    "status_source": "https://developers.openai.com/api/docs/pricing"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-realtime-2",
@@ -3449,8 +3449,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-o3-mini",
@@ -3586,8 +3586,8 @@
     ],
     "featured": true,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-4-pro",
@@ -3615,8 +3615,8 @@
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-4-nano",
@@ -3643,8 +3643,8 @@
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "openai-gpt-5-3-chat",
@@ -3699,8 +3699,8 @@
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
     "id": "perplexity-sonar",
@@ -3718,15 +3718,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Perplexity's lightweight web-grounded model \u2014 real-time web search with cited, conversational answers for quick factual lookups. $1/$1 per 1M tokens plus per-request search fees.",
+    "description": "Perplexity's lightweight web-grounded model — real-time web search with cited, conversational answers for quick factual lookups. $1/$1 per 1M tokens plus per-request search fees.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "mid-tier",
       "search"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
   },
   {
     "id": "perplexity-sonar-deep-research",
@@ -3752,8 +3752,8 @@
       "research"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
   },
   {
     "id": "perplexity-sonar-pro",
@@ -3771,14 +3771,14 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Perplexity's web-grounded model for in-depth, multi-step queries \u2014 retrieves and synthesizes multiple web searches with ~2x the citations of standard Sonar. $3/$15 per 1M tokens plus search fees.",
+    "description": "Perplexity's web-grounded model for in-depth, multi-step queries — retrieves and synthesizes multiple web searches with ~2x the citations of standard Sonar. $3/$15 per 1M tokens plus search fees.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "flagship",
       "search"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
   },
   {
@@ -3797,15 +3797,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Perplexity's web-grounded reasoning model \u2014 chain-of-thought over real-time web search with inline citations, for analytical, multi-source questions. $2/$8 per 1M tokens plus per-request search fees.",
+    "description": "Perplexity's web-grounded reasoning model — chain-of-thought over real-time web search with inline citations, for analytical, multi-source questions. $2/$8 per 1M tokens plus per-request search fees.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "reasoning",
       "search"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
   },
   {
     "id": "reka-core",
@@ -3833,7 +3833,7 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.reka.ai/pricing"
   },
   {
@@ -3863,8 +3863,8 @@
       "fast"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.reka.ai/pricing"
   },
   {
     "id": "reka-flash",
@@ -3893,8 +3893,8 @@
       "fast"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.reka.ai/pricing"
   },
   {
     "id": "together-deepseek-v4-pro",
@@ -3912,7 +3912,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Pro hosted on Together. $1.74/$3.48 per 1M tokens \u2014 more expensive than DeepSeek direct.",
+    "description": "DeepSeek V4 Pro hosted on Together. $1.74/$3.48 per 1M tokens — more expensive than DeepSeek direct.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "reasoning",
@@ -3923,7 +3923,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://www.together.ai/pricing"
   },
   {
@@ -3953,8 +3953,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-gemma-4-31b-pearl",
@@ -3980,8 +3980,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-kimi-k2-7-code",
@@ -4013,8 +4013,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-lfm2-24b-a2b",
@@ -4069,8 +4069,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-minimax-m2-5",
@@ -4130,8 +4130,8 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-nvidia-nemotron-3-ultra",
@@ -4159,8 +4159,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-qwen3-5-397b-a17b",
@@ -4192,7 +4192,7 @@
     "last_updated": "2026-07-31",
     "status_verified": null,
     "status_source": "https://docs.together.ai/docs/changelog",
-    "availability_note": "Together's changelog (June 15, 2026) scheduled Qwen/Qwen3.5-397B-A17B for removal from serverless after June 29, 2026, naming MiniMaxAI/MiniMax-M3 as the replacement; the June 29 entry confirms the removal. The model is still offered on on-demand DEDICATED endpoints, which are billed per minute \u2014 so the $0.60/$3.60 per-1M serverless price shown here is no longer obtainable."
+    "availability_note": "Together's changelog (June 15, 2026) scheduled Qwen/Qwen3.5-397B-A17B for removal from serverless after June 29, 2026, naming MiniMaxAI/MiniMax-M3 as the replacement; the June 29 entry confirms the removal. The model is still offered on on-demand DEDICATED endpoints, which are billed per minute — so the $0.60/$3.60 per-1M serverless price shown here is no longer obtainable."
   },
   {
     "id": "together-qwen3-7-max",
@@ -4210,7 +4210,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's proprietary flagship agent model \u2014 reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). Text-only. Together lists it at $1.25/$3.75 per 1M tokens \u2014 Alibaba's 50% launch promo off the $2.50/$7.50 list.",
+    "description": "Alibaba's proprietary flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). Text-only. Together lists it at $1.25/$3.75 per 1M tokens — Alibaba's 50% launch promo off the $2.50/$7.50 list.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
@@ -4222,8 +4222,8 @@
     "released_verified": "2026-07-25",
     "promo": true,
     "price_note": "$1.25 in / $3.75 out reflects Alibaba's 50% launch promo; list price $2.50/$7.50 (tracked on the first-party alibaba-qwen3-7-max row).",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-qwen3-7-plus",
@@ -4249,8 +4249,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "together-gpt-oss-120b",
@@ -4276,8 +4276,8 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://www.together.ai/pricing"
   },
   {
     "id": "voyage-rerank-2-5",
@@ -4302,8 +4302,8 @@
       "rerank"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-rerank-2-5-lite",
@@ -4328,8 +4328,8 @@
       "rerank"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-4",
@@ -4353,8 +4353,8 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-4-large",
@@ -4378,8 +4378,8 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-4-lite",
@@ -4403,8 +4403,8 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-code-3",
@@ -4429,7 +4429,7 @@
       "coding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-20",
+    "status_verified": "2026-08-09",
     "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
@@ -4454,8 +4454,8 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "voyage-multimodal-3-5",
@@ -4482,8 +4482,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
     "id": "zhipu-glm-4-32b",
@@ -4501,15 +4501,15 @@
     "status": "Current",
     "open_source": true,
     "parameters": "32B",
-    "description": "Open-weights 32B GLM model. $0.10/$0.10 per 1M tokens \u2014 flat pricing.",
+    "description": "Open-weights 32B GLM model. $0.10/$0.10 per 1M tokens — flat pricing.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
       "open-weights",
       "budget"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-5",
@@ -4535,8 +4535,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-5-air",
@@ -4562,8 +4562,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-6",
@@ -4581,7 +4581,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's GLM-4.6 \u2014 strong tool use and search-agent performance with tighter agent-framework integration, ~30% more token-efficient than GLM-4.5. 200K context. $0.60/$2.20 per 1M tokens.",
+    "description": "Z.AI's GLM-4.6 — strong tool use and search-agent performance with tighter agent-framework integration, ~30% more token-efficient than GLM-4.5. 200K context. $0.60/$2.20 per 1M tokens.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
       "open-weights",
@@ -4589,8 +4589,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-6v",
@@ -4618,8 +4618,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-7",
@@ -4637,7 +4637,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's GLM-4.7 \u2014 a development-focused open model with gains in agentic coding and multi-step reasoning (~73.8% SWE-bench) and stable 'think-then-act' execution in Claude Code, Cline, and similar agents. $0.60/$2.20 per 1M tokens.",
+    "description": "Z.AI's GLM-4.7 — a development-focused open model with gains in agentic coding and multi-step reasoning (~73.8% SWE-bench) and stable 'think-then-act' execution in Claude Code, Cline, and similar agents. $0.60/$2.20 per 1M tokens.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
       "open-weights",
@@ -4645,8 +4645,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-7-flash",
@@ -4657,7 +4657,7 @@
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
     "promo": true,
-    "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date \u2014 verify current pricing before relying on $0.",
+    "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
       "text"
@@ -4666,7 +4666,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Free GLM flash model from Z.AI \u2014 $0/$0 per 1M tokens (genuinely free, not a data error). Limited-time free tier.",
+    "description": "Free GLM flash model from Z.AI — $0/$0 per 1M tokens (genuinely free, not a data error). Limited-time free tier.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
       "open-weights",
@@ -4674,8 +4674,8 @@
       "free"
     ],
     "last_updated": "2026-07-31",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-4-7-flashx",
@@ -4702,8 +4702,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-5",
@@ -4729,8 +4729,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-5-turbo",
@@ -4756,8 +4756,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-5-1",
@@ -4783,7 +4783,7 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
@@ -4802,7 +4802,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's flagship open-weights model \u2014 a 744B-parameter Mixture-of-Experts (~40B active per token) with a 1M-token context and MIT-licensed weights. Tops open-weight leaderboards and rivals frontier models on long-horizon coding. ~$1.40/$4.40 per 1M tokens via hosts.",
+    "description": "Z.AI's flagship open-weights model — a 744B-parameter Mixture-of-Experts (~40B active per token) with a 1M-token context and MIT-licensed weights. Tops open-weight leaderboards and rivals frontier models on long-horizon coding. ~$1.40/$4.40 per 1M tokens via hosts.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
       "open-weights",
@@ -4812,7 +4812,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
@@ -4841,8 +4841,8 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "zhipu-glm-ocr",
@@ -4870,8 +4870,8 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
     "id": "xai-grok-4",
@@ -4983,7 +4983,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "xAI's smartest model \u2014 an Opus-class frontier model built for coding, agentic tasks, and knowledge work, trained on the 1.5T V9 foundation with Cursor data. ~2x token efficiency vs comparable leaders, 500K context, configurable reasoning effort. $2/$6 per 1M tokens.",
+    "description": "xAI's smartest model — an Opus-class frontier model built for coding, agentic tasks, and knowledge work, trained on the 1.5T V9 foundation with Cursor data. ~2x token efficiency vs comparable leaders, 500K context, configurable reasoning effort. $2/$6 per 1M tokens.",
     "pricing_url": "https://docs.x.ai/developers/models",
     "tags": [
       "flagship",
@@ -4993,7 +4993,7 @@
     "last_updated": "2026-07-08",
     "released_source": "https://x.ai/news/grok-4-5",
     "released_verified": "2026-07-08",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://docs.x.ai/developers/models"
   },
   {
@@ -5013,7 +5013,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "xAI's reasoning-first flagship with a 1M-token context and native video input (an xAI first), priced aggressively at roughly 5\u201310x cheaper than competing frontier models. $1.25/$2.50 per 1M tokens.",
+    "description": "xAI's reasoning-first flagship with a 1M-token context and native video input (an xAI first), priced aggressively at roughly 5–10x cheaper than competing frontier models. $1.25/$2.50 per 1M tokens.",
     "pricing_url": "https://docs.x.ai/developers/models",
     "tags": [
       "flagship",
@@ -5079,9 +5079,9 @@
     "featured": false,
     "last_updated": "2026-06-27",
     "source": "firecrawl_scrape",
-    "availability_note": "Reportedly suspended in June 2026 under a US export-control directive \u2014 availability unconfirmed. Verify with Anthropic before relying on it.",
-    "status_verified": null,
-    "status_source": null
+    "availability_note": "Reportedly suspended in June 2026 under a US export-control directive — availability unconfirmed. Verify with Anthropic before relying on it.",
+    "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
     "id": "meituan-longcat-2",
@@ -5100,10 +5100,10 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Meituan LongCat-2.0 \u2014 open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20) on Meituan's international edition (longcat.ai); the China edition (longcat.chat) lists an independently priced CNY twin (\u00a55 in / \u00a520 out, promo \u00a52 / \u00a58) \u2014 the USD is the vendor's own list, not an FX conversion. Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
+    "description": "Meituan LongCat-2.0 — open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20) on Meituan's international edition (longcat.ai); the China edition (longcat.chat) lists an independently priced CNY twin (¥5 in / ¥20 out, promo ¥2 / ¥8) — the USD is the vendor's own list, not an FX conversion. Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
     "pricing_url": "https://longcat.ai/platform/docs/Pricing/LongCat-2.0.html",
     "promo": true,
-    "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked). USD is first-party on longcat.ai (international edition); longcat.chat (China edition) prices independently in CNY (\u00a55/\u00a520 list, \u00a52/\u00a58 promo) \u2014 not an FX conversion.",
+    "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked). USD is first-party on longcat.ai (international edition); longcat.chat (China edition) prices independently in CNY (¥5/¥20 list, ¥2/¥8 promo) — not an FX conversion.",
     "tags": [
       "coding",
       "open-source",
@@ -5247,7 +5247,7 @@
     "status": "Preview",
     "open_source": false,
     "parameters": null,
-    "description": "Preview release of Google's Gemini 3 Flash \u2014 a fast, low-cost multimodal model with a 1M-token context. Predecessor to Gemini 3.1/3.5 Flash. $0.50/$3 per 1M tokens.",
+    "description": "Preview release of Google's Gemini 3 Flash — a fast, low-cost multimodal model with a 1M-token context. Predecessor to Gemini 3.1/3.5 Flash. $0.50/$3 per 1M tokens.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "fast",
@@ -5256,7 +5256,7 @@
     ],
     "featured": false,
     "last_updated": "2026-07-08",
-    "status_verified": "2026-07-08",
+    "status_verified": "2026-08-09",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -5276,9 +5276,9 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Tencent Hunyuan Hy3 (\"Hy3 Preview\") \u2014 a 295B-parameter MoE (~21B active) agentic model, officially released 2026-07-07 on Tencent Cloud TokenHub (preview following an Apr 2026 preview). Tencent lists the price in RMB (\u00a51 in / \u00a50.25 cached / \u00a54 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) \u2014 see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
+    "description": "Tencent Hunyuan Hy3 (\"Hy3 Preview\") — a 295B-parameter MoE (~21B active) agentic model, officially released 2026-07-07 on Tencent Cloud TokenHub (preview following an Apr 2026 preview). Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) — see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
     "pricing_url": "https://intl.cloud.tencent.com/product/tokenhub",
-    "price_note": "Preview. USD is FX-derived from Tencent's RMB list price (\u00a51 / \u00a50.25 / \u00a54 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo.",
+    "price_note": "Preview. USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo.",
     "tags": [
       "budget",
       "moe",
@@ -5306,7 +5306,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Flash served on DeepInfra at $0.09/$0.18 per 1M tokens \u2014 the lowest per-token rate among tracked hosts (vs Fireworks $0.14/$0.28). 1M-token context.",
+    "description": "DeepSeek V4 Flash served on DeepInfra at $0.09/$0.18 per 1M tokens — the lowest per-token rate among tracked hosts (vs Fireworks $0.14/$0.28). 1M-token context.",
     "pricing_url": "https://deepinfra.com/pricing",
     "tags": [
       "budget",
@@ -5317,7 +5317,7 @@
     "released_verified": "2026-06-27",
     "last_updated": "2026-07-10",
     "source": "verified",
-    "status_verified": "2026-07-10",
+    "status_verified": "2026-08-09",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5336,7 +5336,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "32B",
-    "description": "Alibaba Qwen3 32B served on DeepInfra at $0.08/$0.28 per 1M tokens \u2014 cheaper than other tracked hosts (vs Groq $0.29/$0.59). Dense 32B, 128K context.",
+    "description": "Alibaba Qwen3 32B served on DeepInfra at $0.08/$0.28 per 1M tokens — cheaper than other tracked hosts (vs Groq $0.29/$0.59). Dense 32B, 128K context.",
     "pricing_url": "https://deepinfra.com/pricing",
     "tags": [
       "budget",
@@ -5347,7 +5347,7 @@
     "released_verified": null,
     "last_updated": "2026-07-10",
     "source": "verified",
-    "status_verified": "2026-07-10",
+    "status_verified": "2026-08-09",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5378,7 +5378,7 @@
     "released_verified": null,
     "last_updated": "2026-07-10",
     "source": "verified",
-    "status_verified": "2026-07-10",
+    "status_verified": "2026-08-09",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5408,7 +5408,7 @@
     "released_verified": null,
     "last_updated": "2026-07-28",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5429,8 +5429,8 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Google's highest-fidelity native image generation and editing model, sold as Nano Banana Pro and built on Gemini 3.1 Pro. Generated images are billed as output tokens at $120 per 1M \u2014 about $0.13 for a 1K or 2K image.",
-    "price_note": "This model publishes two per-token output rates: $12.00 per 1M for text and thinking tokens, and $120.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for \u2014 cost a text-only turn at $12.00 instead. Google's own equivalents: a 1K or 2K image consumes 1120 output tokens ($0.134) and a 4K image 2000 tokens ($0.24); image input is fixed at 560 tokens ($0.0011). Text input and output are priced the same as Gemini 3.1 Pro.",
+    "description": "Google's highest-fidelity native image generation and editing model, sold as Nano Banana Pro and built on Gemini 3.1 Pro. Generated images are billed as output tokens at $120 per 1M — about $0.13 for a 1K or 2K image.",
+    "price_note": "This model publishes two per-token output rates: $12.00 per 1M for text and thinking tokens, and $120.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for — cost a text-only turn at $12.00 instead. Google's own equivalents: a 1K or 2K image consumes 1120 output tokens ($0.134) and a 4K image 2000 tokens ($0.24); image input is fixed at 560 tokens ($0.0011). Text input and output are priced the same as Gemini 3.1 Pro.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "image-generation",
@@ -5439,7 +5439,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -5460,8 +5460,8 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Google's fast native image generation and editing model, sold as Nano Banana 2 and used as the default image engine across Google's own products. Generated images are billed as output tokens at $60 per 1M \u2014 about $0.067 for a 1K image.",
-    "price_note": "This model publishes two per-token output rates: $3.00 per 1M for text and thinking tokens, and $60.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for \u2014 cost a text-only turn at $3.00 instead. Google's own equivalents: 747 output tokens for a 0.5K image ($0.045), 1120 for 1K ($0.067), 1680 for 2K ($0.101) and 2520 for 4K ($0.151).",
+    "description": "Google's fast native image generation and editing model, sold as Nano Banana 2 and used as the default image engine across Google's own products. Generated images are billed as output tokens at $60 per 1M — about $0.067 for a 1K image.",
+    "price_note": "This model publishes two per-token output rates: $3.00 per 1M for text and thinking tokens, and $60.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for — cost a text-only turn at $3.00 instead. Google's own equivalents: 747 output tokens for a 0.5K image ($0.045), 1120 for 1K ($0.067), 1680 for 2K ($0.101) and 2520 for 4K ($0.151).",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "image-generation",
@@ -5470,7 +5470,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -5492,8 +5492,8 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "The cheapest model in Google's Nano Banana image family, built for low-latency, high-volume image generation and editing. Generated images are billed as output tokens at $30 per 1M \u2014 about $0.034 for a 1K image.",
-    "price_note": "This model publishes two per-token output rates: $1.50 per 1M for text and thinking tokens, and $30.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for \u2014 cost a text-only turn at $1.50 instead. Google's own equivalent: a 1K image consumes 1120 output tokens ($0.0336).",
+    "description": "The cheapest model in Google's Nano Banana image family, built for low-latency, high-volume image generation and editing. Generated images are billed as output tokens at $30 per 1M — about $0.034 for a 1K image.",
+    "price_note": "This model publishes two per-token output rates: $1.50 per 1M for text and thinking tokens, and $30.00 per 1M for generated image tokens. The tracked output price is the image rate, because image generation is what the model is bought for — cost a text-only turn at $1.50 instead. Google's own equivalent: a 1K image consumes 1120 output tokens ($0.0336).",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "image-generation",
@@ -5502,7 +5502,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -5538,7 +5538,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
@@ -5561,7 +5561,7 @@
     "open_source": true,
     "parameters": "276B total / 12B active",
     "description": "The lighter Inkling: a 276B-total / 12B-active MoE that matches its larger sibling on many benchmarks at a quarter of the size, with the same native text/image/audio reasoning and variable thinking effort. Open weights on Hugging Face, sold through Tinker serverless inference at $0.30/$1.20 per 1M tokens.",
-    "price_note": "Tinker Serverless Inference (Beta) list price for the 256K-context nvfp4 sampling endpoint. OpenRouter lists this model's input at $0.50/1M \u2014 67% over the vendor's own published rate \u2014 so the first-party figure is the one published here.",
+    "price_note": "Tinker Serverless Inference (Beta) list price for the 256K-context nvfp4 sampling endpoint. OpenRouter lists this model's input at $0.50/1M — 67% over the vendor's own published rate — so the first-party figure is the one published here.",
     "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
     "tags": [
       "open-weights",
@@ -5574,7 +5574,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-01",
+    "status_verified": "2026-08-03",
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
@@ -5597,7 +5597,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Meta's first proprietary, paid-API model and the flagship of the new Meta Model API \u2014 a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input. Built for tool calling, computer use and coding. $1.25/$4.25 per 1M tokens, with cached input at $0.15. Unlike Llama, it is API-only: there are no open weights.",
+    "description": "Meta's first proprietary, paid-API model and the flagship of the new Meta Model API — a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input. Built for tool calling, computer use and coding. $1.25/$4.25 per 1M tokens, with cached input at $0.15. Unlike Llama, it is API-only: there are no open weights.",
     "price_note": "Meta Model API list price, per 1M tokens, with no long-context premium. Search grounding is billed separately at $2.50 per 1,000 queries and is not included in the token rate. Public preview was US-only at launch.",
     "pricing_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
     "tags": [
