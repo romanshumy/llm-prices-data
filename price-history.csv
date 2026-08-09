@@ -5885,39 +5885,39 @@ relace-search,Relace Search,Relace,2026-08-09,snapshot,,1.0,3.0,
 sakana-fugu-ultra,Fugu Ultra,Sakana AI,2026-08-07,new_model,verified,5.0,30.0,
 sakana-fugu-ultra,Fugu Ultra,Sakana AI,2026-08-08,snapshot,,5.0,30.0,0.5
 sakana-fugu-ultra,Fugu Ultra,Sakana AI,2026-08-09,snapshot,,5.0,30.0,0.5
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-08,new_model,verified,0.147,0.588,
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-09,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-10,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-11,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-12,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-13,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-14,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-15,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-16,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-17,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-18,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-19,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-20,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-21,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-22,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-23,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-24,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-25,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-26,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-27,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-28,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-29,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-30,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-07-31,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-01,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-02,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-03,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-04,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-05,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-06,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-07,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-08,snapshot,,0.147,0.588,0.037
-tencent-hunyuan-hy3-preview,Hunyuan Hy3 Preview,Tencent,2026-08-09,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-08,new_model,verified,0.147,0.588,
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-09,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-10,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-11,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-12,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-13,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-14,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-15,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-16,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-17,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-18,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-19,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-20,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-21,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-22,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-23,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-24,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-25,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-26,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-27,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-28,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-29,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-30,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-07-31,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-01,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-02,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-03,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-04,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-05,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-06,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-07,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-08,snapshot,,0.147,0.588,0.037
+tencent-hunyuan-hy3-preview,Hunyuan Hy3,Tencent,2026-08-09,snapshot,,0.147,0.588,0.037
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-01,new_model,verified,1.0,4.05,
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-02,snapshot,,1.0,4.05,0.17
 thinking-machines-inkling,Inkling,Thinking Machines,2026-08-03,snapshot,,1.0,4.05,0.17

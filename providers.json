@@ -268,7 +268,7 @@
     "name": "Tencent",
     "type": "commercial",
     "url": "https://www.tencent.com/en-us/",
-    "pricing_url": "https://intl.cloud.tencent.com/product/tokenhub",
+    "pricing_url": "https://intl.cloud.tencent.com/products/tokenhub",
     "logo_color": "#0052d9",
     "founded": 1998,
     "description": "Chinese technology conglomerate. Its Hunyuan family is served via Tencent Cloud's TokenHub API; Hunyuan Hy3 is a 295B-parameter MoE agentic model listed in RMB (converted to USD per the FX policy)."
