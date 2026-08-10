@@ -73906,5 +73906,26 @@
         "changes": []
       }
     ]
+  },
+  "together-lfm2-5-8b-a1b": {
+    "model": "LFM2.5 8B A1B",
+    "provider": "Together",
+    "history": [
+      {
+        "date": "2026-08-10",
+        "input_per_mtok": 0.03,
+        "output_per_mtok": 0.12,
+        "cached_input_per_mtok": null,
+        "context_window": 32768,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.together.ai/pricing",
+        "captured_at": "2026-08-10T09:35:50Z",
+        "snapshot": "data/evidence/together-lfm2-5-8b-a1b/2026-08-10.txt",
+        "sha": "3378092ce3"
+      }
+    ]
   }
 }

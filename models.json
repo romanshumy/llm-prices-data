@@ -4044,7 +4044,38 @@
     "last_updated": "2026-07-31",
     "status_verified": null,
     "status_source": "https://docs.together.ai/docs/changelog",
-    "availability_note": "Together's changelog (July 9, 2026) states LiquidAI/LFM2-24B-A2B 'has been deprecated and is no longer available on serverless'. Its named replacement, LiquidAI/LFM2.5-8B-A1B, launched the same day and is not yet tracked here. The $0.03/$0.12 shown is the real historical serverless price; it is no longer purchasable."
+    "availability_note": "Together's changelog (July 9, 2026) states LiquidAI/LFM2-24B-A2B 'has been deprecated and is no longer available on serverless'. Its named replacement, LiquidAI/LFM2.5-8B-A1B, is now tracked here as Together LFM2.5 8B A1B. The $0.03/$0.12 shown is the real historical serverless price; it is no longer purchasable."
+  },
+  {
+    "id": "together-lfm2-5-8b-a1b",
+    "provider": "Together",
+    "model": "LFM2.5 8B A1B",
+    "category": "budget",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.12,
+    "cached_input_per_mtok": null,
+    "context_window": 32768,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-27",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "8.5B (A1B)",
+    "description": "Liquid AI's LFM2.5 8B (A1B active) on Together serverless. $0.03/$0.12 per 1M tokens. Named replacement for the retired LFM2 24B A2B.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "fast",
+      "open-weights",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-10",
+    "released_source": "https://www.together.ai/models/liquid-lfm2-5-8b-a1b",
+    "released_verified": "2026-08-10",
+    "status_verified": "2026-08-10",
+    "status_source": "https://www.together.ai/pricing",
+    "availability_note": "This is Together's price for hosting Liquid AI's model, not a price from Liquid AI. Liquid AI does not sell its models per token at all — liquid.ai/pricing offers the open weights free under the LFM Open License below $10M annual revenue, and a commercial licence above it — so Together's serverless rate is the only per-token price that exists for this model. The 32,768-token context is what Together serves on this endpoint; the model itself is built for 128K, which this endpoint does not offer."
   },
   {
     "id": "together-llama-3-3-70b",
