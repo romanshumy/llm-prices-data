@@ -10,6 +10,8 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-08-10
 
 - **LFM2.5 8B A1B** (Together) launched — $0.03 in / $0.12 out per 1M tokens
+- **KAT-Coder-Pro V2.5** (Kwaipilot) launched — $0.741 in / $2.964 out per 1M tokens
+- **KAT-Coder-Air V2.5** (Kwaipilot) launched — $0.148 in / $0.593 out per 1M tokens
 
 ## 2026-08-08
 

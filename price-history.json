@@ -73927,5 +73927,47 @@
         "sha": "3378092ce3"
       }
     ]
+  },
+  "kwaipilot-kat-coder-pro-v2-5": {
+    "model": "KAT-Coder-Pro V2.5",
+    "provider": "Kwaipilot",
+    "history": [
+      {
+        "date": "2026-08-10",
+        "input_per_mtok": 0.741,
+        "output_per_mtok": 2.964,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://www.streamlake.com/product/kat-coder",
+        "captured_at": "2026-08-10T09:37:13Z",
+        "snapshot": "data/evidence/kwaipilot-kat-coder-pro-v2-5/2026-08-10.txt",
+        "sha": "4ed2e4d8c7"
+      }
+    ]
+  },
+  "kwaipilot-kat-coder-air-v2-5": {
+    "model": "KAT-Coder-Air V2.5",
+    "provider": "Kwaipilot",
+    "history": [
+      {
+        "date": "2026-08-10",
+        "input_per_mtok": 0.148,
+        "output_per_mtok": 0.593,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://www.streamlake.com/product/kat-coder",
+        "captured_at": "2026-08-10T09:37:46Z",
+        "snapshot": "data/evidence/kwaipilot-kat-coder-air-v2-5/2026-08-10.txt",
+        "sha": "4ed2e4d8c7"
+      }
+    ]
   }
 }

@@ -332,5 +332,15 @@
     "pricing_url": "https://www.relace.ai/pricing",
     "logo_color": "#fcaa2d",
     "founded": 2022
+  },
+  {
+    "id": "kwaipilot",
+    "name": "Kwaipilot",
+    "type": "commercial",
+    "description": "Kuaishou's coding-model team, maker of the KwaiKAT / KAT-Coder family. Its API is sold first-party through StreamLake (溪流湖), Kuaishou's enterprise cloud, on the Wanqing (万擎) model platform. StreamLake lists KAT-Coder per-token in RMB; the USD we publish is FX-derived at a dated snapshot.",
+    "url": "https://www.streamlake.com/product/kat-coder",
+    "pricing_url": "https://www.streamlake.com/product/kat-coder",
+    "logo_color": "#1a4a25",
+    "founded": 2011
   }
 ]

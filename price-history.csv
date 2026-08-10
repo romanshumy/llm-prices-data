@@ -3380,6 +3380,8 @@ ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-07,sn
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-08,snapshot,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-09,snapshot,,0.106,,
 ibm-granite-embedding-278m,Granite Embedding 278M Multilingual,IBM,2026-08-10,snapshot,,0.106,,
+kwaipilot-kat-coder-air-v2-5,KAT-Coder-Air V2.5,Kwaipilot,2026-08-10,new_model,verified,0.148,0.593,
+kwaipilot-kat-coder-pro-v2-5,KAT-Coder-Pro V2.5,Kwaipilot,2026-08-10,new_model,verified,0.741,2.964,
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-06,new_model,verified,0.75,2.95,
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-07,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-07-08,snapshot,,0.75,2.95,0.015
