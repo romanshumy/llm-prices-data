@@ -80,7 +80,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-07-19
 
-- **GLM 5.2** price change — cached input $0.26 → $0.14 per 1M tokens
+- **GLM-5.2** price change — cached input $0.26 → $0.14 per 1M tokens
 
 ## 2026-07-16
 
@@ -89,7 +89,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-07-10
 
 - **DeepSeek V4 Flash** (DeepInfra) launched — $0.09 in / $0.18 out per 1M tokens
-- **Qwen3 32B** (DeepInfra) launched — $0.08 in / $0.28 out per 1M tokens
+- **Qwen3-32B** (DeepInfra) launched — $0.08 in / $0.28 out per 1M tokens
 - **Llama 4 Scout** (DeepInfra) launched — $0.1 in / $0.3 out per 1M tokens
 - **Llama 4 Maverick** (DeepInfra) launched — $0.15 in / $0.6 out per 1M tokens
 
@@ -128,7 +128,7 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Llama 3.3 70B Versatile** price change — output $1.00 → $0.79 per 1M tokens
 - **Llama 4 Scout** price change — output $1.00 → $0.34 per 1M tokens
 - **Qwen 3.6 27B** price change — output $1.00 → $3.00 per 1M tokens
-- **Qwen3 32B** price change — output $1.00 → $0.59 per 1M tokens
+- **Qwen3-32B** price change — output $1.00 → $0.59 per 1M tokens
 - **GPT-4.1 mini** price change — cached input $0.20 → $0.10 per 1M tokens
 - **GPT-4.1 nano** price change — cached input $0.05 → $0.025 per 1M tokens
 - **o4-mini** price change — cached input $0.55 → $0.275 per 1M tokens

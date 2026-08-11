@@ -1660,39 +1660,39 @@ deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-08-0
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-08-09,snapshot,,1.2,1.2,
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-08-10,snapshot,,1.2,1.2,
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-08-11,snapshot,,1.2,1.2,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-10,new_model,verified,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-11,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-12,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-13,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-14,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-15,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-16,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-17,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-18,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-19,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-20,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-21,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-22,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-23,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-24,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-25,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-26,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-27,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-28,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-29,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-30,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-07-31,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-01,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-02,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-03,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-04,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-05,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-06,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-07,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-08,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-09,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-10,snapshot,,0.08,0.28,
-deepinfra-qwen3-32b,Qwen3 32B,DeepInfra,2026-08-11,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-10,new_model,verified,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-11,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-12,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-13,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-14,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-15,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-16,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-17,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-18,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-19,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-20,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-21,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-22,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-23,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-24,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-25,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-26,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-27,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-28,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-29,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-30,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-07-31,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-01,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-02,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-03,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-04,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-05,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-06,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-07,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-08,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-09,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-10,snapshot,,0.08,0.28,
+deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-08-11,snapshot,,0.08,0.28,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-23,backfill,litellm-archive,0.14,0.28,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-25,baseline,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-29,snapshot,,0.14,0.28,0.0028
@@ -1877,190 +1877,190 @@ fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-08,snapshot,,1.74,3.
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-09,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-10,snapshot,,1.74,3.48,0.145
 fireworks-deepseek-v4-pro,DeepSeek V4 Pro,Fireworks,2026-08-11,snapshot,,1.74,3.48,0.145
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-05-25,backfill,litellm-archive,1.4,4.4,
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-01,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-02,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-03,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-04,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-05,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-06,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-07,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-08,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-09,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-10,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-11,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-12,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-13,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-14,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-15,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-16,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-17,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-18,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-19,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-20,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-21,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-22,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-23,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-24,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-25,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-26,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-27,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-28,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-29,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-30,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-07-31,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-06,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-07,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-08,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-09,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-10,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-1,GLM 5.1,Fireworks,2026-08-11,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-23,backfill,litellm-archive,1.4,4.4,
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-01,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-02,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-03,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-04,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-05,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-06,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-07,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-08,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-09,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-10,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-11,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-12,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-13,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-14,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-15,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-16,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-17,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-18,snapshot,,1.4,4.4,0.26
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-19,price_drop,official Fireworks serverless pricing page,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-20,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-21,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-22,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-23,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-24,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-25,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-26,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-27,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-28,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-29,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-30,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-07-31,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-06,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-07,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-08,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-09,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-10,snapshot,,1.4,4.4,0.14
-fireworks-glm-5-2,GLM 5.2,Fireworks,2026-08-11,snapshot,,1.4,4.4,0.14
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-23,backfill,litellm-archive,0.15,0.6,
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-25,baseline,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-29,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-06-30,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-01,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-02,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-03,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-04,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-05,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-06,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-07,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-08,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-09,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-10,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-11,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-12,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-13,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-14,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-15,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-16,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-17,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-18,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-19,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-20,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-21,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-22,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-23,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-24,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-25,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-26,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-27,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-28,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-29,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-30,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-07-31,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-01,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-02,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-03,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-04,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-05,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-06,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-07,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-08,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-09,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-10,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-120b,GPT OSS 120B,Fireworks,2026-08-11,snapshot,,0.15,0.6,0.015
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-23,backfill,litellm-archive,0.07,0.3,
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-25,baseline,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-29,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-06-30,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-01,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-02,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-03,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-04,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-05,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-06,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-07,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-08,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-09,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-10,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-11,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-12,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-13,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-14,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-15,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-16,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-17,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-18,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-19,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-20,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-21,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-22,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-23,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-24,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-25,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-26,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-27,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-28,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-29,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-30,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-07-31,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-01,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-02,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-03,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-04,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-05,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-06,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-07,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-08,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-09,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-10,snapshot,,0.07,0.3,0.035
-fireworks-gpt-oss-20b,GPT OSS 20B,Fireworks,2026-08-11,snapshot,,0.07,0.3,0.035
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-05-25,backfill,litellm-archive,1.4,4.4,
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-01,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-02,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-03,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-04,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-05,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-06,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-07,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-08,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-09,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-10,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-11,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-12,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-13,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-14,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-15,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-16,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-17,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-18,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-19,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-20,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-21,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-22,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-23,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-24,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-25,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-26,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-27,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-28,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-29,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-30,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-07-31,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-06,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-07,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-08,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-09,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-10,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-1,GLM-5.1,Fireworks,2026-08-11,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-06-23,backfill,litellm-archive,1.4,4.4,
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-06-25,baseline,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-06-29,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-06-30,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-01,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-02,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-03,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-04,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-05,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-06,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-07,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-08,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-09,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-10,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-11,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-12,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-13,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-14,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-15,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-16,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-17,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-18,snapshot,,1.4,4.4,0.26
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-19,price_drop,official Fireworks serverless pricing page,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-20,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-21,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-22,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-23,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-24,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-25,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-26,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-27,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-28,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-29,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-30,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-07-31,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-01,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-02,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-03,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-04,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-05,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-06,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-07,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-08,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-09,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-10,snapshot,,1.4,4.4,0.14
+fireworks-glm-5-2,GLM-5.2,Fireworks,2026-08-11,snapshot,,1.4,4.4,0.14
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-06-23,backfill,litellm-archive,0.15,0.6,
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-06-25,baseline,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-06-29,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-06-30,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-01,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-02,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-03,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-04,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-05,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-06,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-07,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-08,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-09,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-10,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-11,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-12,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-13,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-14,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-15,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-16,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-17,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-18,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-19,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-20,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-21,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-22,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-23,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-24,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-25,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-26,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-27,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-28,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-29,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-30,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-07-31,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-01,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-02,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-03,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-04,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-05,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-06,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-07,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-08,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-09,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-10,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-120b,GPT-OSS 120B,Fireworks,2026-08-11,snapshot,,0.15,0.6,0.015
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-06-23,backfill,litellm-archive,0.07,0.3,
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-06-25,baseline,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-06-29,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-06-30,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-01,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-02,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-03,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-04,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-05,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-06,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-07,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-08,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-09,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-10,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-11,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-12,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-13,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-14,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-15,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-16,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-17,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-18,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-19,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-20,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-21,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-22,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-23,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-24,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-25,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-26,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-27,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-28,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-29,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-30,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-07-31,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-01,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-02,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-03,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-04,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-05,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-06,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-07,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-08,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-09,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-10,snapshot,,0.07,0.3,0.035
+fireworks-gpt-oss-20b,GPT-OSS 20B,Fireworks,2026-08-11,snapshot,,0.07,0.3,0.035
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-02-23,backfill,litellm-archive,0.6,3.0,
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-06-25,baseline,,0.6,3.0,0.1
 fireworks-kimi-k2-5,Kimi K2.5,Fireworks,2026-06-29,snapshot,,0.6,3.0,0.1
@@ -2290,52 +2290,52 @@ fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-08,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-09,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-10,snapshot,,0.3,1.2,0.06
 fireworks-minimax-2-7,MiniMax 2.7,Fireworks,2026-08-11,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-23,backfill,litellm-archive,0.3,1.2,
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-25,baseline,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-06-30,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-01,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-02,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-03,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-04,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-05,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-06,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-07,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-08,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-09,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-10,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-11,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-12,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-13,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-14,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-15,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-16,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-17,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-18,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-19,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-20,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-21,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-22,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-23,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-24,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-25,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-26,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-27,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-28,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-29,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-30,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-07-31,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-01,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-02,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-03,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-04,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-05,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-06,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-07,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-08,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-09,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-10,snapshot,,0.3,1.2,0.06
-fireworks-minimax-m3,MiniMax M3,Fireworks,2026-08-11,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-06-23,backfill,litellm-archive,0.3,1.2,
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-06-25,baseline,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-06-29,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-06-30,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-01,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-02,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-03,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-04,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-05,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-06,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-07,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-08,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-09,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-10,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-11,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-12,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-13,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-14,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-15,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-16,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-17,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-18,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-19,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-20,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-21,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-22,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-23,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-24,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-25,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-26,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-27,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-28,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-29,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-30,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-07-31,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-01,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-02,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-03,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-04,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-05,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-06,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-07,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-08,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-09,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-10,snapshot,,0.3,1.2,0.06
+fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-11,snapshot,,0.3,1.2,0.06
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-25,baseline,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-29,snapshot,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-30,snapshot,,0.6,2.4,0.12
@@ -3194,53 +3194,53 @@ groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-08,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-09,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-10,snapshot,,0.6,3.0,
 groq-qwen-3-6-27b,Qwen 3.6 27B,Groq,2026-08-11,snapshot,,0.6,3.0,
-groq-qwen3-32b,Qwen3 32B,Groq,2025-07-28,backfill,litellm-archive,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-06-23,backfill,litellm-archive,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-06-25,baseline,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-06-29,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-06-30,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-01,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-02,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-03,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-04,correction,verified,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-05,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-06,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-07,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-08,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-09,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-10,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-11,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-12,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-13,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-14,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-15,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-16,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-17,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-18,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-19,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-20,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-21,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-22,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-23,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-24,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-25,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-26,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-27,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-28,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-29,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-30,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-07-31,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-01,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-02,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-03,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-04,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-05,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-06,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-07,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-08,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-09,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-10,snapshot,,0.29,0.59,
-groq-qwen3-32b,Qwen3 32B,Groq,2026-08-11,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2025-07-28,backfill,litellm-archive,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-06-23,backfill,litellm-archive,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-06-25,baseline,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-06-29,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-06-30,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-01,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-02,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-03,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-04,correction,verified,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-05,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-06,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-07,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-08,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-09,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-10,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-11,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-12,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-13,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-14,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-15,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-16,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-17,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-18,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-19,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-20,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-21,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-22,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-23,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-24,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-25,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-26,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-27,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-28,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-29,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-30,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-07-31,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-01,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-02,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-03,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-04,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-05,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-06,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-07,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-08,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-09,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-10,snapshot,,0.29,0.59,
+groq-qwen3-32b,Qwen3-32B,Groq,2026-08-11,snapshot,,0.29,0.59,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-25,baseline,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-29,snapshot,,0.017,0.112,
 ibm-granite-4-0-micro,Granite 4.0 Micro,IBM,2026-06-30,snapshot,,0.017,0.112,
@@ -6388,53 +6388,53 @@ together-glm-5-2,GLM-5.2,Together,2026-08-08,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-09,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-10,snapshot,,1.4,4.4,0.26
 together-glm-5-2,GLM-5.2,Together,2026-08-11,snapshot,,1.4,4.4,0.26
-together-gpt-oss-120b,gpt-oss-120B,Together,2025-08-25,backfill,litellm-archive,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-23,backfill,litellm-archive,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-25,baseline,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-29,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-06-30,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-01,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-02,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-03,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-04,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-05,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-06,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-07,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-08,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-09,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-10,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-11,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-12,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-13,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-14,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-15,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-16,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-17,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-18,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-19,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-20,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-21,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-22,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-23,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-24,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-25,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-26,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-27,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-28,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-29,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-30,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-07-31,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-01,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-02,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-03,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-04,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-05,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-06,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-07,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-08,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-09,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-10,snapshot,,0.15,0.6,
-together-gpt-oss-120b,gpt-oss-120B,Together,2026-08-11,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2025-08-25,backfill,litellm-archive,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-06-23,backfill,litellm-archive,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-06-25,baseline,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-06-29,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-06-30,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-01,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-02,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-03,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-04,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-05,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-06,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-07,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-08,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-09,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-10,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-11,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-12,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-13,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-14,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-15,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-16,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-17,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-18,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-19,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-20,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-21,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-22,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-23,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-24,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-25,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-26,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-27,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-28,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-29,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-30,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-07-31,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-01,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-02,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-03,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-04,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-05,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-06,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-07,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-08,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-09,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-10,snapshot,,0.15,0.6,
+together-gpt-oss-120b,GPT-OSS 120B,Together,2026-08-11,snapshot,,0.15,0.6,
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-25,baseline,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-29,snapshot,,0.95,4.0,0.19
 together-kimi-k2-7-code,Kimi K2.7 Code,Together,2026-06-30,snapshot,,0.95,4.0,0.19
@@ -6574,96 +6574,96 @@ together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-08,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-09,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-10,snapshot,,1.04,1.04,
 together-llama-3-3-70b,Llama 3.3 70B,Together,2026-08-11,snapshot,,1.04,1.04,
-together-minimax-m2-5,MiniMax M2.5,Together,2026-06-25,baseline,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-06-29,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-06-30,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-01,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-02,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-03,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-04,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-05,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-06,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-07,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-08,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-09,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-10,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-11,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-12,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-13,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-14,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-15,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-16,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-17,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-18,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-19,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-20,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-21,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-22,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-23,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-24,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-25,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-26,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-27,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-28,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-29,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-30,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-07-31,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-01,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-02,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-03,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-04,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-05,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-06,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-07,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-08,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-09,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-10,snapshot,,0.3,1.2,0.06
-together-minimax-m2-5,MiniMax M2.5,Together,2026-08-11,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-06-25,baseline,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-06-29,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-06-30,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-01,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-02,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-03,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-04,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-05,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-06,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-07,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-08,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-09,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-10,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-11,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-12,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-13,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-14,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-15,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-16,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-17,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-18,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-19,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-20,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-21,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-22,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-23,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-24,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-25,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-26,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-27,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-28,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-29,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-30,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-07-31,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-01,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-02,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-03,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-04,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-05,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-06,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-07,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-08,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-09,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-10,snapshot,,0.3,1.2,0.06
-together-minimax-m3,MiniMax M3,Together,2026-08-11,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-06-25,baseline,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-06-29,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-06-30,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-01,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-02,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-03,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-04,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-05,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-06,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-07,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-08,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-09,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-10,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-11,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-12,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-13,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-14,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-15,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-16,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-17,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-18,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-19,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-20,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-21,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-22,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-23,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-24,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-25,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-26,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-27,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-28,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-29,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-30,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-07-31,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-01,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-02,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-03,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-04,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-05,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-06,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-07,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-08,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-09,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-10,snapshot,,0.3,1.2,0.06
+together-minimax-m2-5,MiniMax-M2.5,Together,2026-08-11,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-06-25,baseline,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-06-29,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-06-30,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-01,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-02,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-03,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-04,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-05,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-06,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-07,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-08,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-09,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-10,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-11,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-12,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-13,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-14,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-15,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-16,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-17,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-18,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-19,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-20,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-21,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-22,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-23,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-24,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-25,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-26,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-27,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-28,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-29,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-30,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-07-31,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-01,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-02,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-03,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-04,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-05,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-06,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-07,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-08,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-09,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-10,snapshot,,0.3,1.2,0.06
+together-minimax-m3,MiniMax-M3,Together,2026-08-11,snapshot,,0.3,1.2,0.06
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-25,baseline,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-29,snapshot,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-30,snapshot,,0.6,3.6,0.2

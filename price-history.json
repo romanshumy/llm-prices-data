@@ -14139,7 +14139,7 @@
     ]
   },
   "fireworks-glm-5-1": {
-    "model": "GLM 5.1",
+    "model": "GLM-5.1",
     "provider": "Fireworks",
     "history": [
       {
@@ -14564,7 +14564,7 @@
     ]
   },
   "fireworks-glm-5-2": {
-    "model": "GLM 5.2",
+    "model": "GLM-5.2",
     "provider": "Fireworks",
     "history": [
       {
@@ -15003,7 +15003,7 @@
     ]
   },
   "fireworks-gpt-oss-120b": {
-    "model": "GPT OSS 120B",
+    "model": "GPT-OSS 120B",
     "provider": "Fireworks",
     "history": [
       {
@@ -15426,7 +15426,7 @@
     ]
   },
   "fireworks-gpt-oss-20b": {
-    "model": "GPT OSS 20B",
+    "model": "GPT-OSS 20B",
     "provider": "Fireworks",
     "history": [
       {
@@ -17960,7 +17960,7 @@
     ]
   },
   "fireworks-minimax-m3": {
-    "model": "MiniMax M3",
+    "model": "MiniMax-M3",
     "provider": "Fireworks",
     "history": [
       {
@@ -25532,7 +25532,7 @@
     ]
   },
   "groq-qwen3-32b": {
-    "model": "Qwen3 32B",
+    "model": "Qwen3-32B",
     "provider": "Groq",
     "history": [
       {
@@ -51132,7 +51132,7 @@
     ]
   },
   "together-minimax-m2-5": {
-    "model": "MiniMax M2.5",
+    "model": "MiniMax-M2.5",
     "provider": "Together",
     "history": [
       {
@@ -51543,7 +51543,7 @@
     ]
   },
   "together-minimax-m3": {
-    "model": "MiniMax M3",
+    "model": "MiniMax-M3",
     "provider": "Together",
     "history": [
       {
@@ -53622,7 +53622,7 @@
     ]
   },
   "together-gpt-oss-120b": {
-    "model": "gpt-oss-120B",
+    "model": "GPT-OSS 120B",
     "provider": "Together",
     "history": [
       {
@@ -72232,7 +72232,7 @@
     ]
   },
   "deepinfra-qwen3-32b": {
-    "model": "Qwen3 32B",
+    "model": "Qwen3-32B",
     "provider": "DeepInfra",
     "history": [
       {

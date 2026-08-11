@@ -1277,7 +1277,7 @@
   {
     "id": "fireworks-glm-5-1",
     "provider": "Fireworks",
-    "model": "GLM 5.1",
+    "model": "GLM-5.1",
     "category": "mid-tier",
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
@@ -1290,7 +1290,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's GLM 5.1 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
+    "description": "Z.AI's GLM-5.1 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1304,7 +1304,7 @@
   {
     "id": "fireworks-glm-5-2",
     "provider": "Fireworks",
-    "model": "GLM 5.2",
+    "model": "GLM-5.2",
     "category": "mid-tier",
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
@@ -1317,7 +1317,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Z.AI's GLM 5.2 on Fireworks. $1.40/$4.40 per 1M; cached $0.14.",
+    "description": "Z.AI's GLM-5.2 on Fireworks. $1.40/$4.40 per 1M; cached $0.14.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1333,7 +1333,7 @@
   {
     "id": "fireworks-gpt-oss-120b",
     "provider": "Fireworks",
-    "model": "GPT OSS 120B",
+    "model": "GPT-OSS 120B",
     "category": "budget",
     "input_per_mtok": 0.15,
     "output_per_mtok": 0.6,
@@ -1346,7 +1346,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "120B",
-    "description": "OpenAI's GPT OSS 120B on Fireworks. $0.15/$0.60 per 1M; cached $0.015.",
+    "description": "OpenAI's GPT-OSS 120B on Fireworks. $0.15/$0.60 per 1M; cached $0.015.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1360,7 +1360,7 @@
   {
     "id": "fireworks-gpt-oss-20b",
     "provider": "Fireworks",
-    "model": "GPT OSS 20B",
+    "model": "GPT-OSS 20B",
     "category": "budget",
     "input_per_mtok": 0.07,
     "output_per_mtok": 0.3,
@@ -1373,7 +1373,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "20B",
-    "description": "OpenAI's GPT OSS 20B on Fireworks. $0.07/$0.30 per 1M; cached $0.035.",
+    "description": "OpenAI's GPT-OSS 20B on Fireworks. $0.07/$0.30 per 1M; cached $0.035.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1532,7 +1532,7 @@
   {
     "id": "fireworks-minimax-m3",
     "provider": "Fireworks",
-    "model": "MiniMax M3",
+    "model": "MiniMax-M3",
     "category": "budget",
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
@@ -1546,7 +1546,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M3 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
+    "description": "MiniMax-M3 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -2133,7 +2133,7 @@
   {
     "id": "groq-qwen3-32b",
     "provider": "Groq",
-    "model": "Qwen3 32B",
+    "model": "Qwen3-32B",
     "category": "fast",
     "input_per_mtok": 0.29,
     "output_per_mtok": 0.59,
@@ -2146,7 +2146,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "32B",
-    "description": "Qwen3 32B on Groq's LPU. ~662 tokens/sec. $0.29/$0.59 per 1M tokens.",
+    "description": "Qwen3-32B on Groq's LPU. ~662 tokens/sec. $0.29/$0.59 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
@@ -2451,7 +2451,7 @@
     "status": "Retired",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M2.5 model. $0.30/$1.20 per 1M; cached $0.03. Superseded by MiniMax-M2.7.",
+    "description": "MiniMax-M2.5 model. $0.30/$1.20 per 1M; cached $0.03. Superseded by MiniMax-M2.7.",
     "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
     "tags": [
       "open-weights",
@@ -2482,7 +2482,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M2.7 model. $0.30/$1.20 per 1M; cached $0.06. 205K context.",
+    "description": "MiniMax-M2.7 model. $0.30/$1.20 per 1M; cached $0.06. 205K context.",
     "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
     "tags": [
       "open-weights",
@@ -4106,7 +4106,7 @@
   {
     "id": "together-minimax-m2-5",
     "provider": "Together",
-    "model": "MiniMax M2.5",
+    "model": "MiniMax-M2.5",
     "category": "budget",
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
@@ -4120,7 +4120,7 @@
     "retired_on": "2026-05-01",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M2.5 on Together. $0.30/$1.20 per 1M; cached input $0.06. Retired from Together serverless 2026-05-01.",
+    "description": "MiniMax-M2.5 on Together. $0.30/$1.20 per 1M; cached input $0.06. Retired from Together serverless 2026-05-01.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "open-weights",
@@ -4135,7 +4135,7 @@
   {
     "id": "together-minimax-m3",
     "provider": "Together",
-    "model": "MiniMax M3",
+    "model": "MiniMax-M3",
     "category": "budget",
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
@@ -4149,7 +4149,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax M3 on Together. $0.30/$1.20 per 1M; cached input $0.06. 1M context.",
+    "description": "MiniMax-M3 on Together. $0.30/$1.20 per 1M; cached input $0.06. 1M context.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
@@ -4286,7 +4286,7 @@
   {
     "id": "together-gpt-oss-120b",
     "provider": "Together",
-    "model": "gpt-oss-120B",
+    "model": "GPT-OSS 120B",
     "category": "budget",
     "input_per_mtok": 0.15,
     "output_per_mtok": 0.6,
@@ -5354,7 +5354,7 @@
   {
     "id": "deepinfra-qwen3-32b",
     "provider": "DeepInfra",
-    "model": "Qwen3 32B",
+    "model": "Qwen3-32B",
     "category": "budget",
     "input_per_mtok": 0.08,
     "output_per_mtok": 0.28,
@@ -5367,7 +5367,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "32B",
-    "description": "Alibaba Qwen3 32B served on DeepInfra at $0.08/$0.28 per 1M tokens — cheaper than other tracked hosts (vs Groq $0.29/$0.59). Dense 32B, 128K context.",
+    "description": "Alibaba Qwen3-32B served on DeepInfra at $0.08/$0.28 per 1M tokens — cheaper than other tracked hosts (vs Groq $0.29/$0.59). Dense 32B, 128K context.",
     "pricing_url": "https://deepinfra.com/pricing",
     "tags": [
       "budget",
