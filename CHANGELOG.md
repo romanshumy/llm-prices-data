@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-11
+
+- **Sakana Namazu** (Sakana AI) launched — $0.95 in / $4.0 out per 1M tokens
+- **Solar Pro 4** (Upstage) launched — $0.03 in / $0.12 out per 1M tokens
+
 ## 2026-08-10
 
 - **LFM2.5 8B A1B** (Together) launched — $0.03 in / $0.12 out per 1M tokens

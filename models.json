@@ -5724,6 +5724,38 @@
     }
   },
   {
+    "id": "sakana-namazu",
+    "provider": "Sakana AI",
+    "model": "Sakana Namazu",
+    "category": "mid-tier",
+    "input_per_mtok": 0.95,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": 0.15,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-03",
+    "released_source": "https://sakana.ai/namazu-api/",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Sakana AI's Japanese-specialised LLM API — built on Moonshot AI's open Kimi K2.6 and adapted with Sakana's in-house data for Japanese language and Japanese business context, with built-in web search and code execution and an OpenAI-compatible endpoint. $0.95/$4.00 per 1M tokens with cached input at $0.15.",
+    "pricing_url": "https://console.sakana.ai/pricing",
+    "price_note": "Sakana AI Token Plan (pay-as-you-go) list price, per 1M tokens, read on the vendor's own console pricing page (input $0.95, cached input $0.15, output $4.00) and corroborated by Sakana's product page sakana.ai/namazu/ at the same figures; OpenRouter matches exactly. Unlike the tracked Fugu Ultra row the published Namazu rate is FLAT — Sakana lists no context tier for it. Billing is per token only and Namazu is excluded from Sakana's subscription plans. The built-in tools are billed outside the token rate ($7.00 per 1,000 web-search calls, $0.12 per hour of code execution) and are therefore not part of the tracked per-token price.",
+    "tags": [
+      "mid-tier",
+      "reasoning",
+      "caching",
+      "multilingual"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-11",
+    "source": "verified",
+    "status_verified": "2026-08-11",
+    "status_source": "https://console.sakana.ai/pricing"
+  },
+  {
     "id": "upstage-solar-pro-3",
     "provider": "Upstage",
     "model": "Solar Pro 3",
@@ -5741,8 +5773,8 @@
     "open_source": false,
     "parameters": "102B (12B active)",
     "description": "Upstage's current flagship Solar LLM — a 102B-parameter mixture-of-experts model activating 12B parameters per token, tuned for reasoning, instruction following and bilingual Korean/English work, and updated in March 2026 for agentic use. $0.15/$0.60 per 1M tokens with cached input at $0.015. Upstage lists all prices exclusive of 10% VAT.",
-    "price_note": "Upstage's own pricing page list price, per 1M tokens (input $0.15, cached input $0.015, output $0.60), which OpenRouter matches exactly. Upstage states that all prices shown are exclusive of 10% VAT, so a VAT-liable invoice runs 10% above the tracked rate. Third-party catalogue models.dev disagrees, listing this SKU at a flat $0.25 in and out and advertising a 'Solar Pro 4' that appears nowhere on Upstage's own pricing page, blog or product navigation as of 2026-08-07; the vendor's own page is the source of record here. Solar Pro 2 is listed by Upstage at the same $0.15/$0.60.",
-    "pricing_url": "https://www.upstage.ai/pricing",
+    "price_note": "Upstage's own pricing page list price, per 1M tokens (input $0.15, cached input $0.015, output $0.60), which OpenRouter matches exactly. Upstage states that all prices shown are exclusive of 10% VAT, so a VAT-liable invoice runs 10% above the tracked rate. Third-party catalogue models.dev disagrees, listing this SKU at a flat $0.25 in and out; the vendor's own page is the source of record here. Solar Pro 2 is listed by Upstage at the same $0.15/$0.60. Upstage published Solar Pro 4 on 2026-08-11 (tracked as upstage-solar-pro-4) and Solar Pro 3 remains listed at this price alongside it; the earlier note here, that no 'Solar Pro 4' appeared on Upstage's own pricing page as of 2026-08-07, was true when written and is superseded by that launch. Upstage's pricing page moved to /pricing/api — the bare /pricing URL cited here previously now 404s.",
+    "pricing_url": "https://www.upstage.ai/pricing/api",
     "tags": [
       "mid-tier",
       "reasoning",
@@ -5752,8 +5784,41 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-08-07",
-    "status_source": "https://www.upstage.ai/pricing"
+    "status_verified": "2026-08-11",
+    "status_source": "https://www.upstage.ai/pricing/api"
+  },
+  {
+    "id": "upstage-solar-pro-4",
+    "provider": "Upstage",
+    "model": "Solar Pro 4",
+    "category": "mid-tier",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.12,
+    "cached_input_per_mtok": 0.006,
+    "context_window": 524288,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-11",
+    "released_source": "https://www.upstage.ai/blog/en/solar-pro-4",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Launch pricing is $0.03/$0.12 per 1M tokens (90% off) through Sep 10 2026; it reverts to Upstage's standard list price of $0.30/$1.20 on Sep 11 2026.",
+    "pricing_url": "https://www.upstage.ai/pricing/api",
+    "price_note": "Launch/intro pricing, per 1M tokens. Upstage's own rate card (upstage.ai/pricing/api) prints BOTH prices side by side for this SKU with the terms \"90% off until 2026-09-10 (UTC). Standard pricing applies from 2026-09-11 (UTC)\": input $0.30 -> $0.03, cached input $0.06 -> $0.006, output $1.20 -> $0.12. The tracked figures are the CURRENT EFFECTIVE discounted rates; on 2026-09-11 this record reverts to the $0.30/$0.06/$1.20 standard list price — a tracked price increase, watched by promo_until. Upstage's launch post adds that the same discount runs on \"Upstage Console and OpenRouter\", which is why the gateway number also sits 10x under the standard list price and must not be read as one. Upstage lists all prices exclusive of 10% VAT.",
+    "promo_until": "2026-09-10",
+    "tags": [
+      "mid-tier",
+      "reasoning",
+      "caching",
+      "long-context"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-11",
+    "source": "verified",
+    "status_verified": "2026-08-11",
+    "status_source": "https://www.upstage.ai/pricing/api"
   },
   {
     "id": "relace-search",
