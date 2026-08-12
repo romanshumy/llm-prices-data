@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-12
+
+- **Grok 4.6** (xAI) launched — $2.0 in / $6.0 out per 1M tokens
+
 ## 2026-08-11
 
 - **Sakana Namazu** (Sakana AI) launched — $0.95 in / $4.0 out per 1M tokens

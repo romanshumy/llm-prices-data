@@ -4998,6 +4998,36 @@
     "status_source": "https://docs.x.ai/docs/pricing"
   },
   {
+    "id": "xai-grok-4-6",
+    "provider": "xAI",
+    "model": "Grok 4.6",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 500000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-08-12",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "xAI's smartest model — builds on Grok 4.5 with a focus on long-running agents and more ambitious interactive and visual work, and matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index. 500K context, configurable reasoning effort. $2/$6 per 1M tokens; prompts above 200K tokens bill at the long-context tier of $4/$12.",
+    "pricing_url": "https://docs.x.ai/developers/models",
+    "tags": [
+      "flagship",
+      "multimodal"
+    ],
+    "featured": true,
+    "last_updated": "2026-08-12",
+    "released_source": "https://x.ai/news/grok-4-6",
+    "released_verified": "2026-08-12",
+    "status_verified": "2026-08-12",
+    "status_source": "https://docs.x.ai/developers/models"
+  },
+  {
     "id": "xai-grok-4-5",
     "provider": "xAI",
     "model": "Grok 4.5",
@@ -5014,7 +5044,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "xAI's smartest model — an Opus-class frontier model built for coding, agentic tasks, and knowledge work, trained on the 1.5T V9 foundation with Cursor data. ~2x token efficiency vs comparable leaders, 500K context, configurable reasoning effort. $2/$6 per 1M tokens.",
+    "description": "An Opus-class frontier model from xAI built for coding, agentic tasks, and knowledge work, trained on the 1.5T V9 foundation with Cursor data. ~2x token efficiency vs comparable leaders, 500K context, configurable reasoning effort. $2/$6 per 1M tokens.",
     "pricing_url": "https://docs.x.ai/developers/models",
     "tags": [
       "flagship",
