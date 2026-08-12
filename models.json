@@ -346,7 +346,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": "2.4T",
-    "description": "Alibaba's current proprietary flagship — a 2.4T-parameter mixture-of-experts model with a 1M-token context that takes text, image and video input and returns text. $2.00/$6.00 per 1M tokens, a single flat tier across the whole 1M context, with thinking tokens billed at the output rate. Open weights are announced but not yet released.",
+    "description": "Alibaba's current proprietary flagship — a 2.4T-parameter mixture-of-experts model with a 1M-token context that takes text, image and video input and returns text. $2.00/$6.00 per 1M tokens, a single flat tier across the whole 1M context, with thinking tokens billed at the output rate. The announced open weights shipped on 2026-08-08 as Qwen3.8-2.4T-A95B, a separate 262K-context checkpoint that Alibaba does not sell on Model Studio; the price here is for this hosted 1M-context SKU.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "price_note": "Alibaba Model Studio International list price, single 0<Token≤1M tier — unlike qwen3-max this SKU is not tiered by request size. Explicit context-cache hits bill at 10% of the input rate (the cached_input_per_mtok we track); implicit-cache hits bill at 20%.",
     "tags": [
