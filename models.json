@@ -943,9 +943,8 @@
     "input_per_mtok": 2.0,
     "output_per_mtok": 10.0,
     "cached_input_per_mtok": 0.2,
-    "promo": true,
-    "price_note": "Launch/intro pricing: $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
-    "promo_until": "2026-08-31",
+    "promo": false,
+    "price_note": "Standard pricing, per 1M tokens — not a promotional rate. $2/$10 was announced at launch as introductory pricing through Aug 31 2026, but Anthropic's pricing page now states that it \"is now the standard price\" and that \"the previously scheduled increase to $3/$15 per million input/output tokens on September 1, 2026 will not occur\". There is therefore no reversion date to watch. Verified 2026-08-13 against platform.claude.com/docs/en/about-claude/pricing.",
     "context_window": 1000000,
     "modality": [
       "text",
@@ -956,7 +955,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's most agentic Sonnet yet — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. Launch pricing is $2/$10 per 1M tokens through Aug 31 2026; reverts to standard $3/$15 on Sep 1 2026.",
+    "description": "Anthropic's most agentic Sonnet yet — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. $2/$10 per 1M tokens — first announced as launch pricing, now Anthropic's standard price; the increase once scheduled for Sep 1 2026 will not happen.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -965,9 +964,9 @@
       "agentic"
     ],
     "featured": true,
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-08-13",
     "source": "verified",
-    "status_verified": "2026-08-09",
+    "status_verified": "2026-08-13",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
