@@ -76796,12 +76796,33 @@
       },
       {
         "date": "2026-08-13",
-        "input_per_mtok": 1.5,
-        "output_per_mtok": 7.5,
-        "cached_input_per_mtok": null,
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 3.75,
+        "cached_input_per_mtok": 0.075,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.5,
+            "new": 0.75,
+            "direction": "down",
+            "change_pct": -50.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 7.5,
+            "new": 3.75,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-08-13T21:27:29Z",
+        "snapshot": "data/evidence/google-gemini-3-6-flash/2026-08-13.txt",
+        "sha": "08097b2680"
       }
     ]
   },
@@ -79502,6 +79523,27 @@
         "context_window": 500000,
         "event": "snapshot",
         "changes": []
+      }
+    ]
+  },
+  "google-gemini-3-7-flash": {
+    "model": "Gemini 3.7 Flash",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-08-13",
+        "input_per_mtok": 0.75,
+        "output_per_mtok": 3.75,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-08-13T21:27:29Z",
+        "snapshot": "data/evidence/google-gemini-3-7-flash/2026-08-13.txt",
+        "sha": "a4cfc40f9b"
       }
     ]
   }

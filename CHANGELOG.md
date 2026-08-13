@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-13
+
+- **Gemini 3.6 Flash** price change — input $1.50 → $0.75, output $7.50 → $3.75 per 1M tokens
+- **Gemini 3.7 Flash** (Google) launched — $0.75 in / $3.75 out per 1M tokens
+
 ## 2026-08-12
 
 - **Grok 4.6** (xAI) launched — $2.0 in / $6.0 out per 1M tokens

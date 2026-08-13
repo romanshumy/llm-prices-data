@@ -2965,7 +2965,8 @@ google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-09,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-10,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-11,snapshot,,1.5,7.5,
 google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-12,snapshot,,1.5,7.5,
-google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-13,snapshot,,1.5,7.5,
+google-gemini-3-6-flash,Gemini 3.6 Flash,Google,2026-08-13,price_drop,verified,0.75,3.75,0.075
+google-gemini-3-7-flash,Gemini 3.7 Flash,Google,2026-08-13,new_model,verified,0.75,3.75,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-08,new_model,verified,0.5,3.0,
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-09,snapshot,,0.5,3.0,0.05
 google-gemini-3-flash-preview,Gemini 3 Flash Preview,Google,2026-07-10,snapshot,,0.5,3.0,0.05
