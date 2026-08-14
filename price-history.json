@@ -18204,7 +18204,7 @@
     ]
   },
   "fireworks-minimax-2-5": {
-    "model": "MiniMax 2.5",
+    "model": "MiniMax-M2.5",
     "provider": "Fireworks",
     "history": [
       {
@@ -18642,7 +18642,7 @@
     ]
   },
   "fireworks-minimax-2-7": {
-    "model": "MiniMax 2.7",
+    "model": "MiniMax-M2.7",
     "provider": "Fireworks",
     "history": [
       {
@@ -19982,7 +19982,7 @@
     ]
   },
   "fireworks-qwen3-6-plus": {
-    "model": "Qwen 3.6 Plus",
+    "model": "Qwen3.6-Plus",
     "provider": "Fireworks",
     "history": [
       {
@@ -20420,7 +20420,7 @@
     ]
   },
   "fireworks-qwen3-7-plus": {
-    "model": "Qwen 3.7 Plus",
+    "model": "Qwen3.7-Plus",
     "provider": "Fireworks",
     "history": [
       {
@@ -26650,7 +26650,7 @@
     ]
   },
   "groq-qwen-3-6-27b": {
-    "model": "Qwen 3.6 27B",
+    "model": "Qwen3.6-27B",
     "provider": "Groq",
     "history": [
       {

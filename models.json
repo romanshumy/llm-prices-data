@@ -1507,7 +1507,7 @@
   {
     "id": "fireworks-minimax-2-5",
     "provider": "Fireworks",
-    "model": "MiniMax 2.5",
+    "model": "MiniMax-M2.5",
     "category": "budget",
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
@@ -1520,7 +1520,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax 2.5 on Fireworks. $0.30/$1.20 per 1M; cached $0.03.",
+    "description": "MiniMax-M2.5 on Fireworks. $0.30/$1.20 per 1M; cached $0.03.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1534,7 +1534,7 @@
   {
     "id": "fireworks-minimax-2-7",
     "provider": "Fireworks",
-    "model": "MiniMax 2.7",
+    "model": "MiniMax-M2.7",
     "category": "budget",
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
@@ -1547,7 +1547,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax 2.7 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
+    "description": "MiniMax-M2.7 on Fireworks. $0.30/$1.20 per 1M; cached $0.06.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1620,7 +1620,7 @@
   {
     "id": "fireworks-qwen3-6-plus",
     "provider": "Fireworks",
-    "model": "Qwen 3.6 Plus",
+    "model": "Qwen3.6-Plus",
     "category": "mid-tier",
     "input_per_mtok": 0.5,
     "output_per_mtok": 3.0,
@@ -1633,7 +1633,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Qwen 3.6 Plus on Fireworks. $0.50/$3.00 per 1M; cached $0.10.",
+    "description": "Qwen3.6-Plus on Fireworks. $0.50/$3.00 per 1M; cached $0.10.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1647,7 +1647,7 @@
   {
     "id": "fireworks-qwen3-7-plus",
     "provider": "Fireworks",
-    "model": "Qwen 3.7 Plus",
+    "model": "Qwen3.7-Plus",
     "category": "budget",
     "input_per_mtok": 0.4,
     "output_per_mtok": 1.6,
@@ -1660,7 +1660,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Qwen 3.7 Plus on Fireworks. $0.40/$1.60 per 1M; cached $0.08.",
+    "description": "Qwen3.7-Plus on Fireworks. $0.40/$1.60 per 1M; cached $0.08.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -2171,7 +2171,7 @@
   {
     "id": "groq-qwen-3-6-27b",
     "provider": "Groq",
-    "model": "Qwen 3.6 27B",
+    "model": "Qwen3.6-27B",
     "category": "fast",
     "input_per_mtok": 0.6,
     "output_per_mtok": 3.0,
@@ -2184,7 +2184,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "27B",
-    "description": "Qwen 3.6 27B on Groq's LPU. ~500 tokens/sec. $0.60/$3.00 per 1M tokens.",
+    "description": "Qwen3.6-27B on Groq's LPU. ~500 tokens/sec. $0.60/$3.00 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",

@@ -144,7 +144,7 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Llama 3.1 8B Instant** price change — output $1.00 → $0.08 per 1M tokens
 - **Llama 3.3 70B Versatile** price change — output $1.00 → $0.79 per 1M tokens
 - **Llama 4 Scout** price change — output $1.00 → $0.34 per 1M tokens
-- **Qwen 3.6 27B** price change — output $1.00 → $3.00 per 1M tokens
+- **Qwen3.6-27B** price change — output $1.00 → $3.00 per 1M tokens
 - **Qwen3-32B** price change — output $1.00 → $0.59 per 1M tokens
 - **GPT-4.1 mini** price change — cached input $0.20 → $0.10 per 1M tokens
 - **GPT-4.1 nano** price change — cached input $0.05 → $0.025 per 1M tokens
