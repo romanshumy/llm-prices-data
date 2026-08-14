@@ -1675,6 +1675,7 @@ deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-11,snapshot,,0.0
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-12,snapshot,,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-13,snapshot,,0.09,0.18,
 deepinfra-deepseek-v4-flash,DeepSeek V4 Flash,DeepInfra,2026-08-14,snapshot,,0.09,0.18,
+deepinfra-deepseek-v4-pro,DeepSeek V4 Pro,DeepInfra,2026-08-14,new_model,verified,1.3,2.6,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-10,new_model,verified,0.15,0.6,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-11,snapshot,,0.15,0.6,
 deepinfra-llama-4-maverick,Llama 4 Maverick,DeepInfra,2026-07-12,snapshot,,0.15,0.6,

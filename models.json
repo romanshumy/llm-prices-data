@@ -5384,7 +5384,7 @@
     "category": "budget",
     "input_per_mtok": 0.09,
     "output_per_mtok": 0.18,
-    "cached_input_per_mtok": null,
+    "cached_input_per_mtok": 0.018,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -5395,11 +5395,43 @@
     "parameters": null,
     "description": "DeepSeek V4 Flash served on DeepInfra at $0.09/$0.18 per 1M tokens — the lowest per-token rate among tracked hosts (vs Fireworks $0.14/$0.28). 1M-token context.",
     "pricing_url": "https://deepinfra.com/pricing",
+    "price_note": "DeepInfra lists two entries for this model and prices them differently: the floating alias DeepSeek-V4-Flash at $0.09 input / $0.018 cached input / $0.18 output per 1M tokens, and the pinned snapshot DeepSeek-V4-Flash-0731 at $0.08 / $0.016 / $0.18. The tracked figure is the floating alias, because that is what a caller who names the model without a date gets. Pinning to the 0731 snapshot saves 11% on input at the cost of being left behind when DeepInfra moves the alias.",
     "tags": [
       "budget",
       "cheap",
       "fast"
     ],
+    "released_source": "https://api-docs.deepseek.com/news/news260424",
+    "released_verified": "2026-06-27",
+    "last_updated": "2026-08-14",
+    "source": "verified",
+    "status_verified": "2026-08-14",
+    "status_source": "https://deepinfra.com/pricing"
+  },
+  {
+    "id": "deepinfra-deepseek-v4-pro",
+    "provider": "DeepInfra",
+    "model": "DeepSeek V4 Pro",
+    "category": "mid-tier",
+    "input_per_mtok": 1.3,
+    "output_per_mtok": 2.6,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-04-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek V4 Pro served on DeepInfra at $1.30/$2.60 per 1M tokens, with cached input at $0.10 and a 1M-token context. Undercuts the other tracked third-party hosts of this model (Fireworks and Together, both $1.74/$3.48) on both input and output.",
+    "pricing_url": "https://deepinfra.com/pricing",
+    "tags": [
+      "reasoning",
+      "caching",
+      "mid-tier"
+    ],
+    "featured": false,
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
     "last_updated": "2026-08-14",

@@ -11,6 +11,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **Granite 4 H Small** data correction — input $0.06 → $0.0636, output $0.25 → $0.265 per 1M tokens
   - Published $0.06/$0.25 was never IBM's printed price: it traces to a 2025-10-20 litellm-archive backfill (confidence: reconstructed) and was never read off IBM. IBM's watsonx.ai rate card — this row's own pricing_url, and its own committed 2026-08-09 receipt — prints granite-4h-small at USD 0.0636 per 1M tokens input / USD 0.265 output, and printed the same on us-en on 2026-08-14. The 6% gap is IBM's own uniform uplift over round base rates, applied across the whole table (granite-8b-code-instruct USD 0.636, granite-guardian-3-8b USD 0.212, llama-3-3-70b USD 0.7526, mistral-small-3-1 USD 0.106/0.318) — not tax (the footnote excludes taxes and duties) and not country variance (us-en is identical). The sibling row ibm-granite-embedding-278m already publishes the uplifted USD 0.106 off this same table. IBM did not re-price: this is our number being corrected to the rate card, not a market move.
+- **DeepSeek V4 Pro** (DeepInfra) launched — $1.3 in / $2.6 out per 1M tokens
 - **Granite 4 H Large** removed/retired
 - **Granite 4 H Medium** removed/retired
 

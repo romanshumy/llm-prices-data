@@ -28963,11 +28963,11 @@
         "event": "correction",
         "changes": [],
         "source": "verified",
-        "confidence": "unproven",
+        "confidence": "verified",
         "evidence_url": "https://www.ibm.com/products/watsonx-ai/pricing",
-        "captured_at": "2026-08-14T14:19:46Z",
+        "captured_at": "2026-08-14T14:45:00Z",
         "snapshot": "data/evidence/ibm-granite-4-h-small/2026-08-14.txt",
-        "sha": "c17b2b3e1c",
+        "sha": "bccb48b3ac",
         "supersedes_from": "2025-10-20",
         "supersedes_to": "2026-08-14",
         "corrected_from": {
@@ -81407,6 +81407,27 @@
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
+      }
+    ]
+  },
+  "deepinfra-deepseek-v4-pro": {
+    "model": "DeepSeek V4 Pro",
+    "provider": "DeepInfra",
+    "history": [
+      {
+        "date": "2026-08-14",
+        "input_per_mtok": 1.3,
+        "output_per_mtok": 2.6,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://deepinfra.com/pricing",
+        "captured_at": "2026-08-14T14:49:31Z",
+        "snapshot": "data/evidence/deepinfra-deepseek-v4-pro/2026-08-14.txt",
+        "sha": "ea9947111a"
       }
     ]
   }
