@@ -1517,19 +1517,22 @@
       "text"
     ],
     "released": "2025-07-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax-M2.5 on Fireworks. $0.30/$1.20 per 1M; cached $0.03.",
+    "description": "MiniMax-M2.5 on Fireworks. Withdrawn from serverless; last published rate $0.30/$1.20 per 1M, cached $0.03.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
       "budget",
       "caching"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-08-14",
+    "retired_on": "2026-08-14",
+    "superseded_by": "fireworks-minimax-2-7",
+    "status_verified": "2026-08-14",
+    "status_source": "https://app.fireworks.ai/models/fireworks/minimax-m2p5",
+    "availability_note": "Retired as a per-token row: Fireworks no longer sells this SKU serverless. app.fireworks.ai/models/fireworks/minimax-m2p5 (read rendered 2026-08-14) shows State Ready but 'Serverless: Not supported', no Serverless badge, and a Usage guide offering only Dedicated GPU deployment — while the sibling minimax-m2p7 on the same day reads 'Serverless: Supported'. Dedicated deployments are billed per GPU-hour, so no per-token rate applies. Fireworks' own rate card has also omitted it since at least 2026-08-09 (data/evidence/fireworks-minimax-2-5/2026-08-09.txt and 2026-08-14.txt both list only MiniMax M3 and MiniMax M2.7). The size-tier fallback ('Other base models', >16B $0.90 / MoE 56.1-176B $1.20) does NOT apply, because that table prices serverless calls and serverless is not offered for this SKU. Fireworks publishes no delisting date; retired_on is the date we proved it, not a vendor notice. The $0.30/$1.20 shown is the last rate we published and matches the Fireworks MiniMax tier, but the cached $0.03 never matched either sibling (both $0.06) and was never anchored on a Fireworks page. Corroborating: MiniMax lists M2.5 under Legacy Models first-party, our minimax-m2-5 row is already Retired, and together-minimax-m2-5 retired 2026-05-01."
   },
   {
     "id": "fireworks-minimax-2-7",
@@ -1630,19 +1633,21 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
-    "open_source": true,
+    "status": "Retired",
+    "open_source": false,
     "parameters": null,
-    "description": "Qwen3.6-Plus on Fireworks. $0.50/$3.00 per 1M; cached $0.10.",
+    "description": "Qwen3.6-Plus on Fireworks. Withdrawn from serverless; last published rate $0.50/$3.00 per 1M, cached $0.10.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
-      "open-weights",
       "mid-tier",
       "caching"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-08-14",
+    "retired_on": "2026-08-14",
+    "superseded_by": "fireworks-qwen3-7-plus",
+    "status_verified": "2026-08-14",
+    "status_source": "https://app.fireworks.ai/models/fireworks/qwen3p6-plus",
+    "availability_note": "Retired as a per-token row: Fireworks no longer sells this SKU serverless. app.fireworks.ai/models/fireworks/qwen3p6-plus (read rendered 2026-08-14) shows State Ready but 'Serverless: Not supported', no Serverless badge, and says in prose 'Please contact Fireworks AI to get dedicated instances for Qwen 3.6 Plus' — while the sibling qwen3p7-plus on the same day reads 'Serverless: Supported' and prints its serverless tier ($0.40 / $0.08 / $1.60), matching the rate card. Dedicated deployments are billed per GPU-hour, so no per-token rate applies, and the size-tier fallback does not either (it prices serverless calls). Fireworks' rate card has omitted this SKU since at least 2026-08-09; the only Qwen row on it is Qwen 3.7 Plus. Fireworks publishes no delisting date; retired_on is the date we proved it, not a vendor notice. The $0.50/$3.00 shown is the last rate we published and was never corroborated on a Fireworks page; it sits about 54% above Alibaba's own $0.325 for the same model, so treat it as an uncorroborated historical figure rather than a Fireworks rate. Also corrected here: open_source was true, but Fireworks describes Qwen 3.6 Plus as Alibaba's flagship CLOSED model available exclusively through Fireworks, so the row no longer claims open weights. Its model page additionally carries a Vision badge and 'Image Input: Supported', which our modality ['text'] does not reflect; left as-is on a retired row and tracked for the Current sibling instead."
   },
   {
     "id": "fireworks-qwen3-7-plus",
