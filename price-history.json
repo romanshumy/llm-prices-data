@@ -28059,7 +28059,8 @@
         "event": "removed",
         "changes": [],
         "correction_ref": "MOD-708",
-        "note": "Row removed: Granite 4 H Large is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-large/granite-4.0-h-large; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. Granite 4.0 Large was never announced, let alone released. The published $0.30/$1.20 is a v2.0 bulk-seed tier default, shared byte-for-byte with 11 other rows, not an observation. No seller exists, so publishing any price for it is fabrication."
+        "note": "Row removed: Granite 4 H Large is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-large/granite-4.0-h-large; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. Granite 4.0 Large was never announced, let alone released. The published $0.30/$1.20 is a v2.0 bulk-seed tier default, shared byte-for-byte with 11 other rows, not an observation. No seller exists, so publishing any price for it is fabrication.",
+        "public_note": "Removed because no such model exists. IBM's watsonx.ai rate card lists every Granite SKU it sells — including the ones with no per-token price — and there is no Granite 4 H Large on it; IBM never announced one, and no copy of the weights exists on Hugging Face. The $0.30/$1.20 we carried was a seed default from our first bulk import, not a price anyone charges."
       }
     ]
   },
@@ -28499,7 +28500,8 @@
         "event": "removed",
         "changes": [],
         "correction_ref": "MOD-708",
-        "note": "Row removed: Granite 4 H Medium is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-medium/granite-4.0-h-medium; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. IBM's Granite 4.0 launch named Granite 4.0 Medium as a PLANNED future model; it never shipped (IBM went to the 4.1 3b/8b/30b line instead). The published $0.15/$0.60 is a v2.0 bulk-seed tier default, shared byte-for-byte with 8 other rows, not an observation. No seller exists, so publishing any price for it is fabrication."
+        "note": "Row removed: Granite 4 H Medium is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-medium/granite-4.0-h-medium; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. IBM's Granite 4.0 launch named Granite 4.0 Medium as a PLANNED future model; it never shipped (IBM went to the 4.1 3b/8b/30b line instead). The published $0.15/$0.60 is a v2.0 bulk-seed tier default, shared byte-for-byte with 8 other rows, not an observation. No seller exists, so publishing any price for it is fabrication.",
+        "public_note": "Removed because no such model shipped. IBM named Granite 4.0 Medium as a planned future model at the Granite 4.0 launch and never released it — it is absent from IBM's rate card and from Hugging Face, and IBM's next release was the Granite 4.1 line instead. The $0.15/$0.60 we carried was a seed default from our first bulk import, not a price anyone charges."
       }
     ]
   },
@@ -28979,8 +28981,8 @@
       }
     ]
   },
-  "ibm-granite-4-0-micro": {
-    "model": "Granite 4.0 Micro",
+  "ibm-granite-4-0-h-micro": {
+    "model": "Granite 4.0 H Micro",
     "provider": "IBM",
     "history": [
       {

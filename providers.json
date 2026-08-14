@@ -151,7 +151,7 @@
     "affiliate_url": "https://build.nvidia.com/",
     "logo_color": "#76b900",
     "founded": 1993,
-    "description": "NVIDIA's Nemotron models for enterprise and agentic use — Llama Nemotron Ultra 253B and Nemotron 3 Ultra, from $0.60/$3.60 per 1M tokens."
+    "description": "NVIDIA's Nemotron model family for enterprise and agentic workloads. We do not currently track a first-party NVIDIA endpoint — Nemotron is priced here through hosts such as Fireworks and Together."
   },
   {
     "id": "ibm",
@@ -162,7 +162,7 @@
     "affiliate_url": "https://www.ibm.com/",
     "logo_color": "#0f62fe",
     "founded": 1911,
-    "description": "IBM's open-weight Granite 4 family for enterprise workloads — Granite 4 H Large down to Granite 4.0 Micro at $0.017/1M input tokens."
+    "description": "IBM's open-weight Granite 4 family for enterprise workloads — Granite 4 H Small down to Granite 4.0 Micro at $0.017/1M input tokens."
   },
   {
     "id": "ai21",

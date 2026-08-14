@@ -1195,7 +1195,7 @@
         "cached_input_per_mtok": 0.014,
         "output_per_mtok": 1.32,
         "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28.",
-        "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE \u2014 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens."
+        "description": "DeepSeek's fast, low-cost open-weight (MIT) MoE \u2014 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours."
       }
     },
     "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $0.44 input / $0.014 cached input / $1.32 output per 1M tokens, off-peak exactly half ($0.22 / $0.007 / $0.66). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
@@ -1240,7 +1240,7 @@
         "cached_input_per_mtok": 0.044,
         "output_per_mtok": 3.96,
         "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87.",
-        "description": "DeepSeek's open-weight (MIT) flagship \u2014 a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens."
+        "description": "DeepSeek's open-weight (MIT) flagship \u2014 a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours."
       }
     },
     "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $1.32 input / $0.044 cached input / $3.96 output per 1M tokens, off-peak exactly half ($0.66 / $0.022 / $1.98). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
@@ -2256,9 +2256,9 @@
     "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
-    "id": "ibm-granite-4-0-micro",
+    "id": "ibm-granite-4-0-h-micro",
     "provider": "IBM",
-    "model": "Granite 4.0 Micro",
+    "model": "Granite 4.0 H Micro",
     "category": "budget",
     "input_per_mtok": 0.017,
     "output_per_mtok": 0.112,
@@ -2271,17 +2271,17 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "Smallest Granite 4 model, sold per token by Cloudflare Workers AI rather than by IBM. $0.017/$0.112 per 1M tokens.",
+    "description": "Hybrid 3B Granite 4 model, sold per token by Cloudflare Workers AI rather than by IBM. $0.017/$0.112 per 1M tokens.",
     "pricing_url": "https://developers.cloudflare.com/workers-ai/models/granite-4.0-h-micro/",
     "tags": [
       "open-weights",
       "budget",
       "fast"
     ],
-    "last_updated": "2026-08-13",
-    "status_verified": "2026-08-13",
+    "last_updated": "2026-08-14",
+    "status_verified": "2026-08-14",
     "status_source": "https://developers.cloudflare.com/workers-ai/models/granite-4.0-h-micro/",
-    "availability_note": "This is Cloudflare Workers AI's price for hosting IBM's model, not a price from IBM. IBM's own watsonx.ai rate card lists granite-4h-micro as \"Not available\" for per-million-token pay-as-you-go while pricing its siblings on the same table (granite-4h-small is USD 0.0636 in / USD 0.265 out), so Cloudflare's rate for @cf/ibm-granite/granite-4.0-h-micro is the only per-token price this model has. IBM sells it only as hourly on-demand GPU hosting, priced by GPU configuration and not comparable per token. The output rate is $0.112 to three decimals on Cloudflare's Workers AI pricing table; this model page rounds it to $0.11."
+    "availability_note": "This row is IBM's HYBRID 3B (4 attention / 36 Mamba2 layers), not the dense 3B Granite 4.0 Micro that IBM ships alongside it. The two are separate models on IBM's own model cards, and only the hybrid has a per-token price: Cloudflare Workers AI serves @cf/ibm-granite/granite-4.0-h-micro, while Artificial Analysis states the dense Granite 4.0 Micro \"is not currently available through any API providers we benchmark\". Until 2026-08-14 we published this price under the dense model's name and benchmarks; OpenRouter titles the same granite-4.0-h-micro slug \"IBM: Granite 4.0 Micro\", which is how the two were conflated. This is Cloudflare's price for hosting IBM's model, not a price from IBM: IBM's watsonx.ai rate card lists granite-4h-micro as \"Not available\" for per-million-token pay-as-you-go while pricing its siblings on the same table (granite-4h-small is USD 0.0636 in / USD 0.265 out), and sells it only as hourly on-demand GPU hosting, which is not comparable per token. The output rate is $0.112 to three decimals on Cloudflare's Workers AI pricing table; the model page rounds it to $0.11."
   },
   {
     "id": "ibm-granite-embedding-278m",
