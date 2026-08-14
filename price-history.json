@@ -28056,8 +28056,10 @@
         "output_per_mtok": 1.2,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-708",
+        "note": "Row removed: Granite 4 H Large is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-large/granite-4.0-h-large; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. Granite 4.0 Large was never announced, let alone released. The published $0.30/$1.20 is a v2.0 bulk-seed tier default, shared byte-for-byte with 11 other rows, not an observation. No seller exists, so publishing any price for it is fabrication."
       }
     ]
   },
@@ -28494,8 +28496,10 @@
         "output_per_mtok": 0.6,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-708",
+        "note": "Row removed: Granite 4 H Medium is not a product. IBM's watsonx.ai rate card enumerates every Granite SKU including the ones it does not sell per token (granite-4h-micro and granite-4h-tiny both print \"Not available\" on the same table that prices granite-4h-small at USD 0.0636/0.265) — and there is no medium or large row on it, read live 2026-08-14. HuggingFace full-text search across ALL authors returns zero models for granite-4-h-medium/granite-4.0-h-medium; the ibm-granite org's Granite 4 line is 350m, 1b, h-1b, h-350m, micro, h-micro, h-tiny, h-small, then 4.1 3b/8b/30b. OpenRouter routes no endpoint; the row is absent from litellm_id_map, so nothing has ever watched this price. IBM's Granite 4.0 launch named Granite 4.0 Medium as a PLANNED future model; it never shipped (IBM went to the 4.1 3b/8b/30b line instead). The published $0.15/$0.60 is a v2.0 bulk-seed tier default, shared byte-for-byte with 8 other rows, not an observation. No seller exists, so publishing any price for it is fabrication."
       }
     ]
   },
@@ -28952,12 +28956,26 @@
       },
       {
         "date": "2026-08-14",
-        "input_per_mtok": 0.06,
-        "output_per_mtok": 0.25,
+        "input_per_mtok": 0.0636,
+        "output_per_mtok": 0.265,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "correction",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://www.ibm.com/products/watsonx-ai/pricing",
+        "captured_at": "2026-08-14T14:19:46Z",
+        "snapshot": "data/evidence/ibm-granite-4-h-small/2026-08-14.txt",
+        "sha": "c17b2b3e1c",
+        "supersedes_from": "2025-10-20",
+        "supersedes_to": "2026-08-14",
+        "corrected_from": {
+          "input_per_mtok": 0.06,
+          "output_per_mtok": 0.25
+        },
+        "correction_ref": "MOD-708",
+        "note": "Published $0.06/$0.25 was never IBM's printed price: it traces to a 2025-10-20 litellm-archive backfill (confidence: reconstructed) and was never read off IBM. IBM's watsonx.ai rate card — this row's own pricing_url, and its own committed 2026-08-09 receipt — prints granite-4h-small at USD 0.0636 per 1M tokens input / USD 0.265 output, and printed the same on us-en on 2026-08-14. The 6% gap is IBM's own uniform uplift over round base rates, applied across the whole table (granite-8b-code-instruct USD 0.636, granite-guardian-3-8b USD 0.212, llama-3-3-70b USD 0.7526, mistral-small-3-1 USD 0.106/0.318) — not tax (the footnote excludes taxes and duties) and not country variance (us-en is identical). The sibling row ibm-granite-embedding-278m already publishes the uplifted USD 0.106 off this same table. IBM did not re-price: this is our number being corrected to the rate card, not a market move."
       }
     ]
   },

@@ -2199,64 +2199,12 @@
     "status_source": "https://console.groq.com/docs/models"
   },
   {
-    "id": "ibm-granite-4-h-large",
-    "provider": "IBM",
-    "model": "Granite 4 H Large",
-    "category": "mid-tier",
-    "input_per_mtok": 0.3,
-    "output_per_mtok": 1.2,
-    "cached_input_per_mtok": null,
-    "context_window": 128000,
-    "modality": [
-      "text"
-    ],
-    "released": "2025-10-19",
-    "status": "Current",
-    "open_source": true,
-    "parameters": null,
-    "description": "IBM Granite 4 H Large model. ~$0.30/$1.20 per 1M tokens.",
-    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
-    "tags": [
-      "open-weights",
-      "mid-tier"
-    ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
-  },
-  {
-    "id": "ibm-granite-4-h-medium",
-    "provider": "IBM",
-    "model": "Granite 4 H Medium",
-    "category": "mid-tier",
-    "input_per_mtok": 0.15,
-    "output_per_mtok": 0.6,
-    "cached_input_per_mtok": null,
-    "context_window": 128000,
-    "modality": [
-      "text"
-    ],
-    "released": "2025-10-19",
-    "status": "Current",
-    "open_source": true,
-    "parameters": null,
-    "description": "IBM Granite 4 H Medium model. ~$0.15/$0.60 per 1M tokens.",
-    "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
-    "tags": [
-      "open-weights",
-      "mid-tier"
-    ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
-  },
-  {
     "id": "ibm-granite-4-h-small",
     "provider": "IBM",
     "model": "Granite 4 H Small",
     "category": "budget",
-    "input_per_mtok": 0.06,
-    "output_per_mtok": 0.25,
+    "input_per_mtok": 0.0636,
+    "output_per_mtok": 0.265,
     "cached_input_per_mtok": null,
     "context_window": 128000,
     "modality": [
@@ -2266,14 +2214,15 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "IBM Granite 4 H Small model. $0.06/$0.25 per 1M tokens.",
+    "description": "IBM Granite 4 H Small model. $0.0636/$0.265 per 1M tokens.",
     "pricing_url": "https://www.ibm.com/products/watsonx-ai/pricing",
     "tags": [
       "open-weights",
       "budget"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
+    "availability_note": "IBM's watsonx.ai rate card is the only per-token price this model has, and it is the only Granite 4 SKU IBM sells per token — granite-4h-micro and granite-4h-tiny are listed \"Not available\" on the same table. IBM prices the whole table at a uniform 6% over round base rates (granite-8b-code-instruct USD 0.636, granite-guardian-3-8b USD 0.212, llama-3-3-70b USD 0.7526), so $0.0636/$0.265 is the rate card figure, not a rounding of $0.06/$0.25. IBM notes its prices are indicative, may vary by country, and exclude taxes and duties.",
+    "last_updated": "2026-08-14",
+    "status_verified": "2026-08-14",
     "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
