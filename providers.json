@@ -47,7 +47,7 @@
     "id": "deepseek",
     "name": "DeepSeek",
     "type": "commercial",
-    "description": "Chinese AI lab offering extremely cheap APIs with aggressive prompt caching. V4 Flash at $0.14/$0.28 per 1M tokens.",
+    "description": "Chinese AI lab offering extremely cheap APIs with aggressive prompt caching. From 2026-08-16 it bills peak/off-peak by the hour, with off-peak at half the peak rate — see each model row for both.",
     "url": "https://www.deepseek.com/",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "affiliate_url": "https://platform.deepseek.com/",

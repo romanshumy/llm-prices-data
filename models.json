@@ -1182,8 +1182,23 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-09",
-    "status_source": "https://api-docs.deepseek.com/quick_start/pricing"
+    "status_verified": "2026-08-14",
+    "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "scheduled_price_change": {
+      "effective_at": "2026-08-16T16:00:00Z",
+      "announced_on": "2026-08-14",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "reason": "DeepSeek switches to peak/off-peak billing; peak is the tracked headline rate",
+      "decided_in": "MOD-716",
+      "set": {
+        "input_per_mtok": 0.44,
+        "cached_input_per_mtok": 0.014,
+        "output_per_mtok": 1.32,
+        "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28.",
+        "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE \u2014 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens."
+      }
+    },
+    "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $0.44 input / $0.014 cached input / $1.32 output per 1M tokens, off-peak exactly half ($0.22 / $0.007 / $0.66). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
   },
   {
     "id": "deepseek-v4-pro",
@@ -1212,8 +1227,23 @@
     "last_updated": "2026-06-25",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-03",
-    "status_source": "https://api-docs.deepseek.com/quick_start/pricing"
+    "status_verified": "2026-08-14",
+    "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "scheduled_price_change": {
+      "effective_at": "2026-08-16T16:00:00Z",
+      "announced_on": "2026-08-14",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "reason": "DeepSeek switches to peak/off-peak billing; peak is the tracked headline rate",
+      "decided_in": "MOD-716",
+      "set": {
+        "input_per_mtok": 1.32,
+        "cached_input_per_mtok": 0.044,
+        "output_per_mtok": 3.96,
+        "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87.",
+        "description": "DeepSeek's open-weight (MIT) flagship \u2014 a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens."
+      }
+    },
+    "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $1.32 input / $0.044 cached input / $3.96 output per 1M tokens, off-peak exactly half ($0.66 / $0.022 / $1.98). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
   },
   {
     "id": "fireworks-deepseek-v4-flash",
@@ -1238,10 +1268,10 @@
       "fast",
       "caching"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-09",
+    "status_verified": "2026-08-14",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
@@ -1267,10 +1297,10 @@
       "reasoning",
       "caching"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-03",
+    "status_verified": "2026-08-14",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
@@ -3908,10 +3938,10 @@
       "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-03",
+    "status_verified": "2026-08-14",
     "status_source": "https://www.together.ai/pricing"
   },
   {
@@ -5372,9 +5402,9 @@
     ],
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-08-14",
     "source": "verified",
-    "status_verified": "2026-08-09",
+    "status_verified": "2026-08-14",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
