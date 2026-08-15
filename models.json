@@ -5030,7 +5030,7 @@
     "input_per_mtok": 1.25,
     "output_per_mtok": 2.5,
     "cached_input_per_mtok": 0.2,
-    "context_window": 256000,
+    "context_window": 1000000,
     "modality": [
       "text",
       "image"
@@ -5040,15 +5040,15 @@
     "open_source": false,
     "parameters": null,
     "description": "Older Grok SKU still available. $1.25/$2.50 per 1M tokens (cached input $0.20).",
-    "pricing_url": "https://docs.x.ai/docs/pricing",
+    "pricing_url": "https://docs.x.ai/developers/models/grok-4.20",
     "tags": [
       "mid-tier",
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-07-28",
-    "status_verified": "2026-07-28",
-    "status_source": "https://docs.x.ai/docs/pricing"
+    "last_updated": "2026-08-15",
+    "status_verified": "2026-08-15",
+    "status_source": "https://docs.x.ai/developers/models/grok-4.20"
   },
   {
     "id": "xai-grok-4-6",
@@ -5117,7 +5117,7 @@
     "category": "flagship",
     "input_per_mtok": 1.25,
     "output_per_mtok": 2.5,
-    "cached_input_per_mtok": null,
+    "cached_input_per_mtok": 0.2,
     "context_window": 1000000,
     "modality": [
       "text",
@@ -5127,18 +5127,18 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "xAI's reasoning-first flagship with a 1M-token context and native video input (an xAI first), priced aggressively at roughly 5–10x cheaper than competing frontier models. $1.25/$2.50 per 1M tokens.",
-    "pricing_url": "https://docs.x.ai/developers/models",
+    "description": "xAI's reasoning-first flagship with a 1M-token context and native video input (an xAI first), priced aggressively at roughly 5–10x cheaper than competing frontier models. $1.25/$2.50 per 1M tokens (cached input $0.20).",
+    "pricing_url": "https://docs.x.ai/developers/models/grok-4.3",
     "tags": [
       "flagship",
       "multimodal"
     ],
     "featured": true,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-15",
     "released_source": "https://artificialanalysis.ai/articles/xai-launches-grok-4-3-with-improved-agentic-performance-and-lower-pricing",
     "released_verified": "2026-06-27",
-    "status_verified": null,
-    "status_source": null
+    "status_verified": "2026-08-15",
+    "status_source": "https://docs.x.ai/developers/models/grok-4.3"
   },
   {
     "id": "xai-grok-build-0-1",
@@ -5147,7 +5147,7 @@
     "category": "coding",
     "input_per_mtok": 1.0,
     "output_per_mtok": 2.0,
-    "cached_input_per_mtok": null,
+    "cached_input_per_mtok": 0.2,
     "context_window": 256000,
     "modality": [
       "text"
@@ -5156,15 +5156,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "xAI coding model optimized for code generation and software tasks. 256K context.",
-    "pricing_url": "https://docs.x.ai/developers/models",
+    "description": "xAI coding model optimized for code generation and software tasks. 256K context. $1.00/$2.00 per 1M tokens (cached input $0.20).",
+    "pricing_url": "https://docs.x.ai/developers/models/grok-build-0.1",
     "tags": [
       "coding"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-08-15",
+    "status_verified": "2026-08-15",
+    "status_source": "https://docs.x.ai/developers/models/grok-build-0.1"
   },
   {
     "id": "anthropic-claude-mythos-5",
