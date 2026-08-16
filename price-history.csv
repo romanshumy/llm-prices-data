@@ -1978,7 +1978,7 @@ deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-12,snapshot,,0.14,0.28,0.00
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-13,snapshot,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-14,snapshot,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-15,snapshot,,0.14,0.28,0.0028
-deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-16,snapshot,,0.14,0.28,0.0028
+deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-08-16,price_increase,verified,0.44,1.32,0.014
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-23,backfill,litellm-archive,0.435,0.87,
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-25,baseline,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-06-29,snapshot,,0.435,0.87,0.003625
@@ -2029,7 +2029,7 @@ deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-12,snapshot,,0.435,0.87,0.00362
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-13,snapshot,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-14,snapshot,,0.435,0.87,0.003625
 deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-15,snapshot,,0.435,0.87,0.003625
-deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-16,snapshot,,0.435,0.87,0.003625
+deepseek-v4-pro,DeepSeek V4 Pro,DeepSeek,2026-08-16,price_increase,verified,1.32,3.96,0.044
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-23,backfill,litellm-archive,0.14,0.28,
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-25,baseline,,0.14,0.28,0.028
 fireworks-deepseek-v4-flash,DeepSeek V4 Flash,Fireworks,2026-06-29,snapshot,,0.14,0.28,0.028

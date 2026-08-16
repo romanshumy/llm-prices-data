@@ -1189,9 +1189,9 @@
     "provider": "DeepSeek",
     "model": "DeepSeek V4 Flash",
     "category": "budget",
-    "input_per_mtok": 0.14,
-    "output_per_mtok": 0.28,
-    "cached_input_per_mtok": 0.0028,
+    "input_per_mtok": 0.44,
+    "output_per_mtok": 1.32,
+    "cached_input_per_mtok": 0.014,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -1200,7 +1200,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's fast, ultra-cheap open-weight (MIT) MoE — 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.14/$0.28 per 1M tokens.",
+    "description": "DeepSeek's fast, low-cost open-weight (MIT) MoE — 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "fast",
@@ -1209,35 +1209,21 @@
       "budget"
     ],
     "featured": true,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-16",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
     "status_verified": "2026-08-14",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "scheduled_price_change": {
-      "effective_at": "2026-08-16T16:00:00Z",
-      "announced_on": "2026-08-14",
-      "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "reason": "DeepSeek switches to peak/off-peak billing; peak is the tracked headline rate",
-      "decided_in": "MOD-716",
-      "set": {
-        "input_per_mtok": 0.44,
-        "cached_input_per_mtok": 0.014,
-        "output_per_mtok": 1.32,
-        "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28.",
-        "description": "DeepSeek's fast, low-cost open-weight (MIT) MoE \u2014 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours."
-      }
-    },
-    "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $0.44 input / $0.014 cached input / $1.32 output per 1M tokens, off-peak exactly half ($0.22 / $0.007 / $0.66). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
+    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28."
   },
   {
     "id": "deepseek-v4-pro",
     "provider": "DeepSeek",
     "model": "DeepSeek V4 Pro",
     "category": "mid-tier",
-    "input_per_mtok": 0.435,
-    "output_per_mtok": 0.87,
-    "cached_input_per_mtok": 0.003625,
+    "input_per_mtok": 1.32,
+    "output_per_mtok": 3.96,
+    "cached_input_per_mtok": 0.044,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -1246,7 +1232,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $0.44/$0.87 per 1M tokens.",
+    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "reasoning",
@@ -1254,26 +1240,12 @@
       "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-16",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
     "status_verified": "2026-08-14",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "scheduled_price_change": {
-      "effective_at": "2026-08-16T16:00:00Z",
-      "announced_on": "2026-08-14",
-      "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
-      "reason": "DeepSeek switches to peak/off-peak billing; peak is the tracked headline rate",
-      "decided_in": "MOD-716",
-      "set": {
-        "input_per_mtok": 1.32,
-        "cached_input_per_mtok": 0.044,
-        "output_per_mtok": 3.96,
-        "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87.",
-        "description": "DeepSeek's open-weight (MIT) flagship \u2014 a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours."
-      }
-    },
-    "price_note": "Correct as published today. DeepSeek has announced that from 16:00 UTC on 2026-08-16 this model moves to peak/off-peak billing: peak $1.32 input / $0.044 cached input / $3.96 output per 1M tokens, off-peak exactly half ($0.66 / $0.022 / $1.98). Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. This row tracks the flat rate DeepSeek charges until that moment, and switches to the peak rate when it takes effect."
+    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87."
   },
   {
     "id": "fireworks-deepseek-v4-flash",
@@ -1962,7 +1934,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Google's newest fast multimodal flagship, launched 2026-08-13 as the successor to Gemini 3.6 Flash \u2014 built for agentic workflows, coding and multi-step reasoning. Currently $0.75/1M input and $3.75/1M output on Google's dated schedule, reverting to $1.50/$7.50 on 2027-01-01. 1M-token context with native image, audio and video input.",
+    "description": "Google's newest fast multimodal flagship, launched 2026-08-13 as the successor to Gemini 3.6 Flash — built for agentic workflows, coding and multi-step reasoning. Currently $0.75/1M input and $3.75/1M output on Google's dated schedule, reverting to $1.50/$7.50 on 2027-01-01. 1M-token context with native image, audio and video input.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "fast",

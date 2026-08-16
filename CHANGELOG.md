@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-16
+
+- **DeepSeek V4 Flash** price change — input $0.14 → $0.44, output $0.28 → $1.32, cached input $0.0028 → $0.014 per 1M tokens
+- **DeepSeek V4 Pro** price change — input $0.435 → $1.32, output $0.87 → $3.96, cached input $0.0036 → $0.044 per 1M tokens
+
 ## 2026-08-15
 
 - **Qwen3.8-2.4T-A95B** (Alibaba) launched — $2.0 in / $6.0 out per 1M tokens

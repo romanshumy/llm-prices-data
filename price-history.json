@@ -14210,12 +14210,40 @@
       },
       {
         "date": "2026-08-16",
-        "input_per_mtok": 0.14,
-        "output_per_mtok": 0.28,
-        "cached_input_per_mtok": 0.0028,
+        "input_per_mtok": 0.44,
+        "output_per_mtok": 1.32,
+        "cached_input_per_mtok": 0.014,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.14,
+            "new": 0.44,
+            "direction": "up",
+            "change_pct": 214.3
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 0.28,
+            "new": 1.32,
+            "direction": "up",
+            "change_pct": 371.4
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.0028,
+            "new": 0.014,
+            "direction": "up",
+            "change_pct": 400.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "captured_at": "2026-08-14T14:18:52Z",
+        "snapshot": "data/evidence/deepseek-v4-flash/2026-08-16.txt",
+        "sha": "2e222e11da"
       }
     ]
   },
@@ -14678,12 +14706,40 @@
       },
       {
         "date": "2026-08-16",
-        "input_per_mtok": 0.435,
-        "output_per_mtok": 0.87,
-        "cached_input_per_mtok": 0.003625,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.435,
+            "new": 1.32,
+            "direction": "up",
+            "change_pct": 203.4
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 0.87,
+            "new": 3.96,
+            "direction": "up",
+            "change_pct": 355.2
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.003625,
+            "new": 0.044,
+            "direction": "up",
+            "change_pct": 1113.8
+          }
+        ],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "captured_at": "2026-08-14T14:18:52Z",
+        "snapshot": "data/evidence/deepseek-v4-pro/2026-08-16.txt",
+        "sha": "2e222e11da"
       }
     ]
   },
