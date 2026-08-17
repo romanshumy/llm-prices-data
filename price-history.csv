@@ -6296,6 +6296,7 @@ openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-14,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-15,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-16,snapshot,,30.0,180.0,3.0
 openai-gpt-5-5-pro,GPT-5.5 Pro,OpenAI,2026-08-17,snapshot,,30.0,180.0,3.0
+openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-08-17,new_model,verified,12.5,75.0,
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),1.0,6.0,
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-10,snapshot,,1.0,6.0,0.1
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-11,snapshot,,1.0,6.0,0.1
