@@ -12,17 +12,21 @@
       "text"
     ],
     "released": "2024-07-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-08-17",
     "open_source": false,
     "parameters": null,
-    "description": "01.AI's flagship Yi Large model. ~$3.00/$9.00 per 1M tokens via hosting providers.",
+    "description": "01.AI's former flagship bilingual English/Chinese model, a 32K-context mid-tier SKU that was last listed at ~$3.00/$9.00 per 1M tokens through hosting providers. It is no longer sold at any published per-token price: 01.AI's own API platform now prices only yi-lightning and yi-vision-v2, and the company has moved on to enterprise AI products.",
     "pricing_url": "https://openrouter.ai/01-ai/yi-large",
     "tags": [
-      "mid-tier"
+      "mid-tier",
+      "retired"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-03",
-    "status_source": "https://openrouter.ai/01-ai/yi-large"
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://platform.lingyiwanwu.com/docs",
+    "availability_note": "Nobody sells Yi Large at a published per-token price any more, checked on three first-party surfaces on 2026-08-17. 01.AI's own API platform (platform.lingyiwanwu.com) lists exactly two priced models — yi-lightning at ¥0.99 and yi-vision-v2 at ¥6 per 1M tokens — and Yi Large is not one of them. OpenRouter, the reseller this row's $3.00/$9.00 came from, carries no 01.AI model at all in its live catalogue (0 of 414); its Yi Large page still renders but quotes no price and reports no traffic. 01.AI itself has stopped selling model access and now sells enterprise AI products and transformation services. 01.AI never announced a shutdown date for Yi Large, so the retirement date above is the day we confirmed it was gone, not a date the vendor published. The price shown is what the model last cost, not a rate you can buy today; yi-lightning is 01.AI's surviving general-purpose model, and we do not yet track it."
   },
   {
     "id": "ai21-jamba-large",
@@ -3594,7 +3598,7 @@
     "category": "flagship",
     "input_per_mtok": 30.0,
     "output_per_mtok": 180.0,
-    "cached_input_per_mtok": 3.0,
+    "cached_input_per_mtok": null,
     "context_window": 1050000,
     "modality": [
       "text",
@@ -3623,7 +3627,7 @@
     "category": "flagship",
     "input_per_mtok": 30.0,
     "output_per_mtok": 180.0,
-    "cached_input_per_mtok": 3.0,
+    "cached_input_per_mtok": null,
     "context_window": 1050000,
     "modality": [
       "text",
@@ -5373,7 +5377,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) — see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
-    "pricing_url": "https://intl.cloud.tencent.com/products/tokenhub",
+    "pricing_url": "https://cloud.tencent.com/product/tokenhub",
     "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo.",
     "tags": [
       "budget",

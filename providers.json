@@ -246,11 +246,11 @@
     "name": "01.AI",
     "type": "commercial",
     "url": "https://www.01.ai/",
-    "pricing_url": "https://platform.01.ai/pricing",
+    "pricing_url": "https://platform.lingyiwanwu.com/docs",
     "affiliate_url": "https://platform.01.ai/",
     "logo_color": "#00cc99",
     "founded": 2023,
-    "description": "Founded by Kai-Fu Lee. Yi Large is a bilingual English/Chinese model at $3/$9 per 1M tokens with a 32K context window."
+    "description": "Founded by Kai-Fu Lee. Its bilingual English/Chinese Yi models made 01.AI one of China's early frontier labs, but Yi Large, the model tracked here, is retired: the company's API platform now prices only yi-lightning and yi-vision-v2, in yuan, and 01.AI itself has moved on to selling enterprise AI products."
   },
   {
     "id": "baichuan",
