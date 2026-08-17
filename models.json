@@ -2087,25 +2087,26 @@
       "text"
     ],
     "released": "2024-07-23",
-    "status": "Deprecated",
+    "status": "Retired",
     "open_source": true,
     "parameters": "8B",
-    "description": "Llama 3.1 8B on Groq's LPU. ~840 tokens/sec — extremely fast. $0.05/$0.08 per 1M tokens.",
+    "description": "Retired from Groq on 2026-08-16; the endpoint we price no longer serves it. Llama 3.1 8B on Groq's LPU, last listed at $0.05/$0.08 per 1M tokens and about 840 tokens/sec. Groq names GPT-OSS 20B as the replacement.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
-      "speed"
+      "speed",
+      "retired"
     ],
     "speed_tps": 840,
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "shutdown_date": "2026-08-16",
+    "retired_on": "2026-08-16",
     "status_source": "https://console.groq.com/docs/deprecations",
-    "status_verified": "2026-07-25",
+    "status_verified": "2026-08-17",
     "superseded_by": "groq-gpt-oss-20b",
-    "availability_note": "Groq shutdown 2026-08-16."
+    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 20B as the replacement. It is gone from Groq's models page, so the price above is what the model last cost on Groq, not a rate Groq will sell you today."
   },
   {
     "id": "groq-llama-3-3-70b-versatile",
@@ -2120,25 +2121,26 @@
       "text"
     ],
     "released": "2024-12-06",
-    "status": "Deprecated",
+    "status": "Retired",
     "open_source": true,
     "parameters": "70B",
-    "description": "Llama 3.3 70B on Groq's LPU. ~394 tokens/sec. $0.59/$0.79 per 1M tokens.",
+    "description": "Retired from Groq on 2026-08-16; the endpoint we price no longer serves it. Llama 3.3 70B on Groq's LPU, last listed at $0.59/$0.79 per 1M tokens and about 394 tokens/sec. Groq names GPT-OSS 120B as the replacement.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
-      "speed"
+      "speed",
+      "retired"
     ],
     "speed_tps": 394,
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "shutdown_date": "2026-08-16",
+    "retired_on": "2026-08-16",
     "status_source": "https://console.groq.com/docs/deprecations",
-    "status_verified": "2026-07-25",
+    "status_verified": "2026-08-17",
     "superseded_by": "groq-gpt-oss-120b",
-    "availability_note": "Groq shutdown 2026-08-16."
+    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 120B as the replacement (Groq's notice also offers Qwen3.6-27B). It is gone from Groq's models page, so the price above is what the model last cost on Groq, not a rate Groq will sell you today."
   },
   {
     "id": "groq-llama-4-scout",
