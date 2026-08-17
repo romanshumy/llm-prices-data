@@ -3472,6 +3472,8 @@
     "open_source": false,
     "parameters": null,
     "description": "Realtime voice and audio model. Text tokens $4/$24 per 1M; audio tokens $32/$64 per 1M.",
+    "price_note": "OpenAI prices this model per 1M tokens on three separate modalities: text at $4.00 input / $0.40 cached input / $24.00 output, audio at $32.00 / $0.40 / $64.00, and image input at $5.00 / $0.50. The tracked figures are the TEXT rates.",
+    "availability_note": "OpenAI released the newer GPT-Realtime-2.1 on 2026-07-06, but it did not retire this model: GPT-Realtime-2 is still on OpenAI's rate card at the same prices, still listed in its model index, and it appears in none of the shutdown tables on OpenAI's deprecations page. The two generations are sold side by side at identical text and audio rates, so this row is current rather than superseded.",
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "realtime",
@@ -3480,7 +3482,101 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
+    "status_verified": "2026-08-17",
+    "status_source": "https://platform.openai.com/docs/pricing"
+  },
+  {
+    "id": "openai-gpt-realtime-2-1",
+    "provider": "OpenAI",
+    "model": "GPT-Realtime-2.1",
+    "category": "flagship",
+    "input_per_mtok": 4.0,
+    "output_per_mtok": 24.0,
+    "cached_input_per_mtok": 0.4,
+    "context_window": 128000,
+    "modality": [
+      "audio",
+      "text",
+      "image"
+    ],
+    "released": "2026-07-06",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Realtime speech-to-speech model with configurable reasoning effort and tool use, updating GPT-Realtime-2 with better alphanumeric recognition and interruption handling. Text tokens $4/$24 per 1M; audio tokens $32/$64 per 1M.",
+    "price_note": "OpenAI prices this model per 1M tokens on three separate modalities: text at $4.00 input / $0.40 cached input / $24.00 output, audio at $32.00 / $0.40 / $64.00, and image input at $5.00 / $0.50. The tracked figures are the TEXT rates, which is how GPT-Realtime-2 is tracked too, so the two rows compare like for like. Every text and audio rate is identical to GPT-Realtime-2; only the model generation differs.",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "tags": [
+      "realtime",
+      "audio",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://platform.openai.com/docs/pricing"
+  },
+  {
+    "id": "openai-gpt-realtime-2-1-mini",
+    "provider": "OpenAI",
+    "model": "GPT-Realtime-2.1 mini",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 2.4,
+    "cached_input_per_mtok": 0.06,
+    "context_window": 128000,
+    "modality": [
+      "audio",
+      "text",
+      "image"
+    ],
+    "released": "2026-07-06",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Distilled, lower-cost realtime voice model for WebRTC, WebSocket and SIP voice agents, and OpenAI's named replacement for GPT-Realtime mini. Text tokens $0.60/$2.40 per 1M; audio tokens $10/$20 per 1M.",
+    "price_note": "OpenAI prices this model per 1M tokens on three separate modalities: text at $0.60 input / $0.06 cached input / $2.40 output, audio at $10.00 / $0.30 / $20.00, and image input at $0.80 / $0.08. The tracked figures are the TEXT rates, matching how the other realtime rows are tracked.",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "tags": [
+      "realtime",
+      "audio",
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://platform.openai.com/docs/pricing"
+  },
+  {
+    "id": "openai-gpt-audio-1-5",
+    "provider": "OpenAI",
+    "model": "GPT-Audio-1.5",
+    "category": "flagship",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": null,
+    "context_window": 128000,
+    "modality": [
+      "audio",
+      "text"
+    ],
+    "released": "2026-02-23",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Audio-in, audio-out voice model for the Chat Completions API, and OpenAI's named replacement for the gpt-audio, gpt-audio-mini and gpt-4o-audio families it is shutting down on 2027-01-20. Text tokens $2.50/$10 per 1M; audio tokens $32/$64 per 1M.",
+    "price_note": "OpenAI prices this model per 1M tokens on two separate modalities: text at $2.50 input / $10.00 output, and audio at $32.00 / $64.00. The tracked figures are the TEXT rates, matching how the realtime rows are tracked. OpenAI publishes no cached-input rate for this model on either modality, so the cached-input column is empty rather than estimated.",
+    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "tags": [
+      "audio",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
     "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
@@ -3691,19 +3787,23 @@
       "image"
     ],
     "released": "2026-03-03",
-    "status": "Current",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "Chat-tuned GPT-5.3 for conversational and general-purpose use. 128K context, multimodal input.",
-    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "description": "Retired from the OpenAI API on 2026-08-10; requests to it there now fail. Chat-tuned GPT-5.3 (the GPT-5.3 Instant snapshot used in ChatGPT) with a 128K context, last listed at $1.75/$14 per 1M tokens. Use GPT-5.6 Sol instead.",
+    "pricing_url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
     "tags": [
       "flagship",
-      "multimodal"
+      "multimodal",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-07-03",
-    "status_verified": "2026-07-03",
-    "status_source": "https://openrouter.ai/api/v1/models"
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "retired_on": "2026-08-10",
+    "superseded_by": "openai-gpt-5-6-sol",
+    "availability_note": "OpenAI announced this snapshot's removal on 2026-05-08 and shut it down on 2026-08-10, naming GPT-5.6 Sol as the replacement. Its model page still quotes $1.75/$0.175/$14 per 1M tokens and says \"This model has been deprecated\" — so the price above is what the model last cost, not a rate OpenAI will sell you today."
   },
   {
     "id": "openai-gpt-5-3-codex",
@@ -3723,15 +3823,15 @@
     "open_source": false,
     "parameters": null,
     "description": "GPT-5.3 optimized for agentic coding and software engineering. 400K context.",
-    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "pricing_url": "https://developers.openai.com/api/docs/models/gpt-5.3-codex",
     "tags": [
       "coding",
       "reasoning"
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-08-09",
-    "status_source": "https://platform.openai.com/docs/pricing"
+    "status_verified": "2026-08-17",
+    "status_source": "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
   },
   {
     "id": "perplexity-sonar",
@@ -5281,19 +5381,19 @@
     "open_source": false,
     "parameters": null,
     "description": "Retired from the OpenAI API on 2026-07-23; requests to it there now fail. Code-specialized GPT-5.2 variant tuned for agentic software engineering, tool use, and long-horizon coding tasks, with a 400K context, last listed at $1.75/$14 per 1M tokens. Use GPT-5.6 Sol instead.",
-    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "pricing_url": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
     "tags": [
       "coding",
       "flagship",
       "retired"
     ],
     "featured": false,
-    "last_updated": "2026-08-13",
-    "status_verified": "2026-08-13",
-    "status_source": "https://platform.openai.com/docs/deprecations",
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
     "retired_on": "2026-07-23",
     "superseded_by": "openai-gpt-5-6-sol",
-    "availability_note": "OpenAI shut this model down on its own API on 2026-07-23 and names GPT-5.6 Sol as the replacement. Its model page still quotes $1.75/$14 per 1M tokens and labels the gpt-5.2-codex snapshot Deprecated, and Azure still serves it at that rate — partner platforms set their own retirement schedules, so the price above is what the model last cost, not a rate OpenAI will sell you today."
+    "availability_note": "OpenAI shut this model down on its own API on 2026-07-23 and names GPT-5.6 Sol as the replacement — its deprecations page lists the shutdown under past deprecations. Its model page still quotes $1.75/$0.175/$14 per 1M tokens and no longer carries any deprecation label, and Azure still serves it at that rate — partner platforms set their own retirement schedules, so the price above is what the model last cost, not a rate OpenAI will sell you today."
   },
   {
     "id": "openai-gpt-5-2-chat",
@@ -5313,7 +5413,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Retired from the OpenAI API on 2026-08-10; requests to it there now fail. Chat-optimized GPT-5.2 (the model behind ChatGPT) with a 128K context, last listed at $1.75/$14 per 1M tokens. Use GPT-5.6 Sol instead.",
-    "pricing_url": "https://platform.openai.com/docs/pricing",
+    "pricing_url": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
     "tags": [
       "chat",
       "multimodal",
@@ -5321,12 +5421,12 @@
       "retired"
     ],
     "featured": false,
-    "last_updated": "2026-08-13",
-    "status_verified": "2026-08-13",
-    "status_source": "https://platform.openai.com/docs/deprecations",
+    "last_updated": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
     "retired_on": "2026-08-10",
     "superseded_by": "openai-gpt-5-6-sol",
-    "availability_note": "OpenAI announced this snapshot's removal on 2026-05-08 and shut it down on 2026-08-10, naming GPT-5.6 Sol as the replacement. Its model page still quotes $1.75/$14 per 1M tokens and says \"This model has been deprecated\", and Azure still serves it at that rate — partner platforms set their own retirement schedules, so the price above is what the model last cost, not a rate OpenAI will sell you today."
+    "availability_note": "OpenAI announced this snapshot's removal on 2026-05-08 and shut it down on 2026-08-10, naming GPT-5.6 Sol as the replacement. Its model page still quotes $1.75/$0.175/$14 per 1M tokens and says \"This model has been deprecated\", and Azure still serves it at that rate — partner platforms set their own retirement schedules, so the price above is what the model last cost, not a rate OpenAI will sell you today."
   },
   {
     "id": "google-gemini-3-flash-preview",

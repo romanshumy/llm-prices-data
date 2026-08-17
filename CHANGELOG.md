@@ -7,6 +7,12 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-17
+
+- **GPT-Realtime-2.1** (OpenAI) launched — $4.0 in / $24.0 out per 1M tokens
+- **GPT-Realtime-2.1 mini** (OpenAI) launched — $0.6 in / $2.4 out per 1M tokens
+- **GPT-Audio-1.5** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
+
 ## 2026-08-16
 
 - **DeepSeek V4 Flash** price change — input $0.14 → $0.44, output $0.28 → $1.32, cached input $0.0028 → $0.014 per 1M tokens
