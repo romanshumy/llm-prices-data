@@ -12,6 +12,7 @@ did not re-price. It is listed here for the record, not as a market move.
 - **GPT-Realtime-2.1** (OpenAI) launched — $4.0 in / $24.0 out per 1M tokens
 - **GPT-Realtime-2.1 mini** (OpenAI) launched — $0.6 in / $2.4 out per 1M tokens
 - **GPT-Audio-1.5** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
+- **NVIDIA Nemotron 3.5 Lightning** (DeepInfra) launched — $0.08 in / $0.2 out per 1M tokens
 
 ## 2026-08-16
 

@@ -87098,5 +87098,26 @@
         "sha": "619efcef94"
       }
     ]
+  },
+  "deepinfra-nvidia-nemotron-3-5-lightning": {
+    "model": "NVIDIA Nemotron 3.5 Lightning",
+    "provider": "DeepInfra",
+    "history": [
+      {
+        "date": "2026-08-17",
+        "input_per_mtok": 0.08,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": null,
+        "context_window": 256000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://deepinfra.com/pricing",
+        "captured_at": "2026-08-17T09:37:30Z",
+        "snapshot": "data/evidence/deepinfra-nvidia-nemotron-3-5-lightning/2026-08-17.txt",
+        "sha": "685265e497"
+      }
+    ]
   }
 }
