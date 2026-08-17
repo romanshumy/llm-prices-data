@@ -2110,7 +2110,7 @@
     "status_source": "https://console.groq.com/docs/deprecations",
     "status_verified": "2026-08-17",
     "superseded_by": "groq-gpt-oss-20b",
-    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 20B as the replacement. It is gone from Groq's models page, so the price above is what the model last cost on Groq, not a rate Groq will sell you today."
+    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 20B as the replacement. It is gone from Groq's models page. Groq scopes the deprecation — \"this deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected\" — so the model may still be served under a negotiated enterprise contract. The rate above is the public per-token price it last carried, which is the price this site tracks and one you can no longer buy at."
   },
   {
     "id": "groq-llama-3-3-70b-versatile",
@@ -2144,7 +2144,7 @@
     "status_source": "https://console.groq.com/docs/deprecations",
     "status_verified": "2026-08-17",
     "superseded_by": "groq-gpt-oss-120b",
-    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 120B as the replacement (Groq's notice also offers Qwen3.6-27B). It is gone from Groq's models page, so the price above is what the model last cost on Groq, not a rate Groq will sell you today."
+    "availability_note": "Groq announced this model's shutdown on 2026-06-17 and shut it down on 2026-08-16, naming GPT-OSS 120B as the replacement (Groq's notice also offers Qwen3.6-27B). It is gone from Groq's models page. Groq scopes the deprecation — \"this deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected\" — so the model may still be served under a negotiated enterprise contract. The rate above is the public per-token price it last carried, which is the price this site tracks and one you can no longer buy at."
   },
   {
     "id": "groq-llama-4-scout",
