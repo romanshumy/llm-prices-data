@@ -2206,7 +2206,7 @@
     "input_per_mtok": 0.15,
     "output_per_mtok": 0.6,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
@@ -2236,7 +2236,7 @@
     "input_per_mtok": 0.075,
     "output_per_mtok": 0.3,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
@@ -2369,7 +2369,7 @@
     "input_per_mtok": 0.6,
     "output_per_mtok": 3.0,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
@@ -4215,7 +4215,7 @@
     "input_per_mtok": 1.74,
     "output_per_mtok": 3.48,
     "cached_input_per_mtok": 0.2,
-    "context_window": 1000000,
+    "context_window": 512000,
     "modality": [
       "text"
     ],
@@ -4245,7 +4245,7 @@
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
     "cached_input_per_mtok": 0.26,
-    "context_window": 1000000,
+    "context_window": 512000,
     "modality": [
       "text"
     ],
@@ -4275,7 +4275,7 @@
     "input_per_mtok": 0.28,
     "output_per_mtok": 0.86,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 32000,
     "modality": [
       "text"
     ],
@@ -4302,7 +4302,7 @@
     "input_per_mtok": 0.95,
     "output_per_mtok": 4.0,
     "cached_input_per_mtok": 0.19,
-    "context_window": 256000,
+    "context_window": 262144,
     "modality": [
       "text",
       "image",
@@ -4396,7 +4396,7 @@
     "input_per_mtok": 1.04,
     "output_per_mtok": 1.04,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
@@ -4451,7 +4451,7 @@
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.2,
     "cached_input_per_mtok": 0.06,
-    "context_window": 1000000,
+    "context_window": 524288,
     "modality": [
       "text",
       "image"
@@ -4460,7 +4460,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": null,
-    "description": "MiniMax-M3 on Together. $0.30/$1.20 per 1M; cached input $0.06. 1M context.",
+    "description": "MiniMax-M3 on Together. $0.30/$1.20 per 1M; cached input $0.06. Together serves a 524K context window; MiniMax's native window is 1M.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
@@ -4483,7 +4483,7 @@
     "input_per_mtok": 0.6,
     "output_per_mtok": 3.6,
     "cached_input_per_mtok": 0.2,
-    "context_window": 128000,
+    "context_window": 512300,
     "modality": [
       "text"
     ],
@@ -4575,7 +4575,7 @@
     "input_per_mtok": 0.32,
     "output_per_mtok": 1.28,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 1000000,
     "modality": [
       "text"
     ],
