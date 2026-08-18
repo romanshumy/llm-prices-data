@@ -485,6 +485,186 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-5-plus",
+    "provider": "Alibaba",
+    "model": "Qwen3.5-Plus",
+    "category": "mid-tier",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 2.4,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-15",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's Qwen3.5 mid-tier hosted model on Model Studio, still sold alongside the newer 3.6/3.7 Plus generations. $0.40/$2.40 per 1M tokens on the 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price. Tiered by input size: $0.40/$2.40 per 1M tokens for 0<Token≤256K and $0.50/$3.00 for 256K<Token≤1M; the entry 0–256K tier is the headline shown here, the same basis used for every other tiered Alibaba row on this site. Thinking-mode output is billed at the same rate as non-thinking. The vendor's table prices the `qwen3.5-plus` alias and both dated snapshots (2026-02-15, which the alias currently resolves to, and 2026-04-20) at identical rates. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.26/$1.56). This SKU's row carries no discount label, so the standard list rate is the one tracked here.",
+    "tags": [
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-5-flash",
+    "provider": "Alibaba",
+    "model": "Qwen3.5-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-23",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's Qwen3.5 budget hosted model on Model Studio, still sold alongside the newer 3.6/3.7 Flash generations. $0.10/$0.40 per 1M tokens across a single 0–1M tier. 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, a single 0<Token≤1M tier, so the rate does not change with input size. The vendor's table prices the `qwen3.5-flash` alias and its dated snapshot (2026-02-23, which the alias currently resolves to) at identical rates. The row is labelled as eligible for a 50% batch-inference discount and a context-caching discount; both are billing modes a buyer opts into, so the standard real-time rate is the one tracked here. No standalone cached-input rate is printed, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.065/$0.26).",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-5-122b-a10b",
+    "provider": "Alibaba",
+    "model": "Qwen3.5-122B-A10B",
+    "category": "mid-tier",
+    "input_per_mtok": 0.4,
+    "output_per_mtok": 3.2,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-25",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "122B (A10B)",
+    "description": "Open-weights Qwen3.5 MoE (122B total, 10B active) served by Alibaba, the model's maker, on Model Studio. $0.40/$3.20 per 1M tokens, a single 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. 256K-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤256K tier, from the vendor's open-source Qwen table. Thinking-mode output is billed at the same rate as non-thinking. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.29/$2.40). This SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
+    "tags": [
+      "mid-tier",
+      "open-weights",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://openrouter.ai/qwen/qwen3.5-122b-a10b",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-5-27b",
+    "provider": "Alibaba",
+    "model": "Qwen3.5-27B",
+    "category": "mid-tier",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 2.4,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-25",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "Open-weights Qwen3.5 dense model served by Alibaba, the model's maker, on Model Studio. $0.30/$2.40 per 1M tokens, a single 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. 256K-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤256K tier, from the vendor's open-source Qwen table. Thinking-mode output is billed at the same rate as non-thinking. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.195/$1.56). This SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
+    "tags": [
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://openrouter.ai/qwen/qwen3.5-27b",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-5-35b-a3b",
+    "provider": "Alibaba",
+    "model": "Qwen3.5-35B-A3B",
+    "category": "mid-tier",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-25",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "35B (A3B)",
+    "description": "Open-weights Qwen3.5 MoE (35B total, 3B active) served by Alibaba, the model's maker, on Model Studio. $0.25/$2.00 per 1M tokens, a single 0–256K tier, with thinking-mode output billed at the same rate as non-thinking. 256K-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤256K tier, from the vendor's open-source Qwen table. Thinking-mode output is billed at the same rate as non-thinking. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.225/$1.80). This SKU's row carries no discount label, so the standard list rate is the one tracked here — the same basis as every other Alibaba row on this site.",
+    "tags": [
+      "mid-tier",
+      "open-weights",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://openrouter.ai/qwen/qwen3.5-35b-a3b",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
+    "id": "alibaba-qwen3-coder-next",
+    "provider": "Alibaba",
+    "model": "Qwen3-Coder-Next",
+    "category": "coding",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-04",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's Qwen3 coding model on Model Studio. $0.30/$1.50 per 1M tokens on the 0–32K tier, rising with input size to $0.80/$4.00 above 128K. 256K-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price. Tiered by input size: $0.30/$1.50 per 1M tokens for 0<Token≤32K, $0.50/$2.50 for 32K<Token≤128K, and $0.80/$4.00 for 128K<Token≤256K; the entry 0–32K tier is the headline shown here, the same basis used for every other tiered Alibaba row on this site. A long-context coding session bills at the higher tiers. No context-cache or batch rate is printed for this SKU, so cached input is left unset rather than assumed. Gateway resellers quote lower routed rates ($0.12/$0.80). This SKU's row carries no discount label, so the standard list rate is the one tracked here.",
+    "tags": [
+      "coding"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-17",
+    "released_source": "https://openrouter.ai/qwen/qwen3-coder-next",
+    "released_verified": "2026-08-17",
+    "status_verified": "2026-08-17",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-32b",
     "provider": "Alibaba",
     "model": "Qwen3-32B",

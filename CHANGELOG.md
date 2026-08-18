@@ -9,6 +9,12 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-08-17
 
+- **Qwen3.5-Plus** (Alibaba) launched — $0.4 in / $2.4 out per 1M tokens
+- **Qwen3.5-Flash** (Alibaba) launched — $0.1 in / $0.4 out per 1M tokens
+- **Qwen3.5-122B-A10B** (Alibaba) launched — $0.4 in / $3.2 out per 1M tokens
+- **Qwen3.5-27B** (Alibaba) launched — $0.3 in / $2.4 out per 1M tokens
+- **Qwen3.5-35B-A3B** (Alibaba) launched — $0.25 in / $2.0 out per 1M tokens
+- **Qwen3-Coder-Next** (Alibaba) launched — $0.3 in / $1.5 out per 1M tokens
 - **GPT-Realtime-2.1** (OpenAI) launched — $4.0 in / $24.0 out per 1M tokens
 - **GPT-Realtime-2.1 mini** (OpenAI) launched — $0.6 in / $2.4 out per 1M tokens
 - **GPT-Audio-1.5** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
