@@ -89210,5 +89210,26 @@
         "changes": []
       }
     ]
+  },
+  "zhipu-glm-5-3": {
+    "model": "GLM-5.3",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-08-18",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-08-18T21:14:20Z",
+        "snapshot": "data/evidence/zhipu-glm-5-3/2026-08-18.txt",
+        "sha": "997861e76a"
+      }
+    ]
   }
 }

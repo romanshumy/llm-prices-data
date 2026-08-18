@@ -5158,6 +5158,34 @@
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
+    "id": "zhipu-glm-5-3",
+    "provider": "Z.AI",
+    "model": "GLM-5.3",
+    "category": "flagship",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-14",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Z.AI's flagship model — a post-trained upgrade of GLM-5.2 (same MoE base) with major gains in coding and long-horizon agentic work. Text-only, 1M-token context, 128K max output; reasoning is always on with selectable effort. $1.40/$4.40 per 1M tokens; cached input $0.26. An open-weights release is announced to follow launch.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "flagship",
+      "caching"
+    ],
+    "last_updated": "2026-08-18",
+    "released_source": "https://z.ai/blog/glm-5.3",
+    "released_verified": "2026-08-18",
+    "status_verified": "2026-08-18",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
     "id": "zhipu-glm-5v-turbo",
     "provider": "Z.AI",
     "model": "GLM-5V-Turbo",

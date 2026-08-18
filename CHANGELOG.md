@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-18
+
+- **GLM-5.3** (Z.AI) launched — $1.4 in / $4.4 out per 1M tokens
+
 ## 2026-08-17
 
 - **Qwen3.5-Plus** (Alibaba) launched — $0.4 in / $2.4 out per 1M tokens
