@@ -5699,6 +5699,67 @@
     "status_source": null
   },
   {
+    "id": "tencent-hy-mt2-30b-a3b",
+    "provider": "Tencent",
+    "model": "Hy-MT2 30B-A3B",
+    "category": "budget",
+    "input_per_mtok": 0.074,
+    "output_per_mtok": 0.295,
+    "context_window": 8192,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-21",
+    "released_source": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "30B (A3B)",
+    "description": "Tencent Hy-MT2 30B-A3B — the largest model in Tencent's Hy-MT2 \"fast-thinking\" translation family, a 30B mixture-of-experts with roughly 3B active parameters. It translates among 33 languages and five Chinese dialect and minority-language pairs, and handles structured, delimiter-based, contextual, glossary-based and style-guided translation. Tencent open-sourced the weights on 2026-05-21 and also sells the family per token on its Tencent Cloud TokenHub rate card, serving this model itself as an FP8 endpoint. Context window 8,192 tokens with a 4,096-token maximum output, per Tencent's own model list — this is a translation model, not a long-context general assistant.",
+    "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
+    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching row at ¥0.5 in / ¥2 out per 1M tokens, which converts to these figures at 6.78 CNY/USD. That card names service tiers (Hy-MT2-Pro, Hy-MT2-Plus, Hy-MT2-Lite) rather than weight classes, and Pro and Plus share the same ¥0.5/¥2 row, so which tier this model is sold under is not stated on any Tencent page and is not claimed here. Tencent publishes no cached-input rate for this family.",
+    "tags": [
+      "budget",
+      "open-weights",
+      "moe",
+      "multilingual"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-20",
+    "source": "verified",
+    "status_verified": null,
+    "status_source": null
+  },
+  {
+    "id": "tencent-hy-mt2-1-8b",
+    "provider": "Tencent",
+    "model": "Hy-MT2 1.8B",
+    "category": "budget",
+    "input_per_mtok": 0.044,
+    "output_per_mtok": 0.177,
+    "context_window": 8192,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-05-21",
+    "released_source": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "1.8B",
+    "description": "Tencent Hy-MT2 1.8B — the compact member of Tencent's Hy-MT2 \"fast-thinking\" translation family, translating among 33 languages and five Chinese dialect and minority-language pairs with the same structured, contextual and glossary-based workflows as its larger siblings. Tencent open-sourced the weights on 2026-05-21, alongside a 1.25-bit quantisation that fits the model into about 440 MB for on-device use. Tencent sells it per token on its Tencent Cloud TokenHub rate card and serves it itself as an FP8 endpoint. Context window 8,192 tokens with a 4,096-token maximum output, per Tencent's own model list.",
+    "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
+    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching row — Hy-MT2-Lite at ¥0.3 in / ¥1.2 out per 1M tokens, the only row on that card that converts to these figures — at 6.78 CNY/USD. Tencent publishes no cached-input rate for this family.",
+    "tags": [
+      "budget",
+      "open-weights",
+      "multilingual"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-20",
+    "source": "verified",
+    "status_verified": null,
+    "status_source": null
+  },
+  {
     "id": "deepinfra-deepseek-v4-flash",
     "provider": "DeepInfra",
     "model": "DeepSeek V4 Flash",

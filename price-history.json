@@ -93137,5 +93137,47 @@
         "changes": []
       }
     ]
+  },
+  "tencent-hy-mt2-30b-a3b": {
+    "model": "Hy-MT2 30B-A3B",
+    "provider": "Tencent",
+    "history": [
+      {
+        "date": "2026-08-20",
+        "input_per_mtok": 0.074,
+        "output_per_mtok": 0.295,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://cloud.tencent.com/document/product/1823/130055",
+        "captured_at": "2026-08-20T21:41:24Z",
+        "snapshot": "data/evidence/tencent-hy-mt2-30b-a3b/2026-08-20.txt",
+        "sha": "147c1bfade"
+      }
+    ]
+  },
+  "tencent-hy-mt2-1-8b": {
+    "model": "Hy-MT2 1.8B",
+    "provider": "Tencent",
+    "history": [
+      {
+        "date": "2026-08-20",
+        "input_per_mtok": 0.044,
+        "output_per_mtok": 0.177,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://cloud.tencent.com/document/product/1823/130055",
+        "captured_at": "2026-08-20T21:41:24Z",
+        "snapshot": "data/evidence/tencent-hy-mt2-1-8b/2026-08-20.txt",
+        "sha": "147c1bfade"
+      }
+    ]
   }
 }
