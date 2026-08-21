@@ -85905,7 +85905,7 @@
         "event": "new_model",
         "changes": [],
         "source": "first-party+openrouter (2-source)",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://developers.openai.com/api/docs/pricing",
         "captured_at": "2026-07-09T19:12:15Z",
         "snapshot": "data/evidence/openai-gpt-5-6-sol/2026-07-09.txt",
@@ -86291,12 +86291,40 @@
       },
       {
         "date": "2026-08-21",
-        "input_per_mtok": 5.0,
-        "output_per_mtok": 30.0,
-        "cached_input_per_mtok": 0.5,
+        "input_per_mtok": 4.0,
+        "output_per_mtok": 20.0,
+        "cached_input_per_mtok": 0.4,
         "context_window": 1050000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 5.0,
+            "new": 4.0,
+            "direction": "down",
+            "change_pct": -20.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 30.0,
+            "new": 20.0,
+            "direction": "down",
+            "change_pct": -33.3
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.5,
+            "new": 0.4,
+            "direction": "down",
+            "change_pct": -20.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-08-21T21:25:03Z",
+        "snapshot": "data/evidence/openai-gpt-5-6-sol/2026-08-21.txt",
+        "sha": "54ef96c936"
       }
     ]
   },
@@ -95148,6 +95176,27 @@
         "context_window": 8192,
         "event": "snapshot",
         "changes": []
+      }
+    ]
+  },
+  "deepseek-v4-flash-vision-exp": {
+    "model": "DeepSeek V4 Flash Vision Exp",
+    "provider": "DeepSeek",
+    "history": [
+      {
+        "date": "2026-08-21",
+        "input_per_mtok": 0.44,
+        "output_per_mtok": 1.32,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "captured_at": "2026-08-21T21:26:49Z",
+        "snapshot": "data/evidence/deepseek-v4-flash-vision-exp/2026-08-21.txt",
+        "sha": "c137a331b2"
       }
     ]
   }

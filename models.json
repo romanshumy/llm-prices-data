@@ -1401,6 +1401,41 @@
     "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28."
   },
   {
+    "id": "deepseek-v4-flash-vision-exp",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4 Flash Vision Exp",
+    "category": "budget",
+    "input_per_mtok": 0.44,
+    "output_per_mtok": 1.32,
+    "cached_input_per_mtok": 0.014,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-08-21",
+    "status": "Preview",
+    "open_source": false,
+    "parameters": null,
+    "description": "Vision-enabled variant of DeepSeek V4 Flash, adding image input while matching the base model on text. Same 1M-token context, 384K max output and prompt caching as V4 Flash, and priced identically: $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
+    "availability_note": "DeepSeek labels this an experimental model in its own API docs and the SKU name carries the -exp suffix, so it is tracked as Preview rather than Current. It is nonetheless publicly callable and priced on DeepSeek's standard rate card, listed as a full column beside deepseek-v4-flash and deepseek-v4-pro with its own 2500-request concurrency limit.",
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "caching",
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-21",
+    "source": "verified",
+    "released_source": "https://api-docs.deepseek.com/quick_start/first_api_call",
+    "released_verified": "2026-08-21",
+    "status_verified": "2026-08-21",
+    "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "price_note": "DeepSeek bills this model at TWO rates depending on the hour, on the same schedule and at the same numbers as deepseek-v4-flash. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate. Image input bills at the same per-token rates once the image is tokenized; DeepSeek's rate card prints no separate per-image charge."
+  },
+  {
     "id": "deepseek-v4-pro",
     "provider": "DeepSeek",
     "model": "DeepSeek V4 Pro",
@@ -3519,9 +3554,9 @@
     "provider": "OpenAI",
     "model": "GPT-5.6 Sol",
     "category": "flagship",
-    "input_per_mtok": 5.0,
-    "output_per_mtok": 30.0,
-    "cached_input_per_mtok": 0.5,
+    "input_per_mtok": 4.0,
+    "output_per_mtok": 20.0,
+    "cached_input_per_mtok": 0.4,
     "context_window": 1050000,
     "modality": [
       "text",
@@ -3531,7 +3566,9 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $5/$30 per 1M tokens (cached input $0.50).",
+    "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $4/$20 per 1M tokens (cached input $0.40) — a promotional rate OpenAI guarantees at least through 2026-11-21, down from $5/$30 on 2026-08-21.",
+    "price_note": "OpenAI labels this promotional pricing and states it is \"available at least through November 21, 2026\". That is a floor, not a reversion date — OpenAI publishes no date on which the rate goes back up, so no reversion is claimed here and no countdown is implied. Until 2026-08-21 this model billed $5 input / $0.50 cached input / $30 output per 1M tokens. OpenAI's rate card also prices this model by context length: the tracked figure is the short-context tier, and prompts over the short-context threshold bill at the long-context tier of $8 input / $0.80 cached input / $10 cache write / $30 output per 1M tokens. Cache writes bill at 1.25x the uncached input rate.",
+    "promo": true,
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
@@ -3539,11 +3576,12 @@
       "flagship"
     ],
     "featured": true,
-    "last_updated": "2026-07-09",
+    "last_updated": "2026-08-21",
+    "source": "verified",
     "released_source": "https://openai.com/index/previewing-gpt-5-6-sol/",
     "released_verified": "2026-07-09",
-    "status_verified": "2026-08-09",
-    "status_source": "https://platform.openai.com/docs/pricing"
+    "status_verified": "2026-08-21",
+    "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
     "id": "openai-gpt-5-6-terra",

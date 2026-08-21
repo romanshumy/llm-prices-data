@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-21
+
+- **GPT-5.6 Sol** price change — input $5.00 → $4.00, output $30.00 → $20.00, cached input $0.50 → $0.40 per 1M tokens
+- **DeepSeek V4 Flash Vision Exp** (DeepSeek) launched — $0.44 in / $1.32 out per 1M tokens
+
 ## 2026-08-20
 
 - **Hy-MT2 30B-A3B** (Tencent) launched — $0.074 in / $0.295 out per 1M tokens
