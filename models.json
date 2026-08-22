@@ -1225,14 +1225,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": "111B",
-    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens — same list price as Command R+ 08-2024, with a 256k context window.",
-    "pricing_url": "https://cohere.com/pricing",
+    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens, 256k context window. Priced on Cohere's Command A model card — the cohere.com/pricing rate card no longer lists this SKU. See the price note.",
+    "price_note": "Cohere's list price for Command A, read 2026-08-22 on the first-party model card at docs.cohere.com/docs/command-a: Input $2.5 / 1M tokens, Output $10 / 1M tokens, printed beside the 256,000-token context window and the model ID command-a-03-2025 that this row carries. We cite that page rather than cohere.com/pricing because Cohere's public rate card no longer prices Command A at all: with all four of its tabs opened, the \"Generative models\" tab prices only Command A+ ($0 / Free under Apache 2.0 — a different, open-weights SKU), Command R ($0.15 / $0.60) and Command R7B ($0.0375 / $0.15). The rate card's legacy \"For existing customers\" block does print $2.50/$10, but for Command R+ 08-2024 — the same two figures as this row, which is a coincidence and not a source for it. Command A itself is current, not withdrawn: docs.cohere.com/docs/models lists command-a-03-2025 with status Live.",
+    "pricing_url": "https://docs.cohere.com/docs/command-a",
     "tags": [
       "flagship"
     ],
     "featured": true,
-    "last_updated": "2026-07-04",
-    "status_verified": "2026-07-25",
+    "last_updated": "2026-08-22",
+    "status_verified": "2026-08-22",
     "status_source": "https://docs.cohere.com/docs/models"
   },
   {
@@ -1279,15 +1280,16 @@
     "status": "Current",
     "open_source": false,
     "parameters": "35B",
-    "description": "Smaller Command model. $0.15/$0.60 per 1M tokens.",
-    "pricing_url": "https://cohere.com/pricing",
+    "description": "Smaller Command model. $0.15/$0.60 per 1M tokens. Priced on Cohere's Command R model card, which carries this row's model ID. See the price note.",
+    "price_note": "Cohere's list price for Command R 08-2024, read 2026-08-22 on the first-party model card at docs.cohere.com/docs/command-r: Input $0.15 / 1M tokens, Output $0.6 / 1M tokens, beside a 128,000-token context window and the model ID command-r-08-2024 — which is this row's identity, printed by Cohere on the same card as the price. We cite that card rather than cohere.com/pricing because the rate card names this SKU only as plain \"Command R\", never with the 08-2024 date pin, while naming the older sibling explicitly as \"Command R 03-2024\" in its legacy block. That made the rate card's \"Command R\" an inference about which SKU it meant; the model card settles it as an identity instead.",
+    "pricing_url": "https://docs.cohere.com/docs/command-r",
     "tags": [
       "budget"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://cohere.com/pricing"
+    "last_updated": "2026-08-22",
+    "status_verified": "2026-08-22",
+    "status_source": "https://docs.cohere.com/docs/models"
   },
   {
     "id": "cohere-command-r-plus-08-2024",
