@@ -2735,7 +2735,7 @@
       "budget",
       "caching"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-08-22",
     "status_verified": "2026-08-03",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
   },
@@ -6178,7 +6178,7 @@
       "caching"
     ],
     "featured": false,
-    "last_updated": "2026-08-01",
+    "last_updated": "2026-08-22",
     "source": "verified",
     "status_verified": "2026-08-01",
     "status_source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
@@ -6204,7 +6204,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Meta's current flagship on the Meta Model API and the direct successor to Muse Spark 1.1 — a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input, retrained for coding, whole-repository work and computer use. $1.25/$4.25 per 1M tokens, with cached input at $0.15 — the same list price as Muse Spark 1.1. Like 1.1 it is API-only: there are no open weights.",
-    "price_note": "Meta Model API standard-tier list price, per 1M tokens, with no long-context premium — the tier on which Meta states prompts and completions are not used for training. A cheaper contributor tier ($0.10 input / $0.20 output per 1M) trades training rights and a far lower rate limit (60 vs 3,000 requests/min) for the discount, so it is not the tracked list price. Search grounding is billed separately per 1,000 queries and is not included in the token rate.",
+    "price_note": "Meta Model API standard-tier list price, per 1M tokens, with no long-context premium — the tier on which Meta states prompts and completions are not used for training. A cheaper contributor tier ($0.10 input / $0.20 output per 1M) trades training rights and a far lower rate limit (100 vs 3,000 requests/min) for the discount, so it is not the tracked list price. Search grounding is billed separately per 1,000 queries and is not included in the token rate.",
     "pricing_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
     "tags": [
       "flagship",
@@ -6215,7 +6215,7 @@
       "caching"
     ],
     "featured": false,
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-22",
     "source": "verified",
     "status_verified": "2026-08-06",
     "status_source": "https://openrouter.ai/meta/muse-spark-1.2"
