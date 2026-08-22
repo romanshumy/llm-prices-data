@@ -6441,6 +6441,14 @@
     "description": "Kwaipilot KAT-Coder-Pro V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 65.2% on SWE-bench-Pro and lists the price in RMB (¥5 in / ¥1 cached / ¥20 out per 1M tokens, unit stated as 元/百万Token); the USD shown is FX-derived from that RMB list at a dated snapshot (6.7476 CNY/USD (2026-08-07)) — see FX_CURRENCY_POLICY runbook. Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
     "pricing_url": "https://www.streamlake.com/product/kat-coder",
     "price_note": "USD is FX-derived from StreamLake's RMB list price (¥5 in / ¥1 cached / ¥20 out per 1M) at 6.7476 CNY/USD (2026-08-07); re-checked on FX drift, not a promo.",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 5,
+      "output_per_mtok": 20,
+      "cached_input_per_mtok": 1,
+      "fx_rate": 6.7476,
+      "fx_date": "2026-08-07"
+    },
     "tags": [
       "coding",
       "agentic",
@@ -6472,6 +6480,14 @@
     "description": "Kwaipilot KAT-Coder-Air V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 42.4% on SWE-bench-Pro and lists the price in RMB (¥1 in / ¥0.2 cached / ¥4 out per 1M tokens, unit stated as 元/百万Token); the USD shown is FX-derived from that RMB list at a dated snapshot (6.7476 CNY/USD (2026-08-07)) — see FX_CURRENCY_POLICY runbook. Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
     "pricing_url": "https://www.streamlake.com/product/kat-coder",
     "price_note": "USD is FX-derived from StreamLake's RMB list price (¥1 in / ¥0.2 cached / ¥4 out per 1M) at 6.7476 CNY/USD (2026-08-07); re-checked on FX drift, not a promo.",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 1,
+      "output_per_mtok": 4,
+      "cached_input_per_mtok": 0.2,
+      "fx_rate": 6.7476,
+      "fx_date": "2026-08-07"
+    },
     "tags": [
       "coding",
       "agentic",
