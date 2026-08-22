@@ -1191,7 +1191,7 @@
     "input_per_mtok": 0.07,
     "output_per_mtok": 0.07,
     "cached_input_per_mtok": null,
-    "context_window": 32768,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
@@ -1199,15 +1199,15 @@
     "status": "Current",
     "open_source": true,
     "parameters": "32B",
-    "description": "Baichuan M2 32B model. $0.07/$0.07 per 1M tokens via hosting providers.",
-    "pricing_url": "https://www.requesty.ai/models/novita/baichuan-baichuan-m2-32b",
+    "description": "Baichuan M2 32B model, open weights served by hosts. $0.07/$0.07 per 1M tokens on Novita's own model card; Baichuan's first-party API does not sell these weights per token.",
+    "pricing_url": "https://novita.ai/models",
     "tags": [
       "open-weights",
       "budget"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://www.requesty.ai/models/novita/baichuan-baichuan-m2-32b"
+    "last_updated": "2026-08-22",
+    "status_verified": "2026-08-22",
+    "status_source": "https://novita.ai/models"
   },
   {
     "id": "cohere-command-a",
