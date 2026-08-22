@@ -1332,14 +1332,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Multimodal embedding model. $0.12 per 1M tokens (text and image).",
+    "description": "Multimodal embedding model. $0.12 per 1M tokens; image tokens $0.47 per 1M.",
+    "price_note": "Cohere's list price, read on the \"Advanced retrieval models\" tab of cohere.com/pricing: Cost $0.12 / 1M tokens, Image cost $0.47 / 1M tokens. The $0.12 we publish is the text rate. That tab is not the page's default, so a capture that does not click it lands on the Model Vault committed-instance table instead, where Embed 4 is priced per instance ($4.00/hr Small, $5.00/hr Medium) and no per-token figure appears.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "embedding",
       "multimodal"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
+    "last_updated": "2026-08-22",
+    "status_verified": "2026-08-22",
     "status_source": "https://cohere.com/pricing"
   },
   {
@@ -1358,15 +1359,16 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Reranking model for search and retrieval. $0.02 per 1M tokens.",
+    "description": "Reranking model for search and retrieval. Cohere bills reranking per search unit, not per token — the $0.02 per 1M tokens below is not a Cohere-published rate. See the price note.",
+    "price_note": "NOT VENDOR-SOURCED — do not budget from this figure. Cohere's own pricing documentation states \"Our Rerank models are priced based on the quantity of searches\", and Cohere publishes no per-token rate for any Rerank model, so the unit this row is stored in is not one Cohere bills in. Read 2026-08-22: the pay-as-you-go card on cohere.com/pricing (\"Advanced retrieval models\" tab) lists Embed 4, Rerank 4 Fast ($2.00 / 1K searches) and Rerank 4 Pro ($2.50 / 1K searches) — Rerank 3.5 is not on it. Rerank 3.5 appears on that page only in the Model Vault committed-instance table, Medium tier, $5.00/hr / $3,250/mo. The model itself is still current: rerank-v3.5 is listed in docs.cohere.com/docs/models and is not in Cohere's deprecations. We are re-sourcing this row; until Cohere publishes a rate we can express, treat the figure as unverified.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "embedding",
       "rerank"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://cohere.com/pricing"
+    "last_updated": "2026-08-22",
+    "status_verified": "2026-08-22",
+    "status_source": "https://docs.cohere.com/docs/models"
   },
   {
     "id": "deepseek-v4-flash",
