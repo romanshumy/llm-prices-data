@@ -6537,5 +6537,102 @@
     "source": "verified",
     "status_verified": "2026-08-24",
     "status_source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+    "id": "openai-gpt-4o",
+    "provider": "OpenAI",
+    "model": "GPT-4o",
+    "category": "mid-tier",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 1.25,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2024-05-13",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-4o",
+    "released_verified": "2026-08-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's 2024 flagship, superseded by the GPT-5 line but still sold first-party at its own rate. 128K context window, 16,384 max output tokens, text + image input, text output, October 2023 knowledge cutoff. The default snapshot behind the alias is gpt-4o-2024-08-06.",
+    "availability_note": "OpenAI still prices the bare gpt-4o alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-4o-2024-05-13 is separately scheduled to shut down on 2026-10-23 with gpt-5.6-sol as the named replacement; that date applies to the pinned snapshot, not to the gpt-4o alias, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-24",
+    "source": "verified",
+    "status_verified": "2026-08-24",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-gpt-4o-mini",
+    "provider": "OpenAI",
+    "model": "GPT-4o mini",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": 0.075,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2024-07-18",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+    "released_verified": "2026-08-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The small, cheap member of the GPT-4o line — a fast, affordable model for focused tasks. 128K context window, 16,384 max output tokens, text + image input, text output, October 2023 knowledge cutoff. Superseded by the GPT-5 mini and nano tiers but still sold first-party at its own rate.",
+    "availability_note": "OpenAI still prices the bare gpt-4o-mini alias per token on its own rate card and announces no shutdown date for it. Several gpt-4o-mini VARIANTS do carry dates — gpt-4o-mini-realtime and gpt-4o-mini-audio on 2027-01-20, gpt-4o-mini-search-preview-2025-03-11 on 2026-07-23 — but those are separate SKUs, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-24",
+    "source": "verified",
+    "status_verified": "2026-08-24",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-gpt-5-1",
+    "provider": "OpenAI",
+    "model": "GPT-5.1",
+    "category": "flagship",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.125,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-11-13",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-5.1",
+    "released_verified": "2026-08-24",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's late-2025 flagship for coding and agentic tasks, with configurable reasoning and non-reasoning effort. 400K context window, 128K max output tokens, text + image input, text output, September 2024 knowledge cutoff. Superseded by the GPT-5.2 through GPT-5.6 lines but still sold first-party at its own rate, and the cheapest per-token flagship OpenAI currently lists.",
+    "availability_note": "OpenAI still prices the bare gpt-5.1 alias per token on its own rate card and announces no shutdown date for it. Its sibling SKUs gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini and gpt-5.1-chat-latest were all shut down on 2026-07-23 in favour of the GPT-5.6 line; the base alias outlived them and remains both on the rate card and on its own model page, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-24",
+    "source": "verified",
+    "status_verified": "2026-08-24",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
   }
 ]

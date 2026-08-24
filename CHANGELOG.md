@@ -7,6 +7,12 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-24
+
+- **GPT-4o** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
+- **GPT-4o mini** (OpenAI) launched — $0.15 in / $0.6 out per 1M tokens
+- **GPT-5.1** (OpenAI) launched — $1.25 in / $10.0 out per 1M tokens
+
 ## 2026-08-21
 
 - **GPT-5.6 Sol** price change — input $5.00 → $4.00, output $30.00 → $20.00, cached input $0.50 → $0.40 per 1M tokens

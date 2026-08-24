@@ -101139,5 +101139,68 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-4o": {
+    "model": "GPT-4o",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T09:49:07Z",
+        "snapshot": "data/evidence/openai-gpt-4o/2026-08-24.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
+  },
+  "openai-gpt-4o-mini": {
+    "model": "GPT-4o mini",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T09:49:08Z",
+        "snapshot": "data/evidence/openai-gpt-4o-mini/2026-08-24.txt",
+        "sha": "774f664dc0"
+      }
+    ]
+  },
+  "openai-gpt-5-1": {
+    "model": "GPT-5.1",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T09:49:09Z",
+        "snapshot": "data/evidence/openai-gpt-5-1/2026-08-24.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
   }
 }

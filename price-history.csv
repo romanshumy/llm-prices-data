@@ -6667,6 +6667,9 @@ openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-21,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-22,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-23,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-24,snapshot,,0.1,0.4,0.025
+openai-gpt-4o,GPT-4o,OpenAI,2026-08-24,new_model,verified,2.5,10.0,
+openai-gpt-4o-mini,GPT-4o mini,OpenAI,2026-08-24,new_model,verified,0.15,0.6,
+openai-gpt-5-1,GPT-5.1,OpenAI,2026-08-24,new_model,verified,1.25,10.0,
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-08,new_model,verified,1.75,14.0,
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-09,snapshot,,1.75,14.0,0.175
 openai-gpt-5-2,GPT-5.2,OpenAI,2026-07-10,snapshot,,1.75,14.0,0.175
