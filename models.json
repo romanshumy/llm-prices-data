@@ -51,7 +51,7 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.ai21.com/pricing"
   },
   {
@@ -208,7 +208,7 @@
       "flagship"
     ],
     "last_updated": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -299,7 +299,7 @@
     "released_verified": "2026-07-25",
     "promo": true,
     "price_note": "On a 50% launch promo to $1.25 in / $3.75 out per 1M (list price tracked).",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -361,7 +361,7 @@
     "last_updated": "2026-08-15",
     "released_source": "https://qwen.ai/blog?id=qwen3.8",
     "released_verified": "2026-08-03",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -838,7 +838,7 @@
     ],
     "last_updated": "2026-07-02",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
@@ -1055,7 +1055,7 @@
     "source": "firecrawl_scrape",
     "released_source": "https://www.anthropic.com/news/claude-opus-4-8",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
@@ -1233,8 +1233,8 @@
     ],
     "featured": true,
     "last_updated": "2026-08-22",
-    "status_verified": "2026-08-22",
-    "status_source": "https://docs.cohere.com/docs/models"
+    "status_verified": "2026-08-24",
+    "status_source": "https://docs.cohere.com/docs/command-a"
   },
   {
     "id": "cohere-command-r-03-2024",
@@ -1466,7 +1466,7 @@
     "last_updated": "2026-08-16",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87."
   },
@@ -1525,7 +1525,7 @@
     "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
@@ -2066,7 +2066,7 @@
       "multimodal"
     ],
     "last_updated": "2026-07-04",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -2427,7 +2427,7 @@
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://console.groq.com/docs/models"
   },
   {
@@ -2484,7 +2484,7 @@
     ],
     "availability_note": "IBM's watsonx.ai rate card is the only per-token price this model has, and it is the only Granite 4 SKU IBM sells per token — granite-4h-micro and granite-4h-tiny are listed \"Not available\" on the same table. IBM prices the whole table at a uniform 6% over round base rates (granite-8b-code-instruct USD 0.636, granite-guardian-3-8b USD 0.212, llama-3-3-70b USD 0.7526), so $0.0636/$0.265 is the rate card figure, not a rounding of $0.06/$0.25. IBM notes its prices are indicative, may vary by country, and exclude taxes and duties.",
     "last_updated": "2026-08-14",
-    "status_verified": "2026-08-14",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
@@ -2740,7 +2740,7 @@
       "caching"
     ],
     "last_updated": "2026-08-22",
-    "status_verified": "2026-08-22",
+    "status_verified": "2026-08-24",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
   },
   {
@@ -2987,7 +2987,7 @@
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://mistral.ai/pricing/"
   },
   {
@@ -3348,7 +3348,7 @@
     "last_updated": "2026-07-16",
     "released_source": "https://platform.kimi.ai/docs/pricing/chat-k3",
     "released_verified": "2026-07-16",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://platform.kimi.ai/docs/pricing/chat-k3"
   },
   {
@@ -4131,7 +4131,7 @@
       "search"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
   },
   {
@@ -4186,7 +4186,7 @@
       "multimodal"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.reka.ai/pricing"
   },
   {
@@ -4276,7 +4276,7 @@
     "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.together.ai/pricing"
   },
   {
@@ -4426,7 +4426,7 @@
     "last_updated": "2026-08-10",
     "released_source": "https://www.together.ai/models/liquid-lfm2-5-8b-a1b",
     "released_verified": "2026-08-10",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.together.ai/pricing",
     "availability_note": "This is Together's price for hosting Liquid AI's model, not a price from Liquid AI. Liquid AI does not sell its models per token at all — liquid.ai/pricing offers the open weights free under the LFM Open License below $10M annual revenue, and a commercial licence above it — so Together's serverless rate is the only per-token price that exists for this model. The 32,768-token context is what Together serves on this endpoint; the model itself is built for 128K, which this endpoint does not offer."
   },
@@ -4813,7 +4813,7 @@
       "coding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.voyageai.com/docs/pricing"
   },
   {
@@ -5167,7 +5167,7 @@
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
@@ -5196,7 +5196,7 @@
     "last_updated": "2026-06-25",
     "released_source": "https://www.marktechpost.com/2026/06/14/z-ai-launches-glm-5-2-with-a-usable-1m-token-context-two-thinking-effort-levels-and-no-benchmarks-at-launch/",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
@@ -5375,7 +5375,7 @@
     ],
     "featured": false,
     "last_updated": "2026-08-15",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.x.ai/developers/models/grok-4.20"
   },
   {
@@ -5405,7 +5405,7 @@
     "last_updated": "2026-08-12",
     "released_source": "https://x.ai/news/grok-4-6",
     "released_verified": "2026-08-12",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://docs.x.ai/developers/models"
   },
   {
@@ -5554,7 +5554,7 @@
     "featured": false,
     "last_updated": "2026-08-13",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://longcat.ai/platform/docs/Pricing/LongCat-2.0.html"
   },
   {
@@ -5860,7 +5860,7 @@
     "released_verified": "2026-06-27",
     "last_updated": "2026-08-14",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5951,7 +5951,7 @@
     "released_verified": null,
     "last_updated": "2026-07-28",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://deepinfra.com/pricing"
   },
   {
@@ -5981,7 +5981,7 @@
     "released_verified": "2026-08-17",
     "last_updated": "2026-08-17",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://deepinfra.com/pricing",
     "availability_note": "The 256K context here is DeepInfra's, and it is what you get on this endpoint. NVIDIA's own model page and other catalogues advertise 1M tokens for the open weights, so the same model served elsewhere or self-hosted may accept a longer prompt than this row's price buys."
   },
@@ -6013,7 +6013,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -6044,7 +6044,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -6076,7 +6076,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
@@ -6112,7 +6112,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
@@ -6148,7 +6148,7 @@
     "featured": false,
     "last_updated": "2026-08-01",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
@@ -6184,7 +6184,7 @@
     "featured": false,
     "last_updated": "2026-08-22",
     "source": "verified",
-    "status_verified": "2026-08-22",
+    "status_verified": "2026-08-24",
     "status_source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
   },
   {
@@ -6255,7 +6255,7 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://sakana.ai/fugu/",
     "product_kind": {
       "kind": "orchestrator",
@@ -6327,7 +6327,7 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.upstage.ai/pricing/api"
   },
   {
@@ -6392,7 +6392,7 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.relace.ai/pricing"
   },
   {
@@ -6422,7 +6422,7 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.relace.ai/pricing"
   },
   {
@@ -6461,7 +6461,7 @@
     "featured": false,
     "last_updated": "2026-08-10",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://www.streamlake.com/product/kat-coder"
   },
   {
@@ -6535,7 +6535,7 @@
     "featured": false,
     "last_updated": "2026-08-17",
     "source": "verified",
-    "status_verified": "2026-08-17",
+    "status_verified": "2026-08-24",
     "status_source": "https://developers.openai.com/api/docs/pricing"
   }
 ]
