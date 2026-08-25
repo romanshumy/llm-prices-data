@@ -12,6 +12,11 @@ did not re-price. It is listed here for the record, not as a market move.
 - **GPT-4o** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
 - **GPT-4o mini** (OpenAI) launched — $0.15 in / $0.6 out per 1M tokens
 - **GPT-5.1** (OpenAI) launched — $1.25 in / $10.0 out per 1M tokens
+- **GPT-3.5 Turbo** (OpenAI) launched — $0.5 in / $1.5 out per 1M tokens
+- **GPT-4** (OpenAI) launched — $30.0 in / $60.0 out per 1M tokens
+- **GPT-4 Turbo** (OpenAI) launched — $10.0 in / $30.0 out per 1M tokens
+- **o1** (OpenAI) launched — $15.0 in / $60.0 out per 1M tokens
+- **o1-pro** (OpenAI) launched — $150.0 in / $600.0 out per 1M tokens
 
 ## 2026-08-21
 

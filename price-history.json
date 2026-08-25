@@ -103209,5 +103209,155 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-3-5-turbo": {
+    "model": "GPT-3.5 Turbo",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 16385,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T10:41:10Z",
+        "snapshot": "data/evidence/openai-gpt-3-5-turbo/2026-08-24.txt",
+        "sha": "ac8180a912"
+      },
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 16385,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "openai-gpt-4-0613": {
+    "model": "GPT-4",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 60.0,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T10:41:16Z",
+        "snapshot": "data/evidence/openai-gpt-4-0613/2026-08-24.txt",
+        "sha": "319e0c16a4"
+      },
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 30.0,
+        "output_per_mtok": 60.0,
+        "cached_input_per_mtok": null,
+        "context_window": 8192,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "openai-gpt-4-turbo-2024-04-09": {
+    "model": "GPT-4 Turbo",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T10:41:17Z",
+        "snapshot": "data/evidence/openai-gpt-4-turbo-2024-04-09/2026-08-24.txt",
+        "sha": "f045cfba33"
+      },
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 30.0,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "openai-o1": {
+    "model": "o1",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 60.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T10:45:58Z",
+        "snapshot": "data/evidence/openai-o1/2026-08-24.txt",
+        "sha": "95a56b3364"
+      },
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 60.0,
+        "cached_input_per_mtok": 7.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "openai-o1-pro": {
+    "model": "o1-pro",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-24",
+        "input_per_mtok": 150.0,
+        "output_per_mtok": 600.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-24T10:41:20Z",
+        "snapshot": "data/evidence/openai-o1-pro/2026-08-24.txt",
+        "sha": "38e408d34a"
+      },
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 150.0,
+        "output_per_mtok": 600.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
   }
 }

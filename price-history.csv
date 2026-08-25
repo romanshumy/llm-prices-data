@@ -6617,6 +6617,10 @@ nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-06,sna
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-07,snapshot,,0.6,3.6,
 nvidia-llama-nemotron-ultra-253b,Llama Nemotron Ultra 253B,NVIDIA,2026-08-08,removed,,0.6,3.6,
 nvidia-nemotron-3-ultra,Nemotron 3 Ultra,NVIDIA,2026-08-07,removed,,0.6,3.6,
+openai-gpt-3-5-turbo,GPT-3.5 Turbo,OpenAI,2026-08-24,new_model,verified,0.5,1.5,
+openai-gpt-3-5-turbo,GPT-3.5 Turbo,OpenAI,2026-08-25,snapshot,,0.5,1.5,
+openai-gpt-4-0613,GPT-4,OpenAI,2026-08-24,new_model,verified,30.0,60.0,
+openai-gpt-4-0613,GPT-4,OpenAI,2026-08-25,snapshot,,30.0,60.0,
 openai-gpt-4-1,GPT-4.1,OpenAI,2025-04-14,backfill,litellm-archive,2.0,8.0,
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-06-23,backfill,litellm-archive,2.0,8.0,
 openai-gpt-4-1,GPT-4.1,OpenAI,2026-06-25,baseline,,2.0,8.0,0.5
@@ -6800,6 +6804,8 @@ openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-22,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-23,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-24,snapshot,,0.1,0.4,0.025
 openai-gpt-4-1-nano,GPT-4.1 nano,OpenAI,2026-08-25,snapshot,,0.1,0.4,0.025
+openai-gpt-4-turbo-2024-04-09,GPT-4 Turbo,OpenAI,2026-08-24,new_model,verified,10.0,30.0,
+openai-gpt-4-turbo-2024-04-09,GPT-4 Turbo,OpenAI,2026-08-25,snapshot,,10.0,30.0,
 openai-gpt-4o,GPT-4o,OpenAI,2026-08-24,new_model,verified,2.5,10.0,
 openai-gpt-4o,GPT-4o,OpenAI,2026-08-25,snapshot,,2.5,10.0,1.25
 openai-gpt-4o-mini,GPT-4o mini,OpenAI,2026-08-24,new_model,verified,0.15,0.6,
@@ -7767,6 +7773,10 @@ openai-gpt-realtime-2-1-mini,GPT-Realtime-2.1 mini,OpenAI,2026-08-22,snapshot,,0
 openai-gpt-realtime-2-1-mini,GPT-Realtime-2.1 mini,OpenAI,2026-08-23,snapshot,,0.6,2.4,0.06
 openai-gpt-realtime-2-1-mini,GPT-Realtime-2.1 mini,OpenAI,2026-08-24,snapshot,,0.6,2.4,0.06
 openai-gpt-realtime-2-1-mini,GPT-Realtime-2.1 mini,OpenAI,2026-08-25,snapshot,,0.6,2.4,0.06
+openai-o1,o1,OpenAI,2026-08-24,new_model,verified,15.0,60.0,
+openai-o1,o1,OpenAI,2026-08-25,snapshot,,15.0,60.0,7.5
+openai-o1-pro,o1-pro,OpenAI,2026-08-24,new_model,verified,150.0,600.0,
+openai-o1-pro,o1-pro,OpenAI,2026-08-25,snapshot,,150.0,600.0,
 openai-o3-mini,o3-mini,OpenAI,2025-02-03,backfill,litellm-archive,1.1,4.4,
 openai-o3-mini,o3-mini,OpenAI,2026-06-23,backfill,litellm-archive,1.1,4.4,
 openai-o3-mini,o3-mini,OpenAI,2026-06-25,baseline,,1.1,4.4,0.55
