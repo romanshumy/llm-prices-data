@@ -6800,5 +6800,199 @@
     "status_verified": "2026-08-24",
     "superseded_by": "openai-gpt-5-6-sol",
     "availability_note": "OpenAI's deprecations page names the bare o1-pro alias — not merely the o1-pro-2025-03-19 snapshot — in a shutdown row with an announced end of life of 2026-10-23, under the section 2026-04-22: Legacy GPT model snapshots. Named replacement: gpt-5.6-sol with reasoning.mode set to pro. Still sold per token at the price above until that date. Checked against OpenAI's deprecations page on 2026-08-24."
+  },
+  {
+    "id": "openai-gpt-5",
+    "provider": "OpenAI",
+    "model": "GPT-5",
+    "category": "flagship",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.125,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-08-07",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-5",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's August 2025 flagship for coding and agentic tasks, with configurable reasoning effort. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, September 2024 knowledge cutoff. Superseded by the GPT-5.1 through GPT-5.6 lines but still sold first-party at its own rate. The default snapshot behind the alias is gpt-5-2025-08-07.",
+    "availability_note": "OpenAI still prices the bare gpt-5 alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5 alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-gpt-5-mini",
+    "provider": "OpenAI",
+    "model": "GPT-5 mini",
+    "category": "mid-tier",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 2.0,
+    "cached_input_per_mtok": 0.025,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-08-07",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Near-frontier GPT-5 variant for cost-sensitive, low-latency, high-volume workloads. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, May 2024 knowledge cutoff. The default snapshot behind the alias is gpt-5-mini-2025-08-07.",
+    "availability_note": "OpenAI still prices the bare gpt-5-mini alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-mini-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-mini alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "mid-tier",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-gpt-5-nano",
+    "provider": "OpenAI",
+    "model": "GPT-5 nano",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": 0.005,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-08-07",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-5-nano",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The fastest and most cost-efficient member of the GPT-5 line. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, May 2024 knowledge cutoff. The default snapshot behind the alias is gpt-5-nano-2025-08-07.",
+    "availability_note": "OpenAI still prices the bare gpt-5-nano alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-nano-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-nano alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-gpt-5-pro",
+    "provider": "OpenAI",
+    "model": "GPT-5 Pro",
+    "category": "flagship",
+    "input_per_mtok": 15.0,
+    "output_per_mtok": 120.0,
+    "cached_input_per_mtok": null,
+    "context_window": 400000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-10-06",
+    "released_source": "https://developers.openai.com/api/docs/models/gpt-5-pro",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The extended-compute version of GPT-5, which OpenAI describes as producing smarter and more precise responses. 400K context window, 272K max output tokens, text + image input, text output, September 2024 knowledge cutoff. OpenAI lists no cached-input rate for this SKU. The default snapshot behind the alias is gpt-5-pro-2025-10-06.",
+    "availability_note": "OpenAI still prices the bare gpt-5-pro alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-pro-2025-10-06 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-pro alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-o3",
+    "provider": "OpenAI",
+    "model": "o3",
+    "category": "reasoning",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 8.0,
+    "cached_input_per_mtok": 0.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-04-16",
+    "released_source": "https://developers.openai.com/api/docs/models/o3",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's April 2025 reasoning model for complex tasks, succeeded by the GPT-5 line but still sold first-party at its own rate. 200K context window, 100K max output tokens, text + image input, text output, June 2024 knowledge cutoff. The default snapshot behind the alias is o3-2025-04-16.",
+    "availability_note": "OpenAI still prices the bare o3 alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot o3-2025-04-16 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the o3 alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "openai-o3-pro",
+    "provider": "OpenAI",
+    "model": "o3-pro",
+    "category": "reasoning",
+    "input_per_mtok": 20.0,
+    "output_per_mtok": 80.0,
+    "cached_input_per_mtok": null,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-06-10",
+    "released_source": "https://developers.openai.com/api/docs/models/o3-pro",
+    "released_verified": "2026-08-25",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The extended-compute version of o3, given more compute for better responses. 200K context window, 100K max output tokens, text + image input, text output, June 2024 knowledge cutoff. OpenAI lists no cached-input rate for this SKU. The default snapshot behind the alias is o3-pro-2025-06-10.",
+    "availability_note": "OpenAI still prices the bare o3-pro alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot o3-pro-2025-06-10 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the o3-pro alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "tags": [
+      "reasoning",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-25",
+    "source": "verified",
+    "status_verified": "2026-08-25",
+    "status_source": "https://developers.openai.com/api/docs/deprecations"
   }
 ]

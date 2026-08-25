@@ -103359,5 +103359,131 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-5": {
+    "model": "GPT-5",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:26:59Z",
+        "snapshot": "data/evidence/openai-gpt-5/2026-08-25.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
+  },
+  "openai-gpt-5-mini": {
+    "model": "GPT-5 mini",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 2.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:27:00Z",
+        "snapshot": "data/evidence/openai-gpt-5-mini/2026-08-25.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
+  },
+  "openai-gpt-5-nano": {
+    "model": "GPT-5 nano",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:27:01Z",
+        "snapshot": "data/evidence/openai-gpt-5-nano/2026-08-25.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
+  },
+  "openai-gpt-5-pro": {
+    "model": "GPT-5 Pro",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 120.0,
+        "cached_input_per_mtok": null,
+        "context_window": 400000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:27:02Z",
+        "snapshot": "data/evidence/openai-gpt-5-pro/2026-08-25.txt",
+        "sha": "0359f17f7e"
+      }
+    ]
+  },
+  "openai-o3": {
+    "model": "o3",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 8.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:27:04Z",
+        "snapshot": "data/evidence/openai-o3/2026-08-25.txt",
+        "sha": "cff825ba22"
+      }
+    ]
+  },
+  "openai-o3-pro": {
+    "model": "o3-pro",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-08-25",
+        "input_per_mtok": 20.0,
+        "output_per_mtok": 80.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing.md",
+        "captured_at": "2026-08-25T14:27:06Z",
+        "snapshot": "data/evidence/openai-o3-pro/2026-08-25.txt",
+        "sha": "c65c1cf5c7"
+      }
+    ]
   }
 }

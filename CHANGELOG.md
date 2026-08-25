@@ -7,6 +7,15 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-25
+
+- **GPT-5** (OpenAI) launched — $1.25 in / $10.0 out per 1M tokens
+- **GPT-5 mini** (OpenAI) launched — $0.25 in / $2.0 out per 1M tokens
+- **GPT-5 nano** (OpenAI) launched — $0.05 in / $0.4 out per 1M tokens
+- **GPT-5 Pro** (OpenAI) launched — $15.0 in / $120.0 out per 1M tokens
+- **o3** (OpenAI) launched — $2.0 in / $8.0 out per 1M tokens
+- **o3-pro** (OpenAI) launched — $20.0 in / $80.0 out per 1M tokens
+
 ## 2026-08-24
 
 - **GPT-4o** (OpenAI) launched — $2.5 in / $10.0 out per 1M tokens
