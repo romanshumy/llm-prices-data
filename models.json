@@ -4287,7 +4287,7 @@
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
     "cached_input_per_mtok": 0.26,
-    "context_window": 512000,
+    "context_window": 1000000,
     "modality": [
       "text"
     ],
