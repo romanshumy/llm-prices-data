@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-08-27
 
 - **Qwen3.8-Flash** (Alibaba) launched — $0.15 in / $0.47 out per 1M tokens
+- **GLM-5.3-Flash** (Z.AI) launched — $0.075 in / $0.25 out per 1M tokens
 
 ## 2026-08-25
 

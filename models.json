@@ -5258,6 +5258,41 @@
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
+    "id": "zhipu-glm-5-3-flash",
+    "provider": "Z.AI",
+    "model": "GLM-5.3-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.075,
+    "output_per_mtok": 0.25,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-08-25",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "320B (A18B)",
+    "description": "Z.AI's first natively multimodal GLM-5 model and a separate SKU from GLM-5.3, not a cheaper serving of it — 320B total / 18B activated, image input via image_url content blocks, 1M-token context. Currently $0.075/$0.25 per 1M tokens under a 50% launch discount that ends 2026-09-09; it reverts to the $0.15/$0.50 list price on 2026-09-10, with cached input going $0.015 -> $0.03. Weights are published under MIT at huggingface.co/zai-org/GLM-5.3-Flash.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "promo": true,
+    "promo_until": "2026-09-09",
+    "price_note": "Launch/intro pricing, per 1M tokens. Z.AI's own rate card (docs.z.ai/guides/overview/pricing) prints both prices for this model, with the list price struck through: \"GLM-5.3-Flash is available at a 50% discount (strikethrough prices are list prices). The promotion ends at 24:00 on September 9, 2026 (UTC+8, Singapore time).\" That is input $0.15 -> $0.075, cached input $0.03 -> $0.015, output $0.50 -> $0.25. The figures shown here are the current effective discounted rates — what you would pay today. On 2026-09-10 they revert to the $0.15 / $0.015 cached / $0.50 list price, and we track that reversion as a price increase with its own reversion date so this row cannot quietly go stale. Cached-input STORAGE is separately labelled \"Limited-time Free\" with no end date, and is not a rate we publish. Checked live on the vendor's page twice, 2026-08-26 and 2026-08-27, identical both times; Z.AI has not extended the promotion.",
+    "tags": [
+      "open-weights",
+      "budget",
+      "multimodal",
+      "caching",
+      "long-context"
+    ],
+    "last_updated": "2026-08-27",
+    "released_source": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "released_verified": "2026-08-27",
+    "status_verified": "2026-08-27",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
     "id": "zhipu-glm-5v-turbo",
     "provider": "Z.AI",
     "model": "GLM-5V-Turbo",

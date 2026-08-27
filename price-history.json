@@ -107718,5 +107718,26 @@
         "sha": "43447f123f"
       }
     ]
+  },
+  "zhipu-glm-5-3-flash": {
+    "model": "GLM-5.3-Flash",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-08-27",
+        "input_per_mtok": 0.075,
+        "output_per_mtok": 0.25,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-08-27T14:19:14Z",
+        "snapshot": "data/evidence/zhipu-glm-5-3-flash/2026-08-27.txt",
+        "sha": "e52135daf4"
+      }
+    ]
   }
 }
