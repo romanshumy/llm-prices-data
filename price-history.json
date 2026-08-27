@@ -107697,5 +107697,26 @@
         "changes": []
       }
     ]
+  },
+  "alibaba-qwen3-8-flash": {
+    "model": "Qwen3.8-Flash",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-27",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.47,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-27T09:30:26Z",
+        "snapshot": "data/evidence/alibaba-qwen3-8-flash/2026-08-27.txt",
+        "sha": "43447f123f"
+      }
+    ]
   }
 }

@@ -623,6 +623,7 @@ alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-24,snapshot,,2.0,6.0
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-25,snapshot,,2.0,6.0,
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-26,snapshot,,2.0,6.0,
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-27,snapshot,,2.0,6.0,
+alibaba-qwen3-8-flash,Qwen3.8-Flash,Alibaba,2026-08-27,new_model,verified,0.15,0.47,
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-03,new_model,verified,2.0,6.0,
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-04,snapshot,,2.0,6.0,0.2
 alibaba-qwen3-8-max,Qwen3.8-Max,Alibaba,2026-08-05,snapshot,,2.0,6.0,0.2

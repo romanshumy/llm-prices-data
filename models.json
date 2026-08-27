@@ -395,6 +395,36 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-8-flash",
+    "provider": "Alibaba",
+    "model": "Qwen3.8-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.47,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-26",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's current-generation cheap tier on Model Studio, and the first Qwen flash SKU priced as one flat rate across its whole context: $0.15/$0.47 per 1M tokens on any request up to 1M tokens, with no request-size tiers. That makes it more expensive than Qwen3.7-Flash on short prompts (which starts at $0.03/$0.13 below 32K) but cheaper on long ones (Qwen3.7-Flash bills $0.20/$0.80 in its 256K-1M tier). 1M-token context, text-only.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, the SKU's single 0<Token≤1M tier — unlike Qwen3.6-Flash and Qwen3.7-Flash this row is not tiered by request size. The row is labelled context-cache eligible but the table prints no cache rate for it, so cached input is left unset rather than assumed; unlike its Qwen3.7 predecessor it carries no 50% batch-inference label. A free quota of 1M tokens (90 days) applies in Singapore only and is a trial credit, not a list price.",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-27",
+    "released_source": "https://openrouter.ai/qwen/qwen3.8-flash",
+    "released_verified": "2026-08-27",
+    "status_verified": "2026-08-27",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-6-plus",
     "provider": "Alibaba",
     "model": "Qwen3.6-Plus",
