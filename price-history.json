@@ -109863,5 +109863,26 @@
         "changes": []
       }
     ]
+  },
+  "tencent-hy4-preview": {
+    "model": "Hy4 preview",
+    "provider": "Tencent",
+    "history": [
+      {
+        "date": "2026-08-28",
+        "input_per_mtok": 0.834,
+        "output_per_mtok": 2.501,
+        "cached_input_per_mtok": null,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://cloud.tencent.com/document/product/1823/130055",
+        "captured_at": "2026-08-28T09:16:50Z",
+        "snapshot": "data/evidence/tencent-hy4-preview/2026-08-28.txt",
+        "sha": "38746ea734"
+      }
+    ]
   }
 }

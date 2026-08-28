@@ -5775,6 +5775,46 @@
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
+    "id": "tencent-hy4-preview",
+    "provider": "Tencent",
+    "model": "Hy4 preview",
+    "category": "mid-tier",
+    "input_per_mtok": 0.834,
+    "output_per_mtok": 2.501,
+    "cached_input_per_mtok": 0.042,
+    "context_window": 1048576,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-27",
+    "released_source": "https://github.com/Tencent-Hunyuan/Hy4-preview",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "770B (A49B)",
+    "description": "Tencent Hy4 preview — Tencent's new-generation flagship Mixture-of-Experts model, 770B total parameters with 49B activated per token across 78 layers (256 routed experts plus one shared, top-8 routing), using Gated DeepSeek Sparse Attention with IndexCache and identity Hyper-Connections. Tencent open-sourced the instruct and FP8 weights under Apache 2.0 on 2026-08-27 and sells the model per token on its Tencent Cloud TokenHub rate card, serving it itself as an FP8 endpoint. Tencent's own model list gives a 1M context window with a 960K maximum input and a 64K maximum output; the endpoint Tencent operates reports 1,048,576 tokens, which is the figure published here. \"preview\" is Tencent's own name for this release, not a staging label of ours.",
+    "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 6,
+      "output_per_mtok": 18,
+      "cached_input_per_mtok": 0.3,
+      "fx_rate": 7.197,
+      "fx_date": "2026-08-28"
+    },
+    "price_note": "Tencent lists this model in RMB on its TokenHub rate card — ¥6 in / ¥18 out / ¥0.3 cache-hit per 1M tokens. Those two region tabs are different rate cards in general (新加坡 reprices GLM-5.3 from ¥8/¥28/¥2 to ¥10.07524/¥31.66504/¥1.871116), but the Hy4 preview row is byte-identical on both, so this model has no separate international list. The USD above is that list at 7.197 CNY/USD, the rate implied to three figures by all three prices the FP8 endpoint Tencent itself operates quotes in USD ($0.834 / $2.501 / $0.042, the only endpoint serving this model). That is Tencent's own commercial rate, not a market snapshot: ECB spot on 2026-08-27 was 6.7203 CNY/USD, which would instead give $0.893 / $2.679 / $0.045. We publish what Tencent charges — FX_CURRENCY_POLICY rule (1) — not a spot re-conversion of its domestic card.",
+    "tags": [
+      "mid-tier",
+      "open-weights",
+      "moe",
+      "agentic"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-28",
+    "source": "verified",
+    "status_verified": "2026-08-28",
+    "status_source": "https://cloud.tencent.com/document/product/1823/130055"
+  },
+  {
     "id": "tencent-hunyuan-hy3-preview",
     "provider": "Tencent",
     "model": "Hunyuan Hy3",

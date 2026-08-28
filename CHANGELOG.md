@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-28
+
+- **Hy4 preview** (Tencent) launched — $0.834 in / $2.501 out per 1M tokens
+
 ## 2026-08-27
 
 - **Qwen3.8-Flash** (Alibaba) launched — $0.15 in / $0.47 out per 1M tokens
