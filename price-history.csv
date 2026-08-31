@@ -703,6 +703,7 @@ alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-28,snapshot,,2.0,6.0
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-29,snapshot,,2.0,6.0,
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-30,snapshot,,2.0,6.0,
 alibaba-qwen3-8-2-4t-a95b,Qwen3.8-2.4T-A95B,Alibaba,2026-08-31,snapshot,,2.0,6.0,
+alibaba-qwen3-8-27b,Qwen3.8-27B,Alibaba,2026-08-31,new_model,verified,0.5,3.0,
 alibaba-qwen3-8-flash,Qwen3.8-Flash,Alibaba,2026-08-27,new_model,verified,0.15,0.47,
 alibaba-qwen3-8-flash,Qwen3.8-Flash,Alibaba,2026-08-28,snapshot,,0.15,0.47,
 alibaba-qwen3-8-flash,Qwen3.8-Flash,Alibaba,2026-08-29,snapshot,,0.15,0.47,
@@ -3692,6 +3693,7 @@ fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-28,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-29,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-30,snapshot,,0.3,1.2,0.06
 fireworks-minimax-m3,MiniMax-M3,Fireworks,2026-08-31,snapshot,,0.3,1.2,0.06
+fireworks-muse-glimmer-30b,Muse Glimmer 30B,Fireworks,2026-08-31,new_model,verified,0.35,1.5,
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-25,baseline,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-29,snapshot,,0.6,2.4,0.12
 fireworks-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Fireworks,2026-06-30,snapshot,,0.6,2.4,0.12
@@ -10379,6 +10381,7 @@ together-minimax-m3,MiniMax-M3,Together,2026-08-28,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax-M3,Together,2026-08-29,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax-M3,Together,2026-08-30,snapshot,,0.3,1.2,0.06
 together-minimax-m3,MiniMax-M3,Together,2026-08-31,snapshot,,0.3,1.2,0.06
+together-muse-glimmer-30b,Muse Glimmer 30B,Together,2026-08-31,new_model,verified,0.35,1.5,
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-25,baseline,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-29,snapshot,,0.6,3.6,0.2
 together-nvidia-nemotron-3-ultra,NVIDIA Nemotron 3 Ultra,Together,2026-06-30,snapshot,,0.6,3.6,0.2

@@ -395,6 +395,36 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-8-27b",
+    "provider": "Alibaba",
+    "model": "Qwen3.8-27B",
+    "category": "mid-tier",
+    "input_per_mtok": 0.5,
+    "output_per_mtok": 3.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-14",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "The 27B dense open-weights model in Alibaba's Qwen3.8 family, served by Alibaba itself on Model Studio at $0.50/$3.00 per 1M tokens — a single flat tier across the whole 1M-token context, with thinking and non-thinking modes billed alike. It undercuts the Qwen3.6-27B row on the same rate card ($0.60/$3.60) and carries roughly four times its context. Text in, text out.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, single 0<Token≤1M tier, read off the vendor's open-source Qwen3.8 table directly beneath the Qwen3.8-2.4T-A95B row. Alibaba marks the SKU as eligible for the context-caching discount but prints no cache rate in that table, so cached input is left unset rather than inferred — the same treatment as its Qwen3.8-2.4T-A95B sibling. Alibaba's own endpoint on OpenRouter quotes $0.425/$2.55; the number here is the maker's published rate card, not the gateway's.",
+    "tags": [
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-28",
+    "released_source": "https://openrouter.ai/qwen/qwen3.8-27b",
+    "released_verified": "2026-08-28",
+    "status_verified": "2026-08-28",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-8-flash",
     "provider": "Alibaba",
     "model": "Qwen3.8-Flash",
@@ -1613,6 +1643,37 @@
     "released_verified": "2026-06-27",
     "status_verified": "2026-08-09",
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
+  },
+  {
+    "id": "fireworks-muse-glimmer-30b",
+    "provider": "Fireworks",
+    "model": "Muse Glimmer 30B",
+    "category": "budget",
+    "input_per_mtok": 0.35,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": 0.04,
+    "context_window": 131072,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-09",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "30B",
+    "description": "Meta's open-weights Muse Glimmer 30B on Fireworks. $0.35/$1.50 per 1M; cached input $0.04.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-28",
+    "released_source": "https://openrouter.ai/meta/muse-glimmer-30b",
+    "released_verified": "2026-08-28",
+    "status_verified": "2026-08-28",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing",
+    "availability_note": "This is Fireworks' price for hosting Meta's model, not a price from Meta. Meta does not sell Muse Glimmer per token at all — its own Model API rate card (ai.developer.meta.com/docs/pricing-rate-limits, read 2026-08-28) prices only muse-spark-1.1/1.2 and muse-spark-1.2-contributor, and ships Glimmer as open weights under Apache 2.0. Together publishes the same $0.35/$1.50 for it. Fireworks' card carries no context column, so the 131,072-token window is the one Together's own card publishes for the same weights and the one Fireworks' OpenRouter endpoint reports."
   },
   {
     "id": "fireworks-gpt-oss-120b",
@@ -4366,6 +4427,37 @@
     "last_updated": "2026-06-25",
     "status_verified": "2026-08-09",
     "status_source": "https://www.together.ai/pricing"
+  },
+  {
+    "id": "together-muse-glimmer-30b",
+    "provider": "Together",
+    "model": "Muse Glimmer 30B",
+    "category": "budget",
+    "input_per_mtok": 0.35,
+    "output_per_mtok": 1.5,
+    "cached_input_per_mtok": 0.04,
+    "context_window": 131072,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-09",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "30B",
+    "description": "Meta's open-weights Muse Glimmer 30B on Together serverless. $0.35/$1.50 per 1M tokens; cached input $0.04. Together serves it at 131,072 tokens in FP8.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-08-28",
+    "released_source": "https://openrouter.ai/meta/muse-glimmer-30b",
+    "released_verified": "2026-08-28",
+    "status_verified": "2026-08-28",
+    "status_source": "https://www.together.ai/pricing",
+    "availability_note": "This is Together's price for hosting Meta's model, not a price from Meta. Meta does not sell Muse Glimmer per token at all — its own Model API rate card (ai.developer.meta.com/docs/pricing-rate-limits, read 2026-08-28) prices only muse-spark-1.1/1.2 and muse-spark-1.2-contributor, and ships Glimmer as open weights under Apache 2.0. Fireworks publishes the same $0.35/$1.50 for it. The 131,072-token window is what Together's own serverless-models card lists for meta-models/Muse-Glimmer-30B."
   },
   {
     "id": "together-kimi-k2-7-code",

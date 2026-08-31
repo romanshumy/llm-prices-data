@@ -7,6 +7,12 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-08-31
+
+- **Qwen3.8-27B** (Alibaba) launched — $0.5 in / $3.0 out per 1M tokens
+- **Muse Glimmer 30B** (Fireworks) launched — $0.35 in / $1.5 out per 1M tokens
+- **Muse Glimmer 30B** (Together) launched — $0.35 in / $1.5 out per 1M tokens
+
 ## 2026-08-28
 
 - **Hy4 preview** (Tencent) launched — $0.834 in / $2.501 out per 1M tokens

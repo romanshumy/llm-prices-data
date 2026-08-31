@@ -116283,5 +116283,68 @@
         "changes": []
       }
     ]
+  },
+  "alibaba-qwen3-8-27b": {
+    "model": "Qwen3.8-27B",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-08-31",
+        "input_per_mtok": 0.5,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-08-31T09:36:48Z",
+        "snapshot": "data/evidence/alibaba-qwen3-8-27b/2026-08-31.txt",
+        "sha": "61a3d7dd95"
+      }
+    ]
+  },
+  "fireworks-muse-glimmer-30b": {
+    "model": "Muse Glimmer 30B",
+    "provider": "Fireworks",
+    "history": [
+      {
+        "date": "2026-08-31",
+        "input_per_mtok": 0.35,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.fireworks.ai/serverless/pricing",
+        "captured_at": "2026-08-31T09:36:39Z",
+        "snapshot": "data/evidence/fireworks-muse-glimmer-30b/2026-08-31.txt",
+        "sha": "57dbe7dd60"
+      }
+    ]
+  },
+  "together-muse-glimmer-30b": {
+    "model": "Muse Glimmer 30B",
+    "provider": "Together",
+    "history": [
+      {
+        "date": "2026-08-31",
+        "input_per_mtok": 0.35,
+        "output_per_mtok": 1.5,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.together.ai/pricing",
+        "captured_at": "2026-08-31T09:36:20Z",
+        "snapshot": "data/evidence/together-muse-glimmer-30b/2026-08-31.txt",
+        "sha": "3655f66d8a"
+      }
+    ]
   }
 }
