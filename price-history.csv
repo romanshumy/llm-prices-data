@@ -7049,7 +7049,7 @@ mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-27,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-28,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-29,snapshot,,0.1,0.3,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-30,snapshot,,0.1,0.3,
-mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-31,snapshot,,0.1,0.3,
+mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-08-31,correction,verified,0.1,0.4,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-02-09,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-23,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-25,baseline,,0.6,3.0,0.1

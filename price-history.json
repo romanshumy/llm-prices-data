@@ -53503,11 +53503,24 @@
       {
         "date": "2026-08-31",
         "input_per_mtok": 0.1,
-        "output_per_mtok": 0.3,
+        "output_per_mtok": 0.4,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "correction",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://mistral.ai/pricing/api/",
+        "captured_at": "2026-08-31T14:21:21Z",
+        "snapshot": "data/evidence/mistral-voxtral-small/2026-08-31.txt",
+        "sha": "48b84435ff",
+        "supersedes_from": "2026-06-25",
+        "supersedes_to": "2026-08-31",
+        "corrected_from": {
+          "output_per_mtok": 0.3
+        },
+        "correction_ref": "MOD-988",
+        "note": "Published $0.10/$0.30 was a 2026-06-25 hand baseline that was never checked against Mistral's API rate card. Mistral's card lists Voxtral Small (voxtral-small-latest) at Text Input $0.10 /M and Output $0.40 /M. Data correction, not a market move: Mistral did not raise this price on 2026-08-31, and we hold no evidence it ever charged $0.30 for output on its own API — $0.30 is what Amazon Bedrock charges for the same model. Supersedes the wrong baseline and its carried-forward span. Root cause: all 15 of our Mistral rows cited https://mistral.ai/pricing/, which is now Mistral's consumer-plan page; the API rate card moved to https://mistral.ai/pricing/api/, so this row's output price could never be re-verified against the page we cited."
       }
     ]
   },

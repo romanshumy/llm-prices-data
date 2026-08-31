@@ -838,8 +838,8 @@
     "last_updated": "2026-06-25",
     "shutdown_date": "2026-09-14",
     "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html",
-    "status_verified": "2026-07-25",
-    "availability_note": "Bedrock Legacy since 2026-03-13, EOL 2026-09-14. AWS warns pricing may rise during extended access — watch this price."
+    "status_verified": "2026-08-31",
+    "availability_note": "Bedrock Legacy since 2026-03-13; AWS gives amazon.nova-premier-v1:0 an end-of-life date of 2026-09-14 in us-east-1, us-east-2 and us-west-2, after which requests to it fail. Re-read 2026-08-31 against AWS's model lifecycle table and the Nova Premier model card: the date has not moved, and the card still reads \"Model lifecycle: Legacy\". Two things AWS does NOT say, which we previously implied it did. First, this row's public-extended-access start date is empty — AI21, Anthropic, Cohere and TwelveLabs rows in the same table all carry one — so the higher extended-access pricing AWS describes for Legacy models has not been announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue currently offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship — so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation."
   },
   {
     "id": "amazon-nova-pro",
@@ -2883,7 +2883,7 @@
     "open_source": false,
     "parameters": "22B",
     "description": "Code generation model. $0.30/$0.90 per 1M tokens, 256K context.",
-    "pricing_url": "https://mistral.ai/pricing",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "coding"
     ],
@@ -2910,7 +2910,7 @@
     "open_source": false,
     "parameters": "22B",
     "description": "Code generation model. $0.30/$0.90 per 1M tokens, 256K context.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "coding"
     ],
@@ -2935,7 +2935,7 @@
     "open_source": true,
     "parameters": null,
     "description": "Mistral's 123B-parameter agentic coding model, built for autonomous software-engineering workflows with a 256K context. $0.40/$2.00 per 1M tokens. Retired from the Mistral API 2026-07-31.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "coding",
       "open-weights"
@@ -2964,7 +2964,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Mistral's enterprise reasoning model — transparent multi-step chain-of-thought with multilingual reasoning across 8+ languages; Mistral's answer to o3/o4-mini-class reasoners. $2/$5 per 1M tokens. Retired from the Mistral API 2026-07-31.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "reasoning"
     ],
@@ -2992,7 +2992,7 @@
     "open_source": true,
     "parameters": "3B",
     "description": "Smallest Mistral model for simple tasks. $0.10/$0.10 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "budget",
       "open-weights",
@@ -3019,14 +3019,14 @@
     "open_source": false,
     "parameters": null,
     "description": "Mistral's largest open-weight model — a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. $0.50/$1.50 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier"
     ],
     "featured": true,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-07-20",
-    "status_source": "https://mistral.ai/pricing/"
+    "status_verified": "2026-08-31",
+    "status_source": "https://mistral.ai/pricing/api/"
   },
   {
     "id": "mistral-medium-3",
@@ -3045,7 +3045,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Retired from the Mistral API on 2026-08-31; the mistral-medium-2505 endpoint is withdrawn and Mistral names Mistral Medium 3.5 as the replacement. Last listed at $0.40/$2.00 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "budget",
       "retired"
@@ -3074,13 +3074,13 @@
     "open_source": false,
     "parameters": null,
     "description": "Mistral's agentic mid-tier — ~77.6% SWE-bench Verified with strong tool use, now Mistral's recommended coding model. $1.50/$7.50 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
     "status_verified": "2026-08-31",
-    "status_source": "https://mistral.ai/pricing/"
+    "status_source": "https://mistral.ai/pricing/api/"
   },
   {
     "id": "mistral-small-3-2",
@@ -3099,7 +3099,7 @@
     "open_source": true,
     "parameters": "24B",
     "description": "Open-weights small model. $0.10/$0.30 per 1M tokens. Retired from the Mistral API 2026-07-31.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "budget",
       "open-weights",
@@ -3129,15 +3129,15 @@
     "open_source": false,
     "parameters": null,
     "description": "Compact, affordable model. $0.15/$0.60 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "budget",
       "fast"
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://mistral.ai/pricing/"
+    "status_verified": "2026-08-31",
+    "status_source": "https://mistral.ai/pricing/api/"
   },
   {
     "id": "mistral-mixtral-8x22b",
@@ -3156,7 +3156,7 @@
     "open_source": true,
     "parameters": "141B (8x22B MoE)",
     "description": "Large open-weights MoE model. $2.00/$6.00 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "open-weights",
       "moe",
@@ -3185,7 +3185,7 @@
     "open_source": true,
     "parameters": "46.7B (8x7B MoE)",
     "description": "Open-weights MoE model. $0.70/$0.70 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "open-weights",
       "moe",
@@ -3215,7 +3215,7 @@
     "open_source": true,
     "parameters": "12B",
     "description": "Multimodal vision model. $0.10/$0.10 per 1M tokens — very affordable.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "open-weights",
       "multimodal",
@@ -3245,7 +3245,7 @@
     "open_source": true,
     "parameters": "124B",
     "description": "Large multimodal vision model. $2.00/$6.00 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier",
       "multimodal",
@@ -3264,7 +3264,7 @@
     "model": "Voxtral Small 24B",
     "category": "budget",
     "input_per_mtok": 0.1,
-    "output_per_mtok": 0.3,
+    "output_per_mtok": 0.4,
     "cached_input_per_mtok": null,
     "context_window": 128000,
     "modality": [
@@ -3275,15 +3275,15 @@
     "status": "Current",
     "open_source": true,
     "parameters": "24B",
-    "description": "Speech-to-text and audio understanding model. $0.10/$0.30 per 1M tokens.",
-    "pricing_url": "https://mistral.ai/pricing/",
+    "description": "Speech-to-text and audio understanding model. $0.10/$0.40 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "budget",
       "audio",
       "open-weights"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-02",
+    "last_updated": "2026-08-31",
+    "status_verified": "2026-08-31",
     "status_source": "https://docs.mistral.ai/models/overview"
   },
   {
