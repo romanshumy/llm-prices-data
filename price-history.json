@@ -118519,5 +118519,47 @@
         "changes": []
       }
     ]
+  },
+  "anthropic-claude-fable-5-1": {
+    "model": "Claude Fable 5.1",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-09-01",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+        "captured_at": "2026-09-01T21:26:45Z",
+        "snapshot": "data/evidence/anthropic-claude-fable-5-1/2026-09-01.txt",
+        "sha": "e3310d2553"
+      }
+    ]
+  },
+  "anthropic-claude-mythos-5-1": {
+    "model": "Claude Mythos 5.1",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-09-01",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+        "captured_at": "2026-09-01T21:26:47Z",
+        "snapshot": "data/evidence/anthropic-claude-mythos-5-1/2026-09-01.txt",
+        "sha": "e3310d2553"
+      }
+    ]
   }
 }

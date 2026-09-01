@@ -1251,6 +1251,7 @@ anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-29,snapshot,,10.0,50.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-30,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-08-31,snapshot,,10.0,50.0,1.0
 anthropic-claude-fable-5,Claude Fable 5,Anthropic,2026-09-01,snapshot,,10.0,50.0,1.0
+anthropic-claude-fable-5-1,Claude Fable 5.1,Anthropic,2026-09-01,new_model,verified,10.0,50.0,
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2024-11-12,backfill,litellm-archive,1.0,5.0,
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2025-03-03,backfill,litellm-archive,0.8,4.0,
 anthropic-claude-haiku-3-5,Claude Haiku 3.5,Anthropic,2026-03-09,backfill,litellm-archive,0.8,4.0,
@@ -1454,6 +1455,7 @@ anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-29,snapshot,,10.0,50
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-30,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-08-31,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-09-01,snapshot,,10.0,50.0,1.0
+anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-01,new_model,verified,10.0,50.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2025-08-11,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-23,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-25,baseline,,15.0,75.0,1.5

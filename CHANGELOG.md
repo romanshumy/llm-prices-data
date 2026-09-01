@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-01
+
+- **Claude Fable 5.1** (Anthropic) launched — $10.0 in / $50.0 out per 1M tokens
+- **Claude Mythos 5.1** (Anthropic) launched — $10.0 in / $50.0 out per 1M tokens
+
 ## 2026-08-31
 
 - **Voxtral Small 24B** data correction — output $0.30 → $0.40 per 1M tokens

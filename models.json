@@ -902,6 +902,38 @@
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
+    "id": "anthropic-claude-fable-5-1",
+    "provider": "Anthropic",
+    "model": "Claude Fable 5.1",
+    "category": "flagship",
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_input_per_mtok": 0.25,
+    "price_note": "Cache hits and refreshes on Claude Fable 5.1 (and Claude Mythos 5.1) are priced at 0.025x the base input price — $0.25 per 1M tokens — where every other Claude model uses the standard 0.1x multiplier. Base $10/$50 per 1M tokens; Batch API $5/$25. Verified 2026-09-01 against platform.claude.com/docs/en/about-claude/pricing.",
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-01",
+    "released_source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "released_verified": "2026-09-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's newest Mythos-class flagship for demanding reasoning and long-horizon agentic work — adaptive always-on thinking, vision, and tool use, with a 1M-token context window and up to 128K output tokens. $10/$50 per 1M tokens, with the deepest caching discount in the lineup: cache hits cost $0.25 per 1M tokens (0.025x input, vs the standard 0.1x).",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "multimodal"
+    ],
+    "last_updated": "2026-09-01",
+    "source": "verified",
+    "status_verified": "2026-09-01",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
     "id": "anthropic-claude-haiku-3-5",
     "provider": "Anthropic",
     "model": "Claude Haiku 3.5",
@@ -5681,6 +5713,40 @@
     "source": "firecrawl_scrape",
     "availability_note": "Reportedly suspended in June 2026 under a US export-control directive — availability unconfirmed. Verify with Anthropic before relying on it.",
     "status_verified": "2026-08-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+    "id": "anthropic-claude-mythos-5-1",
+    "provider": "Anthropic",
+    "model": "Claude Mythos 5.1",
+    "category": "flagship",
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_input_per_mtok": 0.25,
+    "price_note": "Cache hits and refreshes on Claude Mythos 5.1 (and Claude Fable 5.1) are priced at 0.025x the base input price — $0.25 per 1M tokens — where every other Claude model uses the standard 0.1x multiplier. Base $10/$50 per 1M tokens; Batch API $5/$25. Verified 2026-09-01 against platform.claude.com/docs/en/about-claude/pricing.",
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-01",
+    "released_source": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "released_verified": "2026-09-01",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic Claude Mythos 5.1 — the limited-availability counterpart to Claude Fable 5.1, offered to approved organizations through the Glasswing program. Same rate card: $10/$50 per 1M tokens, cache hits $0.25 per 1M tokens (0.025x input).",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "limited"
+    ],
+    "featured": false,
+    "availability_note": "Limited availability — Anthropic's pricing page marks Claude Mythos 5.1 as available to approved organizations only (anthropic.com/glasswing).",
+    "last_updated": "2026-09-01",
+    "source": "verified",
+    "status_verified": "2026-09-01",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
