@@ -2290,7 +2290,7 @@
     "featured": true,
     "promo": true,
     "promo_until": "2026-12-31",
-    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.1875/$0.9375, a rate that appears on no Google price list (Google's own batch tier is $0.375/$1.875, half the standard rate). Checked 2026-08-18 against ai.google.dev/gemini-api/docs/pricing; reseller routes re-checked 2026-08-28.",
+    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model now shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-08-18 against ai.google.dev/gemini-api/docs/pricing; reseller routes re-checked 2026-09-02.",
     "last_updated": "2026-08-18",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
     "released_verified": "2026-08-13",
@@ -4411,7 +4411,7 @@
     "input_per_mtok": 1.4,
     "output_per_mtok": 4.4,
     "cached_input_per_mtok": 0.26,
-    "context_window": 1000000,
+    "context_window": 1048575,
     "modality": [
       "text"
     ],
@@ -4799,7 +4799,7 @@
     "input_per_mtok": 0.15,
     "output_per_mtok": 0.6,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 131072,
     "modality": [
       "text"
     ],
