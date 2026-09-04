@@ -3809,6 +3809,41 @@
     "status_source": "https://platform.openai.com/docs/pricing"
   },
   {
+    "id": "openai-gpt-6-astra",
+    "provider": "OpenAI",
+    "model": "GPT-6 Astra",
+    "category": "flagship",
+    "input_per_mtok": 10.0,
+    "output_per_mtok": 50.0,
+    "cached_input_per_mtok": 1.0,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-03",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "released_verified": "2026-09-03",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's most capable model, released 2026-09-03 and positioned above the GPT-5.6 Sol/Terra/Luna tiers for the hardest end-to-end work: complex reasoning, coding, computer use, research and document creation. 1.05M context window, 922K max input, 128K max output, text + image input, text output, April 2026 knowledge cutoff. $10/$50 per 1M tokens (cached input $1.00). Supports reasoning effort levels low through max, but not the none level, and does not accept custom temperature, top_p or logprobs. Tool calling requires the Responses API.",
+    "availability_note": "Rolling out first to enterprises through OpenAI's Trusted Access Program, with Plus, Pro, Business and Enterprise plan access stated as coming in the following days. This rate is published on OpenAI's public rate card all the same, and the model is served over v1/responses, v1/chat/completions and v1/batch.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier, and prompts over 272K input tokens bill at the long-context tier of $20 input / $2 cached input / $25 cache write / $75 output per 1M tokens — 2x input and cache rates and 1.5x output, applied to the full request. Cache writes bill at 1.25x the uncached input rate. Batch and Flex are 50% of Standard; Fast mode is 2x the applicable rate, and Fast is unavailable with EU data residency.",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship",
+      "caching"
+    ],
+    "featured": true,
+    "last_updated": "2026-09-03",
+    "source": "verified",
+    "status_verified": "2026-09-03",
+    "status_source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
     "id": "openai-gpt-image-2",
     "provider": "OpenAI",
     "model": "GPT-Image-2",

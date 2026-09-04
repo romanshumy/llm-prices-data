@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-09-03
 
 - **Gemini 3.8 Flash** (Google) launched — $0.75 in / $3.75 out per 1M tokens
+- **GPT-6 Astra** (OpenAI) launched — $10.0 in / $50.0 out per 1M tokens
 
 ## 2026-09-01
 

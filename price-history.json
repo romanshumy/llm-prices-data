@@ -125125,5 +125125,35 @@
         "changes": []
       }
     ]
+  },
+  "openai-gpt-6-astra": {
+    "model": "GPT-6 Astra",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-09-03",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-09-03T20:22:05Z",
+        "snapshot": "data/evidence/openai-gpt-6-astra/2026-09-03.txt",
+        "sha": "3f8b1fb72f"
+      },
+      {
+        "date": "2026-09-04",
+        "input_per_mtok": 10.0,
+        "output_per_mtok": 50.0,
+        "cached_input_per_mtok": 1.0,
+        "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
   }
 }
