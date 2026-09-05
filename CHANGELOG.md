@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-05
+
+- **GLM-5.3** (Together) launched — $1.4 in / $4.4 out per 1M tokens
+
 ## 2026-09-03
 
 - **Gemini 3.8 Flash** (Google) launched — $0.75 in / $3.75 out per 1M tokens
@@ -32,6 +36,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-08-28
 
+- **GLM-5.3** (Fireworks) launched — $1.4 in / $4.4 out per 1M tokens
 - **Hy4 preview** (Tencent) launched — $0.834 in / $2.501 out per 1M tokens
 
 ## 2026-08-27

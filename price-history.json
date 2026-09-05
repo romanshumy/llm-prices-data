@@ -21642,8 +21642,36 @@
         "output_per_mtok": 3.96,
         "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_change",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.74,
+            "new": 1.32,
+            "direction": "down",
+            "change_pct": -24.1
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 3.48,
+            "new": 3.96,
+            "direction": "up",
+            "change_pct": 13.8
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.145,
+            "new": 0.044,
+            "direction": "down",
+            "change_pct": -69.7
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.fireworks.ai/serverless/pricing",
+        "captured_at": "2026-09-05T18:23:30Z",
+        "snapshot": "data/evidence/fireworks-deepseek-v4-pro/2026-09-05.txt",
+        "sha": "21e43393b6"
       }
     ]
   },
@@ -127407,6 +127435,57 @@
         "context_window": 128000,
         "event": "snapshot",
         "changes": []
+      }
+    ]
+  },
+  "fireworks-glm-5-3": {
+    "model": "GLM-5.3",
+    "provider": "Fireworks",
+    "history": [
+      {
+        "date": "2026-08-28",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.fireworks.ai/serverless/pricing",
+        "captured_at": "2026-08-28T22:09:46Z",
+        "snapshot": "data/evidence/fireworks-glm-5-3/2026-08-28.txt",
+        "sha": "198dd786e2"
+      },
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": 0.26,
+        "context_window": 1000000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "together-glm-5-3": {
+    "model": "GLM-5.3",
+    "provider": "Together",
+    "history": [
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 1.4,
+        "output_per_mtok": 4.4,
+        "cached_input_per_mtok": null,
+        "context_window": 1048575,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.together.ai/docs/serverless-models.md",
+        "captured_at": "2026-09-05T18:17:33Z",
+        "snapshot": "data/evidence/together-glm-5-3/2026-09-05.txt",
+        "sha": "2caf9e5bc6"
       }
     ]
   }

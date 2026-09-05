@@ -1678,6 +1678,36 @@
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
+    "id": "fireworks-glm-5-3",
+    "provider": "Fireworks",
+    "model": "GLM-5.3",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-14",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-5.3 on Fireworks. $1.40/$4.40 per 1M; cached $0.26.",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "price_note": "Fireworks' own serverless rate card prints three separate GLM 5.3 rates and this row carries the Standard one. The table's cell order is input / cached input / output: GLM 5.3 Standard $1.40 / $0.26 / $4.40, Priority $1.75 / $0.325 / $5.50, and a distinct 'GLM 5.3 Fast' SKU at $2.10 / $0.39 / $6.60. We carry Standard because that is the rate the base SKU serves by default, the same choice already made for fireworks-glm-5-2. Fireworks publishes NO context column on this card (see scripts/host_context_cards.json unreadable_hosts), so the 1M window here is the SKU's native window and not a served-window claim read off the host.",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "caching"
+    ],
+    "last_updated": "2026-08-28",
+    "released_source": "https://z.ai/blog/glm-5.3",
+    "released_verified": "2026-08-28",
+    "status_verified": "2026-08-28",
+    "status_source": "https://docs.fireworks.ai/serverless/pricing"
+  },
+  {
     "id": "fireworks-muse-glimmer-30b",
     "provider": "Fireworks",
     "model": "Muse Glimmer 30B",
@@ -4535,6 +4565,37 @@
     "status_source": "https://www.together.ai/pricing"
   },
   {
+    "id": "together-glm-5-3",
+    "provider": "Together",
+    "model": "GLM-5.3",
+    "category": "mid-tier",
+    "input_per_mtok": 1.4,
+    "output_per_mtok": 4.4,
+    "cached_input_per_mtok": 0.26,
+    "context_window": 1048575,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-08-14",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-5.3 on Together. $1.40/$4.40 per 1M; cached input $0.26. Together serves it at 1,048,575 tokens in FP4.",
+    "price_note": "Read 2026-09-05 from Together's own serverless-models card (docs.together.ai/docs/serverless-models, the markdown surface the context gate also reads): zai-org/GLM-5.3 at input $1.40 / cached input $0.26 / output $4.40, context 1048575, quantization FP4. The triple is identical to Z.AI's first-party rate and to Fireworks' Standard rate for the same SKU. The 1,048,575-token window is what Together's card lists for THIS endpoint (docs/CONTEXT_WINDOW_CONVENTION.md) — it is Together's served window, not a claim read off the maker.",
+    "pricing_url": "https://www.together.ai/pricing",
+    "tags": [
+      "caching",
+      "mid-tier",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-05",
+    "released_source": "https://z.ai/blog/glm-5.3",
+    "released_verified": "2026-09-05",
+    "status_verified": "2026-09-05",
+    "status_source": "https://www.together.ai/pricing"
+  },
+  {
     "id": "together-gemma-4-31b-pearl",
     "provider": "Together",
     "model": "Gemma-4-31B-it-Pearl",
@@ -5469,18 +5530,19 @@
     ],
     "released": "2026-08-14",
     "status": "Current",
-    "open_source": false,
+    "open_source": true,
     "parameters": null,
-    "description": "Z.AI's flagship model — a post-trained upgrade of GLM-5.2 (same MoE base) with major gains in coding and long-horizon agentic work. Text-only, 1M-token context, 128K max output; reasoning is always on with selectable effort. $1.40/$4.40 per 1M tokens; cached input $0.26. An open-weights release is announced to follow launch.",
+    "description": "Z.AI's flagship open-weights model — a post-trained upgrade of GLM-5.2 (same MoE base) with major gains in coding and long-horizon agentic work. Text-only, 1M-token context, 128K max output; reasoning is always on with selectable effort. $1.40/$4.40 per 1M tokens; cached input $0.26. Weights are published at huggingface.co/zai-org/GLM-5.3 (with a BF16 twin), under the GLM-5.3 License.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
+      "open-weights",
       "flagship",
       "caching"
     ],
-    "last_updated": "2026-08-18",
+    "last_updated": "2026-08-28",
     "released_source": "https://z.ai/blog/glm-5.3",
     "released_verified": "2026-08-18",
-    "status_verified": "2026-08-18",
+    "status_verified": "2026-08-28",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
