@@ -12,6 +12,10 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Gemini 3.8 Flash** (Google) launched — $0.75 in / $3.75 out per 1M tokens
 - **GPT-6 Astra** (OpenAI) launched — $10.0 in / $50.0 out per 1M tokens
 
+## 2026-09-02
+
+- **Mercury 2** (Inception) launched — $0.25 in / $0.75 out per 1M tokens
+
 ## 2026-09-01
 
 - **Claude Fable 5.1** (Anthropic) launched — $10.0 in / $50.0 out per 1M tokens
@@ -21,6 +25,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **Voxtral Small 24B** data correction — output $0.30 → $0.40 per 1M tokens
   - Published $0.10/$0.30 was a 2026-06-25 hand baseline that was never checked against Mistral's API rate card. Mistral's card lists Voxtral Small (voxtral-small-latest) at Text Input $0.10 /M and Output $0.40 /M. Data correction, not a market move: Mistral did not raise this price on 2026-08-31, and we hold no evidence it ever charged $0.30 for output on its own API — $0.30 is what Amazon Bedrock charges for the same model. Supersedes the wrong baseline and its carried-forward span. Root cause: all 15 of our Mistral rows cited https://mistral.ai/pricing/, which is now Mistral's consumer-plan page; the API rate card moved to https://mistral.ai/pricing/api/, so this row's output price could never be re-verified against the page we cited.
+- **DeepSeek V4 Pro** price change — input $1.74 → $1.32, output $3.48 → $3.96, cached input $0.145 → $0.044 per 1M tokens
 - **Qwen3.8-27B** (Alibaba) launched — $0.5 in / $3.0 out per 1M tokens
 - **Muse Glimmer 30B** (Fireworks) launched — $0.35 in / $1.5 out per 1M tokens
 - **Muse Glimmer 30B** (Together) launched — $0.35 in / $1.5 out per 1M tokens

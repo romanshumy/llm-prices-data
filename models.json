@@ -1596,9 +1596,9 @@
     "provider": "Fireworks",
     "model": "DeepSeek V4 Pro",
     "category": "mid-tier",
-    "input_per_mtok": 1.74,
-    "output_per_mtok": 3.48,
-    "cached_input_per_mtok": 0.145,
+    "input_per_mtok": 1.32,
+    "output_per_mtok": 3.96,
+    "cached_input_per_mtok": 0.044,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -1607,14 +1607,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Pro on Fireworks. $1.74/$3.48 per 1M; cached $0.145.",
+    "description": "DeepSeek V4 Pro on Fireworks. $1.32/$3.96 per 1M; cached $0.044.",
+    "price_note": "Fireworks Standard serving path; the Priority column ($1.65/$0.055/$4.95) is a different path and is not what we track. Fireworks lists exactly one DeepSeek V4 Pro row, and between the 2026-08-24 and 2026-08-31 captures it changed from 'DeepSeek V4 Pro' at $1.74/$0.145/$3.48 to 'DeepSeek V4 Pro (0813)' at $1.32/$0.044/$3.96 — so $1.32/$0.044/$3.96 is the only rate Fireworks now sells this model at. Those figures match DeepSeek's own peak list price exactly, including the distinctive $0.044 cached rate, which is the maker's 0813 snapshot repricing propagating to its hosts rather than a Fireworks-specific discount.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "mid-tier",
       "reasoning",
       "caching"
     ],
-    "last_updated": "2026-08-14",
+    "last_updated": "2026-08-31",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
     "status_verified": "2026-08-31",
@@ -2699,6 +2700,35 @@
     "last_updated": "2026-06-25",
     "status_verified": "2026-08-09",
     "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
+  },
+  {
+    "id": "inception-mercury-2",
+    "provider": "Inception",
+    "model": "Mercury 2",
+    "category": "budget",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 0.75,
+    "cached_input_per_mtok": 0.025,
+    "price_unit": "per_token",
+    "price_note": "Inception publishes this rate per TOKEN, not per 1M: its own API root (api.inceptionlabs.ai/v1/models) serves prompt 0.00000025 and completion 0.00000075, which is $0.25 / $0.75 per 1M tokens, with cache reads at 0.000000025 ($0.025 per 1M) and cache writes free. Read unauthenticated on 2026-09-01 and again on 2026-09-02, byte-identical both times (973 bytes, md5 a835588b3e712d66d80ab0166a1b8fba). The vendor's own record carries \"openrouter\": {\"slug\": \"inception/mercury-2\"}, so the join to the gateway id is Inception's claim rather than ours. Inception's HTML pricing page is behind a standing bot challenge and is not our source.",
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-03-04",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The first diffusion large language model (dLLM) sold as a commercial API. Mercury 2 generates tokens by iterative denoising rather than left-to-right decoding, which Inception reports as 5-10x faster than speed-optimised autoregressive models at comparable quality. 128K context, 50K max output, tools and structured outputs. $0.25 / $0.75 per 1M tokens.",
+    "pricing_url": "https://api.inceptionlabs.ai/v1/models",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "last_updated": "2026-09-02",
+    "source": "verified",
+    "status_verified": "2026-09-02",
+    "status_source": "https://api.inceptionlabs.ai/v1/models"
   },
   {
     "id": "meta-llama-3-1-8b",

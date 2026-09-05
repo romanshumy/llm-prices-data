@@ -21565,54 +21565,82 @@
       },
       {
         "date": "2026-08-31",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_change",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.74,
+            "new": 1.32,
+            "direction": "down",
+            "change_pct": -24.1
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 3.48,
+            "new": 3.96,
+            "direction": "up",
+            "change_pct": 13.8
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.145,
+            "new": 0.044,
+            "direction": "down",
+            "change_pct": -69.7
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.fireworks.ai/serverless/pricing",
+        "captured_at": "2026-08-31T08:34:16Z",
+        "snapshot": "data/evidence/fireworks-deepseek-v4-pro/2026-08-31.txt",
+        "sha": "7dd6433da0"
       },
       {
         "date": "2026-09-01",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
       },
       {
         "date": "2026-09-02",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
       },
       {
         "date": "2026-09-03",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
       },
       {
         "date": "2026-09-04",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
       },
       {
         "date": "2026-09-05",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.145,
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.044,
         "context_window": 1000000,
         "event": "snapshot",
         "changes": []
@@ -127347,6 +127375,36 @@
         "output_per_mtok": 50.0,
         "cached_input_per_mtok": 1.0,
         "context_window": 1050000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "inception-mercury-2": {
+    "model": "Mercury 2",
+    "provider": "Inception",
+    "history": [
+      {
+        "date": "2026-09-02",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 0.75,
+        "cached_input_per_mtok": null,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://api.inceptionlabs.ai/v1/models",
+        "captured_at": "2026-09-02T14:28:08Z",
+        "snapshot": "data/evidence/inception-mercury-2/2026-09-02.txt",
+        "sha": "998c31a236"
+      },
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 0.75,
+        "cached_input_per_mtok": 0.025,
+        "context_window": 128000,
         "event": "snapshot",
         "changes": []
       }
