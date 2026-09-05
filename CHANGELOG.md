@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-09-05
 
 - **GLM-5.3** (Together) launched — $1.4 in / $4.4 out per 1M tokens
+- **Muse Spark 1.3** (Meta) launched — $1.25 in / $4.25 out per 1M tokens
 
 ## 2026-09-03
 

@@ -127408,6 +127408,27 @@
       }
     ]
   },
+  "meta-muse-spark-1-3": {
+    "model": "Muse Spark 1.3",
+    "provider": "Meta",
+    "history": [
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 1.25,
+        "output_per_mtok": 4.25,
+        "cached_input_per_mtok": null,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+        "captured_at": "2026-09-05T09:31:06Z",
+        "snapshot": "data/evidence/meta-muse-spark-1-3/2026-09-05.txt",
+        "sha": "849e200423"
+      }
+    ]
+  },
   "inception-mercury-2": {
     "model": "Mercury 2",
     "provider": "Inception",

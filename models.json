@@ -6609,9 +6609,9 @@
       "caching"
     ],
     "featured": false,
-    "last_updated": "2026-08-22",
+    "last_updated": "2026-09-05",
     "source": "verified",
-    "status_verified": "2026-08-31",
+    "status_verified": "2026-09-05",
     "status_source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
   },
   {
@@ -6634,7 +6634,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Meta's current flagship on the Meta Model API and the direct successor to Muse Spark 1.1 — a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input, retrained for coding, whole-repository work and computer use. $1.25/$4.25 per 1M tokens, with cached input at $0.15 — the same list price as Muse Spark 1.1. Like 1.1 it is API-only: there are no open weights.",
+    "description": "The previous Muse Spark version on the Meta Model API, superseded by Muse Spark 1.3 on 2026-09-02 but still sold at the same rate — a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input, retrained for coding, whole-repository work and computer use. $1.25/$4.25 per 1M tokens, with cached input at $0.15 — the same list price as Muse Spark 1.1 and 1.3. Like 1.1 it is API-only: there are no open weights. Meta still recommends 1.2 over 1.3 for audio input, where 1.3's support is not yet complete.",
     "price_note": "Meta Model API standard-tier list price, per 1M tokens, with no long-context premium — the tier on which Meta states prompts and completions are not used for training. A cheaper contributor tier ($0.10 input / $0.20 output per 1M) trades training rights and a far lower rate limit (100 vs 3,000 requests/min) for the discount, so it is not the tracked list price. Search grounding is billed separately per 1,000 queries and is not included in the token rate.",
     "pricing_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
     "tags": [
@@ -6646,9 +6646,46 @@
       "caching"
     ],
     "featured": false,
-    "last_updated": "2026-08-22",
+    "last_updated": "2026-09-05",
     "source": "verified",
-    "status_verified": "2026-08-22",
+    "status_verified": "2026-09-05",
+    "status_source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
+  },
+  {
+    "id": "meta-muse-spark-1-3",
+    "provider": "Meta",
+    "model": "Muse Spark 1.3",
+    "category": "flagship",
+    "input_per_mtok": 1.25,
+    "output_per_mtok": 4.25,
+    "cached_input_per_mtok": 0.15,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image",
+      "video",
+      "audio"
+    ],
+    "released": "2026-09-02",
+    "released_source": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Meta's current flagship on the Meta Model API and the direct successor to Muse Spark 1.2 — a multimodal agentic model with a 1M-token context that takes text, image, video, audio and PDF input, tuned for multi-step tool use, browser and long-horizon agentic work with improved coding over 1.2. $1.25/$4.25 per 1M tokens, with cached input at $0.15 — the same list price Meta has charged for every Muse Spark version since 1.1. Like 1.1 and 1.2 it is API-only: there are no open weights.",
+    "price_note": "Meta Model API standard-tier list price, per 1M tokens, with no long-context premium — the tier on which Meta states prompts and completions are not used for training. Meta's card prices 1.3, 1.2 and 1.1 off one shared standard-tier table. A cheaper contributor tier ($0.10 input / $0.20 output per 1M) trades training rights and a far lower rate limit (100 vs 3,000 requests/min) for the discount, so it is not the tracked list price. The \"max\" extended-reasoning effort level is a request parameter on this same model and Standard-tier rate, not a separately priced SKU. Search grounding is billed separately at $2.50 per 1,000 queries and is not included in the token rate.",
+    "pricing_url": "https://ai.developer.meta.com/docs/pricing-rate-limits",
+    "tags": [
+      "flagship",
+      "multimodal",
+      "agentic",
+      "reasoning",
+      "coding",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-05",
+    "source": "verified",
+    "status_verified": "2026-09-05",
     "status_source": "https://ai.developer.meta.com/docs/pricing-rate-limits"
   },
   {
