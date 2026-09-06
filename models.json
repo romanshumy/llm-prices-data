@@ -4509,10 +4509,10 @@
     "provider": "Together",
     "model": "DeepSeek V4 Pro",
     "category": "mid-tier",
-    "input_per_mtok": 1.74,
-    "output_per_mtok": 3.48,
-    "cached_input_per_mtok": 0.2,
-    "context_window": 512000,
+    "input_per_mtok": 1.32,
+    "output_per_mtok": 3.96,
+    "cached_input_per_mtok": 0.13,
+    "context_window": 1048576,
     "modality": [
       "text"
     ],
@@ -4520,7 +4520,8 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Pro hosted on Together. $1.74/$3.48 per 1M tokens — more expensive than DeepSeek direct.",
+    "description": "DeepSeek V4 Pro hosted on Together. $1.32/$3.96 per 1M tokens; cached input $0.13.",
+    "price_note": "Together has moved this endpoint to the dated API string deepseek-ai/DeepSeek-V4-Pro-0813 and restated its price. Both of Together's own pages were read on 2026-09-06 and agree to the cent: the serverless models card lists deepseek-ai/DeepSeek-V4-Pro-0813 at $1.32 input / $0.13 cached input / $3.96 output per 1M tokens, a 1,048,576-token context window and NVFP4 quantization, and the together.ai/pricing table — the page this row cites — prints the same three prices. Until late August, Together sold two DeepSeek V4 Pro endpoints side by side: this dated one and an undated deepseek-ai/DeepSeek-V4-Pro at $1.74/$0.20/$3.48 with a 512,000-token window in FP4, which is the price this row previously carried. The undated endpoint has since left both pages — the pricing table on 2026-08-31 and the model card by 2026-09-02, still absent on 2026-09-06 — leaving exactly one DeepSeek V4 Pro at Together, so this row now quotes the endpoint you can actually buy. The two were genuinely different products while both were sold, which is why the change is dated to the day only one was left rather than to the day the dated string first appeared. The context window shown is the one Together serves on this endpoint, not DeepSeek's own figure.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "reasoning",
@@ -4528,11 +4529,11 @@
       "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-08-14",
+    "last_updated": "2026-09-06",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-31",
-    "status_source": "https://www.together.ai/pricing"
+    "status_verified": "2026-09-06",
+    "status_source": "https://docs.together.ai/docs/serverless-models.md"
   },
   {
     "id": "together-glm-5-2",
@@ -4608,19 +4609,22 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-09-06",
     "open_source": true,
     "parameters": "31B",
-    "description": "Google's Gemma 4 31B on Together (Pearl variant). $0.28/$0.86 per 1M tokens.",
+    "description": "Google's Gemma 4 31B on Together (Pearl variant). $0.28/$0.86 per 1M tokens. Together no longer serves the Pearl variant; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "open-weights",
-      "budget"
+      "budget",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://www.together.ai/pricing"
+    "last_updated": "2026-09-06",
+    "status_verified": "2026-09-06",
+    "status_source": "https://www.together.ai/pricing",
+    "availability_note": "Together no longer serves pearl-ai/gemma-4-31b-it. This row was held on watch rather than retired for four weeks because Together's two first-party surfaces disagreed: the serverless-models card dropped the SKU on 2026-09-02 while www.together.ai/pricing still listed a 'Gemma 4 31B' at $0.39/$0.97. That listing is a different model, not this one: our stored 2026-08-17 capture of the same pricing table carries both lines at once, 'Gemma 4 31B $0.39 $0.97' and 'Gemma-4-31B-it-Pearl $0.28 $0.86'. On 2026-09-06 the Pearl listing is gone from the pricing table as well, so both first-party surfaces now agree, on three time-separated card reads (2026-09-02, 2026-09-04, 2026-09-06). The unattributed Gemma 4 31B at $0.39/$0.97 is still sold by Together and is not tracked here. Together published no retirement date, so the date above is the day we confirmed it was gone."
   },
   {
     "id": "together-muse-glimmer-30b",
@@ -4668,23 +4672,26 @@
       "video"
     ],
     "released": "2026-06-12",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-09-06",
     "open_source": true,
     "parameters": null,
-    "description": "Moonshot's Kimi K2.7 coding model on Together. $0.95/$4.00 per 1M tokens.",
+    "description": "Moonshot's Kimi K2.7 coding model on Together. $0.95/$4.00 per 1M tokens. Together no longer serves it; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
       "coding",
       "multimodal",
-      "open-weights"
+      "open-weights",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-09-06",
     "released_source": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-09",
-    "status_source": "https://www.together.ai/pricing"
+    "status_verified": "2026-09-06",
+    "status_source": "https://docs.together.ai/docs/serverless-models.md",
+    "availability_note": "Together stopped serving moonshotai/Kimi-K2.7-Code. Absent from the serverless-models card on three time-separated reads (2026-09-02, 2026-09-04, 2026-09-06) and from www.together.ai/pricing on 2026-09-06, where our 2026-08-17 capture of the same table still listed it at $0.95/$4.00. Moonshot's successor on Together is moonshotai/Kimi-K3 at $3.00/$15.00 per 1M with a 1,048,576-token window — a successor, not a rename, and we do not yet track it. Together published no retirement date, so the date above is the day we confirmed it was gone."
   },
   {
     "id": "together-lfm2-24b-a2b",
@@ -4847,21 +4854,24 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-09-06",
     "open_source": true,
     "parameters": null,
-    "description": "NVIDIA Nemotron 3 Ultra on Together. $0.60/$3.60 per 1M; cached $0.20.",
+    "description": "NVIDIA Nemotron 3 Ultra on Together. $0.60/$3.60 per 1M; cached $0.20. Together no longer serves it; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "reasoning",
       "caching",
       "mid-tier",
-      "open-weights"
+      "open-weights",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://www.together.ai/pricing"
+    "last_updated": "2026-09-06",
+    "status_verified": "2026-09-06",
+    "status_source": "https://docs.together.ai/docs/serverless-models.md",
+    "availability_note": "Together stopped serving nvidia/nemotron-3-ultra-550b-a55b. Absent from the serverless-models card on three time-separated reads (2026-09-02, 2026-09-04, 2026-09-06) and from www.together.ai/pricing on 2026-09-06, where our 2026-08-17 capture of the same table still listed it at $0.60/$3.60. The only NVIDIA models Together still serves are Nemotron ASR speech endpoints, priced per audio minute; no NVIDIA chat model remains. Together published no retirement date, so the date above is the day we confirmed it was gone."
   },
   {
     "id": "together-qwen3-5-397b-a17b",

@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-06
+
+- **DeepSeek V4 Pro** price change — input $1.74 → $1.32, output $3.48 → $3.96, cached input $0.20 → $0.13 per 1M tokens
+
 ## 2026-09-05
 
 - **GLM-5.3** (Together) launched — $1.4 in / $4.4 out per 1M tokens

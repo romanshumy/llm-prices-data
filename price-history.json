@@ -75216,12 +75216,40 @@
       },
       {
         "date": "2026-09-06",
-        "input_per_mtok": 1.74,
-        "output_per_mtok": 3.48,
-        "cached_input_per_mtok": 0.2,
-        "context_window": 512000,
-        "event": "snapshot",
-        "changes": []
+        "input_per_mtok": 1.32,
+        "output_per_mtok": 3.96,
+        "cached_input_per_mtok": 0.13,
+        "context_window": 1048576,
+        "event": "price_change",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.74,
+            "new": 1.32,
+            "direction": "down",
+            "change_pct": -24.1
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 3.48,
+            "new": 3.96,
+            "direction": "up",
+            "change_pct": 13.8
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.2,
+            "new": 0.13,
+            "direction": "down",
+            "change_pct": -35.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.together.ai/pricing",
+        "captured_at": "2026-09-06T20:29:39Z",
+        "snapshot": "data/evidence/together-deepseek-v4-pro/2026-09-06.txt",
+        "sha": "b57861c9ad"
       }
     ]
   },
