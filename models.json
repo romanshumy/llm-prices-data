@@ -6164,8 +6164,17 @@
     "open_source": false,
     "parameters": null,
     "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) — see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
-    "pricing_url": "https://cloud.tencent.com/product/tokenhub",
-    "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo.",
+    "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
+    "vendor_sku": "Hy3",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 1,
+      "output_per_mtok": 4,
+      "cached_input_per_mtok": 0.25,
+      "fx_rate": 6.8031,
+      "fx_date": "2026-07-07"
+    },
+    "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo. Re-read against the TokenHub rate card 2026-08-28: the flat GA \"Hy3\" row still lists ¥1 / ¥4 / ¥0.25, unchanged. FX re-checked 2026-08-31 against the ECB reference rate (6.7209 CNY/USD, 2026-08-28): 1.2% drift, below the 3% threshold at which this runbook re-publishes, so the USD above is unchanged and still carries its 2026-07-07 rate.",
     "tags": [
       "budget",
       "moe",
@@ -6195,7 +6204,14 @@
     "parameters": "30B (A3B)",
     "description": "Tencent Hy-MT2 30B-A3B — the largest model in Tencent's Hy-MT2 \"fast-thinking\" translation family, a 30B mixture-of-experts with roughly 3B active parameters. It translates among 33 languages and five Chinese dialect and minority-language pairs, and handles structured, delimiter-based, contextual, glossary-based and style-guided translation. Tencent open-sourced the weights on 2026-05-21 and also sells the family per token on its Tencent Cloud TokenHub rate card, serving this model itself as an FP8 endpoint. Context window 8,192 tokens with a 4,096-token maximum output, per Tencent's own model list — this is a translation model, not a long-context general assistant.",
     "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
-    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching row at ¥0.5 in / ¥2 out per 1M tokens, which converts to these figures at 6.78 CNY/USD. That card names service tiers (Hy-MT2-Pro, Hy-MT2-Plus, Hy-MT2-Lite) rather than weight classes, and Pro and Plus share the same ¥0.5/¥2 row, so which tier this model is sold under is not stated on any Tencent page and is not claimed here. Tencent publishes no cached-input rate for this family.",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2,
+      "fx_rate": 6.78,
+      "fx_date": "2026-08-20"
+    },
+    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching price at ¥0.5 in / ¥2 out per 1M tokens, which converts to these figures at 6.78 CNY/USD — re-read against the card 2026-08-28, unchanged. That card names service tiers (Hy-MT2-Pro, Hy-MT2-Plus, Hy-MT2-Lite) rather than weight classes, and Pro and Plus are two separate rows carrying the SAME ¥0.5/¥2, so which tier this model is sold under is not stated on any Tencent page and is not claimed here. The price is unambiguous; only the tier NAME is not. Tencent publishes no cached-input rate for this family.",
     "tags": [
       "budget",
       "open-weights",
@@ -6226,7 +6242,15 @@
     "parameters": "1.8B",
     "description": "Tencent Hy-MT2 1.8B — the compact member of Tencent's Hy-MT2 \"fast-thinking\" translation family, translating among 33 languages and five Chinese dialect and minority-language pairs with the same structured, contextual and glossary-based workflows as its larger siblings. Tencent open-sourced the weights on 2026-05-21, alongside a 1.25-bit quantisation that fits the model into about 440 MB for on-device use. Tencent sells it per token on its Tencent Cloud TokenHub rate card and serves it itself as an FP8 endpoint. Context window 8,192 tokens with a 4,096-token maximum output, per Tencent's own model list.",
     "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
-    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching row — Hy-MT2-Lite at ¥0.3 in / ¥1.2 out per 1M tokens, the only row on that card that converts to these figures — at 6.78 CNY/USD. Tencent publishes no cached-input rate for this family.",
+    "vendor_sku": "Hy-MT2-Lite",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "fx_rate": 6.78,
+      "fx_date": "2026-08-20"
+    },
+    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model. Tencent's RMB rate card carries the matching row — Hy-MT2-Lite at ¥0.3 in / ¥1.2 out per 1M tokens, the only row on that card that converts to these figures — at 6.78 CNY/USD. Re-read against the card 2026-08-28, unchanged. Tencent publishes no cached-input rate for this family.",
     "tags": [
       "budget",
       "open-weights",
