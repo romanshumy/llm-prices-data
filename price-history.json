@@ -65061,7 +65061,7 @@
         "source": "verified",
         "confidence": "verified",
         "evidence_url": "https://example.test/rate-card",
-        "captured_at": "2026-09-09T20:11:06Z",
+        "captured_at": "2026-09-09T20:23:54Z",
         "snapshot": "data/evidence/openai-gpt-4-1/2026-09-09.txt",
         "sha": "d1ce8c4cc8"
       }
