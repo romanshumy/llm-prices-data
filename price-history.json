@@ -135440,12 +135440,40 @@
       },
       {
         "date": "2026-09-09",
-        "input_per_mtok": 0.075,
-        "output_per_mtok": 0.25,
-        "cached_input_per_mtok": 0.015,
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.5,
+        "cached_input_per_mtok": 0.03,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.075,
+            "new": 0.15,
+            "direction": "up",
+            "change_pct": 100.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 0.25,
+            "new": 0.5,
+            "direction": "up",
+            "change_pct": 100.0
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.015,
+            "new": 0.03,
+            "direction": "up",
+            "change_pct": 100.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-09T15:02:15Z",
+        "snapshot": "data/evidence/zhipu-glm-5-3-flash/2026-09-09.txt",
+        "sha": "aac79925f8"
       }
     ]
   },
