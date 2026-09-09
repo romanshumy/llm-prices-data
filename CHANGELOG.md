@@ -9,6 +9,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-09-09
 
+- **GPT-4.1** price change — input $2.00 → $4.00, output $8.00 → $16.00 per 1M tokens
 - **GLM-5.3-Flash** price change — input $0.075 → $0.15, output $0.25 → $0.50, cached input $0.015 → $0.03 per 1M tokens
 
 ## 2026-09-06

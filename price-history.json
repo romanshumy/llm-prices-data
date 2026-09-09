@@ -65037,12 +65037,33 @@
       },
       {
         "date": "2026-09-09",
-        "input_per_mtok": 2.0,
-        "output_per_mtok": 8.0,
+        "input_per_mtok": 4.0,
+        "output_per_mtok": 16.0,
         "cached_input_per_mtok": 0.5,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 2.0,
+            "new": 4.0,
+            "direction": "up",
+            "change_pct": 100.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 8.0,
+            "new": 16.0,
+            "direction": "up",
+            "change_pct": 100.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://example.test/rate-card",
+        "captured_at": "2026-09-09T20:11:06Z",
+        "snapshot": "data/evidence/openai-gpt-4-1/2026-09-09.txt",
+        "sha": "d1ce8c4cc8"
       }
     ]
   },
