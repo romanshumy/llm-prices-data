@@ -5392,6 +5392,97 @@
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
+    "id": "zhipu-glm-4-5-x",
+    "provider": "Z.AI",
+    "model": "GLM-4.5-X",
+    "category": "flagship",
+    "input_per_mtok": 2.2,
+    "output_per_mtok": 8.9,
+    "cached_input_per_mtok": 0.45,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-28",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "The high-performance, ultra-fast-response member of the GLM-4.5 series. $2.20/$8.90 per 1M; cached input $0.45 — the most expensive per-token SKU on Z.AI's own rate card.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "flagship",
+      "fast",
+      "caching"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-4-5-airx",
+    "provider": "Z.AI",
+    "model": "GLM-4.5-AirX",
+    "category": "mid-tier",
+    "input_per_mtok": 1.1,
+    "output_per_mtok": 4.5,
+    "cached_input_per_mtok": 0.22,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-28",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "The ultra-fast-response serving of GLM-4.5-Air. $1.10/$4.50 per 1M; cached input $0.22 — 5.5x the price of plain GLM-4.5-Air for the same lightweight model.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "fast",
+      "caching"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-4-5-flash",
+    "provider": "Z.AI",
+    "model": "GLM-4.5-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.0,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": 0.0,
+    "promo": true,
+    "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-07-28",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Free GLM-4.5-series flash model from Z.AI — $0/$0 per 1M tokens (genuinely free, not a data error). Limited-time free tier with no published end date.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "free"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
     "id": "zhipu-glm-4-6",
     "provider": "Z.AI",
     "model": "GLM-4.6",
@@ -5445,6 +5536,102 @@
     ],
     "last_updated": "2026-06-25",
     "status_verified": "2026-08-09",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-4-6v-flashx",
+    "provider": "Z.AI",
+    "model": "GLM-4.6V-FlashX",
+    "category": "budget",
+    "input_per_mtok": 0.04,
+    "output_per_mtok": 0.4,
+    "cached_input_per_mtok": 0.004,
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-12-08",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "The fast, cheap serving of GLM-4.6V. $0.04/$0.40 per 1M; cached input $0.004 — the cheapest vision input on Z.AI's rate card. 128K context per Z.AI's own GLM-4.6V page.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "multimodal",
+      "fast",
+      "caching"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-4-6v-flash",
+    "provider": "Z.AI",
+    "model": "GLM-4.6V-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.0,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": 0.0,
+    "promo": true,
+    "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
+    "context_window": 128000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-12-08",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Free GLM-4.6V-series vision model from Z.AI — $0/$0 per 1M tokens (genuinely free, not a data error). Limited-time free tier with no published end date. 128K context per Z.AI's own GLM-4.6V page.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "budget",
+      "multimodal",
+      "free"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-4-5v",
+    "provider": "Z.AI",
+    "model": "GLM-4.5V",
+    "category": "mid-tier",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 1.8,
+    "cached_input_per_mtok": 0.11,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2025-08-11",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "106B (A12B)",
+    "description": "Z.AI's 100B-scale open-source vision reasoning model — 106B total / 12B activated, covering image, video, document understanding, visual grounding and GUI-agent tasks. $0.60/$1.80 per 1M; cached input $0.11. Context window is deliberately unpublished here: Z.AI's own GLM-4.5V page prints a Maximum Output of 16K but no context length, and the third-party catalogues disagree (OpenRouter and Novita both serve 65,536 while LiteLLM's first-party zai/ entry says 128,000), so we omit the field rather than publish a contested number.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "tags": [
+      "open-weights",
+      "mid-tier",
+      "multimodal",
+      "caching"
+    ],
+    "last_updated": "2026-09-10",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {

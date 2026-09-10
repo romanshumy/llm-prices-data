@@ -138815,5 +138815,131 @@
         "changes": []
       }
     ]
+  },
+  "zhipu-glm-4-5-x": {
+    "model": "GLM-4.5-X",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 2.2,
+        "output_per_mtok": 8.9,
+        "cached_input_per_mtok": 0.45,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:04:49Z",
+        "snapshot": "data/evidence/zhipu-glm-4-5-x/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
+  },
+  "zhipu-glm-4-5-airx": {
+    "model": "GLM-4.5-AirX",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 1.1,
+        "output_per_mtok": 4.5,
+        "cached_input_per_mtok": 0.22,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:04:55Z",
+        "snapshot": "data/evidence/zhipu-glm-4-5-airx/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
+  },
+  "zhipu-glm-4-5-flash": {
+    "model": "GLM-4.5-Flash",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.0,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": 0.0,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:05:01Z",
+        "snapshot": "data/evidence/zhipu-glm-4-5-flash/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
+  },
+  "zhipu-glm-4-6v-flashx": {
+    "model": "GLM-4.6V-FlashX",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.04,
+        "output_per_mtok": 0.4,
+        "cached_input_per_mtok": 0.004,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:05:16Z",
+        "snapshot": "data/evidence/zhipu-glm-4-6v-flashx/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
+  },
+  "zhipu-glm-4-6v-flash": {
+    "model": "GLM-4.6V-Flash",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.0,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": 0.0,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:05:23Z",
+        "snapshot": "data/evidence/zhipu-glm-4-6v-flash/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
+  },
+  "zhipu-glm-4-5v": {
+    "model": "GLM-4.5V",
+    "provider": "Z.AI",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.6,
+        "output_per_mtok": 1.8,
+        "cached_input_per_mtok": 0.11,
+        "context_window": null,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.z.ai/guides/overview/pricing",
+        "captured_at": "2026-09-10T13:05:09Z",
+        "snapshot": "data/evidence/zhipu-glm-4-5v/2026-09-10.txt",
+        "sha": "7596a14ff6"
+      }
+    ]
   }
 }

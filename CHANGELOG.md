@@ -7,6 +7,15 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-10
+
+- **GLM-4.5-X** (Z.AI) launched — $2.2 in / $8.9 out per 1M tokens
+- **GLM-4.5-AirX** (Z.AI) launched — $1.1 in / $4.5 out per 1M tokens
+- **GLM-4.5-Flash** (Z.AI) launched — $0.0 in / $0.0 out per 1M tokens
+- **GLM-4.6V-FlashX** (Z.AI) launched — $0.04 in / $0.4 out per 1M tokens
+- **GLM-4.6V-Flash** (Z.AI) launched — $0.0 in / $0.0 out per 1M tokens
+- **GLM-4.5V** (Z.AI) launched — $0.6 in / $1.8 out per 1M tokens
+
 ## 2026-09-09
 
 - **GLM-5.3-Flash** price change — input $0.075 → $0.15, output $0.25 → $0.50, cached input $0.015 → $0.03 per 1M tokens
