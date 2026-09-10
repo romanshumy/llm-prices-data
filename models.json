@@ -1549,6 +1549,42 @@
     "status_source": "https://docs.cohere.com/docs/models"
   },
   {
+    "id": "deepseek-v4-1-flash",
+    "provider": "DeepSeek",
+    "model": "DeepSeek V4.1 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.006,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-10",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "DeepSeek's first model on its new causal encoder-decoder architecture — a 552B-parameter MoE activating 8B parameters for input and 16B for output, with native visual understanding, a 1M-token context and 384K max output. Called as deepseek-flash, it replaces both V4 Flash and V4 Flash Vision Exp. $0.30/$1.20 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC, Monday to Friday); half that in every other hour.",
+    "availability_note": "Call it as deepseek-flash — that is the model name on DeepSeek's own rate card, where the MODEL VERSION column reads DeepSeek-V4.1-Flash. The retired names deepseek-v4-flash and deepseek-v4-flash-vision-exp are still accepted and route here, billed at this model's price. From 2026-09-14T04:00Z (12:00 Beijing) deepseek-v4-pro routes here too, until DeepSeek releases V4.1 Pro.",
+    "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
+    "tags": [
+      "fast",
+      "reasoning",
+      "multimodal",
+      "caching",
+      "budget"
+    ],
+    "featured": true,
+    "last_updated": "2026-09-10",
+    "source": "verified",
+    "released_source": "https://api-docs.deepseek.com/news/news260910",
+    "released_verified": "2026-09-10",
+    "status_verified": "2026-09-10",
+    "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
+    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.30 input (cache miss) / $0.006 input (cache hit) / $1.20 output per 1M tokens. Off-peak is exactly half: $0.15 / $0.003 / $0.60. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour, and all of Saturday and Sunday, is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those hours. Third-party catalogues that quote this model at $0.15/$0.60 per 1M are printing the OFF-PEAK tier, not a different rate card."
+  },
+  {
     "id": "deepseek-v4-flash",
     "provider": "DeepSeek",
     "model": "DeepSeek V4 Flash",
@@ -1561,24 +1597,28 @@
       "text"
     ],
     "released": "2026-04-24",
-    "status": "Current",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's fast, low-cost open-weight (MIT) MoE — 284B parameters (13B active) with a native 1M-token context and aggressive prompt caching. $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
+    "description": "Retired by DeepSeek on 2026-09-10, the day DeepSeek V4.1 Flash shipped. The deepseek-v4-flash model name is still accepted, but requests to it are served by DeepSeek V4.1 Flash and billed at the V4.1 Flash price, so any figure attributed to V4 Flash is what it last cost, not what you pay today. Last listed at $0.44/$1.32 per 1M tokens at peak.",
+    "availability_note": "Retired 2026-09-10. DeepSeek's own rate card says it in footnote (1): \"The legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are still accepted, but the corresponding models have been retired, their requests are served by the DeepSeek-V4.1-Flash model and billed at the Flash price.\" The same-day change log entry repeats it. So the slug still resolves and still bills, but neither the model behind it nor the price is this row's — a call routed today costs the V4.1 Flash rate ($0.30 input / $0.006 cached input / $1.20 output per 1M at peak, half that off-peak), not the $0.44/$0.014/$1.32 archived here. Successor: DeepSeek V4.1 Flash (deepseek-v4-1-flash). Third-party hosts still serve their own copies of V4 Flash weights at their own prices; those rows are unaffected by DeepSeek's first-party retirement.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "fast",
       "reasoning",
       "caching",
-      "budget"
+      "budget",
+      "retired"
     ],
-    "featured": true,
-    "last_updated": "2026-08-16",
+    "featured": false,
+    "last_updated": "2026-09-10",
+    "retired_on": "2026-09-10",
+    "superseded_by": "deepseek-v4-1-flash",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-16",
+    "status_verified": "2026-09-10",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28."
+    "price_note": "ARCHIVED first-party rate — what this model last cost, not what a call costs today. DeepSeek billed it at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak was exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour is off-peak. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28. On 2026-09-10 DeepSeek retired the model; the name now routes to DeepSeek V4.1 Flash and bills at that model's price."
   },
   {
     "id": "deepseek-v4-flash-vision-exp",
@@ -1594,26 +1634,29 @@
       "image"
     ],
     "released": "2026-08-21",
-    "status": "Preview",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "Vision-enabled variant of DeepSeek V4 Flash, adding image input while matching the base model on text. Same 1M-token context, 384K max output and prompt caching as V4 Flash, and priced identically: $0.44/$1.32 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
-    "availability_note": "DeepSeek labels this an experimental model in its own API docs and the SKU name carries the -exp suffix, so it is tracked as Preview rather than Current. It is nonetheless publicly callable and priced on DeepSeek's standard rate card, listed as a full column beside deepseek-v4-flash and deepseek-v4-pro with its own 2500-request concurrency limit.",
+    "description": "Retired by DeepSeek on 2026-09-10, twenty days after it shipped, when V4.1 Flash absorbed its vision support. The deepseek-v4-flash-vision-exp model name is still accepted, but requests to it are served by DeepSeek V4.1 Flash and billed at the V4.1 Flash price, so any figure attributed to this SKU is what it last cost, not what you pay today. Last listed at $0.44/$1.32 per 1M tokens at peak.",
+    "availability_note": "Retired 2026-09-10, after 20 days as a Preview SKU. DeepSeek's rate card footnote (1) names it directly: \"The legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are still accepted, but the corresponding models have been retired, their requests are served by the DeepSeek-V4.1-Flash model and billed at the Flash price.\" The same-day change log repeats it. The slug still resolves and still bills, but a call routed today costs the V4.1 Flash rate ($0.30 input / $0.006 cached input / $1.20 output per 1M at peak, half that off-peak), not the $0.44/$0.014/$1.32 archived here. Successor: DeepSeek V4.1 Flash (deepseek-v4-1-flash), which carries native visual understanding as a first-class feature rather than an experimental variant.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "fast",
       "multimodal",
       "caching",
-      "budget"
+      "budget",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-08-21",
+    "last_updated": "2026-09-10",
+    "retired_on": "2026-09-10",
+    "superseded_by": "deepseek-v4-1-flash",
     "source": "verified",
     "released_source": "https://api-docs.deepseek.com/quick_start/first_api_call",
     "released_verified": "2026-08-21",
-    "status_verified": "2026-08-21",
+    "status_verified": "2026-09-10",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "price_note": "DeepSeek bills this model at TWO rates depending on the hour, on the same schedule and at the same numbers as deepseek-v4-flash. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak is exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate. Image input bills at the same per-token rates once the image is tokenized; DeepSeek's rate card prints no separate per-image charge."
+    "price_note": "ARCHIVED first-party rate — what this model last cost, not what a call costs today. DeepSeek billed it at TWO rates depending on the hour, on the same schedule and at the same numbers as deepseek-v4-flash. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak was exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour is off-peak. Image input billed at the same per-token rates once the image was tokenized; DeepSeek's rate card printed no separate per-image charge. On 2026-09-10 DeepSeek retired the model; the name now routes to DeepSeek V4.1 Flash and bills at that model's price."
   },
   {
     "id": "deepseek-v4-pro",
@@ -1628,10 +1671,11 @@
       "text"
     ],
     "released": "2026-04-24",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). $1.32/$3.96 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC); half that in the 17 off-peak hours.",
+    "description": "DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes. Leads open models on world knowledge, math, and coding (~80.6% SWE-bench Verified, top open-weights). DeepSeek has announced its orderly retirement: from 2026-09-14T04:00Z the deepseek-v4-pro name routes to V4.1 Flash. Until then it is still served, at $1.32/$3.96 per 1M tokens at peak (01:00-04:00 and 06:00-10:00 UTC, Monday to Friday); half that in every other hour.",
+    "availability_note": "Announced end of life, dated by DeepSeek itself. Footnote (2) on the rate card, re-read 2026-09-10: \"After extensive testing, V4.1 Flash has comprehensively surpassed V4 Pro in performance, cost, speed, and total time, so we plan to retire V4 Pro in an orderly manner. From 12:00 Beijing Time on September 14, 2026, and until V4.1 Pro is released in the future, requests to deepseek-v4-pro will all be routed to V4.1 Flash and billed at the V4.1 Flash price.\" 12:00 Beijing is 2026-09-14T04:00:00Z. Until that instant the model is still served and still billed at the rates on this row, both re-confirmed unchanged on the same read. After it, the name resolves but the model behind it is V4.1 Flash, so this row flips to Retired on that date via a staged scheduled change. DeepSeek says V4.1 Pro will follow at some point but publishes no date for it.",
     "pricing_url": "https://api-docs.deepseek.com/quick_start/pricing",
     "tags": [
       "reasoning",
@@ -1639,12 +1683,33 @@
       "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-08-16",
+    "last_updated": "2026-09-10",
+    "shutdown_date": "2026-09-14",
+    "superseded_by": "deepseek-v4-1-flash",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-09-07",
+    "status_verified": "2026-09-10",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
-    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC; every other hour is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those seven hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87."
+    "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $1.32 input / $0.044 cached input / $3.96 output per 1M tokens. Off-peak is exactly half: $0.66 / $0.022 / $1.98. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour, and all of Saturday and Sunday, is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those hours. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.435 / $0.003625 / $0.87. These rates stop being purchasable at 2026-09-14T04:00Z, when DeepSeek routes the name to V4.1 Flash and bills at that model's price.",
+    "scheduled_price_change": {
+      "effective_at": "2026-09-14T04:00:00Z",
+      "announced_on": "2026-09-10",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "reason": "DeepSeek retires V4 Pro: from 12:00 Beijing Time on 2026-09-14 (= 04:00:00Z) requests to deepseek-v4-pro are all routed to V4.1 Flash and billed at the V4.1 Flash price. DeepSeek states an INSTANT, not a day, so the block is staged at that instant rather than at a publish slot. Verified on three of DeepSeek's own surfaces on 2026-09-10 — the rate card footnote (2), the same footnote on quick_start/first_api_call, and the 2026-09-10 change log entry — which agree on the wording and the time. This is a lifecycle flip, not a price move: the row's archived figures stay put because a Retired row's price is what it LAST cost.",
+      "decided_in": "MOD-1251",
+      "set": {
+        "status": "Retired",
+        "retired_on": "2026-09-14",
+        "tags": [
+          "reasoning",
+          "caching",
+          "mid-tier",
+          "retired"
+        ],
+        "description": "Retired by DeepSeek on 2026-09-14, when it routed the deepseek-v4-pro name to V4.1 Flash. Until then it was DeepSeek's open-weight (MIT) flagship — a 1.6T-parameter MoE (49B active) with a 1M-token context and thinking/non-thinking modes, leading open models on world knowledge, math and coding (~80.6% SWE-bench Verified). Last listed at $1.32/$3.96 per 1M tokens at peak, which is what it cost, not what a call costs today.",
+        "availability_note": "Retired 2026-09-14T04:00Z (12:00 Beijing), on the date DeepSeek announced in footnote (2) of its own rate card and in its 2026-09-10 change log: \"From 12:00 Beijing Time on September 14, 2026, and until V4.1 Pro is released in the future, requests to deepseek-v4-pro will all be routed to V4.1 Flash and billed at the V4.1 Flash price.\" The slug therefore still resolves and still bills, but the model behind it is DeepSeek V4.1 Flash and the rate is that model's, so any price or benchmark attributed to V4 Pro is now historical. A call routed today costs $0.30 input / $0.006 cached input / $1.20 output per 1M at peak, half that off-peak — not the $1.32/$0.044/$3.96 archived here. Successor: DeepSeek V4.1 Flash (deepseek-v4-1-flash). DeepSeek says a V4.1 Pro will follow but has published no date; if it ships under this name, this row is re-decided then, not now."
+      }
+    }
   },
   {
     "id": "fireworks-deepseek-v4-flash",

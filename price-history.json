@@ -138941,5 +138941,26 @@
         "sha": "7596a14ff6"
       }
     ]
+  },
+  "deepseek-v4-1-flash": {
+    "model": "DeepSeek V4.1 Flash",
+    "provider": "DeepSeek",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.006,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "captured_at": "2026-09-10T23:21:22Z",
+        "snapshot": "data/evidence/deepseek-v4-1-flash/2026-09-10.txt",
+        "sha": "34e56fb4e1"
+      }
+    ]
   }
 }

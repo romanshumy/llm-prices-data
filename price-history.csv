@@ -3353,6 +3353,7 @@ deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-09-07,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-09-08,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-09-09,snapshot,,0.08,0.28,
 deepinfra-qwen3-32b,Qwen3-32B,DeepInfra,2026-09-10,snapshot,,0.08,0.28,
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,DeepSeek,2026-09-10,new_model,verified,0.3,1.2,0.006
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-23,backfill,litellm-archive,0.14,0.28,
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-25,baseline,,0.14,0.28,0.0028
 deepseek-v4-flash,DeepSeek V4 Flash,DeepSeek,2026-06-29,snapshot,,0.14,0.28,0.0028

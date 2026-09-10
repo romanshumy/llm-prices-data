@@ -9,6 +9,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-09-10
 
+- **DeepSeek V4.1 Flash** (DeepSeek) launched — $0.3 in / $1.2 out per 1M tokens
 - **GLM-4.5-X** (Z.AI) launched — $2.2 in / $8.9 out per 1M tokens
 - **GLM-4.5-AirX** (Z.AI) launched — $1.1 in / $4.5 out per 1M tokens
 - **GLM-4.5-Flash** (Z.AI) launched — $0.0 in / $0.0 out per 1M tokens
