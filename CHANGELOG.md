@@ -21,6 +21,8 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-09-05
 
+- **Claude Opus 4** (Anthropic) launched — $15.0 in / $75.0 out per 1M tokens
+- **Claude Sonnet 4** (Anthropic) launched — $3.0 in / $15.0 out per 1M tokens
 - **GLM-5.3** (Together) launched — $1.4 in / $4.4 out per 1M tokens
 - **Muse Spark 1.3** (Meta) launched — $1.25 in / $4.25 out per 1M tokens
 

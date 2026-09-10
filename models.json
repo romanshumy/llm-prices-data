@@ -1047,6 +1047,39 @@
     "availability_note": "Retired from the Claude API 2026-08-05 (deprecated 2026-06-05). Partner platforms (Bedrock, Vertex) set their own retirement schedules and may still serve it."
   },
   {
+    "id": "anthropic-claude-opus-4",
+    "provider": "Anthropic",
+    "model": "Claude Opus 4",
+    "category": "flagship",
+    "input_per_mtok": 15.0,
+    "output_per_mtok": 75.0,
+    "cached_input_per_mtok": 1.5,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-05-22",
+    "status": "Retired",
+    "open_source": false,
+    "parameters": null,
+    "description": "Retired from the Claude API on 2026-06-15; requests to it now fail. The first Opus 4, priced at $15/$75 per 1M tokens. Use Opus 4.8 instead.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "retired"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-05",
+    "source": "first_party_card",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "status_verified": "2026-09-05",
+    "shutdown_date": null,
+    "retired_on": "2026-06-15",
+    "superseded_by": "anthropic-claude-opus-4-8",
+    "availability_note": "Retired from the Claude API 2026-06-15 (deprecated 2026-04-14). Anthropic's pricing card still lists the rate and marks it \"retired, except on Google Cloud\" — Bedrock is NOT in this row's exception list, unlike Opus 4.1 and Sonnet 4."
+  },
+  {
     "id": "anthropic-claude-opus-4-5",
     "provider": "Anthropic",
     "model": "Claude Opus 4.5",
@@ -1228,6 +1261,39 @@
     "source": "firecrawl_scrape",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing",
     "status_verified": "2026-08-09"
+  },
+  {
+    "id": "anthropic-claude-sonnet-4",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 4",
+    "category": "mid-tier",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.3,
+    "context_window": 200000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-05-22",
+    "status": "Retired",
+    "open_source": false,
+    "parameters": null,
+    "description": "Retired from the Claude API on 2026-06-15; requests to it now fail. The first Sonnet 4, priced at $3/$15 per 1M tokens. Use Sonnet 4.6 instead.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "mid-tier",
+      "retired"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-05",
+    "source": "first_party_card",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "status_verified": "2026-09-05",
+    "shutdown_date": null,
+    "retired_on": "2026-06-15",
+    "superseded_by": "anthropic-claude-sonnet-4-6",
+    "availability_note": "Retired from the Claude API 2026-06-15 (deprecated 2026-04-14). Anthropic's pricing card still lists the rate and marks it \"retired, except on Bedrock and Google Cloud\" — a wider exception list than Opus 4, which names Google Cloud only."
   },
   {
     "id": "anthropic-claude-sonnet-4-6",

@@ -1780,6 +1780,8 @@ anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-07,snapshot,,10.
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-08,snapshot,,10.0,50.0,0.25
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-09,snapshot,,10.0,50.0,0.25
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-10,snapshot,,10.0,50.0,0.25
+anthropic-claude-opus-4,Claude Opus 4,Anthropic,2026-09-05,new_model,verified,15.0,75.0,
+anthropic-claude-opus-4,Claude Opus 4,Anthropic,2026-09-10,snapshot,,15.0,75.0,1.5
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2025-08-11,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-23,backfill,litellm-archive,15.0,75.0,
 anthropic-claude-opus-4-1,Claude Opus 4.1,Anthropic,2026-06-25,baseline,,15.0,75.0,1.5
@@ -2213,6 +2215,8 @@ anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-09-07,snapshot,,5.0,25.0,0.
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-09-08,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-09-09,snapshot,,5.0,25.0,0.5
 anthropic-claude-opus-5,Claude Opus 5,Anthropic,2026-09-10,snapshot,,5.0,25.0,0.5
+anthropic-claude-sonnet-4,Claude Sonnet 4,Anthropic,2026-09-05,new_model,verified,3.0,15.0,
+anthropic-claude-sonnet-4,Claude Sonnet 4,Anthropic,2026-09-10,snapshot,,3.0,15.0,0.3
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2025-10-06,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-06-23,backfill,litellm-archive,3.0,15.0,
 anthropic-claude-sonnet-4-5,Claude Sonnet 4.5,Anthropic,2026-06-25,baseline,,3.0,15.0,0.3

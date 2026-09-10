@@ -138755,5 +138755,65 @@
         "changes": []
       }
     ]
+  },
+  "anthropic-claude-opus-4": {
+    "model": "Claude Opus 4",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 75.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+        "captured_at": "2026-09-05T18:04:01Z",
+        "snapshot": "data/evidence/anthropic-claude-opus-4/2026-09-05.txt",
+        "sha": "e3310d2553"
+      },
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 15.0,
+        "output_per_mtok": 75.0,
+        "cached_input_per_mtok": 1.5,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
+  },
+  "anthropic-claude-sonnet-4": {
+    "model": "Claude Sonnet 4",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-09-05",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": null,
+        "context_window": 200000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing.md",
+        "captured_at": "2026-09-05T18:04:04Z",
+        "snapshot": "data/evidence/anthropic-claude-sonnet-4/2026-09-05.txt",
+        "sha": "87c1bc02b3"
+      },
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 3.0,
+        "output_per_mtok": 15.0,
+        "cached_input_per_mtok": 0.3,
+        "context_window": 200000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
   }
 }
