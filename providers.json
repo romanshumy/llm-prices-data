@@ -280,6 +280,7 @@
     "description": "Serverless inference platform serving 100+ open-weight models (DeepSeek, Llama, Qwen, Gemma, Mistral) at pay-per-token rates — one of the cheapest per-token hosts for open models. No subscription or minimums.",
     "url": "https://deepinfra.com/",
     "pricing_url": "https://deepinfra.com/pricing",
+    "affiliate_url": "https://deepinfra.com/",
     "logo_color": "#4f46e5",
     "founded": 2017
   },
