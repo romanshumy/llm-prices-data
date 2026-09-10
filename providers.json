@@ -342,5 +342,15 @@
     "pricing_url": "https://www.streamlake.com/product/kat-coder",
     "logo_color": "#1a4a25",
     "founded": 2011
+  },
+  {
+    "id": "inception",
+    "name": "Inception",
+    "type": "commercial",
+    "description": "Palo Alto lab building diffusion large language models (dLLMs), founded in 2024 by the Stanford, UCLA and Cornell researchers behind the diffusion-model line of work. Its Mercury family generates and refines many tokens in parallel by iterative denoising rather than decoding left to right, which Inception sells on latency. Mercury 2 is sold first-party at $0.25/1M input and $0.75/1M output; Mercury 2.5 lists at $0.20/1M input and $0.75/1M output and is currently on an undated 80%-off promotion.",
+    "url": "https://www.inceptionlabs.ai/",
+    "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "logo_color": "#2c9af2",
+    "founded": 2024
   }
 ]

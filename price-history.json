@@ -138725,5 +138725,35 @@
         "changes": []
       }
     ]
+  },
+  "inception-mercury-2-5": {
+    "model": "Mercury 2.5",
+    "provider": "Inception",
+    "history": [
+      {
+        "date": "2026-09-08",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 0.75,
+        "cached_input_per_mtok": null,
+        "context_window": 260000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.inceptionlabs.ai/get-started/models",
+        "captured_at": "2026-09-08T21:28:33Z",
+        "snapshot": "data/evidence/inception-mercury-2-5/2026-09-08.txt",
+        "sha": "ce0e61a51b"
+      },
+      {
+        "date": "2026-09-10",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 0.75,
+        "cached_input_per_mtok": 0.02,
+        "context_window": 260000,
+        "event": "snapshot",
+        "changes": []
+      }
+    ]
   }
 }

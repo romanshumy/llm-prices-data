@@ -839,7 +839,25 @@
     "shutdown_date": "2026-09-14",
     "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
     "status_verified": "2026-09-09",
-    "availability_note": "Bedrock Legacy since 2026-03-13; AWS gives amazon.nova-premier-v1:0 an end-of-life date of 2026-09-14 in us-east-1, us-east-2 and us-west-2, after which requests to it fail. Re-read 2026-09-09 against two AWS surfaces and the date has not moved: the lifecycle table still shows EOL September 14, 2026, and the Nova Premier model card reads \"Model EOL date: September 14, 2026\" and \"Model lifecycle: Legacy\". Our citation changed, not the fact — on 2026-09-07 AWS split its lifecycle policy in two, and every model launched before that date, this one included, moved to the \"Model lifecycle (Legacy)\" page we now link; the old URL no longer carries the table at all. Two things AWS still does NOT say. First, this row's public-extended-access start date is empty — AI21, Anthropic, Cohere and TwelveLabs rows in the same table all carry one — so the higher extended-access pricing AWS describes for Legacy models has not been announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue currently offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship — so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation."
+    "availability_note": "Bedrock Legacy since 2026-03-13; AWS gives amazon.nova-premier-v1:0 an end-of-life date of 2026-09-14 in us-east-1, us-east-2 and us-west-2, after which requests to it fail. Re-read 2026-09-09 against two AWS surfaces and the date has not moved: the lifecycle table still shows EOL September 14, 2026, and the Nova Premier model card reads \"Model EOL date: September 14, 2026\" and \"Model lifecycle: Legacy\". Our citation changed, not the fact — on 2026-09-07 AWS split its lifecycle policy in two, and every model launched before that date, this one included, moved to the \"Model lifecycle (Legacy)\" page we now link; the old URL no longer carries the table at all. Two things AWS still does NOT say. First, this row's public-extended-access start date is empty — AI21, Anthropic, Cohere and TwelveLabs rows in the same table all carry one — so the higher extended-access pricing AWS describes for Legacy models has not been announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue currently offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship — so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation.",
+    "scheduled_price_change": {
+      "effective_at": "2026-09-14T09:00:00Z",
+      "announced_on": "2026-09-09",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "reason": "AWS end-of-life for amazon.nova-premier-v1:0 (Bedrock Legacy since 2026-03-13): Deprecated -> Retired on the vendor's date. AWS publishes a day, not an instant, and the regions it names are US, so the flip is staged at the first publish slot of that day UTC (09:00Z = 02:00 PDT / 05:00 EDT) rather than at 00:00Z, which is still the 13th in every one of them.",
+      "decided_in": "MOD-774",
+      "set": {
+        "status": "Retired",
+        "retired_on": "2026-09-14",
+        "tags": [
+          "flagship",
+          "multimodal",
+          "retired"
+        ],
+        "description": "Retired from Amazon Bedrock on 2026-09-14, the end-of-life date AWS set for amazon.nova-premier-v1:0 in us-east-1, us-east-2 and us-west-2; requests to it now fail. AWS named no replacement. Last listed at $2.50/$12.50 per 1M tokens.",
+        "availability_note": "AWS retired amazon.nova-premier-v1:0 on 2026-09-14: the model had been Bedrock Legacy since 2026-03-13, and both AWS surfaces re-read on 2026-09-09 — the Model lifecycle (Legacy) table and the Nova Premier model card (\"Model EOL date: September 14, 2026\") — carried that date unchanged, so the flip was scheduled to land on it. Two things AWS never said. First, this row's public-extended-access start date stayed empty, so the higher extended-access pricing AWS describes for Legacy models was never announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it — what the model last cost, not a rate you can buy today. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship, so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation."
+      }
+    }
   },
   {
     "id": "amazon-nova-pro",
@@ -2759,6 +2777,37 @@
     "source": "verified",
     "status_verified": "2026-09-02",
     "status_source": "https://api.inceptionlabs.ai/v1/models"
+  },
+  {
+    "id": "inception-mercury-2-5",
+    "provider": "Inception",
+    "model": "Mercury 2.5",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 0.75,
+    "cached_input_per_mtok": 0.02,
+    "promo": true,
+    "price_note": "These are Inception's LIST prices, per 1M tokens. Mercury 2.5 is currently on an 80%-off promotion, so the rate you actually pay today is $0.04 input / $0.15 output / $0.004 cached input. Inception has not published an end date for the promotion, so we track the list price — the rate the model reverts to — rather than a discounted number that could expire without notice. Inception's own rate card shows both, listing Mercury 2.5 at $0.20 input / $0.02 cached / $0.75 output struck through, alongside the discounted prices. Inception's launch announcement states the same standard pricing of $0.20 / $0.75 per 1M tokens and describes $0.04 / $0.15 as a launch discount. Verified 2026-09-08.",
+    "context_window": 260000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-09-08",
+    "released_source": "https://openrouter.ai/api/v1/models/inception/mercury-2.5/endpoints",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Inception's second-generation diffusion large language model (dLLM), succeeding Mercury 2. Rather than decoding left to right, Mercury 2.5 produces and refines many tokens in parallel by iterative denoising, and adds explicit reasoning-effort control on top of the tool calling and structured outputs Mercury 2 already had. 260K context, 65,536 max output. List price $0.20 / $0.75 per 1M tokens, currently discounted 80% to $0.04 / $0.15 on an undated promotion.",
+    "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "tags": [
+      "budget",
+      "fast",
+      "reasoning"
+    ],
+    "last_updated": "2026-09-08",
+    "source": "verified",
+    "status_verified": "2026-09-08",
+    "status_source": "https://docs.inceptionlabs.ai/get-started/models"
   },
   {
     "id": "meta-llama-3-1-8b",

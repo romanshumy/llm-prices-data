@@ -11,6 +11,10 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **GLM-5.3-Flash** price change — input $0.075 → $0.15, output $0.25 → $0.50, cached input $0.015 → $0.03 per 1M tokens
 
+## 2026-09-08
+
+- **Mercury 2.5** (Inception) launched — $0.2 in / $0.75 out per 1M tokens
+
 ## 2026-09-06
 
 - **DeepSeek V4 Pro** price change — input $1.74 → $1.32, output $3.48 → $3.96, cached input $0.20 → $0.13 per 1M tokens
