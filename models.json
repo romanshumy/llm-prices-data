@@ -3510,8 +3510,8 @@
     "provider": "Mistral",
     "model": "Pixtral 12B",
     "category": "open-weights",
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.1,
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.15,
     "cached_input_per_mtok": null,
     "context_window": 128000,
     "modality": [
@@ -3522,14 +3522,14 @@
     "status": "Retired",
     "open_source": true,
     "parameters": "12B",
-    "description": "Multimodal vision model. $0.10/$0.10 per 1M tokens — very affordable.",
+    "description": "Multimodal vision model. $0.15/$0.15 per 1M tokens — very affordable.",
     "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "open-weights",
       "multimodal",
       "retired"
     ],
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-09-11",
     "retired_on": "2025-12-31",
     "status_source": "https://docs.mistral.ai/models/overview",
     "status_verified": "2026-07-25",

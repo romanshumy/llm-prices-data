@@ -60668,12 +60668,26 @@
       },
       {
         "date": "2026-09-11",
-        "input_per_mtok": 0.1,
-        "output_per_mtok": 0.1,
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.15,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "correction",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://web.archive.org/web/20250706091447/https://mistral.ai/pricing",
+        "captured_at": "2026-09-11T10:34:03Z",
+        "snapshot": "data/evidence/mistral-pixtral-12b/2026-09-11.txt",
+        "sha": "00bdad54cd",
+        "supersedes_from": "2026-06-25",
+        "supersedes_to": "2026-09-11",
+        "corrected_from": {
+          "input_per_mtok": 0.1,
+          "output_per_mtok": 0.1
+        },
+        "correction_ref": "MOD-1271",
+        "note": "Published $0.10/$0.10 was never a Mistral price: it entered at the 2026-06-25 hand baseline and carried forward for 78 days. Mistral's own pricing page lists Pixtral 12B (api endpoint pixtral-12b) at $0.15 in / $0.15 out under Open models in every archived capture read from 2025-05-25 through 2025-12-31 - the last capture before the SKU was retired from the Mistral API on 2025-12-31 still prints $0.15/$0.15, so $0.15/$0.15 is the archival last first-party rate. Corroborated three ways: LiteLLM's DATED mistral/pixtral-12b-2409 entry carries $0.15/$0.15 with deprecation_date 2025-12-31 == our retired_on; the Vercel AI Gateway pass-through (vercel_ai_gateway/mistral/pixtral-12b) carries $0.15/$0.15; and this row's own litellm-archive backfill points (2024-10-03 and 2026-06-23) both read $0.15/$0.15, i.e. the reference catalog never carried $0.10 either. Positive control on the same captures: the sibling Pixtral Large row reads $2/$6, exactly what we already publish. Data correction, not a market move - Mistral did not raise this price on 2026-09-11; the SKU has been retired since 2025-12-31. Supersedes the wrong baseline and carried-forward span."
       }
     ]
   },

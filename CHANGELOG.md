@@ -9,6 +9,8 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-09-11
 
+- **Pixtral 12B** data correction — input $0.10 → $0.15, output $0.10 → $0.15 per 1M tokens
+  - Published $0.10/$0.10 was never a Mistral price: it entered at the 2026-06-25 hand baseline and carried forward for 78 days. Mistral's own pricing page lists Pixtral 12B (api endpoint pixtral-12b) at $0.15 in / $0.15 out under Open models in every archived capture read from 2025-05-25 through 2025-12-31 - the last capture before the SKU was retired from the Mistral API on 2025-12-31 still prints $0.15/$0.15, so $0.15/$0.15 is the archival last first-party rate. Corroborated three ways: LiteLLM's DATED mistral/pixtral-12b-2409 entry carries $0.15/$0.15 with deprecation_date 2025-12-31 == our retired_on; the Vercel AI Gateway pass-through (vercel_ai_gateway/mistral/pixtral-12b) carries $0.15/$0.15; and this row's own litellm-archive backfill points (2024-10-03 and 2026-06-23) both read $0.15/$0.15, i.e. the reference catalog never carried $0.10 either. Positive control on the same captures: the sibling Pixtral Large row reads $2/$6, exactly what we already publish. Data correction, not a market move - Mistral did not raise this price on 2026-09-11; the SKU has been retired since 2025-12-31. Supersedes the wrong baseline and carried-forward span.
 - **Qwen3.7-Max** price change — input $1.25 → $2.00, output $3.75 → $6.00, cached input $0.13 → $0.25 per 1M tokens
 - **Solar Pro 4** price change — input $0.03 → $0.09, output $0.12 → $0.36, cached input $0.006 → $0.018 per 1M tokens
 - **Fugu Max** (Sakana AI) launched — $2.0 in / $6.0 out per 1M tokens
