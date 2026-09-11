@@ -7217,6 +7217,22 @@
     "price_note": "Promotional pricing, per 1M tokens. Upstage's rate card (upstage.ai/pricing/api) prints the standard price struck through beside the current one: standard input $0.30, cached input $0.06, output $1.20. The tracked figures are the CURRENT EFFECTIVE discounted rates, $0.09/$0.018/$0.36 — exactly 70% off each standard figure. Verified 2026-09-09 against two live reads: the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06) runs 90% off to 2026-09-11, then this 70% window to 2026-10-10, after which the standard $0.30/$0.06/$1.20 applies. This window was staged as a scheduled_price_change on 2026-09-09 and landed on the vendor's own date, so the number was never stale; the 2026-10-10 reversion to list price is tracked separately. Upstage lists all prices exclusive of 10% VAT.",
     "promo": true,
     "promo_until": "2026-10-09",
+    "scheduled_price_change": {
+      "effective_at": "2026-10-10T00:00:00Z",
+      "announced_on": "2026-09-11",
+      "source_url": "https://www.upstage.ai/pricing/api",
+      "reason": "Solar Pro 4 launch promotion ends; pricing reverts to Upstage's standard list rate",
+      "decided_in": "MOD-1198",
+      "set": {
+        "input_per_mtok": 0.3,
+        "cached_input_per_mtok": 0.06,
+        "output_per_mtok": 1.2,
+        "promo": false,
+        "promo_until": null,
+        "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Priced at Upstage's standard list rate of $0.30/$1.20 per 1M tokens since Oct 10 2026, when the launch promotion ended.",
+        "price_note": "Standard list pricing, per 1M tokens: input $0.30, cached input $0.06, output $1.20 — the figures Upstage's rate card (upstage.ai/pricing/api) carries in its own markup, no longer struck through. The launch promotion ran as three windows on the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06): free to 2026-08-11, then 90% off to 2026-09-11, then 70% off to 2026-10-10. Each end boundary is exclusive, so the last discounted day was 2026-10-09 and the standard rate applies from 2026-10-10. Re-verified 2026-09-11 against two byte-identical live reads of the page: the schedule was unchanged from the 2026-09-09 reading, with no fourth window and no extension. The vendor's older v1.2 phase table, still present in the page source but disabled inside an HTML comment, says standard pricing resumes 2026-10-11; that sentence is stale and must not be read — the live v3.1 renderer derives its footnote from the schedule with an exclusive end boundary and prints \"Standard pricing applies from 2026-10-10 (UTC)\". This reversion was staged as a scheduled_price_change on 2026-09-11 and landed on the vendor's own date, so the number was never stale. Upstage lists all prices exclusive of 10% VAT."
+      }
+    },
     "tags": [
       "mid-tier",
       "reasoning",
