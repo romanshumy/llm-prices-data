@@ -7200,9 +7200,9 @@
     "provider": "Upstage",
     "model": "Solar Pro 4",
     "category": "mid-tier",
-    "input_per_mtok": 0.03,
-    "output_per_mtok": 0.12,
-    "cached_input_per_mtok": 0.006,
+    "input_per_mtok": 0.09,
+    "output_per_mtok": 0.36,
+    "cached_input_per_mtok": 0.018,
     "context_window": 524288,
     "modality": [
       "text"
@@ -7212,27 +7212,11 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Launch pricing is $0.03/$0.12 per 1M tokens (90% off) through Sep 10 2026; the discount then steps down to 70% off ($0.09/$0.36) from Sep 11 2026 through Oct 9 2026, and Upstage's standard list price of $0.30/$1.20 applies from Oct 10 2026.",
+    "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Promotional pricing is $0.09/$0.36 per 1M tokens (70% off) through Oct 9 2026; it reverts to Upstage's standard list price of $0.30/$1.20 on Oct 10 2026.",
     "pricing_url": "https://www.upstage.ai/pricing/api",
-    "price_note": "Launch/intro pricing, per 1M tokens. Upstage's rate card (upstage.ai/pricing/api) prints the standard price struck through beside the current one: standard input $0.30, cached input $0.06, output $1.20. The tracked figures are the CURRENT EFFECTIVE discounted rates, $0.03/$0.006/$0.12. Re-verified 2026-09-09 against two live reads of the page: the discount is NOT a single window that lapses into the list price. Upstage replatformed the mechanism on 2026-09-06 (renderer \"Pricing promo phases - CMS driven, multi-window\", v3.1) and the schedule now lives in first-class DOM on the card (data-promo=\"schedule\") as three windows: free to 2026-08-11; 90% off $0.03/$0.006/$0.12 to 2026-09-11; then 70% off $0.09/$0.018/$0.36 to 2026-10-10, after which the standard $0.30/$0.06/$1.20 applies. So 2026-09-11 is a STEP-DOWN in discount, not a reversion — the rendered footnote states \"90% off until 2026-09-10 (UTC). 70% off applies from 2026-09-11 (UTC)\", and each 70% figure is exactly 0.30x the standard column. The vendor's older v1.2 phase table, which said standard pricing resumed on 2026-09-11, is still present in the page source but is disabled inside an HTML comment and must not be read; v3.1's own changelog calls that sentence a bug. The 2026-09-11 step-down is staged as scheduled_price_change; the 2026-10-10 reversion to list is tracked separately. Upstage's launch post adds that the same discount runs on \"Upstage Console and OpenRouter\", which is why the gateway number also sits well under the standard list price and must not be read as one. Upstage lists all prices exclusive of 10% VAT.",
+    "price_note": "Promotional pricing, per 1M tokens. Upstage's rate card (upstage.ai/pricing/api) prints the standard price struck through beside the current one: standard input $0.30, cached input $0.06, output $1.20. The tracked figures are the CURRENT EFFECTIVE discounted rates, $0.09/$0.018/$0.36 — exactly 70% off each standard figure. Verified 2026-09-09 against two live reads: the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06) runs 90% off to 2026-09-11, then this 70% window to 2026-10-10, after which the standard $0.30/$0.06/$1.20 applies. This window was staged as a scheduled_price_change on 2026-09-09 and landed on the vendor's own date, so the number was never stale; the 2026-10-10 reversion to list price is tracked separately. Upstage lists all prices exclusive of 10% VAT.",
     "promo": true,
-    "promo_until": "2026-09-10",
-    "scheduled_price_change": {
-      "effective_at": "2026-09-11T00:00:00Z",
-      "announced_on": "2026-09-09",
-      "source_url": "https://www.upstage.ai/pricing/api",
-      "reason": "Solar Pro 4 launch discount steps down from 90% off to 70% off",
-      "decided_in": "MOD-704",
-      "set": {
-        "input_per_mtok": 0.09,
-        "cached_input_per_mtok": 0.018,
-        "output_per_mtok": 0.36,
-        "promo": true,
-        "promo_until": "2026-10-09",
-        "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Promotional pricing is $0.09/$0.36 per 1M tokens (70% off) through Oct 9 2026; it reverts to Upstage's standard list price of $0.30/$1.20 on Oct 10 2026.",
-        "price_note": "Promotional pricing, per 1M tokens. Upstage's rate card (upstage.ai/pricing/api) prints the standard price struck through beside the current one: standard input $0.30, cached input $0.06, output $1.20. The tracked figures are the CURRENT EFFECTIVE discounted rates, $0.09/$0.018/$0.36 — exactly 70% off each standard figure. Verified 2026-09-09 against two live reads: the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06) runs 90% off to 2026-09-11, then this 70% window to 2026-10-10, after which the standard $0.30/$0.06/$1.20 applies. This window was staged as a scheduled_price_change on 2026-09-09 and landed on the vendor's own date, so the number was never stale; the 2026-10-10 reversion to list price is tracked separately. Upstage lists all prices exclusive of 10% VAT."
-      }
-    },
+    "promo_until": "2026-10-09",
     "tags": [
       "mid-tier",
       "reasoning",
@@ -7240,7 +7224,7 @@
       "long-context"
     ],
     "featured": false,
-    "last_updated": "2026-09-09",
+    "last_updated": "2026-09-11",
     "source": "verified",
     "status_verified": "2026-09-09",
     "status_source": "https://www.upstage.ai/pricing/api"

@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-11
+
+- **Solar Pro 4** price change — input $0.03 → $0.09, output $0.12 → $0.36, cached input $0.006 → $0.018 per 1M tokens
+
 ## 2026-09-10
 
 - **DeepSeek V4.1 Flash** (DeepSeek) launched — $0.3 in / $1.2 out per 1M tokens
