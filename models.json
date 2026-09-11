@@ -7107,8 +7107,8 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Sakana AI's frontier orchestration model — a multi-agent system served as a single OpenAI-compatible model that routes each request across a pool of expert LLMs, including recursive calls to itself. Pricing is context-tiered rather than flat: $5.00/$30.00 per 1M tokens at or below 272K context with cached input at $0.50, rising to $10 / $45 / $1.00 above 272K. One fixed rate covers both fugu-ultra-v1.1 and fugu-ultra-v1.0.",
-    "price_note": "Sakana AI Token Plan (pay-as-you-go) list price, per 1M tokens. The published rate is CONTEXT-TIERED, not flat: the tracked $5.00 input, $30.00 output and $0.50 cached input apply at or below 272K context, and the vendor lists $10 input, $45 output and $1.00 cached above it — so a long-context request bills at 2x the tracked input rate and 1.5x the tracked output rate. The monthly subscription tiers (Standard $20, Pro $100, Max $200) bundle usage allowances rather than per-token rates and are not the list price. Sibling SKUs are deliberately not tracked here: plain Fugu has no fixed rate of its own (it bills at the standard rate of whichever underlying model it routes to) and Fugu Cyber is contact-sales. Sakana states the service is not offered to users in EU or EEA member states.",
+    "description": "Sakana AI's frontier orchestration model — a multi-agent system served as a single OpenAI-compatible model that routes each request across a pool of expert LLMs, including recursive calls to itself. Pricing is context-tiered rather than flat: $5.00/$30.00 per 1M tokens at or below 272K context with cached input at $0.50, rising to $10 / $45 / $1.00 above 272K. The card pins this one fixed rate to the current version — fugu-ultra-v2.0 since 2026-09-11 (previously it covered fugu-ultra-v1.1 and v1.0) — so a version bump is a restatement of the same tracked product, not a new SKU.",
+    "price_note": "Sakana AI Token Plan (pay-as-you-go) list price, per 1M tokens. The published rate is CONTEXT-TIERED, not flat: the tracked $5.00 input, $30.00 output and $0.50 cached input apply at or below 272K context, and the vendor lists $10 input, $45 output and $1.00 cached above it — so a long-context request bills at 2x the tracked input rate and 1.5x the tracked output rate. The monthly subscription tiers (Standard $20, Pro $100, Max $200) bundle usage allowances rather than per-token rates and are not the list price. Sibling SKUs deliberately not tracked here: plain Fugu has no fixed rate of its own (it bills at the standard rate of whichever underlying model it routes to) and Fugu Cyber is contact-sales; Fugu Max is tracked separately as sakana-fugu-max. Sakana states the service is not offered to users in EU or EEA member states.",
     "pricing_url": "https://sakana.ai/fugu/",
     "tags": [
       "flagship",
@@ -7118,17 +7118,59 @@
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-08-07",
+    "last_updated": "2026-09-11",
     "source": "verified",
-    "status_verified": "2026-09-07",
+    "status_verified": "2026-09-11",
     "status_source": "https://sakana.ai/fugu/",
     "product_kind": {
       "kind": "orchestrator",
       "quote": "We never stack model fees; you are charged a single rate based on the top tier model involved.",
       "source": "https://sakana.ai/fugu/",
-      "verified_on": "2026-08-07",
+      "verified_on": "2026-09-11",
       "falsifier": "Sakana lists a per-token rate for a model it serves on its OWN inference, priced independently of whichever third-party model a request routes to. On that day this block is false, must be removed, and the row re-enters Price Index basket candidacy. Re-read the rate card at the source URL: if the price is still set by 'the top tier model involved', the block still holds.",
       "decided_in": "MOD-609"
+    }
+  },
+  {
+    "id": "sakana-fugu-max",
+    "provider": "Sakana AI",
+    "model": "Fugu Max",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 6.0,
+    "cached_input_per_mtok": 0.25,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-11",
+    "released_source": "https://sakana.ai/fugu/",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Sakana AI's cost-performance orchestration model — the same learned multi-agent architecture as Fugu Ultra, served as a single OpenAI-compatible model, positioned by Sakana as 40-60% cheaper on output than Sonnet 5, GPT 5.6 Terra and Kimi K3. Unlike Fugu Ultra's context-tiered card, Fugu Max prices flat regardless of context length: $2.00/$6.00 per 1M tokens with cached input at $0.25. Released 2026-09-11 alongside the fugu-ultra-v2.0 version bump.",
+    "price_note": "Sakana AI Token Plan (pay-as-you-go) list price, per 1M tokens, flat at any context length — the card states 'Fixed rates regardless of context length', unlike the context-tiered Fugu Ultra. web_search and web_fetch tool calls are billed separately at $0.007 per call and are not part of the per-token rate. The monthly subscription tiers (Standard $20, Pro $100, Max $200) bundle usage allowances rather than per-token rates and are not the list price. Sakana states the service is not offered to users in EU or EEA member states.",
+    "pricing_url": "https://sakana.ai/fugu/",
+    "tags": [
+      "mid-tier",
+      "reasoning",
+      "agentic",
+      "caching",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-11",
+    "source": "verified",
+    "status_verified": "2026-09-11",
+    "status_source": "https://sakana.ai/fugu/",
+    "product_kind": {
+      "kind": "orchestrator",
+      "quote": "We never stack model fees; you are charged a single rate based on the top tier model involved.",
+      "source": "https://sakana.ai/fugu/",
+      "verified_on": "2026-09-11",
+      "falsifier": "Sakana lists a per-token rate for a model it serves on its OWN inference, priced independently of whichever third-party model a request routes to. On that day this block is false, must be removed, and the row re-enters Price Index basket candidacy. Re-read the rate card at the source URL: if the price is still set by 'the top tier model involved', the block still holds.",
+      "decided_in": "MOD-1266"
     }
   },
   {

@@ -141312,5 +141312,26 @@
         "changes": []
       }
     ]
+  },
+  "sakana-fugu-max": {
+    "model": "Fugu Max",
+    "provider": "Sakana AI",
+    "history": [
+      {
+        "date": "2026-09-11",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": 0.25,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://sakana.ai/fugu/",
+        "captured_at": "2026-09-11T09:44:19Z",
+        "snapshot": "data/evidence/sakana-fugu-max/2026-09-11.txt",
+        "sha": "9306808889"
+      }
+    ]
   }
 }
