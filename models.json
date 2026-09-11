@@ -2941,6 +2941,35 @@
     "status_source": "https://docs.inceptionlabs.ai/get-started/models"
   },
   {
+    "id": "inception-mercury-edit-2",
+    "provider": "Inception",
+    "model": "Mercury Edit 2",
+    "category": "coding",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 0.75,
+    "cached_input_per_mtok": 0.025,
+    "promo": false,
+    "price_note": "Inception's own rate card at docs.inceptionlabs.ai/get-started/models prices Mercury Edit 2 at $0.25 input / $0.025 cached input / $0.75 output per 1M tokens, in a table headed \"Input Price (1M Tokens)\", so the per-1M basis is the one the vendor declares. Unlike the Mercury 2.5 row on the same card, this row carries no strikethrough and no discount marker: the 80%-off banner on that page names Mercury 2.5 only, so these are plain list prices and not a promotional rate. Confirmed on a second first-party surface the same day: the API's edit- and FIM-scoped model lists (api.inceptionlabs.ai/v1/edit/completions/models and /v1/fim/completions/models) both serve mercury-edit-2 at prompt 0.00000025 and completion 0.00000075 per TOKEN with input_cache_reads 0.000000025 and cache writes free, which is the same $0.25 / $0.025 / $0.75 per 1M. The chat-scoped list at api.inceptionlabs.ai/v1/models does NOT carry this SKU — it lists Mercury 2 and Mercury 2.5 only — so that route's silence is about the endpoint it serves, not about the model. Verified 2026-09-11. Context window, on those same two surfaces, is the one field where they disagree, and we publish the rate card's figure: the card prints \"FIM: 32K / NextEdit: 32K\" with 8,192 max output tokens, stated per endpoint, while the model-list JSON reports context_length 128000 and max_output_length 32000. That JSON record reads as a template copied from Mercury 2 — 128000 is Mercury 2's exact window, its description is Mercury 2's text, and its created timestamp is byte-identical to the one served for Mercury 2.5, a model Inception launched on 2026-09-08 — so the card, which states a window per endpoint, is the more specific claim. None of the three prices is affected: both surfaces agree on all of them to the digit.",
+    "context_window": 32000,
+    "modality": [
+      "text"
+    ],
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Inception's diffusion code-editing model, sold on two endpoints rather than chat: fill-in-the-middle autocomplete and next-edit prediction. Like the rest of the Mercury family it generates by iterative denoising instead of left-to-right decoding, which is what buys the latency an inline IDE completion needs. 32K context on both endpoints, 8,192 max output tokens, no tool calling or structured outputs. $0.25 / $0.75 per 1M tokens, with cached input at $0.025.",
+    "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "tags": [
+      "budget",
+      "fast",
+      "coding"
+    ],
+    "last_updated": "2026-09-11",
+    "source": "verified",
+    "status_verified": "2026-09-11",
+    "status_source": "https://docs.inceptionlabs.ai/get-started/models"
+  },
+  {
     "id": "meta-llama-3-1-8b",
     "provider": "Meta",
     "model": "Llama 3.1 8B",

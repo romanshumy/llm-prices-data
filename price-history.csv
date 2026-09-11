@@ -6529,6 +6529,7 @@ inception-mercury-2,Mercury 2,Inception,2026-09-11,snapshot,,0.25,0.75,0.025
 inception-mercury-2-5,Mercury 2.5,Inception,2026-09-08,new_model,verified,0.2,0.75,
 inception-mercury-2-5,Mercury 2.5,Inception,2026-09-10,snapshot,,0.2,0.75,0.02
 inception-mercury-2-5,Mercury 2.5,Inception,2026-09-11,snapshot,,0.2,0.75,0.02
+inception-mercury-edit-2,Mercury Edit 2,Inception,2026-09-11,new_model,verified,0.25,0.75,0.025
 kwaipilot-kat-coder-air-v2-5,KAT-Coder-Air V2.5,Kwaipilot,2026-08-10,new_model,verified,0.148,0.593,
 kwaipilot-kat-coder-air-v2-5,KAT-Coder-Air V2.5,Kwaipilot,2026-08-11,snapshot,,0.148,0.593,0.03
 kwaipilot-kat-coder-air-v2-5,KAT-Coder-Air V2.5,Kwaipilot,2026-08-12,snapshot,,0.148,0.593,0.03
