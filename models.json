@@ -321,7 +321,13 @@
     "description": "Alibaba's current-generation Qwen3.7 mid tier on Model Studio. $0.40/$1.60 per 1M tokens up to 256K context; the 256K–1M tier is billed at $1.20/$4.80. Thinking and non-thinking modes bill at the same output rate. 1M-token context, text-only.",
     "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "promo": true,
-    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.20/$4.80). On a limited-time 20% off to $0.32 in / $1.28 out per 1M (list price tracked, as on alibaba-qwen3-7-max). Context-cache hits discount input only; no cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
+    "promo_price": {
+      "input_per_mtok": 0.32,
+      "output_per_mtok": 1.28,
+      "vendor_prints": "percent_only",
+      "vendor_prints_note": "Alibaba Model Studio prints \"List price $0.4 (Limited-time 20% off)\" and \"List price $1.6 (Limited-time 20% off)\" for the 0<Token<=256K tier; the discounted amounts themselves appear nowhere on the page (0 occurrences of 0.32 or 1.28, read live 2026-09-11). These figures are our own 20% arithmetic off the printed list, not a vendor literal."
+    },
+    "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.20/$4.80). On a limited-time 20% off to $0.32 in / $1.28 out per 1M (list price tracked); the $0.32/$1.28 figures are 20% off the printed list, not amounts Alibaba prints. Context-cache hits discount input only; no cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
     "tags": [
       "mid-tier"
     ],
@@ -1511,7 +1517,7 @@
     "open_source": false,
     "parameters": null,
     "description": "Multimodal embedding model. $0.12 per 1M tokens; image tokens $0.47 per 1M.",
-    "price_note": "Cohere's list price, read on the \"Advanced retrieval models\" tab of cohere.com/pricing: Cost $0.12 / 1M tokens, Image cost $0.47 / 1M tokens. The $0.12 we publish is the text rate. That tab is not the page's default, so a capture that does not click it lands on the Model Vault committed-instance table instead, where Embed 4 is priced per instance ($4.00/hr Small, $5.00/hr Medium) and no per-token figure appears.",
+    "price_note": "Cohere's list price, read on the \"Advanced retrieval models\" tab of cohere.com/pricing: Cost $0.12 / 1M tokens, Image cost $0.47 / 1M tokens. The $0.12 we publish is the text rate. That tab is not the page's default: the page opens on the Model Vault committed-instance table, where Embed 4 is priced per instance ($4.00/hr Small, $5.00/hr Medium) and no per-token figure appears.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "embedding",
@@ -1737,7 +1743,7 @@
     "open_source": false,
     "parameters": null,
     "description": "DeepSeek V4 Pro on Fireworks. $1.32/$3.96 per 1M; cached $0.044.",
-    "price_note": "Fireworks Standard serving path; the Priority column ($1.65/$0.055/$4.95) is a different path and is not what we track. Fireworks lists exactly one DeepSeek V4 Pro row, and between the 2026-08-24 and 2026-08-31 captures it changed from 'DeepSeek V4 Pro' at $1.74/$0.145/$3.48 to 'DeepSeek V4 Pro (0813)' at $1.32/$0.044/$3.96 — so $1.32/$0.044/$3.96 is the only rate Fireworks now sells this model at. Those figures match DeepSeek's own peak list price exactly, including the distinctive $0.044 cached rate, which is the maker's 0813 snapshot repricing propagating to its hosts rather than a Fireworks-specific discount.",
+    "price_note": "Fireworks Standard serving path; the Priority column ($1.65/$0.055/$4.95) is a different path and is not what we track. Fireworks lists exactly one DeepSeek V4 Pro row, and between our Aug 24 and Aug 31 2026 readings of the page it changed from 'DeepSeek V4 Pro' at $1.74/$0.145/$3.48 to 'DeepSeek V4 Pro (0813)' at $1.32/$0.044/$3.96 — so $1.32/$0.044/$3.96 is the only rate Fireworks now sells this model at. Those figures match DeepSeek's own peak list price exactly, including the distinctive $0.044 cached rate, which is the maker's 0813 snapshot repricing propagating to its hosts rather than a Fireworks-specific discount.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "mid-tier",
@@ -2414,6 +2420,11 @@
     "featured": true,
     "last_updated": "2026-08-13",
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "cached_input_per_mtok": 0.075
+    },
     "promo_until": "2026-12-31",
     "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Checked 2026-08-13 against ai.google.dev/gemini-api/docs/pricing; the same page listed a flat $1.50/$7.50 on 2026-08-09, so this is a genuine 50% price cut rather than a correction to an earlier mistake.",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -2449,8 +2460,13 @@
     ],
     "featured": true,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "cached_input_per_mtok": 0.075
+    },
     "promo_until": "2026-12-31",
-    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model, the same Standard tier as Gemini 3.7 Flash: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-09-03 against ai.google.dev/gemini-api/docs/pricing, anchored on the section's API-name line 'Gemini 3.8 Flash gemini-3.8-flash'.",
+    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model, the same Standard tier as Gemini 3.7 Flash: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-09-03 against ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash).",
     "last_updated": "2026-09-03",
     "released_source": "https://ai.google.dev/gemini-api/docs/changelog",
     "released_verified": "2026-09-03",
@@ -2485,6 +2501,11 @@
     ],
     "featured": true,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.75,
+      "output_per_mtok": 3.75,
+      "cached_input_per_mtok": 0.075
+    },
     "promo_until": "2026-12-31",
     "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model now shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-08-18 against ai.google.dev/gemini-api/docs/pricing; reseller routes re-checked 2026-09-02.",
     "last_updated": "2026-08-18",
@@ -2869,7 +2890,7 @@
     "output_per_mtok": 0.75,
     "cached_input_per_mtok": 0.025,
     "price_unit": "per_token",
-    "price_note": "Inception publishes this rate per TOKEN, not per 1M: its own API root (api.inceptionlabs.ai/v1/models) serves prompt 0.00000025 and completion 0.00000075, which is $0.25 / $0.75 per 1M tokens, with cache reads at 0.000000025 ($0.025 per 1M) and cache writes free. Read unauthenticated on 2026-09-01 and again on 2026-09-02, byte-identical both times (973 bytes, md5 a835588b3e712d66d80ab0166a1b8fba). The vendor's own record carries \"openrouter\": {\"slug\": \"inception/mercury-2\"}, so the join to the gateway id is Inception's claim rather than ours. Inception's HTML pricing page is behind a standing bot challenge and is not our source.",
+    "price_note": "Inception publishes this rate per TOKEN, not per 1M: its own API root (api.inceptionlabs.ai/v1/models) serves prompt 0.00000025 and completion 0.00000075, which is $0.25 / $0.75 per 1M tokens, with cache reads at 0.000000025 ($0.025 per 1M) and cache writes free. Read unauthenticated on 2026-09-01 and again on 2026-09-02, with no change between the two readings. The vendor's own record links the model to its OpenRouter listing (inception/mercury-2), so that cross-reference is Inception's, not ours. Inception's HTML pricing page does not answer automated reads, so the API record is the source cited here.",
     "context_window": 128000,
     "modality": [
       "text"
@@ -2898,6 +2919,11 @@
     "output_per_mtok": 0.75,
     "cached_input_per_mtok": 0.02,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.04,
+      "output_per_mtok": 0.15,
+      "cached_input_per_mtok": 0.004
+    },
     "price_note": "These are Inception's LIST prices, per 1M tokens. Mercury 2.5 is currently on an 80%-off promotion, so the rate you actually pay today is $0.04 input / $0.15 output / $0.004 cached input. Inception has not published an end date for the promotion, so we track the list price — the rate the model reverts to — rather than a discounted number that could expire without notice. Inception's own rate card shows both, listing Mercury 2.5 at $0.20 input / $0.02 cached / $0.75 output struck through, alongside the discounted prices. Inception's launch announcement states the same standard pricing of $0.20 / $0.75 per 1M tokens and describes $0.04 / $0.15 as a launch discount. Verified 2026-09-08.",
     "context_window": 260000,
     "modality": [
@@ -2929,7 +2955,7 @@
     "output_per_mtok": 0.75,
     "cached_input_per_mtok": 0.025,
     "promo": false,
-    "price_note": "Inception's own rate card at docs.inceptionlabs.ai/get-started/models prices Mercury Edit 2 at $0.25 input / $0.025 cached input / $0.75 output per 1M tokens, in a table headed \"Input Price (1M Tokens)\", so the per-1M basis is the one the vendor declares. Unlike the Mercury 2.5 row on the same card, this row carries no strikethrough and no discount marker: the 80%-off banner on that page names Mercury 2.5 only, so these are plain list prices and not a promotional rate. Confirmed on a second first-party surface the same day: the API's edit- and FIM-scoped model lists (api.inceptionlabs.ai/v1/edit/completions/models and /v1/fim/completions/models) both serve mercury-edit-2 at prompt 0.00000025 and completion 0.00000075 per TOKEN with input_cache_reads 0.000000025 and cache writes free, which is the same $0.25 / $0.025 / $0.75 per 1M. The chat-scoped list at api.inceptionlabs.ai/v1/models does NOT carry this SKU — it lists Mercury 2 and Mercury 2.5 only — so that route's silence is about the endpoint it serves, not about the model. Verified 2026-09-11. Context window, on those same two surfaces, is the one field where they disagree, and we publish the rate card's figure: the card prints \"FIM: 32K / NextEdit: 32K\" with 8,192 max output tokens, stated per endpoint, while the model-list JSON reports context_length 128000 and max_output_length 32000. That JSON record reads as a template copied from Mercury 2 — 128000 is Mercury 2's exact window, its description is Mercury 2's text, and its created timestamp is byte-identical to the one served for Mercury 2.5, a model Inception launched on 2026-09-08 — so the card, which states a window per endpoint, is the more specific claim. None of the three prices is affected: both surfaces agree on all of them to the digit.",
+    "price_note": "Inception's own rate card at docs.inceptionlabs.ai/get-started/models prices Mercury Edit 2 at $0.25 input / $0.025 cached input / $0.75 output per 1M tokens, in a table headed \"Input Price (1M Tokens)\", so the per-1M basis is the one the vendor declares. Unlike the Mercury 2.5 row on the same card, this row carries no strikethrough and no discount marker: the 80%-off banner on that page names Mercury 2.5 only, so these are plain list prices and not a promotional rate. Inception's edit- and FIM-scoped model lists (api.inceptionlabs.ai/v1/edit/completions/models and /v1/fim/completions/models) state the same rate per token — prompt 0.00000025, completion 0.00000075, cache reads 0.000000025, cache writes free — which is $0.25 / $0.025 / $0.75 per 1M. The chat-scoped list at api.inceptionlabs.ai/v1/models does not carry this SKU (it lists Mercury 2 and Mercury 2.5 only), which reflects the endpoint it serves, not the model's availability. Checked 2026-09-11. Context window is the one field where the two surfaces disagree: the rate card prints \"FIM: 32K / NextEdit: 32K\" with 8,192 max output tokens, stated per endpoint, while the model-list JSON reports 128,000 context and 32,000 max output — figures that match Mercury 2's record rather than this model's — so we publish the rate card's per-endpoint figure. All three prices agree on both surfaces to the digit.",
     "context_window": 32000,
     "modality": [
       "text"
@@ -3982,6 +4008,11 @@
     "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $4/$20 per 1M tokens (cached input $0.40) — a promotional rate OpenAI guarantees at least through 2026-11-21, down from $5/$30 on 2026-08-21.",
     "price_note": "OpenAI labels this promotional pricing and states it is \"available at least through November 21, 2026\". That is a floor, not a reversion date — OpenAI publishes no date on which the rate goes back up, so no reversion is claimed here and no countdown is implied. Until 2026-08-21 this model billed $5 input / $0.50 cached input / $30 output per 1M tokens. OpenAI's rate card also prices this model by context length: the tracked figure is the short-context tier, and prompts over the short-context threshold bill at the long-context tier of $8 input / $0.80 cached input / $10 cache write / $30 output per 1M tokens. Cache writes bill at 1.25x the uncached input rate.",
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 4.0,
+      "output_per_mtok": 20.0,
+      "cached_input_per_mtok": 0.4
+    },
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
@@ -5534,6 +5565,13 @@
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "cached_input_per_mtok": 0.0,
+      "vendor_prints": "word_free",
+      "vendor_prints_note": "docs.z.ai prints the word \"Free\" in every cell of this SKU's row, not a $0 amount — the page carries no zero money literal at all (read live 2026-09-11)."
+    },
     "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
@@ -5653,6 +5691,13 @@
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "cached_input_per_mtok": 0.0,
+      "vendor_prints": "word_free",
+      "vendor_prints_note": "docs.z.ai prints the word \"Free\" in every cell of this SKU's row, not a $0 amount — the page carries no zero money literal at all (read live 2026-09-11)."
+    },
     "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
@@ -5744,6 +5789,13 @@
     "output_per_mtok": 0.0,
     "cached_input_per_mtok": 0.0,
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.0,
+      "output_per_mtok": 0.0,
+      "cached_input_per_mtok": 0.0,
+      "vendor_prints": "word_free",
+      "vendor_prints_note": "docs.z.ai prints the word \"Free\" in every cell of this SKU's row, not a $0 amount — the page carries no zero money literal at all (read live 2026-09-11)."
+    },
     "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
     "modality": [
@@ -6318,6 +6370,11 @@
     "description": "Meituan LongCat-2.0 — open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20) on Meituan's international edition (longcat.ai); the China edition (longcat.chat) lists an independently priced CNY twin (¥5 in / ¥20 out, promo ¥2 / ¥8) — the USD is the vendor's own list, not an FX conversion. Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
     "pricing_url": "https://longcat.ai/platform/docs/Pricing/LongCat-2.0.html",
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.3,
+      "output_per_mtok": 1.2,
+      "cached_input_per_mtok": 0.006
+    },
     "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked). USD is first-party on longcat.ai (international edition); longcat.chat (China edition) prices independently in CNY (¥5/¥20 list, ¥2/¥8 promo) — not an FX conversion.",
     "tags": [
       "coding",
@@ -6509,7 +6566,7 @@
       "fx_rate": 7.197,
       "fx_date": "2026-08-28"
     },
-    "price_note": "Tencent lists this model in RMB on its TokenHub rate card — ¥6 in / ¥18 out / ¥0.3 cache-hit per 1M tokens. Those two region tabs are different rate cards in general (新加坡 reprices GLM-5.3 from ¥8/¥28/¥2 to ¥10.07524/¥31.66504/¥1.871116), but the Hy4 preview row is byte-identical on both, so this model has no separate international list. The USD above is that list at 7.197 CNY/USD, the rate implied to three figures by all three prices the FP8 endpoint Tencent itself operates quotes in USD ($0.834 / $2.501 / $0.042, the only endpoint serving this model). That is Tencent's own commercial rate, not a market snapshot: ECB spot on 2026-08-27 was 6.7203 CNY/USD, which would instead give $0.893 / $2.679 / $0.045. We publish what Tencent charges — FX_CURRENCY_POLICY rule (1) — not a spot re-conversion of its domestic card.",
+    "price_note": "Tencent lists this model in RMB on its TokenHub rate card — ¥6 in / ¥18 out / ¥0.3 cache-hit per 1M tokens. The card's two region tabs are different rate cards in general (新加坡 reprices GLM-5.3 from ¥8/¥28/¥2 to ¥10.07524/¥31.66504/¥1.871116), but the Hy4 preview row is identical on both, so this model has no separate international list. The USD above is that list at 7.197 CNY/USD, the rate implied to three figures by all three prices the FP8 endpoint Tencent itself operates quotes in USD ($0.834 / $2.501 / $0.042, the only endpoint serving this model). That is Tencent's own commercial rate, not a market rate: ECB spot on 2026-08-27 was 6.7203 CNY/USD, which would instead give $0.893 / $2.679 / $0.045. We publish what Tencent charges in USD, not a spot re-conversion of its domestic card.",
     "tags": [
       "mid-tier",
       "open-weights",
@@ -6539,7 +6596,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is FX-derived from that RMB list at a dated snapshot (6.8031 CNY/USD, 2026-07-07) — see FX_CURRENCY_POLICY runbook. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
+    "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is converted from that RMB list at a dated exchange rate (6.8031 CNY/USD, 2026-07-07). Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
     "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
     "vendor_sku": "Hy3",
     "native_price": {
@@ -6550,7 +6607,7 @@
       "fx_rate": 6.8031,
       "fx_date": "2026-07-07"
     },
-    "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo. Re-read against the TokenHub rate card 2026-08-28: the flat GA \"Hy3\" row still lists ¥1 / ¥4 / ¥0.25, unchanged. FX re-checked 2026-08-31 against the ECB reference rate (6.7209 CNY/USD, 2026-08-28): 1.2% drift, below the 3% threshold at which this runbook re-publishes, so the USD above is unchanged and still carries its 2026-07-07 rate.",
+    "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo. Re-read against the TokenHub rate card 2026-08-28: the flat GA \"Hy3\" row still lists ¥1 / ¥4 / ¥0.25, unchanged. FX re-checked 2026-08-31 against the ECB reference rate (6.7209 CNY/USD, 2026-08-28): 1.2% drift, below the 3% threshold at which we re-publish the USD figure, so the USD above is unchanged and still carries its 2026-07-07 rate.",
     "tags": [
       "budget",
       "moe",
@@ -7265,8 +7322,15 @@
     "parameters": null,
     "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Promotional pricing is $0.09/$0.36 per 1M tokens (70% off) through Oct 9 2026; it reverts to Upstage's standard list price of $0.30/$1.20 on Oct 10 2026.",
     "pricing_url": "https://www.upstage.ai/pricing/api",
-    "price_note": "Promotional pricing, per 1M tokens. Upstage's rate card (upstage.ai/pricing/api) prints the standard price struck through beside the current one: standard input $0.30, cached input $0.06, output $1.20. The tracked figures are the CURRENT EFFECTIVE discounted rates, $0.09/$0.018/$0.36 — exactly 70% off each standard figure. Verified 2026-09-09 against two live reads: the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06) runs 90% off to 2026-09-11, then this 70% window to 2026-10-10, after which the standard $0.30/$0.06/$1.20 applies. This window was staged as a scheduled_price_change on 2026-09-09 and landed on the vendor's own date, so the number was never stale; the 2026-10-10 reversion to list price is tracked separately. Upstage lists all prices exclusive of 10% VAT.",
+    "price_note": "Promotional pricing, per 1M tokens, exclusive of 10% VAT. Upstage's standard list price for Solar Pro 4 is $0.30 input / $0.06 cached input / $1.20 output. The launch promotion prices it at 70% off — $0.09 / $0.018 / $0.36 — through Oct 9 2026, and Upstage's pricing page shows the standard price struck through beside the discounted one. From Oct 10 2026 (UTC) the standard list price applies; we track that date and will publish the reversion on the day. Before Sep 11 2026 the promotion was 90% off ($0.03 / $0.006 / $0.12).",
     "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.09,
+      "output_per_mtok": 0.36,
+      "cached_input_per_mtok": 0.018,
+      "vendor_prints": "unmarked",
+      "vendor_prints_note": "Upstage's pricing page prints the discounted figures on the Solar Pro 4 card without a currency symbol of their own; the struck-through standard price beside them carries the \"$\". The same card states \"70% off until 2026-10-09 (UTC)\", which is the promotion end date we track. Read 2026-09-11."
+    },
     "promo_until": "2026-10-09",
     "scheduled_price_change": {
       "effective_at": "2026-10-10T00:00:00Z",
@@ -7281,7 +7345,7 @@
         "promo": false,
         "promo_until": null,
         "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Priced at Upstage's standard list rate of $0.30/$1.20 per 1M tokens since Oct 10 2026, when the launch promotion ended.",
-        "price_note": "Standard list pricing, per 1M tokens: input $0.30, cached input $0.06, output $1.20 — the figures Upstage's rate card (upstage.ai/pricing/api) carries in its own markup, no longer struck through. The launch promotion ran as three windows on the card's schedule (data-promo=\"schedule\", renderer v3.1 of 2026-09-06): free to 2026-08-11, then 90% off to 2026-09-11, then 70% off to 2026-10-10. Each end boundary is exclusive, so the last discounted day was 2026-10-09 and the standard rate applies from 2026-10-10. Re-verified 2026-09-11 against two byte-identical live reads of the page: the schedule was unchanged from the 2026-09-09 reading, with no fourth window and no extension. The vendor's older v1.2 phase table, still present in the page source but disabled inside an HTML comment, says standard pricing resumes 2026-10-11; that sentence is stale and must not be read — the live v3.1 renderer derives its footnote from the schedule with an exclusive end boundary and prints \"Standard pricing applies from 2026-10-10 (UTC)\". This reversion was staged as a scheduled_price_change on 2026-09-11 and landed on the vendor's own date, so the number was never stale. Upstage lists all prices exclusive of 10% VAT."
+        "price_note": "Standard list pricing, per 1M tokens, exclusive of 10% VAT: input $0.30, cached input $0.06, output $1.20 — the figures Upstage's rate card carries for Solar Pro 4 now that the launch promotion has ended. The promotion ran in three windows: free until Aug 11 2026, then 90% off ($0.03 / $0.006 / $0.12) until Sep 11 2026, then 70% off ($0.09 / $0.018 / $0.36) with Oct 9 2026 the last discounted day. Upstage states that standard pricing applies from Oct 10 2026 (UTC)."
       }
     },
     "tags": [
@@ -7374,7 +7438,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Kwaipilot KAT-Coder-Pro V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 65.2% on SWE-bench-Pro and lists the price in RMB (¥5 in / ¥1 cached / ¥20 out per 1M tokens, unit stated as 元/百万Token); the USD shown is FX-derived from that RMB list at a dated snapshot (6.7476 CNY/USD (2026-08-07)) — see FX_CURRENCY_POLICY runbook. Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
+    "description": "Kwaipilot KAT-Coder-Pro V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 65.2% on SWE-bench-Pro and lists the price in RMB (¥5 in / ¥1 cached / ¥20 out per 1M tokens, unit stated as 元/百万Token); the USD shown is converted from that RMB list at a dated exchange rate (6.7476 CNY/USD, 2026-08-07). Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
     "pricing_url": "https://www.streamlake.com/product/kat-coder",
     "price_note": "USD is FX-derived from StreamLake's RMB list price (¥5 in / ¥1 cached / ¥20 out per 1M) at 6.7476 CNY/USD (2026-08-07); re-checked on FX drift, not a promo.",
     "native_price": {
@@ -7413,7 +7477,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Kwaipilot KAT-Coder-Air V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 42.4% on SWE-bench-Pro and lists the price in RMB (¥1 in / ¥0.2 cached / ¥4 out per 1M tokens, unit stated as 元/百万Token); the USD shown is FX-derived from that RMB list at a dated snapshot (6.7476 CNY/USD (2026-08-07)) — see FX_CURRENCY_POLICY runbook. Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
+    "description": "Kwaipilot KAT-Coder-Air V2.5 — an agentic coding model from Kwaipilot, Kuaishou's coding-model team, sold first-party through StreamLake (Kuaishou's enterprise cloud) on its Wanqing (万擎) model platform. StreamLake's own product page scores it 42.4% on SWE-bench-Pro and lists the price in RMB (¥1 in / ¥0.2 cached / ¥4 out per 1M tokens, unit stated as 元/百万Token); the USD shown is converted from that RMB list at a dated exchange rate (6.7476 CNY/USD, 2026-08-07). Context window 256,000 with 80,000 max output. The Apache-2.0 KAT-Coder-V2.5-Dev weights on HuggingFace are a separate research variant, not this hosted SKU. Release date is first public catalog availability (OpenRouter, 2026-07-10), not a first-party announcement.",
     "pricing_url": "https://www.streamlake.com/product/kat-coder",
     "price_note": "USD is FX-derived from StreamLake's RMB list price (¥1 in / ¥0.2 cached / ¥4 out per 1M) at 6.7476 CNY/USD (2026-08-07); re-checked on FX drift, not a promo.",
     "native_price": {
