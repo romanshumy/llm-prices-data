@@ -10,7 +10,6 @@ Unlike MCP servers that bake a pricing snapshot into each release, this one is a
 |---|---|
 | `search_models` | "How much does *model* cost?" / "What models does *provider* offer?" |
 | `get_model_pricing` | Full pricing + capabilities for one model (input/output/cached $/1M tokens, context, modality) |
-| `compare_models` | 2–5 models side by side, with a cheapest-verdict |
 | `cheapest_models` | Cheapest models ranked by input/output/blended cost, filterable by category / open-source |
 | `list_providers` | All tracked providers with model counts |
 
