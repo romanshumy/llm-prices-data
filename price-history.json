@@ -21315,8 +21315,11 @@
         "output_per_mtok": null,
         "cached_input_per_mtok": null,
         "context_window": null,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-729",
+        "note": "Row removed: Cohere does not bill Rerank per token, so $0.02 per 1M tokens is a figure in a unit the vendor has no rate for — no re-capture could ever corroborate it. Cohere's own pricing documentation states \"Our Rerank models are priced based on the quantity of searches, and our Embedding models are priced based on the number of tokens embedded\", and a search unit is 1 query x up to 100 documents, so there is no fixed token count to convert through either. Read live 2026-09-14 with all four cohere.com/pricing tabs clicked (52,856 chars, three clicks landed): the pay-as-you-go \"Advanced retrieval models\" card lists Embed 4 ($0.12 / 1M tokens), Rerank 4 Fast ($2.00 / 1K searches) and Rerank 4 Pro ($2.50 / 1K searches) — Rerank 3.5 is not on it, and the string \"0.02\" does not appear anywhere in the four-tab render. Rerank 3.5 survives on that page in exactly one place, the Model Vault committed-instance table (Medium, $5.00/hr, $3,250/mo), which is not a per-token rate. The model is still live (rerank-v3.5 is listed on docs.cohere.com/docs/models and is not in Cohere's deprecations), so this is NOT a retirement: a Retired row would tell readers the model is no longer served, which is false. Our schema cannot express \"no price\" — validate_dataset requires input_per_mtok to be a number and price_unit carries per_token only — so the choice was to publish a number Cohere does not charge or to omit the row. Charter: omit a model rather than publish a wrong price for it. CEO ruling on MOD-729, 2026-09-14. Receipts kept at data/evidence/cohere-rerank-3-5/.",
+        "public_note": "Removed because Cohere does not sell Rerank 3.5 by the token. Cohere bills reranking per search — its current card prices Rerank 4 Fast at $2.00 and Rerank 4 Pro at $2.50 per 1,000 searches — and publishes no per-token rate for any Rerank model, so the $0.02 per 1M tokens we carried was never a Cohere price. Rerank 3.5 itself is still available; only its per-token figure was unsourceable, and we would rather show you nothing than a number nobody charges. Cohere lists Rerank 3.5 only under committed instances ($5.00/hr, $3,250/mo)."
       }
     ]
   },

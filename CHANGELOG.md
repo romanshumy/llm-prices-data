@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-14
+
+- **Rerank 3.5** removed/retired
+
 ## 2026-09-11
 
 - **Pixtral 12B** data correction — input $0.10 → $0.15, output $0.10 → $0.15 per 1M tokens

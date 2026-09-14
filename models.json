@@ -1512,33 +1512,6 @@
     "status_source": "https://cohere.com/pricing"
   },
   {
-    "id": "cohere-rerank-3-5",
-    "provider": "Cohere",
-    "model": "Rerank 3.5",
-    "category": "embedding",
-    "input_per_mtok": 0.02,
-    "output_per_mtok": null,
-    "cached_input_per_mtok": null,
-    "context_window": null,
-    "modality": [
-      "text"
-    ],
-    "released": "2025-03-01",
-    "status": "Current",
-    "open_source": false,
-    "parameters": null,
-    "description": "Reranking model for search and retrieval. Cohere bills reranking per search unit, not per token — the $0.02 per 1M tokens below is not a Cohere-published rate. See the price note.",
-    "price_note": "NOT VENDOR-SOURCED — do not budget from this figure. Cohere's own pricing documentation states \"Our Rerank models are priced based on the quantity of searches\", and Cohere publishes no per-token rate for any Rerank model, so the unit this row is stored in is not one Cohere bills in. Read 2026-08-22: the pay-as-you-go card on cohere.com/pricing (\"Advanced retrieval models\" tab) lists Embed 4, Rerank 4 Fast ($2.00 / 1K searches) and Rerank 4 Pro ($2.50 / 1K searches) — Rerank 3.5 is not on it. Rerank 3.5 appears on that page only in the Model Vault committed-instance table, Medium tier, $5.00/hr / $3,250/mo. The model itself is still current: rerank-v3.5 is listed in docs.cohere.com/docs/models and is not in Cohere's deprecations. We are re-sourcing this row; until Cohere publishes a rate we can express, treat the figure as unverified.",
-    "pricing_url": "https://cohere.com/pricing",
-    "tags": [
-      "embedding",
-      "rerank"
-    ],
-    "last_updated": "2026-08-22",
-    "status_verified": "2026-08-22",
-    "status_source": "https://docs.cohere.com/docs/models"
-  },
-  {
     "id": "deepseek-v4-1-flash",
     "provider": "DeepSeek",
     "model": "DeepSeek V4.1 Flash",
@@ -1924,11 +1897,11 @@
       "text",
       "image"
     ],
-    "released": "2025-07-01",
-    "status": "Current",
+    "released": "2026-01-27",
+    "status": "Retired",
     "open_source": true,
     "parameters": null,
-    "description": "Kimi K2.5 on Fireworks. $0.60/$3.00 per 1M; cached $0.10.",
+    "description": "Kimi K2.5 on Fireworks. Withdrawn from serverless; last published rate $0.60/$3.00 per 1M, cached $0.10.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "open-weights",
@@ -1936,9 +1909,13 @@
       "caching",
       "multimodal"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": null,
-    "status_source": null
+    "last_updated": "2026-09-14",
+    "retired_on": "2026-09-14",
+    "superseded_by": "fireworks-kimi-k2-6",
+    "released_source": "https://fireworks.ai/models/fireworks/kimi-k2p5",
+    "status_verified": "2026-09-14",
+    "status_source": "https://fireworks.ai/models/fireworks/kimi-k2p5",
+    "availability_note": "Retired as a per-token row: Fireworks no longer sells this SKU serverless. fireworks.ai/models/fireworks/kimi-k2p5 (read rendered 2026-09-14) shows State Ready but 'Serverless: Not supported', and the only purchase path the page offers is On-demand Deployment on dedicated GPUs, which is billed per GPU-hour, so no per-token rate applies. The size-tier fallback does NOT apply either, because that table prices serverless calls and serverless is not offered for this SKU. Fireworks' own rate card has omitted this SKU since at least 2026-08-09 (data/evidence/fireworks-kimi-k2-5/2026-08-09.txt lists only Kimi K2.6, K2.6 Fast, K2.7 Code, K2.7 Code Fast, K3, K3 Fast and K3 US), which is why the row has never anchored. Fireworks publishes no delisting date; retired_on is the date we proved it, not a vendor notice. The $0.60/$3.00 per 1M and cached $0.10 shown are the last rate we published and were never anchored on a Fireworks page; the model page's own meta description prints a different schedule ($0.60 uncached / $0.30 cached / $2.50 output), but that figure appears only in the page's meta/og/twitter description tags and nowhere in the rendered body, so it is treated as stale marketing copy rather than a purchasable rate. Also corrected here: released was 2025-07-01, which is the Kimi K2 date; the model page gives Created on 1/27/2026 for K2.5."
   },
   {
     "id": "fireworks-kimi-k2-6",
