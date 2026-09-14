@@ -2931,10 +2931,12 @@
       "fast",
       "coding"
     ],
-    "last_updated": "2026-09-11",
+    "last_updated": "2026-09-14",
     "source": "verified",
-    "status_verified": "2026-09-11",
-    "status_source": "https://docs.inceptionlabs.ai/get-started/models"
+    "status_verified": "2026-09-14",
+    "status_source": "https://docs.inceptionlabs.ai/get-started/models",
+    "released": "2026-03-30",
+    "released_source": "https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2"
   },
   {
     "id": "meta-llama-3-1-8b",
