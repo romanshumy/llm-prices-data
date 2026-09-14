@@ -831,39 +831,23 @@
       "video"
     ],
     "released": "2024-12-03",
-    "status": "Deprecated",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "Amazon's most capable Nova model on Bedrock — built for complex tasks needing deep context, multistep planning, and tool coordination; multimodal (text/image/video) with a 1M-token context, and a teacher model for distillation. $2.50/$12.50 per 1M tokens.",
+    "description": "Retired from Amazon Bedrock on 2026-09-14, the end-of-life date AWS set for amazon.nova-premier-v1:0 in us-east-1, us-east-2 and us-west-2; requests to it now fail. AWS named no replacement. Last listed at $2.50/$12.50 per 1M tokens.",
     "pricing_url": "https://aws.amazon.com/nova/pricing/",
     "tags": [
       "flagship",
-      "multimodal"
+      "multimodal",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-09-14",
     "shutdown_date": "2026-09-14",
     "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
     "status_verified": "2026-09-09",
-    "availability_note": "Bedrock Legacy since 2026-03-13; AWS gives amazon.nova-premier-v1:0 an end-of-life date of 2026-09-14 in us-east-1, us-east-2 and us-west-2, after which requests to it fail. Re-read 2026-09-09 against two AWS surfaces and the date has not moved: the lifecycle table still shows EOL September 14, 2026, and the Nova Premier model card reads \"Model EOL date: September 14, 2026\" and \"Model lifecycle: Legacy\". Our citation changed, not the fact — on 2026-09-07 AWS split its lifecycle policy in two, and every model launched before that date, this one included, moved to the \"Model lifecycle (Legacy)\" page we now link; the old URL no longer carries the table at all. Two things AWS still does NOT say. First, this row's public-extended-access start date is empty — AI21, Anthropic, Cohere and TwelveLabs rows in the same table all carry one — so the higher extended-access pricing AWS describes for Legacy models has not been announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue currently offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship — so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation.",
-    "scheduled_price_change": {
-      "effective_at": "2026-09-14T09:00:00Z",
-      "announced_on": "2026-09-09",
-      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
-      "reason": "AWS end-of-life for amazon.nova-premier-v1:0 (Bedrock Legacy since 2026-03-13): Deprecated -> Retired on the vendor's date. AWS publishes a day, not an instant, and the regions it names are US, so the flip is staged at the first publish slot of that day UTC (09:00Z = 02:00 PDT / 05:00 EDT) rather than at 00:00Z, which is still the 13th in every one of them.",
-      "decided_in": "MOD-774",
-      "set": {
-        "status": "Retired",
-        "retired_on": "2026-09-14",
-        "tags": [
-          "flagship",
-          "multimodal",
-          "retired"
-        ],
-        "description": "Retired from Amazon Bedrock on 2026-09-14, the end-of-life date AWS set for amazon.nova-premier-v1:0 in us-east-1, us-east-2 and us-west-2; requests to it now fail. AWS named no replacement. Last listed at $2.50/$12.50 per 1M tokens.",
-        "availability_note": "AWS retired amazon.nova-premier-v1:0 on 2026-09-14: the model had been Bedrock Legacy since 2026-03-13, and both AWS surfaces re-read on 2026-09-09 — the Model lifecycle (Legacy) table and the Nova Premier model card (\"Model EOL date: September 14, 2026\") — carried that date unchanged, so the flip was scheduled to land on it. Two things AWS never said. First, this row's public-extended-access start date stayed empty, so the higher extended-access pricing AWS describes for Legacy models was never announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it — what the model last cost, not a rate you can buy today. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship, so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation."
-      }
-    }
+    "availability_note": "AWS retired amazon.nova-premier-v1:0 on 2026-09-14: the model had been Bedrock Legacy since 2026-03-13, and both AWS surfaces re-read on 2026-09-09 — the Model lifecycle (Legacy) table and the Nova Premier model card (\"Model EOL date: September 14, 2026\") — carried that date unchanged, so the flip was scheduled to land on it. Two things AWS never said. First, this row's public-extended-access start date stayed empty, so the higher extended-access pricing AWS describes for Legacy models was never announced for Nova Premier, and $2.50/$12.50 is the last rate AWS published for it — what the model last cost, not a rate you can buy today. Second, AWS names no replacement, neither in the lifecycle table nor on the model card, and Bedrock's Amazon catalogue offers Nova 2 Lite and Nova 2 Sonic but no Nova 2 flagship, so there is no vendor-named successor to link. The nearest tracked Amazon alternative is Nova Pro at $0.80/$3.20 per 1M, which is our comparison, not AWS's designation.",
+    "retired_on": "2026-09-14"
   },
   {
     "id": "amazon-nova-pro",
