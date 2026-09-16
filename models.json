@@ -325,7 +325,7 @@
       "input_per_mtok": 0.32,
       "output_per_mtok": 1.28,
       "vendor_prints": "percent_only",
-      "vendor_prints_note": "Alibaba Model Studio prints \"List price $0.4 (Limited-time 20% off)\" and \"List price $1.6 (Limited-time 20% off)\" for the 0<Token<=256K tier; the discounted amounts themselves appear nowhere on the page (0 occurrences of 0.32 or 1.28, read live 2026-09-11). These figures are our own 20% arithmetic off the printed list, not a vendor literal."
+      "vendor_prints_note": "Alibaba Model Studio prints \"List price $0.4 (Limited-time 20% off)\" and \"List price $1.6 (Limited-time 20% off)\" for the 0<Token<=256K tier; the discounted amounts themselves appear nowhere on the page (0 occurrences of 0.32 or 1.28, re-read live 2026-09-16). These figures are our own 20% arithmetic off the printed list, not a vendor literal."
     },
     "price_note": "Alibaba Model Studio International (Singapore) list price, 0<Token≤256K tier. The 256K<Token≤1M tier is billed higher ($1.20/$4.80). On a limited-time 20% off to $0.32 in / $1.28 out per 1M (list price tracked); the $0.32/$1.28 figures are 20% off the printed list, not amounts Alibaba prints. Context-cache hits discount input only; no cache rate is printed for this SKU, so cached input is left unset rather than assumed.",
     "tags": [
@@ -335,7 +335,7 @@
     "last_updated": "2026-08-06",
     "released_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
     "released_verified": "2026-08-06",
-    "status_verified": "2026-08-06",
+    "status_verified": "2026-09-16",
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
@@ -2387,6 +2387,23 @@
       "cached_input_per_mtok": 0.075
     },
     "promo_until": "2026-12-31",
+    "scheduled_price_change": {
+      "effective_at": "2027-01-01T00:00:00Z",
+      "announced_on": "2026-09-16",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "reason": "Google's dated introductory pricing for Gemini 3.6 Flash ends December 31 2026; the rate card's standard price applies from January 1 2027",
+      "decided_in": "MOD-1355",
+      "set": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": 0.15,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Google's fast multimodal flagship line, successor to Gemini 3.5 Flash and now joined by Gemini 3.7 Flash. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
+        "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.6 Flash' (gemini-3.6-flash), which printed both phases with their dates."
+      }
+    },
     "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Checked 2026-08-13 against ai.google.dev/gemini-api/docs/pricing; the same page listed a flat $1.50/$7.50 on 2026-08-09, so this is a genuine 50% price cut rather than a correction to an earlier mistake.",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
     "released_verified": "2026-07-21",
@@ -2427,6 +2444,23 @@
       "cached_input_per_mtok": 0.075
     },
     "promo_until": "2026-12-31",
+    "scheduled_price_change": {
+      "effective_at": "2027-01-01T00:00:00Z",
+      "announced_on": "2026-09-16",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "reason": "Google's dated introductory pricing for Gemini 3.8 Flash ends December 31 2026; the rate card's standard price applies from January 1 2027",
+      "decided_in": "MOD-1355",
+      "set": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": 0.15,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Google's most intelligent Flash model, launched 2026-09-02 as the successor to Gemini 3.7 Flash — engineered for long-horizon software engineering, autonomous agents and complex enterprise workflows. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
+        "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows exactly half the standard rate, which is Google's own Batch tier and not what an ordinary API call is billed. We publish the standard rate. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash), which printed both phases with their dates."
+      }
+    },
     "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model, the same Standard tier as Gemini 3.7 Flash: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-09-03 against ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash).",
     "last_updated": "2026-09-03",
     "released_source": "https://ai.google.dev/gemini-api/docs/changelog",
@@ -2468,6 +2502,23 @@
       "cached_input_per_mtok": 0.075
     },
     "promo_until": "2026-12-31",
+    "scheduled_price_change": {
+      "effective_at": "2027-01-01T00:00:00Z",
+      "announced_on": "2026-09-16",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "reason": "Google's dated introductory pricing for Gemini 3.7 Flash ends December 31 2026; the rate card's standard price applies from January 1 2027",
+      "decided_in": "MOD-1355",
+      "set": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": 0.15,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Google's fast multimodal Flash model, launched 2026-08-13 as the successor to Gemini 3.6 Flash — built for agentic workflows, coding and multi-step reasoning. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
+        "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows exactly half the standard rate, which is Google's own Batch tier and not what an ordinary API call is billed. We publish the standard rate. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.7 Flash' (gemini-3.7-flash), which printed both phases with their dates."
+      }
+    },
     "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model now shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-08-18 against ai.google.dev/gemini-api/docs/pricing; reseller routes re-checked 2026-09-02.",
     "last_updated": "2026-08-18",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -5822,7 +5873,7 @@
       "output_per_mtok": 0.0,
       "cached_input_per_mtok": 0.0,
       "vendor_prints": "word_free",
-      "vendor_prints_note": "docs.z.ai prints the word \"Free\" in every cell of this SKU's row, not a $0 amount — the page carries no zero money literal at all (read live 2026-09-11)."
+      "vendor_prints_note": "docs.z.ai prints the word \"Free\" in every cell of this SKU's row, not a $0 amount — the page carries no zero money literal at all (re-read live 2026-09-16; the rendered page and the /pricing.md mirror agree)."
     },
     "price_note": "Limited-time free tier ($0/$0). Z.AI has not published an end date — verify current pricing before relying on $0.",
     "context_window": 128000,
@@ -5841,7 +5892,7 @@
       "free"
     ],
     "last_updated": "2026-07-31",
-    "status_verified": "2026-08-09",
+    "status_verified": "2026-09-16",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
