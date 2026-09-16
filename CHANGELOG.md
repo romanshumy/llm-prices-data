@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-16
+
+- **Schematron V2 Turbo** (Inference.net) launched — $0.03 in / $0.15 out per 1M tokens
+- **Schematron V2 Small** (Inference.net) launched — $0.05 in / $0.23 out per 1M tokens
+
 ## 2026-09-14
 
 - **Rerank 3.5** removed/retired

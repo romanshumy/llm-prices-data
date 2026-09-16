@@ -153081,5 +153081,47 @@
         "changes": []
       }
     ]
+  },
+  "inference-net-schematron-v2-turbo": {
+    "model": "Schematron V2 Turbo",
+    "provider": "Inference.net",
+    "history": [
+      {
+        "date": "2026-09-16",
+        "input_per_mtok": 0.03,
+        "output_per_mtok": 0.15,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://inference.net/models",
+        "captured_at": "2026-09-16T11:55:58Z",
+        "snapshot": "data/evidence/inference-net-schematron-v2-turbo/2026-09-16.txt",
+        "sha": "dcd2abfea5"
+      }
+    ]
+  },
+  "inference-net-schematron-v2-small": {
+    "model": "Schematron V2 Small",
+    "provider": "Inference.net",
+    "history": [
+      {
+        "date": "2026-09-16",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.23,
+        "cached_input_per_mtok": 0.05,
+        "context_window": 128000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://inference.net/models",
+        "captured_at": "2026-09-16T11:56:05Z",
+        "snapshot": "data/evidence/inference-net-schematron-v2-small/2026-09-16.txt",
+        "sha": "dcd2abfea5"
+      }
+    ]
   }
 }

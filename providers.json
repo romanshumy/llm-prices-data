@@ -353,5 +353,14 @@
     "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
     "logo_color": "#2c9af2",
     "founded": 2024
+  },
+  {
+    "id": "inference-net",
+    "name": "Inference.net",
+    "type": "hosting",
+    "description": "San Francisco company (Inference R&D, Inc.) running a serverless, OpenAI-compatible inference marketplace: it buys data centres' otherwise-idle GPU minutes and resells them, and its catalogue is mostly other makers' models. The rows tracked here are the exception — the Schematron V2 pair are Inference.net's own 3B HTML-to-JSON extraction models, sold first-party and by nobody else, at $0.03/1M input and $0.15/1M output (Turbo) and $0.05/1M input and $0.23/1M output (Small). Its founding year is not stated on any of its own pages and secondary sources disagree, so none is published here.",
+    "url": "https://inference.net/",
+    "pricing_url": "https://inference.net/models",
+    "logo_color": "#171717"
   }
 ]

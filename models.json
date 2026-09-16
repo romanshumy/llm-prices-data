@@ -2939,6 +2939,69 @@
     "released_source": "https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2"
   },
   {
+    "id": "inference-net-schematron-v2-turbo",
+    "provider": "Inference.net",
+    "model": "Schematron V2 Turbo",
+    "category": "budget",
+    "input_per_mtok": 0.03,
+    "output_per_mtok": 0.15,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-09-12",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "3B",
+    "description": "Inference.net's throughput tier of Schematron V2, a 3B extraction model that turns raw HTML into schema-conforming JSON: you pass a JSON Schema in response_format instead of a prompt, and constrained decoding makes the output valid by construction rather than by retry. 128K input context, 8,192 max output tokens, text only, no tool calling. $0.03/$0.15 per 1M tokens. Cache reads are billed at the same $0.03 as fresh input, so caching buys latency here, not a discount.",
+    "pricing_url": "https://inference.net/models",
+    "tags": [
+      "budget",
+      "fast"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-16",
+    "source": "verified",
+    "promo": false,
+    "price_note": "Inference.net makes this model and is its only seller, so this is a first-party list price. Its own model catalogue at inference.net/models (read 2026-09-16, receipt data/evidence/inference-net-schematron-v2-turbo/2026-09-16.txt) prints the row \"Schematron V2 Turbo / INFERENCE.NET / 125K input context / $0.03 / $0.03 / $0.15 / inference-net/schematron-v2-turbo\" — the three money cells are input, cache read and output in that column order — and the model's own page at inference.net/models/schematron-v2-turbo prints the same three figures under \"Model API pricing — Per 1M tokens\". The catalogue's embedded record states them per token — costInputPerToken 0.000000030000, costCachedInputPerToken 0.000000030000, costOutputPerToken 0.000000150000 — which is $0.03 / $0.03 / $0.15 per 1M. OpenRouter's endpoint list for inference-net/schematron-v2-turbo (read 2026-09-16) returns exactly ONE endpoint, provider_name \"InferenceNet\", at prompt 0.00000003 / completion 0.00000015 / input_cache_read 0.00000003 and discount 0, so the maker's own figure and the only routed figure agree to the cent. No promotional or introductory marker appears against either SKU on the catalogue.",
+    "availability_note": "Served on Inference.net's own OpenAI-compatible API at api.inference.net/v1; the served build is tagged inference-net/schematron-v2-turbo-20260902. Two caveats a reader may hit. First, the context window: the catalogue and the model page both display \"125K tokens\", while the record behind them says maxContextSize 128000. These are the same number — the site renders every window as floor(tokens/1024)K, which is why 1,000,000 shows as \"977K\" and 200,000 as \"195K\" on the same page — so the published 128,000 is the maker's figure, not a third-party one. Second, the release date: the catalogue record carries releaseDate 2026-04-16, which cannot be this SKU's launch (the served build is dated 2026-09-02, the SKU first appears in the OpenRouter catalogue on 2026-09-12, and the field repeats claude-opus-4-7's date on the same page), so we publish the first date on which it is provably purchasable rather than the maker's field. Schematron V1 (Schematron-3B, Schematron-8B) has public weights on HuggingFace; V2 does not — inference-net/schematron-v2-granite-4.0-h-micro is not in the org's public model list and answers 401 — so this row is open_source false.",
+    "released_source": "https://openrouter.ai/api/v1/models/inference-net/schematron-v2-turbo/endpoints",
+    "status_verified": "2026-09-16",
+    "status_source": "https://inference.net/models"
+  },
+  {
+    "id": "inference-net-schematron-v2-small",
+    "provider": "Inference.net",
+    "model": "Schematron V2 Small",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.23,
+    "cached_input_per_mtok": 0.05,
+    "context_window": 128000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-09-12",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "3B",
+    "description": "The accuracy tier of Inference.net's Schematron V2 pair — the same 3B HTML-to-JSON extraction job as Turbo, tuned for complex schemas and long pages rather than throughput, and priced above its sibling at $0.05/$0.23 per 1M tokens. Schema-constrained decoding, so the JSON conforms by construction. 128K input context, 4,096 max output tokens (half Turbo's), text only, no tool calling. Cache reads cost the same $0.05 as fresh input.",
+    "pricing_url": "https://inference.net/models",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-16",
+    "source": "verified",
+    "promo": false,
+    "price_note": "Inference.net makes this model and is its only seller, so this is a first-party list price. Its own model catalogue at inference.net/models (read 2026-09-16, receipt data/evidence/inference-net-schematron-v2-small/2026-09-16.txt) prints the row \"Schematron V2 Small / INFERENCE.NET / 125K input context / $0.05 / $0.05 / $0.23 / inference-net/schematron-v2-small\" — the three money cells are input, cache read and output in that column order — and the model's own page at inference.net/models/schematron-v2-small prints the same three figures under \"Model API pricing — Per 1M tokens\". The catalogue's embedded record states them per token — costInputPerToken 0.000000050000, costCachedInputPerToken 0.000000050000, costOutputPerToken 0.000000230000 — which is $0.05 / $0.05 / $0.23 per 1M. OpenRouter's endpoint list for inference-net/schematron-v2-small (read 2026-09-16) returns exactly ONE endpoint, provider_name \"InferenceNet\", at prompt 0.00000005 / completion 0.00000023 / input_cache_read 0.00000005, so the maker's own figure and the only routed figure agree to the cent. No promotional or introductory marker appears against either SKU on the catalogue.",
+    "availability_note": "Served on Inference.net's own OpenAI-compatible API at api.inference.net/v1. Same two caveats as the Turbo row, read per SKU rather than assumed. The context window displays as \"125K tokens\" on both the catalogue and the model page while the record behind them says maxContextSize 128000; those are one number, because the site renders every window as floor(tokens/1024)K (1,000,000 shows as \"977K\", 200,000 as \"195K\"), so the published 128,000 is the maker's own figure. The catalogue's releaseDate field says 2026-04-16, which cannot be this SKU's launch — it repeats claude-opus-4-7's date on the same page and predates the SKU's first appearance in the OpenRouter catalogue on 2026-09-12 — so we publish the first provably purchasable date instead. Schematron V1 weights (Schematron-3B, Schematron-8B) are public on HuggingFace; the V2 repo inference-net/schematron-v2-llama-3.2-3b is not in the org's public model list and answers 401, so this row is open_source false.",
+    "released_source": "https://openrouter.ai/api/v1/models/inference-net/schematron-v2-small/endpoints",
+    "status_verified": "2026-09-16",
+    "status_source": "https://inference.net/models"
+  },
+  {
     "id": "meta-llama-3-1-8b",
     "provider": "Meta",
     "model": "Llama 3.1 8B",
@@ -7309,6 +7372,7 @@
         "output_per_mtok": 1.2,
         "promo": false,
         "promo_until": null,
+        "promo_price": null,
         "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Priced at Upstage's standard list rate of $0.30/$1.20 per 1M tokens since Oct 10 2026, when the launch promotion ended.",
         "price_note": "Standard list pricing, per 1M tokens, exclusive of 10% VAT: input $0.30, cached input $0.06, output $1.20 — the figures Upstage's rate card carries for Solar Pro 4 now that the launch promotion has ended. The promotion ran in three windows: free until Aug 11 2026, then 90% off ($0.03 / $0.006 / $0.12) until Sep 11 2026, then 70% off ($0.09 / $0.018 / $0.36) with Oct 9 2026 the last discounted day. Upstage states that standard pricing applies from Oct 10 2026 (UTC)."
       }
