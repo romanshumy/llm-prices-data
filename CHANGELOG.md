@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-18
+
+- **Pareto** (Unbiased) launched — $2.5 in / $7.5 out per 1M tokens
+
 ## 2026-09-16
 
 - **Schematron V2 Turbo** (Inference.net) launched — $0.03 in / $0.15 out per 1M tokens

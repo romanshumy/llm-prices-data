@@ -8070,5 +8070,40 @@
     "source": "verified",
     "status_verified": "2026-08-25",
     "status_source": "https://developers.openai.com/api/docs/deprecations"
+  },
+  {
+    "id": "unbiased-pareto",
+    "provider": "Unbiased",
+    "model": "Pareto",
+    "category": "mid-tier",
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 7.5,
+    "cached_input_per_mtok": 0.25,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-17",
+    "released_source": "https://openrouter.ai/api/v1/models/unbiased/pareto/endpoints",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Unbiased's only model, and a blended one: the platform answers a request by composing across several frontier models behind the scenes and returns a single answer, sold as one SKU under the API identifier \"pareto\". Text and image in, text out; 262,144-token context and up to 131,072 output tokens on the maker's own endpoint, with tool calling. $2.50/$7.50 per 1M tokens and cached input at $0.25 — a tenth of the input rate, which Unbiased positions as 15-25% of Fable 5's list. Its own model card publishes Pareto 26.9's scores against Fable 5.1, GPT 6 Astra and DeepSeek 4.1 Flash: ahead on ArXivMath (88 vs 72/91/28), level on DeepSWE (74), behind on Terminal-Bench 4.0 (51), MMMU-Pro (78) and HLE no-tools (49). No measured task cost or composite score is published, so the cost-per-task claim the positioning implies is not evidenced by the maker.",
+    "price_note": "Unbiased makes Pareto and is its only seller, so this is a first-party list price. Its own rate card at https://unbiased.ai/pricing/ (read 2026-09-18, receipt data/evidence/unbiased-pareto/2026-09-18.txt) prints the three legs as money rather than as a ratio — \"Input $2.50 / Mtok\", \"Cached input $0.25 / Mtok\", \"Output $7.50 / Mtok\" — and the page's own meta description repeats them machine-readably: \"Pareto token rates: $2.50/Mtok input, $0.25/Mtok cached input, $7.50/Mtok output.\" The model card at unbiased.ai/model-card states the same three figures in prose and adds that cached input is billed at 0.1x the input rate. OpenRouter's endpoint list for unbiased/pareto (read 2026-09-18) returns exactly ONE endpoint, provider_name \"Unbiased\", at prompt 0.0000025 / completion 0.0000075 / input_cache_read 0.00000025 with discount 0, so the maker's own figure and the only routed figure agree to the cent on all three legs. The rate is metered against prepaid credits, but unlike a credits-only vendor it is quoted in USD directly and does not vary with the $10, $100 and $1,000 pack sizes, so there is no pack-size spread to resolve and no promotional or introductory marker appears against it. Unbiased charges this flat rate whichever model a request is blended from — the price is its own, not the routed model's — so the row carries no orchestrator pricing caveat.",
+    "availability_note": "Sold as prepaid credits on Unbiased's own platform (platform.unbiased.ai) and routed by OpenRouter from that same surface; api.unbiased.ai answers 401 to an unauthenticated read, so the rate card and the model card are the only first-party price surfaces. New accounts are reviewed and approved by hand before API access turns on, so the list price is reachable but not self-serve. Two figures come from OpenRouter rather than from the maker, because Unbiased publishes neither: the 262,144-token context window and the 131,072-token output cap are read off the maker's own sole endpoint (unbiased/pareto-20260917), which OpenRouter attributes to the slug \"unbiased\" with privacy-policy and terms URLs both on unbiased.ai. The release date is the first date the SKU was provably purchasable — the OpenRouter catalogue record's created timestamp, 2026-09-17T23:02:58Z — as Unbiased's changelog carries no launch entry for it.",
+    "pricing_url": "https://unbiased.ai/pricing/",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "caching",
+      "agentic"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-18",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-09-18",
+    "status_source": "https://unbiased.ai/pricing/"
   }
 ]

@@ -362,5 +362,14 @@
     "url": "https://inference.net/",
     "pricing_url": "https://inference.net/models",
     "logo_color": "#171717"
+  },
+  {
+    "id": "unbiased",
+    "name": "Unbiased",
+    "type": "commercial",
+    "description": "An AI platform built by Circuit & Chisel, the payments-and-identity-for-agents company founded by Louis Amira and David Noël-Romas. It sells exactly one SKU: Pareto, a blended model that composes an answer across several frontier models and returns one response, at $2.50/1M input, $0.25/1M cached input and $7.50/1M output on prepaid credits. Unbiased also publishes its own model comparisons and cost tooling, and says so plainly on its About page — \"We sell one of the products our numbers cover. That is a bias, and we would rather name it than pretend it away.\" Neither Unbiased nor Circuit & Chisel states a founding year on any of its own pages, so none is published here.",
+    "url": "https://unbiased.ai/",
+    "pricing_url": "https://unbiased.ai/pricing/",
+    "logo_color": "#f4513a"
   }
 ]
