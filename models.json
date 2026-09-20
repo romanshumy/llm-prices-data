@@ -6073,13 +6073,14 @@
     "context_window": 1000000,
     "modality": [
       "text",
-      "image"
+      "image",
+      "video"
     ],
     "released": "2026-08-25",
     "status": "Current",
     "open_source": true,
     "parameters": "320B (A18B)",
-    "description": "Z.AI's first natively multimodal GLM-5 model and a separate SKU from GLM-5.3, not a cheaper serving of it — 320B total / 18B activated, image input via image_url content blocks, 1M-token context. Priced at $0.15/$0.50 per 1M tokens with cached input at $0.03 — the list rate that took effect on 2026-09-10, when Z.AI's 50% launch discount ended. Weights are published under MIT at huggingface.co/zai-org/GLM-5.3-Flash.",
+    "description": "Z.AI's first natively multimodal GLM-5 model and a separate SKU from GLM-5.3, not a cheaper serving of it — 320B total / 18B activated, video, image, text and file input (images via image_url content blocks), 1M-token context. Priced at $0.15/$0.50 per 1M tokens with cached input at $0.03 — the list rate that took effect on 2026-09-10, when Z.AI's 50% launch discount ended. Weights are published under MIT at huggingface.co/zai-org/GLM-5.3-Flash.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "promo": false,
     "promo_until": null,
@@ -6091,10 +6092,47 @@
       "caching",
       "long-context"
     ],
-    "last_updated": "2026-09-09",
+    "last_updated": "2026-09-19",
     "released_source": "https://huggingface.co/zai-org/GLM-5.3-Flash",
     "released_verified": "2026-08-27",
     "status_verified": "2026-08-27",
+    "status_source": "https://docs.z.ai/guides/overview/pricing"
+  },
+  {
+    "id": "zhipu-glm-5-3-flashx",
+    "provider": "Z.AI",
+    "model": "GLM-5.3-FlashX",
+    "category": "budget",
+    "input_per_mtok": 0.37,
+    "output_per_mtok": 1.25,
+    "cached_input_per_mtok": 0.075,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-08-26",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "320B (A18B)",
+    "description": "The 200 tokens/s serving tier of GLM-5.3-Flash rather than a separate model — Z.AI documents the pair on one page and publishes no standalone FlashX model card. 320B total / 18B activated, 1M-token context, 128K max output, thinking always on, and video, image, text and file input. $0.37/$1.25 per 1M tokens with cached input at $0.075 — roughly 2.5x plain GLM-5.3-Flash for the same MIT-licensed weights at huggingface.co/zai-org/GLM-5.3-Flash.",
+    "pricing_url": "https://docs.z.ai/guides/overview/pricing",
+    "promo": false,
+    "promo_until": null,
+    "price_note": "Standard list pricing, per 1M tokens. Z.AI's own rate card (docs.z.ai/guides/overview/pricing) prints one value per cell for GLM-5.3-FlashX under \"Latest Models\" — input $0.37, cached input $0.075, output $1.25 — with no discounted/struck-through pair of the kind it showed throughout the GLM-5.3-Flash launch promotion, and Z.AI's own OpenRouter endpoint reports discount 0. Cached-input STORAGE is separately labelled \"Limited-time Free\" with no end date, and is not a rate we publish.",
+    "tags": [
+      "open-weights",
+      "budget",
+      "fast",
+      "multimodal",
+      "caching",
+      "long-context"
+    ],
+    "last_updated": "2026-09-19",
+    "released_source": "https://docs.z.ai/release-notes/new-released",
+    "released_verified": "2026-09-19",
+    "status_verified": "2026-09-19",
     "status_source": "https://docs.z.ai/guides/overview/pricing"
   },
   {
