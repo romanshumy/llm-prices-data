@@ -461,6 +461,37 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen3-8-omni-flash",
+    "provider": "Alibaba",
+    "model": "Qwen3.8-Omni-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.47,
+    "cached_input_per_mtok": 0.016,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's omni-modal cheap tier on Model Studio — text, images, audio and video in, text out, on a 1M-token context — at $0.15/$0.47 per 1M tokens, the same rate as the text-only Qwen3.8-Flash, with cache hits at $0.016. It is the cheapest row here that accepts all four input modalities, and unlike the Qwen3.5-Omni SKUs below it on the same rate card it bills one input rate for every modality instead of charging audio separately.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International list price, read off the Qwen-Omni table on the Singapore tab — the same tier the other Qwen3.8 rows here use. The SKU's row prints exactly three numbers (input, cache-hit input, output) and no modality split, while the Qwen3.5-Omni rows beneath it in the same table price text/image/video input apart from audio input and text output apart from text+audio output. Cached input is the row's own cache-hit input column; Model Studio applies it as automatic implicit caching.",
+    "tags": [
+      "budget",
+      "multimodal",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-20",
+    "status_verified": "2026-09-20",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-6-plus",
     "provider": "Alibaba",
     "model": "Qwen3.6-Plus",
@@ -8143,5 +8174,33 @@
     "promo": false,
     "status_verified": "2026-09-18",
     "status_source": "https://unbiased.ai/pricing/"
+  },
+  {
+    "id": "typesafe-jev-1-13",
+    "provider": "TypeSafe AI",
+    "model": "Jev 1.13",
+    "category": "budget",
+    "input_per_mtok": 0.042,
+    "output_per_mtok": 0.0,
+    "context_window": 64000,
+    "modality": [
+      "text"
+    ],
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "TypeSafe AI's flagship, and the first of what it calls System One models: you send a block of state plus typed questions — yes/no, choice or score — and get structured answers with calibrated probabilities back, instead of generated text. The billing follows that shape. TypeSafe charges for input tokens only, at $0.042 per 1M tokens ($42 per 1B, the unit its own rate card leads with), and the same card states that output tokens are free — so the $0 output on this row is a rate the maker published, not a number we are missing. Text in only; images, audio and video have to be turned into text or structured fields first. One request carries a 64,000-token budget covering the state and every question together, with a tighter 32,000-token limit on the state plus the single longest question.",
+    "price_note": "First-party list price. TypeSafe makes Jev and sells it only on its own API, so docs.typesafe.ai/models is the rate card. That page prints ONE figure for Jev 1.13 — \"Price (per Btok / per Mtok)  $42 / $0.042\" — and the two are the same INPUT rate in two units, not an input/output pair: a Btok is a billion tokens and an Mtok is a million. The note under the table reads \"Charged per input token. Output tokens are free.\" We publish the per-Mtok form. The $0.00 output is therefore the maker's own printed rate on its own rate card — not a host promotion, not an introductory offer, and not an unknown coerced to zero. Second source, independent of the capture and agreeing exactly: LiteLLM's typesafe/jev-1.13.0 entry records input_cost_per_token 4.2e-08 and output_cost_per_token 0.0, cited to this same page.",
+    "availability_note": "Sold only by TypeSafe, on a single endpoint (POST /v1/systemone). The versioned id is jev-1.13.0; the aliases jev-latest and jev-preview both resolve to it today. No reseller carries it — it is absent from the OpenRouter catalogue (446 rows, read 2026-09-20). Published rate limits are 250,000 tokens per second and 1,200 requests per minute, and the page warns they \"can change without notice\" while TypeSafe scales. The rate card prints no release date, and the GET /v1/models call that returns one needs an API key, so no release date is published here.",
+    "pricing_url": "https://docs.typesafe.ai/models",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-20",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-09-20",
+    "status_source": "https://docs.typesafe.ai/models"
   }
 ]

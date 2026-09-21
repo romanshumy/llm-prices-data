@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-20
+
+- **Qwen3.8-Omni-Flash** (Alibaba) launched — $0.15 in / $0.47 out per 1M tokens
+- **Jev 1.13** (TypeSafe AI) launched — $0.042 in / $0.0 out per 1M tokens
+
 ## 2026-09-19
 
 - **GLM-5.3-FlashX** (Z.AI) launched — $0.37 in / $1.25 out per 1M tokens

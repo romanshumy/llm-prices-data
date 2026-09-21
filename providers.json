@@ -371,5 +371,14 @@
     "url": "https://unbiased.ai/",
     "pricing_url": "https://unbiased.ai/pricing/",
     "logo_color": "#f4513a"
+  },
+  {
+    "id": "typesafe",
+    "name": "TypeSafe AI",
+    "type": "commercial",
+    "description": "A San Francisco lab that deliberately took the opposite research direction to chat: instead of RLHF, it trains with what it calls Reinforcement Learning for Calibrated Decisions (RLCD) to build \"System One models\" — models meant to be called by software rather than read by people. They evaluate a block of state against typed questions and return decisions with calibrated probabilities; they do not write replies, produce code, or explain their reasoning. It sells exactly one SKU, Jev 1.13, on one endpoint, and bills input tokens only at $0.042 per 1M, with output tokens free. TypeSafe states no founding year on any of its own pages, so none is published here.",
+    "url": "https://typesafe.ai/",
+    "pricing_url": "https://docs.typesafe.ai/models",
+    "logo_color": "#1e1e1e"
   }
 ]
