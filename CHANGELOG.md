@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-21
+
+- **Qwen3.7-Max** price change — input $2.00 → $2.50, output $6.00 → $7.50 per 1M tokens
+
 ## 2026-09-20
 
 - **Qwen3.8-Omni-Flash** (Alibaba) launched — $0.15 in / $0.47 out per 1M tokens
