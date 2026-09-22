@@ -36,7 +36,7 @@
     "id": "xai",
     "name": "xAI",
     "type": "commercial",
-    "description": "Maker of Grok models. Current flagship Grok 4.3 offers 1M context at $1.25/$2.50 per 1M tokens — strong value.",
+    "description": "Maker of Grok models. Current flagship Grok 4.7 offers 500K context at $2.00/$6.00 per 1M tokens.",
     "url": "https://x.ai/",
     "pricing_url": "https://docs.x.ai/developers/models",
     "affiliate_url": "https://console.x.ai/",

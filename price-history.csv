@@ -16719,6 +16719,7 @@ xai-grok-4-6,Grok 4.6,xAI,2026-09-19,snapshot,,2.0,6.0,0.5
 xai-grok-4-6,Grok 4.6,xAI,2026-09-20,snapshot,,2.0,6.0,0.5
 xai-grok-4-6,Grok 4.6,xAI,2026-09-21,snapshot,,2.0,6.0,0.5
 xai-grok-4-6,Grok 4.6,xAI,2026-09-22,snapshot,,2.0,6.0,0.5
+xai-grok-4-7,Grok 4.7,xAI,2026-09-22,new_model,verified,2.0,6.0,0.5
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-25,baseline,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-29,snapshot,,1.0,2.0,
 xai-grok-build-0-1,Grok Build 0.1,xAI,2026-06-30,snapshot,,1.0,2.0,
