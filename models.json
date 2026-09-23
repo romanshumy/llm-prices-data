@@ -4264,6 +4264,72 @@
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
+    "id": "openai-gpt-6-sol",
+    "provider": "OpenAI",
+    "model": "GPT-6 Sol",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-22",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's mid-priced GPT-6 reasoning tier, released 2026-09-22 alongside GPT-6 Luna and priced a fifth of GPT-6 Astra. 1.05M context window, text + image input, text output, served over the Responses and Chat Completions APIs. $2/$10 per 1M tokens (cached input $0.20).",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier, and prompts over 272K input tokens bill at the long-context tier of $4 input / $0.40 cached input / $5 cache write / $15 output per 1M — 2x input and cache rates and 1.5x output, applied to the full request. Short-context cache writes bill at $2.50 per 1M. Regional (data-residency) endpoints carry a 10% uplift, and EU data residency is available only with Standard processing.",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-22",
+    "source": "verified",
+    "status_verified": "2026-09-22",
+    "status_source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
+    "id": "openai-gpt-6-luna",
+    "provider": "OpenAI",
+    "model": "GPT-6 Luna",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.5,
+    "cached_input_per_mtok": 0.01,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-22",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "The cheapest GPT-6 reasoning tier, released 2026-09-22 alongside GPT-6 Sol and priced at half the input rate of GPT-5.6 Luna before it. 1.05M context window, text + image input, text output, served over the Responses and Chat Completions APIs. $0.10/$0.50 per 1M tokens (cached input $0.01).",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier, and prompts over 272K input tokens bill at the long-context tier of $0.20 input / $0.02 cached input / $0.25 cache write / $0.75 output per 1M — 2x input and cache rates and 1.5x output, applied to the full request. Short-context cache writes bill at $0.125 per 1M. Regional (data-residency) endpoints carry a 10% uplift, and EU data residency is available only with Standard processing.",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "budget",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-22",
+    "source": "verified",
+    "status_verified": "2026-09-22",
+    "status_source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
     "id": "openai-gpt-image-2",
     "provider": "OpenAI",
     "model": "GPT-Image-2",
@@ -7568,6 +7634,63 @@
     "last_updated": "2026-09-11",
     "source": "verified",
     "status_verified": "2026-09-11",
+    "status_source": "https://www.upstage.ai/pricing/api"
+  },
+  {
+    "id": "upstage-solar-mini4",
+    "provider": "Upstage",
+    "model": "Solar Mini 4",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.2,
+    "cached_input_per_mtok": 0.005,
+    "context_window": 524288,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-09-22",
+    "released_source": "https://www.upstage.ai/blog/en/solar-mini-4",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Upstage's compact Solar tier, a mixture-of-experts with just 3B active parameters for high-frequency, cost-sensitive agent work, with a 512K context window. Promotional pricing is $0.05/$0.20 per 1M tokens (50% off) through Oct 22 2026; it reverts to Upstage's standard list price of $0.10/$0.40 on Oct 23 2026.",
+    "pricing_url": "https://www.upstage.ai/pricing/api",
+    "price_note": "Promotional pricing, per 1M tokens, exclusive of 10% VAT. Upstage's standard list price for Solar Mini 4 is $0.10 input / $0.01 cached input / $0.40 output. The launch promotion prices it at 50% off — $0.05 / $0.005 / $0.20 — through Oct 22 2026, and Upstage's pricing page shows the standard price struck through beside the discounted one. From Oct 23 2026 (UTC) the standard list price applies; we track that date and will publish the reversion on the day.",
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.05,
+      "output_per_mtok": 0.2,
+      "cached_input_per_mtok": 0.005,
+      "vendor_prints": "unmarked",
+      "vendor_prints_note": "Upstage's pricing page prints the discounted figures on the Solar Mini 4 card without a currency symbol of their own; the struck-through standard price beside them carries the \"$\". The card's schedule carries the window 2026-09-22T05:00:00Z to 2026-10-23T00:00:00Z, and the page states \"50% off until 2026-10-22 (UTC). Standard pricing applies from 2026-10-23 (UTC).\" Read 2026-09-23."
+    },
+    "promo_until": "2026-10-22",
+    "scheduled_price_change": {
+      "effective_at": "2026-10-23T00:00:00Z",
+      "announced_on": "2026-09-23",
+      "source_url": "https://www.upstage.ai/pricing/api",
+      "reason": "Solar Mini 4 launch promotion ends; pricing reverts to Upstage's standard list rate",
+      "decided_in": "MOD-1446",
+      "set": {
+        "input_per_mtok": 0.1,
+        "cached_input_per_mtok": 0.01,
+        "output_per_mtok": 0.4,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Upstage's compact Solar tier, a mixture-of-experts with just 3B active parameters for high-frequency, cost-sensitive agent work, with a 512K context window. Priced at Upstage's standard list rate of $0.10/$0.40 per 1M tokens since Oct 23 2026, when the launch promotion ended.",
+        "price_note": "Standard list pricing, per 1M tokens, exclusive of 10% VAT: input $0.10, cached input $0.01, output $0.40 — the figures Upstage's rate card carries for Solar Mini 4 now that the launch promotion has ended. The launch promotion ran at 50% off ($0.05 / $0.005 / $0.20) from Sep 22 2026, with Oct 22 2026 the last discounted day. Upstage states that standard pricing applies from Oct 23 2026 (UTC)."
+      }
+    },
+    "tags": [
+      "budget",
+      "caching",
+      "long-context"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-23",
+    "source": "verified",
+    "status_verified": "2026-09-23",
     "status_source": "https://www.upstage.ai/pricing/api"
   },
   {

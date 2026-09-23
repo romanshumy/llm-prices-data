@@ -12546,6 +12546,8 @@ openai-gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-20,snapshot,,10.0,50.0,1.0
 openai-gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-21,snapshot,,10.0,50.0,1.0
 openai-gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-22,snapshot,,10.0,50.0,1.0
 openai-gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-23,snapshot,,10.0,50.0,1.0
+openai-gpt-6-luna,GPT-6 Luna,OpenAI,2026-09-23,new_model,verified,0.1,0.5,0.01
+openai-gpt-6-sol,GPT-6 Sol,OpenAI,2026-09-23,new_model,verified,2.0,10.0,0.2
 openai-gpt-audio-1-5,GPT-Audio-1.5,OpenAI,2026-08-17,new_model,verified,2.5,10.0,
 openai-gpt-audio-1-5,GPT-Audio-1.5,OpenAI,2026-08-18,snapshot,,2.5,10.0,
 openai-gpt-audio-1-5,GPT-Audio-1.5,OpenAI,2026-08-19,snapshot,,2.5,10.0,
@@ -15678,6 +15680,7 @@ unbiased-pareto,Pareto,Unbiased,2026-09-20,snapshot,,2.5,7.5,0.25
 unbiased-pareto,Pareto,Unbiased,2026-09-21,snapshot,,2.5,7.5,0.25
 unbiased-pareto,Pareto,Unbiased,2026-09-22,snapshot,,2.5,7.5,0.25
 unbiased-pareto,Pareto,Unbiased,2026-09-23,snapshot,,2.5,7.5,0.25
+upstage-solar-mini4,Solar Mini 4,Upstage,2026-09-23,new_model,verified,0.05,0.2,0.005
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-07,new_model,verified,0.15,0.6,
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-08,snapshot,,0.15,0.6,0.015
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-09,snapshot,,0.15,0.6,0.015

@@ -169858,5 +169858,68 @@
         "sha": "8c5b7fac2f"
       }
     ]
+  },
+  "openai-gpt-6-sol": {
+    "model": "GPT-6 Sol",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-09-23",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-09-23T14:23:06Z",
+        "snapshot": "data/evidence/openai-gpt-6-sol/2026-09-23.txt",
+        "sha": "2a31ece637"
+      }
+    ]
+  },
+  "openai-gpt-6-luna": {
+    "model": "GPT-6 Luna",
+    "provider": "OpenAI",
+    "history": [
+      {
+        "date": "2026-09-23",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.5,
+        "cached_input_per_mtok": 0.01,
+        "context_window": 1050000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developers.openai.com/api/docs/pricing",
+        "captured_at": "2026-09-23T14:23:14Z",
+        "snapshot": "data/evidence/openai-gpt-6-luna/2026-09-23.txt",
+        "sha": "2a31ece637"
+      }
+    ]
+  },
+  "upstage-solar-mini4": {
+    "model": "Solar Mini 4",
+    "provider": "Upstage",
+    "history": [
+      {
+        "date": "2026-09-23",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": 0.005,
+        "context_window": 524288,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.upstage.ai/pricing/api",
+        "captured_at": "2026-09-23T11:04:23Z",
+        "snapshot": "data/evidence/upstage-solar-mini4/2026-09-23.txt",
+        "sha": "4b4f3fd029"
+      }
+    ]
   }
 }

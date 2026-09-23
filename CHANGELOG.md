@@ -10,6 +10,9 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-09-23
 
 - **Claude Opus 5.5** (Anthropic) launched — $4.0 in / $20.0 out per 1M tokens
+- **GPT-6 Sol** (OpenAI) launched — $2.0 in / $10.0 out per 1M tokens
+- **GPT-6 Luna** (OpenAI) launched — $0.1 in / $0.5 out per 1M tokens
+- **Solar Mini 4** (Upstage) launched — $0.05 in / $0.2 out per 1M tokens
 
 ## 2026-09-22
 
