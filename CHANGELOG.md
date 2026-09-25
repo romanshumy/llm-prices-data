@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-09-24
+
+- **Ember-1** (Fireworks) launched — $3.0 in / $15.0 out per 1M tokens
+
 ## 2026-09-23
 
 - **Claude Opus 5.5** (Anthropic) launched — $4.0 in / $20.0 out per 1M tokens

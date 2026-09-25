@@ -2214,6 +2214,38 @@
     "status_source": "https://docs.fireworks.ai/serverless/pricing"
   },
   {
+    "id": "fireworks-ember-1",
+    "provider": "Fireworks",
+    "model": "Ember-1",
+    "category": "flagship",
+    "input_per_mtok": 3.0,
+    "output_per_mtok": 15.0,
+    "cached_input_per_mtok": 0.3,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-22",
+    "released_source": "https://fireworks.ai/models/fireworks/ember-1",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Fireworks' own reasoning model, built on Kimi K3, that Fireworks says produces shorter reasoning traces — about 40% fewer tokens at comparable quality in its own evaluations. Served only by Fireworks. 1M-token context, text + image input. $3.00/$15.00 per 1M tokens; cached $0.30.",
+    "pricing_url": "https://fireworks.ai/models/fireworks/ember-1",
+    "tags": [
+      "flagship",
+      "caching",
+      "multimodal",
+      "reasoning"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-24",
+    "source": "verified",
+    "status_verified": "2026-09-24",
+    "status_source": "https://fireworks.ai/models/fireworks/ember-1"
+  },
+  {
     "id": "google-gemini-2-5-flash",
     "provider": "Google",
     "model": "Gemini 2.5 Flash",
