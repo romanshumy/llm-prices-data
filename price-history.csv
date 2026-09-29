@@ -3331,6 +3331,7 @@ anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-09-26,snapshot,,2.0,10.
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-09-27,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-09-28,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5,Claude Sonnet 5,Anthropic,2026-09-29,snapshot,,2.0,10.0,0.2
+anthropic-claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-09-29,new_model,verified,2.0,10.0,0.2
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-25,baseline,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-29,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-07-01,snapshot,,0.07,0.07,

@@ -183153,5 +183153,26 @@
         "changes": []
       }
     ]
+  },
+  "anthropic-claude-sonnet-5-5": {
+    "model": "Claude Sonnet 5.5",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-09-29",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "captured_at": "2026-09-29T04:29:46Z",
+        "snapshot": "data/evidence/anthropic-claude-sonnet-5-5/2026-09-29.txt",
+        "sha": "5d5c919004"
+      }
+    ]
   }
 }

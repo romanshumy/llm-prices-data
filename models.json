@@ -1397,7 +1397,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's most agentic Sonnet yet — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. $2/$10 per 1M tokens — first announced as launch pricing, now Anthropic's standard price; the increase once scheduled for Sep 1 2026 will not happen.",
+    "description": "Anthropic's Sonnet from 2026-06-30, still sold but succeeded by Sonnet 5.5 on 2026-09-28. Its most agentic Sonnet at launch — performance approaching Opus 4.8 at a fraction of the price, strong on reasoning, tool use, coding and autonomous agent workloads. $2/$10 per 1M tokens — first announced as launch pricing, now Anthropic's standard price; the increase once scheduled for Sep 1 2026 will not happen.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -1408,7 +1408,39 @@
     "featured": true,
     "last_updated": "2026-08-13",
     "source": "verified",
-    "status_verified": "2026-08-13",
+    "status_verified": "2026-09-29",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5-5",
+    "provider": "Anthropic",
+    "model": "Claude Sonnet 5.5",
+    "category": "mid-tier",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-28",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's newest Sonnet and the second model of the Claude 5.5 family, launched 2026-09-28 as a faster, lower-cost complement to Opus 5.5. Anthropic says it is a clear upgrade over Sonnet 5, generates 30%+ faster and costs up to 30% less per task because it needs fewer tokens. List price is unchanged from Sonnet 5: $2/$10 per 1M tokens, cache reads $0.20 (10% of input), cache writes $2.50; Batch API halves it to $1/$5; US-only inference is 1.1x. 1M-token context, 128K max output.",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "reasoning",
+      "mid-tier",
+      "multimodal",
+      "agentic"
+    ],
+    "featured": true,
+    "last_updated": "2026-09-29",
+    "released_source": "https://www.anthropic.com/claude-sonnet-5-5",
+    "released_verified": "2026-09-29",
+    "status_verified": "2026-09-29",
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
