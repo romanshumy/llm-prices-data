@@ -1453,7 +1453,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": "111B",
-    "description": "Cohere's flagship model. $2.50/$10 per 1M tokens, 256k context window. Priced on Cohere's Command A model card — the cohere.com/pricing rate card no longer lists this SKU. See the price note.",
+    "description": "Cohere's top per-token Command model; the newer Command A+ is free on Cohere's API up to rate limits. $2.50/$10 per 1M tokens, 256k context window. Priced on Cohere's Command A model card — the cohere.com/pricing rate card no longer lists this SKU. See the price note.",
     "price_note": "Cohere's list price for Command A, read 2026-08-22 on the first-party model card at docs.cohere.com/docs/command-a: Input $2.5 / 1M tokens, Output $10 / 1M tokens, printed beside the 256,000-token context window and the model ID command-a-03-2025 that this row carries. We cite that page rather than cohere.com/pricing because Cohere's public rate card no longer prices Command A at all: with all four of its tabs opened, the \"Generative models\" tab prices only Command A+ ($0 / Free under Apache 2.0 — a different, open-weights SKU), Command R ($0.15 / $0.60) and Command R7B ($0.0375 / $0.15). The rate card's legacy \"For existing customers\" block does print $2.50/$10, but for Command R+ 08-2024 — the same two figures as this row, which is a coincidence and not a source for it. Command A itself is current, not withdrawn: docs.cohere.com/docs/models lists command-a-03-2025 with status Live.",
     "pricing_url": "https://docs.cohere.com/docs/command-a",
     "tags": [
@@ -5194,23 +5194,25 @@
       "text"
     ],
     "released": "2026-05-27",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-09-28",
     "open_source": true,
     "parameters": "8.5B (A1B)",
-    "description": "Liquid AI's LFM2.5 8B (A1B active) on Together serverless. $0.03/$0.12 per 1M tokens. Named replacement for the retired LFM2 24B A2B.",
+    "description": "Liquid AI's LFM2.5 8B (A1B active) on Together. $0.03/$0.12 per 1M tokens. Together no longer serves it; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "fast",
       "open-weights",
-      "budget"
+      "budget",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-08-10",
+    "last_updated": "2026-09-28",
     "released_source": "https://www.together.ai/models/liquid-lfm2-5-8b-a1b",
     "released_verified": "2026-08-10",
-    "status_verified": "2026-09-07",
-    "status_source": "https://www.together.ai/pricing",
-    "availability_note": "This is Together's price for hosting Liquid AI's model, not a price from Liquid AI. Liquid AI does not sell its models per token at all — liquid.ai/pricing offers the open weights free under the LFM Open License below $10M annual revenue, and a commercial licence above it — so Together's serverless rate is the only per-token price that exists for this model. The 32,768-token context is what Together serves on this endpoint; the model itself is built for 128K, which this endpoint does not offer."
+    "status_verified": "2026-09-28",
+    "status_source": "https://www.together.ai/models/liquid-lfm2-5-8b-a1b",
+    "availability_note": "Together's own model page now states 'This model is not available on Together's Serverless API' (read 2026-09-28). It left the serverless card by 2026-08-26 and the pricing table by 2026-09-21. Liquid AI sells no per-token access, so no purchasable per-token price exists for this model today."
   },
   {
     "id": "together-llama-3-3-70b",
