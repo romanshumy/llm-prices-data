@@ -144885,7 +144885,7 @@
         "event": "new_model",
         "changes": [],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://deepinfra.com/pricing",
         "captured_at": "2026-07-10T04:30:41Z",
         "snapshot": "data/evidence/deepinfra-deepseek-v4-flash/2026-07-10.txt",
@@ -145622,12 +145622,33 @@
       },
       {
         "date": "2026-09-30",
-        "input_per_mtok": 0.09,
+        "input_per_mtok": 0.06,
         "output_per_mtok": 0.18,
-        "cached_input_per_mtok": 0.018,
+        "cached_input_per_mtok": 0.015,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.09,
+            "new": 0.06,
+            "direction": "down",
+            "change_pct": -33.3
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.018,
+            "new": 0.015,
+            "direction": "down",
+            "change_pct": -16.7
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://deepinfra.com/pricing",
+        "captured_at": "2026-09-30T03:51:24Z",
+        "snapshot": "data/evidence/deepinfra-deepseek-v4-flash/2026-09-30.txt",
+        "sha": "d43a5326d8"
       }
     ]
   },
