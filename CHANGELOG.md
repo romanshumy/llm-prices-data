@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-09-30
 
 - **DeepSeek V4 Flash** price change — input $0.09 → $0.06, cached input $0.018 → $0.015 per 1M tokens
+- **GPT-6.1 Sol** (OpenAI) launched — $2.0 in / $10.0 out per 1M tokens
 
 ## 2026-09-29
 

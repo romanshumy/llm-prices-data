@@ -4345,9 +4345,9 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "OpenAI's mid-priced GPT-6 reasoning tier, released 2026-09-22 alongside GPT-6 Luna and priced a fifth of GPT-6 Astra. 1.05M context window, text + image input, text output, served over the Responses and Chat Completions APIs. $2/$10 per 1M tokens (cached input $0.20).",
-    "pricing_url": "https://developers.openai.com/api/docs/pricing",
-    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier, and prompts over 272K input tokens bill at the long-context tier of $4 input / $0.40 cached input / $5 cache write / $15 output per 1M — 2x input and cache rates and 1.5x output, applied to the full request. Short-context cache writes bill at $2.50 per 1M. Regional (data-residency) endpoints carry a 10% uplift, and EU data residency is available only with Standard processing.",
+    "description": "OpenAI's mid-priced GPT-6 reasoning tier, released 2026-09-22 alongside GPT-6 Luna and priced a fifth of GPT-6 Astra. 1.05M context window, text + image input, text output, served over the Responses and Chat Completions APIs. $2/$10 per 1M tokens (cached input $0.20). Succeeded on 2026-09-29 by GPT-6.1 Sol at the same $2/$10 with cached input at $0.10; GPT-6 Sol is still served and not on OpenAI's deprecations list.",
+    "pricing_url": "https://developers.openai.com/api/docs/changelog",
+    "price_note": "Since GPT-6.1 Sol launched on 2026-09-29, OpenAI's rate card no longer prints a gpt-6-sol row; the tracked figures are the short-context (up to 272K input tokens) rates stated in the 2026-09-22 changelog entry. When the rate card last listed it (read 2026-09-23), longer prompts billed at $4 input / $0.40 cached input / $5 cache write / $15 output per 1M, and short-context cache writes at $2.50 per 1M. Regional (data-residency) endpoints carry a 10% uplift.",
     "tags": [
       "reasoning",
       "multimodal",
@@ -4357,7 +4357,40 @@
     "featured": false,
     "last_updated": "2026-09-22",
     "source": "verified",
-    "status_verified": "2026-09-23",
+    "status_verified": "2026-09-30",
+    "status_source": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+  },
+  {
+    "id": "openai-gpt-6-1-sol",
+    "provider": "OpenAI",
+    "model": "GPT-6.1 Sol",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.1,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-09-29",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's GPT-6.1 update to its mid-priced Sol reasoning tier, released 2026-09-29 for complex coding and professional work at a lower cost than GPT-6 Astra. Same $2/$10 per 1M tokens as GPT-6 Sol with cached input halved to $0.10. 1.05M context window, 128K max output, text + image input, text output, served over the Responses and Chat Completions APIs; multi-agent delegation in beta.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier (prompts up to 272K input tokens), and longer prompts bill at the long-context tier of $4 input / $0.20 cached input / $5 cache write / $15 output per 1M. Short-context cache writes bill at $2.50 per 1M. Batch is half the Standard rate ($1 / $0.05 / $1.25 / $5). Regional (data-residency) endpoints carry a 10% uplift.",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-09-30",
+    "source": "verified",
+    "status_verified": "2026-09-30",
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
