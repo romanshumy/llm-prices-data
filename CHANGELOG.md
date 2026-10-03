@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-02
+
+- **Pareto** price change — input $2.50 → $0.80, output $7.50 → $3.20, cached input $0.25 → $0.03 per 1M tokens
+
 ## 2026-09-30
 
 - **DeepSeek V4 Flash** price change — input $0.09 → $0.06, cached input $0.018 → $0.015 per 1M tokens
