@@ -265,7 +265,7 @@ did not re-price. It is listed here for the record, not as a market move.
 - **Qwen-Flash** data correction — input $0.115 → $0.05, output $0.46 → $0.40 per 1M tokens
   - Published $0.115/$0.46 matched no qwen-flash price in any Alibaba region or tier. Alibaba Model Studio lists qwen-flash International (Singapore) at $0.05 in / $0.40 out for the 0<Token≤256K tier (256K–1M tier bills $0.25/$2.00). Data correction, not a market move: Alibaba did not cut this price on 2026-07-28. Supersedes the wrong baseline+carry-forward span. Root cause: all 6 Alibaba rows cited /model-studio/models, a page carrying no prices, so the row could never be re-verified.
 - **Llama 4 Maverick** data correction — input $0.15 → $0.20, output $0.60 → $0.80 per 1M tokens
-  - Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 (first-party, data/evidence/deepinfra-llama-4-maverick/2026-07-27.txt line 103). The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span.
+  - Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 on its own pricing page. The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span.
 
 ## 2026-07-25
 

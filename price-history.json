@@ -148010,7 +148010,7 @@
           "output_per_mtok": 0.6
         },
         "correction_ref": "MOD-428",
-        "note": "Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 (first-party, data/evidence/deepinfra-llama-4-maverick/2026-07-27.txt line 103). The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span."
+        "note": "Published $0.15/$0.60 was never first-party-substantiated: DeepInfra serves this SKU as 'Llama-4-Maverick-17B-128E' at $0.20/$0.80 on its own pricing page. The 07-15 and 07-20 'verified' points carried a source capture that never contained the model row, so the $0.15/$0.60 rotted uncaught. Data correction, not a market move: DeepInfra did not raise this price on 2026-07-28. Supersedes the wrong baseline and carried-forward span."
       },
       {
         "date": "2026-07-29",
@@ -186496,7 +186496,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "unproven",
+        "confidence": "verified",
         "evidence_url": "https://unbiased.ai/pricing/",
         "captured_at": "2026-10-02T14:15:52Z",
         "snapshot": "data/evidence/unbiased-pareto/2026-10-02.txt",
