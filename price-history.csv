@@ -2548,7 +2548,7 @@ anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-01,snapshot,,10.0,50
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-02,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-03,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-04,snapshot,,10.0,50.0,1.0
-anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-05,snapshot,,10.0,50.0,1.0
+anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-10-05,removed,,10.0,50.0,1.0
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-01,new_model,verified,10.0,50.0,
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-02,snapshot,,10.0,50.0,0.25
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-09-03,snapshot,,10.0,50.0,0.25
@@ -2583,7 +2583,7 @@ anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-01,snapshot,,10.
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-02,snapshot,,10.0,50.0,0.25
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-03,snapshot,,10.0,50.0,0.25
 anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-04,snapshot,,10.0,50.0,0.25
-anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-05,snapshot,,10.0,50.0,0.25
+anthropic-claude-mythos-5-1,Claude Mythos 5.1,Anthropic,2026-10-05,removed,,10.0,50.0,0.25
 anthropic-claude-opus-4,Claude Opus 4,Anthropic,2026-09-05,new_model,verified,15.0,75.0,
 anthropic-claude-opus-4,Claude Opus 4,Anthropic,2026-09-10,snapshot,,15.0,75.0,1.5
 anthropic-claude-opus-4,Claude Opus 4,Anthropic,2026-09-11,snapshot,,15.0,75.0,1.5
@@ -13582,7 +13582,7 @@ openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-01,snapshot,,12.5,75.0,1.25
 openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-02,snapshot,,12.5,75.0,1.25
 openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-03,snapshot,,12.5,75.0,1.25
 openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-04,snapshot,,12.5,75.0,1.25
-openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-05,snapshot,,12.5,75.0,1.25
+openai-gpt-5-6-cyber,GPT-5.6 Cyber,OpenAI,2026-10-05,removed,,12.5,75.0,1.25
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-09,new_model,first-party+openrouter (2-source),1.0,6.0,
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-10,snapshot,,1.0,6.0,0.1
 openai-gpt-5-6-luna,GPT-5.6 Luna,OpenAI,2026-07-11,snapshot,,1.0,6.0,0.1

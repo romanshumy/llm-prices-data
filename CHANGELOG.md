@@ -10,6 +10,9 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-05
 
 - **Sonar (Agent API)** (Perplexity) launched — $0.25 in / $2.5 out per 1M tokens
+- **Claude Mythos 5** removed/retired
+- **Claude Mythos 5.1** removed/retired
+- **GPT-5.6 Cyber** removed/retired
 
 ## 2026-10-02
 

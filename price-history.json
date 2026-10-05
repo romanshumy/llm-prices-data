@@ -131370,8 +131370,11 @@
         "output_per_mtok": 50.0,
         "cached_input_per_mtok": 1.0,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1537",
+        "note": "Owner ruling on MOD-1288, 2026-10-05 (`_access_rule` in data/discovery/seen.json): approval-only models are not published. Re-read 2026-10-05 platform.claude.com/docs/en/about-claude/pricing.md (HTTP 200): the row is printed as 'Claude Mythos 5 (limited availability)' linking anthropic.com/glasswing, and the legend reads 'Limited access: Offered separately, by invitation only, as part of Project Glasswing. For access, contact your Anthropic, AWS, or Google Cloud account team.' The price is real; an ordinary API account cannot pay it. NOT a retirement (the model is still served to Glasswing members), so the row is removed, /models/anthropic-claude-mythos-5/ 301s to anthropic-claude-fable-5-1 (same rate card), and the lead is re-filed as defer/priced-held in seen.json. MOD-1537.",
+        "public_note": "Removed because Claude Mythos 5 is not sold to ordinary API accounts. Anthropic offers it by invitation only, through Project Glasswing, so the per-token price we showed is not one you can pay without that approval. The model has not been retired. Claude Fable 5.1 is the generally available model on the same rate card, at $10 input and $50 output per 1M tokens."
       }
     ]
   },
@@ -170309,8 +170312,11 @@
         "output_per_mtok": 75.0,
         "cached_input_per_mtok": 1.25,
         "context_window": 400000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1537",
+        "note": "Owner ruling on MOD-1288, 2026-10-05 (`_access_rule` in data/discovery/seen.json): approval-only models are not published; it overrides the 2026-08-17 ledger ruling that the Daybreak Red gate was an availability_note. Re-read 2026-10-05 developers.openai.com/api/docs/models/gpt-5.6-cyber.md (HTTP 200): 'This model requires separate approval and provisioning, you can apply to join the Daybreak program'. The rate card still prints $12.50 / $1.25 / $75.00 under 'Cyber models'. NOT a retirement, so the row is removed, /models/openai-gpt-5-6-cyber/ 301s to openai-gpt-5-6-sol (the base model), and the ledger line is re-decided tracked -> defer/priced-held. MOD-1537.",
+        "public_note": "Removed because GPT-5.6 Cyber is not sold to ordinary API accounts. OpenAI requires separate approval and provisioning through its Daybreak programme, so the per-token price we showed is not one you can pay without that approval. The model has not been retired. GPT-5.6 Sol, the model it is built on, is generally available at $4 input and $20 output per 1M tokens."
       }
     ]
   },
@@ -183159,8 +183165,11 @@
         "output_per_mtok": 50.0,
         "cached_input_per_mtok": 0.25,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1537",
+        "note": "Owner ruling on MOD-1288, 2026-10-05 (`_access_rule` in data/discovery/seen.json): approval-only models are not published. Re-read 2026-10-05 platform.claude.com/docs/en/about-claude/pricing.md (HTTP 200): the row is printed as 'Claude Mythos 5.1 (limited availability)' linking anthropic.com/glasswing, and the legend reads 'Limited access: Offered separately, by invitation only, as part of Project Glasswing. For access, contact your Anthropic, AWS, or Google Cloud account team.' The price is real; an ordinary API account cannot pay it. NOT a retirement (the model is still served to Glasswing members), so the row is removed, /models/anthropic-claude-mythos-5-1/ 301s to anthropic-claude-fable-5-1 (same rate card), and the lead is re-filed as defer/priced-held in seen.json. MOD-1537.",
+        "public_note": "Removed because Claude Mythos 5.1 is not sold to ordinary API accounts. Anthropic offers it by invitation only, through Project Glasswing, so the per-token price we showed is not one you can pay without that approval. The model has not been retired. Claude Fable 5.1 is the generally available model on the same rate card, at $10 input and $50 output per 1M tokens."
       }
     ]
   },
