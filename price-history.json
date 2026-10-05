@@ -189903,5 +189903,26 @@
         "changes": []
       }
     ]
+  },
+  "perplexity-agent-sonar": {
+    "model": "Sonar (Agent API)",
+    "provider": "Perplexity",
+    "history": [
+      {
+        "date": "2026-10-05",
+        "input_per_mtok": 0.25,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": 0.0625,
+        "context_window": null,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://docs.perplexity.ai/docs/agent-api/models",
+        "captured_at": "2026-10-05T09:05:40Z",
+        "snapshot": "data/evidence/perplexity-agent-sonar/2026-10-05.txt",
+        "sha": "0512116827"
+      }
+    ]
   }
 }

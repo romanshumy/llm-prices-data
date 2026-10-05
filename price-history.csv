@@ -14937,6 +14937,7 @@ openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-02,snapshot,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-03,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-04,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-05,snapshot,,0.02,,
+perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-05,new_model,verified,0.25,2.5,0.0625
 perplexity-sonar,Sonar,Perplexity,2025-02-18,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-23,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-25,baseline,,1.0,1.0,

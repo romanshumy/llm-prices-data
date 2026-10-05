@@ -4955,6 +4955,37 @@
     "availability_note": "Perplexity ended support for Sonar Chat Completions on 2026-09-27 and moved it to its Agent API. Its pricing page no longer lists a Sonar Reasoning Pro rate (read 2026-10-05); requests that still use the old model name are being rerouted to the Agent API, which bills differently. OpenRouter still lists Sonar Reasoning Pro at $2/$8 per 1M tokens, but that is a reseller listing — the price above is what the model last cost from Perplexity, not a rate Perplexity sells today."
   },
   {
+    "id": "perplexity-agent-sonar",
+    "provider": "Perplexity",
+    "model": "Sonar (Agent API)",
+    "vendor_sku": "perplexity/sonar",
+    "category": "budget",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": 0.0625,
+    "context_window": null,
+    "modality": [
+      "text"
+    ],
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Perplexity's own grounded search model, sold on its Agent API — the API Perplexity moved Sonar users to when it ended Sonar Chat Completions support on 2026-09-27. $0.25/$2.50 per 1M tokens; cached input $0.0625. Web searches are billed on top of tokens as a separate tool charge: $2.50 per 1,000 standard searches, $1.00 per 1,000 Fast Search calls.",
+    "price_note": "First-party list price. Perplexity's Agent API model table prints $0.25 input, $2.50 output and $0.0625 cache read per 1M tokens for perplexity/sonar, with default processing only (no flex or priority tier). This is a different product from the retired Sonar Chat Completions model, which cost $1/$1 — not a price cut on it. Perplexity's pricing page bills tools separately from tokens, per call: web search $0.0025 per search ($0.001 with Fast Search), URL fetch $0.0005. A request that searches costs its tokens plus its searches.",
+    "availability_note": "Sold by Perplexity through its Agent API under the model name perplexity/sonar. Perplexity's model table prints no context window and no release date for it, so neither is published here. OpenRouter's Perplexity Sonar listing is still the old Chat Completions model at $1/$1, not this one.",
+    "pricing_url": "https://docs.perplexity.ai/docs/agent-api/models",
+    "tags": [
+      "budget",
+      "search",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-05",
+    "source": "verified",
+    "status_verified": "2026-10-05",
+    "status_source": "https://docs.perplexity.ai/docs/agent-api/models"
+  },
+  {
     "id": "reka-core",
     "provider": "Reka",
     "model": "Reka Core",

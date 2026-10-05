@@ -136,11 +136,11 @@
     "name": "Perplexity",
     "type": "commercial",
     "url": "https://www.perplexity.ai/",
-    "pricing_url": "https://docs.perplexity.ai/guides/pricing",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "affiliate_url": "https://www.perplexity.ai/",
     "logo_color": "#20b8cd",
     "founded": 2022,
-    "description": "Search-augmented AI from Perplexity. The Sonar family (Sonar, Sonar Pro, Sonar Reasoning Pro, Sonar Deep Research) adds live web grounding, from $1/1M tokens."
+    "description": "Search-augmented AI from Perplexity. Its Sonar search model is sold on the Agent API at $0.25/1M input and $2.50/1M output tokens, with each web search billed separately; the older Sonar models were retired on 2026-09-27."
   },
   {
     "id": "nvidia",
