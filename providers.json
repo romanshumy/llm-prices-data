@@ -380,5 +380,14 @@
     "url": "https://typesafe.ai/",
     "pricing_url": "https://docs.typesafe.ai/models",
     "logo_color": "#1e1e1e"
+  },
+  {
+    "id": "apodex",
+    "name": "Apodex",
+    "type": "commercial",
+    "description": "An AI lab developed in the United States and Singapore that calls its work \"discoverative\" AI: reasoning-first models aimed at long-horizon research in science and industry, which read files, search, run code and call tools inside one task. It sells two core models on its own API — Apodex 1.1, a 397B model, and Apodex 1.1 Mini, a 35B model whose weights it publishes under Apache-2.0 — both text-only with a 262,144-token context, billed per token on input, cached input and output. It also sells agentic Deep Research and Deep Solve tiers billed on tokens plus per-use tool calls, which are not tracked here. Apodex states no founding year on any of its own pages, so none is published here.",
+    "url": "https://www.apodex.com/",
+    "pricing_url": "https://platform.apodex.ai/docs/pricing",
+    "logo_color": "#1783ff"
   }
 ]

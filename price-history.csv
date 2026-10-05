@@ -3489,6 +3489,8 @@ anthropic-claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-10-02,snapshot,,2.0
 anthropic-claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-10-03,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-10-04,snapshot,,2.0,10.0,0.2
 anthropic-claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-10-05,snapshot,,2.0,10.0,0.2
+apodex-apodex-1-1,Apodex 1.1,Apodex,2026-10-05,new_model,verified,0.3,3.0,0.03
+apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-10-05,new_model,verified,0.1,1.0,0.01
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-25,baseline,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-29,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-07-07,snapshot,,0.07,0.07,
