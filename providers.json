@@ -58,7 +58,7 @@
     "id": "mistral",
     "name": "Mistral",
     "type": "commercial",
-    "description": "European AI lab. Mistral Large 3 at $0.50/$1.50 per 1M tokens, plus Codestral for code and open-weight models.",
+    "description": "European AI lab. Its newest flagship, Mistral Large 4, is in public preview; the lineup also spans Mistral Large 3, Codestral for code and open-weight models.",
     "url": "https://mistral.ai/",
     "pricing_url": "https://mistral.ai/pricing",
     "affiliate_url": "https://console.mistral.ai/",

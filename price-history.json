@@ -190992,5 +190992,26 @@
         "changes": []
       }
     ]
+  },
+  "mistral-large-4": {
+    "model": "Mistral Large 4",
+    "provider": "Mistral",
+    "history": [
+      {
+        "date": "2026-10-06",
+        "input_per_mtok": 0.68,
+        "output_per_mtok": 2.09,
+        "cached_input_per_mtok": 0.07,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://mistral.ai/pricing/api/",
+        "captured_at": "2026-10-06T14:14:37Z",
+        "snapshot": "data/evidence/mistral-large-4/2026-10-06.txt",
+        "sha": "bb4672cadf"
+      }
+    ]
   }
 }

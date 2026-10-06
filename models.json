@@ -3576,6 +3576,38 @@
     "status_source": "https://mistral.ai/pricing/api/"
   },
   {
+    "id": "mistral-large-4",
+    "provider": "Mistral",
+    "model": "Mistral Large 4",
+    "category": "mid-tier",
+    "input_per_mtok": 0.68,
+    "output_per_mtok": 2.09,
+    "cached_input_per_mtok": 0.07,
+    "price_note": "This is the rate on Mistral's API price list today: $0.68 input / $0.07 cached input / $2.09 output per 1M tokens, and the only figure that list prints. Mistral's own Large 4 model page shows a higher $1.36 / $0.14 / $4.18 struck through beside it, and the launch post quotes $1.36 input / $4.18 output, but Mistral gives no reason for the strikethrough and no end date for the lower rate. We publish what the price list charges; if Mistral moves the model to the higher figure, it shows up here as a price increase.",
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-06",
+    "released_source": "https://mistral.ai/news/mistral-large-4/",
+    "status": "Preview",
+    "open_source": false,
+    "parameters": "1.05T",
+    "description": "Mistral's new flagship, launched 2026-10-06 as a public preview open to anyone on Mistral Studio — a 1.05T-parameter MoE (49B active) with image input and a 1M-token context, unifying instruction, reasoning and agentic use in one model. Mistral says the weights will be released by the end of October 2026; until then it is API-only. $0.68/$2.09 per 1M tokens.",
+    "pricing_url": "https://mistral.ai/pricing/api/",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "preview"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-06",
+    "source": "verified",
+    "status_verified": "2026-10-06",
+    "status_source": "https://docs.mistral.ai/models/mistral-large-4-0"
+  },
+  {
     "id": "mistral-medium-3",
     "provider": "Mistral",
     "model": "Mistral Medium 3",
