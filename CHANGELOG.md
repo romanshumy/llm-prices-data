@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-08
+
+- **Claude Sonnet 5.5** price change — cached input $0.20 → $0.10 per 1M tokens
+
 ## 2026-10-06
 
 - **Mistral Large 4** (Mistral) launched — $0.68 in / $2.09 out per 1M tokens

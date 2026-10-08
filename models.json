@@ -1418,7 +1418,7 @@
     "category": "mid-tier",
     "input_per_mtok": 2.0,
     "output_per_mtok": 10.0,
-    "cached_input_per_mtok": 0.2,
+    "cached_input_per_mtok": 0.1,
     "context_window": 1000000,
     "modality": [
       "text",
@@ -1428,7 +1428,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Anthropic's newest Sonnet and the second model of the Claude 5.5 family, launched 2026-09-28 as a faster, lower-cost complement to Opus 5.5. Anthropic says it is a clear upgrade over Sonnet 5, generates 30%+ faster and costs up to 30% less per task because it needs fewer tokens. List price is unchanged from Sonnet 5: $2/$10 per 1M tokens, cache reads $0.20 (10% of input), cache writes $2.50; Batch API halves it to $1/$5; US-only inference is 1.1x. 1M-token context, 128K max output.",
+    "description": "Anthropic's newest Sonnet and the second model of the Claude 5.5 family, launched 2026-09-28 as a faster, lower-cost complement to Opus 5.5. Anthropic says it is a clear upgrade over Sonnet 5, generates 30%+ faster and costs up to 30% less per task because it needs fewer tokens. List price is unchanged from Sonnet 5: $2/$10 per 1M tokens, cache reads $0.10 (5% of input, cut from $0.20 by 2026-10-07), cache writes $2.50; Batch API halves it to $1/$5; US-only inference is 1.1x. 1M-token context, 128K max output.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -1437,7 +1437,7 @@
       "agentic"
     ],
     "featured": true,
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-10-07",
     "released_source": "https://www.anthropic.com/claude-sonnet-5-5",
     "released_verified": "2026-09-29",
     "status_verified": "2026-09-29",
