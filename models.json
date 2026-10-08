@@ -5138,6 +5138,104 @@
     "status_source": "https://docs.reka.ai/pricing"
   },
   {
+    "id": "stepfun-step-5-preview",
+    "provider": "StepFun",
+    "model": "Step 5 Preview",
+    "category": "mid-tier",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 2.7,
+    "cached_input_per_mtok": 0.05,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-08",
+    "released_source": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview",
+    "status": "Preview",
+    "open_source": false,
+    "description": "StepFun's new flagship, released 2026-10-08 as a preview on its Open Platform and built for agentic work, coding and long-document tasks. It takes text, image and video input with a 1M-token context and up to 64K output tokens, and output tokens include its reasoning. StepFun has not released weights, so it is API-only. $1.00/$2.70 per 1M tokens.",
+    "pricing_url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+    "tags": [
+      "mid-tier",
+      "multimodal",
+      "long-context",
+      "caching",
+      "preview"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-08",
+    "source": "verified",
+    "status_verified": "2026-10-08",
+    "status_source": "https://platform.stepfun.ai/docs/en/guides/pricing/details"
+  },
+  {
+    "id": "stepfun-step-3-7-flash",
+    "provider": "StepFun",
+    "model": "Step 3.7 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 1.15,
+    "cached_input_per_mtok": 0.04,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-05-29",
+    "released_source": "https://static.stepfun.com/blog/step-3.7-flash/",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "198B (A11B)",
+    "description": "StepFun's multimodal Flash reasoning model, a 198B-parameter sparse MoE with 11B active per token that reads text, images and video in a 256K-token context, tuned for agent and coding workloads. StepFun released the weights under Apache 2.0 and sells it on its own Open Platform. $0.20/$1.15 per 1M tokens.",
+    "pricing_url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+    "tags": [
+      "budget",
+      "open-weights",
+      "moe",
+      "multimodal",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-08",
+    "source": "verified",
+    "status_verified": "2026-10-08",
+    "status_source": "https://platform.stepfun.ai/docs/en/guides/pricing/details"
+  },
+  {
+    "id": "stepfun-step-3-5-flash",
+    "provider": "StepFun",
+    "model": "Step 3.5 Flash",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.3,
+    "cached_input_per_mtok": 0.02,
+    "context_window": 262144,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-02-01",
+    "released_source": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "196B (A11B)",
+    "description": "StepFun's text-only Flash reasoning model, a 196B-parameter sparse MoE with 11B active per token and a 256K-token context, built for fast tool calling and multi-step agent tasks. StepFun released the weights under Apache 2.0 and sells it on its own Open Platform, alongside an agent-tuned snapshot, step-3.5-flash-2603, at the same rate. $0.10/$0.30 per 1M tokens.",
+    "pricing_url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+    "tags": [
+      "budget",
+      "open-weights",
+      "moe",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-08",
+    "source": "verified",
+    "status_verified": "2026-10-08",
+    "status_source": "https://platform.stepfun.ai/docs/en/guides/pricing/details"
+  },
+  {
     "id": "together-deepseek-v4-pro",
     "provider": "Together",
     "model": "DeepSeek V4 Pro",

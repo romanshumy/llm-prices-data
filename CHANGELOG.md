@@ -11,6 +11,9 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **Claude Sonnet 5.5** price change — cached input $0.20 → $0.10 per 1M tokens
 - **Claude Haiku 5.5** (Anthropic) launched — $0.1 in / $0.5 out per 1M tokens
+- **Step 5 Preview** (StepFun) launched — $1.0 in / $2.7 out per 1M tokens
+- **Step 3.7 Flash** (StepFun) launched — $0.2 in / $1.15 out per 1M tokens
+- **Step 3.5 Flash** (StepFun) launched — $0.1 in / $0.3 out per 1M tokens
 
 ## 2026-10-06
 

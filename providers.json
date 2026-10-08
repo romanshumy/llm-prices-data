@@ -274,6 +274,17 @@
     "description": "Chinese technology conglomerate. Its Hunyuan family is served via Tencent Cloud's TokenHub API; Hunyuan Hy3 is a 295B-parameter MoE agentic model listed in RMB (converted to USD per the FX policy)."
   },
   {
+    "id": "stepfun",
+    "name": "StepFun",
+    "type": "commercial",
+    "url": "https://www.stepfun.com/",
+    "pricing_url": "https://platform.stepfun.ai/docs/en/guides/pricing/details",
+    "affiliate_url": "https://platform.stepfun.ai/",
+    "logo_color": "#0b5cff",
+    "founded": 2023,
+    "description": "Shanghai AI lab behind the Step models. Its global Open Platform sells the Step 5 Preview flagship and the open-weight Step 3.7 Flash and Step 3.5 Flash reasoning models in USD, pay-as-you-go."
+  },
+  {
     "id": "deepinfra",
     "name": "DeepInfra",
     "type": "hosting",
