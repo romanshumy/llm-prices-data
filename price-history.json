@@ -193061,5 +193061,26 @@
         "changes": []
       }
     ]
+  },
+  "anthropic-claude-haiku-5-5": {
+    "model": "Claude Haiku 5.5",
+    "provider": "Anthropic",
+    "history": [
+      {
+        "date": "2026-10-08",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.5,
+        "cached_input_per_mtok": 0.01,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "captured_at": "2026-10-08T14:14:45Z",
+        "snapshot": "data/evidence/anthropic-claude-haiku-5-5/2026-10-08.txt",
+        "sha": "2ec216b67b"
+      }
+    ]
   }
 }

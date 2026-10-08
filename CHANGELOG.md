@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-08
 
 - **Claude Sonnet 5.5** price change — cached input $0.20 → $0.10 per 1M tokens
+- **Claude Haiku 5.5** (Anthropic) launched — $0.1 in / $0.5 out per 1M tokens
 
 ## 2026-10-06
 

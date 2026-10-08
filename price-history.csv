@@ -2516,6 +2516,7 @@ anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-10-05,snapshot,,1.0,5
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-10-06,snapshot,,1.0,5.0,0.1
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-10-07,snapshot,,1.0,5.0,0.1
 anthropic-claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2026-10-08,snapshot,,1.0,5.0,0.1
+anthropic-claude-haiku-5-5,Claude Haiku 5.5,Anthropic,2026-10-08,new_model,verified,0.1,0.5,0.01
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-06-27,baseline,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-06-29,snapshot,,10.0,50.0,1.0
 anthropic-claude-mythos-5,Claude Mythos 5,Anthropic,2026-07-10,snapshot,,10.0,50.0,1.0
