@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-10
 
 - **Solar Pro 4** price change — input $0.09 → $0.30, output $0.36 → $1.20, cached input $0.018 → $0.06 per 1M tokens
+- **Reka Flash 3** (Reka) launched — $0.1 in / $0.2 out per 1M tokens
 
 ## 2026-10-08
 

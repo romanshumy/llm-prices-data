@@ -180,11 +180,11 @@
     "name": "Reka",
     "type": "commercial",
     "url": "https://www.reka.ai/",
-    "pricing_url": "https://www.reka.ai/pricing",
+    "pricing_url": "https://developer.reka.ai/models",
     "affiliate_url": "https://www.reka.ai/",
     "logo_color": "#7c3aed",
     "founded": 2022,
-    "description": "Multimodal AI lab. Reka Core, Flash, and Edge span frontier to on-device inference, with Reka Edge from $0.10/1M tokens."
+    "description": "Multimodal AI lab. Reka sells Reka Edge, a 7B vision-language model for on-device and physical-AI use, and Reka Flash 3, a 21B open-weight reasoning model, from $0.10/1M tokens; its API also serves open models from other labs."
   },
   {
     "id": "voyage",

@@ -195126,5 +195126,26 @@
         "changes": []
       }
     ]
+  },
+  "reka-flash-3": {
+    "model": "Reka Flash 3",
+    "provider": "Reka",
+    "history": [
+      {
+        "date": "2026-10-10",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": null,
+        "context_window": 65536,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://developer.reka.ai/models",
+        "captured_at": "2026-10-10T14:27:02Z",
+        "snapshot": "data/evidence/reka-flash-3/2026-10-10.txt",
+        "sha": "d89e13ef76"
+      }
+    ]
   }
 }

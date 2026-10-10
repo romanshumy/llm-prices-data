@@ -5064,18 +5064,21 @@
       "audio"
     ],
     "released": "2025-06-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-10-10",
     "open_source": false,
     "parameters": null,
-    "description": "Superior multimodal model for complex tasks. $2.00/$6.00 per 1M tokens.",
+    "description": "Superior multimodal model for complex tasks. $2.00/$6.00 per 1M tokens. Reka no longer sells it; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://docs.reka.ai/pricing",
     "tags": [
       "flagship",
-      "multimodal"
+      "multimodal",
+      "retired"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-10-05",
-    "status_source": "https://docs.reka.ai/pricing"
+    "last_updated": "2026-10-10",
+    "status_verified": "2026-10-10",
+    "status_source": "https://docs.reka.ai/chat/models",
+    "availability_note": "Reka's model list no longer includes Reka Core (read 2026-10-10). Its API now serves reka-edge-2603, reka-flash-3 and a set of open models from other labs, and its pricing page no longer prints the Core / Flash / Edge rate table it carried through 2026-10-05. The $2.00/$6.00 above is what Core last cost from Reka, not a rate Reka sells today."
   },
   {
     "id": "reka-edge",
@@ -5085,27 +5088,27 @@
     "input_per_mtok": 0.1,
     "output_per_mtok": 0.1,
     "cached_input_per_mtok": null,
-    "context_window": 66000,
+    "context_window": 16384,
     "modality": [
       "text",
       "image",
-      "video",
-      "audio"
+      "video"
     ],
-    "released": "2025-06-01",
+    "released": "2026-03-11",
+    "released_source": "https://huggingface.co/RekaAI/reka-edge-2603",
     "status": "Current",
-    "open_source": false,
-    "parameters": null,
-    "description": "Compact multimodal model for on-device execution. $0.10/$0.10 per 1M.",
-    "pricing_url": "https://docs.reka.ai/pricing",
+    "open_source": true,
+    "parameters": "7B",
+    "description": "Compact 7B vision-language model for on-device and physical-AI use: image and video understanding, object detection and tool use, served by Reka as reka-edge-2603 with a 16K context window. $0.10/$0.10 per 1M.",
+    "pricing_url": "https://developer.reka.ai/models",
     "tags": [
       "budget",
       "multimodal",
       "fast"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.reka.ai/pricing"
+    "last_updated": "2026-10-10",
+    "status_verified": "2026-10-10",
+    "status_source": "https://docs.reka.ai/chat/models"
   },
   {
     "id": "reka-flash",
@@ -5123,19 +5126,50 @@
       "audio"
     ],
     "released": "2025-06-01",
-    "status": "Current",
+    "status": "Retired",
+    "retired_on": "2026-10-10",
+    "superseded_by": "reka-flash-3",
     "open_source": false,
     "parameters": null,
-    "description": "Fast, cost-efficient multimodal model. $0.80/$2.00 per 1M tokens.",
+    "description": "Fast, cost-efficient multimodal model. $0.80/$2.00 per 1M tokens. Reka no longer sells it; the price shown is what it last cost, not a rate you can buy today.",
     "pricing_url": "https://docs.reka.ai/pricing",
     "tags": [
       "mid-tier",
       "multimodal",
-      "fast"
+      "fast",
+      "retired"
     ],
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.reka.ai/pricing"
+    "last_updated": "2026-10-10",
+    "status_verified": "2026-10-10",
+    "status_source": "https://docs.reka.ai/chat/models",
+    "availability_note": "Reka's model list no longer includes this multimodal Reka Flash (read 2026-10-10). The Flash model Reka sells today is Reka Flash 3 (reka-flash-3), a different model: a 21B text-only reasoning model with a 64K context window at $0.10/$0.20 per 1M tokens. The $0.80/$2.00 above is what the old Flash last cost, not a rate Reka sells today."
+  },
+  {
+    "id": "reka-flash-3",
+    "provider": "Reka",
+    "model": "Reka Flash 3",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.2,
+    "cached_input_per_mtok": null,
+    "context_window": 65536,
+    "modality": [
+      "text"
+    ],
+    "released": "2025-03-11",
+    "released_source": "https://huggingface.co/RekaAI/reka-flash-3",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "21B",
+    "description": "Reka's 21B open-weight reasoning model for chat, coding and instruction-following; text in, text out, 64K context, primarily English. $0.10/$0.20 per 1M tokens.",
+    "pricing_url": "https://developer.reka.ai/models",
+    "tags": [
+      "budget",
+      "reasoning"
+    ],
+    "last_updated": "2026-10-10",
+    "status_verified": "2026-10-10",
+    "status_source": "https://docs.reka.ai/chat/models"
   },
   {
     "id": "stepfun-step-5-preview",
