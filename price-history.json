@@ -167619,7 +167619,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://www.upstage.ai/pricing/api",
         "captured_at": "2026-09-09T15:08:48Z",
         "snapshot": "data/evidence/upstage-solar-pro-4/2026-10-10.txt",
