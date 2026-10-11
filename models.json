@@ -1329,10 +1329,10 @@
       "image"
     ],
     "released": "2025-09-29",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
-    "description": "Sonnet-tier model with hybrid reasoning. $3/$15 per 1M tokens.",
+    "description": "Deprecated: Anthropic retires Claude Sonnet 4.5 from the Claude API on 2026-11-30, after which requests to it fail. Until then it is still sold at $3/$15 per 1M tokens. Sonnet-tier model with hybrid reasoning; Anthropic recommends Sonnet 5.5 instead.",
     "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
     "tags": [
       "reasoning",
@@ -1340,10 +1340,32 @@
       "multimodal"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
+    "last_updated": "2026-10-11",
     "source": "firecrawl_scrape",
-    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing",
-    "status_verified": "2026-08-09"
+    "status_source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "status_verified": "2026-10-11",
+    "shutdown_date": "2026-11-30",
+    "superseded_by": "anthropic-claude-sonnet-5-5",
+    "availability_note": "Anthropic deprecated Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) on 2026-09-30 and retires it from the Claude API on 2026-11-30. It stays available, billed at the listed rate, until that date; Anthropic's recommended replacement is Claude Sonnet 5.5.",
+    "scheduled_price_change": {
+      "effective_at": "2026-11-30T09:00:00Z",
+      "announced_on": "2026-10-11",
+      "source_url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "reason": "Anthropic retirement of claude-sonnet-4-5-20250929 on the Claude API",
+      "decided_in": "MOD-1578",
+      "set": {
+        "status": "Retired",
+        "retired_on": "2026-11-30",
+        "tags": [
+          "reasoning",
+          "mid-tier",
+          "multimodal",
+          "retired"
+        ],
+        "description": "Retired from the Claude API on 2026-11-30; requests to it now fail. Sonnet-tier model with hybrid reasoning, last priced at $3/$15 per 1M tokens. Use Sonnet 5.5 instead.",
+        "availability_note": "Retired from the Claude API 2026-11-30 (deprecated 2026-09-30). Anthropic's recommended replacement is Claude Sonnet 5.5."
+      }
+    }
   },
   {
     "id": "anthropic-claude-sonnet-4",
