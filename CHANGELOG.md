@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-12
 
 - **Gemini Nano Banana 2.1** (Google) launched — $1.5 in / $30.0 out per 1M tokens
+- **Muse Wonder** (Meta) launched — $4.0 in / $20.0 out per 1M tokens
 
 ## 2026-10-10
 

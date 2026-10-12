@@ -197040,5 +197040,26 @@
         "sha": "9566434c91"
       }
     ]
+  },
+  "meta-muse-wonder": {
+    "model": "Muse Wonder",
+    "provider": "Meta",
+    "history": [
+      {
+        "date": "2026-10-12",
+        "input_per_mtok": 4.0,
+        "output_per_mtok": 20.0,
+        "cached_input_per_mtok": 0.2,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://dev.meta.ai/docs/pricing-rate-limits",
+        "captured_at": "2026-10-12T20:25:22Z",
+        "snapshot": "data/evidence/meta-muse-wonder/2026-10-12.txt",
+        "sha": "c966099f4b"
+      }
+    ]
   }
 }
