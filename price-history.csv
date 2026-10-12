@@ -7829,6 +7829,7 @@ google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-10-09,snapshot,,2.0,120
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-10-10,snapshot,,2.0,120.0,
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-10-11,snapshot,,2.0,120.0,
 google-gemini-3-pro-image,Gemini 3 Pro Image,Google,2026-10-12,snapshot,,2.0,120.0,
+google-gemini-nano-banana-2-1,Gemini Nano Banana 2.1,Google,2026-10-12,new_model,verified,1.5,30.0,
 google-text-embedding-004,text-embedding-004,Google,2026-06-25,baseline,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-06-29,snapshot,,0.025,,
 google-text-embedding-004,text-embedding-004,Google,2026-07-14,snapshot,,0.025,,
