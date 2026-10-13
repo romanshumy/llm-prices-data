@@ -7,6 +7,14 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-13
+
+- **Clef** (Cloudflare) launched — $0.24 in / $0.0 out per 1M tokens
+- **Clef-omni** (Cloudflare) launched — $0.15 in / $0.0 out per 1M tokens
+- **Clef-flash** (Cloudflare) launched — $0.038 in / $0.0 out per 1M tokens
+- **Summarize** (ScaleDown) launched — $0.05 in / $0.0 out per 1M tokens
+- **Extract** (ScaleDown) launched — $0.05 in / $0.0 out per 1M tokens
+
 ## 2026-10-12
 
 - **Gemini Nano Banana 2.1** (Google) launched — $1.5 in / $30.0 out per 1M tokens

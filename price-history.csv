@@ -3798,6 +3798,9 @@ baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-10-10,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-10-11,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-10-12,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-10-13,snapshot,,0.07,0.07,
+cloudflare-clef,Clef,Cloudflare,2026-10-13,new_model,verified,0.24,0.0,
+cloudflare-clef-flash,Clef-flash,Cloudflare,2026-10-13,new_model,verified,0.038,0.0,
+cloudflare-clef-omni,Clef-omni,Cloudflare,2026-10-13,new_model,verified,0.15,0.0,
 cohere-command-a,Command A,Cohere,2026-06-25,baseline,,1.0,2.0,
 cohere-command-a,Command A,Cohere,2026-06-29,snapshot,,1.0,2.0,
 cohere-command-a,Command A,Cohere,2026-07-03,snapshot,,1.0,2.0,
@@ -16522,6 +16525,8 @@ sakana-namazu,Sakana Namazu,Sakana AI,2026-10-10,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-11,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-12,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-13,snapshot,,0.95,4.0,0.15
+scaledown-extract,Extract,ScaleDown,2026-10-13,new_model,verified,0.05,0.0,
+scaledown-summarize,Summarize,ScaleDown,2026-10-13,new_model,verified,0.05,0.0,
 stepfun-step-3-5-flash,Step 3.5 Flash,StepFun,2026-10-08,new_model,verified,0.1,0.3,0.02
 stepfun-step-3-5-flash,Step 3.5 Flash,StepFun,2026-10-09,snapshot,,0.1,0.3,0.02
 stepfun-step-3-5-flash,Step 3.5 Flash,StepFun,2026-10-10,snapshot,,0.1,0.3,0.02

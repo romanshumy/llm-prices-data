@@ -198015,5 +198015,110 @@
         "changes": []
       }
     ]
+  },
+  "cloudflare-clef": {
+    "model": "Clef",
+    "provider": "Cloudflare",
+    "history": [
+      {
+        "date": "2026-10-13",
+        "input_per_mtok": 0.24,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 65536,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+        "captured_at": "2026-10-13T14:40:24Z",
+        "snapshot": "data/evidence/cloudflare-clef/2026-10-13.txt",
+        "sha": "131cad74d8"
+      }
+    ]
+  },
+  "cloudflare-clef-omni": {
+    "model": "Clef-omni",
+    "provider": "Cloudflare",
+    "history": [
+      {
+        "date": "2026-10-13",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 64000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+        "captured_at": "2026-10-13T14:40:27Z",
+        "snapshot": "data/evidence/cloudflare-clef-omni/2026-10-13.txt",
+        "sha": "dda01868c5"
+      }
+    ]
+  },
+  "cloudflare-clef-flash": {
+    "model": "Clef-flash",
+    "provider": "Cloudflare",
+    "history": [
+      {
+        "date": "2026-10-13",
+        "input_per_mtok": 0.038,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 24576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+        "captured_at": "2026-10-13T14:40:30Z",
+        "snapshot": "data/evidence/cloudflare-clef-flash/2026-10-13.txt",
+        "sha": "4f870e6221"
+      }
+    ]
+  },
+  "scaledown-summarize": {
+    "model": "Summarize",
+    "provider": "ScaleDown",
+    "history": [
+      {
+        "date": "2026-10-13",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://scaledown.ai/",
+        "captured_at": "2026-10-13T14:40:33Z",
+        "snapshot": "data/evidence/scaledown-summarize/2026-10-13.txt",
+        "sha": "50a3836efa"
+      }
+    ]
+  },
+  "scaledown-extract": {
+    "model": "Extract",
+    "provider": "ScaleDown",
+    "history": [
+      {
+        "date": "2026-10-13",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://scaledown.ai/",
+        "captured_at": "2026-10-13T14:40:39Z",
+        "snapshot": "data/evidence/scaledown-extract/2026-10-13.txt",
+        "sha": "15fc112d10"
+      }
+    ]
   }
 }

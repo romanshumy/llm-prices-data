@@ -8775,5 +8775,173 @@
     "source": "verified",
     "status_verified": "2026-10-12",
     "status_source": "https://platform.apodex.ai/docs/pricing"
+  },
+  {
+    "id": "cloudflare-clef",
+    "provider": "Cloudflare",
+    "model": "Clef",
+    "category": "budget",
+    "input_per_mtok": 0.24,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 65536,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-01",
+    "released_source": "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "The first model trained by Cloudflare's Workers AI team: a 27B multimodal decision model. You send a state (text, JSON, images or video) and a set of typed questions — yes/no, choice or score — and get back a probability for every allowed answer instead of generated text. Cloudflare positions it as a drop-in for TypeSafe's Jev. The weights are open under Apache 2.0 on Hugging Face; the hosted model runs on Workers AI at $0.24 per 1M input tokens with no output charge.",
+    "price_note": "Cloudflare's own Workers AI pricing page lists @cf/cloudflare/clef at $0.240 per M input tokens (21,818 neurons per M input tokens) and prints no output rate. Clef models do not charge for output tokens, because they return a decision with a probability for each allowed answer rather than generated text, so the $0 output here is Cloudflare's own published rate, not a missing number. Images and video are converted to input tokens and billed at the same input rate.",
+    "availability_note": "Hosted by Cloudflare on Workers AI as @cf/cloudflare/clef, billed against the Workers AI neuron allowance (10,000 neurons a day free, then pay-as-you-go). The open weights can also be self-hosted.",
+    "pricing_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-13",
+    "status_source": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+  },
+  {
+    "id": "cloudflare-clef-omni",
+    "provider": "Cloudflare",
+    "model": "Clef-omni",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 64000,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2026-10-09",
+    "released_source": "https://developers.cloudflare.com/changelog/post/2026-10-09-clef-omni-workers-ai/",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "30B (3B active)",
+    "description": "The Clef decision model for every input type: built on a 30B mixture-of-experts backbone with 3B active parameters, it reads text, JSON, images, audio (WAV or MP3) and video (MP4 or WebM, soundtrack aligned with frames) in one request and returns a probability for every allowed answer to your typed questions. It does not generate text. Cloudflare quotes about 20 ms for text requests and about 300 ms for a 21-second video clip with sound. $0.15 per 1M input tokens with no output charge.",
+    "price_note": "Cloudflare's own Workers AI pricing page lists @cf/cloudflare/clef-omni at $0.150 per M input tokens (13,636 neurons per M input tokens) and prints no output rate. Clef models do not charge for output tokens, because they return a decision with a probability for each allowed answer rather than generated text, so the $0 output here is Cloudflare's own published rate, not a missing number. Images, audio and video are converted to input tokens and billed at the same input rate.",
+    "availability_note": "Hosted by Cloudflare on Workers AI as @cf/cloudflare/clef-omni, billed against the Workers AI neuron allowance (10,000 neurons a day free, then pay-as-you-go). Its weights are published on Hugging Face under Apache 2.0.",
+    "pricing_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-13",
+    "status_source": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+  },
+  {
+    "id": "cloudflare-clef-flash",
+    "provider": "Cloudflare",
+    "model": "Clef-flash",
+    "category": "budget",
+    "input_per_mtok": 0.038,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 24576,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-01",
+    "released_source": "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "9B",
+    "description": "The fast, small member of Cloudflare's Clef family: a 9B multimodal decision model that reads a state (text, JSON, images or video) and typed questions and returns a probability for every allowed answer, not generated text. Cloudflare measured a 38.8 ms median latency at launch, about 13x faster than TypeSafe's Jev. On 2026-10-09 Cloudflare cut its price to $0.038 per 1M input tokens and shrank the hosted context window from 64K to 24K tokens to offer that price. No output charge.",
+    "price_note": "Cloudflare's own Workers AI pricing page lists @cf/cloudflare/clef-flash at $0.038 per M input tokens (3,455 neurons per M input tokens) and prints no output rate. Cloudflare's 2026-10-09 changelog announced the cut to this price and the smaller 24K-token hosted window that came with it; LiteLLM's public price table still shows the older $0.09 launch rate. Clef models do not charge for output tokens, because they return a decision with a probability for each allowed answer rather than generated text, so the $0 output here is Cloudflare's own published rate, not a missing number. Images and video are converted to input tokens and billed at the same input rate.",
+    "availability_note": "Hosted by Cloudflare on Workers AI as @cf/cloudflare/clef-flash, billed against the Workers AI neuron allowance (10,000 neurons a day free, then pay-as-you-go). The hosted model accepts up to 24,576 tokens; the open weights on Hugging Face (Apache 2.0) can be self-hosted.",
+    "pricing_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-13",
+    "status_source": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+  },
+  {
+    "id": "scaledown-summarize",
+    "provider": "ScaleDown",
+    "model": "Summarize",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": null,
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "ScaleDown's abstractive summarization model: it rewrites long text into a shorter, fluent summary in its own words rather than stitching together sentences from the source, with sampling fixed for faithfulness. A system message can set format, language, length or focus. Called as model \"summarize\" on an OpenAI-compatible chat completions endpoint. $0.05 per 1M text input tokens ($0.15 per 1M for image input), and output is free.",
+    "price_note": "ScaleDown's own pricing table lists Summarize at $0.05 / 1M tokens for text input, $0.15 / 1M tokens for image input, and Output: Free. Its FAQ says it charges for input tokens only and absorbs the cost of the generation step on Summarize, so the $0 output here is the maker's published rate. We publish the text input rate. OpenRouter currently shows $0.04, which is ScaleDown's own endpoint there with a 20% discount applied.",
+    "availability_note": "Sold by ScaleDown on its own API (sign-up includes 50M free tokens) and through OpenRouter as scaledown/summarize, where ScaleDown itself is the only provider.",
+    "pricing_url": "https://scaledown.ai/",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-13",
+    "status_source": "https://scaledown.ai/"
+  },
+  {
+    "id": "scaledown-extract",
+    "provider": "ScaleDown",
+    "model": "Extract",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": null,
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "ScaleDown's entity-extraction model: instead of a fixed set of entity types, you describe the fields you want in plain English and it returns each match with a confidence score, character offsets and surrounding context. It can also read photos, scans and PDFs, and routes yes/no or small-category fields to classification. Called as model \"extract\" on an OpenAI-compatible chat completions endpoint. $0.05 per 1M text input tokens ($0.15 per 1M for image input), and output is free.",
+    "price_note": "ScaleDown's own pricing table lists Extract at $0.05 / 1M tokens for text input, $0.15 / 1M tokens for image input, and Output: Free. Its FAQ says it charges for input tokens only, so the $0 output here is the maker's published rate. We publish the text input rate. OpenRouter currently shows $0.04, which is ScaleDown's own endpoint there with a 20% discount applied.",
+    "availability_note": "Sold by ScaleDown on its own API (sign-up includes 50M free tokens) and through OpenRouter as scaledown/extract, where ScaleDown itself is the only provider.",
+    "pricing_url": "https://scaledown.ai/",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-13",
+    "status_source": "https://scaledown.ai/"
   }
 ]
