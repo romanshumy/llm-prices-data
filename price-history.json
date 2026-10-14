@@ -199119,5 +199119,26 @@
         "changes": []
       }
     ]
+  },
+  "google-gemini-4-argon": {
+    "model": "Gemini 4 Argon",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-10-14",
+        "input_per_mtok": 2.0,
+        "output_per_mtok": 10.0,
+        "cached_input_per_mtok": 0.1,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-10-14T16:52:02Z",
+        "snapshot": "data/evidence/google-gemini-4-argon/2026-10-14.txt",
+        "sha": "1f8dff5b3c"
+      }
+    ]
   }
 }

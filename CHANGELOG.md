@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-14
+
+- **Gemini 4 Argon** (Google) launched — $2.0 in / $10.0 out per 1M tokens
+
 ## 2026-10-13
 
 - **Clef** (Cloudflare) launched — $0.24 in / $0.0 out per 1M tokens
