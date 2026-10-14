@@ -15638,6 +15638,7 @@ perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-11,snapshot,,0.25,2.
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-12,snapshot,,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-13,snapshot,,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-14,snapshot,,0.25,2.5,0.0625
+perplexity-pplx-decider-v1-1-27b,pplx-decider-v1.1-27b,Perplexity,2026-10-14,new_model,verified,0.02,0.0,
 perplexity-sonar,Sonar,Perplexity,2025-02-18,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-23,backfill,litellm-archive,1.0,1.0,
 perplexity-sonar,Sonar,Perplexity,2026-06-25,baseline,,1.0,1.0,

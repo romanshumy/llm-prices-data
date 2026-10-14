@@ -199140,5 +199140,26 @@
         "sha": "1f8dff5b3c"
       }
     ]
+  },
+  "perplexity-pplx-decider-v1-1-27b": {
+    "model": "pplx-decider-v1.1-27b",
+    "provider": "Perplexity",
+    "history": [
+      {
+        "date": "2026-10-14",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+        "captured_at": "2026-10-14T18:50:06Z",
+        "snapshot": "data/evidence/perplexity-pplx-decider-v1-1-27b/2026-10-14.txt",
+        "sha": "a27275bf95"
+      }
+    ]
   }
 }

@@ -5130,6 +5130,40 @@
     "status_source": "https://docs.perplexity.ai/docs/agent-api/models"
   },
   {
+    "id": "perplexity-pplx-decider-v1-1-27b",
+    "provider": "Perplexity",
+    "model": "pplx-decider-v1.1-27b",
+    "category": "budget",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-05",
+    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "Perplexity's decision model, the one its Decisions API runs. It reads text, JSON or images plus your questions and returns a probability for each answer (yes or no, one of your options, or a level on your rubric), not generated text. $0.02 per 1M input tokens; output is free and there is no per-request fee.",
+    "price_note": "Perplexity's own pricing page lists pplx-decider-v1.1-27b at $0.02 per 1M input tokens, output tokens Free, per-request fee None. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000012. The $0 output here is Perplexity's published rate, not a missing number. The older pplx-decider-v1-27b still answers requests at the same $0.02; Perplexity halved the input price when v1.1 replaced it in October 2026, so a site still showing a higher Decisions API price is showing the old rate.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that still name pplx-decider-v1-27b continue to work and bill at the same rate. Input must stay under 262,144 tokens. The weights are on Hugging Face under Apache 2.0.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-14",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-14",
+    "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
+  },
+  {
     "id": "reka-core",
     "provider": "Reka",
     "model": "Reka Core",
