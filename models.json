@@ -2514,22 +2514,26 @@
       "video"
     ],
     "released": "2026-05-19",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
-    "description": "Google's fast, low-cost workhorse from I/O 2026 — strong multimodal reasoning and coding (beats Gemini 3.1 Pro), with native computer-use for agents. The default Gemini across Search and the API. $1.50/$9 per 1M tokens.",
+    "description": "Deprecated: Google replaced it with Gemini 3.6 Flash on October 8, 2026 and routes its API requests there. Google's fast, low-cost workhorse from I/O 2026 — strong multimodal reasoning and coding, with native computer-use for agents. Last priced at $1.50/$9 per 1M tokens.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "price_note": "Google's Gemini API pricing page no longer has a Gemini 3.5 Flash section (read 2026-10-14). The price shown is the last rate it printed for this model, read 2026-08-09: $1.50 per 1M input tokens and $9.00 per 1M output tokens. A request sent to gemini-3.5-flash today is served by Gemini 3.6 Flash; see that model's page for the rate Google prints now.",
     "tags": [
       "fast",
       "multimodal",
       "flagship"
     ],
-    "featured": true,
+    "featured": false,
     "last_updated": "2026-06-25",
     "released_source": "https://ai.google.dev/gemini-api/docs/deprecations",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-09",
-    "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
+    "status_verified": "2026-10-14",
+    "status_source": "https://ai.google.dev/gemini-api/docs/changelog",
+    "shutdown_date": null,
+    "superseded_by": "google-gemini-3-6-flash",
+    "availability_note": "Google deprecated Gemini 3.5 Flash (gemini-3.5-flash) on October 8, 2026 and replaced it with Gemini 3.6 Flash. It can no longer be selected in Google AI Studio, and API requests to gemini-3.5-flash are automatically routed to gemini-3.6-flash. Google has not printed a shutdown date."
   },
   {
     "id": "google-gemini-3-6-flash",
@@ -2550,7 +2554,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Google's fast multimodal flagship line, successor to Gemini 3.5 Flash and now joined by Gemini 3.7 Flash. Currently $0.75/1M input and $3.75/1M output on Google's dated schedule, reverting to $1.50/$7.50 on 2027-01-01. 1M-token context with native image, audio and video input.",
+    "description": "Google's fast multimodal flagship line, successor to Gemini 3.5 Flash, whose API requests Google now routes here. Currently $0.75/1M input and $3.75/1M output on Google's dated schedule, reverting to $1.50/$7.50 on 2027-01-01. 1M-token context with native image, audio and video input.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "fast",
@@ -2579,7 +2583,7 @@
         "promo": false,
         "promo_until": null,
         "promo_price": null,
-        "description": "Google's fast multimodal flagship line, successor to Gemini 3.5 Flash and now joined by Gemini 3.7 Flash. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
+        "description": "Google's fast multimodal flagship line, successor to Gemini 3.5 Flash, whose API requests Google now routes here. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
         "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.6 Flash' (gemini-3.6-flash), which printed both phases with their dates."
       }
     },
@@ -2699,7 +2703,7 @@
         "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows exactly half the standard rate, which is Google's own Batch tier and not what an ordinary API call is billed. We publish the standard rate. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash), which printed both phases with their dates."
       }
     },
-    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model, the same Standard tier as Gemini 3.7 Flash: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-09-03 against ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash).",
+    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-09-03 against ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.8 Flash' (gemini-3.8-flash).",
     "last_updated": "2026-09-03",
     "released_source": "https://ai.google.dev/gemini-api/docs/changelog",
     "released_verified": "2026-09-03",
@@ -2722,17 +2726,17 @@
       "video"
     ],
     "released": "2026-08-13",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
-    "description": "Google's newest fast multimodal flagship, launched 2026-08-13 as the successor to Gemini 3.6 Flash — built for agentic workflows, coding and multi-step reasoning. Currently $0.75/1M input and $3.75/1M output on Google's dated schedule, reverting to $1.50/$7.50 on 2027-01-01. 1M-token context with native image, audio and video input.",
+    "description": "Deprecated: Google replaced it with Gemini 3.8 Flash on October 8, 2026 and routes its API requests there. Google's fast multimodal Flash model, launched 2026-08-13 as the successor to Gemini 3.6 Flash — built for agentic workflows, coding and multi-step reasoning. Last priced at $0.75/1M input and $3.75/1M output on Google's dated schedule. 1M-token context with native image, audio and video input.",
     "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
     "tags": [
       "fast",
       "multimodal",
       "flagship"
     ],
-    "featured": true,
+    "featured": false,
     "promo": true,
     "promo_price": {
       "input_per_mtok": 0.75,
@@ -2740,29 +2744,15 @@
       "cached_input_per_mtok": 0.075
     },
     "promo_until": "2026-12-31",
-    "scheduled_price_change": {
-      "effective_at": "2027-01-01T00:00:00Z",
-      "announced_on": "2026-09-16",
-      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "reason": "Google's dated introductory pricing for Gemini 3.7 Flash ends December 31 2026; the rate card's standard price applies from January 1 2027",
-      "decided_in": "MOD-1355",
-      "set": {
-        "input_per_mtok": 1.5,
-        "output_per_mtok": 7.5,
-        "cached_input_per_mtok": 0.15,
-        "promo": false,
-        "promo_until": null,
-        "promo_price": null,
-        "description": "Google's fast multimodal Flash model, launched 2026-08-13 as the successor to Gemini 3.6 Flash — built for agentic workflows, coding and multi-step reasoning. Priced at Google's standard rate of $1.50/$7.50 per 1M tokens since January 1 2027, when the dated introductory schedule ended. 1M-token context with native image, audio and video input.",
-        "price_note": "Standard pricing, per 1M tokens: input $1.50, output $7.50 (including thinking tokens), context caching $0.15 — the figures Google's Gemini API pricing page carries for this model from January 1, 2027. The dated introductory schedule that ran through December 31, 2026 priced it at $0.75 input, $3.75 output and $0.075 caching. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model shows exactly half the standard rate, which is Google's own Batch tier and not what an ordinary API call is billed. We publish the standard rate. Read 2026-09-16 on ai.google.dev/gemini-api/docs/pricing, in the section headed 'Gemini 3.7 Flash' (gemini-3.7-flash), which printed both phases with their dates."
-      }
-    },
-    "price_note": "Google's Gemini API pricing page prints a dated, two-phase schedule for this model: $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50. Context caching follows the same dates ($0.075, then $0.15). We publish the rate you would pay today and re-verify it before the changeover date. Note that resellers may quote a lower figure: OpenRouter's ':batch' route for this model now shows $0.375/$1.875, which is Google's own Batch tier — exactly half the standard rate, and not what an ordinary API call is billed. We publish the standard rate. Checked 2026-08-18 against ai.google.dev/gemini-api/docs/pricing; reseller routes re-checked 2026-09-02.",
+    "price_note": "Google's Gemini API pricing page no longer has a Gemini 3.7 Flash section (read 2026-10-14). The price shown is the last rate it printed for this model, read 2026-09-16: a dated, two-phase schedule of $0.75 per 1M input tokens through December 31, 2026, rising to $1.50 on January 1, 2027, and $3.75 per 1M output tokens through December 31, 2026, rising to $7.50, with context caching on the same dates ($0.075, then $0.15). A request sent to gemini-3.7-flash today is served by Gemini 3.8 Flash; see that model's page for the rate Google prints now.",
     "last_updated": "2026-08-18",
     "released_source": "https://ai.google.dev/gemini-api/docs/pricing",
     "released_verified": "2026-08-13",
-    "status_verified": "2026-09-16",
-    "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
+    "status_verified": "2026-10-14",
+    "status_source": "https://ai.google.dev/gemini-api/docs/changelog",
+    "shutdown_date": null,
+    "superseded_by": "google-gemini-3-8-flash",
+    "availability_note": "Google deprecated Gemini 3.7 Flash (gemini-3.7-flash) on October 8, 2026 and replaced it with Gemini 3.8 Flash. It can no longer be selected in Google AI Studio, and API requests to gemini-3.7-flash are automatically routed to gemini-3.8-flash. Google has not printed a shutdown date."
   },
   {
     "id": "google-gemini-3-5-flash-lite",
