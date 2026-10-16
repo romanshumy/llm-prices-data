@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-16
+
+- **Moondream 3.1 9B A2B** (Moondream) launched — $0.3 in / $1.0 out per 1M tokens
+- **Moondream 3 Preview** (Moondream) launched — $0.3 in / $2.5 out per 1M tokens
+
 ## 2026-10-14
 
 - **Gemini 4 Argon** (Google) launched — $2.0 in / $10.0 out per 1M tokens

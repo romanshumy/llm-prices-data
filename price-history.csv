@@ -11916,6 +11916,8 @@ mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-10-13,snapshot,,0.1,0.4,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-10-14,snapshot,,0.1,0.4,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-10-15,snapshot,,0.1,0.4,
 mistral-voxtral-small,Voxtral Small 24B,Mistral,2026-10-16,snapshot,,0.1,0.4,
+moondream-3-1-9b-a2b,Moondream 3.1 9B A2B,Moondream,2026-10-16,new_model,verified,0.3,1.0,
+moondream-3-preview,Moondream 3 Preview,Moondream,2026-10-16,new_model,verified,0.3,2.5,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-02-09,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-23,backfill,litellm-archive,0.6,3.0,
 moonshot-kimi-k2-5,Kimi K2.5,Moonshot,2026-06-25,baseline,,0.6,3.0,0.1

@@ -418,5 +418,14 @@
     "url": "https://scaledown.ai/",
     "pricing_url": "https://scaledown.ai/",
     "logo_color": "#147ce4"
+  },
+  {
+    "id": "moondream",
+    "name": "Moondream",
+    "type": "commercial",
+    "description": "The maker of Moondream, a family of small vision language models built by M87 Labs. The current Moondream 3 line is a mixture-of-experts with 9B total and 2B active parameters that answers questions about images, captions, reads text and points at, counts and detects objects. Moondream publishes the weights on Hugging Face, sells hosted inference per token on Moondream Cloud, and offers fine-tuning through Lens. Moondream states no founding year on its own pages, so none is published here.",
+    "url": "https://moondream.ai/",
+    "pricing_url": "https://moondream.ai/pricing",
+    "logo_color": "#6c5ce7"
   }
 ]

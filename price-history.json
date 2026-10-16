@@ -201195,5 +201195,47 @@
         "changes": []
       }
     ]
+  },
+  "moondream-3-1-9b-a2b": {
+    "model": "Moondream 3.1 9B A2B",
+    "provider": "Moondream",
+    "history": [
+      {
+        "date": "2026-10-16",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.0,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://moondream.ai/pricing",
+        "captured_at": "2026-10-16T14:35:04Z",
+        "snapshot": "data/evidence/moondream-3-1-9b-a2b/2026-10-16.txt",
+        "sha": "7acf40ef9a"
+      }
+    ]
+  },
+  "moondream-3-preview": {
+    "model": "Moondream 3 Preview",
+    "provider": "Moondream",
+    "history": [
+      {
+        "date": "2026-10-16",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 32000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://moondream.ai/pricing",
+        "captured_at": "2026-10-16T14:35:06Z",
+        "snapshot": "data/evidence/moondream-3-preview/2026-10-16.txt",
+        "sha": "7acf40ef9a"
+      }
+    ]
   }
 }

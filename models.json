@@ -9026,5 +9026,73 @@
     "promo": false,
     "status_verified": "2026-10-13",
     "status_source": "https://scaledown.ai/"
+  },
+  {
+    "id": "moondream-3-1-9b-a2b",
+    "provider": "Moondream",
+    "model": "Moondream 3.1 9B A2B",
+    "category": "open-weights",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.0,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-07-07",
+    "released_source": "https://moondream.ai/blog/moondream-3-1-beyond-benchmarks",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "9B (2B active)",
+    "description": "Moondream's vision language model, a mixture-of-experts with 9B total and 2B active parameters. It answers questions about images, captions, reads text (OCR), points at, counts and detects objects, and has a 32K-token context window. $0.30 per 1M input tokens and $1.00 per 1M output tokens on Moondream Cloud.",
+    "price_note": "Moondream's own pricing page lists Moondream 3.1 9B A2B at $0.30 / 1M input tokens and $1.00 / 1M output tokens real-time, and half that in batch ($0.15 / $0.50). We publish the real-time rate. OpenRouter lists this model at $2.50 per 1M output tokens; that is the rate of PrimeIntellect, the third-party host serving it there, not Moondream's.",
+    "availability_note": "Sold by Moondream on Moondream Cloud (every workspace includes $5 a month of usage credits), and through OpenRouter, where PrimeIntellect is the only provider. The weights are on Hugging Face under the Moondream model license, which allows most commercial use but not offering the model as a hosted service without a separate licence.",
+    "pricing_url": "https://moondream.ai/pricing",
+    "tags": [
+      "open-weights",
+      "multimodal",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-16",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-16",
+    "status_source": "https://moondream.ai/pricing"
+  },
+  {
+    "id": "moondream-3-preview",
+    "provider": "Moondream",
+    "model": "Moondream 3 Preview",
+    "category": "open-weights",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": null,
+    "context_window": 32000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2025-09-18",
+    "released_source": "https://moondream.ai/blog/moondream-3-preview",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "9B (2B active)",
+    "description": "The preview release of Moondream 3, a mixture-of-experts vision language model with 9B total and 2B active parameters that raised Moondream's context window from 2K to 32K tokens. It answers questions about images, captions, points at and detects objects. $0.30 per 1M input tokens and $2.50 per 1M output tokens on Moondream Cloud.",
+    "price_note": "Moondream's own pricing page lists Moondream 3 Preview at $0.30 / 1M input tokens and $2.50 / 1M output tokens real-time, and half that in batch ($0.15 / $1.25). We publish the real-time rate. Its successor, Moondream 3.1, costs less per output token ($1.00 / 1M).",
+    "availability_note": "Sold by Moondream on Moondream Cloud (every workspace includes $5 a month of usage credits), and through OpenRouter, where PrimeIntellect is the only provider. The weights are on Hugging Face under the Business Source License 1.1, which allows most commercial use but not offering the model as a hosted service without a separate licence.",
+    "pricing_url": "https://moondream.ai/pricing",
+    "tags": [
+      "open-weights",
+      "multimodal",
+      "moe"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-16",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-16",
+    "status_source": "https://moondream.ai/pricing"
   }
 ]
