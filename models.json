@@ -1712,6 +1712,14 @@
     "source": "verified",
     "released_source": "https://api-docs.deepseek.com/news/news260910",
     "released_verified": "2026-09-10",
+    "build_updates": [
+      {
+        "date": "2026-10-17",
+        "version": "DeepSeek-V4.1-Flash-1017",
+        "source": "https://api-docs.deepseek.com/news/news261017",
+        "summary": "DeepSeek moved deepseek-flash to a new build with new open weights on the same architecture, reporting higher scores across reasoning, coding, agentic and vision benchmarks with shorter outputs, at unchanged prices."
+      }
+    ],
     "status_verified": "2026-10-18",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "price_note": "DeepSeek bills this model at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.30 input (cache miss) / $0.006 input (cache hit) / $1.20 output per 1M tokens. Off-peak is exactly half: $0.15 / $0.003 / $0.60. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour, and all of Saturday and Sunday, is off-peak. Peak is the headline here because DeepSeek defines off-peak as half of peak rather than the other way round, so peak is the list rate, and because a caller who does not schedule around the clock needs the published number to be a ceiling rather than a floor. Halve it for a workload that runs entirely outside those hours. Third-party catalogues that quote this model at $0.15/$0.60 per 1M are printing the OFF-PEAK tier, not a different rate card."
@@ -1748,6 +1756,14 @@
     "superseded_by": "deepseek-v4-1-flash",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
+    "build_updates": [
+      {
+        "date": "2026-07-31",
+        "version": "DeepSeek-V4-Flash-0731",
+        "source": "https://api-docs.deepseek.com/updates",
+        "summary": "DeepSeek moved deepseek-v4-flash to its official release, re-post-trained on the same architecture and size as the preview, with much stronger agent benchmarks and native Responses API support, at unchanged prices."
+      }
+    ],
     "status_verified": "2026-09-10",
     "status_source": "https://api-docs.deepseek.com/quick_start/pricing",
     "price_note": "ARCHIVED first-party rate — what this model last cost, not what a call costs today. DeepSeek billed it at TWO rates depending on the hour. The tracked figure is the PEAK rate: $0.44 input / $0.014 cached input / $1.32 output per 1M tokens. Off-peak was exactly half: $0.22 / $0.007 / $0.66. Peak hours are 01:00-04:00 and 06:00-10:00 UTC, Monday through Friday; every other hour is off-peak. Until 16:00 UTC on 2026-08-16 this model billed a single flat $0.14 / $0.0028 / $0.28. On 2026-09-10 DeepSeek retired the model; the name now routes to DeepSeek V4.1 Flash and bills at that model's price."
