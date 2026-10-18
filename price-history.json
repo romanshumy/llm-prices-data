@@ -203307,5 +203307,26 @@
         "changes": []
       }
     ]
+  },
+  "typesafe-jev-1-14": {
+    "model": "Jev 1.14",
+    "provider": "TypeSafe AI",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "input_per_mtok": 0.042,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 64000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://docs.typesafe.ai/models",
+        "captured_at": "2026-10-18T13:38:38Z",
+        "snapshot": "data/evidence/typesafe-jev-1-14/2026-10-18.txt",
+        "sha": "865fe7cdd3"
+      }
+    ]
   }
 }

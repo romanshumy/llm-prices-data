@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-18
+
+- **Jev 1.14** (TypeSafe AI) launched — $0.042 in / $0.0 out per 1M tokens
+
 ## 2026-10-16
 
 - **Moondream 3.1 9B A2B** (Moondream) launched — $0.3 in / $1.0 out per 1M tokens

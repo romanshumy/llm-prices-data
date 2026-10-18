@@ -8794,7 +8794,7 @@
     "parameters": null,
     "description": "TypeSafe AI's flagship, and the first of what it calls System One models: you send a block of state plus typed questions — yes/no, choice or score — and get structured answers with calibrated probabilities back, instead of generated text. The billing follows that shape. TypeSafe charges for input tokens only, at $0.042 per 1M tokens ($42 per 1B, the unit its own rate card leads with), and the same card states that output tokens are free — so the $0 output on this row is a rate the maker published, not a number we are missing. Text in only; images, audio and video have to be turned into text or structured fields first. One request carries a 64,000-token budget covering the state and every question together, with a tighter 32,000-token limit on the state plus the single longest question.",
     "price_note": "First-party list price. TypeSafe makes Jev and sells it only through its own API, so its models page is the rate card. That page prints one price for Jev 1.13: $42 per billion tokens, which is $0.042 per million — the same input rate in two units, not an input/output pair. Under the table TypeSafe states that it charges per input token and that output tokens are free, so the $0 output here is the maker's own published rate, not a promotion and not a missing number. LiteLLM's public price table lists the model at the same input rate with free output.",
-    "availability_note": "Sold only by TypeSafe, on a single endpoint (POST /v1/systemone). The versioned id is jev-1.13.0; the aliases jev-latest and jev-preview both resolve to it today. No reseller carries it and it is not on OpenRouter. TypeSafe publishes rate limits of 100K tokens per second and 80 requests per second (down from 250K tokens per second and 1,200 requests per minute in September) and says they can change without notice while it scales; higher limits are on custom and enterprise plans. The rate card prints no release date, and the models call that returns one needs an API key, so none is published here.",
+    "availability_note": "Sold only by TypeSafe, on a single endpoint (POST /v1/systemone). The versioned id is jev-1.13.0. The jev-latest alias, the default in TypeSafe's SDKs, still resolves to it today; jev-preview moved to jev-1.14.0 on October 14, 2026, and TypeSafe says jev-latest will follow about a week later. TypeSafe says it will give 60 days' warning before Jev 1.13 is formally deprecated. No reseller carries it and it is not on OpenRouter. TypeSafe no longer prints rate limits on the models page: they are set per organization and shown in the developer console, with higher limits on custom and enterprise plans. The rate card prints no release date for this version, and the models call that returns one needs an API key, so none is published here.",
     "pricing_url": "https://docs.typesafe.ai/models",
     "tags": [
       "budget"
@@ -8803,8 +8803,38 @@
     "last_updated": "2026-09-20",
     "source": "verified",
     "promo": false,
-    "status_verified": "2026-10-10",
+    "status_verified": "2026-10-18",
     "status_source": "https://docs.typesafe.ai/models"
+  },
+  {
+    "id": "typesafe-jev-1-14",
+    "provider": "TypeSafe AI",
+    "model": "Jev 1.14",
+    "category": "budget",
+    "input_per_mtok": 0.042,
+    "output_per_mtok": 0.0,
+    "context_window": 64000,
+    "modality": [
+      "text"
+    ],
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "TypeSafe AI's newest Jev release, available since October 14, 2026, and like Jev 1.13 a System One model: you send a block of state plus typed questions — yes/no, choice or score — and get structured answers with calibrated probabilities back, instead of generated text. TypeSafe describes it as small improvements across the board with the largest gain in multilingual support, and it is the only Jev that answers with a bounding box; image input and a longer context are available on both versions behind opt-in headers TypeSafe labels experimental. The billing is unchanged: input tokens only, at $0.042 per 1M tokens ($42 per 1B, the unit the rate card leads with), with output tokens free. One request carries a 64,000-token budget covering the state and every question together, with a 32,000-token limit on the state plus the single longest question; the long-context header raises both to 262,000 tokens at the same per-token price.",
+    "price_note": "First-party list price. TypeSafe makes Jev and sells it only through its own API, so its models page is the rate card. That page prints one price for Jev 1.14, the same as for Jev 1.13: $42 per billion tokens, which is $0.042 per million — the same input rate in two units, not an input/output pair. Under the table TypeSafe states that you pay per input token and that output tokens are free, so the $0 output here is the maker's own published rate, not a promotion and not a missing number. LiteLLM's public price table lists jev-1.14.0 at the same input rate with free output.",
+    "availability_note": "Sold only by TypeSafe, on a single endpoint (POST /v1/systemone). The versioned id is jev-1.14.0. The jev-preview alias points to it; jev-latest, the default in TypeSafe's SDKs, still resolves to jev-1.13.0 and TypeSafe says it will move to 1.14 about a week after the October 14 release. TypeSafe says it will give 30 days' warning before this version is formally deprecated. No reseller carries it and it is not on OpenRouter. TypeSafe does not print rate limits on the models page: they are set per organization and shown in the developer console, with higher limits on custom and enterprise plans.",
+    "pricing_url": "https://docs.typesafe.ai/models",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-18",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-18",
+    "status_source": "https://docs.typesafe.ai/models",
+    "released": "2026-10-14",
+    "released_source": "https://docs.typesafe.ai/models"
   },
   {
     "id": "apodex-apodex-1-1-mini",
