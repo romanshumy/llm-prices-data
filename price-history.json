@@ -203186,7 +203186,7 @@
         "event": "new_model",
         "changes": [],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
         "captured_at": "2026-10-14T18:50:06Z",
         "snapshot": "data/evidence/perplexity-pplx-decider-v1-2/2026-10-14.txt",
@@ -203326,6 +203326,27 @@
         "captured_at": "2026-10-18T13:38:38Z",
         "snapshot": "data/evidence/typesafe-jev-1-14/2026-10-18.txt",
         "sha": "865fe7cdd3"
+      }
+    ]
+  },
+  "deepseek-v4-1-flash-1017": {
+    "model": "DeepSeek V4.1 Flash 1017",
+    "provider": "DeepSeek",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.006,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "captured_at": "2026-10-18T15:11:15Z",
+        "snapshot": "data/evidence/deepseek-v4-1-flash-1017/2026-10-18.txt",
+        "sha": "87d1681893"
       }
     ]
   }

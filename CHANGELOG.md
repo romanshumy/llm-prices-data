@@ -9,6 +9,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-10-18
 
+- **DeepSeek V4.1 Flash 1017** (DeepSeek) launched — $0.3 in / $1.2 out per 1M tokens
 - **Jev 1.14** (TypeSafe AI) launched — $0.042 in / $0.0 out per 1M tokens
 
 ## 2026-10-16
