@@ -1852,21 +1852,25 @@
       "text"
     ],
     "released": "2026-04-24",
-    "status": "Current",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Flash on Fireworks. $0.14/$0.28 per 1M; cached $0.028.",
+    "description": "DeepSeek V4 Flash on Fireworks, retired from serverless on 2026-09-25. Last listed at $0.14/$0.28 per 1M; cached $0.028.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "budget",
       "fast",
-      "caching"
+      "caching",
+      "retired"
     ],
     "last_updated": "2026-08-14",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-08-15",
-    "status_source": "https://docs.fireworks.ai/serverless/pricing"
+    "status_verified": "2026-10-18",
+    "status_source": "https://docs.fireworks.ai/updates/changelog",
+    "retired_on": "2026-09-25",
+    "featured": false,
+    "availability_note": "Fireworks took DeepSeek V4 Flash (0731) off its serverless API on 2026-09-25. Its changelog announced the cut on 2026-09-12 and confirmed on 2026-09-26 that it is in effect, and the model's own page says the deprecation is \"only on serverless\": you can still run it on a dedicated on-demand deployment, which Fireworks bills by GPU time, not per token. Fireworks points serverless users to DeepSeek V4.1 Flash. The serverless pricing page no longer lists it, so $0.14/$0.28 per 1M tokens (cached $0.028) is what the model last cost per token on Fireworks, not a rate you can buy today."
   },
   {
     "id": "fireworks-deepseek-v4-pro",
@@ -1881,22 +1885,26 @@
       "text"
     ],
     "released": "2026-04-24",
-    "status": "Current",
+    "status": "Retired",
     "open_source": false,
     "parameters": null,
-    "description": "DeepSeek V4 Pro on Fireworks. $1.32/$3.96 per 1M; cached $0.044.",
-    "price_note": "Fireworks Standard serving path; the Priority column ($1.65/$0.055/$4.95) is a different path and is not what we track. Fireworks lists exactly one DeepSeek V4 Pro row, and between our Aug 24 and Aug 31 2026 readings of the page it changed from 'DeepSeek V4 Pro' at $1.74/$0.145/$3.48 to 'DeepSeek V4 Pro (0813)' at $1.32/$0.044/$3.96 — so $1.32/$0.044/$3.96 is the only rate Fireworks now sells this model at. Those figures match DeepSeek's own peak list price exactly, including the distinctive $0.044 cached rate, which is the maker's 0813 snapshot repricing propagating to its hosts rather than a Fireworks-specific discount.",
+    "description": "DeepSeek V4 Pro on Fireworks, retired from serverless on 2026-09-25. Last listed at $1.32/$3.96 per 1M; cached $0.044.",
+    "price_note": "Fireworks Standard serving path; the Priority column ($1.65/$0.055/$4.95) is a different path and is not what we track. Fireworks listed exactly one DeepSeek V4 Pro row, and between our Aug 24 and Aug 31 2026 readings of the page it changed from 'DeepSeek V4 Pro' at $1.74/$0.145/$3.48 to 'DeepSeek V4 Pro (0813)' at $1.32/$0.044/$3.96 — so $1.32/$0.044/$3.96 was the last per-token rate Fireworks sold this model at before it left serverless on 2026-09-25. Those figures match DeepSeek's own peak list price exactly, including the distinctive $0.044 cached rate, which is the maker's 0813 snapshot repricing propagating to its hosts rather than a Fireworks-specific discount.",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "tags": [
       "mid-tier",
       "reasoning",
-      "caching"
+      "caching",
+      "retired"
     ],
     "last_updated": "2026-08-31",
     "released_source": "https://api-docs.deepseek.com/news/news260424",
     "released_verified": "2026-06-27",
-    "status_verified": "2026-09-05",
-    "status_source": "https://docs.fireworks.ai/serverless/pricing"
+    "status_verified": "2026-10-18",
+    "status_source": "https://docs.fireworks.ai/updates/changelog",
+    "retired_on": "2026-09-25",
+    "featured": false,
+    "availability_note": "Fireworks took DeepSeek V4 Pro (0813) off its serverless API on 2026-09-25. Its changelog announced the cut on 2026-09-12 and confirmed on 2026-09-26 that it is in effect, and the model's own page says the deprecation is \"only on serverless\": you can still run it on a dedicated on-demand deployment, which Fireworks bills by GPU time, not per token. Fireworks points serverless users to DeepSeek V4.1 Flash. The serverless pricing page no longer lists it, so $1.32/$3.96 per 1M tokens (cached $0.044) is what the model last cost per token on Fireworks, not a rate you can buy today."
   },
   {
     "id": "fireworks-glm-5-1",
@@ -5158,9 +5166,9 @@
     "status_source": "https://docs.perplexity.ai/docs/agent-api/models"
   },
   {
-    "id": "perplexity-pplx-decider-v1-1-27b",
+    "id": "perplexity-pplx-decider-v1-2",
     "provider": "Perplexity",
-    "model": "pplx-decider-v1.1-27b",
+    "model": "pplx-decider-v1.2",
     "category": "budget",
     "input_per_mtok": 0.02,
     "output_per_mtok": 0.0,
@@ -5170,14 +5178,14 @@
       "text",
       "image"
     ],
-    "released": "2026-10-05",
-    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b",
+    "released": "2026-10-15",
+    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
     "status": "Current",
     "open_source": true,
     "parameters": "27B",
-    "description": "Perplexity's decision model, the one its Decisions API runs. It reads text, JSON or images plus your questions and returns a probability for each answer (yes or no, one of your options, or a level on your rubric), not generated text. $0.02 per 1M input tokens; output is free and there is no per-request fee.",
-    "price_note": "Perplexity's own pricing page lists pplx-decider-v1.1-27b at $0.02 per 1M input tokens, output tokens Free, per-request fee None. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000012. The $0 output here is Perplexity's published rate, not a missing number. The older pplx-decider-v1-27b still answers requests at the same $0.02; Perplexity halved the input price when v1.1 replaced it in October 2026, so a site still showing a higher Decisions API price is showing the old rate.",
-    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that still name pplx-decider-v1-27b continue to work and bill at the same rate. Input must stay under 262,144 tokens. The weights are on Hugging Face under Apache 2.0.",
+    "description": "Perplexity's 27B decision model, the one its Decisions API runs. It reads text, JSON or images plus your questions and returns a probability for each answer (yes or no, one of your options, or a level on your rubric), not generated text. v1.2 replaced pplx-decider-v1.1-27b in October 2026 and is a new build, not a rename: it keeps the same Qwen3.8-27B base but reads all of a request's questions in one pass instead of one at a time, so questions about the same input are answered together and can inform each other, and it was retrained on reworked decision data. $0.02 per 1M input tokens; output is free and there is no per-request fee.",
+    "price_note": "Perplexity's own pricing page lists pplx-decider-v1.2 at $0.02 per 1M input tokens, output tokens Free, per-request fee None. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000012. The $0 output here is Perplexity's published rate, not a missing number. The price did not change with v1.2: v1.1-27b was also $0.02, half the $0.04 the original pplx-decider-v1-27b launched at, so a site still showing a higher Decisions API price is showing the old rate.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-latest, or the older pplx-decider-v1.1-27b and pplx-decider-v1-27b, are served by pplx-decider-v1.2 and bill at the same $0.02. Input must stay under 256K (262,144) tokens per request. The weights are on Hugging Face under Apache 2.0.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "budget",
@@ -5185,10 +5193,10 @@
       "open-weights"
     ],
     "featured": false,
-    "last_updated": "2026-10-14",
+    "last_updated": "2026-10-18",
     "source": "verified",
     "promo": false,
-    "status_verified": "2026-10-14",
+    "status_verified": "2026-10-18",
     "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
   },
   {

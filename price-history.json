@@ -203173,8 +203173,8 @@
       }
     ]
   },
-  "perplexity-pplx-decider-v1-1-27b": {
-    "model": "pplx-decider-v1.1-27b",
+  "perplexity-pplx-decider-v1-2": {
+    "model": "pplx-decider-v1.2",
     "provider": "Perplexity",
     "history": [
       {
@@ -203189,7 +203189,7 @@
         "confidence": "verified",
         "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
         "captured_at": "2026-10-14T18:50:06Z",
-        "snapshot": "data/evidence/perplexity-pplx-decider-v1-1-27b/2026-10-14.txt",
+        "snapshot": "data/evidence/perplexity-pplx-decider-v1-2/2026-10-14.txt",
         "sha": "a27275bf95"
       },
       {

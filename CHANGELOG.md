@@ -19,7 +19,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-14
 
 - **Gemini 4 Argon** (Google) launched — $2.0 in / $10.0 out per 1M tokens
-- **pplx-decider-v1.1-27b** (Perplexity) launched — $0.02 in / $0.0 out per 1M tokens
+- **pplx-decider-v1.2** (Perplexity) launched — $0.02 in / $0.0 out per 1M tokens
 
 ## 2026-10-13
 
