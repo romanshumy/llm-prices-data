@@ -4245,7 +4245,7 @@
       "image"
     ],
     "released": "2025-04-14",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "Still available. 1M context window, strong at coding and instruction following.",
@@ -4257,8 +4257,11 @@
     ],
     "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-09-13",
-    "status_source": "https://platform.openai.com/docs/pricing"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "availability_note": "OpenAI announced on 2026-10-14 that it will shut down gpt-4.1-2025-04-14 on 2027-01-14. That is every snapshot behind the gpt-4.1 alias, so the alias stops working on that date too. OpenAI names gpt-6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
+    "shutdown_date": "2027-01-14",
+    "superseded_by": "openai-gpt-6-luna"
   },
   {
     "id": "openai-gpt-4-1-mini",
@@ -4274,7 +4277,7 @@
       "image"
     ],
     "released": "2025-04-14",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "Compact, affordable model with 1M context. Good for high-throughput tasks.",
@@ -4285,8 +4288,11 @@
     ],
     "featured": false,
     "last_updated": "2026-07-04",
-    "status_verified": "2026-08-09",
-    "status_source": "https://platform.openai.com/docs/pricing"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "availability_note": "OpenAI announced on 2026-10-14 that it will shut down gpt-4.1-mini-2025-04-14 on 2027-01-14. That is every snapshot behind the gpt-4.1-mini alias, so the alias stops working on that date too. OpenAI names gpt-6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
+    "shutdown_date": "2027-01-14",
+    "superseded_by": "openai-gpt-6-luna"
   },
   {
     "id": "openai-gpt-4-1-nano",
@@ -4971,7 +4977,7 @@
       "image"
     ],
     "released": "2026-03-17",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "Smallest, cheapest GPT-5.4 variant. Built for classification and high-volume tasks at scale.",
@@ -4982,8 +4988,11 @@
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-08-09",
-    "status_source": "https://platform.openai.com/docs/pricing"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "availability_note": "OpenAI announced on 2026-10-01 that gpt-5.4-nano is deprecated and will be removed from the API on 2027-04-01. OpenAI names gpt-6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
+    "shutdown_date": "2027-04-01",
+    "superseded_by": "openai-gpt-6-luna"
   },
   {
     "id": "openai-gpt-5-3-chat",
@@ -5031,7 +5040,7 @@
       "image"
     ],
     "released": "2026-02-24",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "GPT-5.3 optimized for agentic coding and software engineering. 400K context.",
@@ -5042,8 +5051,11 @@
     ],
     "featured": false,
     "last_updated": "2026-07-03",
-    "status_verified": "2026-08-17",
-    "status_source": "https://developers.openai.com/api/docs/models/gpt-5.3-codex"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "availability_note": "OpenAI announced on 2026-10-01 that gpt-5.3-codex is deprecated and will be removed from the API on 2027-04-01. OpenAI names gpt-6-sol as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
+    "shutdown_date": "2027-04-01",
+    "superseded_by": "openai-gpt-6-sol"
   },
   {
     "id": "perplexity-sonar",
@@ -8358,11 +8370,11 @@
     "released": "2024-05-13",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-4o",
     "released_verified": "2026-08-24",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's 2024 flagship, superseded by the GPT-5 line but still sold first-party at its own rate. 128K context window, 16,384 max output tokens, text + image input, text output, October 2023 knowledge cutoff. The default snapshot behind the alias is gpt-4o-2024-08-06.",
-    "availability_note": "OpenAI still prices the bare gpt-4o alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-4o-2024-05-13 is separately scheduled to shut down on 2026-10-23 with gpt-5.6-sol as the named replacement; that date applies to the pinned snapshot, not to the gpt-4o alias, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "availability_note": "OpenAI announced on 2026-10-14 that it will shut down gpt-4o-2024-08-06 and gpt-4o-2024-11-20 (gpt-4o-2024-05-13 goes on 2026-10-23) on 2027-01-14. That is every snapshot behind the gpt-4o alias, so the alias stops working on that date too. OpenAI names gpt-6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "mid-tier",
@@ -8371,8 +8383,10 @@
     "featured": false,
     "last_updated": "2026-08-24",
     "source": "verified",
-    "status_verified": "2026-08-24",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2027-01-14",
+    "superseded_by": "openai-gpt-6-luna"
   },
   {
     "id": "openai-gpt-4o-mini",
@@ -8390,11 +8404,11 @@
     "released": "2024-07-18",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
     "released_verified": "2026-08-24",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "The small, cheap member of the GPT-4o line — a fast, affordable model for focused tasks. 128K context window, 16,384 max output tokens, text + image input, text output, October 2023 knowledge cutoff. Superseded by the GPT-5 mini and nano tiers but still sold first-party at its own rate.",
-    "availability_note": "OpenAI still prices the bare gpt-4o-mini alias per token on its own rate card and announces no shutdown date for it. Several gpt-4o-mini VARIANTS do carry dates — gpt-4o-mini-realtime and gpt-4o-mini-audio on 2027-01-20, gpt-4o-mini-search-preview-2025-03-11 on 2026-07-23 — but those are separate SKUs, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "availability_note": "OpenAI announced on 2026-10-14 that it will shut down gpt-4o-mini-2024-07-18 on 2027-01-14. That is every snapshot behind the gpt-4o-mini alias, so the alias stops working on that date too. OpenAI names gpt-6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "budget",
@@ -8403,8 +8417,10 @@
     "featured": false,
     "last_updated": "2026-08-24",
     "source": "verified",
-    "status_verified": "2026-08-24",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2027-01-14",
+    "superseded_by": "openai-gpt-6-luna"
   },
   {
     "id": "openai-gpt-5-1",
@@ -8422,11 +8438,11 @@
     "released": "2025-11-13",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-5.1",
     "released_verified": "2026-08-24",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's late-2025 flagship for coding and agentic tasks, with configurable reasoning and non-reasoning effort. 400K context window, 128K max output tokens, text + image input, text output, September 2024 knowledge cutoff. Superseded by the GPT-5.2 through GPT-5.6 lines but still sold first-party at its own rate, and the cheapest per-token flagship OpenAI currently lists.",
-    "availability_note": "OpenAI still prices the bare gpt-5.1 alias per token on its own rate card and announces no shutdown date for it. Its sibling SKUs gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini and gpt-5.1-chat-latest were all shut down on 2026-07-23 in favour of the GPT-5.6 line; the base alias outlived them and remains both on the rate card and on its own model page, so this row carries no shutdown date. Checked against OpenAI's deprecations page on 2026-08-24.",
+    "availability_note": "OpenAI announced on 2026-10-01 that gpt-5.1 is deprecated and will be removed from the API on 2027-04-01. OpenAI names gpt-6-sol as the replacement. Its sibling SKUs gpt-5.1-codex, gpt-5.1-codex-max, gpt-5.1-codex-mini and gpt-5.1-chat-latest were already shut down on 2026-07-23. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "reasoning",
@@ -8436,8 +8452,10 @@
     "featured": false,
     "last_updated": "2026-08-24",
     "source": "verified",
-    "status_verified": "2026-08-24",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2027-04-01",
+    "superseded_by": "openai-gpt-6-sol"
   },
   {
     "id": "openai-gpt-3-5-turbo",
@@ -8621,11 +8639,11 @@
     "released": "2025-08-07",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-5",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's August 2025 flagship for coding and agentic tasks, with configurable reasoning effort. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, September 2024 knowledge cutoff. Superseded by the GPT-5.1 through GPT-5.6 lines but still sold first-party at its own rate. The default snapshot behind the alias is gpt-5-2025-08-07.",
-    "availability_note": "OpenAI still prices the bare gpt-5 alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5 alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down gpt-5-2025-08-07 on 2026-12-11. That is every snapshot behind the gpt-5 alias, so the alias stops working on that date too. OpenAI names gpt-5.6-sol as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "reasoning",
@@ -8635,8 +8653,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-sol"
   },
   {
     "id": "openai-gpt-5-mini",
@@ -8654,11 +8674,11 @@
     "released": "2025-08-07",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "Near-frontier GPT-5 variant for cost-sensitive, low-latency, high-volume workloads. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, May 2024 knowledge cutoff. The default snapshot behind the alias is gpt-5-mini-2025-08-07.",
-    "availability_note": "OpenAI still prices the bare gpt-5-mini alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-mini-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-mini alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down gpt-5-mini-2025-08-07 on 2026-12-11. That is every snapshot behind the gpt-5-mini alias, so the alias stops working on that date too. OpenAI names gpt-5.6-terra as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "mid-tier",
@@ -8667,8 +8687,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-terra"
   },
   {
     "id": "openai-gpt-5-nano",
@@ -8686,11 +8708,11 @@
     "released": "2025-08-07",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-5-nano",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "The fastest and most cost-efficient member of the GPT-5 line. 400K context window, 272K max input tokens, 128K max output tokens, text + image input, text output, May 2024 knowledge cutoff. The default snapshot behind the alias is gpt-5-nano-2025-08-07.",
-    "availability_note": "OpenAI still prices the bare gpt-5-nano alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-nano-2025-08-07 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-nano alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down gpt-5-nano-2025-08-07 on 2026-12-11. That is every snapshot behind the gpt-5-nano alias, so the alias stops working on that date too. OpenAI names gpt-5.6-luna as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "budget",
@@ -8699,8 +8721,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-luna"
   },
   {
     "id": "openai-gpt-5-pro",
@@ -8718,11 +8742,11 @@
     "released": "2025-10-06",
     "released_source": "https://developers.openai.com/api/docs/models/gpt-5-pro",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "The extended-compute version of GPT-5, which OpenAI describes as producing smarter and more precise responses. 400K context window, 272K max output tokens, text + image input, text output, September 2024 knowledge cutoff. OpenAI lists no cached-input rate for this SKU. The default snapshot behind the alias is gpt-5-pro-2025-10-06.",
-    "availability_note": "OpenAI still prices the bare gpt-5-pro alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot gpt-5-pro-2025-10-06 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the gpt-5-pro alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down gpt-5-pro-2025-10-06 on 2026-12-11. That is every snapshot behind the gpt-5-pro alias, so the alias stops working on that date too. OpenAI names gpt-5.6-sol with reasoning mode pro as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "reasoning",
@@ -8732,8 +8756,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-sol"
   },
   {
     "id": "openai-o3",
@@ -8751,11 +8777,11 @@
     "released": "2025-04-16",
     "released_source": "https://developers.openai.com/api/docs/models/o3",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "OpenAI's April 2025 reasoning model for complex tasks, succeeded by the GPT-5 line but still sold first-party at its own rate. 200K context window, 100K max output tokens, text + image input, text output, June 2024 knowledge cutoff. The default snapshot behind the alias is o3-2025-04-16.",
-    "availability_note": "OpenAI still prices the bare o3 alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot o3-2025-04-16 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the o3 alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down o3-2025-04-16 on 2026-12-11. That is every snapshot behind the o3 alias, so the alias stops working on that date too. OpenAI names gpt-5.6-sol as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "reasoning",
@@ -8764,8 +8790,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-sol"
   },
   {
     "id": "openai-o3-pro",
@@ -8783,11 +8811,11 @@
     "released": "2025-06-10",
     "released_source": "https://developers.openai.com/api/docs/models/o3-pro",
     "released_verified": "2026-08-25",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": null,
     "description": "The extended-compute version of o3, given more compute for better responses. 200K context window, 100K max output tokens, text + image input, text output, June 2024 knowledge cutoff. OpenAI lists no cached-input rate for this SKU. The default snapshot behind the alias is o3-pro-2025-06-10.",
-    "availability_note": "OpenAI still prices the bare o3-pro alias per token on its own rate card and announces no shutdown date for it. The pinned snapshot o3-pro-2025-06-10 is separately scheduled to shut down on December 11, 2026; that date applies to the pinned snapshot, not to the o3-pro alias, so this row carries no shutdown date. If OpenAI later names the bare alias itself, this row ages to Deprecated on that date. Checked against OpenAI's deprecations page on 2026-08-25.",
+    "availability_note": "OpenAI announced on 2026-06-11 that it will shut down o3-pro-2025-06-10 on 2026-12-11. That is every snapshot behind the o3-pro alias, so the alias stops working on that date too. OpenAI names gpt-5.6-sol with reasoning mode pro as the replacement. Until then it is still sold at the price shown. Checked against OpenAI's deprecations page on 2026-10-18.",
     "pricing_url": "https://developers.openai.com/api/docs/pricing",
     "tags": [
       "reasoning",
@@ -8796,8 +8824,10 @@
     "featured": false,
     "last_updated": "2026-08-25",
     "source": "verified",
-    "status_verified": "2026-08-25",
-    "status_source": "https://developers.openai.com/api/docs/deprecations"
+    "status_verified": "2026-10-18",
+    "status_source": "https://developers.openai.com/api/docs/deprecations",
+    "shutdown_date": "2026-12-11",
+    "superseded_by": "openai-gpt-5-6-sol"
   },
   {
     "id": "unbiased-pareto",
