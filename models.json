@@ -7619,30 +7619,33 @@
       "image"
     ],
     "released": "2025-04-06",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "17B (128 experts)",
-    "description": "Meta Llama 4 Maverick served on DeepInfra at $0.20/$0.80 per 1M tokens. Natively multimodal MoE (17B active, 128 experts, 400B total) with a 1M-token context.",
+    "description": "Retired from DeepInfra on 2026-10-01; the endpoint we price no longer serves it. Meta Llama 4 Maverick on DeepInfra, last listed at $0.20/$0.80 per 1M tokens. Natively multimodal MoE (17B active, 128 experts, 400B total) with a 1M-token context.",
     "pricing_url": "https://deepinfra.com/pricing",
     "tags": [
       "open-weights",
-      "multimodal"
+      "multimodal",
+      "retired"
     ],
     "released_source": null,
     "released_verified": null,
     "last_updated": "2026-07-28",
     "source": "verified",
-    "status_verified": "2026-09-21",
-    "status_source": "https://deepinfra.com/pricing"
+    "retired_on": "2026-10-01",
+    "status_verified": "2026-10-19",
+    "status_source": "https://api.deepinfra.com/models/list",
+    "availability_note": "DeepInfra's model catalogue marks meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8 deprecated as of 2026-10-01 and names google/gemma-4-31B-it-turbo as the replacement. It has been gone from deepinfra.com/pricing since the 2026-09-28 read, and its model page now returns 404. The rate above is the public per-token price it last carried, which you can no longer buy."
   },
   {
     "id": "deepinfra-nvidia-nemotron-3-5-lightning",
     "provider": "DeepInfra",
     "model": "NVIDIA Nemotron 3.5 Lightning",
     "category": "open-weights",
-    "input_per_mtok": 0.08,
-    "output_per_mtok": 0.2,
-    "cached_input_per_mtok": 0.04,
+    "input_per_mtok": 0.06,
+    "output_per_mtok": 0.16,
+    "cached_input_per_mtok": 0.03,
     "context_window": 256000,
     "modality": [
       "text"
@@ -7651,7 +7654,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "30B (3B active)",
-    "description": "NVIDIA Nemotron 3.5 Lightning served on DeepInfra at $0.08/$0.20 per 1M tokens, with cached input at $0.04. The cheapest of the three hosts serving it (CoreWeave and Venice both list $0.10/$0.25). NVIDIA publishes no per-token price of its own for this model, so a host rate is the only price it has.",
+    "description": "NVIDIA Nemotron 3.5 Lightning served on DeepInfra at $0.06/$0.16 per 1M tokens, with cached input at $0.03. The cheapest of the three hosts serving it (CoreWeave and Venice both list $0.10/$0.25). NVIDIA publishes no per-token price of its own for this model, so a host rate is the only price it has.",
     "pricing_url": "https://deepinfra.com/pricing",
     "tags": [
       "open-weights",
@@ -7660,7 +7663,7 @@
     ],
     "released_source": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
     "released_verified": "2026-08-17",
-    "last_updated": "2026-08-17",
+    "last_updated": "2026-10-19",
     "source": "verified",
     "status_verified": "2026-10-19",
     "status_source": "https://deepinfra.com/pricing",
@@ -8180,11 +8183,17 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Priced at Upstage's standard list rate of $0.30/$1.20 per 1M tokens since Oct 10 2026, when the launch promotion ended.",
-    "pricing_url": "https://www.upstage.ai/pricing/api",
-    "price_note": "Standard list pricing, per 1M tokens, exclusive of 10% VAT: input $0.30, cached input $0.06, output $1.20 — the figures Upstage's rate card carries for Solar Pro 4 now that the launch promotion has ended. The promotion ran in three windows: free until Aug 11 2026, then 90% off ($0.03 / $0.006 / $0.12) until Sep 11 2026, then 70% off ($0.09 / $0.018 / $0.36) with Oct 9 2026 the last discounted day. Upstage states that standard pricing applies from Oct 10 2026 (UTC).",
-    "promo": false,
-    "promo_price": null,
+    "description": "Upstage's agentic Solar flagship, successor to Solar Pro 3, with a 512K context window and up to 128K output tokens. Upstage's list rate is $0.30/$1.20 per 1M tokens, and its pricing page currently sells it at a discount from that list price.",
+    "pricing_url": "https://console.upstage.ai/docs/models/solar-pro-4.md",
+    "price_note": "List price tracked, per 1M tokens, exclusive of 10% VAT: input $0.30, cached input $0.06, output $1.20, as Upstage's model page prints it. Upstage's pricing page (upstage.ai/pricing/api) has extended the launch discount rather than ending it on Oct 10: 70% off ($0.09 / $0.018 / $0.36) through Oct 19 2026 (UTC), then 50% off ($0.15 / $0.03 / $0.60) from Oct 20 2026 with no end date given. The price you pay is the discounted one until Upstage ends the offer.",
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.15,
+      "output_per_mtok": 0.6,
+      "cached_input_per_mtok": 0.03,
+      "vendor_prints": "unmarked",
+      "vendor_prints_note": "upstage.ai/pricing/api prints the discounted figures on the Solar Pro 4 card without a currency symbol of their own, beside the struck-through $0.30 / $0.06 / $1.20. The card's promo schedule (read 2026-10-19 16:29Z) runs 70% off ($0.09 / $0.018 / $0.36) to 2026-10-20T00:00Z, then $0.15 / $0.03 / $0.60 with no end date; the 2026-10-12 render of that window read \"50% off until further notice\". These are the amounts from Oct 20."
+    },
     "promo_until": null,
     "tags": [
       "mid-tier",
@@ -8193,10 +8202,10 @@
       "long-context"
     ],
     "featured": false,
-    "last_updated": "2026-10-10",
+    "last_updated": "2026-10-19",
     "source": "verified",
     "status_verified": "2026-10-19",
-    "status_source": "https://www.upstage.ai/pricing/api"
+    "status_source": "https://console.upstage.ai/docs/models/solar-pro-4.md"
   },
   {
     "id": "upstage-solar-mini4",

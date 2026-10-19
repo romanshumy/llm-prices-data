@@ -4920,7 +4920,7 @@ deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,
 deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,2026-10-16,snapshot,,0.08,0.2,0.04
 deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,2026-10-17,snapshot,,0.08,0.2,0.04
 deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,2026-10-18,snapshot,,0.08,0.2,0.04
-deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,2026-10-19,snapshot,,0.08,0.2,0.04
+deepinfra-nvidia-nemotron-3-5-lightning,NVIDIA Nemotron 3.5 Lightning,DeepInfra,2026-10-19,price_drop,verified,0.06,0.16,0.03
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-06-27,baseline,,1.2,1.2,
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-06-29,snapshot,,1.2,1.2,
 deepinfra-nvidia-nemotron-70b-instruct,Nemotron 70B Instruct,DeepInfra,2026-07-21,snapshot,,1.2,1.2,
