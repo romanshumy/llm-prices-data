@@ -3071,22 +3071,25 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "27B",
-    "description": "Qwen3.6-27B on Groq's LPU. ~500 tokens/sec. $0.60/$3.00 per 1M tokens.",
+    "description": "Retired from Groq on 2026-09-14; the endpoint we price no longer serves it. Qwen3.6-27B on Groq's LPU, last listed at $0.60/$3.00 per 1M tokens and about 500 tokens/sec. Groq names Qwen3.8-27B as the direct successor.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
-      "speed"
+      "speed",
+      "retired"
     ],
     "speed_tps": 500,
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-09-07",
-    "status_source": "https://console.groq.com/docs/models"
+    "retired_on": "2026-09-14",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/deprecations",
+    "availability_note": "Groq's deprecations page lists qwen/qwen3.6-27b with a shutdown date of 2026-09-14 and names qwen/qwen3.8-27b as the replacement. It is gone from Groq's models page. Groq scopes the deprecation — \"this deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected\" — so the model may still be served under a negotiated enterprise contract. The rate above is the public per-token price it last carried, which is the price this site tracks and one you can no longer buy at."
   },
   {
     "id": "groq-qwen3-32b",
