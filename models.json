@@ -3089,7 +3089,40 @@
     "retired_on": "2026-09-14",
     "status_verified": "2026-10-19",
     "status_source": "https://console.groq.com/docs/deprecations",
+    "superseded_by": "groq-qwen-3-8-27b",
     "availability_note": "Groq's deprecations page lists qwen/qwen3.6-27b with a shutdown date of 2026-09-14 and names qwen/qwen3.8-27b as the replacement. It is gone from Groq's models page. Groq scopes the deprecation — \"this deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected\" — so the model may still be served under a negotiated enterprise contract. The rate above is the public per-token price it last carried, which is the price this site tracks and one you can no longer buy at."
+  },
+  {
+    "id": "groq-qwen-3-8-27b",
+    "provider": "Groq",
+    "model": "Qwen3.8-27B",
+    "category": "fast",
+    "input_per_mtok": 0.8,
+    "output_per_mtok": 4.0,
+    "cached_input_per_mtok": null,
+    "context_window": 131072,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-08-31",
+    "status": "Preview",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "Qwen3.8-27B on Groq's LPU at $0.80/$4.00 per 1M tokens and about 450 tokens/sec, with a 131K context window. Groq lists it as a preview model and names it the direct successor to Qwen3.6-27B, which it shut down on 2026-09-14. Text and image in, text out, with thinking and instruct modes.",
+    "pricing_url": "https://console.groq.com/docs/models",
+    "tags": [
+      "fast",
+      "open-weights",
+      "speed"
+    ],
+    "speed_tps": 450,
+    "featured": false,
+    "last_updated": "2026-10-19",
+    "released_source": "https://console.groq.com/docs/model/qwen/qwen3.8-27b",
+    "released_verified": "2026-10-19",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/models"
   },
   {
     "id": "groq-qwen3-32b",

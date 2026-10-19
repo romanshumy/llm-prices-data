@@ -10,6 +10,7 @@ did not re-price. It is listed here for the record, not as a market move.
 ## 2026-10-19
 
 - **Qwen3.7-Max** price change — input $2.50 → $1.50, output $7.50 → $4.50, cached input $0.25 → $0.30 per 1M tokens
+- **Qwen3.8-27B** (Groq) launched — $0.8 in / $4.0 out per 1M tokens
 
 ## 2026-10-18
 

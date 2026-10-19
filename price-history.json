@@ -204430,5 +204430,26 @@
         "changes": []
       }
     ]
+  },
+  "groq-qwen-3-8-27b": {
+    "model": "Qwen3.8-27B",
+    "provider": "Groq",
+    "history": [
+      {
+        "date": "2026-10-19",
+        "input_per_mtok": 0.8,
+        "output_per_mtok": 4.0,
+        "cached_input_per_mtok": null,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://console.groq.com/docs/models",
+        "captured_at": "2026-10-19T15:38:54Z",
+        "snapshot": "data/evidence/groq-qwen-3-8-27b/2026-10-19.txt",
+        "sha": "4c757d3402"
+      }
+    ]
   }
 }
