@@ -3137,22 +3137,26 @@
       "text"
     ],
     "released": "2026-01-01",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "32B",
-    "description": "Qwen3-32B on Groq's LPU. ~662 tokens/sec. $0.29/$0.59 per 1M tokens.",
+    "description": "Retired from Groq on 2026-07-17; the endpoint we price no longer serves it. Qwen3-32B on Groq's LPU, last listed at $0.29/$0.59 per 1M tokens and about 662 tokens/sec. Groq names GPT-OSS 120B as the replacement.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "fast",
       "open-weights",
-      "speed"
+      "speed",
+      "retired"
     ],
     "speed_tps": 662,
     "featured": false,
     "last_updated": "2026-07-04",
     "source": "firecrawl_scrape",
-    "status_verified": "2026-08-09",
-    "status_source": "https://console.groq.com/docs/models"
+    "retired_on": "2026-07-17",
+    "superseded_by": "groq-gpt-oss-120b",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/deprecations",
+    "availability_note": "Groq's deprecations page lists qwen/qwen3-32b with a shutdown date of 2026-07-17 and names openai/gpt-oss-120b as the replacement. It is gone from Groq's models page. Groq scopes the deprecation — \"this deprecation applies to free and developer-tier usage; enterprise customers with a committed-spend contract are not affected\" — so the model may still be served under a negotiated enterprise contract. The rate above is the public per-token price it last carried, which is the price this site tracks and one you can no longer buy at."
   },
   {
     "id": "ibm-granite-4-h-small",
