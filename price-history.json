@@ -105008,7 +105008,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://www.together.ai/pricing",
         "captured_at": "2026-09-21T15:40:08Z",
         "snapshot": "data/evidence/together-qwen3-7-max/2026-09-21.txt",
