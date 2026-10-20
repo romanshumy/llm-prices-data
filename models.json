@@ -6102,7 +6102,7 @@
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "released_verified": "2026-07-25",
     "promo": false,
-    "price_note": "$1.50 in / $0.30 cached / $4.50 out is Together's standing serverless rate, read from its pricing table on 2026-10-19. The table has printed this rate on every weekly read since 2026-09-28; it was $2.50/$7.50 on 2026-09-21. Together is now cheaper than Alibaba's first-party $2.50/$7.50 for the same model (the alibaba-qwen3-7-max row).",
+    "price_note": "$1.50 in / $0.30 cached / $4.50 out is Together's standing serverless rate, read from its pricing table on 2026-10-19. The table has printed this rate on every weekly read since 2026-09-28; it was $2.50/$7.50 on 2026-09-21. Together's model page for Qwen/Qwen3.7-Max prints the same $1.50/$0.30/$4.50 (read 2026-10-20). Its serverless-models docs page still lists the old $2.50/$0.50/$7.50; we treat that as a stale docs table. Together is now cheaper than Alibaba's first-party $2.50/$7.50 for the same model (the alibaba-qwen3-7-max row).",
     "status_verified": "2026-10-19",
     "status_source": "https://www.together.ai/pricing"
   },
