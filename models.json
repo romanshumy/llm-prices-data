@@ -1668,15 +1668,15 @@
     "open_source": false,
     "parameters": null,
     "description": "Multimodal embedding model. $0.12 per 1M tokens; image tokens $0.47 per 1M.",
-    "price_note": "Cohere's list price, read on the \"Advanced retrieval models\" tab of cohere.com/pricing: Cost $0.12 / 1M tokens, Image cost $0.47 / 1M tokens. The $0.12 we publish is the text rate. That tab is not the page's default: the page opens on the Model Vault committed-instance table, where Embed 4 is priced per instance ($4.00/hr Small, $5.00/hr Medium) and no per-token figure appears.",
+    "price_note": "The last per-token price Cohere printed for Embed 4: $0.12 / 1M text tokens and $0.47 / 1M image tokens, read on the \"Advanced retrieval models\" tab of cohere.com/pricing on 2026-08-22. That page now prices only Embed 5 Pro ($0.12) and Embed 5 Fast ($0.08) and no longer mentions Embed 4 (read 2026-10-18 and 2026-10-19). Cohere's embed model docs still list embed-v4.0 as an available model, and its deprecations page names no shutdown for it.",
     "pricing_url": "https://cohere.com/pricing",
     "tags": [
       "embedding",
       "multimodal"
     ],
     "last_updated": "2026-08-22",
-    "status_verified": "2026-08-22",
-    "status_source": "https://cohere.com/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.cohere.com/docs/cohere-embed"
   },
   {
     "id": "deepseek-v4-1-flash-1017",
@@ -3056,7 +3056,7 @@
     "retired_on": "2026-07-17",
     "status_source": "https://console.groq.com/docs/deprecations",
     "status_verified": "2026-07-25",
-    "availability_note": "Groq shut down meta-llama/llama-4-scout-17b-16e-instruct 2026-07-17; gone from Groq's models page. The Meta-hosted Scout endpoint is unaffected and still tracked separately."
+    "availability_note": "Groq shut down meta-llama/llama-4-scout-17b-16e-instruct 2026-07-17; gone from Groq's models page. Meta itself does not sell Llama 4 Scout per token; DeepInfra still does (deepinfra-llama-4-scout)."
   },
   {
     "id": "groq-qwen-3-6-27b",
@@ -3406,19 +3406,22 @@
       "text"
     ],
     "released": "2024-07-23",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "8B",
     "description": "Small, fast open-weights model. Cheapest hosted price via Groq: $0.05/$0.08 per 1M tokens.",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
       "open-weights",
-      "fast"
+      "fast",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://console.groq.com/docs/models"
+    "last_updated": "2026-10-19",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/deprecations",
+    "retired_on": "2026-08-16",
+    "availability_note": "Meta does not sell this model per token; its developer rate card (dev.meta.ai/docs/pricing-rate-limits) prices only Muse models. The price on this row was Groq's, and Groq shut llama-3.1-8b-instant down for self-serve accounts on 2026-08-16 (console.groq.com/docs/deprecations; enterprise contracts are excepted). The same price on Groq's own row, groq-llama-3-1-8b-instant, has been Retired since then. The rate shown is the last public per-token price Groq charged, and you can no longer buy it."
   },
   {
     "id": "meta-llama-3-3-70b",
@@ -3433,18 +3436,21 @@
       "text"
     ],
     "released": "2024-12-06",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "70B",
     "description": "Widely used open-weights model. Cheapest hosted price via Groq: $0.59/$0.79 per 1M tokens (also on Together at $1.04/$1.04).",
     "pricing_url": "https://console.groq.com/docs/models",
     "tags": [
-      "open-weights"
+      "open-weights",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://console.groq.com/docs/models"
+    "last_updated": "2026-10-19",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/deprecations",
+    "retired_on": "2026-08-16",
+    "availability_note": "Meta does not sell this model per token; its developer rate card (dev.meta.ai/docs/pricing-rate-limits) prices only Muse models. The price on this row was Groq's, and Groq shut llama-3.3-70b-versatile down for self-serve accounts on 2026-08-16 (console.groq.com/docs/deprecations; enterprise contracts are excepted). The same price on Groq's own row, groq-llama-3-3-70b-versatile, has been Retired since then. The rate shown is the last public per-token price Groq charged, and you can no longer buy it. Llama 3.3 70B is still sold per token by other hosts; see together-llama-3-3-70b."
   },
   {
     "id": "meta-llama-4-scout",
@@ -3460,7 +3466,7 @@
       "image"
     ],
     "released": "2025-04-06",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": "17B (16 experts)",
     "description": "Meta's open-weight Llama 4 Scout — a natively multimodal MoE (17B active / 109B total, 16 experts) with an industry-leading 10M-token context, the longest of any open-weight model. Handles text, images, and video; fits on a single H100 with Int4. $0.11/$0.34 per 1M tokens.",
@@ -3468,12 +3474,15 @@
     "tags": [
       "multimodal",
       "open-weights",
-      "moe"
+      "moe",
+      "retired"
     ],
     "featured": true,
-    "last_updated": "2026-06-25",
-    "status_verified": "2026-07-25",
-    "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-meta-llama-4-scout-17b-instruct.html"
+    "last_updated": "2026-10-19",
+    "status_verified": "2026-10-19",
+    "status_source": "https://console.groq.com/docs/deprecations",
+    "retired_on": "2026-07-17",
+    "availability_note": "Meta does not sell this model per token; its developer rate card (dev.meta.ai/docs/pricing-rate-limits) prices only Muse models. The price on this row was Groq's, and Groq shut meta-llama/llama-4-scout-17b-16e-instruct down for self-serve accounts on 2026-07-17 (console.groq.com/docs/deprecations; enterprise contracts are excepted). The same price on Groq's own row, groq-llama-4-scout, has been Retired since then. The rate shown is the last public per-token price Groq charged, and you can no longer buy it. Llama 4 Scout is still sold per token by other hosts; see deepinfra-llama-4-scout."
   },
   {
     "id": "minimax-m2",
@@ -3519,7 +3528,7 @@
       "text"
     ],
     "released": "2025-04-01",
-    "status": "Retired",
+    "status": "Deprecated",
     "open_source": true,
     "parameters": null,
     "description": "MiniMax M2.1 model. $0.30/$1.20 per 1M; cached $0.03. Superseded by MiniMax-M2.7.",
@@ -3527,15 +3536,13 @@
     "tags": [
       "open-weights",
       "budget",
-      "caching",
-      "retired"
+      "caching"
     ],
     "last_updated": "2026-07-28",
-    "retired_on": "2026-07-28",
     "superseded_by": "minimax-m2-7",
-    "status_verified": "2026-07-28",
+    "status_verified": "2026-10-19",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.1 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.1 at the same value — but M2.1 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
+    "availability_note": "MiniMax still sells MiniMax-M2.1: its Pay-as-You-Go pricing page lists it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. It is no longer among MiniMax's current text models (MiniMax-M3 and MiniMax-M2.7), and MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "minimax-m2-5",
@@ -3550,7 +3557,7 @@
       "text"
     ],
     "released": "2025-07-01",
-    "status": "Retired",
+    "status": "Deprecated",
     "open_source": true,
     "parameters": null,
     "description": "MiniMax-M2.5 model. $0.30/$1.20 per 1M; cached $0.03. Superseded by MiniMax-M2.7.",
@@ -3558,15 +3565,13 @@
     "tags": [
       "open-weights",
       "budget",
-      "caching",
-      "retired"
+      "caching"
     ],
     "last_updated": "2026-07-28",
-    "retired_on": "2026-07-28",
     "superseded_by": "minimax-m2-7",
-    "status_verified": "2026-07-28",
+    "status_verified": "2026-10-19",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax's Pay-as-You-Go pricing page (checked 2026-07-28) lists MiniMax-M2.5 under 'Legacy Models', not among its actively-offered text LLMs (which are MiniMax-M3 and MiniMax-M2.7). The $0.30/$1.20 shown is a real historical price — it still appears on the Legacy row and LiteLLM carries minimax/MiniMax-M2.5 at the same value — but M2.5 is no longer the current offering, so treat it as superseded by MiniMax-M2.7. This is a lifecycle reclassification; the price itself did not change."
+    "availability_note": "MiniMax still sells MiniMax-M2.5: its Pay-as-You-Go pricing page lists it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. It is no longer among MiniMax's current text models (MiniMax-M3 and MiniMax-M2.7), and MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "minimax-m2-7",
@@ -6010,8 +6015,9 @@
       "rerank"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.voyageai.com/docs/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.voyageai.com/docs/pricing",
+    "availability_note": "Voyage AI now lists rerank-2.5 under \"Older models\" on its pricing page, still priced as shown. Voyage's current successor is rerank-3, at $0.05 per 1M tokens. Voyage has published no shutdown date. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "voyage-rerank-2-5-lite",
@@ -6036,8 +6042,9 @@
       "rerank"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.voyageai.com/docs/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.voyageai.com/docs/pricing",
+    "availability_note": "Voyage AI now lists rerank-2.5-lite under \"Older models\" on its pricing page, still priced as shown. Voyage's current successor is rerank-3-lite, at $0.02 per 1M tokens. Voyage has published no shutdown date. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "voyage-4",
@@ -6137,8 +6144,9 @@
       "coding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-10-05",
-    "status_source": "https://docs.voyageai.com/docs/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.voyageai.com/docs/pricing",
+    "availability_note": "Voyage AI now lists voyage-code-3 under \"Older models\" on its pricing page, still priced as shown. Voyage's current successor is voyage-code-4, at $0.12 per 1M tokens. Voyage has published no shutdown date. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "voyage-context-3",
@@ -6162,8 +6170,9 @@
       "embedding"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.voyageai.com/docs/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.voyageai.com/docs/pricing",
+    "availability_note": "Voyage AI now lists voyage-context-3 under \"Older models\" on its pricing page, still priced as shown. Voyage's current successor is voyage-context-4, at $0.12 per 1M tokens. Voyage has published no shutdown date. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "voyage-multimodal-3-5",
@@ -7365,9 +7374,9 @@
     "provider": "Tencent",
     "model": "Hunyuan Hy3",
     "category": "budget",
-    "input_per_mtok": 0.147,
-    "output_per_mtok": 0.588,
-    "cached_input_per_mtok": 0.037,
+    "input_per_mtok": 0.132,
+    "output_per_mtok": 0.528,
+    "cached_input_per_mtok": 0.033,
     "context_window": 262144,
     "modality": [
       "text"
@@ -7377,7 +7386,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is converted from that RMB list at a dated exchange rate (6.8031 CNY/USD, 2026-07-07). Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
+    "description": "Tencent Hunyuan Hy3 — a 295B-parameter MoE (~21B active) agentic model, generally available on Tencent Cloud TokenHub since its official 2026-07-07 release, which superseded the Apr 2026 Hy3 preview build. Tencent lists the price in RMB (¥1 in / ¥0.25 cached / ¥4 out per 1M tokens); the USD shown is Tencent's own USD price, quoted by the FP8 endpoint Tencent operates for this model. Context window 262,144 (256K) per Tencent Cloud / OpenClaw provider config, not press copy.",
     "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
     "vendor_sku": "Hy3",
     "native_price": {
@@ -7385,17 +7394,17 @@
       "input_per_mtok": 1,
       "output_per_mtok": 4,
       "cached_input_per_mtok": 0.25,
-      "fx_rate": 6.8031,
-      "fx_date": "2026-07-07"
+      "fx_rate": 7.576,
+      "fx_date": "2026-10-19"
     },
-    "price_note": "USD is FX-derived from Tencent's RMB list price (¥1 / ¥0.25 / ¥4 per 1M) at 6.8031 CNY/USD (2026-07-07); re-checked on FX drift, not a promo. Re-read against the TokenHub rate card 2026-08-28: the flat GA \"Hy3\" row still lists ¥1 / ¥4 / ¥0.25, unchanged. FX re-checked 2026-08-31 against the ECB reference rate (6.7209 CNY/USD, 2026-08-28): 1.2% drift, below the 3% threshold at which we re-publish the USD figure, so the USD above is unchanged and still carries its 2026-07-07 rate.",
+    "price_note": "Tencent's own price, quoted by the FP8 endpoint Tencent operates for this model ($0.132 in / $0.528 out / $0.033 cache-hit per 1M tokens, read 2026-10-19 ~00:20Z and again 14:33Z). Tencent's RMB rate card carries the matching flat GA \"Hy3\" row at ¥1 / ¥4 / ¥0.25, re-read 2026-10-19 and unchanged; all three USD prices imply 7.576 CNY/USD to three figures. That is Tencent's own commercial rate for this model, not a market rate, and it differs from the 7.197 implied by Hy4 preview's endpoint prices. We publish what Tencent charges in USD, not a spot re-conversion of its domestic card. Until 2026-10-19 this row instead published the card at a spot rate (6.8031 CNY/USD, 2026-07-07): $0.147 / $0.588 / $0.037.",
     "tags": [
       "budget",
       "moe",
       "agentic"
     ],
     "featured": false,
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-10-19",
     "source": "verified",
     "status_verified": "2026-10-19",
     "status_source": "https://cloud.tencent.com/document/product/1823/130055"
@@ -7662,7 +7671,8 @@
     "source": "verified",
     "status_verified": "2026-10-19",
     "status_source": "https://deepinfra.com/pricing",
-    "availability_note": "The 256K context here is DeepInfra's, and it is what you get on this endpoint. NVIDIA's own model page and other catalogues advertise 1M tokens for the open weights, so the same model served elsewhere or self-hosted may accept a longer prompt than this row's price buys."
+    "availability_note": "The 256K context here is DeepInfra's, and it is what you get on this endpoint. NVIDIA's own model page and other catalogues advertise 1M tokens for the open weights, so the same model served elsewhere or self-hosted may accept a longer prompt than this row's price buys.",
+    "price_note": "DeepInfra's own list price, per 1M tokens: deepinfra.com/pricing prints NVIDIA-Nemotron-3.5-Lightning at 256k context, \"$0.06 / $0.03 cached\" input and \"$0.16\" output, and DeepInfra's model API returns the same rates. Until October 2026 DeepInfra listed it at $0.08 input, $0.04 cached and $0.20 output. Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "google-gemini-3-pro-image",
@@ -8143,7 +8153,7 @@
     ],
     "released": "2026-01-26",
     "released_source": "https://www.upstage.ai/blog/en/solar-pro-3-0127",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": false,
     "parameters": "102B (12B active)",
     "description": "Upstage's current flagship Solar LLM — a 102B-parameter mixture-of-experts model activating 12B parameters per token, tuned for reasoning, instruction following and bilingual Korean/English work, and updated in March 2026 for agentic use. $0.15/$0.60 per 1M tokens with cached input at $0.015. Upstage lists all prices exclusive of 10% VAT.",
@@ -8158,8 +8168,11 @@
     "featured": false,
     "last_updated": "2026-08-07",
     "source": "verified",
-    "status_verified": "2026-10-05",
-    "status_source": "https://www.upstage.ai/pricing/api"
+    "status_verified": "2026-10-19",
+    "status_source": "https://www.upstage.ai/pricing/api",
+    "shutdown_date": "2026-10-30",
+    "superseded_by": "upstage-solar-pro-4",
+    "availability_note": "Upstage's pricing page marks Solar Pro 3 \"End of service on 2026-10-30 (KST)\", which is 2026-10-29 15:00 UTC; Solar Pro 2 and Solar Mini carry the same notice. It is still sold at the price shown until then. Upstage's current flagship is Solar Pro 4 (upstage-solar-pro-4). Read 2026-10-18 and 2026-10-19."
   },
   {
     "id": "upstage-solar-pro-4",
@@ -8277,26 +8290,26 @@
     "open_source": false,
     "parameters": null,
     "description": "Relace's code-retrieval specialist, released as Fast Agentic Search — a subagent trained with reinforcement learning that fires view, grep and bash calls in parallel to explore several file chains at once, then reports back the minimal set of files a coding agent needs as context. $1.00/$3.00 per 1M tokens.",
-    "price_note": "Relace's own pricing page list price, per 1M tokens; OpenRouter quotes the same $1.00/$3.00. Relace publishes no cached-input rate for this model. Two sibling SKUs on the same page are not tracked here because they are absent from the catalogue we sweep: relace-compact at $0.20 in and out, and relace-rank at $0.05 input with no output rate published.",
-    "pricing_url": "https://www.relace.ai/pricing",
+    "price_note": "Relace's own price, per 1M tokens, as charged on the OpenRouter endpoint Relace operates for this model (provider \"Relace\", the only endpoint): $1.00 input / $3.00 output. Relace's pricing page no longer lists Relace Search; since October 2026 it prices only the open models Relace resells, and it says the same models are available through OpenRouter. Until then that page printed the same $1.00 / $3.00. Relace publishes no cached-input rate for this model.",
+    "pricing_url": "https://openrouter.ai/relace/relace-search",
     "tags": [
       "coding",
       "search",
       "agentic"
     ],
     "featured": false,
-    "last_updated": "2026-08-07",
+    "last_updated": "2026-10-19",
     "source": "verified",
-    "status_verified": "2026-10-12",
-    "status_source": "https://www.relace.ai/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://openrouter.ai/api/v1/models/relace/relace-search/endpoints"
   },
   {
     "id": "relace-apply-3",
     "provider": "Relace",
     "model": "Relace Apply 3",
     "category": "coding",
-    "input_per_mtok": 0.8,
-    "output_per_mtok": 1.2,
+    "input_per_mtok": 0.85,
+    "output_per_mtok": 1.25,
     "cached_input_per_mtok": null,
     "context_window": 256000,
     "modality": [
@@ -8307,18 +8320,18 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Relace's code-merge specialist — a fast-apply model that takes the lazy diff a frontier model emits and merges it back into the existing file at over 10,000 tokens per second, so the expensive model never has to regenerate unchanged code. $0.80/$1.20 per 1M tokens.",
-    "price_note": "Relace's own pricing page list price, per 1M tokens. OpenRouter serves the same model at $0.85 input / $1.25 output — a host markup of about 6% over the maker's list — and we publish the maker's rate. Relace publishes no cached-input rate for this model.",
-    "pricing_url": "https://www.relace.ai/pricing",
+    "description": "Relace's code-merge specialist — a fast-apply model that takes the lazy diff a frontier model emits and merges it back into the existing file at over 10,000 tokens per second, so the expensive model never has to regenerate unchanged code. $0.85/$1.25 per 1M tokens.",
+    "price_note": "Relace's own price, per 1M tokens, as charged on the OpenRouter endpoint Relace operates for this model (provider \"Relace\", the only endpoint). Relace's pricing page no longer lists Relace Apply 3; since October 2026 it prices only the open models Relace resells, and it says the same models are available through OpenRouter. Until then that page printed $0.80 input / $1.20 output, and Relace's OpenRouter endpoint already charged $0.85 / $1.25 (read 2026-08-07, and again 2026-10-19). Relace publishes no cached-input rate for this model.",
+    "pricing_url": "https://openrouter.ai/relace/relace-apply-3",
     "tags": [
       "coding",
       "agentic"
     ],
     "featured": false,
-    "last_updated": "2026-08-07",
+    "last_updated": "2026-10-19",
     "source": "verified",
-    "status_verified": "2026-10-12",
-    "status_source": "https://www.relace.ai/pricing"
+    "status_verified": "2026-10-19",
+    "status_source": "https://openrouter.ai/api/v1/models/relace/relace-apply-3/endpoints"
   },
   {
     "id": "kwaipilot-kat-coder-pro-v2-5",

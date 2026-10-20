@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-20
+
+- **Hunyuan Hy3** price change — input $0.147 → $0.132, output $0.588 → $0.528, cached input $0.037 → $0.033 per 1M tokens
+- **Relace Apply 3** price change — input $0.80 → $0.85, output $1.20 → $1.25 per 1M tokens
+
 ## 2026-10-19
 
 - **Qwen3.7-Max** price change — input $2.50 → $1.50, output $7.50 → $4.50, cached input $0.25 → $0.30 per 1M tokens

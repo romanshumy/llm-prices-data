@@ -141926,12 +141926,40 @@
       },
       {
         "date": "2026-10-20",
-        "input_per_mtok": 0.147,
-        "output_per_mtok": 0.588,
-        "cached_input_per_mtok": 0.037,
+        "input_per_mtok": 0.132,
+        "output_per_mtok": 0.528,
+        "cached_input_per_mtok": 0.033,
         "context_window": 262144,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.147,
+            "new": 0.132,
+            "direction": "down",
+            "change_pct": -10.2
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 0.588,
+            "new": 0.528,
+            "direction": "down",
+            "change_pct": -10.2
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.037,
+            "new": 0.033,
+            "direction": "down",
+            "change_pct": -10.8
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://cloud.tencent.com/document/product/1823/130055",
+        "captured_at": "2026-10-20T15:03:34Z",
+        "snapshot": "data/evidence/tencent-hunyuan-hy3-preview/2026-10-20.txt",
+        "sha": "aaedf3e19c"
       }
     ]
   },
@@ -163696,12 +163724,33 @@
       },
       {
         "date": "2026-10-20",
-        "input_per_mtok": 0.8,
-        "output_per_mtok": 1.2,
+        "input_per_mtok": 0.85,
+        "output_per_mtok": 1.25,
         "cached_input_per_mtok": null,
         "context_window": 256000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.8,
+            "new": 0.85,
+            "direction": "up",
+            "change_pct": 6.2
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 1.2,
+            "new": 1.25,
+            "direction": "up",
+            "change_pct": 4.2
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://openrouter.ai/relace/relace-apply-3",
+        "captured_at": "2026-10-20T15:03:50Z",
+        "snapshot": "data/evidence/relace-apply-3/2026-10-20.txt",
+        "sha": "de88a4a1d6"
       }
     ]
   },
