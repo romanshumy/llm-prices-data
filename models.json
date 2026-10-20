@@ -3276,13 +3276,8 @@
     "input_per_mtok": 0.2,
     "output_per_mtok": 0.75,
     "cached_input_per_mtok": 0.02,
-    "promo": true,
-    "promo_price": {
-      "input_per_mtok": 0.04,
-      "output_per_mtok": 0.15,
-      "cached_input_per_mtok": 0.004
-    },
-    "price_note": "These are Inception's LIST prices, per 1M tokens. Mercury 2.5 is currently on an 80%-off promotion, so the rate you actually pay today is $0.04 input / $0.15 output / $0.004 cached input. Inception has not published an end date for the promotion, so we track the list price — the rate the model reverts to — rather than a discounted number that could expire without notice. Inception's own rate card shows both, listing Mercury 2.5 at $0.20 input / $0.02 cached / $0.75 output struck through, alongside the discounted prices. Inception's launch announcement states the same standard pricing of $0.20 / $0.75 per 1M tokens and describes $0.04 / $0.15 as a launch discount. Verified 2026-09-08.",
+    "promo": false,
+    "price_note": "These are Inception's list prices, per 1M tokens: $0.20 input / $0.02 cached input / $0.75 output. Mercury 2.5 launched on an undated 80%-off promotion ($0.04 / $0.15); Inception's rate card no longer shows that discount, and lists Mercury 2.5 at the full price with nothing struck through. Verified 2026-10-19.",
     "context_window": 260000,
     "modality": [
       "text"
@@ -3292,16 +3287,16 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Inception's second-generation diffusion large language model (dLLM), succeeding Mercury 2. Rather than decoding left to right, Mercury 2.5 produces and refines many tokens in parallel by iterative denoising, and adds explicit reasoning-effort control on top of the tool calling and structured outputs Mercury 2 already had. 260K context, 65,536 max output. List price $0.20 / $0.75 per 1M tokens, currently discounted 80% to $0.04 / $0.15 on an undated promotion.",
+    "description": "Inception's second-generation diffusion large language model (dLLM), succeeding Mercury 2. Rather than decoding left to right, Mercury 2.5 produces and refines many tokens in parallel by iterative denoising, and adds explicit reasoning-effort control on top of the tool calling and structured outputs Mercury 2 already had. 260K context, 65,536 max output. List price $0.20 / $0.75 per 1M tokens.",
     "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
     "tags": [
       "budget",
       "fast",
       "reasoning"
     ],
-    "last_updated": "2026-09-08",
+    "last_updated": "2026-10-19",
     "source": "verified",
-    "status_verified": "2026-09-08",
+    "status_verified": "2026-10-19",
     "status_source": "https://docs.inceptionlabs.ai/get-started/models"
   },
   {
