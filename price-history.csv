@@ -9399,6 +9399,7 @@ inception-mercury-2-5,Mercury 2.5,Inception,2026-10-17,snapshot,,0.2,0.75,0.02
 inception-mercury-2-5,Mercury 2.5,Inception,2026-10-18,snapshot,,0.2,0.75,0.02
 inception-mercury-2-5,Mercury 2.5,Inception,2026-10-19,snapshot,,0.2,0.75,0.02
 inception-mercury-2-5,Mercury 2.5,Inception,2026-10-20,snapshot,,0.2,0.75,0.02
+inception-mercury-3,Mercury 3,Inception,2026-10-20,new_model,verified,0.2,0.7,0.02
 inception-mercury-edit-2,Mercury Edit 2,Inception,2026-09-11,new_model,verified,0.25,0.75,0.025
 inception-mercury-edit-2,Mercury Edit 2,Inception,2026-09-12,snapshot,,0.25,0.75,0.025
 inception-mercury-edit-2,Mercury Edit 2,Inception,2026-09-13,snapshot,,0.25,0.75,0.025

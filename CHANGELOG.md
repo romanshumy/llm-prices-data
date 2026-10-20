@@ -11,6 +11,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **Hunyuan Hy3** price change — input $0.147 → $0.132, output $0.588 → $0.528, cached input $0.037 → $0.033 per 1M tokens
 - **Relace Apply 3** price change — input $0.80 → $0.85, output $1.20 → $1.25 per 1M tokens
+- **Mercury 3** (Inception) launched — $0.2 in / $0.7 out per 1M tokens
 
 ## 2026-10-19
 

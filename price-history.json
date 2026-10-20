@@ -205581,5 +205581,26 @@
         "changes": []
       }
     ]
+  },
+  "inception-mercury-3": {
+    "model": "Mercury 3",
+    "provider": "Inception",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.2,
+        "output_per_mtok": 0.7,
+        "cached_input_per_mtok": 0.02,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.inceptionlabs.ai/get-started/models",
+        "captured_at": "2026-10-20T14:53:43Z",
+        "snapshot": "data/evidence/inception-mercury-3/2026-10-20.txt",
+        "sha": "121a84c65f"
+      }
+    ]
   }
 }

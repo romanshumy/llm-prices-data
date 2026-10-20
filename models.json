@@ -3300,6 +3300,43 @@
     "status_source": "https://docs.inceptionlabs.ai/get-started/models"
   },
   {
+    "id": "inception-mercury-3",
+    "provider": "Inception",
+    "model": "Mercury 3",
+    "category": "budget",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 0.7,
+    "cached_input_per_mtok": 0.02,
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.1,
+      "output_per_mtok": 0.35,
+      "cached_input_per_mtok": 0.01
+    },
+    "price_note": "These are Inception's list prices, per 1M tokens: $0.20 input / $0.02 cached input / $0.70 output. Mercury 3 launched on 2026-10-19 at 50% off, so the rate you pay today is $0.10 input / $0.01 cached input / $0.35 output. Inception's rate card shows both, the list price struck through beside the discounted one, under a \"50% off Mercury 3\" banner, and states no end date for the discount. We publish the list price, the rate the model returns to, rather than a discounted number that could end without notice. Verified 2026-10-20.",
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-10-19",
+    "released_source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Inception's third-generation diffusion large language model (dLLM) and its most capable model so far, succeeding Mercury 2.5. Like the rest of the Mercury family it refines a whole answer in parallel over a few denoising passes instead of decoding left to right; Inception reports more than 1,000 tokens per second on NVIDIA GPUs from a model over 40 times the size of Mercury 1. Context grows from 260K to 1M tokens, with up to 131,072 output tokens, tool calling, structured outputs and four reasoning-effort levels (instant, low, medium, high). List price $0.20 / $0.70 per 1M tokens, 50% off at launch.",
+    "pricing_url": "https://docs.inceptionlabs.ai/get-started/models",
+    "tags": [
+      "budget",
+      "fast",
+      "reasoning",
+      "long-context"
+    ],
+    "last_updated": "2026-10-20",
+    "source": "verified",
+    "status_verified": "2026-10-20",
+    "status_source": "https://docs.inceptionlabs.ai/get-started/models"
+  },
+  {
     "id": "inception-mercury-edit-2",
     "provider": "Inception",
     "model": "Mercury Edit 2",
