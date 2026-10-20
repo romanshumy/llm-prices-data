@@ -163059,7 +163059,7 @@
         "event": "new_model",
         "changes": [],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://www.relace.ai/pricing",
         "captured_at": "2026-08-07T13:30:40Z",
         "snapshot": "data/evidence/relace-apply-3/2026-08-07.txt",
@@ -205600,6 +205600,27 @@
         "captured_at": "2026-10-20T14:53:43Z",
         "snapshot": "data/evidence/inception-mercury-3/2026-10-20.txt",
         "sha": "121a84c65f"
+      }
+    ]
+  },
+  "minimax-m3-1-flash": {
+    "model": "MiniMax-M3.1-Flash",
+    "provider": "MiniMax",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.6,
+        "cached_input_per_mtok": 0.015,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+        "captured_at": "2026-10-20T14:53:46Z",
+        "snapshot": "data/evidence/minimax-m3-1-flash/2026-10-20.txt",
+        "sha": "8fdf621bbb"
       }
     ]
   }

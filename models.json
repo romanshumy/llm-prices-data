@@ -3670,6 +3670,39 @@
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
   },
   {
+    "id": "minimax-m3-1-flash",
+    "provider": "MiniMax",
+    "model": "MiniMax-M3.1-Flash",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.6,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-19",
+    "released_source": "https://www.minimax.io/blog/minimax-m31f",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "MiniMax's fast, low-cost sibling of MiniMax-M3, released 2026-10-19 for everyday agentic, coding and computer-use work. It keeps M3's 1M-token context and text, image and video input, adds adjustable thinking depth, and MiniMax reports 200+ tokens per second of output. Weights are not yet published; MiniMax says they will follow. $0.15 / $0.60 per 1M tokens, with prompt-cache reads at $0.015, half of M3's price.",
+    "pricing_url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "tags": [
+      "budget",
+      "fast",
+      "caching",
+      "multimodal",
+      "long-context"
+    ],
+    "last_updated": "2026-10-20",
+    "source": "verified",
+    "status_verified": "2026-10-20",
+    "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+  },
+  {
     "id": "mistral-codestral",
     "provider": "Mistral",
     "model": "Codestral",
