@@ -2040,6 +2040,7 @@ alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-10-17,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-10-18,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-10-19,snapshot,,0.8,2.4,
 alibaba-qwq-plus,QwQ-Plus,Alibaba,2026-10-20,snapshot,,0.8,2.4,
+amazon-nova-2-lite,Nova 2 Lite,Amazon,2026-10-20,new_model,verified,0.3,2.5,
 amazon-nova-lite,Nova Lite,Amazon,2024-12-03,backfill,litellm-archive,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-06-23,backfill,litellm-archive,0.06,0.24,
 amazon-nova-lite,Nova Lite,Amazon,2026-06-25,baseline,,0.06,0.24,
@@ -16116,6 +16117,7 @@ perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-17,snapshot,,0.25,2.
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-18,snapshot,,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-19,snapshot,,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-20,snapshot,,0.25,2.5,0.0625
+perplexity-pplx-decider-flash-v1-2,pplx-decider-flash-v1.2,Perplexity,2026-10-20,new_model,verified,0.01,0.0,
 perplexity-pplx-decider-v1-2,pplx-decider-v1.2,Perplexity,2026-10-14,new_model,verified,0.02,0.0,
 perplexity-pplx-decider-v1-2,pplx-decider-v1.2,Perplexity,2026-10-15,snapshot,,0.02,0.0,
 perplexity-pplx-decider-v1-2,pplx-decider-v1.2,Perplexity,2026-10-16,snapshot,,0.02,0.0,
@@ -17129,6 +17131,8 @@ sakana-namazu,Sakana Namazu,Sakana AI,2026-10-17,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-18,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-19,snapshot,,0.95,4.0,0.15
 sakana-namazu,Sakana Namazu,Sakana AI,2026-10-20,snapshot,,0.95,4.0,0.15
+scaledown-classify,Classify,ScaleDown,2026-10-20,new_model,verified,0.05,0.0,
+scaledown-compress,Compress,ScaleDown,2026-10-20,new_model,verified,0.05,0.0,
 scaledown-extract,Extract,ScaleDown,2026-10-13,new_model,verified,0.05,0.0,
 scaledown-extract,Extract,ScaleDown,2026-10-14,snapshot,,0.05,0.0,
 scaledown-extract,Extract,ScaleDown,2026-10-15,snapshot,,0.05,0.0,
@@ -19001,6 +19005,7 @@ together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-10-17,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-10-18,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-10-19,snapshot,,0.32,1.28,
 together-qwen3-7-plus,Qwen3.7-Plus,Together,2026-10-20,snapshot,,0.32,1.28,
+together-tev1-4b-experimental,Tev1 4B Experimental,Together,2026-10-20,new_model,verified,0.042,0.0,
 typesafe-jev-1-13,Jev 1.13,TypeSafe AI,2026-09-20,new_model,verified,0.042,0.0,
 typesafe-jev-1-13,Jev 1.13,TypeSafe AI,2026-09-21,snapshot,,0.042,0.0,
 typesafe-jev-1-13,Jev 1.13,TypeSafe AI,2026-09-22,snapshot,,0.042,0.0,

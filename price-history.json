@@ -205623,5 +205623,110 @@
         "sha": "8fdf621bbb"
       }
     ]
+  },
+  "perplexity-pplx-decider-flash-v1-2": {
+    "model": "pplx-decider-flash-v1.2",
+    "provider": "Perplexity",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.01,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+        "captured_at": "2026-10-20T16:20:32Z",
+        "snapshot": "data/evidence/perplexity-pplx-decider-flash-v1-2/2026-10-20.txt",
+        "sha": "7f5304e1f0"
+      }
+    ]
+  },
+  "together-tev1-4b-experimental": {
+    "model": "Tev1 4B Experimental",
+    "provider": "Together",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.042,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 32768,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.together.ai/docs/serverless-models",
+        "captured_at": "2026-10-20T16:20:44Z",
+        "snapshot": "data/evidence/together-tev1-4b-experimental/2026-10-20.txt",
+        "sha": "4ab9508dce"
+      }
+    ]
+  },
+  "scaledown-classify": {
+    "model": "Classify",
+    "provider": "ScaleDown",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://scaledown.ai/",
+        "captured_at": "2026-10-20T16:20:35Z",
+        "snapshot": "data/evidence/scaledown-classify/2026-10-20.txt",
+        "sha": "4f56c4679b"
+      }
+    ]
+  },
+  "scaledown-compress": {
+    "model": "Compress",
+    "provider": "ScaleDown",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://scaledown.ai/",
+        "captured_at": "2026-10-20T16:20:40Z",
+        "snapshot": "data/evidence/scaledown-compress/2026-10-20.txt",
+        "sha": "4f56c4679b"
+      }
+    ]
+  },
+  "amazon-nova-2-lite": {
+    "model": "Nova 2 Lite",
+    "provider": "Amazon",
+    "history": [
+      {
+        "date": "2026-10-20",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 2.5,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://aws.amazon.com/nova/pricing/",
+        "captured_at": "2026-10-20T16:25:20Z",
+        "snapshot": "data/evidence/amazon-nova-2-lite/2026-10-20.txt",
+        "sha": "2f70dce8b9"
+      }
+    ]
   }
 }

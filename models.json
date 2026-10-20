@@ -841,6 +841,40 @@
     "status_source": "https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html"
   },
   {
+    "id": "amazon-nova-2-lite",
+    "provider": "Amazon",
+    "model": "Nova 2 Lite",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 2.5,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2025-12-02",
+    "released_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Amazon's second-generation Lite model on Bedrock, a separate model from the original Nova Lite: it takes text, images and video, has a 1M-token context window and up to 64K output tokens, and can reason step by step when you switch that on. $0.30 per 1M input tokens and $2.50 per 1M output tokens on the Standard tier through Bedrock's global cross-Region profile.",
+    "price_note": "We publish the Standard tier on Bedrock's global cross-Region inference profile (global.amazon.nova-2-lite-v1:0), as AWS's own Nova pricing page lists it for US East (N. Virginia): $0.30 / 1M input and $2.50 / 1M output tokens. On the same global profile the Priority tier costs $0.525 / $4.375 and the Flex and Batch tiers $0.15 / $1.25. The geo (us.) profile and in-Region calls cost 10% more on every tier, $0.33 / $2.75 on Standard. AWS says cache reads cost 75% less than the input rate; that rate is not published here.",
+    "availability_note": "Sold by AWS on Amazon Bedrock, either in-Region (amazon.nova-2-lite-v1:0), through a geo cross-Region profile (us., eu., apac. and jp. prefixes, which cost more in some geographies) or through the global cross-Region profile priced here. AWS's model card lists it as Active, launched 2025-12-02, with end of life no sooner than 2026-12-02.",
+    "pricing_url": "https://aws.amazon.com/nova/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-20",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-20",
+    "status_source": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html"
+  },
+  {
     "id": "amazon-nova-micro",
     "provider": "Amazon",
     "model": "Nova Micro",
@@ -5354,6 +5388,40 @@
     "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
   },
   {
+    "id": "perplexity-pplx-decider-flash-v1-2",
+    "provider": "Perplexity",
+    "model": "pplx-decider-flash-v1.2",
+    "category": "budget",
+    "input_per_mtok": 0.01,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-15",
+    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "4B",
+    "description": "Perplexity's small decision model, a 4B sibling of pplx-decider-v1.2 that takes the same requests on the same Decisions API. It reads text, JSON or images plus your questions and returns a probability for each answer, not generated text. It is built on Qwen3.5-4B and distilled from Perplexity's 27B decision models, and it trades some accuracy for lower cost and latency. $0.01 per 1M input tokens; output is free and there is no per-request fee.",
+    "price_note": "Perplexity's own pricing page lists pplx-decider-flash-v1.2 at $0.01 per 1M input tokens, output tokens Free, per-request fee None, which is half the $0.02 of pplx-decider-v1.2. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000006. The $0 output here is Perplexity's published rate, not a missing number.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-flash-latest are served by this model and bill at the same $0.01. Input limits are the same as pplx-decider-v1.2's. The weights are on Hugging Face under Apache 2.0.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-19",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
+  },
+  {
     "id": "reka-core",
     "provider": "Reka",
     "model": "Reka Core",
@@ -5726,6 +5794,36 @@
     "status_verified": "2026-08-31",
     "status_source": "https://www.together.ai/pricing",
     "availability_note": "This is Together's price for hosting Meta's model, not a price from Meta. Meta does not sell Muse Glimmer per token at all — its own Model API rate card (ai.developer.meta.com/docs/pricing-rate-limits, read 2026-08-28) prices only muse-spark-1.1/1.2 and muse-spark-1.2-contributor, and ships Glimmer as open weights under Apache 2.0. Fireworks publishes the same $0.35/$1.50 for it. The 131,072-token window is what Together's own serverless-models card lists for meta-models/Muse-Glimmer-30B."
+  },
+  {
+    "id": "together-tev1-4b-experimental",
+    "provider": "Together",
+    "model": "Tev1 4B Experimental",
+    "category": "budget",
+    "input_per_mtok": 0.042,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 32768,
+    "modality": [
+      "text"
+    ],
+    "released": null,
+    "status": "Current",
+    "open_source": false,
+    "parameters": "4B",
+    "description": "Together AI's own decision model, fine-tuned from Qwen3.5 4B. You give it a piece of state, a question and 2 to 24 labeled options, and it answers with exactly one option letter, which your code maps back to a key. Together pitches it at routing tickets, applying policy rules, rating sentiment and sorting documents. $0.042 per 1M input tokens, and output is free.",
+    "price_note": "Together makes this model as well as hosting it, so its price is the maker's price. Together's serverless models list prints $0.042 per 1M input tokens and Free output for together/Tev1-4B-experimental. Its pricing page rounds the same rate to $0.04. Output tokens are free, so the $0 output here is Together's published rate, not a missing number.",
+    "availability_note": "Sold by Together AI on its serverless API as together/Tev1-4B-experimental, with a 32,768-token context. Together labels it experimental. The weights are on Hugging Face as togethercomputer/Tev1-4B-experimental with no license stated, and Together publishes its training recipe.",
+    "pricing_url": "https://docs.together.ai/docs/serverless-models",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-19",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-19",
+    "status_source": "https://docs.together.ai/docs/serverless-models"
   },
   {
     "id": "together-kimi-k2-7-code",
@@ -9259,6 +9357,68 @@
     "source": "verified",
     "promo": false,
     "status_verified": "2026-10-13",
+    "status_source": "https://scaledown.ai/"
+  },
+  {
+    "id": "scaledown-classify",
+    "provider": "ScaleDown",
+    "model": "Classify",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": null,
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "ScaleDown's classification model: it returns calibrated probabilities for the labels you give it rather than generated text, and reads images as well as text. Its Decisions API is a thinner layer on the same model. $0.05 per 1M text input tokens ($0.15 per 1M for image input), and output is free.",
+    "price_note": "ScaleDown's own pricing table lists Classify at $0.05 / 1M tokens for text input, $0.15 / 1M tokens for image input, and Output: Free, the same flat rate as its other three models. ScaleDown charges for input tokens only, so the $0 output here is the maker's published rate. We publish the text input rate. Calls to its Decisions API run on this model.",
+    "availability_note": "Sold by ScaleDown on its own API (sign-up includes 50M free tokens). ScaleDown does not sell Classify through OpenRouter.",
+    "pricing_url": "https://scaledown.ai/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-19",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-19",
+    "status_source": "https://scaledown.ai/"
+  },
+  {
+    "id": "scaledown-compress",
+    "provider": "ScaleDown",
+    "model": "Compress",
+    "category": "budget",
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": null,
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "ScaleDown's prompt compression model: it shortens prompts and chat context before you send them to another model, so the larger model's bill is smaller. Text only. $0.05 per 1M input tokens, and output is free.",
+    "price_note": "ScaleDown's own pricing table lists Compress at $0.05 / 1M tokens for text input and Output: Free, the same flat rate as its other three models. Unlike them it takes no image input. ScaleDown charges for input tokens only, so the $0 output here is the maker's published rate.",
+    "availability_note": "Sold by ScaleDown on its own API (sign-up includes 50M free tokens). ScaleDown does not sell Compress through OpenRouter.",
+    "pricing_url": "https://scaledown.ai/",
+    "tags": [
+      "budget"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-19",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-19",
     "status_source": "https://scaledown.ai/"
   },
   {

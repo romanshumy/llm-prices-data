@@ -414,7 +414,7 @@
     "id": "scaledown",
     "name": "ScaleDown",
     "type": "commercial",
-    "description": "A maker of small task-specific models meant to replace frontier-model calls on narrow jobs: Compress (shortens prompts and context), Summarize, Extract (entity extraction from a plain-English schema) and Classify (calibrated label probabilities, plus a Jev-compatible decisions API). It charges a flat $0.05 per 1M text input tokens across the line and nothing for output. Summarize and Extract, the two it also sells through OpenRouter, are tracked here. ScaleDown states no founding year on its own pages, so none is published here.",
+    "description": "A maker of small task-specific models meant to replace frontier-model calls on narrow jobs: Compress (shortens prompts and context), Summarize, Extract (entity extraction from a plain-English schema) and Classify (calibrated label probabilities, plus a Jev-compatible decisions API). It charges a flat $0.05 per 1M text input tokens across the line and nothing for output. All four are tracked here. ScaleDown states no founding year on its own pages, so none is published here.",
     "url": "https://scaledown.ai/",
     "pricing_url": "https://scaledown.ai/",
     "logo_color": "#147ce4"
