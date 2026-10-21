@@ -162,7 +162,7 @@
     "affiliate_url": "https://www.ibm.com/",
     "logo_color": "#0f62fe",
     "founded": 1911,
-    "description": "IBM's open-weight Granite 4 family for enterprise workloads — Granite 4 H Small down to Granite 4.0 Micro at $0.017/1M input tokens."
+    "description": "IBM's open-weight Granite 4 family for enterprise workloads. IBM sells Granite 4 H Small and the Granite Embedding 278M multilingual model per token on watsonx.ai; its smaller Granite 4.0 H Micro is sold per token by Cloudflare Workers AI, not by IBM."
   },
   {
     "id": "ai21",
@@ -405,7 +405,7 @@
     "id": "cloudflare",
     "name": "Cloudflare",
     "type": "commercial",
-    "description": "The connectivity-cloud company, which runs Workers AI, a serverless inference platform on GPUs across its global network that hosts dozens of open models billed in \"neurons\". Only the models Cloudflare trained itself are tracked here: the Clef family of decision models (Clef, Clef-omni and Clef-flash), launched October 2026, which return a probability for each allowed answer to typed questions rather than generating text, are open-sourced under Apache 2.0, and bill input tokens only with no output charge.",
+    "description": "The connectivity-cloud company, which runs Workers AI, a serverless inference platform on GPUs across its global network that hosts dozens of open models billed in \"neurons\". Tracked here: Cloudflare's own Clef family of decision models (Clef, Clef-omni and Clef-flash), launched October 2026, which return a probability for each allowed answer to typed questions rather than generating text, are open-sourced under Apache 2.0, and bill input tokens only with no output charge. Also tracked: IBM's Granite 4.0 H Micro, which Cloudflare hosts and IBM does not sell per token.",
     "url": "https://www.cloudflare.com/",
     "pricing_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
     "logo_color": "#f38020"

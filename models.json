@@ -3220,8 +3220,8 @@
     "status_source": "https://www.ibm.com/products/watsonx-ai/pricing"
   },
   {
-    "id": "ibm-granite-4-0-h-micro",
-    "provider": "IBM",
+    "id": "cloudflare-granite-4-0-h-micro",
+    "provider": "Cloudflare",
     "model": "Granite 4.0 H Micro",
     "category": "budget",
     "input_per_mtok": 0.017,

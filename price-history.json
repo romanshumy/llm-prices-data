@@ -53267,9 +53267,9 @@
       }
     ]
   },
-  "ibm-granite-4-0-h-micro": {
+  "cloudflare-granite-4-0-h-micro": {
     "model": "Granite 4.0 H Micro",
-    "provider": "IBM",
+    "provider": "Cloudflare",
     "history": [
       {
         "date": "2026-06-25",
@@ -54087,8 +54087,19 @@
         "output_per_mtok": 0.112,
         "cached_input_per_mtok": null,
         "context_window": 128000,
-        "event": "snapshot",
-        "changes": []
+        "event": "correction",
+        "changes": [],
+        "corrected_from": {
+          "provider": "IBM"
+        },
+        "correction_ref": "MOD-1655",
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://developers.cloudflare.com/workers-ai/models/granite-4.0-h-micro/",
+        "captured_at": "2026-10-19T08:50:59Z",
+        "snapshot": "data/evidence/cloudflare-granite-4-0-h-micro/2026-10-19.txt",
+        "sha": "5a268be2a3",
+        "note": "Attribution correction, not a market move: $0.017/$0.112 is real but it is CLOUDFLARE's rate. Our 2026-10-19 receipt of the Workers AI model page for @cf/ibm-granite/granite-4.0-h-micro prints 'Unit Pricing $0.017 per M input tokens, $0.112 per M output tokens'. The row was published under provider IBM, but IBM's watsonx.ai rate card lists granite-4h-micro as \"Not available\" for pay-as-you-go per-token pricing and sells it only as hourly GPU hosting (read 2026-10-18 and 2026-10-19). The row was renamed from ibm-granite-4-0-h-micro and re-attributed to Cloudflare. Price values are unchanged across the span. Confidence is unproven because the page prints the price in a prose Model Info line rather than a table row tied to the SKU. The number itself is on the page."
       },
       {
         "date": "2026-10-20",
