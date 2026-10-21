@@ -9329,6 +9329,39 @@
     "status_source": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
   },
   {
+    "id": "cloudflare-clairic",
+    "provider": "Cloudflare",
+    "model": "Clairic",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 65536,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-19",
+    "released_source": "https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/",
+    "status": "Preview",
+    "open_source": false,
+    "parameters": null,
+    "description": "Cloudflare's extraction model, in preview on Workers AI. You send an input and a schema of typed fields (text, number, date, duration, list, estimate or forecast) and it returns one valid value per field, read from the input, worked out from it or predicted beyond it, or null when the input does not settle it. Each answer carries a confidence score and the probability that it is null; estimates and forecasts add a median and an 80% interval. It does not generate text. Up to four images can go with the input. $0.10 per 1M input tokens with no output charge.",
+    "price_note": "Cloudflare's own Workers AI pricing page lists @cf/cloudflare/clairic at $0.100 per M input tokens (9,091 neurons per M input tokens) and prints no output rate. Cloudflare's launch note says: \"Clairic costs $0.10 per million input tokens. Because it generates no tokens, there is no output token charge.\" So the $0 output here is Cloudflare's own published rate, not a missing number.",
+    "availability_note": "Hosted by Cloudflare on Workers AI as @cf/cloudflare/clairic, launched 2026-10-19 as a preview and billed against the Workers AI neuron allowance (10,000 neurons a day free, then pay-as-you-go). Cloudflare says it intends to release the weights soon; they are not published yet.",
+    "pricing_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-20",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-10-20",
+    "status_source": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+  },
+  {
     "id": "scaledown-summarize",
     "provider": "ScaleDown",
     "model": "Summarize",

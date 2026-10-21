@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-21
+
+- **Clairic** (Cloudflare) launched — $0.1 in / $0.0 out per 1M tokens
+
 ## 2026-10-20
 
 - **Hunyuan Hy3** price change — input $0.147 → $0.132, output $0.588 → $0.528, cached input $0.037 → $0.033 per 1M tokens
