@@ -5704,6 +5704,35 @@
     "status_source": "https://www.together.ai/pricing"
   },
   {
+    "id": "alibaba-glm-5-3-prime",
+    "provider": "Alibaba",
+    "model": "GLM-5.3-Prime",
+    "category": "mid-tier",
+    "input_per_mtok": 2.8,
+    "output_per_mtok": 8.8,
+    "cached_input_per_mtok": null,
+    "context_window": 1000000,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-09-23",
+    "status": "Current",
+    "open_source": true,
+    "parameters": null,
+    "description": "Z.AI's GLM-5.3 sold through Alibaba Model Studio under the glm-5.3-prime model ID. One flat rate of $2.80/$8.80 per 1M tokens for both thinking and non-thinking modes. Alibaba Cloud is the only seller of this SKU.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio's own rate card, read 2026-10-22, International table: 'glm-5.3-prime International Non-Thinking and Thinking modes flat-rate pricing $2.800 $8.800 None'. One flat rate for both modes; the last cell is the free quota (none). The card prints no cache-hit rate for this SKU, so we carry none.",
+    "tags": [
+      "open-weights",
+      "mid-tier"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-22",
+    "released_source": "https://openrouter.ai/z-ai/glm-5.3-prime",
+    "status_verified": "2026-10-22",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "together-glm-5-3",
     "provider": "Together",
     "model": "GLM-5.3",

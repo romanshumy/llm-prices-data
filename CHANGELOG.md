@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-22
+
+- **GLM-5.3-Prime** (Alibaba) launched — $2.8 in / $8.8 out per 1M tokens
+
 ## 2026-10-21
 
 - **Clairic** (Cloudflare) launched — $0.1 in / $0.0 out per 1M tokens

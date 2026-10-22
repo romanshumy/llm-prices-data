@@ -207983,5 +207983,26 @@
         "changes": []
       }
     ]
+  },
+  "alibaba-glm-5-3-prime": {
+    "model": "GLM-5.3-Prime",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-10-22",
+        "input_per_mtok": 2.8,
+        "output_per_mtok": 8.8,
+        "cached_input_per_mtok": null,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-10-22T14:28:09Z",
+        "snapshot": "data/evidence/alibaba-glm-5-3-prime/2026-10-22.txt",
+        "sha": "d87d99fb7d"
+      }
+    ]
   }
 }
