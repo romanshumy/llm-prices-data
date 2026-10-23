@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-23
+
+- **Solar Mini 4** price change — input $0.05 → $0.10, output $0.20 → $0.40, cached input $0.005 → $0.01 per 1M tokens
+
 ## 2026-10-22
 
 - **GLM-5.3-Prime** (Alibaba) launched — $2.8 in / $8.8 out per 1M tokens
