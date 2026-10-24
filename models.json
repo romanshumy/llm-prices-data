@@ -4347,6 +4347,71 @@
     "status_source": "https://platform.kimi.ai/docs/pricing/chat-k3"
   },
   {
+    "id": "moonshot-kimi-k3-1-pro",
+    "provider": "Moonshot",
+    "model": "Kimi K3.1 Pro",
+    "category": "flagship",
+    "input_per_mtok": 2.0,
+    "output_per_mtok": 10.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-23",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Moonshot's flagship multimodal reasoning model, the first of the K3.1 series and a post-trained successor to Kimi K3, with a 1M-token context, built for long-horizon coding and agentic work. API only at launch; Moonshot says the weights will be published by November 4 2026. $2.00/$10.00 per 1M tokens; cached $0.20.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "flagship",
+      "caching",
+      "multimodal",
+      "reasoning"
+    ],
+    "last_updated": "2026-10-23",
+    "released_source": "https://platform.kimi.ai/docs/pricing/chat",
+    "released_verified": "2026-10-23",
+    "status_verified": "2026-10-23",
+    "status_source": "https://platform.kimi.ai/docs/pricing/chat"
+  },
+  {
+    "id": "moonshot-kimi-k3-1-pro-highspeed",
+    "provider": "Moonshot",
+    "model": "Kimi K3.1 Pro HighSpeed",
+    "category": "flagship",
+    "input_per_mtok": 4.0,
+    "output_per_mtok": 20.0,
+    "cached_input_per_mtok": 0.2,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-10-23",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "High-speed Kimi K3.1 Pro: the same model served two to three times faster, per Moonshot. $4.00/$20.00 per 1M tokens; cached $0.20.",
+    "pricing_url": "https://platform.kimi.ai/docs/pricing/chat",
+    "tags": [
+      "flagship",
+      "caching",
+      "multimodal",
+      "reasoning",
+      "fast"
+    ],
+    "last_updated": "2026-10-23",
+    "released_source": "https://platform.kimi.ai/docs/pricing/chat",
+    "released_verified": "2026-10-23",
+    "status_verified": "2026-10-23",
+    "status_source": "https://platform.kimi.ai/docs/pricing/chat"
+  },
+  {
     "id": "deepinfra-nvidia-nemotron-70b-instruct",
     "provider": "DeepInfra",
     "model": "Nemotron 70B Instruct",

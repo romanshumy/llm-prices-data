@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-24
+
+- **Kimi K3.1 Pro** (Moonshot) launched — $2.0 in / $10.0 out per 1M tokens
+- **Kimi K3.1 Pro HighSpeed** (Moonshot) launched — $4.0 in / $20.0 out per 1M tokens
+
 ## 2026-10-23
 
 - **Solar Mini 4** price change — input $0.05 → $0.10, output $0.20 → $0.40, cached input $0.005 → $0.01 per 1M tokens
