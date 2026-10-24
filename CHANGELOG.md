@@ -11,6 +11,9 @@ did not re-price. It is listed here for the record, not as a market move.
 
 - **Kimi K3.1 Pro** (Moonshot) launched — $2.0 in / $10.0 out per 1M tokens
 - **Kimi K3.1 Pro HighSpeed** (Moonshot) launched — $4.0 in / $20.0 out per 1M tokens
+- **Gemini 2.5 Flash** removed/retired
+- **Gemini 2.5 Flash-Lite** removed/retired
+- **Gemini 2.5 Pro** removed/retired
 
 ## 2026-10-23
 

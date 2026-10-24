@@ -40220,8 +40220,11 @@
         "output_per_mtok": 2.5,
         "cached_input_per_mtok": null,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1700",
+        "note": "Re-read 2026-10-24 https://ai.google.dev/gemini-api/docs/deprecations (HTTP 200, 'Last updated 2026-10-22 UTC'): the row's shutdown date now reads 'No shutdown date announced' and the section note reads 'To ensure reliable performance for everyone, we are limiting access to the 2.5 models to users who have actively used them in the past. These models are not deprecated and will continue to be served until further notice through the API. For any new projects, use our latest models: 3.5 Flash-Lite or 3.8 Flash.' Owner ruling 2026-10-05 on MOD-1288 (`_access_rule` in data/discovery/seen.json): a model an ordinary new API account cannot pay for is not published. NOT a retirement (Google still serves it to past users), so the row is removed, /models/google-gemini-2-5-flash/ 301s to google-gemini-3-8-flash, and the lead is re-filed as defer/priced-held in seen.json. Also withdraws the 2026-10-16 shutdown date we printed. MOD-1700.",
+        "public_note": "Removed because Google now limits Gemini 2.5 Flash to accounts that actively used it before, so a new API account cannot pay the price we showed. The model has not been retired, and the October 16 shutdown date we listed has been withdrawn by Google. Google recommends Gemini 3.8 Flash for new projects, at $0.75 input and $3.75 output per 1M tokens."
       }
     ]
   },
@@ -41087,8 +41090,11 @@
         "output_per_mtok": 0.4,
         "cached_input_per_mtok": null,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1700",
+        "note": "Re-read 2026-10-24 https://ai.google.dev/gemini-api/docs/deprecations (HTTP 200, 'Last updated 2026-10-22 UTC'): the row's shutdown date now reads 'No shutdown date announced' and the section note reads 'To ensure reliable performance for everyone, we are limiting access to the 2.5 models to users who have actively used them in the past. These models are not deprecated and will continue to be served until further notice through the API. For any new projects, use our latest models: 3.5 Flash-Lite or 3.8 Flash.' Owner ruling 2026-10-05 on MOD-1288 (`_access_rule` in data/discovery/seen.json): a model an ordinary new API account cannot pay for is not published. NOT a retirement (Google still serves it to past users), so the row is removed, /models/google-gemini-2-5-flash-lite/ 301s to google-gemini-3-5-flash-lite, and the lead is re-filed as defer/priced-held in seen.json. Also withdraws the 2026-10-16 shutdown date we printed. MOD-1700.",
+        "public_note": "Removed because Google now limits Gemini 2.5 Flash-Lite to accounts that actively used it before, so a new API account cannot pay the price we showed. The model has not been retired, and the October 16 shutdown date we listed has been withdrawn by Google. Google recommends Gemini 3.5 Flash-Lite for new projects, at $0.30 input and $2.50 output per 1M tokens."
       }
     ]
   },
@@ -41954,8 +41960,11 @@
         "output_per_mtok": 10.0,
         "cached_input_per_mtok": null,
         "context_window": 2000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "removed",
+        "changes": [],
+        "correction_ref": "MOD-1700",
+        "note": "Re-read 2026-10-24 https://ai.google.dev/gemini-api/docs/deprecations (HTTP 200, 'Last updated 2026-10-22 UTC'): the row's shutdown date now reads 'No shutdown date announced' and the section note reads 'To ensure reliable performance for everyone, we are limiting access to the 2.5 models to users who have actively used them in the past. These models are not deprecated and will continue to be served until further notice through the API. For any new projects, use our latest models: 3.5 Flash-Lite or 3.8 Flash.' Owner ruling 2026-10-05 on MOD-1288 (`_access_rule` in data/discovery/seen.json): a model an ordinary new API account cannot pay for is not published. NOT a retirement (Google still serves it to past users), so the row is removed, /models/google-gemini-2-5-pro/ 301s to google-gemini-3-1-pro, and the lead is re-filed as defer/priced-held in seen.json. Also withdraws the 2026-10-16 shutdown date we printed. MOD-1700.",
+        "public_note": "Removed because Google now limits Gemini 2.5 Pro to accounts that actively used it before, so a new API account cannot pay the price we showed. The model has not been retired, and the October 16 shutdown date we listed has been withdrawn by Google. Gemini 3.1 Pro is Google's generally available Pro model, at $2 input and $12 output per 1M tokens."
       }
     ]
   },
