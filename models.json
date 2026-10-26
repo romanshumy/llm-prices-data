@@ -3511,7 +3511,7 @@
     "superseded_by": "minimax-m2-7",
     "status_verified": "2026-10-19",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax still sells MiniMax-M2.1: its Pay-as-You-Go pricing page lists it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. It is no longer among MiniMax's current text models (MiniMax-M3 and MiniMax-M2.7), and MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-18 and 2026-10-19."
+    "availability_note": "MiniMax still sells MiniMax-M2.1 but no longer prices it on its Pay-as-You-Go page. Until October 2026 that page listed it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. MiniMax's API still accepts the model, and its own endpoint on OpenRouter still charges that price. MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-26."
   },
   {
     "id": "minimax-m2-5",
@@ -3540,7 +3540,7 @@
     "superseded_by": "minimax-m2-7",
     "status_verified": "2026-10-19",
     "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
-    "availability_note": "MiniMax still sells MiniMax-M2.5: its Pay-as-You-Go pricing page lists it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. It is no longer among MiniMax's current text models (MiniMax-M3 and MiniMax-M2.7), and MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-18 and 2026-10-19."
+    "availability_note": "MiniMax still sells MiniMax-M2.5 but no longer prices it on its Pay-as-You-Go page. Until October 2026 that page listed it under \"Legacy Models\" at $0.3 input / $1.2 output / $0.03 cache read per 1M tokens, the price shown. MiniMax's API still accepts the model, and its own endpoint on OpenRouter still charges that price. MiniMax has published no shutdown date. From 2026-07-28 to 2026-10-19 this row was marked Retired, which wrongly said MiniMax had stopped selling it. Read 2026-10-26."
   },
   {
     "id": "minimax-m2-7",
@@ -3555,7 +3555,7 @@
       "text"
     ],
     "released": "2025-10-01",
-    "status": "Current",
+    "status": "Deprecated",
     "open_source": true,
     "parameters": null,
     "description": "MiniMax-M2.7 model. $0.30/$1.20 per 1M; cached $0.06. 205K context.",
@@ -3567,7 +3567,9 @@
     ],
     "last_updated": "2026-08-22",
     "status_verified": "2026-10-19",
-    "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+    "status_source": "https://platform.minimax.io/docs/guides/pricing-paygo",
+    "superseded_by": "minimax-m3",
+    "availability_note": "MiniMax no longer lists MiniMax-M2.7 on its Pay-as-You-Go pricing page or among its current models, which are now MiniMax-M3 and MiniMax-M3.1-Flash. Its API still accepts the model, and MiniMax's own endpoint on OpenRouter still charges $0.3 input / $1.2 output per 1M tokens, the price shown. MiniMax has published no shutdown date. Read 2026-10-26."
   },
   {
     "id": "minimax-m3",
@@ -3802,10 +3804,10 @@
     "provider": "Mistral",
     "model": "Mistral Large 4",
     "category": "mid-tier",
-    "input_per_mtok": 0.68,
-    "output_per_mtok": 2.09,
-    "cached_input_per_mtok": 0.07,
-    "price_note": "This is the rate on Mistral's API price list today: $0.68 input / $0.07 cached input / $2.09 output per 1M tokens, and the only figure that list prints. Mistral's own Large 4 model page shows a higher $1.36 / $0.14 / $4.18 struck through beside it, and the launch post quotes $1.36 input / $4.18 output, but Mistral gives no reason for the strikethrough and no end date for the lower rate. We publish what the price list charges; if Mistral moves the model to the higher figure, it shows up here as a price increase.",
+    "input_per_mtok": 1.36,
+    "output_per_mtok": 4.18,
+    "cached_input_per_mtok": 0.14,
+    "price_note": "Mistral's API price list now charges $1.36 input / $0.14 cached input / $4.18 output per 1M tokens, the rate in the launch post. From launch the list showed a $0.68 / $0.07 / $2.09 sale price beside it; that sale had ended by 26 October 2026.",
     "context_window": 1000000,
     "modality": [
       "text",
@@ -3816,7 +3818,7 @@
     "status": "Preview",
     "open_source": false,
     "parameters": "1.05T",
-    "description": "Mistral's new flagship, launched 2026-10-06 as a public preview open to anyone on Mistral Studio — a 1.05T-parameter MoE (49B active) with image input and a 1M-token context, unifying instruction, reasoning and agentic use in one model. Mistral says the weights will be released by the end of October 2026; until then it is API-only. $0.68/$2.09 per 1M tokens.",
+    "description": "Mistral's new flagship, launched 2026-10-06 as a public preview open to anyone on Mistral Studio — a 1.05T-parameter MoE (49B active) with image input and a 1M-token context, unifying instruction, reasoning and agentic use in one model. Mistral says the weights will be released by the end of October 2026; until then it is API-only. $1.36/$4.18 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier",
@@ -3824,7 +3826,7 @@
       "preview"
     ],
     "featured": false,
-    "last_updated": "2026-10-06",
+    "last_updated": "2026-10-26",
     "source": "verified",
     "status_verified": "2026-10-26",
     "status_source": "https://mistral.ai/pricing/api/"

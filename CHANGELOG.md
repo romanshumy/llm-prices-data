@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-26
+
+- **Mistral Large 4** price change — input $0.68 → $1.36, output $2.09 → $4.18, cached input $0.07 → $0.14 per 1M tokens
+
 ## 2026-10-24
 
 - **Kimi K3.1 Pro** (Moonshot) launched — $2.0 in / $10.0 out per 1M tokens

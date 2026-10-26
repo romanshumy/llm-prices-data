@@ -208994,7 +208994,7 @@
         "event": "new_model",
         "changes": [],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://mistral.ai/pricing/api/",
         "captured_at": "2026-10-06T14:14:37Z",
         "snapshot": "data/evidence/mistral-large-4/2026-10-06.txt",
@@ -209173,12 +209173,40 @@
       },
       {
         "date": "2026-10-26",
-        "input_per_mtok": 0.68,
-        "output_per_mtok": 2.09,
-        "cached_input_per_mtok": 0.07,
+        "input_per_mtok": 1.36,
+        "output_per_mtok": 4.18,
+        "cached_input_per_mtok": 0.14,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.68,
+            "new": 1.36,
+            "direction": "up",
+            "change_pct": 100.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 2.09,
+            "new": 4.18,
+            "direction": "up",
+            "change_pct": 100.0
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.07,
+            "new": 0.14,
+            "direction": "up",
+            "change_pct": 100.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://mistral.ai/pricing/api/",
+        "captured_at": "2026-10-26T09:09:51Z",
+        "snapshot": "data/evidence/mistral-large-4/2026-10-26.txt",
+        "sha": "e04eb8c2f5"
       }
     ]
   },

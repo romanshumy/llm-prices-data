@@ -11459,7 +11459,7 @@ mistral-large-4,Mistral Large 4,Mistral,2026-10-22,snapshot,,0.68,2.09,0.07
 mistral-large-4,Mistral Large 4,Mistral,2026-10-23,snapshot,,0.68,2.09,0.07
 mistral-large-4,Mistral Large 4,Mistral,2026-10-24,snapshot,,0.68,2.09,0.07
 mistral-large-4,Mistral Large 4,Mistral,2026-10-25,snapshot,,0.68,2.09,0.07
-mistral-large-4,Mistral Large 4,Mistral,2026-10-26,snapshot,,0.68,2.09,0.07
+mistral-large-4,Mistral Large 4,Mistral,2026-10-26,price_increase,verified,1.36,4.18,0.14
 mistral-magistral-medium,Magistral Medium,Mistral,2025-06-16,backfill,litellm-archive,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-25,baseline,,2.0,5.0,
 mistral-magistral-medium,Magistral Medium,Mistral,2026-06-29,snapshot,,2.0,5.0,
