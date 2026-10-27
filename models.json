@@ -4577,7 +4577,7 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost — the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20).",
+    "description": "Balanced GPT-5.6 tier trading a step of intelligence for lower cost — the mid capability tier in the Sol/Terra/Luna scheme. 1.05M context, 128K max output, text + image input. $2/$12 per 1M tokens (cached input $0.20). Succeeded on 2026-10-26 by GPT-6.1 Terra at $1/$5; GPT-5.6 Terra is still on OpenAI's rate card and not on its deprecations list.",
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
