@@ -4723,6 +4723,39 @@
     "status_source": "https://developers.openai.com/api/docs/pricing"
   },
   {
+    "id": "openai-gpt-6-1-terra",
+    "provider": "OpenAI",
+    "model": "GPT-6.1 Terra",
+    "category": "flagship",
+    "input_per_mtok": 1.0,
+    "output_per_mtok": 5.0,
+    "cached_input_per_mtok": 0.05,
+    "context_window": 1050000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-26",
+    "released_source": "https://developers.openai.com/api/docs/changelog",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "OpenAI's GPT-6.1 Terra, released 2026-10-26 as a fast, efficient model for visual reasoning, precise computer use, and clear, natural writing. It sits between GPT-6.1 Sol and GPT-6 Luna at $1/$5 per 1M tokens (cached input $0.05), half of GPT-6.1 Sol. 1.05M context window, 128K max output, June 2026 knowledge cutoff, text + image input, text output, served over the Responses and Chat Completions APIs; tool calling requires the Responses API.",
+    "pricing_url": "https://developers.openai.com/api/docs/pricing",
+    "price_note": "OpenAI's rate card prices this model by context length: the tracked figure is the short-context tier (prompts up to 272K input tokens), and longer prompts bill at 2x input and cache rates and 1.5x output for the full request ($2 input / $0.10 cached input / $2.50 cache write / $7.50 output per 1M). Short-context cache writes bill at $1.25 per 1M for 30-minute retention and $2.50 for 12-hour retention. Batch and Flex are half the Standard rate ($0.50 / $0.025 / $0.625 / $2.50); the Fast tier is double ($2 / $0.10 / $2.50 / $10). Regional (data-residency) endpoints carry a 10% uplift.",
+    "tags": [
+      "reasoning",
+      "multimodal",
+      "flagship",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-10-26",
+    "source": "verified",
+    "status_verified": "2026-10-26",
+    "status_source": "https://developers.openai.com/api/docs/pricing"
+  },
+  {
     "id": "openai-gpt-6-luna",
     "provider": "OpenAI",
     "model": "GPT-6 Luna",
