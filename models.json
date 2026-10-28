@@ -8371,9 +8371,29 @@
     "source": "verified",
     "status_verified": "2026-10-19",
     "status_source": "https://www.upstage.ai/pricing/api",
-    "shutdown_date": "2026-10-30",
+    "shutdown_date": "2026-10-29",
     "superseded_by": "upstage-solar-pro-4",
-    "availability_note": "Upstage's pricing page marks Solar Pro 3 \"End of service on 2026-10-30 (KST)\", which is 2026-10-29 15:00 UTC; Solar Pro 2 and Solar Mini carry the same notice. It is still sold at the price shown until then. Upstage's current flagship is Solar Pro 4 (upstage-solar-pro-4). Read 2026-10-18 and 2026-10-19."
+    "availability_note": "Upstage's pricing page marks Solar Pro 3 \"End of service on 2026-10-30 (KST)\", which is 2026-10-29 15:00 UTC; Solar Pro 2 and Solar Mini carry the same notice. It is still sold at the price shown until then. Upstage's current flagship is Solar Pro 4 (upstage-solar-pro-4). Read 2026-10-18, 2026-10-19 and 2026-10-28.",
+    "scheduled_price_change": {
+      "effective_at": "2026-10-29T15:00:00Z",
+      "announced_on": "2026-10-18",
+      "source_url": "https://www.upstage.ai/pricing/api",
+      "reason": "Upstage end of service for Solar Pro 3 on 2026-10-30 (KST) = 2026-10-29 15:00 UTC",
+      "decided_in": "MOD-1732",
+      "set": {
+        "status": "Retired",
+        "retired_on": "2026-10-29",
+        "tags": [
+          "mid-tier",
+          "reasoning",
+          "caching",
+          "moe",
+          "retired"
+        ],
+        "description": "Retired: Upstage ended service for Solar Pro 3 on 2026-10-30 (KST), 2026-10-29 15:00 UTC; requests to it now fail. A 102B-parameter mixture-of-experts model activating 12B parameters per token, last priced at $0.15/$0.60 per 1M tokens. Use Solar Pro 4 instead.",
+        "availability_note": "Retired by Upstage on 2026-10-30 (KST), which is 2026-10-29 15:00 UTC, per its pricing page's end-of-service notice. Upstage's current flagship is Solar Pro 4 (upstage-solar-pro-4)."
+      }
+    }
   },
   {
     "id": "upstage-solar-pro-4",
