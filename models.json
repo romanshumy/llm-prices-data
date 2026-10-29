@@ -9587,5 +9587,40 @@
     "promo": false,
     "status_verified": "2026-10-26",
     "status_source": "https://moondream.ai/pricing"
+  },
+  {
+    "id": "particle-1",
+    "provider": "Particle AI",
+    "model": "Particle-1",
+    "category": "budget",
+    "input_per_mtok": 0.25,
+    "output_per_mtok": 1.0,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-10-28",
+    "released_source": "https://particle.ai/blog/introducing-particle-1",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Particle AI's first model, an agentic coding model post-trained from DeepSeek V4.1 Flash with reinforcement learning to finish tasks in fewer tokens. Particle reports 28-52% fewer output tokens and 34-52% lower cost per task than DeepSeek V4.1 Flash on Terminal-Bench 2.1, ReactBench, ADE Bench and DeepSWE 1.1, at pass rates within the base model's confidence intervals. It takes text and images, has a 1,048,576-token context window and up to 131,072 output tokens, with reasoning effort levels and tool calling. $0.25 input / $1.00 output per 1M tokens at peak.",
+    "price_note": "These are Particle AI's peak (standard) prices per 1M tokens: $0.25 input / $0.03 cached input / $1.00 output. Particle charges 50% of these from 20:30 to 04:00 America/New_York, and requests on its Flex service tier get a further 50% off.",
+    "pricing_url": "https://docs.particle.ai/usage-billing",
+    "tags": [
+      "budget",
+      "coding",
+      "agentic",
+      "reasoning",
+      "multimodal",
+      "caching",
+      "long-context"
+    ],
+    "last_updated": "2026-10-29",
+    "source": "verified",
+    "status_verified": "2026-10-29",
+    "status_source": "https://docs.particle.ai/usage-billing"
   }
 ]

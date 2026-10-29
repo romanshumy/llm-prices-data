@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-10-29
+
+- **Particle-1** (Particle AI) launched — $0.25 in / $1.0 out per 1M tokens
+
 ## 2026-10-27
 
 - **GPT-6.1 Terra** (OpenAI) launched — $1.0 in / $5.0 out per 1M tokens

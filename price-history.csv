@@ -16840,6 +16840,7 @@ openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-26,snapshot,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-27,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-28,snapshot,,0.02,,
 openai-text-embedding-3-small,text-embedding-3-small,OpenAI,2026-10-29,snapshot,,0.02,,
+particle-1,Particle-1,Particle AI,2026-10-29,new_model,verified,0.25,1.0,0.03
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-05,new_model,verified,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-06,snapshot,,0.25,2.5,0.0625
 perplexity-agent-sonar,Sonar (Agent API),Perplexity,2026-10-07,snapshot,,0.25,2.5,0.0625

@@ -427,5 +427,14 @@
     "url": "https://moondream.ai/",
     "pricing_url": "https://moondream.ai/pricing",
     "logo_color": "#6c5ce7"
+  },
+  {
+    "id": "particle-ai",
+    "name": "Particle AI",
+    "type": "commercial",
+    "description": "US company training models to solve tasks in fewer tokens, so the same work costs less. Its first model, Particle-1 (launched 2026-10-28), is an agentic coding model post-trained from DeepSeek V4.1 Flash with reinforcement learning. Particle sells it per token on its own OpenAI-compatible API, with half-price off-peak hours and a Flex tier at a further 50% off, and the same API also serves DeepSeek V4.1 Flash and GLM 5.3 Flash. Particle states no founding year on its own pages, so none is published here.",
+    "url": "https://particle.ai/",
+    "pricing_url": "https://docs.particle.ai/usage-billing",
+    "logo_color": "#5b5bd6"
   }
 ]
