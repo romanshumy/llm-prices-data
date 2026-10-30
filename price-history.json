@@ -212532,7 +212532,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://mistral.ai/pricing/api/",
         "captured_at": "2026-10-26T09:09:51Z",
         "snapshot": "data/evidence/mistral-large-4/2026-10-26.txt",
