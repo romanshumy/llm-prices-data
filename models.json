@@ -3781,23 +3781,27 @@
     "input_per_mtok": 0.5,
     "output_per_mtok": 1.5,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 262144,
     "modality": [
       "text"
     ],
-    "released": "2025-11-01",
-    "status": "Current",
-    "open_source": false,
+    "released": "2025-12-02",
+    "released_source": "https://docs.mistral.ai/models/mistral-large-3-25-12",
+    "status": "Deprecated",
+    "open_source": true,
     "parameters": null,
-    "description": "Mistral's largest open-weight model — a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. $0.50/$1.50 per 1M tokens.",
+    "description": "Mistral's previous large open-weight model, a 675B-parameter MoE (41B active) under Apache 2.0, strong on knowledge and math (93.6% MATH-500), though not a dedicated reasoning model. Deprecated in favour of Mistral Large 4. $0.50/$1.50 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier"
     ],
-    "featured": true,
+    "featured": false,
     "last_updated": "2026-06-25",
-    "status_verified": "2026-10-26",
-    "status_source": "https://mistral.ai/pricing/api/"
+    "status_verified": "2026-11-02",
+    "status_source": "https://docs.mistral.ai/models/overview",
+    "shutdown_date": "2027-04-30",
+    "superseded_by": "mistral-large-4",
+    "availability_note": "Mistral deprecated Mistral Large 3 (mistral-large-2512) on 2026-10-31 and will retire it on 2027-04-30, naming Mistral Large 4 as the replacement. It is no longer on Mistral's API price list, but the API still serves it, and Mistral's own endpoint on OpenRouter still charges $0.5 input / $1.5 output per 1M tokens, the price shown. Read 2026-11-02."
   },
   {
     "id": "mistral-large-4",
@@ -3868,22 +3872,26 @@
     "input_per_mtok": 1.5,
     "output_per_mtok": 7.5,
     "cached_input_per_mtok": null,
-    "context_window": 128000,
+    "context_window": 262144,
     "modality": [
       "text"
     ],
-    "released": "2025-09-01",
-    "status": "Current",
-    "open_source": false,
+    "released": "2026-04-28",
+    "released_source": "https://docs.mistral.ai/models/mistral-medium-3-5-26-04",
+    "status": "Deprecated",
+    "open_source": true,
     "parameters": null,
-    "description": "Mistral's agentic mid-tier — ~77.6% SWE-bench Verified with strong tool use, now Mistral's recommended coding model. $1.50/$7.50 per 1M tokens.",
+    "description": "Mistral's agentic mid-tier, ~77.6% SWE-bench Verified with strong tool use, released as open weights under a Modified MIT licence. Deprecated in favour of Mistral Large 4. $1.50/$7.50 per 1M tokens.",
     "pricing_url": "https://mistral.ai/pricing/api/",
     "tags": [
       "mid-tier"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-10-26",
-    "status_source": "https://mistral.ai/pricing/api/"
+    "status_verified": "2026-11-02",
+    "status_source": "https://docs.mistral.ai/models/overview",
+    "shutdown_date": "2027-04-30",
+    "superseded_by": "mistral-large-4",
+    "availability_note": "Mistral deprecated Mistral Medium 3.5 (mistral-medium-3-5) on 2026-10-31 and will retire it on 2027-04-30, naming Mistral Large 4 as the replacement. It is no longer on Mistral's API price list, but the API still serves it, and Mistral's own endpoint on OpenRouter still charges $1.5 input / $7.5 output per 1M tokens, the price shown. Read 2026-11-02."
   },
   {
     "id": "mistral-small-3-2",
