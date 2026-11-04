@@ -222539,5 +222539,26 @@
         "sha": "1b06a96360"
       }
     ]
+  },
+  "meituan-longcat-2-5": {
+    "model": "LongCat-2.5",
+    "provider": "Meituan",
+    "history": [
+      {
+        "date": "2026-11-04",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.2,
+        "cached_input_per_mtok": 0.006,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://longcat.ai/platform/docs/pricing/longcat-2.5",
+        "captured_at": "2026-11-04T14:30:32Z",
+        "snapshot": "data/evidence/meituan-longcat-2-5/2026-11-04.txt",
+        "sha": "d88cb9e345"
+      }
+    ]
   }
 }

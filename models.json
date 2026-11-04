@@ -7363,10 +7363,10 @@
     ],
     "released": "2026-06-30",
     "released_source": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips",
-    "status": "Current",
+    "status": "Retired",
     "open_source": true,
     "parameters": null,
-    "description": "Meituan LongCat-2.0 — open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model. List price $0.75 in / $2.95 out per 1M tokens (limited-time intro promo $0.30 / $1.20) on Meituan's international edition (longcat.ai); the China edition (longcat.chat) lists an independently priced CNY twin (¥5 in / ¥20 out, promo ¥2 / ¥8) — the USD is the vendor's own list, not an FX conversion. Released HF config caps context at 262,144 tokens (256K); Meituan markets \"native 1M\" via LongCat Sparse Attention, unverified in the released config.",
+    "description": "Retired by Meituan on 2026-11-02, when LongCat-2.5 replaced it as the only model on the LongCat API Platform's pay-as-you-go plan. LongCat-2.0 is an open-weight (MIT) 1.6T-parameter MoE (~48B active per token) agentic coding model; the weights stay downloadable from Hugging Face (meituan-longcat/LongCat-2.0). Last listed at $0.75 in / $2.95 out per 1M tokens (limited-time promo $0.30 / $1.20) on longcat.ai; what you can buy from Meituan today is on the LongCat-2.5 page.",
     "pricing_url": "https://longcat.ai/platform/docs/Pricing/LongCat-2.0.html",
     "promo": true,
     "promo_price": {
@@ -7374,17 +7374,54 @@
       "output_per_mtok": 1.2,
       "cached_input_per_mtok": 0.006
     },
-    "price_note": "Limited-time intro promo: $0.30 in / $1.20 out per 1M (list price tracked). USD is first-party on longcat.ai (international edition); longcat.chat (China edition) prices independently in CNY (¥5/¥20 list, ¥2/¥8 promo) — not an FX conversion.",
+    "price_note": "ARCHIVED first-party rate: what LongCat-2.0 last cost on Meituan's own API, from its orphaned longcat.ai pricing page. List $0.75 in / $0.015 cached / $2.95 out per 1M; limited-time promo $0.30 / $0.006 / $1.20. Meituan no longer sells this model pay-as-you-go. USD is first-party on longcat.ai (international edition); longcat.chat (China edition) priced it independently in CNY (¥5/¥20 list, ¥2/¥8 promo), not an FX conversion.",
     "tags": [
       "coding",
       "open-source",
-      "moe"
+      "moe",
+      "retired"
     ],
     "featured": false,
-    "last_updated": "2026-08-13",
+    "last_updated": "2026-11-02",
     "source": "verified",
-    "status_verified": "2026-11-02",
-    "status_source": "https://longcat.ai/platform/docs/Pricing/LongCat-2.0.html"
+    "status_verified": "2026-11-04",
+    "status_source": "https://longcat.ai/platform/docs/api-pay-as-you-go",
+    "availability_note": "Retired 2026-11-02: superseded by LongCat-2.5 (meituan-longcat-2-5). Meituan's change log dates LongCat-2.5 to 2026-11-02; since then the pay-as-you-go page says 'Pay-As-You-Go currently supports LongCat-2.5', the quick-start Supported Models table and the documented GET /v1/models response list LongCat-2.5 only, and the docs no longer link the LongCat-2.0 pricing page (it still loads). On OpenRouter, meituan/longcat-2.0 is now served only by the AtlasCloud rehost; Meituan's own endpoint is gone.",
+    "retired_on": "2026-11-02",
+    "superseded_by": "meituan-longcat-2-5"
+  },
+  {
+    "id": "meituan-longcat-2-5",
+    "provider": "Meituan",
+    "model": "LongCat-2.5",
+    "category": "coding",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.006,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-02",
+    "released_source": "https://longcat.ai/platform/docs/change-log",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Meituan LongCat-2.5, generally available on the LongCat API Platform since 2026-11-02 and the only model on its pay-as-you-go plan. It succeeds LongCat-2.0 and adds native multimodality: visual understanding combined with agentic coding for visual coding, design and 3D tasks, long-horizon multi-step agents, and a Responses API alongside the OpenAI- and Anthropic-compatible endpoints. 1M-token context window with up to 256K output tokens. A LongCat-2.5-Preview opened on 2026-09-25. Unlike LongCat-2.0, no LongCat-2.5 weights are on Meituan's Hugging Face page.",
+    "pricing_url": "https://longcat.ai/platform/docs/pricing/longcat-2.5",
+    "promo": true,
+    "price_note": "Limited-time discounted price, and the only price Meituan prints: $0.30 uncached input / $0.006 cached input / $1.20 output per 1M tokens. The rate card has a single 'Discounted Price (limited-time)' column and no list price, so no list price is shown here; expect a change when the discount ends. USD is first-party on longcat.ai (international edition); the China edition prices it in CNY (¥2 / ¥0.04 / ¥8), not an FX conversion. Self-serve sign-up and prepaid top-up, no approval step.",
+    "tags": [
+      "coding",
+      "multimodal",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-04",
+    "source": "verified",
+    "status_verified": "2026-11-04",
+    "status_source": "https://longcat.ai/platform/docs/api-pay-as-you-go"
   },
   {
     "id": "openai-gpt-5-2",

@@ -10504,6 +10504,7 @@ meituan-longcat-2,LongCat-2.0,Meituan,2026-11-01,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-11-02,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-11-03,snapshot,,0.75,2.95,0.015
 meituan-longcat-2,LongCat-2.0,Meituan,2026-11-04,snapshot,,0.75,2.95,0.015
+meituan-longcat-2-5,LongCat-2.5,Meituan,2026-11-04,new_model,verified,0.3,1.2,0.006
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-06-25,baseline,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-06-29,snapshot,,0.05,0.08,
 meta-llama-3-1-8b,Llama 3.1 8B,Meta,2026-08-06,snapshot,,0.05,0.08,

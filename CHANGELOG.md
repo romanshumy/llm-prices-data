@@ -9,6 +9,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-11-04
 
+- **LongCat-2.5** (Meituan) launched — $0.3 in / $1.2 out per 1M tokens
 - **Hy4** (Tencent) launched — $0.417 in / $1.2505 out per 1M tokens
 
 ## 2026-10-30
