@@ -18894,6 +18894,7 @@ tencent-hy-mt2-30b-a3b,Hy-MT2 30B-A3B,Tencent,2026-11-01,snapshot,,0.074,0.295,
 tencent-hy-mt2-30b-a3b,Hy-MT2 30B-A3B,Tencent,2026-11-02,snapshot,,0.074,0.295,
 tencent-hy-mt2-30b-a3b,Hy-MT2 30B-A3B,Tencent,2026-11-03,snapshot,,0.074,0.295,
 tencent-hy-mt2-30b-a3b,Hy-MT2 30B-A3B,Tencent,2026-11-04,snapshot,,0.074,0.295,
+tencent-hy4,Hy4,Tencent,2026-11-04,new_model,verified,0.417,1.2505,0.021
 tencent-hy4-preview,Hy4 preview,Tencent,2026-08-28,new_model,verified,0.834,2.501,
 tencent-hy4-preview,Hy4 preview,Tencent,2026-08-29,snapshot,,0.834,2.501,0.042
 tencent-hy4-preview,Hy4 preview,Tencent,2026-08-30,snapshot,,0.834,2.501,0.042

@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-04
+
+- **Hy4** (Tencent) launched — $0.417 in / $1.2505 out per 1M tokens
+
 ## 2026-10-30
 
 - **Mistral Large 4** price change — input $1.36 → $0.70, output $4.18 → $2.10, cached input $0.14 → $0.07 per 1M tokens

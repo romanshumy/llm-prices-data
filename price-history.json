@@ -222518,5 +222518,26 @@
         "changes": []
       }
     ]
+  },
+  "tencent-hy4": {
+    "model": "Hy4",
+    "provider": "Tencent",
+    "history": [
+      {
+        "date": "2026-11-04",
+        "input_per_mtok": 0.417,
+        "output_per_mtok": 1.2505,
+        "cached_input_per_mtok": 0.021,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://cloud.tencent.com/document/product/1823/130055",
+        "captured_at": "2026-11-04T11:10:48Z",
+        "snapshot": "data/evidence/tencent-hy4/2026-11-04.txt",
+        "sha": "1b06a96360"
+      }
+    ]
   }
 }
