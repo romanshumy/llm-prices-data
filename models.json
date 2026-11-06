@@ -8425,7 +8425,21 @@
     "last_updated": "2026-08-11",
     "source": "verified",
     "status_verified": "2026-08-11",
-    "status_source": "https://console.sakana.ai/pricing"
+    "status_source": "https://console.sakana.ai/pricing",
+    "scheduled_price_change": {
+      "effective_at": "2026-12-01T01:00:00Z",
+      "announced_on": "2026-11-06",
+      "source_url": "https://console.sakana.ai/pricing",
+      "reason": "Sakana's console pricing page prints sakana-namazu-v1.0 at $0.95/$4.00/$0.15 'Current' and $1.90/$6.00/$0.30 'From Dec 1, 2026, 10:00 JST'",
+      "decided_in": "MOD-1789",
+      "set": {
+        "input_per_mtok": 1.9,
+        "output_per_mtok": 6.0,
+        "cached_input_per_mtok": 0.3,
+        "description": "Sakana AI's Japanese-specialised LLM API — built on Moonshot AI's open Kimi K2.6 and adapted with Sakana's in-house data for Japanese language and Japanese business context, with built-in web search and code execution and an OpenAI-compatible endpoint. $1.90/$6.00 per 1M tokens with cached input at $0.30 since December 1 2026.",
+        "price_note": "Sakana AI pay-as-you-go list price, per 1M tokens, read on the vendor's own console pricing page (input $1.90, cached input $0.30, output $6.00), the rates Sakana printed for sakana-namazu-v1.0 'From Dec 1, 2026, 10:00 JST'. Before that date the same page priced it at $0.95 input, $0.15 cached input and $4.00 output. The published Namazu rate is FLAT — Sakana lists no context tier for it. Thinking tokens are billed at the output rate. The built-in tools are billed outside the token rate ($7.00 per 1,000 web-search calls, $0.12 per hour of code execution) and are therefore not part of the tracked per-token price."
+      }
+    }
   },
   {
     "id": "upstage-solar-pro-3",
