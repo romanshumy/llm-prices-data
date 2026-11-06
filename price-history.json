@@ -224702,5 +224702,26 @@
         "changes": []
       }
     ]
+  },
+  "thinking-machines-inkling-2-small": {
+    "model": "Inkling 2 Small",
+    "provider": "Thinking Machines",
+    "history": [
+      {
+        "date": "2026-11-06",
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 1.0,
+        "cached_input_per_mtok": 0.03,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+        "captured_at": "2026-11-06T14:29:37Z",
+        "snapshot": "data/evidence/thinking-machines-inkling-2-small/2026-11-06.txt",
+        "sha": "9daf160046"
+      }
+    ]
   }
 }

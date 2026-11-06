@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-06
+
+- **Inkling 2 Small** (Thinking Machines) launched — $0.3 in / $1.0 out per 1M tokens
+
 ## 2026-11-04
 
 - **LongCat-2.5** (Meituan) launched — $0.3 in / $1.2 out per 1M tokens

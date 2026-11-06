@@ -8164,6 +8164,38 @@
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
+    "id": "thinking-machines-inkling-2-small",
+    "provider": "Thinking Machines",
+    "model": "Inkling 2 Small",
+    "category": "budget",
+    "input_per_mtok": 0.3,
+    "output_per_mtok": 1.0,
+    "cached_input_per_mtok": 0.03,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-05",
+    "released_source": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "status": "Current",
+    "open_source": false,
+    "parameters": "594B total / 17B active",
+    "description": "Thinking Machines' second model generation: a 594B-total / 17B-active Mixture-of-Experts with image input and variable thinking effort, trained with a large unified RL run on long-horizon agentic coding. Unlike earlier Inkling models it does not take audio. It launched on Tinker with closed weights; the lab says it intends to release them under Apache 2.0 after external safety testing. Sold through Tinker serverless inference at $0.30/$1.00 per 1M tokens, with cached input at $0.03.",
+    "price_note": "Tinker Serverless Inference (Beta) list price for the 256K-context nvfp4 sampling endpoint. The 64K base id on Tinker's training table prints the same inference rates.",
+    "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+    "tags": [
+      "budget",
+      "reasoning",
+      "multimodal",
+      "moe",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-06",
+    "source": "verified"
+  },
+  {
     "id": "meta-muse-spark-1-1",
     "provider": "Meta",
     "model": "Muse Spark 1.1",
