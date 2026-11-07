@@ -225776,5 +225776,47 @@
         "changes": []
       }
     ]
+  },
+  "lfm3-1-7b": {
+    "model": "LFM3-1.7B",
+    "provider": "Liquid AI",
+    "history": [
+      {
+        "date": "2026-11-07",
+        "input_per_mtok": 0.08,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": 0.02,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.liquid.ai/pricing",
+        "captured_at": "2026-11-07T14:22:52Z",
+        "snapshot": "data/evidence/lfm3-1-7b/2026-11-07.txt",
+        "sha": "5f49bf0d2d"
+      }
+    ]
+  },
+  "lfm2-5-24b-a2b": {
+    "model": "LFM2.5-24B-A2B",
+    "provider": "Liquid AI",
+    "history": [
+      {
+        "date": "2026-11-07",
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.7,
+        "cached_input_per_mtok": 0.025,
+        "context_window": 131072,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.liquid.ai/pricing",
+        "captured_at": "2026-11-07T14:22:56Z",
+        "snapshot": "data/evidence/lfm2-5-24b-a2b/2026-11-07.txt",
+        "sha": "5f49bf0d2d"
+      }
+    ]
   }
 }

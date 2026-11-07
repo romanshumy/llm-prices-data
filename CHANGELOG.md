@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-07
+
+- **LFM3-1.7B** (Liquid AI) launched — $0.08 in / $0.2 out per 1M tokens
+- **LFM2.5-24B-A2B** (Liquid AI) launched — $0.05 in / $0.7 out per 1M tokens
+
 ## 2026-11-06
 
 - **Inkling 2 Small** (Thinking Machines) launched — $0.3 in / $1.0 out per 1M tokens

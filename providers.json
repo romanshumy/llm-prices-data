@@ -436,5 +436,15 @@
     "url": "https://particle.ai/",
     "pricing_url": "https://docs.particle.ai/usage-billing",
     "logo_color": "#5b5bd6"
+  },
+  {
+    "id": "liquid-ai",
+    "name": "Liquid AI",
+    "type": "commercial",
+    "description": "Company spun out of MIT CSAIL that builds Liquid Foundation Models (LFMs): small, fast open-weight models on its own hybrid architectures, designed to run on phones, laptops and other devices as well as in the cloud. The current lines are LFM2.5 (up to the 24B-parameter, 2B-active LFM2.5-24B-A2B) and LFM3, launched 2026-10-27 with text, vision, audio and omni models in the 2B class. Liquid sells API access per token on Liquid Console, at the same price as on OpenRouter and Vercel AI Gateway, and licenses its weights free to companies under $10M in annual revenue.",
+    "url": "https://www.liquid.ai/",
+    "pricing_url": "https://www.liquid.ai/pricing",
+    "affiliate_url": "https://console.liquid.ai/",
+    "logo_color": "#0f62fe"
   }
 ]
