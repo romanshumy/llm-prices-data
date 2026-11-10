@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-10
+
+- **Claude Fable 5.2** (Anthropic) launched — $8.0 in / $40.0 out per 1M tokens
+
 ## 2026-11-07
 
 - **LFM3-1.7B** (Liquid AI) launched — $0.08 in / $0.2 out per 1M tokens

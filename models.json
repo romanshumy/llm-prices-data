@@ -1027,6 +1027,38 @@
     "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
   },
   {
+    "id": "anthropic-claude-fable-5-2",
+    "provider": "Anthropic",
+    "model": "Claude Fable 5.2",
+    "category": "flagship",
+    "input_per_mtok": 8.0,
+    "output_per_mtok": 40.0,
+    "cached_input_per_mtok": 0.2,
+    "price_note": "Cache hits and refreshes on Claude Fable 5.2 (and Claude Mythos 5.2) are priced at 0.025x the base input price — $0.20 per 1M tokens. Base $8/$40 per 1M tokens; Batch API $4/$20; fast mode $16/$80. Verified 2026-11-09 against platform.claude.com/docs/en/about-claude/pricing.",
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-09",
+    "released_source": "https://platform.claude.com/docs/en/release-notes/overview",
+    "released_verified": "2026-11-09",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Anthropic's newest Fable flagship for demanding reasoning and long-horizon agentic work — vision and tool use, with a 1M-token context window and up to 128K output tokens. $8/$40 per 1M tokens, 20% below Claude Fable 5.1, with cache hits at $0.20 per 1M tokens (0.025x input).",
+    "pricing_url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "tags": [
+      "flagship",
+      "reasoning",
+      "multimodal"
+    ],
+    "last_updated": "2026-11-09",
+    "source": "verified",
+    "status_verified": "2026-11-09",
+    "status_source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  {
     "id": "anthropic-claude-haiku-3-5",
     "provider": "Anthropic",
     "model": "Claude Haiku 3.5",
