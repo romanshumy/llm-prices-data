@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-13
+
+- **Gemini 4 Hydrogen** (Google) launched — $1.5 in / $7.5 out per 1M tokens
+
 ## 2026-11-10
 
 - **Claude Fable 5.2** (Anthropic) launched — $8.0 in / $40.0 out per 1M tokens

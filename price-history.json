@@ -226217,5 +226217,26 @@
         "changes": []
       }
     ]
+  },
+  "google-gemini-4-hydrogen": {
+    "model": "Gemini 4 Hydrogen",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-11-13",
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": 0.075,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-11-13T00:23:36Z",
+        "snapshot": "data/evidence/google-gemini-4-hydrogen/2026-11-13.txt",
+        "sha": "fdfdf7f3c6"
+      }
+    ]
   }
 }
