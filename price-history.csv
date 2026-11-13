@@ -9001,6 +9001,7 @@ google-gemini-4-argon,Gemini 4 Argon,Google,2026-11-08,snapshot,,2.0,10.0,0.1
 google-gemini-4-argon,Gemini 4 Argon,Google,2026-11-09,snapshot,,2.0,10.0,0.1
 google-gemini-4-argon,Gemini 4 Argon,Google,2026-11-10,snapshot,,2.0,10.0,0.1
 google-gemini-4-argon,Gemini 4 Argon,Google,2026-11-13,snapshot,,2.0,10.0,0.1
+google-gemini-4-carbon,Gemini 4 Carbon,Google,2026-11-13,new_model,verified,2.0,10.0,0.1
 google-gemini-4-hydrogen,Gemini 4 Hydrogen,Google,2026-11-13,new_model,verified,1.5,7.5,0.075
 google-gemini-nano-banana-2-1,Gemini Nano Banana 2.1,Google,2026-10-12,new_model,verified,1.5,30.0,
 google-gemini-nano-banana-2-1,Gemini Nano Banana 2.1,Google,2026-10-13,snapshot,,1.5,30.0,
