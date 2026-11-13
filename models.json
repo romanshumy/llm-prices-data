@@ -2695,6 +2695,42 @@
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
+    "id": "google-gemini-4-hydrogen",
+    "provider": "Google",
+    "model": "Gemini 4 Hydrogen",
+    "category": "flagship",
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 7.5,
+    "cached_input_per_mtok": 0.075,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2026-11-12",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Google's fast, efficient Gemini 4 model for everyday coding and agentic workflows, generally available since 2026-11-12 and the successor Google points Gemini 3.8 Flash users to. $1.50/1M input and $7.50/1M output on the Standard paid tier. 1M-token context shared by input and output, with long-decode output up to 1M tokens.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "fast",
+      "multimodal",
+      "flagship"
+    ],
+    "featured": false,
+    "promo": false,
+    "price_note": "Standard paid tier, per 1M tokens: input $1.50, output $7.50 (thinking tokens included), context caching $0.075 (implicit caching only; explicit caching is not supported). Batch requests cost half: $0.75 input, $3.75 output. A free tier is also offered. We publish the Standard rate.",
+    "availability_note": "Generally available since November 12, 2026 through the Gemini API and Google AI Studio, on both the free and paid tiers. The 1,048,576-token window is shared by input and output; replies run up to 65,536 tokens by default, longer with Google's long-decode mode.",
+    "last_updated": "2026-11-13",
+    "released_source": "https://ai.google.dev/gemini-api/docs/changelog",
+    "released_verified": "2026-11-13",
+    "status_verified": "2026-11-13",
+    "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
+  },
+  {
     "id": "google-gemini-3-8-flash",
     "provider": "Google",
     "model": "Gemini 3.8 Flash",
