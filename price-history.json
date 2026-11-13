@@ -226259,5 +226259,68 @@
         "sha": "117ebf5ad3"
       }
     ]
+  },
+  "google-gemini-decision-1": {
+    "model": "Gemini Decision 1",
+    "provider": "Google",
+    "history": [
+      {
+        "date": "2026-11-13",
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "unproven",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "captured_at": "2026-11-13T00:59:02Z",
+        "snapshot": "data/evidence/google-gemini-decision-1/2026-11-13.txt",
+        "sha": "4e2e494fed"
+      }
+    ]
+  },
+  "perplexity-pplx-decider-v1-3": {
+    "model": "pplx-decider-v1.3",
+    "provider": "Perplexity",
+    "history": [
+      {
+        "date": "2026-11-13",
+        "input_per_mtok": 0.02,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+        "captured_at": "2026-11-13T00:59:03Z",
+        "snapshot": "data/evidence/perplexity-pplx-decider-v1-3/2026-11-13.txt",
+        "sha": "386835741b"
+      }
+    ]
+  },
+  "perplexity-pplx-decider-flash-v1-3": {
+    "model": "pplx-decider-flash-v1.3",
+    "provider": "Perplexity",
+    "history": [
+      {
+        "date": "2026-11-13",
+        "input_per_mtok": 0.01,
+        "output_per_mtok": 0.0,
+        "cached_input_per_mtok": null,
+        "context_window": 262144,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+        "captured_at": "2026-11-13T00:59:07Z",
+        "snapshot": "data/evidence/perplexity-pplx-decider-flash-v1-3/2026-11-13.txt",
+        "sha": "3a70ddc814"
+      }
+    ]
   }
 }

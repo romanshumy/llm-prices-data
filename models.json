@@ -2790,6 +2790,40 @@
     "status_source": "https://ai.google.dev/gemini-api/docs/pricing"
   },
   {
+    "id": "google-gemini-decision-1",
+    "provider": "Google",
+    "model": "Gemini Decision 1",
+    "category": "budget",
+    "input_per_mtok": 0.1,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image",
+      "audio",
+      "video"
+    ],
+    "released": "2026-11-11",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Google's decision model, the one its Decisions API runs. It reads text, images, video, audio or PDFs plus your questions and returns calibrated probabilities for each answer (yes or no, one of your options, or a level on your rubric), not generated text. One request can ask up to 1,000 questions about the same input, and the shared input is billed once. $0.10 per 1M input tokens; it generates zero output tokens.",
+    "price_note": "Google's Gemini API pricing page lists Gemini Decision 1 at $0.10 per 1M input tokens (text, image, video, audio, PDF) on the paid tier, and the output price as 'Not applicable (0 output tokens)'. You pay for input only: the shared input is billed once per request, and each question adds tokens for its own instructions, criteria and formatting. The $0 output here is Google's published rate, not a missing number. There is no context caching and no Batch API price.",
+    "availability_note": "Released November 11, 2026 with the Gemini API's Decisions API. The free tier is free of charge; on the paid tier your prompts are not used to improve Google's products. Input is capped at 262,144 tokens per request.",
+    "pricing_url": "https://ai.google.dev/gemini-api/docs/pricing",
+    "tags": [
+      "budget",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-13",
+    "released_source": "https://ai.google.dev/gemini-api/docs/changelog",
+    "released_verified": "2026-11-13",
+    "status_verified": "2026-11-13",
+    "status_source": "https://ai.google.dev/gemini-api/docs/models/gemini-decision-1"
+  },
+  {
     "id": "google-gemini-3-8-flash",
     "provider": "Google",
     "model": "Gemini 3.8 Flash",
@@ -5493,6 +5527,74 @@
     "status_source": "https://docs.perplexity.ai/docs/agent-api/models"
   },
   {
+    "id": "perplexity-pplx-decider-v1-3",
+    "provider": "Perplexity",
+    "model": "pplx-decider-v1.3",
+    "category": "budget",
+    "input_per_mtok": 0.02,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-09",
+    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-v1.3",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "27B",
+    "description": "Perplexity's 27B decision model and its Decisions API default since November 2026. It reads text, JSON or images plus your questions and returns a probability for each answer (yes or no, one of your options, or a level on your rubric), not generated text. v1.3 is a new build of pplx-decider-v1.2 on the same Qwen3.8-27B base, with better accuracy and robustness per Perplexity. It adds `locate` questions, which return the spans of a text input that match a description with character offsets and a score for each. Questions in one request are now answered in one pass but kept isolated from each other. $0.02 per 1M input tokens; output is free and there is no per-request fee.",
+    "price_note": "Perplexity's own pricing page lists pplx-decider-v1.3 at $0.02 per 1M input tokens, output tokens Free, per-request fee None, the same rate as v1.2. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000012. The $0 output here is Perplexity's published rate, not a missing number. With web grounding on, each web search or URL fetch adds $0.001.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-latest are served by pplx-decider-v1.3 and bill at the same $0.02. Input must stay under 256K (262,144) tokens per request. The weights are on Hugging Face under Apache 2.0.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-11-13",
+    "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
+  },
+  {
+    "id": "perplexity-pplx-decider-flash-v1-3",
+    "provider": "Perplexity",
+    "model": "pplx-decider-flash-v1.3",
+    "category": "budget",
+    "input_per_mtok": 0.01,
+    "output_per_mtok": 0.0,
+    "cached_input_per_mtok": null,
+    "context_window": 262144,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-09",
+    "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.3",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "4B",
+    "description": "Perplexity's small decision model, the 4B sibling of pplx-decider-v1.3 on the same Decisions API. It reads text, JSON or images plus your questions and returns a probability for each answer, not generated text. v1.3 is a new build of pplx-decider-flash-v1.2 on Qwen3.5-4B. It adds `locate` questions, which return matching text spans with offsets and scores. It also answers all of a request's questions in one pass instead of one at a time, so the input is billed once per group rather than once per question. It trades some accuracy against the 27B model for lower cost and latency. $0.01 per 1M input tokens; output is free and there is no per-request fee.",
+    "price_note": "Perplexity's own pricing page lists pplx-decider-flash-v1.3 at $0.01 per 1M input tokens, output tokens Free, per-request fee None, half the $0.02 of pplx-decider-v1.3 and the same rate as flash-v1.2. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000006. The $0 output here is Perplexity's published rate, not a missing number. With web grounding on, each web search or URL fetch adds $0.001.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-flash-latest are served by this model and bill at the same $0.01. Input must stay under 256K (262,144) tokens per request. The weights are on Hugging Face under Apache 2.0.",
+    "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
+    "tags": [
+      "budget",
+      "multimodal",
+      "open-weights"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-13",
+    "source": "verified",
+    "promo": false,
+    "status_verified": "2026-11-13",
+    "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
+  },
+  {
     "id": "perplexity-pplx-decider-v1-2",
     "provider": "Perplexity",
     "model": "pplx-decider-v1.2",
@@ -5507,12 +5609,13 @@
     ],
     "released": "2026-10-15",
     "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
-    "status": "Current",
+    "status": "Deprecated",
+    "superseded_by": "perplexity-pplx-decider-v1-3",
     "open_source": true,
     "parameters": "27B",
     "description": "Perplexity's 27B decision model, the one its Decisions API runs. It reads text, JSON or images plus your questions and returns a probability for each answer (yes or no, one of your options, or a level on your rubric), not generated text. v1.2 replaced pplx-decider-v1.1-27b in October 2026 and is a new build, not a rename: it keeps the same Qwen3.8-27B base but reads all of a request's questions in one pass instead of one at a time, so questions about the same input are answered together and can inform each other, and it was retrained on reworked decision data. $0.02 per 1M input tokens; output is free and there is no per-request fee.",
     "price_note": "Perplexity's own pricing page lists pplx-decider-v1.2 at $0.02 per 1M input tokens, output tokens Free, per-request fee None. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000012. The $0 output here is Perplexity's published rate, not a missing number. The price did not change with v1.2: v1.1-27b was also $0.02, half the $0.04 the original pplx-decider-v1-27b launched at, so a site still showing a higher Decisions API price is showing the old rate.",
-    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-latest, or the older pplx-decider-v1.1-27b and pplx-decider-v1-27b, are served by pplx-decider-v1.2 and bill at the same $0.02. Input must stay under 256K (262,144) tokens per request. The weights are on Hugging Face under Apache 2.0.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Since November 2026 pplx-decider-v1.3 is the default and pplx-decider-latest selects it; Perplexity says v1.2 remains available at the same $0.02 for teams revalidating thresholds, and it has published no shutdown date. Requests that name the older pplx-decider-v1.1-27b and pplx-decider-v1-27b are still served by pplx-decider-v1.2 and bill at $0.02. Input must stay under 256K (262,144) tokens per request. The weights are on Hugging Face under Apache 2.0.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "budget",
@@ -5520,10 +5623,10 @@
       "open-weights"
     ],
     "featured": false,
-    "last_updated": "2026-10-18",
+    "last_updated": "2026-11-13",
     "source": "verified",
     "promo": false,
-    "status_verified": "2026-10-18",
+    "status_verified": "2026-11-13",
     "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
   },
   {
@@ -5541,12 +5644,13 @@
     ],
     "released": "2026-10-15",
     "released_source": "https://huggingface.co/perplexity-ai/pplx-decider-flash-v1.2",
-    "status": "Current",
+    "status": "Deprecated",
+    "superseded_by": "perplexity-pplx-decider-flash-v1-3",
     "open_source": true,
     "parameters": "4B",
     "description": "Perplexity's small decision model, a 4B sibling of pplx-decider-v1.2 that takes the same requests on the same Decisions API. It reads text, JSON or images plus your questions and returns a probability for each answer, not generated text. It is built on Qwen3.5-4B and distilled from Perplexity's 27B decision models, and it trades some accuracy for lower cost and latency. $0.01 per 1M input tokens; output is free and there is no per-request fee.",
     "price_note": "Perplexity's own pricing page lists pplx-decider-flash-v1.2 at $0.01 per 1M input tokens, output tokens Free, per-request fee None, which is half the $0.02 of pplx-decider-v1.2. You pay for input only: the content you send, every question and any images all count as input, so a request with 600 input tokens costs $0.000006. The $0 output here is Perplexity's published rate, not a missing number.",
-    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Requests that name pplx-decider-flash-latest are served by this model and bill at the same $0.01. Input limits are the same as pplx-decider-v1.2's. The weights are on Hugging Face under Apache 2.0.",
+    "availability_note": "Sold by Perplexity through its Decisions API (POST /v1/decisions); any Perplexity API key works. Since November 2026 pplx-decider-flash-latest selects pplx-decider-flash-v1.3; Perplexity says flash-v1.2 remains available at the same $0.01, and it has published no shutdown date. Unlike v1.3 it answers each question on its own, so the input is billed once per question. Input limits are the same as pplx-decider-v1.2's. The weights are on Hugging Face under Apache 2.0.",
     "pricing_url": "https://docs.perplexity.ai/docs/getting-started/pricing",
     "tags": [
       "budget",
@@ -5554,11 +5658,11 @@
       "open-weights"
     ],
     "featured": false,
-    "last_updated": "2026-10-19",
+    "last_updated": "2026-11-13",
     "source": "verified",
     "promo": false,
-    "status_verified": "2026-10-20",
-    "status_source": "https://docs.perplexity.ai/docs/getting-started/pricing"
+    "status_verified": "2026-11-13",
+    "status_source": "https://docs.perplexity.ai/docs/resources/changelog"
   },
   {
     "id": "reka-core",
