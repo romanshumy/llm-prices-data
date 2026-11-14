@@ -1,8 +1,8 @@
 {
   "name": "@modelpricewatch/mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "mcpName": "com.modelpricewatch/mcp",
-  "description": "MCP server for live LLM API pricing — current input/output token prices, comparisons, and cheapest-model lookups for 150+ models across 20+ providers, re-verified daily by modelpricewatch.com.",
+  "description": "MCP server for live LLM API pricing — current input/output token prices, model lookups, and cheapest-model rankings for 200+ models across 40+ providers, re-verified daily by modelpricewatch.com.",
   "bin": {
     "modelpricewatch-mcp": "index.js"
   },
@@ -30,7 +30,7 @@
   "homepage": "https://modelpricewatch.com/api/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/romanshumy/llm-prices-data",
+    "url": "git+https://github.com/romanshumy/llm-pricing-tracker.git",
     "directory": "mcp"
   }
 }

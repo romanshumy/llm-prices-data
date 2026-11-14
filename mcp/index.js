@@ -5,26 +5,44 @@
  * The real server is remote and stateless (https://modelpricewatch.com/mcp,
  * streamable-http): this package exists only so stdio-only MCP clients — and
  * anyone who reaches for `npx` — can use it. Zero dependencies by design:
- * there is no data baked in, so the package never goes stale and never needs
- * releases when prices change (the maintenance-free property is the point).
+ * there is no data baked in, so the package never goes stale when prices
+ * change. It is released only when the bridge itself or its npm page changes
+ * (.github/workflows/mcp-publish.yml publishes on a version bump).
  *
  * Clients with native HTTP transport support don't need this bridge at all:
  *   claude mcp add --transport http modelpricewatch https://modelpricewatch.com/mcp
+ *
+ * Env:
+ *   MPW_API_KEY       paid-tier key, sent as X-API-Key (unset = free tier)
+ *   MPW_MCP_ENDPOINT  override the remote endpoint (testing)
  */
 
 "use strict";
 
 const ENDPOINT = process.env.MPW_MCP_ENDPOINT || "https://modelpricewatch.com/mcp";
+const API_KEY = (process.env.MPW_API_KEY || "").trim();
 
+// Returns { status, retryAfter, reply } — reply is the parsed JSON-RPC body,
+// null for an empty body (notifications / 202), or undefined if the body was
+// not JSON-RPC (an edge 429/5xx HTML page).
 async function forward(message) {
-  const res = await fetch(ENDPOINT, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", "Accept": "application/json" },
-    body: JSON.stringify(message),
-  });
+  const headers = {
+    "Content-Type": "application/json",
+    // Streamable-http requires POST clients to accept both; the server answers JSON.
+    "Accept": "application/json, text/event-stream",
+  };
+  if (API_KEY) headers["X-API-Key"] = API_KEY;
+  const res = await fetch(ENDPOINT, { method: "POST", headers, body: JSON.stringify(message) });
   const text = await res.text();
-  if (!text) return null; // notifications / 202-accepted
-  return JSON.parse(text);
+  const out = { status: res.status, retryAfter: res.headers.get("Retry-After"), reply: undefined };
+  if (!text) { out.reply = null; return out; }
+  const ctype = res.headers.get("Content-Type") || "";
+  // An SSE-framed reply carries the JSON-RPC message in its last `data:` line.
+  const body = ctype.includes("text/event-stream")
+    ? text.split("\n").filter((l) => l.startsWith("data:")).map((l) => l.slice(5).trim()).pop() || ""
+    : text;
+  try { out.reply = JSON.parse(body); } catch { /* not JSON — reported by status below */ }
+  return out;
 }
 
 function write(message) {
@@ -64,20 +82,31 @@ async function handleLine(line) {
     return;
   }
   const hasId = msg && Object.prototype.hasOwnProperty.call(msg, "id") && msg.id !== null;
+  let res;
   try {
-    const reply = await forward(msg);
-    // Notifications (no id) expect no response; requests always get one.
-    if (hasId) {
-      if (reply) write(reply);
-      else write({ jsonrpc: "2.0", id: msg.id, result: {} });
-    }
+    res = await forward(msg);
   } catch (e) {
-    if (hasId) {
-      write({
-        jsonrpc: "2.0",
-        id: msg.id,
-        error: { code: -32000, message: `modelpricewatch.com unreachable: ${e.message}` },
-      });
-    }
+    if (hasId) error(msg.id, `modelpricewatch.com unreachable: ${e.message}`);
+    return;
   }
+  // Notifications (no id) expect no response; requests always get one.
+  if (!hasId) return;
+  const { reply, status, retryAfter } = res;
+  if (reply && typeof reply === "object" && !Array.isArray(reply)) {
+    // Errors raised before the server reads the request (e.g. a rejected API
+    // key) carry id:null; a client only matches replies by id, so it would wait
+    // forever. The bridge handles one request per POST, so the id is known.
+    if (reply.id === null || reply.id === undefined) reply.id = msg.id;
+    write(reply);
+  } else if (reply === null && status < 400) {
+    write({ jsonrpc: "2.0", id: msg.id, result: {} });
+  } else {
+    error(msg.id, `modelpricewatch.com returned HTTP ${status}` +
+      (retryAfter ? ` (Retry-After: ${retryAfter})` : "") +
+      (status === 429 ? " — rate limited; see https://modelpricewatch.com/api-pricing/" : ""));
+  }
+}
+
+function error(id, message) {
+  write({ jsonrpc: "2.0", id, error: { code: -32000, message } });
 }

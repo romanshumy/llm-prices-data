@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.modelpricewatch/mcp",
-  "description": "Live LLM API pricing: token prices, comparisons, cheapest-model lookups. No key required.",
+  "description": "Live LLM API pricing: token prices, model lookups, cheapest-model rankings. Free tier needs no key.",
   "websiteUrl": "https://modelpricewatch.com/api/",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "remotes": [
     {
       "type": "streamable-http",
@@ -14,7 +14,7 @@
     {
       "registryType": "npm",
       "identifier": "@modelpricewatch/mcp",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "transport": {
         "type": "stdio"
       }

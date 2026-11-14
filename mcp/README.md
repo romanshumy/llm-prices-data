@@ -1,6 +1,6 @@
 # @modelpricewatch/mcp
 
-MCP server for **live LLM API pricing** — current input/output token prices, side-by-side comparisons, and cheapest-model lookups for **150+ models across 20+ providers** (OpenAI, Anthropic, Google, Mistral, xAI, DeepSeek, …), re-verified against official provider pricing pages by [modelpricewatch.com](https://modelpricewatch.com).
+MCP server for **live LLM API pricing** — current input/output token prices, model lookups, and cheapest-model rankings for **200+ models across 40+ providers** (OpenAI, Anthropic, Google, Mistral, xAI, DeepSeek, …), re-verified against official provider pricing pages by [modelpricewatch.com](https://modelpricewatch.com).
 
 Unlike MCP servers that bake a pricing snapshot into each release, this one is a thin bridge to a **live API** — prices are never stale between package releases, and every price links back to the provider's official pricing page.
 
@@ -28,11 +28,14 @@ claude mcp add --transport http modelpricewatch https://modelpricewatch.com/mcp
   "mcpServers": {
     "modelpricewatch": {
       "command": "npx",
-      "args": ["-y", "@modelpricewatch/mcp"]
+      "args": ["-y", "@modelpricewatch/mcp"],
+      "env": { "MPW_API_KEY": "mpw_…" }
     }
   }
 }
 ```
+
+`env` is optional: leave it out for the free tier. With `MPW_API_KEY` set, the bridge sends it as `X-API-Key` on every request.
 
 **Cursor** (`.cursor/mcp.json`):
 
@@ -46,7 +49,7 @@ claude mcp add --transport http modelpricewatch https://modelpricewatch.com/mcp
 
 ## How it works
 
-This package is a zero-dependency stdio↔HTTPS bridge to `https://modelpricewatch.com/mcp` (streamable-http, stateless). No API key required. Data is CC-BY: cite modelpricewatch.com. The underlying JSON API is also free and CORS-open — see [modelpricewatch.com/api](https://modelpricewatch.com/api/).
+This package is a zero-dependency stdio↔HTTPS bridge to `https://modelpricewatch.com/mcp` (streamable-http, stateless). No API key required for the free tier. Data is CC-BY: cite modelpricewatch.com. The underlying JSON API is also free and CORS-open — see [modelpricewatch.com/api](https://modelpricewatch.com/api/).
 
 ## Fair-use allowances
 
@@ -71,7 +74,7 @@ Exceeding an allowance returns a normal MCP tool result flagged `isError` — no
 
 Normal tool use is `POST` and is unaffected by that limit.
 
-To raise the ceiling, send your key as `X-API-Key` or `Authorization: Bearer` (set it in the `env` block of your MCP client config). Keys are issued by request: [modelpricewatch.com/contact](https://modelpricewatch.com/contact/?subject=MCP%20Access). Plans: [modelpricewatch.com/api-pricing](https://modelpricewatch.com/api-pricing/).
+To raise the ceiling, send your key as `X-API-Key` or `Authorization: Bearer` (over stdio, set `MPW_API_KEY` in the `env` block shown above; HTTP clients set the header directly). Keys are issued by request: [modelpricewatch.com/contact](https://modelpricewatch.com/contact/?subject=MCP%20Access). Plans: [modelpricewatch.com/api-pricing](https://modelpricewatch.com/api-pricing/).
 
 The pricing data itself is free and stays free — a paid tier buys throughput, a commercial license and an SLA, not access to the numbers. If you are being rate limited on bulk reads, the REST API serves the same dataset with no key at all.
 
