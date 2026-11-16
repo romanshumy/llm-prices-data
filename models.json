@@ -351,6 +351,40 @@
     "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
   },
   {
+    "id": "alibaba-qwen4-max",
+    "provider": "Alibaba",
+    "model": "Qwen4-Max",
+    "category": "flagship",
+    "input_per_mtok": 1.5,
+    "output_per_mtok": 4.5,
+    "cached_input_per_mtok": 0.075,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image",
+      "video"
+    ],
+    "released": "2026-11-16",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's next-generation Qwen flagship, released on Model Studio on 2026-11-16. It takes text, image and video input and returns text, with deep reasoning, web search, tool calling and structured outputs, and a 1M-token context. $1.50/$4.50 per 1M tokens in a single tier across the whole 1M context, with thinking and non-thinking modes billed alike.",
+    "pricing_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+    "price_note": "Alibaba Model Studio International (Singapore) list price, single 0<Token≤1M tier. Explicit and implicit cache reads bill at $0.075 per 1M (the cached_input_per_mtok we track); cache writes cost $1.875 (5-minute) or $3 (1-hour) per 1M.",
+    "tags": [
+      "flagship",
+      "multimodal",
+      "caching"
+    ],
+    "featured": false,
+    "promo": false,
+    "last_updated": "2026-11-16",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+    "released_verified": "2026-11-16",
+    "status_verified": "2026-11-16",
+    "status_source": "https://www.alibabacloud.com/help/en/model-studio/model-pricing"
+  },
+  {
     "id": "alibaba-qwen3-8-max",
     "provider": "Alibaba",
     "model": "Qwen3.8-Max",

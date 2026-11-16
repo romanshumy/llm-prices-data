@@ -229522,5 +229522,26 @@
         "changes": []
       }
     ]
+  },
+  "alibaba-qwen4-max": {
+    "model": "Qwen4-Max",
+    "provider": "Alibaba",
+    "history": [
+      {
+        "date": "2026-11-16",
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 4.5,
+        "cached_input_per_mtok": 0.075,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+        "captured_at": "2026-11-16T11:08:46Z",
+        "snapshot": "data/evidence/alibaba-qwen4-max/2026-11-16.txt",
+        "sha": "ca28ae71f0"
+      }
+    ]
   }
 }
