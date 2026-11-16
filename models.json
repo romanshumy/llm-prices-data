@@ -9572,17 +9572,11 @@
     "provider": "Apodex",
     "model": "Apodex 1.1 Mini",
     "category": "budget",
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 1.0,
-    "cached_input_per_mtok": 0.01,
-    "promo": true,
-    "promo_price": {
-      "input_per_mtok": 0.08,
-      "output_per_mtok": 0.8,
-      "cached_input_per_mtok": 0.008
-    },
-    "promo_until": null,
-    "price_note": "This is Apodex's list price. Apodex 1.1 Mini is on a limited-time 20% discount, so the rate you pay today is $0.08 / $0.008 / $0.80 per 1M tokens (input / cached input / output). Apodex prints no end date for the discount, so we track the list price it reverts to rather than a discounted figure that could lapse without notice. Requests with more than 200K input tokens are billed at twice the listed prices for the whole request, on input, cached input and output alike.",
+    "input_per_mtok": 0.2,
+    "output_per_mtok": 1.2,
+    "cached_input_per_mtok": 0.02,
+    "promo": false,
+    "price_note": "Requests with more than 200K input tokens are billed at twice the listed prices for the whole request, on input, cached input and output alike.",
     "context_window": 262144,
     "modality": [
       "text"
@@ -9592,7 +9586,7 @@
     "status": "Current",
     "open_source": true,
     "parameters": "35B",
-    "description": "Apodex's 35B open-weight (Apache-2.0) reasoning model, fine-tuned from Qwen3.5-35B-A3B for long-horizon research and agentic work — files, search, code execution and tool calls. Text only, 262,144-token context; it thinks before answering and bills those reasoning tokens as output. Served first-party over OpenAI-compatible and Anthropic Messages endpoints at the same price. List price $0.10 input / $0.01 cached / $1.00 output per 1M tokens, currently 20% off on an undated promotion.",
+    "description": "Apodex's 35B open-weight (Apache-2.0) reasoning model, fine-tuned from Qwen3.5-35B-A3B for long-horizon research and agentic work — files, search, code execution and tool calls. Text only, 262,144-token context; it thinks before answering and bills those reasoning tokens as output. Served first-party over OpenAI-compatible and Anthropic Messages endpoints at the same price. Priced at $0.20 input / $0.02 cached / $1.20 output per 1M tokens.",
     "pricing_url": "https://platform.apodex.ai/docs/pricing",
     "tags": [
       "budget",
@@ -9600,7 +9594,7 @@
       "open-source"
     ],
     "featured": false,
-    "last_updated": "2026-10-05",
+    "last_updated": "2026-11-16",
     "source": "verified",
     "status_verified": "2026-11-16",
     "status_source": "https://platform.apodex.ai/docs/pricing"
@@ -9610,17 +9604,11 @@
     "provider": "Apodex",
     "model": "Apodex 1.1",
     "category": "mid-tier",
-    "input_per_mtok": 0.3,
-    "output_per_mtok": 3.0,
-    "cached_input_per_mtok": 0.03,
-    "promo": true,
-    "promo_price": {
-      "input_per_mtok": 0.24,
-      "output_per_mtok": 2.4,
-      "cached_input_per_mtok": 0.024
-    },
-    "promo_until": null,
-    "price_note": "This is Apodex's list price. Apodex 1.1 is on a limited-time 20% discount, so the rate you pay today is $0.24 / $0.024 / $2.40 per 1M tokens (input / cached input / output). Apodex prints no end date for the discount, so we track the list price it reverts to rather than a discounted figure that could lapse without notice. Requests with more than 200K input tokens are billed at twice the listed prices for the whole request, on input, cached input and output alike.",
+    "input_per_mtok": 0.6,
+    "output_per_mtok": 3.6,
+    "cached_input_per_mtok": 0.06,
+    "promo": false,
+    "price_note": "Requests with more than 200K input tokens are billed at twice the listed prices for the whole request, on input, cached input and output alike.",
     "context_window": 262144,
     "modality": [
       "text"
@@ -9630,14 +9618,14 @@
     "status": "Current",
     "open_source": false,
     "parameters": "397B",
-    "description": "Apodex's full 397B reasoning model, built for hard reasoning, long-context and quality-critical research work, and the model behind Apodex's own research workbench. Text only, 262,144-token context; it thinks before answering and bills those reasoning tokens as output. Served first-party over OpenAI-compatible and Anthropic Messages endpoints at the same price. List price $0.30 input / $0.03 cached / $3.00 output per 1M tokens, currently 20% off on an undated promotion.",
+    "description": "Apodex's full 397B reasoning model, built for hard reasoning, long-context and quality-critical research work, and the model behind Apodex's own research workbench. Text only, 262,144-token context; it thinks before answering and bills those reasoning tokens as output. Served first-party over OpenAI-compatible and Anthropic Messages endpoints at the same price. Priced at $0.60 input / $0.06 cached / $3.60 output per 1M tokens.",
     "pricing_url": "https://platform.apodex.ai/docs/pricing",
     "tags": [
       "mid-tier",
       "reasoning"
     ],
     "featured": false,
-    "last_updated": "2026-10-05",
+    "last_updated": "2026-11-16",
     "source": "verified",
     "status_verified": "2026-11-16",
     "status_source": "https://platform.apodex.ai/docs/pricing"

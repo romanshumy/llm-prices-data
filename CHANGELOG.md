@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-16
+
+- **Apodex 1.1 Mini** price change — input $0.10 → $0.20, output $1.00 → $1.20, cached input $0.01 → $0.02 per 1M tokens
+- **Apodex 1.1** price change — input $0.30 → $0.60, output $3.00 → $3.60, cached input $0.03 → $0.06 per 1M tokens
+
 ## 2026-11-13
 
 - **Gemini 4 Hydrogen** (Google) launched — $1.5 in / $7.5 out per 1M tokens
