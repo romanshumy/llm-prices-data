@@ -4741,14 +4741,15 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $4/$20 per 1M tokens (cached input $0.40) — a promotional rate OpenAI guarantees at least through 2026-11-21, down from $5/$30 on 2026-08-21.",
-    "price_note": "OpenAI labels this promotional pricing and states it is \"available at least through November 21, 2026\". That is a floor, not a reversion date — OpenAI publishes no date on which the rate goes back up, so no reversion is claimed here and no countdown is implied. Until 2026-08-21 this model billed $5 input / $0.50 cached input / $30 output per 1M tokens. OpenAI's rate card also prices this model by context length: the tracked figure is the short-context tier, and prompts over the short-context threshold bill at the long-context tier of $8 input / $0.80 cached input / $10 cache write / $30 output per 1M tokens. Cache writes bill at 1.25x the uncached input rate.",
+    "description": "OpenAI's highest-intelligence GPT-5.6 tier. Sol/Terra/Luna are durable capability tiers replacing the numbered-variant scheme; Sol targets the hardest coding, agentic, and research workloads. 1.05M context, 128K max output, text + image input. $4/$20 per 1M tokens (cached input $0.40) — a promotional rate OpenAI says is available until 2026-11-30, down from $5/$30 on 2026-08-21. OpenAI has not published the rate that applies after the promotion ends.",
+    "price_note": "OpenAI labels this promotional pricing and states: \"GPT-5.6 Sol’s promotional pricing is available until November 30, 2026.\" OpenAI does not publish the rate that applies after that date, so we do not claim one; we will re-read the rate card when the promotion ends. Until 2026-08-21 this model billed $5 input / $0.50 cached input / $30 output per 1M tokens. OpenAI's rate card also prices this model by context length: the tracked figure is the short-context tier, and prompts over the short-context threshold bill at the long-context tier of $8 input / $0.80 cached input / $10 cache write / $30 output per 1M tokens. Cache writes bill at 1.25x the uncached input rate.",
     "promo": true,
     "promo_price": {
       "input_per_mtok": 4.0,
       "output_per_mtok": 20.0,
       "cached_input_per_mtok": 0.4
     },
+    "promo_until": "2026-11-30",
     "pricing_url": "https://platform.openai.com/docs/pricing",
     "tags": [
       "reasoning",
