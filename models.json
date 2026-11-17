@@ -7923,6 +7923,53 @@
     "status_source": "https://cloud.tencent.com/document/product/1823/130055"
   },
   {
+    "id": "tencent-hy4-flash",
+    "provider": "Tencent",
+    "model": "Hy4 flash",
+    "category": "budget",
+    "input_per_mtok": 0.0347,
+    "output_per_mtok": 0.139,
+    "cached_input_per_mtok": 0.0014,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-16",
+    "released_source": "https://cloud.tencent.com/document/product/1823/130051",
+    "status": "Current",
+    "open_source": false,
+    "description": "Tencent Hy4 flash — the low-cost tier of Tencent's Hy4 family, added to Tencent's TokenHub on 2026-11-16 beside Hy4. Tencent's model list gives it the same feature set as Hy4: deep thinking, structured output, function calling, caching and image understanding, with a 1M context window (960K maximum input, 64K maximum output). Priced at 50% of Tencent's list rate until November 30 2026 12:00 Beijing time; the full ¥0.5/¥2 list rate ($0.0695/$0.278) applies after that.",
+    "pricing_url": "https://cloud.tencent.com/document/product/1823/130055",
+    "native_price": {
+      "currency": "CNY",
+      "input_per_mtok": 0.5,
+      "output_per_mtok": 2,
+      "cached_input_per_mtok": 0.02,
+      "fx_rate": 7.197,
+      "fx_date": "2026-11-16"
+    },
+    "price_note": "Tencent lists Hy4 flash in RMB on its TokenHub rate card at ¥0.5 in / ¥2 out / ¥0.02 cache-hit per 1M tokens, and the card says: from the notice's publication until 2026-11-30 12:00:00 Beijing time, Hy4 flash calls are billed at 50% of the list price. The USD above is that discounted rate at the 7.197 CNY/USD used for the other Hy4 rows ($0.0347 / $0.139 / $0.0014, 50% off $0.0695 / $0.278 / $0.0028). We publish the rate you pay today; it doubles to $0.0695 / $0.278 / $0.0028 when the discount ends.",
+    "promo": true,
+    "promo_until": "2026-11-30",
+    "promo_price": {
+      "input_per_mtok": 0.0347,
+      "output_per_mtok": 0.139,
+      "cached_input_per_mtok": 0.0014
+    },
+    "tags": [
+      "budget",
+      "moe",
+      "agentic",
+      "multimodal"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-16",
+    "source": "verified",
+    "status_verified": "2026-11-16",
+    "status_source": "https://cloud.tencent.com/document/product/1823/130055"
+  },
+  {
     "id": "tencent-hunyuan-hy3-preview",
     "provider": "Tencent",
     "model": "Hunyuan Hy3",

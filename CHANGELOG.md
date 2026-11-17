@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-17
+
+- **Hy4 flash** (Tencent) launched — $0.0347 in / $0.139 out per 1M tokens
+
 ## 2026-11-16
 
 - **Apodex 1.1 Mini** price change — input $0.10 → $0.20, output $1.00 → $1.20, cached input $0.01 → $0.02 per 1M tokens
