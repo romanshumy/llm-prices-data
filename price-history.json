@@ -101574,7 +101574,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://www.together.ai/pricing",
         "captured_at": "2026-10-19T14:49:34Z",
         "snapshot": "data/evidence/together-qwen3-7-max/2026-10-19.txt",
@@ -101825,12 +101825,40 @@
       },
       {
         "date": "2026-11-18",
-        "input_per_mtok": 1.5,
-        "output_per_mtok": 4.5,
-        "cached_input_per_mtok": 0.3,
+        "input_per_mtok": 2.5,
+        "output_per_mtok": 7.5,
+        "cached_input_per_mtok": 0.5,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_increase",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.5,
+            "new": 2.5,
+            "direction": "up",
+            "change_pct": 66.7
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 4.5,
+            "new": 7.5,
+            "direction": "up",
+            "change_pct": 66.7
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.3,
+            "new": 0.5,
+            "direction": "up",
+            "change_pct": 66.7
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.together.ai/pricing",
+        "captured_at": "2026-11-18T11:10:37Z",
+        "snapshot": "data/evidence/together-qwen3-7-max/2026-11-18.txt",
+        "sha": "9692f03ebb"
       }
     ]
   },

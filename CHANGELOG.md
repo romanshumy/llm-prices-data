@@ -9,6 +9,7 @@ did not re-price. It is listed here for the record, not as a market move.
 
 ## 2026-11-18
 
+- **Qwen3.7-Max** price change — input $1.50 → $2.50, output $4.50 → $7.50, cached input $0.30 → $0.50 per 1M tokens
 - **GPT-6.2 Astra** (OpenAI) launched — $8.0 in / $40.0 out per 1M tokens
 - **GPT-6.2 Sol** (OpenAI) launched — $2.0 in / $10.0 out per 1M tokens
 

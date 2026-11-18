@@ -6455,9 +6455,9 @@
     "provider": "Together",
     "model": "Qwen3.7-Max",
     "category": "mid-tier",
-    "input_per_mtok": 1.5,
-    "output_per_mtok": 4.5,
-    "cached_input_per_mtok": 0.3,
+    "input_per_mtok": 2.5,
+    "output_per_mtok": 7.5,
+    "cached_input_per_mtok": 0.5,
     "context_window": 1000000,
     "modality": [
       "text"
@@ -6466,18 +6466,18 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's proprietary flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). Text-only. Together lists it at $1.50/$4.50 per 1M tokens, below Alibaba's own first-party rate.",
+    "description": "Alibaba's proprietary flagship agent model — reasoning-first with a 1M-token context and native extended thinking, built for long-horizon autonomy (up to ~35 hours / 1,000+ tool calls) across coding and workflow automation. API-only (no open weights). Text-only. Together lists it at $2.50/$7.50 per 1M tokens, the same as Alibaba's own first-party rate.",
     "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "caching",
       "mid-tier"
     ],
     "featured": false,
-    "last_updated": "2026-10-19",
+    "last_updated": "2026-11-18",
     "released_source": "https://www.marktechpost.com/2026/05/21/qwen-introduces-qwen3-7-max-a-reasoning-agent-model-with-a-1m-token-context-window/",
     "released_verified": "2026-07-25",
     "promo": false,
-    "price_note": "$1.50 in / $0.30 cached / $4.50 out is Together's standing serverless rate, read from its pricing table on 2026-10-19. The table has printed this rate on every weekly read since 2026-09-28; it was $2.50/$7.50 on 2026-09-21. Together's model page for Qwen/Qwen3.7-Max prints the same $1.50/$0.30/$4.50 (read 2026-10-20). Its serverless-models docs page still lists the old $2.50/$0.50/$7.50; we treat that as a stale docs table. Together is now cheaper than Alibaba's first-party $2.50/$7.50 for the same model (the alibaba-qwen3-7-max row).",
+    "price_note": "$2.50 in / $0.50 cached / $7.50 out is Together's serverless rate, read from its pricing table on 2026-11-18. The table printed $1.50/$0.30/$4.50 on every weekly read from 2026-09-28 to 2026-11-02 and has printed $2.50/$0.50/$7.50 since the 2026-11-09 read; its serverless-models docs page prints the same $2.50/$0.50/$7.50. Together now matches Alibaba's first-party $2.50/$7.50 for the same model (the alibaba-qwen3-7-max row).",
     "status_verified": "2026-11-16",
     "status_source": "https://www.together.ai/pricing"
   },
