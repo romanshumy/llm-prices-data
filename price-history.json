@@ -231560,5 +231560,26 @@
         "sha": "009141b553"
       }
     ]
+  },
+  "together-qwen4-max": {
+    "model": "Qwen4-Max",
+    "provider": "Together",
+    "history": [
+      {
+        "date": "2026-11-18",
+        "input_per_mtok": 1.425,
+        "output_per_mtok": 4.275,
+        "cached_input_per_mtok": 0.07125,
+        "context_window": 1000000,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://docs.together.ai/docs/serverless-models",
+        "captured_at": "2026-11-18T14:15:43Z",
+        "snapshot": "data/evidence/together-qwen4-max/2026-11-18.txt",
+        "sha": "484fcfe8f0"
+      }
+    ]
   }
 }

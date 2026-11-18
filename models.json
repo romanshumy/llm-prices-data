@@ -6482,6 +6482,39 @@
     "status_source": "https://www.together.ai/pricing"
   },
   {
+    "id": "together-qwen4-max",
+    "provider": "Together",
+    "model": "Qwen4-Max",
+    "category": "flagship",
+    "input_per_mtok": 1.425,
+    "output_per_mtok": 4.275,
+    "cached_input_per_mtok": 0.07125,
+    "context_window": 1000000,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-16",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Alibaba's next-generation Qwen flagship, served by Together on its serverless pay-per-token API. It takes text and image input and returns text, with function calling, structured outputs and a 1M-token context. Together lists it at $1.425/$4.275 per 1M tokens, 5% below Alibaba's own $1.50/$4.50.",
+    "price_note": "$1.425 in / $0.07125 cached / $4.275 out per 1M tokens is Together's serverless rate for Qwen/Qwen4-Max, read from its serverless models list on 2026-11-18. Together's pricing page does not list this model yet.",
+    "pricing_url": "https://docs.together.ai/docs/serverless-models",
+    "tags": [
+      "flagship",
+      "multimodal",
+      "caching"
+    ],
+    "featured": false,
+    "promo": false,
+    "last_updated": "2026-11-18",
+    "released_source": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+    "released_verified": "2026-11-18",
+    "status_verified": "2026-11-18",
+    "status_source": "https://docs.together.ai/docs/serverless-models"
+  },
+  {
     "id": "together-qwen3-7-plus",
     "provider": "Together",
     "model": "Qwen3.7-Plus",
