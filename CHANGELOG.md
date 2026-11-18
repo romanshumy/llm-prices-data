@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-18
+
+- **GPT-6.2 Astra** (OpenAI) launched — $8.0 in / $40.0 out per 1M tokens
+- **GPT-6.2 Sol** (OpenAI) launched — $2.0 in / $10.0 out per 1M tokens
+
 ## 2026-11-17
 
 - **Hy4 flash** (Tencent) launched — $0.0347 in / $0.139 out per 1M tokens
