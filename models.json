@@ -6522,9 +6522,9 @@
     "provider": "Together",
     "model": "Qwen4-Max",
     "category": "flagship",
-    "input_per_mtok": 1.425,
-    "output_per_mtok": 4.275,
-    "cached_input_per_mtok": 0.07125,
+    "input_per_mtok": 1.05,
+    "output_per_mtok": 3.15,
+    "cached_input_per_mtok": 0.075,
     "context_window": 1000000,
     "modality": [
       "text",
@@ -6534,17 +6534,38 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Alibaba's next-generation Qwen flagship, served by Together on its serverless pay-per-token API. It takes text and image input and returns text, with function calling, structured outputs and a 1M-token context. Together lists it at $1.425/$4.275 per 1M tokens, 5% below Alibaba's own $1.50/$4.50.",
-    "price_note": "$1.425 in / $0.07125 cached / $4.275 out per 1M tokens is Together's serverless rate for Qwen/Qwen4-Max, read from its serverless models list on 2026-11-18. Together's pricing page does not list this model yet.",
-    "pricing_url": "https://docs.together.ai/docs/serverless-models",
+    "description": "Alibaba's next-generation Qwen flagship, served by Together on its serverless pay-per-token API. It takes text and image input and returns text, with function calling, structured outputs and a 1M-token context. Together lists it at $1.50/$4.50 per 1M tokens, with a launch promo of $1.05/$3.15 until November 23, 2026.",
+    "price_note": "Together's pricing page lists Qwen4 Max at $1.50 input / $0.075 cached input / $4.50 output per 1M tokens, with a promo price of $1.05 input / $3.15 output valid until 11/23/2026. We publish the rate you would pay today and re-verify it before the changeover. Together's serverless models list printed $1.425 / $0.07125 / $4.275 on 2026-11-18 and 2026-11-19; the pricing page is the rate card this row cites.",
+    "pricing_url": "https://www.together.ai/pricing",
     "tags": [
       "flagship",
       "multimodal",
       "caching"
     ],
     "featured": false,
-    "promo": false,
-    "last_updated": "2026-11-18",
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 1.05,
+      "output_per_mtok": 3.15
+    },
+    "promo_until": "2026-11-23",
+    "scheduled_price_change": {
+      "effective_at": "2026-11-24T00:00:00Z",
+      "announced_on": "2026-11-19",
+      "source_url": "https://www.together.ai/pricing",
+      "reason": "Together's pricing page prints Qwen4 Max at $1.50/$4.50 per 1M tokens with a promo price of $1.05/$3.15 marked 'Promotion valid until 11/23/2026'",
+      "decided_in": "MOD-1891",
+      "set": {
+        "input_per_mtok": 1.5,
+        "output_per_mtok": 4.5,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Alibaba's next-generation Qwen flagship, served by Together on its serverless pay-per-token API. It takes text and image input and returns text, with function calling, structured outputs and a 1M-token context. Together lists it at $1.50/$4.50 per 1M tokens, the same as Alibaba's own rate.",
+        "price_note": "Together's pricing page lists Qwen4 Max at $1.50 input / $0.075 cached input / $4.50 output per 1M tokens from November 24, 2026, when its launch promo of $1.05/$3.15 ended."
+      }
+    },
+    "last_updated": "2026-11-19",
     "released_source": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
     "released_verified": "2026-11-18",
     "status_verified": "2026-11-18",

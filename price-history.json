@@ -232509,12 +232509,40 @@
       },
       {
         "date": "2026-11-19",
-        "input_per_mtok": 1.425,
-        "output_per_mtok": 4.275,
-        "cached_input_per_mtok": 0.07125,
+        "input_per_mtok": 1.05,
+        "output_per_mtok": 3.15,
+        "cached_input_per_mtok": 0.075,
         "context_window": 1000000,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_change",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 1.425,
+            "new": 1.05,
+            "direction": "down",
+            "change_pct": -26.3
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 4.275,
+            "new": 3.15,
+            "direction": "down",
+            "change_pct": -26.3
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.07125,
+            "new": 0.075,
+            "direction": "up",
+            "change_pct": 5.3
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.together.ai/pricing",
+        "captured_at": "2026-11-19T11:05:24Z",
+        "snapshot": "data/evidence/together-qwen4-max/2026-11-19.txt",
+        "sha": "6bc57ac999"
       }
     ]
   },
