@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-19
+
+- **Gemini 4 Neon** (Google) launched — $3.0 in / $15.0 out per 1M tokens
+
 ## 2026-11-18
 
 - **Qwen3.7-Max** price change — input $1.50 → $2.50, output $4.50 → $7.50, cached input $0.30 → $0.50 per 1M tokens
