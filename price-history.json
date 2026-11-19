@@ -232501,7 +232501,7 @@
         "event": "new_model",
         "changes": [],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://docs.together.ai/docs/serverless-models",
         "captured_at": "2026-11-18T14:15:43Z",
         "snapshot": "data/evidence/together-qwen4-max/2026-11-18.txt",
