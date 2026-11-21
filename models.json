@@ -7303,20 +7303,23 @@
     "modality": [
       "text"
     ],
-    "released": "2025-07-01",
-    "status": "Current",
-    "open_source": true,
+    "released": "2026-03-15",
+    "released_source": "https://artificialanalysis.ai/models/glm-5-turbo",
+    "released_verified": "2026-11-21",
+    "status": "Deprecated",
+    "open_source": false,
     "parameters": null,
     "description": "Turbo variant of GLM-5. $1.20/$4.00 per 1M; cached input $0.24.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
-      "open-weights",
       "mid-tier",
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.z.ai/guides/overview/pricing"
+    "status_verified": "2026-11-21",
+    "status_source": "https://docs.z.ai/guides/overview/pricing",
+    "superseded_by": "zhipu-glm-5-1",
+    "availability_note": "Z.AI's pricing page no longer lists GLM-5-Turbo (glm-5-turbo) and gives no price for it. It has been missing from that page since about 2026-08-31. Z.AI has not published a retirement date. Its successor on the rate card is GLM-5.1, at $1.40 input / $4.40 output per 1M tokens. OpenRouter still sells GLM-5-Turbo at $1.20 / $4.00 (read 2026-11-21). The price above is the last rate Z.AI printed. Read 2026-11-21."
   },
   {
     "id": "zhipu-glm-5-1",
@@ -7489,21 +7492,24 @@
       "text",
       "image"
     ],
-    "released": "2026-01-01",
-    "status": "Current",
-    "open_source": true,
+    "released": "2026-04-01",
+    "released_source": "https://artificialanalysis.ai/models/glm-5v-turbo",
+    "released_verified": "2026-11-21",
+    "status": "Deprecated",
+    "open_source": false,
     "parameters": null,
     "description": "Vision model (GLM-5V Turbo). $1.20/$4.00 per 1M; cached $0.24.",
     "pricing_url": "https://docs.z.ai/guides/overview/pricing",
     "tags": [
-      "open-weights",
       "mid-tier",
       "multimodal",
       "caching"
     ],
     "last_updated": "2026-06-25",
-    "status_verified": "2026-08-09",
-    "status_source": "https://docs.z.ai/guides/overview/pricing"
+    "status_verified": "2026-11-21",
+    "status_source": "https://docs.z.ai/guides/overview/pricing",
+    "superseded_by": "zhipu-glm-5-1",
+    "availability_note": "Z.AI's pricing page no longer lists GLM-5V-Turbo (glm-5v-turbo) and gives no price for it. It has been missing from that page since about 2026-08-31. Z.AI has not published a retirement date. Its successor on the rate card is GLM-5.1, at $1.40 input / $4.40 output per 1M tokens. OpenRouter still sells GLM-5V-Turbo at $1.20 / $4.00 (read 2026-11-21). The price above is the last rate Z.AI printed. Read 2026-11-21."
   },
   {
     "id": "zhipu-glm-ocr",
