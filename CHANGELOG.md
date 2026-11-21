@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-21
+
+- **Inkling 2 Mini** (Thinking Machines) launched — $0.15 in / $0.5 out per 1M tokens
+
 ## 2026-11-19
 
 - **Qwen4-Max** price change — input $1.425 → $1.05, output $4.275 → $3.15, cached input $0.0712 → $0.075 per 1M tokens

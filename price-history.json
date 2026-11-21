@@ -234438,5 +234438,26 @@
         "changes": []
       }
     ]
+  },
+  "thinking-machines-inkling-2-mini": {
+    "model": "Inkling 2 Mini",
+    "provider": "Thinking Machines",
+    "history": [
+      {
+        "date": "2026-11-21",
+        "input_per_mtok": 0.15,
+        "output_per_mtok": 0.5,
+        "cached_input_per_mtok": 0.015,
+        "context_window": 1048576,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+        "captured_at": "2026-11-21T14:16:59Z",
+        "snapshot": "data/evidence/thinking-machines-inkling-2-mini/2026-11-21.txt",
+        "sha": "c861e64d31"
+      }
+    ]
   }
 }

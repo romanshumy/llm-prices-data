@@ -8644,7 +8644,7 @@
     "input_per_mtok": 0.3,
     "output_per_mtok": 1.0,
     "cached_input_per_mtok": 0.03,
-    "context_window": 262144,
+    "context_window": 1048576,
     "modality": [
       "text",
       "image"
@@ -8652,22 +8652,58 @@
     "released": "2026-11-05",
     "released_source": "https://thinkingmachines.ai/news/inkling-2-small/",
     "status": "Current",
-    "open_source": false,
+    "open_source": true,
     "parameters": "594B total / 17B active",
-    "description": "Thinking Machines' second model generation: a 594B-total / 17B-active Mixture-of-Experts with image input and variable thinking effort, trained with a large unified RL run on long-horizon agentic coding. Unlike earlier Inkling models it does not take audio. It launched on Tinker with closed weights; the lab says it intends to release them under Apache 2.0 after external safety testing. Sold through Tinker serverless inference at $0.30/$1.00 per 1M tokens, with cached input at $0.03.",
-    "price_note": "Tinker Serverless Inference (Beta) list price for the 256K-context nvfp4 sampling endpoint. The 64K base id on Tinker's training table prints the same inference rates.",
+    "description": "Thinking Machines' second model generation: a 594B-total / 17B-active Mixture-of-Experts with image input and variable thinking effort, trained with a large unified RL run on long-horizon agentic coding. Unlike earlier Inkling models it does not take audio. It launched on Tinker with closed weights; the Apache 2.0 weights are now public on Hugging Face (thinkingmachines/Inkling-2-Small). Sampled on Tinker at $0.30/$1.00 per 1M tokens, with cached input at $0.03.",
+    "price_note": "Tinker Models & Pricing table sampling rate (prefill / cached prefill / sample) for thinkingmachines/Inkling-2-Small, called through the Tinker sampling client. The 64K and 256K training variants print the same inference rates and a 1M sampling context; only the training rate differs. This is not a Tinker Serverless Inference (Beta) price: that table lists only Inkling and Inkling-Small.",
     "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
     "tags": [
       "budget",
       "reasoning",
       "multimodal",
+      "open-weights",
       "moe",
       "caching"
     ],
     "featured": false,
-    "last_updated": "2026-11-06",
+    "last_updated": "2026-11-21",
     "source": "verified",
     "status_verified": "2026-11-16",
+    "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
+  },
+  {
+    "id": "thinking-machines-inkling-2-mini",
+    "provider": "Thinking Machines",
+    "model": "Inkling 2 Mini",
+    "category": "budget",
+    "input_per_mtok": 0.15,
+    "output_per_mtok": 0.5,
+    "cached_input_per_mtok": 0.015,
+    "context_window": 1048576,
+    "modality": [
+      "text",
+      "image"
+    ],
+    "released": "2026-11-20",
+    "released_source": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "status": "Current",
+    "open_source": true,
+    "parameters": "26.4B total / 3.4B active",
+    "description": "The smallest and cheapest Inkling: a 26.4B-total / 3.4B-active Mixture-of-Experts looped transformer that runs its middle layers three times per token (5.4B weight activations per token), with image input. Thinking Machines pruned and healed it from a larger model, then trained it with the same SFT mix and on-policy distillation as Inkling 2 Small, and says it is small enough to run on a laptop. Open weights under Apache 2.0 on Hugging Face. Sampled on Tinker at $0.15/$0.50 per 1M tokens, with cached input at $0.015 — half the Inkling 2 Small rate.",
+    "price_note": "Tinker Models & Pricing table sampling rate (prefill / cached prefill / sample) for thinkingmachines/Inkling-2-Mini, called through the Tinker sampling client. The 64K and 256K training variants print the same inference rates and a 1M sampling context; only the training rate differs ($0.75 vs $1.50 per 1M). Third-party hosts on OpenRouter charge a different rate (PrimeIntellect fp4: $0.10/$0.40); that is not this price.",
+    "pricing_url": "https://tinker-docs.thinkingmachines.ai/tinker/models/",
+    "tags": [
+      "budget",
+      "reasoning",
+      "multimodal",
+      "open-weights",
+      "moe",
+      "caching"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-21",
+    "source": "verified",
+    "status_verified": "2026-11-21",
     "status_source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
   },
   {
