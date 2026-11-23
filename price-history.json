@@ -222346,7 +222346,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://platform.apodex.ai/docs/pricing",
         "captured_at": "2026-11-16T08:55:07Z",
         "snapshot": "data/evidence/apodex-apodex-1-1-mini/2026-11-16.txt",
@@ -222408,12 +222408,40 @@
       },
       {
         "date": "2026-11-23",
-        "input_per_mtok": 0.2,
-        "output_per_mtok": 1.2,
-        "cached_input_per_mtok": 0.02,
+        "input_per_mtok": 0.1,
+        "output_per_mtok": 1.0,
+        "cached_input_per_mtok": 0.01,
         "context_window": 262144,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.2,
+            "new": 0.1,
+            "direction": "down",
+            "change_pct": -50.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 1.2,
+            "new": 1.0,
+            "direction": "down",
+            "change_pct": -16.7
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.02,
+            "new": 0.01,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.apodex.ai/docs/pricing",
+        "captured_at": "2026-11-23T10:19:12Z",
+        "snapshot": "data/evidence/apodex-apodex-1-1-mini/2026-11-23.txt",
+        "sha": "0691470b7e"
       }
     ]
   },
@@ -222818,7 +222846,7 @@
           }
         ],
         "source": "verified",
-        "confidence": "verified",
+        "confidence": "unproven",
         "evidence_url": "https://platform.apodex.ai/docs/pricing",
         "captured_at": "2026-11-16T08:55:03Z",
         "snapshot": "data/evidence/apodex-apodex-1-1/2026-11-16.txt",
@@ -222880,12 +222908,40 @@
       },
       {
         "date": "2026-11-23",
-        "input_per_mtok": 0.6,
-        "output_per_mtok": 3.6,
-        "cached_input_per_mtok": 0.06,
+        "input_per_mtok": 0.3,
+        "output_per_mtok": 3.0,
+        "cached_input_per_mtok": 0.03,
         "context_window": 262144,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.6,
+            "new": 0.3,
+            "direction": "down",
+            "change_pct": -50.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 3.6,
+            "new": 3.0,
+            "direction": "down",
+            "change_pct": -16.7
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.06,
+            "new": 0.03,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://platform.apodex.ai/docs/pricing",
+        "captured_at": "2026-11-23T10:19:09Z",
+        "snapshot": "data/evidence/apodex-apodex-1-1/2026-11-23.txt",
+        "sha": "0691470b7e"
       }
     ]
   },

@@ -4511,7 +4511,7 @@ apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-19,snapshot,,0.6,3.6,0.06
 apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-20,snapshot,,0.6,3.6,0.06
 apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-21,snapshot,,0.6,3.6,0.06
 apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-22,snapshot,,0.6,3.6,0.06
-apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-23,snapshot,,0.6,3.6,0.06
+apodex-apodex-1-1,Apodex 1.1,Apodex,2026-11-23,price_drop,verified,0.3,3.0,0.03
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-10-05,new_model,verified,0.1,1.0,0.01
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-10-06,snapshot,,0.1,1.0,0.01
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-10-07,snapshot,,0.1,1.0,0.01
@@ -4559,7 +4559,7 @@ apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-19,snapshot,,0.2,1.2,0.02
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-20,snapshot,,0.2,1.2,0.02
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-21,snapshot,,0.2,1.2,0.02
 apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-22,snapshot,,0.2,1.2,0.02
-apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-23,snapshot,,0.2,1.2,0.02
+apodex-apodex-1-1-mini,Apodex 1.1 Mini,Apodex,2026-11-23,price_drop,verified,0.1,1.0,0.01
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-25,baseline,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-06-29,snapshot,,0.07,0.07,
 baichuan-m2-32b,Baichuan M2-32B,Baichuan,2026-08-25,snapshot,,0.07,0.07,

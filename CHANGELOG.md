@@ -7,6 +7,11 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-23
+
+- **Apodex 1.1 Mini** price change — input $0.20 → $0.10, output $1.20 → $1.00, cached input $0.02 → $0.01 per 1M tokens
+- **Apodex 1.1** price change — input $0.60 → $0.30, output $3.60 → $3.00, cached input $0.06 → $0.03 per 1M tokens
+
 ## 2026-11-21
 
 - **Inkling 2 Mini** (Thinking Machines) launched — $0.15 in / $0.5 out per 1M tokens
