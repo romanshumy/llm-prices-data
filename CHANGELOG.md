@@ -7,6 +7,10 @@ A **data correction** is our own published figure being fixed — the provider
 did not re-price. It is listed here for the record, not as a market move.
 
 
+## 2026-11-24
+
+- **Qwen4-Max** price change — input $1.05 → $1.50, output $3.15 → $4.50 per 1M tokens
+
 ## 2026-11-23
 
 - **Apodex 1.1 Mini** price change — input $0.20 → $0.10, output $1.20 → $1.00, cached input $0.02 → $0.01 per 1M tokens
