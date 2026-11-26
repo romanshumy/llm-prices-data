@@ -22311,6 +22311,7 @@ unbiased-pareto,Pareto,Unbiased,2026-11-23,snapshot,,0.8,3.2,0.03
 unbiased-pareto,Pareto,Unbiased,2026-11-24,snapshot,,0.8,3.2,0.03
 unbiased-pareto,Pareto,Unbiased,2026-11-25,snapshot,,0.8,3.2,0.03
 unbiased-pareto,Pareto,Unbiased,2026-11-26,snapshot,,0.8,3.2,0.03
+upstage-solar-mini-4-5-preview,Solar Mini 4.5 Preview,Upstage,2026-11-26,new_model,verified,0.01,0.04,0.001
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-09-23,new_model,verified,0.05,0.2,0.005
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-09-24,snapshot,,0.05,0.2,0.005
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-09-25,snapshot,,0.05,0.2,0.005
@@ -22373,7 +22374,7 @@ upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-22,snapshot,,0.1,0.4,0.01
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-23,snapshot,,0.1,0.4,0.01
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-24,snapshot,,0.1,0.4,0.01
 upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-25,snapshot,,0.1,0.4,0.01
-upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-26,snapshot,,0.1,0.4,0.01
+upstage-solar-mini4,Solar Mini 4,Upstage,2026-11-26,price_drop,verified,0.05,0.2,0.005
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-07,new_model,verified,0.15,0.6,
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-08,snapshot,,0.15,0.6,0.015
 upstage-solar-pro-3,Solar Pro 3,Upstage,2026-08-28,snapshot,,0.15,0.6,0.015

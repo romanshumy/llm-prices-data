@@ -9091,9 +9091,9 @@
     "provider": "Upstage",
     "model": "Solar Mini 4",
     "category": "budget",
-    "input_per_mtok": 0.1,
-    "output_per_mtok": 0.4,
-    "cached_input_per_mtok": 0.01,
+    "input_per_mtok": 0.05,
+    "output_per_mtok": 0.2,
+    "cached_input_per_mtok": 0.005,
     "context_window": 524288,
     "modality": [
       "text"
@@ -9103,11 +9103,17 @@
     "status": "Current",
     "open_source": false,
     "parameters": null,
-    "description": "Upstage's compact Solar tier, a mixture-of-experts with just 3B active parameters for high-frequency, cost-sensitive agent work, with a 512K context window. Priced at Upstage's standard list rate of $0.10/$0.40 per 1M tokens since Oct 23 2026, when the launch promotion ended.",
+    "description": "Upstage's compact Solar tier, a mixture-of-experts with just 3B active parameters for high-frequency, cost-sensitive agent work, with a 512K context window. Upstage currently charges $0.05/$0.20 per 1M tokens, half its $0.10/$0.40 list price, and gives no end date for the discount.",
     "pricing_url": "https://www.upstage.ai/pricing/api",
-    "price_note": "Standard list pricing, per 1M tokens, exclusive of 10% VAT: input $0.10, cached input $0.01, output $0.40 — the figures Upstage's rate card carries for Solar Mini 4 now that the launch promotion has ended. The launch promotion ran at 50% off ($0.05 / $0.005 / $0.20) from Sep 22 2026, with Oct 22 2026 the last discounted day. Upstage states that standard pricing applies from Oct 23 2026 (UTC).",
-    "promo": false,
-    "promo_price": null,
+    "price_note": "Discounted pricing, per 1M tokens, exclusive of 10% VAT: input $0.05, cached input $0.005, output $0.20. This is 50% off Upstage's list price of $0.10 / $0.01 / $0.40, which its pricing page shows struck through beside the discounted figures. Upstage's schedule for this card has run the 50% rate since Oct 11 2026 with no end date, and its Solar Mini 4 model page says a promotional discount is currently applied. We publish the rate Upstage charges and will move to list price when Upstage ends the offer.",
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.05,
+      "output_per_mtok": 0.2,
+      "cached_input_per_mtok": 0.005,
+      "vendor_prints": "unmarked",
+      "vendor_prints_note": "upstage.ai/pricing/api prints the discounted figures on the Solar Mini 4 card without a currency symbol of their own, beside the struck-through $0.10 / $0.01 / $0.40. The card's schedule (read 2026-11-26) runs $0.03 / $0.003 / $0.12 from 2026-09-22T05:00Z to 2026-10-11T00:00Z, then $0.05 / $0.005 / $0.20 from 2026-10-11T00:00Z with no end date. console.upstage.ai/docs/models/solar-mini-4 prints Price $0.05 input / $0.20 output / $0.005 cached."
+    },
     "promo_until": null,
     "tags": [
       "budget",
@@ -9115,9 +9121,67 @@
       "long-context"
     ],
     "featured": false,
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-11-26",
     "source": "verified",
-    "status_verified": "2026-10-23",
+    "status_verified": "2026-11-26",
+    "status_source": "https://www.upstage.ai/pricing/api"
+  },
+  {
+    "id": "upstage-solar-mini-4-5-preview",
+    "provider": "Upstage",
+    "model": "Solar Mini 4.5 Preview",
+    "category": "budget",
+    "input_per_mtok": 0.01,
+    "output_per_mtok": 0.04,
+    "cached_input_per_mtok": 0.001,
+    "context_window": 524288,
+    "modality": [
+      "text"
+    ],
+    "released": "2026-11-23",
+    "released_source": "https://console.upstage.ai/docs/models/solar-mini-4-5-preview",
+    "status": "Current",
+    "open_source": false,
+    "parameters": null,
+    "description": "Early-access preview of Upstage's next compact Solar model, a 35B mixture-of-experts with 3B active parameters, tool calling and switchable reasoning, with a 512K context window. Launch pricing is $0.01/$0.04 per 1M tokens (90% off) through Dec 15 2026; from Dec 16 2026 Upstage charges $0.05/$0.20, half its $0.10/$0.40 list price.",
+    "pricing_url": "https://www.upstage.ai/pricing/api",
+    "price_note": "Launch pricing, per 1M tokens, exclusive of 10% VAT: input $0.01, cached input $0.001, output $0.04. That is 90% off Upstage's list price of $0.10 / $0.01 / $0.40, which its pricing page shows struck through beside the discounted figures. Upstage's schedule keeps this rate through Dec 15 2026 and charges $0.05 / $0.005 / $0.20 from Dec 16 2026 (UTC), with no end date given for that rate. Upstage says Solar Mini 4.5 is released on Dec 3 2026 and requests to solar-mini-4-5-preview are routed to it from that date; its schedule keeps the same $0.01 / $0.04 rate across that change.",
+    "promo": true,
+    "promo_price": {
+      "input_per_mtok": 0.01,
+      "output_per_mtok": 0.04,
+      "cached_input_per_mtok": 0.001,
+      "vendor_prints": "unmarked",
+      "vendor_prints_note": "upstage.ai/pricing/api prints the discounted figures on the Solar Mini 4.5 Preview card without a currency symbol of their own, beside the struck-through $0.10 / $0.01 / $0.40. The card's schedule (read 2026-11-26) has three phases: $0.01 / $0.001 / $0.04 from 2026-11-23T05:00Z to 2026-12-04T00:00Z, the same $0.01 / $0.001 / $0.04 from 2026-12-04T00:00Z to 2026-12-16T00:00Z, then $0.05 / $0.005 / $0.20 from 2026-12-16T00:00Z with no end date. console.upstage.ai/docs/models/solar-mini-4-5-preview prints Price $0.01 input / $0.04 output / $0.001 cached and '90% off the list price during the preview period'."
+    },
+    "promo_until": "2026-12-15",
+    "scheduled_price_change": {
+      "effective_at": "2026-12-16T00:00:00Z",
+      "announced_on": "2026-11-26",
+      "source_url": "https://www.upstage.ai/pricing/api",
+      "reason": "Solar Mini 4.5 Preview 90% launch rate ends; Upstage's schedule charges $0.05/$0.005/$0.20 from 2026-12-16T00:00:00Z",
+      "decided_in": "MOD-1949",
+      "set": {
+        "input_per_mtok": 0.05,
+        "cached_input_per_mtok": 0.005,
+        "output_per_mtok": 0.2,
+        "promo": false,
+        "promo_until": null,
+        "promo_price": null,
+        "description": "Early-access preview of Upstage's next compact Solar model, a 35B mixture-of-experts with 3B active parameters, tool calling and switchable reasoning, with a 512K context window. Priced at $0.05/$0.20 per 1M tokens since Dec 16 2026, when the 90% launch rate ended.",
+        "price_note": "Per 1M tokens, exclusive of 10% VAT: input $0.05, cached input $0.005, output $0.20, the rate Upstage's pricing schedule sets for this card from Dec 16 2026 (UTC). Upstage's list price is $0.10 / $0.01 / $0.40 and its schedule gives no end date for the $0.05 rate. The launch rate of $0.01 / $0.001 / $0.04 ran from Nov 23 to Dec 15 2026."
+      }
+    },
+    "tags": [
+      "budget",
+      "reasoning",
+      "caching",
+      "long-context"
+    ],
+    "featured": false,
+    "last_updated": "2026-11-26",
+    "source": "verified",
+    "status_verified": "2026-11-26",
     "status_source": "https://www.upstage.ai/pricing/api"
   },
   {

@@ -220938,12 +220938,40 @@
       },
       {
         "date": "2026-11-26",
-        "input_per_mtok": 0.1,
-        "output_per_mtok": 0.4,
-        "cached_input_per_mtok": 0.01,
+        "input_per_mtok": 0.05,
+        "output_per_mtok": 0.2,
+        "cached_input_per_mtok": 0.005,
         "context_window": 524288,
-        "event": "snapshot",
-        "changes": []
+        "event": "price_drop",
+        "changes": [
+          {
+            "field": "input_per_mtok",
+            "old": 0.1,
+            "new": 0.05,
+            "direction": "down",
+            "change_pct": -50.0
+          },
+          {
+            "field": "output_per_mtok",
+            "old": 0.4,
+            "new": 0.2,
+            "direction": "down",
+            "change_pct": -50.0
+          },
+          {
+            "field": "cached_input_per_mtok",
+            "old": 0.01,
+            "new": 0.005,
+            "direction": "down",
+            "change_pct": -50.0
+          }
+        ],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.upstage.ai/pricing/api",
+        "captured_at": "2026-11-26T14:19:51Z",
+        "snapshot": "data/evidence/upstage-solar-mini4/2026-11-26.txt",
+        "sha": "7154f2c677"
       }
     ]
   },
@@ -238926,6 +238954,27 @@
         "context_window": 1048576,
         "event": "snapshot",
         "changes": []
+      }
+    ]
+  },
+  "upstage-solar-mini-4-5-preview": {
+    "model": "Solar Mini 4.5 Preview",
+    "provider": "Upstage",
+    "history": [
+      {
+        "date": "2026-11-26",
+        "input_per_mtok": 0.01,
+        "output_per_mtok": 0.04,
+        "cached_input_per_mtok": 0.001,
+        "context_window": 524288,
+        "event": "new_model",
+        "changes": [],
+        "source": "verified",
+        "confidence": "verified",
+        "evidence_url": "https://www.upstage.ai/pricing/api",
+        "captured_at": "2026-11-26T14:19:12Z",
+        "snapshot": "data/evidence/upstage-solar-mini-4-5-preview/2026-11-26.txt",
+        "sha": "7154f2c677"
       }
     ]
   }
