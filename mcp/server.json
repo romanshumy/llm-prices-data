@@ -3,6 +3,11 @@
   "name": "com.modelpricewatch/mcp",
   "description": "Live LLM API pricing: token prices, model lookups, cheapest-model rankings. Free tier needs no key.",
   "websiteUrl": "https://modelpricewatch.com/api/",
+  "repository": {
+    "url": "https://github.com/romanshumy/llm-prices-data",
+    "source": "github",
+    "subfolder": "mcp"
+  },
   "version": "1.1.0",
   "remotes": [
     {
